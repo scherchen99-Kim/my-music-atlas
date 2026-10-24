@@ -47,7 +47,34 @@ function readHash(){let m=location.hash.match(/^#\/([^/]+)(?:\/(\d+))?/);if(m&&G
 function getRegion(p){return p.region||'Other';}
 function normalize(s){return String(s||'').toLowerCase().normalize('NFKC')}
 function getThumb(g,p,a){const image=DATA[g].images[p];return new Promise(res=>{let src=new Image();src.onload=()=>res(crop(src,a));src.onerror=()=>res('');src.src=image;})}
-function crop(im,a){let c=document.createElement('canvas');c.width=240;c.height=240;let ctx=c.getContext('2d');ctx.drawImage(im,im.naturalWidth*a.x/100,im.naturalHeight*a.y/100,im.naturalWidth*a.w/100,im.naturalHeight*a.h/100,0,0,240,240);return c.toDataURL('image/jpeg',.83)}
+function crop(im,a){
+ let c=document.createElement('canvas');c.width=240;c.height=240;
+ let ctx=c.getContext('2d');
+ try{
+  const sx=im.naturalWidth*a.x/100,sy=im.naturalHeight*a.y/100;
+  const sw=im.naturalWidth*a.w/100,sh=im.naturalHeight*a.h/100;
+  if(![sx,sy,sw,sh].every(Number.isFinite)||sw<=1||sh<=1)throw new Error('invalid crop');
+  ctx.drawImage(im,sx,sy,sw,sh,0,0,240,240);
+  // Empty/failed PDF crops can become perfectly black. Do not show black tiles.
+  const d=ctx.getImageData(0,0,240,240).data;
+  let black=0,transparent=0,count=0;
+  for(let y=12;y<228;y+=12)for(let x=12;x<228;x+=12){
+   const k=(y*240+x)*4;count++;
+   if(d[k+3]<16)transparent++;
+   if(d[k]<9&&d[k+1]<9&&d[k+2]<9)black++;
+  }
+  if(black/count>.975||transparent/count>.975)throw new Error('blank crop');
+ }catch(e){
+  ctx.clearRect(0,0,240,240);
+  ctx.fillStyle='#f2f2f4';ctx.fillRect(0,0,240,240);
+  ctx.fillStyle='#909098';ctx.textAlign='center';
+  ctx.font='14px -apple-system, sans-serif';
+  ctx.fillText('표지 확인 필요',120,119);
+  ctx.font='11px -apple-system, sans-serif';
+  ctx.fillText('PDF 원본에서 확인',120,141);
+ }
+ return c.toDataURL('image/jpeg',.83)
+}
 function showHome(push=true){searchMode=false;$('searchResults').classList.add('hidden');genre=null;selected=null;closeModal();$('home').classList.remove('hidden');$('collection').classList.add('hidden');$('search').value='';$('search').placeholder='Search recordings…';document.title='MY MUSIC ATLAS';closeMenu();if(push)history.pushState(null,'','#/');drawHome();window.scrollTo(0,0)}
 async function drawHome(){const root=$('genreGrid');if(root.childElementCount)return;root.replaceChildren();
  for(const g of GENRES){let pages=DATA[g].pages;
