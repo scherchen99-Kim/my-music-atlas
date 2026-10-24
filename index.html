@@ -103,7 +103,7 @@
 .results-pagination{display:flex;gap:12px;align-items:center;justify-content:center;margin:24px auto 12px;font-size:13px;color:#666}
 .results-pagination button{padding:10px 14px;background:#f8f8fa;border:1px solid #dddde4;border-radius:9px}
 @media(max-width:600px){.results{padding-top:14px}.results-heading{margin-bottom:12px}.results-heading h1{font-size:29px}.results-caption{font-size:11px}.exit-search{padding:8px;font-size:11px}.search-album-genre{font-size:9px}}
-</style></head><body><div class="scrim" id="scrim"></div><aside class="side" id="sidebar"><button id="sideClose" class="side-close" aria-label="메뉴 닫기">×</button><button id="sideBrand" class="side-title">MY MUSIC ATLAS</button><button id="menuHome">⌂ &nbsp; Home</button><div class="side-hint">GENRES</div><div id="genreNav"></div><div class="side-hint">PERSONAL CLASSICAL MUSIC ARCHIVE</div></aside><div class="workspace"><header class="top"><button id="menuBtn" class="menu-button" aria-label="메뉴 열기">☰</button><button class="brand-button" id="homeBrand">MY MUSIC ATLAS</button><input id="search" class="search" type="search" placeholder="Search recordings…" aria-label="음반 검색"></header><section id="home" class="home"><h1>My Collection</h1><p class="home-sub">Personal classical music archive · six collections</p><div class="genre-grid" id="genreGrid"></div></section><section id="searchResults" class="results hidden" aria-label="전체 음반 검색 결과">
+</style></head><body><div class="scrim" id="scrim"></div><aside class="side" id="sidebar"><button id="sideClose" class="side-close" aria-label="메뉴 닫기">×</button><button id="sideBrand" class="side-title">MY MUSIC ATLAS</button><button id="menuHome">⌂ &nbsp; Home</button><div class="side-hint">GENRES</div><div id="genreNav"></div><div class="side-hint">PERSONAL CLASSICAL MUSIC ARCHIVE</div></aside><div class="workspace"><header class="top"><button id="menuBtn" class="menu-button" aria-label="메뉴 열기">☰</button><button class="brand-button" id="homeBrand">MY MUSIC ATLAS</button><input id="search" class="search" type="search" enterkeyhint="search" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="Search recordings…" aria-label="음반 검색"></header><section id="home" class="home"><h1>My Collection</h1><p class="home-sub">Personal classical music archive · six collections</p><div class="genre-grid" id="genreGrid"></div></section><section id="searchResults" class="results hidden" aria-label="전체 음반 검색 결과">
   <div class="results-heading"><div><div class="eyebrow">ALL COLLECTIONS</div><h1>Search Results</h1><p id="searchSummary" class="results-caption" aria-live="polite"></p></div><button id="exitSearch" class="exit-search">검색 종료 ×</button></div>
   <div class="albums" id="searchAlbums"></div>
   <div class="results-pagination"><button id="searchPrev" type="button">← 이전</button><span id="searchPageInfo"></span><button id="searchNext" type="button">다음 →</button></div>
@@ -181,6 +181,25 @@ function closeMenu(){document.body.classList.remove('menu-open')}
 function showMenu(){document.body.classList.add('menu-open')}
 function renderNav(){let host=$('genreNav');for(let g of GENRES){let b=document.createElement('button');b.textContent=g;b.onclick=()=>openGenre(g,1);host.append(b)}}
 let debounce;document.addEventListener('DOMContentLoaded',()=>{renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=closeMenu;$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(page-1);$('next').onclick=$('next2').onclick=()=>setPage(page+1);$('closeModal').onclick=closeModal;$('albumModal').onclick=e=>{if(e.target===$('albumModal'))closeModal()};$('roon').onclick=openRoon;$('apple').onclick=async()=>{if(!selected)return;const q=albumQuery(selected);const ok=await copyQ('Apple Music');if(ok){window.location.href='https://music.apple.com/kr/search?term='+encodeURIComponent(q)}};$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>showGlobalSearch($('search').value),200)};
+// iPhone: Enter/Search submits the current query and dismisses the keyboard.
+$('search').addEventListener('keydown',e=>{
+  if(e.key==='Enter'){
+    e.preventDefault();
+    clearTimeout(debounce);
+    showGlobalSearch($('search').value);
+    $('search').blur();
+  }
+});
+// iOS keyboard accessory Done/✓ normally blurs the input; tapping outside is also supported.
+document.addEventListener('pointerdown',e=>{
+  const field=$('search');
+  if(document.activeElement===field && e.target!==field && !field.contains(e.target))field.blur();
+});
+$('search').addEventListener('search',()=>{
+  clearTimeout(debounce);
+  showGlobalSearch($('search').value);
+});
+
 $('searchPrev').onclick=()=>{if(globalSearchPage>0){globalSearchPage--;renderSearchPage();window.scrollTo(0,0)}};
 $('searchNext').onclick=()=>{if((globalSearchPage+1)*SEARCH_PAGE_SIZE<globalMatches.length){globalSearchPage++;renderSearchPage();window.scrollTo(0,0)}};
 $('exitSearch').onclick=restoreFromSearch;document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});
