@@ -1,0 +1,63 @@
+{
+  "format": "MY MUSIC ATLAS cover selections",
+  "version": 1,
+  "createdAt": "2026-10-25T05:10:03.062Z",
+  "covers": {
+    "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
+      "album": "C.P.E. Bach: Symphonies - From Berlin to Hamburg",
+      "artist": "Akademie für Alte Musik Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:08:07.426Z"
+    },
+    "Symphonies|2|4.1565|41.3002|C.P.E. Bach D Major Miller": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/8a/2e/e2/8a2ee2a0-a134-1084-23b2-1170da89190b/635212039526.jpg/600x600bb.jpg",
+      "album": "CPE Bach: Symphonies",
+      "artist": "Rebecca Miller & Orchestra of the Age of Enlightenment",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:08:30.472Z"
+    },
+    "Symphonies|2|28.9685|14.2763|C.P.E. Bach c minor Hengelbrock": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/f8/64/51/mzi.hfevhioq.jpg/600x600bb.jpg",
+      "album": "C.P.E. Bach: Hamburger Sinfonien/Concerti",
+      "artist": "Freiburger Barockorchester & Thomas Hengelbrock",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:08:55.202Z"
+    },
+    "Symphonies|2|29.2725|41.2839|J.C. Bach D Major Halstead": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/d9/2d/ce/mzi.wlvnmmti.jpg/600x600bb.jpg",
+      "album": "Bach: Symphonies (Complete), Vol. 1 - Symphonies, Op. 3",
+      "artist": "Hanover Band & Anthony Halstead",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:09:07.310Z"
+    },
+    "Symphonies|2|53.6889|14.4413|Pleyel d minor Bamert": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c0/27/d1/c027d16c-a754-cd13-1d11-40f205815987/5059864162831.png/600x600bb.jpg",
+      "album": "Contemporaries of Mozart Collection",
+      "artist": "London Mozart Players & Matthias Bamert",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:09:31.318Z"
+    },
+    "Symphonies|2|53.6668|41.1814|Vanhal C major Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/b3/c4/a2/mzi.bgodtjkh.jpg/600x600bb.jpg",
+      "album": "Vanhal: Symphony in C Major; Cello Concerto in C Major; Symphony in E Minor",
+      "artist": "Howard Griffiths, Camerata Schweiz & István Várdai",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:09:37.818Z"
+    },
+    "Symphonies|2|53.9908|68.224|Eberl d minor Concerto Koln": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/43/21/0b/mzi.bbuqlxhn.jpg/600x600bb.jpg",
+      "album": "Concerto Köln Plays Dall'Abaco, Locatelli, Vanhal, Kozeluch and Eberl",
+      "artist": "Concerto Köln",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:09:46.006Z"
+    },
+    "Symphonies|2|78.6038|41.164|Hofmann F Major Ward": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/a9/70/f9/mzi.sqqfeweu.jpg/600x600bb.jpg",
+      "album": "World of the 18Th Century Symphony (The)",
+      "artist": "Northern Chamber Orchestra, Nicholas Ward, Uwe Grodd, Nicolaus Esterházy Sinfonia, Christian Benda, Capella Istropolitana, Camerata Budapest, Hanspeter Gmür, Failoni Orchestra, Budapest, Swedish Chamber Orchestra & Petter Sundkvist",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T05:09:56.890Z"
+    }
+  }
+}
