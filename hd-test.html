@@ -73,7 +73,7 @@
 .hd-panel{margin:12px 0;padding:14px;background:#f8f8fb;border:1px solid #dedfe6;border-radius:12px}
 .hd-panel h3{font-size:17px;margin:0 0 8px}
 .hd-tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
-.hd-tools input{flex:1;min-width:150px;border:1px solid #bbbfc7;border-radius:8px;padding:9px;font:inherit}
+.hd-tools input{user-select:text;-webkit-user-select:text;-webkit-touch-callout:default;flex:1;min-width:150px;border:1px solid #bbbfc7;border-radius:8px;padding:9px;font:inherit}
 .hd-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:10px 0}
 .hd-compare figure{margin:0;min-width:0}.hd-compare img{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;border-radius:8px;border:1px solid #e2e2e8}
 .hd-compare figcaption{font-size:12px;margin-top:5px;color:#777}
@@ -90,8 +90,8 @@
  <h3>고화질 표지 비교 · 교향곡 1–20페이지</h3>
  <p class="hd-status">원본 표지와 외부 후보를 비교한 뒤 <b>동일 발매 음반</b>일 때만 적용하세요. 다른 연주·다른 표지는 선택하지 않는 것이 안전합니다.</p>
  <div class="hd-compare"><figure><img id="hdOriginal" alt="기존 PDF 표지"><figcaption>기존 PDF 표지</figcaption></figure><figure><img id="hdReplacement" alt="선택한 고화질 표지"><figcaption>선택한 외부 표지 (없으면 원본)</figcaption></figure></div>
- <div class="hd-tools"><input type="text" id="hdQuery" aria-label="외부 표지 검색어"><button id="hdFind" type="button">외부 표지 검색</button><button id="hdClear" type="button">선택 해제</button></div>
- <div class="hd-status" id="hdStatus" aria-live="polite">검색 버튼을 누르면 Apple 카탈로그의 후보를 보여줘요. 인터넷 연결이 필요합니다.</div>
+ <div class="hd-tools"><input type="text" id="hdQuery" aria-label="외부 표지 검색어" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"><button id="hdFind" type="button">외부 표지 검색</button><button id="hdClear" type="button">선택 해제</button></div>
+ <div class="hd-status" id="hdStatus" aria-live="polite">검색어를 자유롭게 수정한 뒤 검색 버튼을 누르세요. 인터넷 연결이 필요합니다.</div>
  <div class="hd-candidates" id="hdCandidates"></div>
  <p class="hd-status">참고: 검색 결과는 정확한 발매반으로 검증되지 않았습니다. Apple 카탈로그의 아트워크는 해당 Apple Music 상품으로 연결되는 후보 미리보기로 사용합니다. 외부 링크가 차단되거나 끊어지면 기존 표지로 돌아갑니다.</p>
  </section><hr><div class="service"><button id="roon">Roon 연결 ↗</button><button id="apple">Apple Music ↗</button></div><button id="copy" class="copy-only">검색어만 복사</button><p class="fine" style="margin:8px 0 6px">기본 검색어는 작곡가 + 연주자입니다. 악기 약자는 제외하며 직접 수정할 수 있어요.</p><input id="queryValue" class="copyfield" aria-label="검색어 수정 및 직접 복사" spellcheck="false" autocomplete="off"><div class="message" id="message" aria-live="polite"></div><div class="fine">Roon과 Apple Music은 검색어를 복사한 후 연결합니다. iPhone에서 Apple Music 앱에 검색어가 전달되지 않으면 붙여넣으세요. Roon은 검색어 복사 후 앱을 실행합니다. 앱 검색창에서 붙여넣어야 하며 자동 재생은 지원하지 않습니다. Apple Music은 검색 결과를 엽니다.</div></div></div><script>
@@ -343,6 +343,7 @@ function hdKey(a,g,p){return [g,p,a.x,a.y,a.q].join('|')}
 function hdGet(a,g,p){return hdChanges[hdKey(a,g,p)]||null}
 function hdStore(){try{localStorage.setItem(HD_STORAGE_KEY,JSON.stringify(hdChanges))}catch(e){$('hdStatus').textContent='저장 공간 사용이 제한되어 있습니다. 선택 결과 저장 버튼으로 JSON을 백업하세요.'}hdCounterUpdate()}
 function hdCounterUpdate(){const n=Object.keys(hdChanges).filter(k=>k.startsWith('Symphonies|')).length;$('hdCounter').textContent=`${n}장 선택 / 299장 대상`;$('hdSwitch').textContent=hdEnabled?'원본 보기':'고화질 보기';$('hdSwitch').classList.toggle('hd-on',hdEnabled)}
+let hdIsEditing=false;
 function hdSelectionChanged(a,src,g,p){
  const panel=$('hdPanel');panel.hidden=!hdEligible(g,p);
  if(panel.hidden)return;
@@ -408,8 +409,23 @@ function hdExport(){
  const a=document.createElement('a');const url=URL.createObjectURL(new Blob([body],{type:'application/json'}));a.href=url;a.download='my-music-atlas-hd-selections.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);
 }
 document.addEventListener('DOMContentLoaded',()=>{
+ const detail=$('albumModal').querySelector('.detail');
+ detail.addEventListener('click',e=>e.stopPropagation());
+ detail.addEventListener('pointerdown',e=>e.stopPropagation());
  $('hdFind').onclick=hdSearch;
- $('hdQuery').addEventListener('keydown',e=>{if(e.key==='Enter')hdSearch()});
+ const editable=$('hdQuery');
+ // Keep the comparison panel open while selecting, dragging, or editing the query.
+ for(const eventName of ['pointerdown','pointerup','mousedown','mouseup','click','dblclick','select','touchstart','touchend']){
+  editable.addEventListener(eventName,e=>e.stopPropagation());
+ }
+ editable.addEventListener('focus',()=>{hdIsEditing=true});
+ editable.addEventListener('blur',()=>{hdIsEditing=false});
+ editable.addEventListener('keydown',e=>{e.stopPropagation();if(e.key==='Enter'){e.preventDefault();hdSearch()} });
+ // Avoid browser autocorrection replacing artist names in the input field.
+ editable.setAttribute('autocomplete','off');
+ editable.setAttribute('autocorrect','off');
+ editable.setAttribute('autocapitalize','off');
+ editable.spellcheck=false;
  $('hdClear').onclick=hdClearSelection;
  $('hdSwitch').onclick=()=>{hdEnabled=!hdEnabled;hdCounterUpdate();if(selected&&hdEligible(selected.g,selected.p)){$('modalArt').src=hdEnabled?(hdGet(selected.a,selected.g,selected.p)?.url||$('hdOriginal').src):$('hdOriginal').src}if(!document.querySelector('#home:not([hidden])'))renderCovers()};
  $('hdExport').onclick=hdExport;
@@ -511,5 +527,5 @@ function openAppleMusic(){
 function closeMenu(){document.body.classList.remove('menu-open')}
 function showMenu(){document.body.classList.add('menu-open')}
 function renderNav(){let host=$('genreNav');for(let g of GENRES){let b=document.createElement('button');b.textContent=g;b.onclick=()=>openGenre(g,1);host.append(b)}}
-let debounce;document.addEventListener('DOMContentLoaded',()=>{renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(page-1);$('next').onclick=$('next2').onclick=()=>setPage(page+1);$('closeModal').onclick=closeModal;$('albumModal').onclick=e=>{if(e.target===$('albumModal'))closeModal()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});
+let debounce;document.addEventListener('DOMContentLoaded',()=>{renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(page-1);$('next').onclick=$('next2').onclick=()=>setPage(page+1);$('closeModal').onclick=closeModal;$('albumModal').onclick=e=>{if(e.target===$('albumModal') && !hdIsEditing)closeModal()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});
 </script><div class="hd-float" id="hdFloat"><strong>고화질 실험</strong><span class="hd-label" id="hdCounter">0장 선택 / 299장 대상</span><button id="hdSwitch" type="button">고화질 보기</button><button id="hdExport" type="button">선택 결과 저장</button></div></body></html>
