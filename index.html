@@ -104,6 +104,9 @@
 .hd-candidates{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 .hd-candidate{padding:5px;gap:5px;min-width:0}
 .hd-candidate img{aspect-ratio:1;width:100%;object-fit:contain}
+button.hd-candidate{appearance:none;cursor:pointer;text-align:left;color:inherit;font:inherit;align-items:stretch}
+button.hd-candidate:hover{border-color:#b8b8c0}
+button.hd-candidate:focus-visible{outline:2px solid #777;outline-offset:2px}
 .hd-candidate button{width:100%;padding:7px 3px;font-size:12px!important;line-height:1.2;white-space:nowrap}
 @media(max-width:600px){
  .detail:has(#hdPanel:not([hidden])){padding:10px;max-height:96dvh}
@@ -124,6 +127,9 @@
 .hd-candidates{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
 .hd-candidate{min-width:0;padding:5px;gap:5px}
 .hd-candidate img{aspect-ratio:1;width:100%;object-fit:contain}
+button.hd-candidate{appearance:none;cursor:pointer;text-align:left;color:inherit;font:inherit;align-items:stretch}
+button.hd-candidate:hover{border-color:#b8b8c0}
+button.hd-candidate:focus-visible{outline:2px solid #777;outline-offset:2px}
 .hd-candidate button{font-size:12px!important;min-height:33px;padding:6px 2px;line-height:1.2}
 @media(max-width:600px){
  .hd-panel{padding:8px}
@@ -422,12 +428,12 @@ async function hdSearch(){
   if(!selected||selected.a!==requested.a||selected.g!==requested.g||selected.p!==requested.p)return;
   const results=(data.results||[]).filter(x=>x.artworkUrl100||x.artworkUrl60);
   if(!results.length){$('hdStatus').textContent='검색 결과가 없어요. 검색어에서 작품명이나 연주자를 조정해 보세요.';return}
-  $('hdStatus').textContent=`${results.length}개 검색 결과 · 정확한 표지인지 확인해 주세요.`;
+  $('hdStatus').textContent=`${results.length}개 검색 결과 · 표지를 누르면 바로 교체됩니다.`;
   for(const item of results){
-   const card=document.createElement('div');card.className='hd-candidate';
+   const card=document.createElement('button');card.type='button';card.className='hd-candidate';
    const im=document.createElement('img');im.loading='lazy';im.alt=(item.collectionName||'')+' 표지';im.src=hdGetAppleImage(item);card.append(im);
    card.title=[item.collectionName,item.artistName].filter(Boolean).join(' · ');
-   const btn=document.createElement('button');btn.type='button';btn.className='hd-choose';btn.textContent='이 표지 사용';btn.setAttribute('aria-label',card.title+' 표지 사용');btn.onclick=()=>hdApply(requested.a,requested.g,requested.p,{url:hdGetAppleImage(item),album:item.collectionName,artist:item.artistName});card.append(btn);
+   card.setAttribute('aria-label',card.title+' 표지 사용');card.onclick=()=>hdApply(requested.a,requested.g,requested.p,{url:hdGetAppleImage(item),album:item.collectionName,artist:item.artistName});
    $('hdCandidates').append(card);
   }
  }catch(error){$('hdStatus').textContent='외부 검색에 연결하지 못했어요. GitHub Pages의 HTTPS 주소로 시험하거나 나중에 다시 시도해 보세요. ('+String(error.message||error)+')'}
