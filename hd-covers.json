@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS cover selections",
   "version": 1,
-  "createdAt": "2026-10-25T05:10:03.062Z",
+  "createdAt": "2026-10-25T10:09:06.551Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -58,6 +58,2568 @@
       "artist": "Northern Chamber Orchestra, Nicholas Ward, Uwe Grodd, Nicolaus Esterházy Sinfonia, Christian Benda, Capella Istropolitana, Camerata Budapest, Hanspeter Gmür, Failoni Orchestra, Budapest, Swedish Chamber Orchestra & Petter Sundkvist",
       "source": "Apple iTunes Search API",
       "approvedAt": "2026-10-25T05:09:56.890Z"
+    },
+    "Symphonies|1|3.7649|14.9085|Stamitz Op.3-2 Hogwood": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c9/6a/75/c96a75b6-b2cb-4761-c251-2fa3790edfc3/00028947591160.rgb.jpg/600x600bb.jpg",
+      "album": "Stamitz: Clarinet Concerto, 3 Symphonies",
+      "artist": "Alan Hacker, Academy of Ancient Music & Christopher Hogwood",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:00:40.198Z"
+    },
+    "Symphonies|1|3.7466|41.3274|Graun D Major Haselbock": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/f2/d8/a3/mzi.dudjiphz.jpg/600x600bb.jpg",
+      "album": "Graun: Violin Concertos - Viola Da Gamba Concerto",
+      "artist": "Martin Haselbock, Vienna Academy Orchestra, Ilja Korol, Daniel Sepec & Vittorio Ghielmi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:01:08.345Z"
+    },
+    "Symphonies|1|3.9951|68.2802|Richter g minor Capricornus Cosort Basel": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/16/6a/c8/166ac80a-34fc-90e5-7292-06bd20ba8ca5/4010072774095.jpg/600x600bb.jpg",
+      "album": "Richter: Sinfonias, Sonatas & Oboe Concerto",
+      "artist": "Capricornus Consort Basel, Péter Barczi & Xenia Löffler",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:10:15.824Z"
+    },
+    "Symphonies|1|27.526|14.6239|Monn G Major Gaigg": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/86/25/80/862580f6-7f5a-db4a-620b-63b93fe14bf0/761203927326.jpg/600x600bb.jpg",
+      "album": "Monn: 6 Symphonies",
+      "artist": "L'Arpa Festante & Michi Gaigg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:10:26.101Z"
+    },
+    "Symphonies|1|27.8999|41.3356|Beck g minor Armstrong": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d27/h16/s06.gakqdrke.jpg/600x600bb.jpg",
+      "album": "Franz Ignaz Beck: Six Symphonies, Op. 1",
+      "artist": "Donald Armstrong & New Zealand Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:10:32.146Z"
+    },
+    "Symphonies|1|27.9171|68.2639|Wagenseil g minor Gaigg": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b6/91/7f/b6917f1c-2e05-d275-e24f-b9ed2547b561/761203945023.jpg/600x600bb.jpg",
+      "album": "Wagenseil: Symphonies, Vol. 1",
+      "artist": "L'Orfeo Barockorchester & Michi Gaigg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:10:44.049Z"
+    },
+    "Symphonies|1|53.8897|42.0268|Rigel 4 Concerto Koln": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/00/0a/ec/mzi.clzkcxfb.jpg/600x600bb.jpg",
+      "album": "Rigel: Symphonies - Nos. 4, 7, 8, 10, 14",
+      "artist": "Concerto Köln",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:11:35.897Z"
+    },
+    "Symphonies|1|53.7962|68.4447|Cannabich 57 Bamert": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/49/f0/2c49f0cf-2100-b69e-53d4-e80c706cdf47/5059864137938.png/600x600bb.jpg",
+      "album": "Cannabich: Symphonies",
+      "artist": "Matthias Bamert & London Mozart Players",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:18:56.681Z"
+    },
+    "Symphonies|1|78.6662|14.5715|Fils g minor Gaigg": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/a6/a1/f7a6a1e7-aed2-cdde-c969-5e933448b022/761203977826.jpg/600x600bb.jpg",
+      "album": "Fils: Symphonies",
+      "artist": "Michi Gaigg & L'Orfeo Barockorchester",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:19:04.732Z"
+    },
+    "Symphonies|1|78.7061|41.9411|Dittersdorf G Major Shephard": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/56/68/8c566874-727a-0cbd-3b38-19d7c3157d6f/5059864856433.png/600x600bb.jpg",
+      "album": "Dittersdorf: Six Symphonies",
+      "artist": "Cantilena & Adrian Shepherd",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:19:40.464Z"
+    },
+    "Symphonies|1|78.4792|68.4758|Vogler d minor Bamert": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/b6/16/38b616cf-c45b-febb-1f1e-ceca5a3dd37b/5059864150432.png/600x600bb.jpg",
+      "album": "Vogler: Symphonies, Overtures and Ballets",
+      "artist": "London Mozart Players & Matthias Bamert",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:19:48.887Z"
+    },
+    "Symphonies|2|78.6038|14.5041|Holzbauer d minor Gaigg": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/82/11/ec/8211ecd4-b2a3-5af0-f9b4-07f58c0eb30c/761203958528.jpg/600x600bb.jpg",
+      "album": "Holzbauer: 5 Symphonies",
+      "artist": "Michi Gaigg & L'Orfeo Barockorchester",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:30:23.579Z"
+    },
+    "Symphonies|3|3.8232|14.3526|Wilms 4 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/a3/8d/0d/a38d0d71-1e62-97c8-adaa-bceeb0bcf199/0761203720927.jpg/600x600bb.jpg",
+      "album": "Wilms: Symphonies Nos. 1 & 4 - Overture in D",
+      "artist": "Howard Griffiths",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:30:53.145Z"
+    },
+    "Symphonies|3|3.7743|41.3818|Wilms 6 Concerto Koln": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/5a/50/e45a5082-99ec-ec81-ff11-b8bd98cd9784/00028947450825.rgb.jpg/600x600bb.jpg",
+      "album": "Wilms: Symphonies Nos. 6 & 7",
+      "artist": "Concerto Köln & Werner Ehrhardt",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:30:59.469Z"
+    },
+    "Symphonies|3|3.9533|68.2387|Cartellieri 1 Schmalfuss": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/d4/30/7b/d4307b89-813d-d319-34af-29a0776b1d7d/761203766727.jpg/600x600bb.jpg",
+      "album": "Cartellieri: Symphonies Nos. 1-4",
+      "artist": "Gernot Schmalfuss",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:31:05.745Z"
+    },
+    "Symphonies|3|27.9499|14.6128|Schneider 16 Frank": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/01/13/26/0113268d-90bf-ff37-8c63-9c53182704af/761203518029.jpg/600x600bb.jpg",
+      "album": "Schneider: Symphony No. 16 & Overtures",
+      "artist": "Anhaltische Philharmonie Dessau & Markus L. Frank",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:31:11.229Z"
+    },
+    "Symphonies|3|27.9345|41.4707|Schneider 17 Kuijken": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/12/e3/5b/12e35ba5-c9b3-fa38-c589-96abdb7fec3f/761203993123.jpg/600x600bb.jpg",
+      "album": "Schneider & Mendelssohn: Orchestral Works",
+      "artist": "Cappella Coloniensis & Sigiswald Kuijken",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:31:16.312Z"
+    },
+    "Symphonies|3|27.9725|68.2438|Schacht C Major Schmalfuss": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/7a/cf/d97acf68-fb3d-e3a7-df0d-38211f6ce118/761203791224.jpg/600x600bb.jpg",
+      "album": "Schacht: Symphonies, Vol. 2",
+      "artist": "Evergreen Symphony Orchestra & Gernot Schmalfuss",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:31:25.636Z"
+    },
+    "Symphonies|3|53.5088|14.0684|Wranitzky D Major Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/4f/b7/6c/4fb76cdd-7b83-d59e-53c7-dea0e23556ff/886445331752.jpg/600x600bb.jpg",
+      "album": "A. Wranitzky: Violin Concerto - P. Wranitzky: Cello Concerto & Symphony in D Major",
+      "artist": "Howard Griffiths, Veriko Tchumburidze, Chiara Enderle & Munich Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:31:32.753Z"
+    },
+    "Symphonies|3|53.7862|41.6009|Wranitzky d minor Akademie fur Alte Musik": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4c/37/27/4c372790-8427-9cbe-6bca-60d48eeb4e46/886449880614.jpg/600x600bb.jpg",
+      "album": "Paul Wranitzky: Symphonies",
+      "artist": "Akademie für Alte Musik Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:31:37.894Z"
+    },
+    "Symphonies|3|53.7203|68.1787|Eichnerd d minor Ehrhardt": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/90/0e/44/mzi.jybinnxi.jpg/600x600bb.jpg",
+      "album": "Vivaldi, A.: Concertos, Rv 131, 155, 156, 158, 162, 433, 439, 441, 545, 552, 565, 566, 579, 585",
+      "artist": "Concerto Köln, Eberhard Zummach, Werner Ehrhardt & Cordula Breuer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:32:20.224Z"
+    },
+    "Symphonies|3|78.6031|41.504|Winter 1 Moesus": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b5/a7/27/b5a7274d-b253-b168-1a8f-a8503b5a3074/761203753024.jpg/600x600bb.jpg",
+      "album": "Winter: Symphonies & Entr'actes",
+      "artist": "Munich Radio Orchestra & Johannes Moesus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:32:57.370Z"
+    },
+    "Symphonies|3|78.5551|68.2088|Witt 6 Moesus": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/c2/eb/9a/c2eb9a3f-da08-20cf-1abb-52dae61c65ee/0760623129921_1448.jpg/600x600bb.jpg",
+      "album": "Witt: Orchestral Works",
+      "artist": "Susanne Barner, Hamburg Symphony & Johannes Moesus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:33:04.209Z"
+    },
+    "Symphonies|4|4.203|19.166|질풍노도시기 Pinnock": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c1/cd/3f/c1cd3fb2-53d5-80fc-4cd0-f2e7933b59f6/00028946373125.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: The \"Sturm & Drang\" Symphonies",
+      "artist": "The English Concert & Trevor Pinnock",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:33:17.078Z"
+    },
+    "Symphonies|4|18.4554|19.166|파리교향곡 전집 Kuijken": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/42/0b/a5/420ba511-6d8c-40ee-1e1d-35ad8aea9400/724356165953.jpg/600x600bb.jpg",
+      "album": "Haydn - The Paris Symphonies",
+      "artist": "Orchestra of the Age of Enlightenment & Sigiswald Kuijken",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:34:47.461Z"
+    },
+    "Symphonies|4|32.7195|19.166|런던교향곡 전집 Szell": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/05/5c/4d/dj.ixeeiiiq.jpg/600x600bb.jpg",
+      "album": "Haydn: Early London Symphonies",
+      "artist": "George Szell & The Cleveland Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:35:10.901Z"
+    },
+    "Symphonies|4|4.3393|44.9161|6 Vashegyi": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d0/17/5f/d0175fd1-59c1-43ae-3b37-292d751a697a/4015023265011.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 6-8",
+      "artist": "Orfeo Orchestra & György Vashegyi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:35:32.857Z"
+    },
+    "Symphonies|4|18.51|44.9754|22 Goodman": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1e/1a/70/1e1a70c5-84d7-a845-9432-d7c8a911a816/24UMGIM02059.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 22 \"Philosopher\", 23, 24 & 25",
+      "artist": "Hanover Band & Roy Goodman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:36:16.249Z"
+    },
+    "Symphonies|4|32.7256|44.9754|26 Christophers": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c2/98/84/c2988401-fabd-aeb2-cb46-fee0cb7ff2f3/828021615825.jpg/600x600bb.jpg",
+      "album": "Haydn Symphonies Nos. 26 & 86",
+      "artist": "Handel and Haydn Society & Harry Christophers",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:36:27.057Z"
+    },
+    "Symphonies|4|4.3332|70.1193|31 Ticciati": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/ab/57/5aab5770-7481-ed54-0cab-5105b9095e2b/8720205579300.png/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 31, 70 & 101",
+      "artist": "Robin Ticciati & Scottish Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:36:32.179Z"
+    },
+    "Symphonies|4|18.5263|70.1193|38 Hogwood": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/69/d5/91/69d59116-2eb3-3da7-54c8-2b713ce54c45/00028943301220.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies, Vol. 5",
+      "artist": "Academy of Ancient Music & Christopher Hogwood",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:36:38.645Z"
+    },
+    "Symphonies|4|32.7195|70.1193|39 Antonini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/31/4a/83/314a831a-0711-a1fc-16cf-34c36f96f169/3760014196706.png/600x600bb.jpg",
+      "album": "Haydn 2032, Vol. 1: La Passione",
+      "artist": "Giovanni Antonini & Il Giardino Armonico",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:36:44.333Z"
+    },
+    "Symphonies|4|53.6943|19.176|43 Weil": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6b/23/a5/6b23a5d8-73f8-a401-f3da-efe8e3ac6348/886446881317.jpg/600x600bb.jpg",
+      "album": "Tafelmusik Plays Haydn Symphonies",
+      "artist": "Bruno Weil & Tafelmusik",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:36:51.592Z"
+    },
+    "Symphonies|4|68.0882|19.1705|44 Antonini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/23/5a/9c235af9-b1db-3969-14c5-1aaccf735da6/3701624511015.png/600x600bb.jpg",
+      "album": "Haydn2032, Vol. 19: Trauer",
+      "artist": "Giovanni Antonini & Il Giardino Armonico",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:37:01.837Z"
+    },
+    "Symphonies|4|82.1952|19.2803|45 Liebreich": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/09/15/87/09158744-2709-2a5b-9736-91237d10ffec/00028947661887.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn, Yun: Farewell - Symphonies Nos. 39 and 45 - Chamber Symphony I",
+      "artist": "Munich Chamber Orchestra & Alexander Liebreich",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:37:14.328Z"
+    },
+    "Symphonies|4|53.6416|44.6959|45 Koopman": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/9e/84/659e843b-dfe2-e076-4d0a-2a017936ea70/5021732416728.jpg/600x600bb.jpg",
+      "album": "Mozart, Haydn & CPE Bach",
+      "artist": "Ton Koopman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:38:31.096Z"
+    },
+    "Symphonies|4|68.1126|44.8319|48 Goodman": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2d/89/b2/2d89b27c-b409-08b1-3da6-6f13ccfdc57f/24UMGIM02065.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 48 \"Maria Theresia\", 49 \"La Passione\" & 50",
+      "artist": "Hanover Band & Roy Goodman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:49:06.678Z"
+    },
+    "Symphonies|4|82.0074|44.7875|49 Chauvin": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/15/59/2b/15592bfc-37c6-145e-2cf0-375635e9946e/3760014197840.png/600x600bb.jpg",
+      "album": "Pergolesi: Stabat Mater",
+      "artist": "Jodie Devos, Adèle Charvet & Julien Chauvin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:49:18.226Z"
+    },
+    "Symphonies|4|53.7177|70.0252|53 Antonini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/28/95/0b2895f4-8cf4-51a3-8ad8-cace99b1f13a/3760014196942.png/600x600bb.jpg",
+      "album": "Haydn 2032, Vol. 14: L'impériale",
+      "artist": "Giovanni Antonini & Kammerorchester Basel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:49:29.932Z"
+    },
+    "Symphonies|4|67.8674|70.226|59 Antonini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/27/fb/67/27fb6798-62a7-b1b5-a0bd-83cd4c5d028c/8720765793833.png/600x600bb.jpg",
+      "album": "Haydn 2032, Vol. 13: Horn Signal",
+      "artist": "Il Giardino Armonico & Giovanni Antonini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:49:37.711Z"
+    },
+    "Symphonies|4|82.1199|70.1193|60 Harnoncourt": {
+      "url": "https://i.discogs.com/QySK3KcDCVXunwZsDBEjBcfX8wMBepv3GtQnk484Vxw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzM2/NjkwLTE1NjAwNTQz/NzktNTE5Ni5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:10:14.016Z"
+    },
+    "Symphonies|5|4.3099|19.3026|Joseph Haydn 63 Antonini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/13/78/49137847-d490-a6b3-1e83-3d5df6dd8fac/3760014196829.png/600x600bb.jpg",
+      "album": "Haydn 2032, Vol. 8: La Roxolana",
+      "artist": "Giovanni Antonini & Il Giardino Armonico",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:50:44.945Z"
+    },
+    "Symphonies|5|18.8208|19.1904|Joseph Haydn 73 Harnoncourt": {
+      "url": "https://i.discogs.com/QySK3KcDCVXunwZsDBEjBcfX8wMBepv3GtQnk484Vxw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzM2/NjkwLTE1NjAwNTQz/NzktNTE5Ni5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:10:24.382Z"
+    },
+    "Symphonies|5|33.0981|19.2107|Joseph Haydn 78 Dantone": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c3/a5/f4/c3a5f469-c416-5ef8-ae0f-8bd934f2f365/00028947888420.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies 78, 79, 80 & 81",
+      "artist": "Accademia Bizantina & Ottavio Dantone",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:51:01.459Z"
+    },
+    "Symphonies|5|4.3099|44.6878|Joseph Haydn 80 Antonini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/df/e6/20/dfe62088-2982-2790-c22f-7faba9169daa/3760014196768.png/600x600bb.jpg",
+      "album": "Haydn 2032, Vol. 5: L'homme de génie",
+      "artist": "Kammerorchester Basel & Giovanni Antonini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:51:09.284Z"
+    },
+    "Symphonies|5|18.6599|44.6878|Joseph Haydn 82 Chauvin": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/ca/26/94ca2647-f58d-641f-c41d-e8eddc90b52a/3149028130775.png/600x600bb.jpg",
+      "album": "Haydn: Symphony No. 82 \"L'Ours\"",
+      "artist": "Julien Chauvin & Le Concert de la Loge",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:51:27.571Z"
+    },
+    "Symphonies|5|33.0445|44.9343|Joseph Haydn 83 Chauvin": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/03/4a/82/034a8224-e059-64b7-386c-36e8947b5d80/3149028011517.png/600x600bb.jpg",
+      "album": "Haydn: Symphony No. 83 \"La Poule\"",
+      "artist": "Le Concert de la Loge, Julien Chauvin & Justin Taylor",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:51:34.787Z"
+    },
+    "Symphonies|5|4.359|69.9308|Joseph Haydn 85 Christie": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bd/54/69/bd54699f-cdf2-5bff-94c6-6865dcef7ce5/3149020947623_cover.jpg/600x600bb.jpg",
+      "album": "Haydn: Paris Symphonies - Violin Concerto No. 1 (Live)",
+      "artist": "Les Arts Florissants, Théotime Langlois de Swarte & William Christie",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:51:39.275Z"
+    },
+    "Symphonies|5|23.588|70.1205|Joseph Haydn 88 Bernstein 88 Bruggen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3a/40/97/3a4097c4-b9f8-4581-2915-d5eb3c1625f7/00028947491927.rgb.jpg/600x600bb.jpg",
+      "album": "Bernstein: Haydn",
+      "artist": "Vienna Philharmonic, Leonard Bernstein & Bavarian Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:52:26.269Z"
+    },
+    "Symphonies|5|32.9225|70.2691|Joseph Haydn 88 Bruggen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/24/43/22244387-8afc-35fd-9a84-46085a54f94f/00028948303441.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 86 & 88",
+      "artist": "Orchestra of the 18th Century & Frans Brüggen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:52:34.521Z"
+    },
+    "Symphonies|5|53.3662|19.1254|Joseph Haydn 90 Rattle": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/ac/0a/c8ac0ac4-5d71-694f-8ae6-cb30735c997e/190296684593.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 60 \"Il distratto\", 70 & 90",
+      "artist": "Sir Simon Rattle & City of Birmingham Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:52:38.985Z"
+    },
+    "Symphonies|5|67.6649|19.243|Joseph Haydn 92 Jacobs": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/78/ad/b9/mzi.bthpafpy.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies No. 91 & 92 \"Oxford\" - Scena Di Berenice",
+      "artist": "Bernarda Fink, Freiburger Barockorchester & René Jacobs",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:52:47.353Z"
+    },
+    "Symphonies|5|81.8773|19.243|Joseph Haydn 93 Bruggen": {
+      "url": "https://i.discogs.com/GGrLvPUxr4dzKFsHkHE--mGDTGyWs5fNRqGoPkon1KQ/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTU3/NTA5LTE0OTI2MzI0/ODYtNzAwMi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:03:10.151Z"
+    },
+    "Symphonies|5|53.3346|44.694|Joseph Haydn 93 Szell": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/cf/70/27/mzi.qbktfuay.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 93, 95 & 97",
+      "artist": "George Szell & The Cleveland Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:53:58.405Z"
+    },
+    "Symphonies|5|67.6912|44.694|Joseph Haydn 94 Norrington SWR": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/17/7e/19/mzi.thfigrxq.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphony No. 104, \"London\" - Schumann: Symphony No. 2",
+      "artist": "Stuttgart Radio Symphony Orchestra & Sir Roger Norrington",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:54:09.388Z"
+    },
+    "Symphonies|5|81.4204|44.6921|Joseph Haydn 94 Jochum": {
+      "url": "https://i.discogs.com/GaYa4TYeI2imKrBAuy4wWk3t13tra_FWE4b1g2aocro/rs:fit/g:sm/q:90/h:592/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1OTU4/OTktMTMzNjczNjk5/OC01MDQ0LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T08:58:30.993Z"
+    },
+    "Symphonies|5|53.3374|70.3358|Joseph Haydn 95 Harnoncourt RCO": {
+      "url": "https://i.discogs.com/tuZMInr61T_t131HPPjaFbc6a_k3n_s1lGInYNkYnC4/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDEx/MDY1LTE1NTM2OTIy/NDQtNjE5NS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T08:59:16.463Z"
+    },
+    "Symphonies|5|67.5447|70.274|Joseph Haydn Harnoncourt RCO 96 Hogwood 96 Kuijken": {
+      "url": "https://i.discogs.com/F0ywXOVRgl0kjyM6SDqtGqmcwfKUqPYbxCslWqVX7yk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDcz/MjExLTE0OTExNDAx/MjktNzQwNC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:02:35.016Z"
+    },
+    "Symphonies|5|81.6845|70.136|Joseph Haydn 96 Kuijken": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/1c/fd/25/dj.mqlydmtp.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies 96, 97, 98",
+      "artist": "Sigiswald Kuijken & La Petite Bande",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:56:33.208Z"
+    },
+    "Symphonies|6|4.2003|19.2415|Joseph Haydn 97 Weil": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/7b/d1/f9/mzi.odyzumbc.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 94, 97 & 98",
+      "artist": "Bruno Weil & Cappella Coloniensis",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:57:20.331Z"
+    },
+    "Symphonies|6|18.5406|19.2702|Joseph Haydn 98 Koopman": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/dd/7b/57/mzi.rzpkhfza.jpg/600x600bb.jpg",
+      "album": "London Symphonies: Symphonies nos. 97 & 98",
+      "artist": "Amsterdam Baroque Orchestra & Ton Koopman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:57:28.051Z"
+    },
+    "Symphonies|6|32.7688|19.1968|Joseph Haydn 99 Gottfreid": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4f/90/f1/4f90f150-2cf0-9290-d551-653254df86f9/3149028136203_cover.jpg/600x600bb.jpg",
+      "album": "Schubert: Symphony No. 5 - Haydn: Symphony No. 99",
+      "artist": "Concentus Musicus Wien & Stefan Gottfried",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:57:33.194Z"
+    },
+    "Symphonies|6|4.0325|44.2798|Joseph Haydn 100 Harnoncourt RCO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/1c/16/47/mzi.hbhtqpzj.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies 68 & 93-104",
+      "artist": "Nikolaus Harnoncourt & Royal Concertgebouw Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:57:40.993Z"
+    },
+    "Symphonies|6|18.3911|44.4724|Joseph Haydn 100 Walter NYP": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/71/9a/2f719aa4-cec9-5bd8-3998-2b1eb5b1a2c0/196872106138.jpg/600x600bb.jpg",
+      "album": "Bruno Walter conducts Mozart & Haydn - The Remastered Stereo Recordings",
+      "artist": "Bruno Walter & Columbia Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:58:43.405Z"
+    },
+    "Symphonies|6|32.4784|44.5107|Joseph Haydn 101 Bruggen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e8/47/9f/e8479f2e-5ff2-105d-6d23-1e1768d88262/00028948303502.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 101 & 103",
+      "artist": "Orchestra of the 18th Century & Frans Brüggen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:58:51.918Z"
+    },
+    "Symphonies|6|4.3045|70.4217|Joseph Haydn 101 Mackerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/66/11/d8/6611d840-7ec2-59ec-7c21-c790f20aa5d1/21CRGIM29905.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 101 \"The Clock\" & 104 \"London\"",
+      "artist": "Sir Charles Mackerras & Orchestra of St. Luke's",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:58:56.897Z"
+    },
+    "Symphonies|6|18.5821|70.4217|Joseph Haydn 102 Minkowski": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/56/b0/4e/mzi.nxaxlkvt.jpg/600x600bb.jpg",
+      "album": "Haydn: 12 London Symphonies",
+      "artist": "Marc Minkowski & Les Musiciens du Louvre",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:59:01.237Z"
+    },
+    "Symphonies|6|32.7803|70.4217|Joseph Haydn 103 Norrington SWR": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/33/63/e5/3363e5c9-5d4f-1516-bbab-72d7af0fe39a/747313952786.jpg/600x600bb.jpg",
+      "album": "Haydn: The London Symphonies (Live)",
+      "artist": "Stuttgart Radio Symphony Orchestra & Sir Roger Norrington",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:59:14.369Z"
+    },
+    "Symphonies|6|53.3529|18.9917|Joseph Haydn 103 Markevitch": {
+      "url": "https://i.discogs.com/Hx2yiMTpc9GMRDXJkdDEiLdIMl2ryb49gbOTrelefwM/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMzU0/NzkxLTE2MzI1MzIy/MzQtNzI3OC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:11:05.843Z"
+    },
+    "Symphonies|6|67.596|19.0782|Joseph Haydn 104 Bruggen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/44/89/91/44899125-58b5-3c9a-8336-38c425fa15fe/00028948303496.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 100 & 104",
+      "artist": "Frans Brüggen & Orchestra of the 18th Century",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T06:59:35.917Z"
+    },
+    "Symphonies|6|53.1112|44.4683|Joseph Haydn 104 Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/4a/1b/714a1bbd-6f26-c4e1-1452-f5c81fba73bf/00028946308325.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies No. 94 \"Surprise\", No. 96 \"The Miracle\", No. 104",
+      "artist": "Berlin Philharmonic Orchestra & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:00:19.000Z"
+    },
+    "Symphonies|7|4.3466|14.3413|Joseph Haydn M.Haydn 21 D Major Goritzki": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/0f/f3/f8/mzi.yksvbuvc.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies, Nos. 21, 30, 31, and 32",
+      "artist": "Johannes Goritzki & German Chamber Academy",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:00:31.835Z"
+    },
+    "Symphonies|7|3.8319|67.9356|Joseph Haydn M.Haydn 29 d minor Beermann": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/99/96/43/mzi.tweyvvxh.jpg/600x600bb.jpg",
+      "album": "Haydn: Symphonies Nos. 14, 17, 19, 24, 29, 33, 40 & 41",
+      "artist": "Frank Beermann, German Chamber Academy Neuss, Klaus Liebetrau & Johannes Goritzki",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:00:54.231Z"
+    },
+    "Symphonies|7|28.2822|14.1551|Joseph Haydn M.Haydn 39 C Major Goritzki": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e0/d7/ae/e0d7ae3d-dd74-90e9-9ad4-74a8fa10c0e1/761203937929.jpg/600x600bb.jpg",
+      "album": "M. Haydn: Symphonies Nos. 34-39",
+      "artist": "Oren Shevlin, German Chamber Academy Neuss & Johannes Goritzki",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:00:58.322Z"
+    },
+    "Symphonies|7|28.3877|67.9719|Joseph Haydn L.Mozart Toy Symphony Koopman": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/4c/fa/ab4cfa33-261a-912d-c9e1-3bc49d876aaa/608917226621.jpg/600x600bb.jpg",
+      "album": "Leopold Mozart & Wolfgang Amadeus Mozart",
+      "artist": "Amsterdam Baroque Orchestra & Ton Koopman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:01:23.194Z"
+    },
+    "Symphonies|7|53.9856|14.6531|Joseph Haydn Ries 1 Nisonen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/3e/e1/b33ee192-023c-1120-8ff7-be28e696f3da/0761195144329.png/600x600bb.jpg",
+      "album": "Ries: Symphonies Nos. 1 & 2",
+      "artist": "Tapiola Sinfonietta & Janne Nisonen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:01:28.831Z"
+    },
+    "Symphonies|7|54.0019|41.4379|Joseph Haydn Ries 2 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/29/f3/a0/mzi.mzlkwgpr.jpg/600x600bb.jpg",
+      "album": "Ries: Symphonies Nos. 1 - 2",
+      "artist": "Howard Griffiths & Zurich Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:01:33.633Z"
+    },
+    "Symphonies|7|53.823|68.2341|Joseph Haydn Ries 5 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/1b/38/60/mzi.xodiimfi.jpg/600x600bb.jpg",
+      "album": "Ries: Symphonies Nos. 3 and 5",
+      "artist": "Howard Griffiths & Zurich Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:01:37.615Z"
+    },
+    "Symphonies|7|78.5772|14.6791|Joseph Haydn Eybler 2 Hofstetter": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/80/63/2a/mzi.uadmmjhr.jpg/600x600bb.jpg",
+      "album": "Eybler: Symphonies Nos. 1 and 2 - Overture",
+      "artist": "Michael Hofstetter & Geneva Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:01:41.781Z"
+    },
+    "Symphonies|7|78.5538|41.3274|Joseph Haydn Hiller e HWV2.4.3 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/03/c3/5103c3ae-4b8a-5d5e-aa0b-9375b7aaf410/761203568222.png/600x600bb.jpg",
+      "album": "Hiller: Symphonies in E Minor & C Major",
+      "artist": "Brandenburgisches Staatsorchester Frankfurt & Howard Griffiths",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:02:16.802Z"
+    },
+    "Symphonies|7|78.6213|67.9606|Joseph Haydn Hiller e op.67 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/65/eb/4465eb48-acb4-254a-38b9-e269295d7b2c/761203562527.png/600x600bb.jpg",
+      "album": "Hiller: Symphony in E Minor, Op. 67 \"Es muß doch Frühling werden\" & Symphony in F Minor, HWV 2.4.4",
+      "artist": "Brandenburgisches Staatsorchester Frankfurt & Howard Griffiths",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:02:33.716Z"
+    },
+    "Symphonies|8|3.9823|19.0265|전집 Meckerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c8/60/c7/c860c7bf-3670-2325-6131-052cb0be90c3/20CRGIM25228.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: The Symphonies",
+      "artist": "Sir Charles Mackerras & Prague Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:03:54.606Z"
+    },
+    "Symphonies|8|32.7558|18.9214|1 Ian Page": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/65/9d/83659d9b-439f-2e6a-63a1-b6d823e52bf8/635212053423.jpg/600x600bb.jpg",
+      "album": "Mozart in London",
+      "artist": "Ian Page & The Mozartists",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:06:41.963Z"
+    },
+    "Symphonies|8|18.1336|44.598|25 Koopman": {
+      "url": "https://i.discogs.com/gaiQf39R8vCHDPzy3LsqptvGqUyrU6mqHN0b2CEK3GA/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODYz/MjY0LTE1MjM2OTk4/NTgtNzc3OS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:14:13.754Z"
+    },
+    "Symphonies|8|32.1755|44.5979|28 Norrington SWR": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/49/43/1b/mzi.tvxgedsy.jpg/600x600bb.jpg",
+      "album": "Mozart, W.A.: Symphonies (Essential), Vol. 6 - Nos. 28, 31, 32, 35",
+      "artist": "Sir Roger Norrington & South West German Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:08:11.262Z"
+    },
+    "Symphonies|8|3.9823|70.4298|29 Rhorer": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a8/7a/ec/a87aec4b-6aa4-ccb2-a4d5-58a999619208/5099923486850_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos 25, 26 & 29",
+      "artist": "Jérémie Rhorer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:08:19.312Z"
+    },
+    "Symphonies|8|17.2799|70.4297|Wolfgang Amadeus Mozart Symphony 31 Suitner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/a3/92/cb/mzi.eqqrndfn.jpg/600x600bb.jpg",
+      "album": "Mozart: Famous Symphonies, Serenades & Concertos",
+      "artist": "Staatskapelle Dresden & Otmar Suitner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:08:44.812Z"
+    },
+    "Symphonies|8|32.3686|70.4298|32 Meckerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/91/cc/eb91ccbd-9373-c42d-cce1-91e2bc52f0be/691062035026.png/600x600bb.jpg",
+      "album": "Mozart: Symphonies 29, 31 \"Paris\", 32, 35 \"Haffner\" & 36 \"Linz\"",
+      "artist": "Scottish Chamber Orchestra & Sir Charles Mackerras",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:09:03.489Z"
+    },
+    "Symphonies|8|67.7328|19.1162|34 Suitner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/a3/92/cb/mzi.eqqrndfn.jpg/600x600bb.jpg",
+      "album": "Mozart: Famous Symphonies, Serenades & Concertos",
+      "artist": "Staatskapelle Dresden & Otmar Suitner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:09:20.207Z"
+    },
+    "Symphonies|8|53.5636|44.758|35 Bruggen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f9/11/63/f9116360-fd07-5c18-a360-41819ba34dde/00028948300662.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos. 31 & 35",
+      "artist": "Orchestra of the 18th Century & Frans Brüggen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:10:17.982Z"
+    },
+    "Symphonies|8|67.7567|44.5942|36 Bruggen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/06/12/280612c2-4beb-36d6-3ae2-a297e5589131/00028948300655.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos. 28 & 36",
+      "artist": "Orchestra of the 18th Century & Frans Brüggen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:10:39.784Z"
+    },
+    "Symphonies|8|81.9499|44.5942|36 Meckerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/eb/91/cc/eb91ccbd-9373-c42d-cce1-91e2bc52f0be/691062035026.png/600x600bb.jpg",
+      "album": "Mozart: Symphonies 29, 31 \"Paris\", 32, 35 \"Haffner\" & 36 \"Linz\"",
+      "artist": "Scottish Chamber Orchestra & Sir Charles Mackerras",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:10:51.733Z"
+    },
+    "Symphonies|8|53.6153|70.3498|38 Jacobs": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/4a/0c/4c/mzi.etaergka.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos. 38 \"Prague\" & No. 41 \"Jupiter\"",
+      "artist": "Freiburger Barockorchester & René Jacobs",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:10:58.989Z"
+    },
+    "Symphonies|8|67.954|70.3498|38 Bruggen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a1/2a/12/a12a1295-8dd7-8e8d-dce5-46c596f59e05/00028948300679.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphony No. 38; Le Nozze di Figaro Overture",
+      "artist": "Orchestra of the 18th Century & Frans Brüggen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:11:16.293Z"
+    },
+    "Symphonies|8|82.1471|70.3498|38 Meckerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b9/72/cf/b972cff9-3a8e-17bd-bd02-ff6b7cd7da40/691062030823.png/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos. 38-41",
+      "artist": "Scottish Chamber Orchestra & Sir Charles Mackerras",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:11:27.540Z"
+    },
+    "Symphonies|9|4.2781|19.2476|Wolfgang Amadeus Mozart 39 Herzog": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/dd/ec/91ddec41-5529-db5b-bb84-bd3e479e6db2/cover.jpg/600x600bb.jpg",
+      "album": "Mozart: Les trois dernières symphonies",
+      "artist": "Mathieu Herzog & Appassionato",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:46:50.140Z"
+    },
+    "Symphonies|9|4.4361|70.1144|Wolfgang Amadeus Mozart 41 Herzog": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/91/dd/ec/91ddec41-5529-db5b-bb84-bd3e479e6db2/cover.jpg/600x600bb.jpg",
+      "album": "Mozart: Les trois dernières symphonies",
+      "artist": "Mathieu Herzog & Appassionato",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:46:58.676Z"
+    },
+    "Symphonies|9|18.6167|19.2476|Wolfgang Amadeus Mozart 39 Meckerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b9/72/cf/b972cff9-3a8e-17bd-bd02-ff6b7cd7da40/691062030823.png/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos. 38-41",
+      "artist": "Scottish Chamber Orchestra & Sir Charles Mackerras",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:47:12.684Z"
+    },
+    "Symphonies|9|32.7443|19.2476|Wolfgang Amadeus Mozart 39 Harnoncourt RCO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/b6/10/12/b61012f3-e8f9-2418-c6fa-8e11e81317a8/886444410373.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos. 39, 40 & 41",
+      "artist": "Nikolaus Harnoncourt & Concentus Musicus Wien",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:47:40.025Z"
+    },
+    "Symphonies|9|32.3684|44.3143|Wolfgang Amadeus Mozart Levine": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/78/fd/72/78fd72eb-63c8-0fbc-cffe-2672d9df5d66/00028942973121.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphonies No. 40 & 41 \"Jupiter\"",
+      "artist": "Vienna Philharmonic & James Levine",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:49:45.576Z"
+    },
+    "Symphonies|9|32.9679|70.1144|Wolfgang Amadeus Mozart Minasi": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ac/b6/0c/acb60c52-4ca7-402e-a662-821b5de3adfa/3149020940495.png/600x600bb.jpg",
+      "album": "Mozart: Symphonies Nos. 39, 40 & 41 \"Jupiter\"",
+      "artist": "Ensemble Resonanz & Riccardo Minasi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:51:39.787Z"
+    },
+    "Symphonies|9|53.6381|19.2089|Ludwig van Beethoven 전집 Krivine": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ea/1e/08/ea1e081f-92ac-9ae5-6a85-e8e3d755b68b/cover.jpg/600x600bb.jpg",
+      "album": "Beethoven: Complete Symphonies (Live)",
+      "artist": "La Chambre Philharmonique & Emmanuel Krivine",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:52:02.195Z"
+    },
+    "Symphonies|9|66.7542|19.2089|Ludwig van Beethoven 전집 Harnoncourt": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m08/d30/h15/mzi.ldtdqnzd.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphonies Nos. 1-9",
+      "artist": "Chamber Orchestra of Europe & Nikolaus Harnoncourt",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:52:11.146Z"
+    },
+    "Symphonies|9|82.0597|19.1632|Ludwig van Beethoven 전집 Norrington SWR": {
+      "url": "https://m.media-amazon.com/images/I/81sAMKQEEzL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:16:54.577Z"
+    },
+    "Symphonies|9|53.6464|44.5364|Ludwig van Beethoven 1 Bruggen r.Philips": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/40/4d/d2404dc6-7ed3-19cc-4a57-e87492bc12a5/00028948300693.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Symphony No. 40 - Beethoven: Symphony No. 1",
+      "artist": "Frans Brüggen & Orchestra of the 18th Century",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:53:05.353Z"
+    },
+    "Symphonies|9|67.8396|44.5364|Ludwig van Beethoven 2 Krivine": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ea/1e/08/ea1e081f-92ac-9ae5-6a85-e8e3d755b68b/cover.jpg/600x600bb.jpg",
+      "album": "Beethoven: Complete Symphonies (Live)",
+      "artist": "La Chambre Philharmonique & Emmanuel Krivine",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:53:12.873Z"
+    },
+    "Symphonies|9|81.9275|44.5364|Ludwig van Beethoven 2 Gardiner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/a5/e8/0aa5e8fa-aab2-9c52-af6b-2b62d5a61436/00028943990028.rgb.jpg/600x600bb.jpg",
+      "album": "Beethoven: 9 Symphonies",
+      "artist": "John Eliot Gardiner & Orchestre Révolutionnaire et Romantique",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:53:27.610Z"
+    },
+    "Symphonies|9|53.5009|70.0271|Ludwig van Beethoven 3 Honeck": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/06/dd/4d/06dd4dcd-b0ec-3217-8309-93be57e32b86/030911272821.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphony No. 3, Op. 55 \"Eroica\" - Strauss: Horn Concerto No. 1, Op. 11 (Live)",
+      "artist": "Pittsburgh Symphony Orchestra, Manfred Honeck & William Caballero",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:53:39.801Z"
+    },
+    "Symphonies|9|67.788|70.0271|Ludwig van Beethoven 3 Antonini 3": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/75/2f/1e752f62-715e-3593-e26b-42181231765f/888880417695.jpg/600x600bb.jpg",
+      "album": "Beethoven: Sinfonie 3 & 4",
+      "artist": "Kammerorchester Basel & Giovanni Antonini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:53:55.944Z"
+    },
+    "Symphonies|10|4.3465|19.1507|Ludwig van Beethoven 4 C.Kleiber r.Orfeo": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/6d/4f/f8/6d4ff8cf-d89d-f533-7221-e2836d32af98/4011790100128.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphony No. 4 in B-Flat Major, Op. 60",
+      "artist": "Bavarian State Orchestra & Carlos Kleiber",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:54:41.667Z"
+    },
+    "Symphonies|10|18.7179|19.1507|Ludwig van Beethoven 4 Harnoncourt r.Sony": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/82/9a/2f/829a2f21-9bea-d6f3-b500-c8f490cc2210/886445386394.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphonies Nos. 4 & 5",
+      "artist": "Nikolaus Harnoncourt & Concentus Musicus Wien",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:54:52.355Z"
+    },
+    "Symphonies|10|18.5866|44.4411|Ludwig van Beethoven 5 C. Kleiber": {
+      "url": "https://cdn11.bigcommerce.com/s-rdecee92oy/products/15360/images/6616445/23dglp93188-large__55565.1778487062.500.750.jpg?c=2",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:18:08.157Z"
+    },
+    "Symphonies|10|32.7797|44.4411|Ludwig van Beethoven 5 Markevitch 59": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/c1/ac/cac1ace4-cb63-3fe2-3445-b21447512ebd/21UMGIM66568.rgb.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphony No. 1; Symphony No. 5; Symphony No. 8",
+      "artist": "Orchestre Lamoureux & Igor Markevitch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:55:45.810Z"
+    },
+    "Symphonies|10|4.3873|70.0022|Ludwig van Beethoven 6 Honeck": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/be/2a/9fbe2add-96ab-7b16-19a4-89dde60c31b5/030911274726.png/600x600bb.jpg",
+      "album": "Beethoven & Stucky: Orchestral Works",
+      "artist": "Pittsburgh Symphony Orchestra & Manfred Honeck",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:55:51.146Z"
+    },
+    "Symphonies|10|68.6932|19.0161|Ludwig van Beethoven Vriend": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/3c/9b/57/mzi.zgqjparg.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphonies Nos. 7 & 8",
+      "artist": "Jan Willem de Vriend & The Netherlands Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:56:51.285Z"
+    },
+    "Symphonies|10|53.6761|44.4491|Ludwig van Beethoven 8 Krivine": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ea/1e/08/ea1e081f-92ac-9ae5-6a85-e8e3d755b68b/cover.jpg/600x600bb.jpg",
+      "album": "Beethoven: Complete Symphonies (Live)",
+      "artist": "La Chambre Philharmonique & Emmanuel Krivine",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:56:58.756Z"
+    },
+    "Symphonies|10|67.7208|44.5042|Ludwig van Beethoven Symphony 8 Scherchen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/80/4d/43/804d435a-a95b-8b73-8059-87271a338c92/3504129067311.jpg/600x600bb.jpg",
+      "album": "Beethoven: The 9 Symphonies by Scherchen Vol. 1",
+      "artist": "Hermann Scherchen, Orchestra of the Vienna State Opera & Royal Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:57:21.605Z"
+    },
+    "Symphonies|10|67.7427|69.1342|Ludwig van Beethoven 9 Norrington SWR": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/4b/66/4b/mzi.nxqdilgb.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphony No. 9 in D Minor, Op. 125",
+      "artist": "Stuttgart Radio Symphony Orchestra & Sir Roger Norrington",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:58:02.011Z"
+    },
+    "Symphonies|11|4.3329|18.8978|Franz Schubert 3 C.Kleiber": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/61/89/7c6189b6-97a7-44e8-2352-bd5dd7b9efcf/21UM1IM08789.rgb.jpg/600x600bb.jpg",
+      "album": "Schubert: Symphonies Nos. 3 & 8 \"Unfinished\"",
+      "artist": "Vienna Philharmonic & Carlos Kleiber",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:58:34.739Z"
+    },
+    "Symphonies|11|18.5261|18.8978|Franz Schubert 4 Giulini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ea/dd/90/eadd9084-76e5-36a0-c8e6-521a28007e78/00028948367368.rgb.jpg/600x600bb.jpg",
+      "album": "Schubert: Symphony No. 4 in C Minor, D. 417 – Symphony No. 8 in B Minor, D. 759",
+      "artist": "Chicago Symphony Orchestra & Carlo Maria Giulini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:58:42.970Z"
+    },
+    "Symphonies|11|32.7192|18.8978|Franz Schubert 5 Norrington SWR": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b3/f0/4a/b3f04a9e-efed-d270-2eb9-df44474f17f4/4010276025146.jpg/600x600bb.jpg",
+      "album": "Schubert: Symphonies 4 & 5",
+      "artist": "Stuttgart Radio Symphony Orchestra & Sir Roger Norrington",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:58:56.677Z"
+    },
+    "Symphonies|11|4.1992|44.4385|Franz Schubert 8 Wand MPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/bf/05/0d/mzi.hnowzgkh.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 8 - Schubert: Symphony No. 8",
+      "artist": "Günter Wand & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:59:08.677Z"
+    },
+    "Symphonies|11|18.5261|44.4384|Franz Schubert 8 C.Kleiber": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/61/89/7c6189b6-97a7-44e8-2352-bd5dd7b9efcf/21UM1IM08789.rgb.jpg/600x600bb.jpg",
+      "album": "Schubert: Symphonies Nos. 3 & 8 \"Unfinished\"",
+      "artist": "Vienna Philharmonic & Carlos Kleiber",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:59:15.041Z"
+    },
+    "Symphonies|11|32.8467|44.6553|Franz Schubert 8 Venzago": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/b4/bc/3c/b4bc3c40-ee86-0c46-c858-c7052314d9f5/886446412306.jpg/600x600bb.jpg",
+      "album": "Schubert: The Finished \"Unfinished\" (Symphony No. 8, D. 759, Reconstructed by Mario Venzago)",
+      "artist": "Kammerorchester Basel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:59:20.533Z"
+    },
+    "Symphonies|11|4.4156|70.409|Franz Schubert 9 Wand BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features2/v4/55/25/da/5525da79-3184-3eb4-b604-ed549dc062f3/dj.dmokgbdp.jpg/600x600bb.jpg",
+      "album": "Schubert: Symphonies 8 and 9",
+      "artist": "Günter Wand & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:59:37.645Z"
+    },
+    "Symphonies|11|18.6104|70.409|Franz Schubert 9 Abbado OM": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/70/79/97/70799710-855b-6ed6-27c5-76d61b8f5d91/00028947946557.rgb.jpg/600x600bb.jpg",
+      "album": "Schubert: The \"Great\" C Major Symphony, D. 944",
+      "artist": "Orchestra Mozart & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:59:47.165Z"
+    },
+    "Symphonies|11|32.7114|70.2728|Franz Schubert 9 Krips": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/ea/76/64ea76e5-78c1-9800-38a9-10a7831e5e7d/24UMGIM40839.rgb.jpg/600x600bb.jpg",
+      "album": "Schubert: Symphony No. 9 - Weber: Oberon Overture (2024 Remaster)",
+      "artist": "London Symphony Orchestra & Josef Krips",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T07:59:55.085Z"
+    },
+    "Symphonies|11|53.5752|15.1716|Franz Schubert Weber 1 Sawallisch": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/67/3f/be/673fbe1d-7981-20d5-dbf5-a1f339aa7b93/4011790091129.jpg/600x600bb.jpg",
+      "album": "Weber: Symphonies Nos. 1 & 2",
+      "artist": "Bavarian Radio Symphony Orchestra & Wolfgang Sawallisch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:00:04.501Z"
+    },
+    "Symphonies|11|53.4699|42.0987|Franz Schubert Spohr 6 Rickenbacher": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/31/92/77/3192778f-e11c-f80b-bd17-afc0c3a2587d/4011790094120.jpg/600x600bb.jpg",
+      "album": "Spohr: Symphony No. 6 in G Major, Op. 116 & Symphony No. 9 in B Minor, Op. 143 \"Die Jahreszeiten\"",
+      "artist": "Karl Anton Rickenbacher & Bavarian Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:00:09.964Z"
+    },
+    "Symphonies|11|53.6185|68.9566|Franz Schubert Spohr 9 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/59/c8/69/59c86970-155e-5086-b078-73119f3f385a/761203774623.jpg/600x600bb.jpg",
+      "album": "Spohr: Symphonies Nos. 7 & 9",
+      "artist": "NDR Radiophilharmonie & Howard Griffiths",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:00:16.159Z"
+    },
+    "Symphonies|11|78.2985|15.0303|Franz Schubert Brandl Op.12 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/64/a1/6a/64a16a5b-83b8-2a19-8554-84648bf4cd6f/761203515721.jpg/600x600bb.jpg",
+      "album": "Branld: Symphonies, Opp. 25 & 12",
+      "artist": "Rheinland-Pfalz State Philharmonic Orchestra & Kevin Griffiths",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:00:22.396Z"
+    },
+    "Symphonies|11|78.2985|41.8861|Franz Schubert Lachner 6 Schmalfuss": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/3b/30/4d3b3093-5209-fe14-0daa-6352562606c4/761203521029.jpg/600x600bb.jpg",
+      "album": "Lachner: Symphony No. 6, Op. 56 & Bassoon Concertino, Op. 23",
+      "artist": "Chia-Hua Hsu, Evergreen Symphony Orchestra & Gernot Schmalfuss",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:00:27.487Z"
+    },
+    "Symphonies|11|78.2791|68.9566|Franz Schubert Dietrich d Konig": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/47/84/0c47844d-641b-1984-097a-659dcfd33bec/747313450770.png/600x600bb.jpg",
+      "album": "Dietrich: Symphony in D Minor, Op. 20, Violin Concerto in D Minor, Op. 30 & Overture in C Major, Op. 35",
+      "artist": "Klaidi Sahatçi, Solistes Europeens, Luxembourg & Christoph König",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:00:33.180Z"
+    },
+    "Symphonies|12|4.2895|19.3019|Robert Schumann 전집 Ticciati": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/90/a2/c2/90a2c2a3-7c7b-1500-0483-5abe896ba808/8720205579744.png/600x600bb.jpg",
+      "album": "Schumann: The Symphonies",
+      "artist": "Scottish Chamber Orchestra & Robin Ticciati",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:00:43.763Z"
+    },
+    "Symphonies|12|18.3791|19.1639|Robert Schumann 전집 Sawallisch SKD 1": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/d3/df/00/d3df00fd-7d11-c53a-aa6c-2e1573fdaa46/724356777156.jpg/600x600bb.jpg",
+      "album": "Schumann: Symphonies Nos. 1-4 - Overture, Scherzo & Finale",
+      "artist": "Wolfgang Sawallisch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:01:00.243Z"
+    },
+    "Symphonies|12|31.882|19.3019|Robert Schumann Gardiner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/7c/39/fe7c3958-22d1-5b77-6732-01e2fa870cb7/00028945759128.rgb.jpg/600x600bb.jpg",
+      "album": "Schumann: Complete Symphonies",
+      "artist": "John Eliot Gardiner & Orchestre Révolutionnaire et Romantique",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:01:13.300Z"
+    },
+    "Symphonies|12|4.144|44.8104|Robert Schumann Symphony 1 Bernstein": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e3/19/6f/e3196f42-7ea9-4621-02dc-005651164d71/00028945304922.rgb.jpg/600x600bb.jpg",
+      "album": "Schumann: The Symphonies",
+      "artist": "Vienna Philharmonic & Leonard Bernstein",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:01:23.262Z"
+    },
+    "Symphonies|12|18.7709|44.8279|Robert Schumann 2 Celibidache 2": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/80/5c/3e/805c3ec3-9b42-8722-1fa1-f9d2b914bfe0/5054197271380.jpg/600x600bb.jpg",
+      "album": "Schumann: Symphonies Nos. 2 & 3 \"Rhenish\" - Brahms: Haydn Variations",
+      "artist": "Sergiu Celibidache & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:01:32.458Z"
+    },
+    "Symphonies|12|4.3622|70.0934|Robert Schumann 3 Giulini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b3/87/79/b3877905-7ab3-837a-d806-e2470a9ab2b6/00028940006227.rgb.jpg/600x600bb.jpg",
+      "album": "Schumann: Symphony No. 3 in E-Flat Major \"Rhenish\", \"Manfred\" Overture, Op. 115",
+      "artist": "Los Angeles Philharmonic & Carlo Maria Giulini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:02:22.482Z"
+    },
+    "Symphonies|12|53.2569|19.3019|Felix Mendelssohn 전집 Abbado": {
+      "url": "https://i.discogs.com/V0BFNtkLwfmffN9bBfzXqWXv_JZoUxkzz1BQYnS9lQM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyOTg4/NjQtMTU4ODQ3MDQ2/Ni0zNjc3LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:23:15.920Z"
+    },
+    "Symphonies|12|67.6925|19.3057|Felix Mendelssohn 1 Casado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/8e/cd/d58ecd5a-54fc-1dce-6697-bd45ea88a73d/3149020938003.png/600x600bb.jpg",
+      "album": "Mendelssohn: Piano Concerto No. 2 & Symphony No. 1",
+      "artist": "Freiburger Barockorchester, Pablo Heras-Casado & Kristian Bezuidenhout",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:03:07.384Z"
+    },
+    "Symphonies|12|81.8923|19.3019|Felix Mendelssohn 2 Manacorda": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0f/37/b4/0f37b409-b9b9-1910-e0db-acf02bf92672/886448983064.jpg/600x600bb.jpg",
+      "album": "Mendelssohn: Symphonies Nos. 1-5",
+      "artist": "Kammerakademie Potsdam & Antonello Manacorda",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:03:18.904Z"
+    },
+    "Symphonies|12|53.3605|44.8279|Felix Mendelssohn 3 Maag": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/53/a2/0053a28a-cb8f-6941-3cb3-3ca8bc6be55a/21UMGIM00019.rgb.jpg/600x600bb.jpg",
+      "album": "Mendelssohn: Symphony No. 3; The Hebrides (The Peter Maag Edition - Volume 9)",
+      "artist": "London Symphony Orchestra & Peter Maag",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:03:29.460Z"
+    },
+    "Symphonies|12|67.6991|44.8134|Felix Mendelssohn 3 Abbado": {
+      "url": "https://i.ebayimg.com/images/g/27IAAOSwkQBmRvu0/s-l1200.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:23:44.684Z"
+    },
+    "Symphonies|12|81.8923|44.8279|Felix Mendelssohn 3 Konwitschny": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/d0/6b/fa/mzi.rwcadvqj.jpg/600x600bb.jpg",
+      "album": "Mendelssohn: Symphony No. 3, Op. 56 & Concerto for Violin and Orchestra, Op. 64",
+      "artist": "Franz Konwitschny, Gewandhausorchester Leipzig & Igor Oistrach",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:03:58.748Z"
+    },
+    "Symphonies|12|53.3398|70.0934|Felix Mendelssohn 4 Levine BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e9/d8/2c/e9d82c30-61e9-daf3-f2a3-caf681d71141/00028944560527.rgb.jpg/600x600bb.jpg",
+      "album": "Mendelssohn-Bartholdy: Symphony No. 4 in A, Op. 90 \"Italian\"",
+      "artist": "Berlin Philharmonic Orchestra & James Levine",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:04:16.559Z"
+    },
+    "Symphonies|12|81.9152|70.0789|Felix Mendelssohn 5 Maazel": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4e/b8/d5/4eb8d5e9-40b2-6558-576b-564af96bc295/00028944972023.rgb.jpg/600x600bb.jpg",
+      "album": "Franck: Symphony in D Minor / Mendelssohn: Symphony No. 5",
+      "artist": "Berlin Philharmonic Orchestra, Rundfunk-Sinfonieorchester Berlin & Lorin Maazel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:04:39.666Z"
+    },
+    "Symphonies|13|4.1641|42.2535|Gernsheim 1 Baumer": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/86/94/f086949e-3351-6673-6f2c-743da6f2a19f/761203775828.jpg/600x600bb.jpg",
+      "album": "Gernsheim: Symphonies 1 & 3",
+      "artist": "Hermann Baumer & Mainz Philharmonic State Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:04:47.750Z"
+    },
+    "Symphonies|13|4.1524|68.9598|Burgmuller 2 Bernius": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/42/6d/29/426d294e-232c-d5c7-d723-65fe174f529d/21UMGIM78062.rgb.jpg/600x600bb.jpg",
+      "album": "Burgmüller: Symphonies Nos. 1 & 2",
+      "artist": "Hofkapelle Stuttgart & Frieder Bernius",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:04:53.295Z"
+    },
+    "Symphonies|13|27.7819|15.1605|Mayer 1 McFall": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a8/a1/db/a8a1dbb2-34bd-cf3c-9608-33d649adc187/761203529322.jpg/600x600bb.jpg",
+      "album": "Mayer: Symphonies Nos. 1 & 2",
+      "artist": "NDR Radiophilharmonie & Leo Mcfall",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:04:57.438Z"
+    },
+    "Symphonies|13|27.9318|68.9566|Fuchs 2 Steffens": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/b2/5b/20/b25b20d8-3a11-aa1a-399d-2e4c87745a10/761203783021.jpg/600x600bb.jpg",
+      "album": "Fuchs: Symphonies Nos. 1 & 2",
+      "artist": "WDR Symphony Orchestra Cologne & Karl-Heinz Steffens",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:05:17.133Z"
+    },
+    "Symphonies|13|53.9303|15.2574|Hiller e minor Lau": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a0/92/4a/a0924a79-53f3-66a4-8c93-51612d5b4050/681585175927.jpg/600x600bb.jpg",
+      "album": "Hiller: Symphony in E Minor; Schumann: Symphony No. 2 - Piano Transcriptions",
+      "artist": "Ronald Lau",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:05:24.681Z"
+    },
+    "Symphonies|13|53.7343|42.29|Loewe 1 Gaudenz": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f8/a6/0a/f8a60ac6-60ec-0fd1-43b2-297a5c90d24b/761203531929.jpg/600x600bb.jpg",
+      "album": "Carl Loewe: Symphony in D Minor, Symphony in E Minor & Overture to \"Themisto\"",
+      "artist": "Jenaer Philharmonie & Simon Gaudenz",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:05:30.421Z"
+    },
+    "Symphonies|13|78.7624|15.2293|Herzogenberg 1 Beermann": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/c1/29/02/c12902fb-4f84-efde-86b4-450141a89f1f/761203712229.jpg/600x600bb.jpg",
+      "album": "Herzogenberg: Symphonies Nos. 1 & 2",
+      "artist": "NDR Radiophilharmonie & Frank Beermann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:05:57.380Z"
+    },
+    "Symphonies|13|78.797|42.2535|Reineke 1 Moesus": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/57/e6/e2/57e6e2f7-cdd8-dc92-02f2-063fe4701e71/761203710522.jpg/600x600bb.jpg",
+      "album": "Reinecke: Symphony No. 1 in A Major, Violin Concerto in G Minor & Romances",
+      "artist": "Ingolf Turban, Berner Symphonieorchester & Johannes Moesus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:06:30.655Z"
+    },
+    "Symphonies|13|78.9536|69.1479|Bargiel C Major Potosi": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cb/89/60/cb89601f-39af-2b2e-879e-cfdf72101880/7393338110521.png/600x600bb.jpg",
+      "album": "Bargiel: Orchestral Works",
+      "artist": "San Luis Potosí Symphony Orchestra & José Miramontes Zapata",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:06:42.553Z"
+    },
+    "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/99/51/2c995174-5cd7-cfff-7d3e-d4ab8311d7ec/8720205579447.png/600x600bb.jpg",
+      "album": "Brahms: The Symphonies",
+      "artist": "Robin Ticciati & Scottish Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:07:34.781Z"
+    },
+    "Symphonies|14|32.6758|19.3019|Johannes Brahms 전집 Abbado BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e4/e3/1b/e4e31bb4-b7c5-c7aa-d9df-200f764f4220/06UMGIM42327.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms 4 Symphonien",
+      "artist": "Claudio Abbado & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:07:50.807Z"
+    },
+    "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/30/dd/7730ddc4-7212-6f52-ed87-a11774777798/21UMGIM84836.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphony No. 1 (Igor Markevitch – The Deutsche Grammophon Legacy: Volume 7)",
+      "artist": "Symphony of the Air & Igor Markevitch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:08:20.456Z"
+    },
+    "Symphonies|14|32.683|70.0934|Johannes Brahms 2 Monteux SFSO,47": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/9e/08/84/9e0884e9-6755-0edb-03b3-1e7a21b65cc7/886444876346.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphony No. 2 in D Major, Op. 73",
+      "artist": "Pierre Monteux & San Francisco Symphony",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:08:57.796Z"
+    },
+    "Symphonies|14|53.7212|19.3451|Johannes Brahms 2 Abbado BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c3/eb/68/c3eb6803-571c-d12f-f47c-7b6959cc4125/06UMGIM54899.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphony No. 2 - Alto Rhapsody",
+      "artist": "Berlin Philharmonic Orchestra, Claudio Abbado & Marjana Lipovšek",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:09:08.946Z"
+    },
+    "Symphonies|14|67.8797|19.3019|Johannes Brahms 3 Giulini WPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/53/f1/08/53f10832-da7e-b7f2-ef44-85322e53adc3/00028943168120.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphony No. 3, Haydn-Variations",
+      "artist": "Vienna Philharmonic & Carlo Maria Giulini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:09:17.993Z"
+    },
+    "Symphonies|14|82.1797|19.3019|Johannes Brahms 3 Harding": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/9a/ac/86/9aac86c0-f5c9-dd85-de46-9f2263997890/0724354548055_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphonies Nos. 3 & 4",
+      "artist": "Daniel Harding & The Deutsche Kammerphilharmonie Bremen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:09:32.469Z"
+    },
+    "Symphonies|14|67.5903|44.8279|Johannes Brahms 4 Giulini WPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/f3/45/4ef34518-454b-8e02-fd6d-aa60694ca12c/00028942940321.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphony No. 4 - Tragic Overture",
+      "artist": "Vienna Philharmonic & Carlo Maria Giulini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:09:45.809Z"
+    },
+    "Symphonies|14|82.0342|44.8279|Johannes Brahms 4 C.Klieber": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/58/2e/47/582e47f1-6fa4-5c6d-49e5-3125cdbb2d4b/22UMGIM30617.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphony No. 4",
+      "artist": "Vienna Philharmonic & Carlos Kleiber",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:10:17.070Z"
+    },
+    "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ93s_OOt02YP_9ANcjA-SarVppWeejQXbYYksh6-Apz1O2vHCmB_pG--E&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:29:39.079Z"
+    },
+    "Symphonies|14|67.5396|70.3538|Johannes Brahms 4 Sanderling BSO 4": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/5f/53/e7/mzi.jtjbuodo.jpg/600x600bb.jpg",
+      "album": "Brahms: 4 Symphonies",
+      "artist": "Berlin Symphony Orchestra, Kurt Sanderling & Annette Markert",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:10:44.807Z"
+    },
+    "Symphonies|14|81.9642|70.3557|Johannes Brahms 4 Abbado BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1a/bd/17/1abd175a-bd03-675f-6799-5e9fc793f8cb/00028943534925.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: Symphony No. 4, Haydn Variations & Nänie",
+      "artist": "Berlin Philharmonic Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:10:56.151Z"
+    },
+    "Symphonies|15|4.1222|14.5379|Goetz F Major Albert": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/4d/7c/9f/4d7c9fb8-e143-78db-e235-21d5a457a631/761203907625.jpg/600x600bb.jpg",
+      "album": "Goetz: Symphony in F Major, Op. 9 - Violin Concerto in G Major, Op. 22",
+      "artist": "Gottfried Schneider",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:11:35.603Z"
+    },
+    "Symphonies|15|4.3226|40.949|Draescke 3 Weigle": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/38/7b/f1/387bf192-3d5c-b317-0018-e0df5423a914/761203958122.jpg/600x600bb.jpg",
+      "album": "Draeseke: Symphony No. 3, \"Tragica\" - Funeral March",
+      "artist": "Hannover Radio Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:11.181Z"
+    },
+    "Symphonies|15|4.4425|68.3674|Kaun 3 Stockhammer": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/66/c9/8766c9f3-4aaf-74a7-94af-6636bb0cd356/761203557226.png/600x600bb.jpg",
+      "album": "Kaun: Symphony No. 3 in E Minor, Op. 96 & Im Urwald, Op. 43",
+      "artist": "Rundfunk-Sinfonieorchester Berlin & Jonathan Stockhammer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:18.681Z"
+    },
+    "Symphonies|15|27.8606|14.7745|Raff 3 Stadlmair": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/9f/fc/e8/mzi.uqateatz.jpg/600x600bb.jpg",
+      "album": "Raff: Symphony No. 3, Italienische Suite",
+      "artist": "Bamberg Symphony Orchestra & Hans Stadlmair",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:23.369Z"
+    },
+    "Symphonies|15|27.8541|41.6225|Raff 5 N.Jarvi": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f0/f2/6e/f0f26e8d-fdc7-88f6-54cc-0aa9108b0003/5059864513534.png/600x600bb.jpg",
+      "album": "Raff: Symphony No. 5, Overtures & Abends",
+      "artist": "Neeme Järvi & Orchestre de la Suisse Romande",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:31.745Z"
+    },
+    "Symphonies|15|27.4863|68.3674|Raff 10 Travis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/1b/ec/f2/1becf2bc-cdc6-186d-c989-477c366a4637/7619911078621.jpg/600x600bb.jpg",
+      "album": "Raff: Symphony No. 10 in F Minor, Op. 213 \"Zur Herbstzeit\" & Ein feste Burg ist unser Gott, Op. 127",
+      "artist": "Radio-Sinfonieorchester Basel, Francis Travis & Pinchas Steinberg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:37.409Z"
+    },
+    "Symphonies|15|54.0799|14.7646|Klughardt 3 Berg": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/a8/34/d6/mzi.rohujemd.jpg/600x600bb.jpg",
+      "album": "Klughardt: Violin Concerto - Symphony No. 3",
+      "artist": "Golo Berg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:43.441Z"
+    },
+    "Symphonies|15|54.0269|41.4179|Bruch 2 Masur": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/9b/7d/e89b7dac-7455-d004-f242-6a1b30878095/00028946216422.rgb.jpg/600x600bb.jpg",
+      "album": "Bruch: The Complete Symphonies - Works for Violin & Orchestra",
+      "artist": "Gewandhausorchester Leipzig, Salvatore Accardo & Kurt Masur",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:50.373Z"
+    },
+    "Symphonies|15|54.0269|68.1384|Rudorff 3 Beermann": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/14/e0/ea/14e0eac1-c003-b487-f5a9-7de2c890bb4b/761203745821.jpg/600x600bb.jpg",
+      "album": "Rudorff: Symphony No. 3, Op. 50 & Variations, Op. 24",
+      "artist": "Bochumer Symphoniker & Frank Beermann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:12:57.865Z"
+    },
+    "Symphonies|15|78.9894|14.6529|Woyrsch 1 Dorsch": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/10/70/f0/1070f0e3-3c01-9a95-c5fb-dc59a12b0c1a/0760623058825_1448.jpg/600x600bb.jpg",
+      "album": "Woyrsch: Symphony No. 1, Op. 52 & Symphonic Prologue to Dante's \"Divina commedia\", Op. 40",
+      "artist": "Hamburg Symphony & Miguel A. Gómez-Martínez",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:13:15.938Z"
+    },
+    "Symphonies|15|79.0358|41.4992|G.Schumann b Gedschold": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ed/82/2a/ed822aff-32d9-221e-98d4-4062bb0397ce/761203746422.jpg/600x600bb.jpg",
+      "album": "Georg Schumann: Symphony in B Minor - Serenade, Op. 34",
+      "artist": "Christoph Gedschold",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:13:24.038Z"
+    },
+    "Symphonies|15|79.0358|68.203|Jadassohn 1 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ac/3b/ff/ac3bff76-09c4-cbc8-0a51-a35147b8e50c/761203760725.jpg/600x600bb.jpg",
+      "album": "Jadassohn: Symphonies Nos. 1-4",
+      "artist": "Brandenburgisches Staatsorchester Frankfurt & Howard Griffiths",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:13:29.226Z"
+    },
+    "Symphonies|16|51.7204|21.9856|Alpensinfonie Thielemann": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f4/6c/dd/f46cdd38-9c3a-541b-4e08-48ce26798542/00028946951927.rgb.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: Eine Alpensinfonie & Rosenkavalier-Suite",
+      "artist": "Vienna Philharmonic & Christian Thielemann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:13:39.138Z"
+    },
+    "Symphonies|16|65.9034|21.5513|Alpensinfonie Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e4/cc/44/e4cc44ec-3c98-431d-9556-117727feb702/06UMGIM52158.rgb.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: An Alpine Symphony, Op. 64",
+      "artist": "Berlin Philharmonic Orchestra, David Bell & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:13:50.226Z"
+    },
+    "Symphonies|16|51.942|48.0134|Symphonia Domestica Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ad/0a/5d/ad0a5dd4-54ee-fced-12b5-4ec5f3785a16/5026854499710.jpg/600x600bb.jpg",
+      "album": "R. Strauss: Ein Heldenleben, Op. 40 & Sinfonia domestica, Op. 53",
+      "artist": "Herbert von Karajan & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:14:57.753Z"
+    },
+    "Symphonies|16|66.8683|47.9974|2 Weigle 2": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music41/v4/7e/93/44/7e9344e2-bcb7-18ff-788d-90e3b0dec433/mzm.mewrrdsx.jpg/600x600bb.jpg",
+      "album": "R. Strauss: Don Juan & Symphony No. 2 in F Minor (Live)",
+      "artist": "Frankfurter Opern- und Museumsorchester & Sebastian Weigle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:15:05.676Z"
+    },
+    "Symphonies|16|80.1929|47.9974|2 Baumer": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6a/99/42/6a994274-50b0-9d08-a646-7e633729713a/761203529025.jpg/600x600bb.jpg",
+      "album": "R. Strauss: Symphony No. 2 in F Minor, Op. 12, TrV 126 & Concert Overture in C Minor, TrV 125",
+      "artist": "Deutsche Radio Philharmonie Saarbrücken Kaiserslautern & Hermann Baumer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:15:17.012Z"
+    },
+    "Symphonies|16|28.4215|14.7868|Bittner 1 Vasiliev": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/b8/ed/9bb8edc2-f21c-93aa-2ad8-ceda9dbd9fde/5060113445001.jpg/600x600bb.jpg",
+      "album": "Bittner: Orchestral Music, Vol. 1",
+      "artist": "Siberian Symphony Orchestra & Dmitry Vasiliev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:15:37.245Z"
+    },
+    "Symphonies|16|28.35|41.488|Marx Eine Herbstsymphonie Wildner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/5e/c3/985ec3f8-b00a-1774-edad-aa270a96b3a3/761203526222.jpg/600x600bb.jpg",
+      "album": "Marx: Eine Herbstsymphonie",
+      "artist": "Grazer Philharmoniker",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:16:05.685Z"
+    },
+    "Symphonies|16|28.37|67.9538|Scharwenka c minor Fifield": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/0f/a3/63/mzi.ldcqzbmk.jpg/600x600bb.jpg",
+      "album": "Scharwenka: Symphony In C Minor",
+      "artist": "Gävle Symphony Orchestra & Christopher Fifield",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:16:12.069Z"
+    },
+    "Symphonies|17|4.2895|19.3019|Anton Bruckner 전집 Celibidache": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/8e/b2/e28eb266-c904-df1f-f203-166d59c226cd/5021732482815.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphonies Nos. 3 - 9, Te Deum & Mass No. 3 (Live)",
+      "artist": "Sergiu Celibidache & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:16:27.062Z"
+    },
+    "Symphonies|17|18.6133|19.3019|Anton Bruckner 전집 Asahina r.Canyon 전집": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/9f/e5/889fe54e-955e-c60a-f216-0a4b382db3a4/PCCL_00545.jpg/600x600bb.jpg",
+      "album": "朝比奈隆の芸術～ブルックナー、シューマン、R、シュトラウス～",
+      "artist": "朝比奈隆(指揮)大阪フィルハーモニー交響楽団",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:16:44.574Z"
+    },
+    "Symphonies|17|4.144|44.8279|Anton Bruckner f Schaller PFO": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScNdHuN5BCQP0Pva2eOiOhc7wwr-3gxhEe_sOhDfXrUVcVJW1yJPvAAzY&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:32:56.682Z"
+    },
+    "Symphonies|17|18.4826|44.8279|Anton Bruckner f Skrowaczewski": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/63/69/a7/6369a76c-1f8f-2bd3-2568-e9123068c4e9/4260034860254.jpg/600x600bb.jpg",
+      "album": "Bruckner: Sämtliche Symphonien",
+      "artist": "Rundfunk-Sinfonieorchester Saarbrücken & Stanisław Skrowaczewski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:18:06.872Z"
+    },
+    "Symphonies|17|32.6758|44.8279|Anton Bruckner 0 Young PHO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/84/14/0c/84140cdf-b8cb-6da3-25ec-7b0ab72993eb/4260034866850.jpg/600x600bb.jpg",
+      "album": "Bruckner: Sinfonie No. 0",
+      "artist": "Simone Young & Philharmoniker Hamburg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:18:24.152Z"
+    },
+    "Symphonies|17|4.3622|70.0934|Anton Bruckner 0 Skrowaczewski": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/63/69/a7/6369a76c-1f8f-2bd3-2568-e9123068c4e9/4260034860254.jpg/600x600bb.jpg",
+      "album": "Bruckner: Sämtliche Symphonien",
+      "artist": "Rundfunk-Sinfonieorchester Saarbrücken & Stanisław Skrowaczewski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:18:36.837Z"
+    },
+    "Symphonies|17|18.5974|69.9553|Anton Bruckner 1 Neumann 1": {
+      "url": "https://i.discogs.com/39_ULokqbWv-ATmfaYlELFxTQC4nXOzJrHGLdPzposY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Mjk3/NTMtMTMwMzk1MDg4/Ni5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:32:35.163Z"
+    },
+    "Symphonies|17|32.894|70.0934|Anton Bruckner 1 Abbado WPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/82/cd/5f82cd14-49b4-abf8-b39f-4c8bb9f7305e/00028945341521.rgb.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 1",
+      "artist": "Vienna Philharmonic & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:19:07.297Z"
+    },
+    "Symphonies|17|53.506|19.4381|Anton Bruckner Symphony 2 Giulini WSO": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNV3Y0aPK9G2dlIeYakVvA9clD2FYaPMRpWLhReeKeVsWOtP_FHMw0MQs&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:33:28.655Z"
+    },
+    "Symphonies|17|67.6991|19.4381|Anton Bruckner 2 Muti WPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a2/f4/10/a2f4104d-0a1b-1132-401d-ed3639d6d275/00028947981831.rgb.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No.2 In C Minor, WAB 102 / R. Strauss: Der Bürger als Edelmann, Orchestral Suite, Op.60b-IIIa, TrV 228c (Live)",
+      "artist": "Vienna Philharmonic & Riccardo Muti",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:19:31.002Z"
+    },
+    "Symphonies|17|67.6991|44.8376|Anton Bruckner 3 Tennstedt BR": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/79/61/3d/mzi.apinzbno.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 3 In D Minor",
+      "artist": "Klaus Tennstedt & Bavarian Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:20:16.530Z"
+    },
+    "Symphonies|17|81.8923|44.8376|Anton Bruckner 3 Celibidache": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c6/d8/a1/c6d8a17b-6cfe-fe0c-649e-baf6e0e0294e/190295214708.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 3 (1889 Version) [Live at Philharmonie am Gasteig, Munich, 1987]",
+      "artist": "Sergiu Celibidache & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:20:29.607Z"
+    },
+    "Symphonies|17|53.3605|70.1031|Anton Bruckner 4 Blomstedt SKD": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/29/c2/6129c2e9-b80f-665d-c9c2-ce477e51e22d/4988001078609.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 4 in E-Flat Major, \"Romantic\"",
+      "artist": "Herbert Blomstedt & Staatskapelle Dresden",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:20:47.964Z"
+    },
+    "Symphonies|17|67.6991|70.1031|Anton Bruckner 4 Celibidache": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/79/c5/91/79c5918e-f3a0-e388-c6f0-152a55e1f6ce/dj.rnnlyopb.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 4",
+      "artist": "Sergiu Celibidache & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:21:01.028Z"
+    },
+    "Symphonies|17|81.8923|70.1031|Anton Bruckner 4 Roth": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/44/13/df/4413df10-bbd5-97b5-8d78-5927e60efdb6/23UMGIM82748.rgb.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 4",
+      "artist": "François-Xavier Roth & Gürzenich-Orchester Köln",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:21:10.244Z"
+    },
+    "Symphonies|18|18.509|19.1988|Anton Bruckner 5 Wand BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/41/90/64/mzi.dglkadll.jpg/600x600bb.jpg",
+      "album": "Bruckner: Sinfonien",
+      "artist": "Günter Wand",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:21:41.029Z"
+    },
+    "Symphonies|18|4.2895|44.7958|Anton Bruckner 6 Celibidache": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/00/43/77/004377ca-368d-581e-8a09-2b28643a7e07/190295201432.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 6 (Live at Philharmonie am Gasteig, Munich, 1991)",
+      "artist": "Sergiu Celibidache & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:22:00.357Z"
+    },
+    "Symphonies|18|18.4826|44.7958|Anton Bruckner 6 Klemperer": {
+      "url": "https://i.discogs.com/Vy7juuFHzSPUiwXAVMtqNehyy7tq_CaAeczXDfe_BcA/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNjA5/MjItMTU3Njc5Nzk0/OC02NjQ0LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:35:21.336Z"
+    },
+    "Symphonies|18|32.4687|44.5196|Anton Bruckner 6 Wand NDR": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/ec/f0/e3/dj.dkqjqhwf.jpg/600x600bb.jpg",
+      "album": "Symphony No. 6 in A Major",
+      "artist": "Günter Wand & NDR Elbphilharmonie Orchester",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:22:29.513Z"
+    },
+    "Symphonies|18|18.4057|69.987|Anton Bruckner 7 Blomstedt SKD": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/ed/fe/3eedfe9b-dfcd-e71b-6030-52df4c9b0dc8/4988001973126.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 7 in E Major, WAB 107",
+      "artist": "Herbert Blomstedt & Staatskapelle Dresden",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:23:00.878Z"
+    },
+    "Symphonies|18|67.8575|19.2818|Anton Bruckner 8 Karajan WPO,88 8": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/31/45/a8/3145a824-26ab-2546-92c3-a8a13d4cc29a/00028942761124.rgb.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 8",
+      "artist": "Vienna Philharmonic & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:23:33.341Z"
+    },
+    "Symphonies|18|82.4413|19.2818|Anton Bruckner 8 Maazel BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/77/d7/9d/77d79d63-c375-f57e-8b59-d5e7020d0196/724357370851.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 8",
+      "artist": "Lorin Maazel & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:23:42.305Z"
+    },
+    "Symphonies|18|53.4008|44.7911|Anton Bruckner 9 Giulini WPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/c4/c0/a4c4c043-e055-46dc-bd30-0b7b02df6714/24UMGIM72272.rgb.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 9 in D Minor, WAB 109",
+      "artist": "Vienna Philharmonic & Carlo Maria Giulini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:23:51.200Z"
+    },
+    "Symphonies|18|67.6991|44.7911|Anton Bruckner 9 Celibidache 9": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/60/ce/2a60cefb-41a0-b0d2-d199-73c1b88aa2e9/190295194796.jpg/600x600bb.jpg",
+      "album": "Bruckner: Symphony No. 9 (Live at Philharmonie am Gasteig, Munich, 1995)",
+      "artist": "Sergiu Celibidache & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:24:01.576Z"
+    },
+    "Symphonies|18|81.8923|44.7911|Anton Bruckner 9 Wand SWR": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002138287/front/400/LEPUWDbA0OkTlTfYZY2WBByhM-OFI8zG4l-qVpXXB1I=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:37:03.560Z"
+    },
+    "Symphonies|19|4.2895|19.3019|Gustav Mahler 전집 Bernstein r.DG": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/45/a4/7d45a4af-34b9-eb78-e302-67d26c9e6cea/09UMGIM35087.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: The Symphonies",
+      "artist": "Royal Concertgebouw Orchestra, New York Philharmonic, Vienna Philharmonic & Leonard Bernstein",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:25:03.653Z"
+    },
+    "Symphonies|19|32.0793|19.3019|Gustav Mahler 전집 Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/de/65/4a/de654ac0-1564-fb21-1c83-9e6b0f40de3d/06UMGIM38070.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: 10 Symphonies",
+      "artist": "Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:25:37.802Z"
+    },
+    "Symphonies|19|4.144|44.8279|Gustav Mahler 1 Abbado BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/76/6d/a7766dfc-d636-2e9d-b2a6-f53a94b2aa6f/00028943176927.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 1",
+      "artist": "Berlin Philharmonic Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:39:50.382Z"
+    },
+    "Symphonies|19|32.6295|44.7661|Gustav Mahler 1 Jansons RCO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/97/d5/53/97d55304-363b-731f-5b10-74e75e1cedec/814337019532.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 1, \"Titan\" (Live)",
+      "artist": "Mariss Jansons & Royal Concertgebouw Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T08:40:05.106Z"
+    },
+    "Symphonies|19|18.1954|70.0934|Gustav Mahler 2 Mehta WPO": {
+      "url": "https://i.discogs.com/10ZvSmjoSxgvGz9uSQZwEdTDixAuaRfedlXRSIDOFKU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1MTIy/ODMzLTE1ODY5ODMw/MjItMjc3OC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T08:47:24.216Z"
+    },
+    "Symphonies|19|18.4826|44.8279|Gustav Mahler 1 Tennstedt NDR": {
+      "url": "https://i.discogs.com/bmkSqOeIWweCOVfgiQvzLD1SSXqOzZH1EuVnV1AIvmI/rs:fit/g:sm/q:90/h:514/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzMx/MTY1LTE3Njk1MjEx/NTktODk0OS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T08:48:00.096Z"
+    },
+    "Symphonies|19|4.1669|70.0934|Gustav Mahler 2 Rattle BCSO": {
+      "url": "https://i.discogs.com/gWaSwgJouRwIhW3O2wF59ioEVa_5BWS3_i1g7U1vqdw/rs:fit/g:sm/q:90/h:450/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM5NTM0/NjAtMTQzNjcxOTkw/NS04OTkwLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T08:54:40.738Z"
+    },
+    "Symphonies|18|4.3158|19.1988|Anton Bruckner 5 Blomstedt LGO 5": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0003856228/front/400/i2ddQFhpfq7xSiNE4sUVHd_M69_UI9rrJSVvWL2-yAg=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:34:42.038Z"
+    },
+    "Symphonies|18|32.7021|19.1988|Anton Bruckner 5 Celibidache r.Altus": {
+      "url": "https://i.discogs.com/i2YW2yt0kFMHPEG-VwkTq59Fqu29avt_S6WZYEyh5SE/rs:fit/g:sm/q:90/h:514/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjQ2/MTUwLTE3NDAyMjg5/ODYtNzQ5OC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T08:56:06.378Z"
+    },
+    "Symphonies|17|32.7217|19.3019|Anton Bruckner 전집 Jochum r.Tahra": {
+      "url": "https://i.discogs.com/FP26sgMSbdbWPZCn1NZ89KXSHF4qnUXzQoKNf4THicU/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2ODgy/OTcxLTE2MTAzODg5/NTAtNjg5NC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T08:57:34.856Z"
+    },
+    "Symphonies|1|54.2446|14.7467|Hasse Op.5-6 Cuiller": {
+      "url": "https://m.media-amazon.com/images/I/51S5mg+q8SL._AC_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:05:49.561Z"
+    },
+    "Symphonies|2|4.1691|14.5103|Abel E Major Lea㎿Cox": {
+      "url": "https://i.discogs.com/Dh_-9Dcf45cjDrsbfcIAsh5D-dG0px96yDQ_VIZHc7M/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTY2/NTA5LTE3MDkzMzky/MTItNzQ5Ni5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:06:23.457Z"
+    },
+    "Symphonies|2|29.0636|68.2405|W.F. Bach d minor Freiburg Baroque": {
+      "url": "https://image.yes24.com/goods/3249493/XL",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:06:50.028Z"
+    },
+    "Symphonies|3|78.566|14.5023|Eichnerd D Major Op.1-1 Moretto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLgL35rqAv72KuY40dOSbWV6xwjRazbHKsQwX7zRU8_CtuV88f",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:09:23.459Z"
+    },
+    "Symphonies|6|81.7169|18.9936|Joseph Haydn 104 Celibidache": {
+      "url": "https://i.discogs.com/8AJmogTJRi7BI6UwPvFMBrSaRD2_k7oNhkfaMlwBOzo/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDc1/MzAxLTE1NTgxMjg1/NDAtMzYwMC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:11:25.780Z"
+    },
+    "Symphonies|7|4.3466|41.15|Joseph Haydn M.Haydn 28 C Major Warchal": {
+      "url": "https://i.discogs.com/wZ5PaDiTez2F4VcspkNjtheSZKPEgyN8mOYnVotppZA/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MjU0/MDY0LTE2OTQ2MzQy/OTgtNjYwNy5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:11:56.860Z"
+    },
+    "Symphonies|7|28.3146|41.2837|Joseph Haydn L.Mozart G Major Jagd㎿Sinfonie Caigg": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALsTrImLBoYqZQ50DeQGXGNikaKjaoQt8Ro2DN-Mi7fYlGXPNC4Q2pEw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:12:18.271Z"
+    },
+    "Symphonies|8|18.0719|18.8884|전집 Hogwood": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02f76884dbc5c95b8edf8d7c74",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:12:38.760Z"
+    },
+    "Symphonies|8|3.9743|44.743|22 A.Fischer": {
+      "url": "https://i.discogs.com/ZDGwB7p7dWRG_3AHX8hHa_ZREcVeSKXJF-WFlhU_nN4/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODY4/ODM5LTE2NTc2ODYw/MjctNzY3Mi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:13:06.349Z"
+    },
+    "Symphonies|8|81.8403|19.0753|35 A.Fischer": {
+      "url": "https://i.discogs.com/ZDGwB7p7dWRG_3AHX8hHa_ZREcVeSKXJF-WFlhU_nN4/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODY4/ODM5LTE2NTc2ODYw/MjctNzY3Mi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:13:14.363Z"
+    },
+    "Symphonies|8|53.4166|19.1161|33 C.Kleiber": {
+      "url": "https://i.discogs.com/kblI2Y3awJBdmOvrkPWmMVfLsFD399zv_zH25Flz3Jc/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MTU1/MjM3LTE2MDQzNzAw/MDEtNDQwMC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:13:38.612Z"
+    },
+    "Symphonies|9|18.5207|44.586|Wolfgang Amadeus Mozart 40 Walter WPO,52 40 Levine": {
+      "url": "https://img.hmv.co.jp/image/jacket/800/0000105/3/1/858.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:15:11.356Z"
+    },
+    "Symphonies|9|18.6651|70.1144|Wolfgang Amadeus Mozart 41 Harnoncourt RCO 41": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSQ_BBMEO8VyrXrraw7aa1VwIfCBVL0SqdP-mH3vWVxpViey4CKqd4FM&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:15:34.286Z"
+    },
+    "Symphonies|9|81.1518|70.0271|Ludwig van Beethoven 3 Svetlanov": {
+      "url": "https://i.discogs.com/2lAcOMgX6CoWqZEKRaWSQTRgzMuUdNXMWwB9ETKN0fk/rs:fit/g:sm/q:90/h:494/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MTcz/NDIwLTE2MTE5OTgw/NzAtMTk0OC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:15:59.692Z"
+    },
+    "Symphonies|10|32.911|19.1507|Ludwig van Beethoven 5 Kegel r.Altus": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvafD0rZywwcWx8-ycQl9dcYNp2I7-6Z-ihTXbq4Dx6JUILRR7KLm8BU&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:17:13.626Z"
+    },
+    "Symphonies|10|4.2078|44.4411|Ludwig van Beethoven 5 Maazel BPO,59": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-L_5c3Arc3D30UllEWev0Q5Bs91rOD3T9KI9hbD2XBdK2N6T1ZZuxtinr&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:17:43.596Z"
+    },
+    "Symphonies|10|18.5805|70.0022|Ludwig van Beethoven 6 Celibidache": {
+      "url": "https://i.discogs.com/CpgqePRJFgy9wB0BV1nwqv7ZD07KnwuQUGT1kDB7f0g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MTU3/MTMxLTE3NDQwOTY1/NzktODIyNi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:18:43.992Z"
+    },
+    "Symphonies|10|32.7736|70.0022|Ludwig van Beethoven 6 Bohm 77": {
+      "url": "https://i.discogs.com/-RbklWCphdcgM6SN8oKLO9TkD8iOQS_LAqbfQ5La53U/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODcw/NTg3LTE2MTU5MTE0/NTItMzUwNS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:19:43.361Z"
+    },
+    "Symphonies|10|81.9196|44.463|Ludwig van Beethoven 9 Gielen SWF,86": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZxMdKCit46NAisBSBzVJW7_jTP1peT9Bn7l_f-SZ3A&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:21:12.093Z"
+    },
+    "Symphonies|10|53.671|69.2918|Ludwig van Beethoven 9 Celibidache": {
+      "url": "https://i.scdn.co/image/ab67616d0000b2736ca927fa7e5435c096e3f88c",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:21:30.512Z"
+    },
+    "Symphonies|10|53.6221|18.9986|Ludwig van Beethoven 7 Kleiber BSSO 7": {
+      "url": "https://m.media-amazon.com/images/I/71w8KxUYacL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:21:43.869Z"
+    },
+    "Symphonies|10|81.4916|69.2035|Ludwig van Beethoven 9 Furtwangler Lucern,54": {
+      "url": "https://i.discogs.com/aiVCGm-rlcC-HZSpWqzxpcqyTV045dMRFbj-yntptTo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MDA5/NzM5LTE2MTY3MDU3/NzEtMjMyMy5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:22:07.303Z"
+    },
+    "Symphonies|12|32.894|70.0934|Robert Schumann 4 Frutwangler BPO": {
+      "url": "https://i.ebayimg.com/images/g/zdAAAOSws7dmXaiR/s-l1200.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:22:39.897Z"
+    },
+    "Symphonies|12|67.5495|69.8633|Felix Mendelssohn 4 Kondrashin": {
+      "url": "https://i.discogs.com/0cLXT4HonA2miTeuS-ZoiEGDD03vCumBEAI4OnObV1Y/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzE5/MTY5LTE1OTY1MzA1/NDEtODY0NS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:24:49.200Z"
+    },
+    "Symphonies|12|18.5542|70.0934|Robert Schumann 4 Kegel": {
+      "url": "https://i.discogs.com/cAbr_g5spXWScZYtjqkFuQkSYLAvuTdLnq--cZS131M/rs:fit/g:sm/q:90/h:460/w:460/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ5MzEx/MTYtMTM3OTc4MTQw/Ni00NTU1LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:25:53.302Z"
+    },
+    "Symphonies|12|32.6758|44.8279|Robert Schumann 2 Chailly": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV6Y25q1TxCrbsKp9Fqw4HaCP3J7cz_AXBlaEkYz_iZEVbczS0QEoOXuc&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:26:19.611Z"
+    },
+    "Symphonies|13|27.7843|42.29|Mayer 4 Malzew": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ602gTpwqLUBJoDl79gv-l5moUq0G_1kBYtLOWzGgwpA&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:26:39.526Z"
+    },
+    "Symphonies|13|53.7992|68.9566|E.Franck A Major P.Frank": {
+      "url": "https://i.scdn.co/image/ab67616d00001e026ee6cbe2494bf3e31faf3004",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:26:52.964Z"
+    },
+    "Symphonies|14|18.4826|44.8279|Johannes Brahms 1 Giulini LAPO 1": {
+      "url": "https://i.discogs.com/FftrSw38jP06wApx36exHp6pf91DlYkZiUCsxiQHzfY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcxNzA3/MDQtMTYxOTcyMDAw/MS00MTcwLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:27:16.631Z"
+    },
+    "Symphonies|14|18.3444|70.0934|Johannes Brahms 2 Giulini LAPO": {
+      "url": "https://i.discogs.com/tcRQTJoXuwCdRj7ZOqjenVPbBH56cPw-KCoQ-LarxJ0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MTYz/NjItMTQ5ODAzMjg1/My03OTI1LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:27:30.480Z"
+    },
+    "Symphonies|14|3.9449|70.0522|Johannes Brahms 1 Furtwangler 2 r.tahra,51": {
+      "url": "https://i.discogs.com/VZOPySNKMSk4hSUeroOPhT_RuaK7acQjCH3VNg1w1hM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTM1/OTQzLTE1MjUwNDYz/NDEtNTA4Ni5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:27:41.961Z"
+    },
+    "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집": {
+      "url": "https://i0.wp.com/commentimusicali.it/wp-content/uploads/2025/06/Le-copertine-originali-dei-4-cd-dellintegrale-delle-sinfonie-di-Brahms-dirette-da-Giulini-con-i-Wiener-Philharmoniker.jpg?fit=1167%2C992&ssl=1",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:28:23.954Z"
+    },
+    "Symphonies|14|53.5326|44.8298|Johannes Brahms 3 Abendroth 51 4": {
+      "url": "https://m.media-amazon.com/images/I/514IkNm+bnL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:29:22.359Z"
+    },
+    "Symphonies|16|80.2736|21.9856|Alpensinfonie Sinopoli": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02cfd5745da1f0be605b51a6f9",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:30:15.796Z"
+    },
+    "Symphonies|16|4.1975|41.5732|R.Wagner C Major Wakasugi": {
+      "url": "https://m.media-amazon.com/images/I/51Q8g8iwMZL._UF350,350_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:30:31.586Z"
+    },
+    "Symphonies|17|80.9193|19.5682|Anton Bruckner 2 Eichhorn": {
+      "url": "https://i.discogs.com/kscAA0cMgU8FbsEyAupvt5aoRPdrtDlGDnIUsd0SftY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MTA1/NDY4LTE2OTQ1MDMz/NjktNDczMi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:31:53.617Z"
+    },
+    "Symphonies|17|53.506|44.8376|Anton Bruckner 3 Sinopoli": {
+      "url": "https://i.discogs.com/0i8XG3tpXYeUu5hBYcIGNV_UTjNNT6Vg-e2aGnWRE38/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzNzQ3/NzA4LTE2NTY2NTc5/NjAtNDg4OS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:32:12.014Z"
+    },
+    "Symphonies|18|4.144|69.987|Anton Bruckner 7 Matacici CZPO": {
+      "url": "https://m.media-amazon.com/images/I/51MYmUZtjtL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:35:49.085Z"
+    },
+    "Symphonies|18|32.6758|69.9869|Anton Bruckner 7 Celibidache BPO": {
+      "url": "https://www.hraudio.net/covers2/5/15065.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:36:06.069Z"
+    },
+    "Symphonies|18|53.5189|19.2818|Anton Bruckner 8 Celibidache r.AUDIOR,85": {
+      "url": "https://i.discogs.com/uidG1fph1RzYiZyeRyBURdjncME7Ulc2PoaxCN9xO7U/rs:fit/g:sm/q:90/h:472/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Njk4/MTUxLTE2ODk1NzAx/OTAtNzIxOC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:36:35.826Z"
+    },
+    "Symphonies|19|18.4826|19.3019|Gustav Mahler 전집 Bertinini": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fOG2hGvZFf1P3bul1UMFX14qwmjKDZ4KKz-ebcCbsc-_2gHZQmsHfIk&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:37:34.831Z"
+    },
+    "Symphonies|19|32.5046|70.0934|Gustav Mahler 2 Haitink BPO": {
+      "url": "https://i.scdn.co/image/ab67616d00001e027f74f69b4299db9f41e9d0be",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:38:02.926Z"
+    },
+    "Symphonies|19|53.4684|19.3019|Gustav Mahler 3 Chailly": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM93RLZchMNRpgmGF-6bbJRJt5Ncoquxb2HmDT15Mc42CXSKvyVRpGICi5&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:38:55.760Z"
+    },
+    "Symphonies|19|67.8446|19.3019|Gustav Mahler 3 Honeck": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0003416602/front/400/EjnPSLIYlaeKJhEmeEq775hUoDg0hsvx4F4sL4oO-nA=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:39:08.590Z"
+    },
+    "Symphonies|19|81.8529|19.3019|Gustav Mahler 3 Nott": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajVBekJkdpdaZ2F3kAfg2Pn5WfVmSxvLdvW-ACI9KdHvRH-D9FVe8NA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:39:19.764Z"
+    },
+    "Symphonies|19|53.3136|44.8279|Gustav Mahler 4 Maazel WPO": {
+      "url": "https://m.media-amazon.com/images/I/51MGbnMz3pL._UF350,350_QL50_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:40:12.854Z"
+    },
+    "Symphonies|19|67.6991|44.8279|Gustav Mahler 4 Fischer": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/44/17/d5441798-fb7e-6a5b-58b2-d3a018b344b6/723385261094.png/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 4",
+      "artist": "Budapest Festival Orchestra, Iván Fischer & Miah Persson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:40:20.591Z"
+    },
+    "Symphonies|19|53.4467|70.0934|Gustav Mahler 5 Chailly": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/df/27/64df2703-0b83-280f-8902-56ad8bf931c2/06UMGIM48590.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 5",
+      "artist": "Royal Concertgebouw Orchestra & Riccardo Chailly",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:40:28.579Z"
+    },
+    "Symphonies|19|68.2771|70.0933|Gustav Mahler 5 Stentz 5": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd93IrXNLWbC9tv7UFzFUJCc0STTCyiQVX27B-nnnJGbwZh8tfEmHB5EIQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:40:42.435Z"
+    },
+    "Symphonies|19|81.8923|70.0934|Gustav Mahler 5 Sinopoli": {
+      "url": "https://m.media-amazon.com/images/I/61aP+8VweGL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:41:01.860Z"
+    },
+    "Symphonies|20|4.2895|19.3019|Gustav Mahler 6 Tennstedt LPO": {
+      "url": "https://m.media-amazon.com/images/I/51xBkyL4V8L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:41:28.842Z"
+    },
+    "Symphonies|20|18.4237|19.3019|Gustav Mahler 6 Bernstein WPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/d7/36/ddd736b6-b5c4-dc5b-f6dd-01c38f172218/23UM1IM19190.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 6; Kindertotenlieder",
+      "artist": "Thomas Hampson, Vienna Philharmonic & Leonard Bernstein",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:41:43.599Z"
+    },
+    "Symphonies|20|32.6758|19.3019|Gustav Mahler 6 Vanska": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoCGOPIl4CcP9QGrui1HeCi4qb4Jra5CDne62ysf5VxnghZxowbRpLAn03&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:42:09.606Z"
+    },
+    "Symphonies|20|4.144|44.8279|Gustav Mahler 7 Bloch": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2d/18/50/2d185022-9fed-5bee-6895-e03ba386a8a1/3760014195921.png/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 7",
+      "artist": "Orchestre National de Lille & Alexandre Bloch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:42:14.559Z"
+    },
+    "Symphonies|20|18.3692|44.7842|Gustav Mahler 7 Tilson㎿Tomas LSO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/30/df/7e/30df7e1e-a791-db3a-8ea3-0ffd42d1170d/090266351022.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 7",
+      "artist": "Michael Tilson Thomas, London Symphony Orchestra & Ian Bousfield",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:42:19.079Z"
+    },
+    "Symphonies|20|32.6758|44.8279|Gustav Mahler 7 Gielen": {
+      "url": "https://i.discogs.com/inHbkpbduwb31eIOeo7LOROFrt5qR3jEupRZVKFpzYM/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzEx/NzAxLTE3NjkzMzky/MDItNTY2My5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:43:24.862Z"
+    },
+    "Symphonies|20|4.0693|70.0934|Gustav Mahler 8 Chailly": {
+      "url": "https://i.discogs.com/5nvGwLRS4hGYuuo6fH4bdw0OI7aQ7OSacMn4QA1giv4/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NjUx/ODg4LTE2Mjc0NTYx/OTUtOTMyMi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:43:55.939Z"
+    },
+    "Symphonies|20|18.3687|70.0934|Gustav Mahler 8 Tennstedt LPO": {
+      "url": "https://m.media-amazon.com/images/I/41WX5X77J8L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:44:28.197Z"
+    },
+    "Symphonies|20|32.6011|70.0934|Gustav Mahler 8 Nagano": {
+      "url": "https://i.discogs.com/9Df6VKjC2P770EEV0wpGCgGbuh8hgG1cjbpOjIYn5_0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNTU3/MDc3LTE1NTY0NjA3/MTUtMzE5My5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:44:46.924Z"
+    },
+    "Symphonies|20|53.3512|19.3019|Gustav Mahler 9 Abbado BPO": {
+      "url": "https://m.media-amazon.com/images/I/612sW8BuOkL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:45:09.964Z"
+    },
+    "Symphonies|20|67.675|19.3019|Gustav Mahler 9 Bernstein RCO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f2/cb/40/f2cb40a3-bd52-00a4-79c1-5b98cacdf4d4/00028947945444.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 9 in D (Live)",
+      "artist": "Royal Concertgebouw Orchestra & Leonard Bernstein",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:45:19.304Z"
+    },
+    "Symphonies|20|81.8923|19.3019|Gustav Mahler 9 Karajan BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/f8/21/27f821ea-de1b-6a78-ab2f-19604dd0f4f5/26UMGIM98824.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 9 (Live Recording)",
+      "artist": "Berlin Philharmonic Orchestra & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:45:28.156Z"
+    },
+    "Symphonies|20|53.3313|44.8279|Gustav Mahler 10 Sanderling": {
+      "url": "https://i.discogs.com/w6fth7OBGL8H7YwzNoBZ0jSHssgjSqkmspTXlw9st8U/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2OTYw/ODgxLTE2MTA4Mjc1/MzktNzYzMy5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:45:59.431Z"
+    },
+    "Symphonies|20|67.6809|44.8279|Gustav Mahler 10 Inbal TMSO": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIr5lk6S2_9UEkw75JAMGu0A1QA8a8pP-P3Fqx9TFDoOdBWMdh3w2IW_M&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:46:35.302Z"
+    },
+    "Symphonies|20|81.8923|44.8279|Gustav Mahler 10 Gielen": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kL2MqReIL3NjUcBAs1ABjkzni5lhsAajyVu6ytRjbi59O7cDcnCECJA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:47:18.735Z"
+    },
+    "Symphonies|20|53.3705|69.6876|Gustav Mahler Das Lied von der Klemperer": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/a9/8d/6d/a98d6dd0-7cbc-41ec-f3e5-3157c14d8e35/724356694453.jpg/600x600bb.jpg",
+      "album": "Mahler: Das Lied von der Erde",
+      "artist": "Christa Ludwig, Fritz Wunderlich & Otto Klemperer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:47:28.960Z"
+    },
+    "Symphonies|20|67.5149|70.0935|Gustav Mahler Erde Boulez": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/af/a5/61/afa561e7-ff6c-f76b-5410-f417ae21a628/00028946952627.rgb.jpg/600x600bb.jpg",
+      "album": "Mahler: Das Lied von der Erde",
+      "artist": "Violeta Urmana, Michael Schade, Pierre Boulez & Vienna Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:47:38.228Z"
+    },
+    "Symphonies|20|81.5775|70.0934|Gustav Mahler Bernstein WPO": {
+      "url": "https://uk.rarevinyl.com/cdn/shop/products/gustav-mahler-das-lied-von-der-erde-uk-vinyl-lp-album-record-set331-777308.jpg?v=1705666183",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:48:18.422Z"
+    },
+    "Symphonies|21|4.3717|14.904|Halm A Borin": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/03/1e/51/mzi.ztkkdenv.jpg/600x600bb.jpg",
+      "album": "Sinfonie A-Dur",
+      "artist": "Württembergische Philharmonie Reutlingen & Per Borin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:48:28.532Z"
+    },
+    "Symphonies|21|4.2164|41.6539|Rauchenecker 1 Griffiths": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f2/c3/61/f2c36108-af1a-e2b2-211e-be7611bb7b21/761203541621.jpg/600x600bb.jpg",
+      "album": "Rauchenecker: Orchestral Works",
+      "artist": "Sebastian Bohren, Sarastro Quartett, Musikkollegium Winterthur & Howard Griffiths",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:48:32.938Z"
+    },
+    "Symphonies|21|4.3487|68.1111|Schmidt 1 N.Jarvi": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/69/e3/e069e394-527e-0c71-8c76-957c90686451/5059864935732.png/600x600bb.jpg",
+      "album": "Schmidt: Symphony No. 1 in E Major - R. Strauss: 4 Symphonic Interludes from Intermezzo, Op. 72, TrV 246a",
+      "artist": "Neeme Järvi & Detroit Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:48:42.708Z"
+    },
+    "Symphonies|21|27.9634|14.802|Schmidt 4 Welser㎿Most": {
+      "url": "https://i.discogs.com/mHesLkWKKwWuJY7la1M7f3P1fTtUJ0LSQOSr4bFGnVQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNzc4/MTUtMTQ2MDQyOTU2/NS02OTUxLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:49:01.960Z"
+    },
+    "Symphonies|21|27.9907|41.5616|Chailly": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/33/83/0d338395-3a67-a5cc-9409-4461c8f8742f/00028944356922.rgb.jpg/600x600bb.jpg",
+      "album": "Zemlinsky: Lyrische Symphonie - Sinfonische Gesänge",
+      "artist": "Alessandra Marc, Håkan Hagegård, Sir Willard White, Royal Concertgebouw Orchestra & Riccardo Chailly",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:49:32.711Z"
+    },
+    "Symphonies|21|27.9908|68.3553|Zemlinsky 2 Chailly": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/04/7c/14/047c14db-a831-a51f-b7db-ef418fa78844/00028942164420.rgb.jpg/600x600bb.jpg",
+      "album": "Zemlinsky: Symphony No. 2 in B-Flat - Psalm 23",
+      "artist": "Rundfunk-Sinfonieorchester Berlin & Riccardo Chailly",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:49:44.323Z"
+    },
+    "Symphonies|21|53.8377|14.8413|Gal 1 Woods": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/1a/f9/f7/1af9f720-6d34-b910-8931-b0d3faf9bc8c/822252232226.jpg/600x600bb.jpg",
+      "album": "Hans Gál: The Four Symphonies",
+      "artist": "Orchestra of the Swan & Kenneth Woods",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:49:54.303Z"
+    },
+    "Symphonies|21|53.6587|41.1474|Reznicek 1 Beermann": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/bf/4f/de/mzi.iofblabx.jpg/600x600bb.jpg",
+      "album": "Reznicek, E.N. Von: Symphony No. 1, \"Tragische\" - 4 Bet- Und Bussgesange",
+      "artist": "Frankfurt Brandenburg State Orchestra, Frank Beermann & Marina Prudenskaja",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:50:00.732Z"
+    },
+    "Symphonies|21|54.0166|68.2985|Goldmark Rustic Weding Schaller": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/1b/19/e3/mzi.qxjbdtwk.jpg/600x600bb.jpg",
+      "album": "Rustic Wedding Symphony",
+      "artist": "Gerd Schaller & Philharmonie Festiva",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:50:05.263Z"
+    },
+    "Symphonies|21|78.8996|14.6805|Rufinatscha 6 Noseda": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f2/59/d7/f259d7aa-16ae-d025-6b4c-ec39676ab9ed/5059864166532.png/600x600bb.jpg",
+      "album": "Rufinatscha: Symphony No. 6 & The Bride of Messina Overture",
+      "artist": "Gianandrea Noseda & BBC Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:50:09.879Z"
+    },
+    "Symphonies|21|78.8996|41.469|Wetz 1 Bader": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/15/c1/d1/mzi.pfkhdgfr.jpg/600x600bb.jpg",
+      "album": "Wetz: Symphony No. 1",
+      "artist": "Cracow Philharmonic Orchestra & Roland Bader",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:50:16.067Z"
+    },
+    "Symphonies|21|78.7853|68.1507|Thuille F Major Francis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/39/8b/4a/398b4aff-df1a-318e-29d4-e72979f0ca51/761203700820.jpg/600x600bb.jpg",
+      "album": "Thuille: Symphony in F Major & Piano Concerto in D Major",
+      "artist": "Oliver Triendl, L'Orchestra Haydn di Bolzano e Trento & Alun Francis",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:50:21.151Z"
+    },
+    "Symphonies|22|4.4275|14.6475|Weigl 5 Sanderling": {
+      "url": "https://m.media-amazon.com/images/I/41RFR7X812L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:50:51.945Z"
+    },
+    "Symphonies|22|4.3582|41.1637|Schoenberg Chamber Symphony arr. Gulda/Hagen": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2660PCDdjPm4sWon8cQwtS39EDaLqbcwux_k_Jr1uC2jYgafmciuLvw8&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:51:12.052Z"
+    },
+    "Symphonies|22|4.2031|67.6755|Webern Op.21 Boulez": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/96/2a/96/962a9601-35ea-0618-d3ad-449d41a12dba/00028944776522.rgb.jpg/600x600bb.jpg",
+      "album": "Boulez Conducts Webern, Vol. 3",
+      "artist": "Berlin Philharmonic Orchestra & Pierre Boulez",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:51:17.329Z"
+    },
+    "Symphonies|22|27.7139|14.7005|Schreker Chamber Symphony Gielen": {
+      "url": "https://m.media-amazon.com/images/I/41YHBVTPQ4L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:51:31.407Z"
+    },
+    "Symphonies|22|27.7954|41.0677|Schreker a minor Westphal": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/6f/6e/3c/mzi.kytsgcou.jpg/600x600bb.jpg",
+      "album": "Schreker: Symphony, Op. 1 - Das Weib des Intaphernes - Psalm 116",
+      "artist": "Cologne Radio Orchestra, Peter Gülke, Gert Westphal, Cologne Radio Chorus & Peter Dicke",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:51:36.113Z"
+    },
+    "Symphonies|22|27.9872|67.8122|Ben㎿Haim 1 Shani": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/da/01/3b/da013b8e-6fdc-0113-2f92-984391350f98/22UM1IM01340.rgb.jpg/600x600bb.jpg",
+      "album": "Ben-Haim: Symphony No. 1 - EP",
+      "artist": "Israel Philharmonic Orchestra & Lahav Shani",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:51:41.697Z"
+    },
+    "Symphonies|22|53.5425|14.7476|Hindemith Mathis der Maler Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/be/a8/00bea875-c646-920b-8738-d6c0cd94564b/00028944738926.rgb.jpg/600x600bb.jpg",
+      "album": "Hindemith: \"Mathis der Maler\" - Nobilissima Visione - Symphonic Metamorphoses",
+      "artist": "Berlin Philharmonic Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:51:45.800Z"
+    },
+    "Symphonies|22|53.5339|41.1404|Hindemith Die Harmonie der Kegel": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/79/83/2b79831b-9bb8-fa06-8fb8-9d13f26c5b46/cover.jpg/600x600bb.jpg",
+      "album": "Hindemith: Symphony, \"Die Harmonie Der Welt\" & Pittsburgh Symphony",
+      "artist": "Herbert Kegel & Dresdner Philharmonie",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:51:52.145Z"
+    },
+    "Symphonies|22|53.415|67.7936|Korngold F# Major Wilson": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/bf/da/28bfda6e-6bfb-3c82-ed86-5905ba709223/5059864522031.png/600x600bb.jpg",
+      "album": "Korngold: Orchestral Works, Vol. 4",
+      "artist": "John Wilson & Sinfonia of London",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:52:02.825Z"
+    },
+    "Symphonies|22|78.614|14.8413|Eisler Deutsche Zagrosek": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8d/30/bb/8d30bba2-b8a8-468c-99fc-59116f72ce89/00028944838923.rgb.jpg/600x600bb.jpg",
+      "album": "Eisler: Deutsche Sinfonie",
+      "artist": "Matthias Goerne, Hendrikje Wangemann, Annette Markert, Peter Lika, Gert Gutschow, Volker Schwarz, Ernst Senff Chor, Gewandhausorchester Leipzig & Lothar Zagrosek",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:52:09.257Z"
+    },
+    "Symphonies|22|78.6363|41.2139|Pfitzner C# minor Thielemann": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/90/64/ab/9064abd8-8178-1db9-e92e-358b508cc7b8/793052112264.jpg/600x600bb.jpg",
+      "album": "Pfitzner: Symphony in C-Sharp Minor",
+      "artist": "Christian Thielemann & Munich Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:52:17.713Z"
+    },
+    "Symphonies|22|78.6447|67.5349|Graener d minor Albert": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/db/8b/ed/db8bedac-22f6-5b7c-858b-5ab9e229c7b9/761203767922.jpg/600x600bb.jpg",
+      "album": "Graener: Orchestral Works, Vol. 2",
+      "artist": "North German Radio Philharmonic Orchestra & Werner Andreas Albert",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:52:22.589Z"
+    },
+    "Symphonies|23|4.5351|14.4442|Braunfels Sinfonia brevis Op.69 Buhl": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/4e/34/7e4e34ad-2814-3a0d-5584-f37f3209a8d6/845221053547.jpg/600x600bb.jpg",
+      "album": "Braunfels: Phantastische Ersheinungen eines Themas von Berlioz, Op. 25 & Sinfonia brevis, Op. 69",
+      "artist": "Rheinland-Pfalz State Philharmonic Orchestra & Gregor Bühl",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:52:34.629Z"
+    },
+    "Symphonies|23|4.7043|40.6957|Hausegger Natursymphonie Rasilanen": {
+      "url": "https://m.media-amazon.com/images/I/51bmdTghcVL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:52:53.603Z"
+    },
+    "Symphonies|23|4.4195|69.4216|Wellesz 4 Rabl": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/05/42/a3/0542a38f-69bc-1433-50f0-383006c47574/761203980826.jpg/600x600bb.jpg",
+      "album": "Wellesz: Symphonies Nos. 4, 6 & 7",
+      "artist": "Gottfried Rabl & Vienna Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:53:00.777Z"
+    },
+    "Symphonies|23|28.0207|14.4564|W.Furtwangler 1 Haimor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/aa/60/79aa60d3-f5a6-7967-6f6a-742864761994/761203537723.jpg/600x600bb.jpg",
+      "album": "Furtwängler: Symphony No. 1 in B Minor",
+      "artist": "Württembergische Philharmonie Reutlingen & Fawzi Haimor",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:53:08.874Z"
+    },
+    "Symphonies|23|28.0516|40.6957|Stohr 1 Hobson": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/7a/52/657a52dc-634a-eae7-84b8-713c8372db10/5060113444721.png/600x600bb.jpg",
+      "album": "Stöhr: Orchestral Music, Vol. 2",
+      "artist": "Sinfonia Varsovia & Ian Hobson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:53:14.842Z"
+    },
+    "Symphonies|23|28.1997|69.7518|Weill 2 Jansons": {
+      "url": "https://m.media-amazon.com/images/I/51xw4t8stAL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:53:31.215Z"
+    },
+    "Symphonies|23|53.7125|14.8649|Hartmann 1 Metzmacher": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/50/82/04/50820460-7f29-c89b-cb76-9ce9d9bac9af/190295225469.jpg/600x600bb.jpg",
+      "album": "Hartmann: Symphony No. 1 \"Versuch eines Requiems\" - Nono: Canti di vita e d'amore - Martinů: Memorial to Lidice",
+      "artist": "Ingo Metzmacher & Bamberg Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:53:37.466Z"
+    },
+    "Symphonies|23|53.4712|40.4727|Hartmann 4 Kubelik": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpe7g_Z4kNOjRsKut6QowhEiSkvNAotU0f5-iZyvj8AvK5ur0LZddEUrGE&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:54:23.131Z"
+    },
+    "Symphonies|23|54.0937|69.9231|Goldmann 1 Kegel": {
+      "url": "https://m.media-amazon.com/images/I/71g2+t6JlzL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:54:38.889Z"
+    },
+    "Symphonies|23|79.444|14.4442|B.Walter 1 Bostein": {
+      "url": "https://i.discogs.com/xUSy0-g0NhHnxMDTJeVi8GeuH3xRTUg7lV9Ky6GOz2k/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzNDQ2/ODAtMTczMDYyOTA3/NS03ODEwLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:54:57.373Z"
+    },
+    "Symphonies|23|79.8678|41.823|F.Weingartner 3 Letonja": {
+      "url": "https://i.discogs.com/Wib96gd63BhJ-DumFJdXA5uqnJaSvhXAcx5tZQhobbM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTEw/NDQ3LTE1NDQzNDc2/NDQtNTQ0MC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:55:16.663Z"
+    },
+    "Symphonies|23|79.6888|69.3094|F.Weingartner 6 Letonja": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/cb/bc/0a/mzi.ssqshvsq.jpg/600x600bb.jpg",
+      "album": "Weingartner, F.: Symphonic Music, Vol. 6 - Fruhling - Symphony No. 6",
+      "artist": "Basel Symphony Orchestra & Marko Letonja",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:55:21.843Z"
+    },
+    "Symphonies|24|4.4996|14.5907|Henze 6 Henze": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/3b/d4/973bd4a1-368a-9b5c-445e-07a3aaefdb54/00028944986129.rgb.jpg/600x600bb.jpg",
+      "album": "Henze: Symphonies Nos. 1-6",
+      "artist": "London Symphony Orchestra & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:55:32.540Z"
+    },
+    "Symphonies|24|3.7625|43.384|Henze 7 Stenz": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/bb/bd/7d/bbbd7dc6-3ad3-7ffd-4b67-a08373d06fce/4260034864467.jpg/600x600bb.jpg",
+      "album": "Henze: Orchestral Works",
+      "artist": "Gürzenich-Orchester Köln & Markus Stenz",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:55:37.479Z"
+    },
+    "Symphonies|24|4.8187|69.1648|Kirchner Sinfonie Totentanz Albrecht": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/32/99/b9/3299b938-6e96-18e1-cd60-5708f4cf94c2/4010228620627.jpg/600x600bb.jpg",
+      "album": "Kirchner: Sinfonie \"Totentanz\" / Requiem \"Messa di Pace\"",
+      "artist": "Various Artists",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:55:43.092Z"
+    },
+    "Symphonies|24|28.398|14.7476|Dessau 2 Kleinert": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Aa__zSMGWjLdPi6PuyK1evMDMdot8p69tIW_P4bt5_5NdM1gce3jQ6Qb&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:55:55.626Z"
+    },
+    "Symphonies|24|28.0742|41.935|Butting 9 Konwitschny": {
+      "url": "https://i.discogs.com/AiHDg_odP7r0PkWz4Xcy4gK5RYP9sirUOWLr94L2nMw/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNTE2/MTctMTQzMzA2MzE5/Ni05OTQ1LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:56:19.605Z"
+    },
+    "Symphonies|24|28.2191|69.3441|Cliensek Sinfonietta Komischke": {
+      "url": "https://m.media-amazon.com/images/I/516hyLbv73L._UXNaN_FMjpg_QL85_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:57:31.449Z"
+    },
+    "Symphonies|24|53.8616|14.6345|Matthus 3 Matthus": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/91/c1/54/mzi.vbfhhfsm.jpg/600x600bb.jpg",
+      "album": "Matthus: Concerto for Violoncello and Orchestra & Symphony No. 2",
+      "artist": "Berlin Comic Opera Orchestra, Siegfried Matthus & Josef Schwab",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:57:37.873Z"
+    },
+    "Symphonies|24|53.585|42.0562|B.A.Zimmermann Sinfonie in einem Hirsch": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/2f/48/60/2f486019-e073-44c1-c330-20dce270400e/4010228734027.jpg/600x600bb.jpg",
+      "album": "Zimmermann: Sinfonie in einem Satz (1. Fassung)",
+      "artist": "WDR Symphony Orchestra Cologne & Peter Hirsch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:57:43.589Z"
+    },
+    "Symphonies|24|53.6168|69.3094|B.A.Zimmermann Vocal Symphony Lintu": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/58/7c/9f/587c9f14-e2ce-419c-cd78-0a8732315954/761195132524.jpg/600x600bb.jpg",
+      "album": "Zimmermann: Violin Concerto, Photoptosis, Die Soldaten Vocal Symphony",
+      "artist": "Finnish Radio Symphony Orchestra & Hannu Lintu",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:57:48.922Z"
+    },
+    "Symphonies|24|79.4384|14.6608|Rihm 1 Huber": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/f3/92/30/mzi.pprybpuy.jpg/600x600bb.jpg",
+      "album": "Rihm, W.: Symphonies Nos. 1 and 2 - Nachtwach - Vers Une Symphonie Fleuve III - Raumauge",
+      "artist": "South West German Radio Symphony Orchestra, Jonathan Stockhammer, Hubert Mayer, Rüdiger Linn, Barbara van den Boom, Ute Wille, Bernhard Hartmann, Mikhail Shashkov, Stuttgart Vocal Ensemble, Marcus Creed, Aleksandra Lustig, Susanne Meissner-Schaufelberger, Angelika Frei, Martin Huber, Michael Peuse, Heinrich Gölzenleuchter, Gianluigi Gelmetti, Rupert Huber & Varianti",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:57:55.466Z"
+    },
+    "Symphonies|24|79.5439|42.0515|Winterberg Sinfonia drammatica Kalitzke": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXrBPo1wJkUm_yI5fewtDLHiXaD3ZiD1x3XOvYRXJ50A&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:58:17.166Z"
+    },
+    "Symphonies|25|4.1696|14.435|Einem Philhadelphia Symphony Most": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/62/64/f7/6264f7e8-1ff2-87d7-25a9-71b67083dbda/4011790929125.jpg/600x600bb.jpg",
+      "album": "Einem: Philadelphia Symphonie, Geistliche Sonate & Stundenlied (Live)",
+      "artist": "Wiener Singverein, Vienna Philharmonic & Franz Welser-Möst",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:58:24.278Z"
+    },
+    "Symphonies|25|4.1307|42.0654|Winbeck 2 R.Davies": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSzCMq4RTcm7UgcLsLaAbhKqqWq_4fmFVS5aLZ2OO90dlisLeravDDxGAm&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T09:58:40.410Z"
+    },
+    "Symphonies|25|4.1923|69.4354|Ruzicka Clean Symphony Ruzicka": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c8/2f/bf/c82fbfa5-7ead-f497-abd5-70c2f1b51acb/4260063110450.jpg/600x600bb.jpg",
+      "album": "Ruzicka: Orchestral Works, Vol. 1",
+      "artist": "Peter Ruzicka",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:59:06.714Z"
+    },
+    "Symphonies|25|28.329|14.7125|Schwertsik Sinfonia㎿Sinfonietta HK Gruber": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/79/41/ab/mzi.nhhpmeax.jpg/600x600bb.jpg",
+      "album": "Schwertsik: Sinfonia - Sinfonietta, Violin Concerto, etc",
+      "artist": "Dennis Russell Davies, Vienna Radio Symphony Orchestra, Christian Altenburger & Kurt Schwertsik",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:59:33.831Z"
+    },
+    "Symphonies|25|28.3163|42.4815|Meij 1 The Lord of the Warble": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/e9/d6/62e9d68f-75f9-cb5c-0b2e-1d261a94b632/0848033079842.jpg/600x600bb.jpg",
+      "album": "De Meij: Symphony No. 1 (Inspired by \"The Lord of the Rings\") / Dukas: The Sorcerer's Apprentice",
+      "artist": "London Symphony Orchestra & David Warble",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:59:38.627Z"
+    },
+    "Symphonies|25|28.3636|70.0714|Meij 4 Sinfonie der Lieder Meij": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/49/ae/60/49ae60b0-ad0e-02c2-d2dc-bf8f6b105640/8714441014497.jpg/600x600bb.jpg",
+      "album": "Symphony No. 4 Sinfonie Der Lieder",
+      "artist": "Johan De Meij & Philips Wind Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T09:59:43.956Z"
+    },
+    "Symphonies|25|54.1141|14.6835|Killmayer 1 Killmayer": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH11SgYtM1jyEufKeg_yNCRKayCa0HVh8zM66cdTPqfw&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:00:23.254Z"
+    },
+    "Symphonies|25|53.9351|42.3123|T.Larcher 2 Lintu": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/ef/68/ecef687b-821a-70b4-1a82-dab47b16386e/0761195139325.jpg/600x600bb.jpg",
+      "album": "Thomas Larcher: Symphony No. 2 \"Kenotaph\" & Die Nacht der Verlorenen",
+      "artist": "Andrè Schuen, Finnish Radio Symphony Orchestra & Hannu Lintu",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:00:33.004Z"
+    },
+    "Symphonies|25|53.9766|69.9446|Schneider 6 Albrecht": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/8c/ae/83/8cae83f5-8996-8b07-0c41-72b4d2236d8d/4010228511727_cover.jpg/600x600bb.jpg",
+      "album": "Schneider: Mystic Landscapes",
+      "artist": "Orchester der Janá3ek-Oper des Nationaltheaters Brünn, Chor der Janá3ek-Oper des Nationaltheaters Brünn, Hansjörg Albrecht & Julia Sophie Wagner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:00:37.484Z"
+    },
+    "Symphonies|25|79.0512|14.7189|Winbeck To Solus R.Davies": {
+      "url": "https://m.media-amazon.com/images/I/61FWUQ2+TJL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:00:54.749Z"
+    },
+    "Symphonies|25|79.1548|41.3926|Doderer 2 Matiakh": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/54/ed/d3/54edd329-0840-7e93-848d-03c8383c58b0/845221052458.jpg/600x600bb.jpg",
+      "album": "Doderer: Symphony No. 2, DWV 93 \"Bohinj\" & Violin Concerto No. 2, DWV 62b \"In Breath of Time\"",
+      "artist": "Yury Revich, Rheinland-Pfalz State Philharmonic Orchestra & Ariane Matiakh",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:01:01.564Z"
+    },
+    "Symphonies|26|3.6357|20.777|Pyotr Ilyich Tchaikovsky 전집 Svetlanov r.Canyon": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002136776/front/400/nWU-spumbUQoxPngxBM0noAf7E_1E-2MlBBPmPAXRBU=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:02:15.811Z"
+    },
+    "Symphonies|26|18.4118|20.7962|Pyotr Ilyich Tchaikovsky 전집 Jansons OPO": {
+      "url": "https://m.media-amazon.com/images/I/81e8g7kv9RL._AC_UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:02:44.591Z"
+    },
+    "Symphonies|26|32.5377|20.777|Pyotr Ilyich Tchaikovsky 전집 Karajan BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/db/e7/89/dbe7892f-aaeb-61be-96e6-36037aad6b00/16UMGIM56448.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Symphonies Nos. 1-6",
+      "artist": "Herbert von Karajan & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:02:52.601Z"
+    },
+    "Symphonies|26|4.0206|45.5163|Pyotr Ilyich Tchaikovsky 1 Svetlanov": {
+      "url": "https://i.scdn.co/image/ab67616d00001e029c6107e9575c5e9e1022a80b",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:03:25.647Z"
+    },
+    "Symphonies|26|18.1841|45.3854|Pyotr Ilyich Tchaikovsky 1 Pletnev": {
+      "url": "https://i.discogs.com/CdK49LLV4aWsKUWmbDM3tx-fFbmiySSDOSgy4O_wlRY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMzIx/NjM1LTE2MzIyNzM0/MDQtMzAxOS5wbmc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:03:51.426Z"
+    },
+    "Symphonies|26|32.5553|45.2323|Pyotr Ilyich Tchaikovsky 2 Karajan": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfqVqb1_gqH9IepM2LrxV-T7-5qxv9bbAkiAmDZidBzQzMcPOWj_5AS_s&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:04:19.285Z"
+    },
+    "Symphonies|26|3.8825|69.9235|Pyotr Ilyich Tchaikovsky 3 Muti": {
+      "url": "https://i.discogs.com/dYQmp97Yr02G6QzEGQQEfOLZyvvlDO7lo1QePonJrGk/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzM0/NDk0LTE3MDk3MTkz/OTAtNjk2Mi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:04:34.222Z"
+    },
+    "Symphonies|26|17.8647|70.1067|Pyotr Ilyich Tchaikovsky 4 Svetlanov": {
+      "url": "https://i.discogs.com/y6RX9ooZC6H_4oiJX2tLECVbRkVeVAIQQdM_xWpYAvo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjA4/NzUyLTE1MTkzNDYx/NzAtNzI3MC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:04:57.916Z"
+    },
+    "Symphonies|26|32.5378|70.1067|Pyotr Ilyich Tchaikovsky 4 Mravinsky": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6c/77/cb/6c77cbdb-846e-866c-8e26-5a636f0cc9cc/00028941974525.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Symphonies Nos. 4, 5 & 6 - \"Pathetique\"",
+      "artist": "Yevgeny Mravinsky & Leningrad Philharmonic Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:05:13.967Z"
+    },
+    "Symphonies|26|53.5798|20.9132|Pyotr Ilyich Tchaikovsky 4 Szell LSO": {
+      "url": "https://us.rarevinyl.com/cdn/shop/products/pyotr-ilyich-tchaikovsky-symphonie-nr-4-f-moll-op-36-german-vinyl-lp-album-record-6-42516-565508_1200x1200_crop_center.jpg?v=1702667718",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:05:59.506Z"
+    },
+    "Symphonies|26|67.6822|20.9177|Pyotr Ilyich Tchaikovsky 5 Jasons 5": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTREyFkM4y355IpGOa69yVYAvNSYUB9eVPv6wQG6yrleciKT4v_0It1urI2&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:06:41.813Z"
+    },
+    "Symphonies|26|53.5798|44.9852|Pyotr Ilyich Tchaikovsky 5 Gergiev WPO": {
+      "url": "https://i.discogs.com/rln5eZlv5SSghpq1-lOY2yR1aDbrCYvJ4SY48r2TbAg/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwNTM4/NTUtMTQ3Mzk2MDQ4/MS01ODI2LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:07:33.067Z"
+    },
+    "Symphonies|26|81.9164|70.2378|Pyotr Ilyich Tchaikovsky Manfred Jansons OPO": {
+      "url": "https://i.discogs.com/4SYsnt9Wyf4C-eSHa_nDV-1tbXv3BTsdxtSD8385pVw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzOTIx/MDQtMTY4ODkxOTYw/Mi0zNDUwLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-25T10:08:03.183Z"
+    },
+    "Symphonies|26|67.9186|44.7282|Pyotr Ilyich Tchaikovsky 6 Markevitch BPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/6b/bb/c26bbbe5-e08f-f4fb-ec04-05d80296967d/21UMGIM84842.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Symphony No. 6; Francesca da Rimini",
+      "artist": "Berlin Philharmonic Orchestra, Orchestre Lamoureux & Igor Markevitch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:08:21.042Z"
+    },
+    "Symphonies|26|82.1117|44.7282|Pyotr Ilyich Tchaikovsky 6 Bernstein NYPO": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/c3/c4/b2c3c4bb-b7b3-dba5-fdae-1b1cdecc83dc/00028941960429.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Symphony No. 6 \"Pathetique\"",
+      "artist": "New York Philharmonic & Leonard Bernstein",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:08:34.830Z"
+    },
+    "Symphonies|26|53.358|70.3264|Pyotr Ilyich Tchaikovsky 6 Currentzis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/57/71/3b/57713b40-a2e9-df63-6582-2cc9370bd23e/886446239934.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Symphony No. 6",
+      "artist": "Teodor Currentzis & MusicAeterna",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:08:40.622Z"
+    },
+    "Symphonies|26|67.7233|70.2378|Pyotr Ilyich Tchaikovsky Manfred Pletnev r.DG": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cf/d9/26/cfd926bc-c583-0615-2cc6-b707c8240f29/00028943989121.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Manfred Symphony, The Tempest",
+      "artist": "Mikhail Pletnev & Russian National Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-25T10:08:49.619Z"
     }
   }
 }
