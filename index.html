@@ -391,7 +391,7 @@ function hdSelectionChanged(a,src,g,p){
  if(panel.hidden)return;
  const entry=hdGet(a,g,p);
  hdOriginalSrc=src;
- $('hdQuery').value=[a.composer||'',a.displayWork||'',a.displayPerformer||''].filter(Boolean).join(' ').trim()||a.q;
+ $('hdQuery').value=searchTextFor(a,g,p)||cleanSearch(a.q)||a.q;
  $('hdCandidates').replaceChildren();
  $('hdStatus').textContent='';
 }
