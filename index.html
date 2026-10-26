@@ -397,6 +397,8 @@ function crop(im,a){
 }
 function showHome(push=true){searchMode=false;$('searchResults').classList.add('hidden');genre=null;selected=null;closeModal();$('home').classList.remove('hidden');$('collection').classList.add('hidden');$('search').value='';$('search').placeholder='Search recordings…';document.title='MY MUSIC ATLAS';closeMenu();if(push)history.pushState(null,'','#/');drawHome();window.scrollTo(0,0)}
 async function drawHome(){
+ // Wait until the external Symphonies catalogue and cover decisions are available.
+ if(!Array.isArray(DATA.Symphonies?.pages)||DATA.Symphonies.pages.length<2)return;
  const root=$('genreGrid');if(root.childElementCount)return;root.replaceChildren();
  for(const g of GENRES){
   const pages=DATA[g].pages;
@@ -408,8 +410,8 @@ async function drawHome(){
      const record=[i,a];
      // User-selected catalogue images have priority over PDF crops.
      // Direct key lookup avoids scanning thousands of stored choices for every album.
-     const saved=hdChanges[albumIdentity(a,g,i)];
-     if((hdEnabled&&saved&&saved.url)||a.coverUrl)highQuality.push(record);
+     const saved=hdGet(a,g,i);
+     if((hdEnabled&&saved&&/^https?:\/\//i.test(saved.url||''))||/^https?:\/\//i.test(a.coverUrl||''))highQuality.push(record);
      else regular.push(record);
     }
    }
@@ -422,7 +424,8 @@ async function drawHome(){
   if(choice){
    const im=document.createElement('img');im.alt=g+' 대표 음반 표지';poster.append(im);
    const record=hdEnabled?hdGet(choice[1],g,choice[0]):null;
-   const verifiedCover=record&&typeof record.url==='string'&&/^https?:\/\//i.test(record.url)?record.url:null;
+   const chosenURL=(record&&record.url)||choice[1].coverUrl||'';
+   const verifiedCover=typeof chosenURL==='string'&&/^https?:\/\//i.test(chosenURL)?chosenURL:null;
    if(verifiedCover){
     im.onerror=()=>{im.onerror=null;getThumb(g,choice[0],choice[1]).then(src=>{if(src)im.src=src;else poster.classList.add('cover-missing')})};
     im.src=verifiedCover;
@@ -912,6 +915,14 @@ async function copyQ(){
  return ok;
 }
 function openRoon(){copyQ();window.location.href='roon://'}
+function openMusicPlayer(base,includeQuery=false){
+ if(!selected)return;
+ const term=$('queryValue').value.trim()||searchTextFor(selected.a,selected.g,selected.p);
+ if(term)copyQ(); // Clipboard fallback: many players do not support search deep links.
+ const url=includeQuery&&term?base+encodeURIComponent(term):base;
+ const win=window.open(url,'_blank','noopener');
+ if(!win)window.location.href=url;
+}
 function openMusicSearch(base){
  if(!selected)return;
  const term=$('queryValue').value.trim()||searchTextFor(selected.a,selected.g,selected.p);
@@ -952,12 +963,14 @@ let debounce;document.addEventListener('DOMContentLoaded',async()=>{
    hdChanges={...saved,...hdChanges};
    hdCounterUpdate();
   }
+  refreshHomeAfterImport(); // Rebuild once the authoritative Symphonies catalogue is loaded.
+  window.dispatchEvent(new Event('atlas-base-data-ready'));
  }catch(e){
   const alert=document.createElement('aside');alert.style.cssText='position:fixed;inset:auto 12px 18px;z-index:9999;padding:18px;background:#fff0e9;border:2px solid #d77;border-radius:12px;color:#501';
   alert.textContent='교향곡 데이터 파일을 불러오지 못했어요. index.html, albums.json, hd-covers.json, covers/ 폴더를 같은 저장소에 업로드하고 GitHub Pages HTTPS 주소로 열어주세요. '+e.message;
   document.body.append(alert);return;
  }
- renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(page-1);$('next').onclick=$('next2').onclick=()=>setPage(page+1);$('closeModal').onclick=closeModal;$('albumModal').onclick=e=>{e.stopPropagation()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('qobuz').onclick=()=>openMusicSearch('https://www.qobuz.com/us-en/search?q=');$('tidal').onclick=()=>openMusicSearch('https://listen.tidal.com/search?q=');$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});
+ renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(page-1);$('next').onclick=$('next2').onclick=()=>setPage(page+1);$('closeModal').onclick=closeModal;$('albumModal').onclick=e=>{e.stopPropagation()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('qobuz').onclick=()=>openMusicPlayer('https://play.qobuz.com/');$('tidal').onclick=()=>openMusicPlayer('https://listen.tidal.com/search?q=',true);$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});let h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});
 
 document.addEventListener('DOMContentLoaded',()=>{
  $('editAlbumBtn').onclick=openAlbumEditor;
@@ -1104,7 +1117,8 @@ document.addEventListener('DOMContentLoaded',()=>{
  // Render default music controls after hidden editor, edit toolbar not public.
  atlasSetEditing(false);
  // Import unified changes on site startup. The original JSON files remain supported.
- atlasImportUnified().then(()=>{refreshHomeAfterImport();if(genre&&!searchMode)renderCovers();else if(searchMode)drawSearchPage();});
+ // Import unified edits after the initial albums.json / hd-covers.json loads.
+ window.addEventListener('atlas-base-data-ready',()=>{atlasImportUnified().then(()=>{refreshHomeAfterImport();if(genre&&!searchMode)renderCovers();else if(searchMode)drawSearchPage();});},{once:true});
 });
 
 </script><div class="hd-float" id="hdFloat"><strong>고화질 표지</strong><span class="hd-label" id="hdCounter">0장 선택 / 1,078장 대상</span><button id="hdSwitch" type="button">고화질 보기</button><button id="hdExport" type="button">선택 결과 저장</button></div></body></html>
