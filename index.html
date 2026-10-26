@@ -144,8 +144,17 @@
 .metadata-editor .edit-save{background:#6761e9;color:white;border-color:#6761e9}
 .metadata-editor .edit-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}
 .edit-hint{font-size:11px;color:#888;margin:7px 0 0}
+
+.collection-actions{display:flex;align-items:center;gap:8px;margin:6px 0 10px;flex-wrap:wrap}
+.collection-actions button{border:1px solid #dedee4;border-radius:9px;background:#fff;padding:9px 12px;font-weight:600;font-size:13px;color:#363640}
+.collection-actions button.primary{background:#f6f5ff;color:#554ee0;border-color:#ddd9ff}
+.collection-actions button.danger{background:#fff4f4;color:#a33;border-color:#f0caca}
+.metadata-editor textarea{display:block;width:100%;min-height:76px;border:1px solid #d7d7df;border-radius:8px;padding:9px 11px;font-size:14px;background:white;color:#242428;resize:vertical}
+.metadata-editor .two-cols{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.metadata-editor .page-note{font-size:12px;color:#777;margin:0 0 8px}
+@media(max-width:700px){.metadata-editor .two-cols{grid-template-columns:1fr}}
 @media(max-width:600px){.metadata-actions{gap:6px}.metadata-actions button{font-size:12px;padding:9px 10px}.metadata-editor{padding:10px}.metadata-editor .edit-row button{flex:1}}
-</style></head><body><div class="scrim" id="scrim"></div><aside class="side" id="sidebar" aria-label="장르 메뉴"><button type="button" id="sideClose" class="side-close" aria-label="메뉴 닫기">×</button><button id="sideBrand" class="side-title">MY MUSIC ATLAS</button><button id="menuHome">⌂ &nbsp; Home</button><div class="side-hint">GENRES</div><div id="genreNav"></div><div class="side-hint">PERSONAL CLASSICAL MUSIC ARCHIVE</div></aside><div class="workspace"><header class="top"><button id="menuBtn" class="menu-button" aria-label="메뉴 열기">☰</button><button class="brand-button" id="homeBrand">MY MUSIC ATLAS</button><input id="search" class="search" type="search" placeholder="Search recordings…" aria-label="음반 검색"></header><section id="home" class="home"><h1>My Collection</h1><p class="home-sub">Personal classical music archive · six collections</p><div class="genre-grid" id="genreGrid"></div></section><section id="collection" class="collection hidden"><div class="collection-head"><div class="eyebrow" id="collectionGenre">SYMPHONIES</div><h1 id="locationTitle"></h1><div id="eraTitle" style="font-size:clamp(20px,3vw,32px);color:#777;margin:3px 0 8px"></div></div><div class="nav"><select id="region" aria-label="나라 선택"></select><label class="pagebox"><select id="page" aria-label="페이지 선택"></select><span id="pageTotal">/ 86</span></label><button class="arrow" id="prev" aria-label="이전 페이지">←</button><button class="arrow" id="next" aria-label="다음 페이지">→</button><span class="total" id="count"></span></div><div class="sectionhead"><strong id="albumSectionTitle">Symphonies</strong><small id="pageInfo"></small></div><div class="albums" id="albums"></div><div class="pager"><button id="prev2">←</button><span id="pagerText"></span><button id="next2">→</button></div></section><section id="searchResults" class="search-results hidden"><div class="eyebrow">MY MUSIC ATLAS / ALL COLLECTIONS</div><h1>Search Results</h1><p id="searchSummary" class="search-summary" aria-live="polite"></p><div class="albums" id="searchAlbums"></div><div class="search-pager" id="searchPager"><button id="searchPrev" aria-label="이전 검색 결과">←</button><span id="searchPageLabel"></span><button id="searchNext" aria-label="다음 검색 결과">→</button></div></section><footer class="atlas-footer" id="atlasFooter"><div class="atlas-footer-top"><div class="atlas-stats"><div class="atlas-stat"><strong>6</strong><span>COLLECTIONS</span></div><div class="atlas-stat"><strong>542</strong><span>PAGES</span></div><div class="atlas-stat"><strong>6,751</strong><span>RECORDINGS</span></div></div><div class="atlas-guide"><h2>How to Explore</h2><div class="atlas-steps"><div class="atlas-step"><b>장르와 지역 선택</b><p>장르를 선택하고 국가·시대별로 정리된 목록을 탐색하세요.</p></div><div class="atlas-step"><b>음반 표지 선택</b><p>표지를 누르면 음반 검색어와 연결 버튼이 표시됩니다.</p></div><div class="atlas-step"><b>Roon · Apple Music</b><p>원하는 음악 서비스에서 검색 결과를 확인하세요.</p></div></div></div></div></footer></div><div class="modal" id="albumModal"><div class="detail" role="dialog" aria-modal="true" aria-labelledby="albumName"><button class="close" id="closeModal" aria-label="닫기">×</button><img id="modalArt" alt="음반 표지"><h2 id="albumName"></h2><div class="metadata-actions"><button id="editAlbumBtn" type="button">✎ 정보 수정</button><button id="exportEditsBtn" type="button">수정 내용 저장 JSON</button></div><div class="metadata-editor" id="metadataEditor" hidden><label for="editComposer">작곡가 · 굵게</label><input id="editComposer" autocomplete="off" spellcheck="false" placeholder="예: Anton Bruckner"><label for="editWork">곡명 · 중간 굵기</label><input id="editWork" autocomplete="off" spellcheck="false" placeholder="예: Symphony No.2"><label for="editPerformer">연주자 · 가늘게</label><input id="editPerformer" autocomplete="off" spellcheck="false" placeholder="예: Carlo Maria Giulini"><div class="edit-row"><button id="editSaveBtn" class="edit-save" type="button">수정 저장</button><button id="editCancelBtn" type="button">취소</button><button id="editResetBtn" type="button">원래 표기로</button></div><p class="edit-hint">이 기기의 브라우저에 먼저 저장됩니다. 다른 기기에 적용하려면 수정 내용 JSON을 GitHub에 업로드하세요.</p></div><section class="hd-panel" id="hdPanel" hidden>
+</style></head><body><div class="scrim" id="scrim"></div><aside class="side" id="sidebar" aria-label="장르 메뉴"><button type="button" id="sideClose" class="side-close" aria-label="메뉴 닫기">×</button><button id="sideBrand" class="side-title">MY MUSIC ATLAS</button><button id="menuHome">⌂ &nbsp; Home</button><div class="side-hint">GENRES</div><div id="genreNav"></div><div class="side-hint">PERSONAL CLASSICAL MUSIC ARCHIVE</div></aside><div class="workspace"><header class="top"><button id="menuBtn" class="menu-button" aria-label="메뉴 열기">☰</button><button class="brand-button" id="homeBrand">MY MUSIC ATLAS</button><input id="search" class="search" type="search" placeholder="Search recordings…" aria-label="음반 검색"></header><section id="home" class="home"><h1>My Collection</h1><p class="home-sub">Personal classical music archive · six collections</p><div class="genre-grid" id="genreGrid"></div></section><section id="collection" class="collection hidden"><div class="collection-head"><div class="eyebrow" id="collectionGenre">SYMPHONIES</div><h1 id="locationTitle"></h1><div id="eraTitle" style="font-size:clamp(20px,3vw,32px);color:#777;margin:3px 0 8px"></div></div><div class="nav"><select id="region" aria-label="나라 선택"></select><label class="pagebox"><select id="page" aria-label="페이지 선택"></select><span id="pageTotal">/ 86</span></label><button class="arrow" id="prev" aria-label="이전 페이지">←</button><button class="arrow" id="next" aria-label="다음 페이지">→</button><span class="total" id="count"></span></div><div class="sectionhead"><strong id="albumSectionTitle">Symphonies</strong><small id="pageInfo"></small></div><div class="albums" id="albums"></div><div class="pager"><button id="prev2">←</button><span id="pagerText"></span><button id="next2">→</button></div></section><section id="searchResults" class="search-results hidden"><div class="eyebrow">MY MUSIC ATLAS / ALL COLLECTIONS</div><h1>Search Results</h1><p id="searchSummary" class="search-summary" aria-live="polite"></p><div class="albums" id="searchAlbums"></div><div class="search-pager" id="searchPager"><button id="searchPrev" aria-label="이전 검색 결과">←</button><span id="searchPageLabel"></span><button id="searchNext" aria-label="다음 검색 결과">→</button></div></section><footer class="atlas-footer" id="atlasFooter"><div class="atlas-footer-top"><div class="atlas-stats"><div class="atlas-stat"><strong>6</strong><span>COLLECTIONS</span></div><div class="atlas-stat"><strong>542</strong><span>PAGES</span></div><div class="atlas-stat"><strong>6,751</strong><span>RECORDINGS</span></div></div><div class="atlas-guide"><h2>How to Explore</h2><div class="atlas-steps"><div class="atlas-step"><b>장르와 지역 선택</b><p>장르를 선택하고 국가·시대별로 정리된 목록을 탐색하세요.</p></div><div class="atlas-step"><b>음반 표지 선택</b><p>표지를 누르면 음반 검색어와 연결 버튼이 표시됩니다.</p></div><div class="atlas-step"><b>Roon · Apple Music</b><p>원하는 음악 서비스에서 검색 결과를 확인하세요.</p></div></div></div></div></footer></div><div class="modal" id="albumModal"><div class="detail" role="dialog" aria-modal="true" aria-labelledby="albumName"><button class="close" id="closeModal" aria-label="닫기">×</button><img id="modalArt" alt="음반 표지"><h2 id="albumName"></h2><div class="metadata-actions"><button id="editAlbumBtn" type="button">✎ 정보 수정</button><button id="exportEditsBtn" type="button">수정 내용 저장 JSON</button></div><div class="collection-actions"><button id="newAlbumBtn" class="primary" type="button">＋ 앨범 추가</button><button id="deleteAlbumBtn" class="danger" type="button">－ 현재 앨범 삭제</button><button id="exportCollectionBtn" type="button">추가·삭제 저장 JSON</button></div><div class="metadata-editor" id="metadataEditor" hidden><label for="editComposer">작곡가 · 굵게</label><input id="editComposer" autocomplete="off" spellcheck="false" placeholder="예: Anton Bruckner"><label for="editWork">곡명 · 중간 굵기</label><input id="editWork" autocomplete="off" spellcheck="false" placeholder="예: Symphony No.2"><label for="editPerformer">연주자 · 가늘게</label><input id="editPerformer" autocomplete="off" spellcheck="false" placeholder="예: Carlo Maria Giulini"><div class="edit-row"><button id="editSaveBtn" class="edit-save" type="button">수정 저장</button><button id="editCancelBtn" type="button">취소</button><button id="editResetBtn" type="button">원래 표기로</button></div><p class="edit-hint">이 기기의 브라우저에 먼저 저장됩니다. 다른 기기에 적용하려면 수정 내용 JSON을 GitHub에 업로드하세요.</p></div><div class="metadata-editor" id="newAlbumEditor" hidden><p class="page-note" id="newAlbumPageNote">현재 페이지에 새 음반을 추가합니다.</p><label for="newComposer">작곡가 · 굵게</label><input id="newComposer" autocomplete="off" spellcheck="false" placeholder="예: Franz Schubert"><label for="newWork">곡명 · 중간 굵기</label><input id="newWork" autocomplete="off" spellcheck="false" placeholder="예: Symphony No.5"><label for="newPerformer">연주자 · 가늘게</label><input id="newPerformer" autocomplete="off" spellcheck="false" placeholder="예: Karl Böhm"><label for="newSearchQuery">검색어 (선택)</label><input id="newSearchQuery" autocomplete="off" spellcheck="false" placeholder="비우면 작곡가 + 연주자로 자동 생성"><label for="newCoverUrl">표지 이미지 URL</label><input id="newCoverUrl" autocomplete="off" spellcheck="false" placeholder="https://..."><div class="edit-row"><button id="newSaveBtn" class="edit-save" type="button">앨범 추가 저장</button><button id="newCancelBtn" type="button">취소</button></div><p class="edit-hint">새 음반은 현재 페이지 맨 뒤에 추가됩니다. 표지 URL이 있어야 화면에 바로 표시됩니다.</p></div><section class="hd-panel" id="hdPanel" hidden>
  <div class="hd-tools"><input type="text" id="hdQuery" aria-label="외부 표지 검색어" spellcheck="false" autocomplete="off"><button id="hdFind" type="button">앨범검색</button><button id="hdClear" type="button">선택해제</button></div>
  <div class="hd-status" id="hdStatus" aria-live="polite"></div>
  <div class="hd-candidates" id="hdCandidates"></div>
@@ -202,7 +211,7 @@ function cleanSearch(raw){
 }
 function validEntry(a){return a&&typeof a.q==='string'&&a.q.trim()&&!/^(?:Symphonies|Orchestral|Concertos|Chamber|Solo|Vocal)\s*[·.-]\s*page\s*\d+$/i.test(a.q.trim());}
 
-function getThumb(g,p,a){const image=DATA[g].images[p];return new Promise(res=>{let src=new Image();src.onload=()=>res(crop(src,a));src.onerror=()=>res('');src.src=image;})}
+function getThumb(g,p,a){if(a&&a.coverUrl)return Promise.resolve(a.coverUrl);const image=DATA[g].images[p];return new Promise(res=>{let src=new Image();src.onload=()=>res(crop(src,a));src.onerror=()=>res('');src.src=image;})}
 function crop(im,a){
  let c=document.createElement('canvas');c.width=240;c.height=240;
  let ctx=c.getContext('2d');
@@ -229,7 +238,7 @@ function crop(im,a){
 function showHome(push=true){searchMode=false;$('searchResults').classList.add('hidden');genre=null;selected=null;closeModal();$('home').classList.remove('hidden');$('collection').classList.add('hidden');$('search').value='';$('search').placeholder='Search recordings…';document.title='MY MUSIC ATLAS';closeMenu();if(push)history.pushState(null,'','#/');drawHome();window.scrollTo(0,0)}
 async function drawHome(){const root=$('genreGrid');if(root.childElementCount)return;root.replaceChildren();
  for(const g of GENRES){let pages=DATA[g].pages;
-  if(!homeThumbs[g]){let available=pages.map((p,i)=>[p,i]).filter(([p,i])=>i>0&&p.links.length);if(available.length){let [p,idx]=available[Math.floor(Math.random()*available.length)];const valid=p.links.filter(validEntry);if(valid.length)homeThumbs[g]=[idx,valid[Math.floor(Math.random()*valid.length)]]}}
+  if(!homeThumbs[g]){let available=pages.map((p,i)=>[p,i]).filter(([p,i])=>i>0&&pageLinks(g,i).length);if(available.length){let [p,idx]=available[Math.floor(Math.random()*available.length)];const valid=pageLinks(g,idx).filter(validEntry);if(valid.length)homeThumbs[g]=[idx,valid[Math.floor(Math.random()*valid.length)]]}}
   let btn=document.createElement('button');btn.className='genre-card';btn.onclick=()=>openGenre(g,1);
   let poster=document.createElement('div');poster.className='genre-poster';
   const choice=homeThumbs[g];if(choice){let im=document.createElement('img');im.alt=g+' 대표 음반 표지';poster.append(im);getThumb(g,choice[0],choice[1]).then(src=>{if(src)im.src=src;else poster.classList.add('cover-missing')})}
@@ -300,7 +309,7 @@ function albumComposerFromPage(g,p,a){
 const EDIT_STORAGE_KEY='my-music-atlas-metadata-edits-v1';
 let albumEdits={};
 try{const v=JSON.parse(localStorage.getItem(EDIT_STORAGE_KEY)||'{}');if(v&&typeof v==='object'&&!Array.isArray(v))albumEdits=v}catch(e){}
-function editKey(a,g,p){return [g,p,a.x,a.y,a.q].join('|')}
+function editKey(a,g,p){return albumIdentity(a,g,p)}
 function editedAlbum(a,g,p){return albumEdits[editKey(a,g,p)]||null}
 function textFields(a,g,p){
  const override=editedAlbum(a,g,p);
@@ -364,6 +373,22 @@ function exportAlbumEdits(){
  const blob=new Blob([JSON.stringify({format:'MY MUSIC ATLAS metadata corrections',version:1,createdAt:new Date().toISOString(),edits:albumEdits},null,2)],{type:'application/json'});
  const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='album-edits.json';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);
 }
+
+const COLLECTION_STORAGE_KEY='my-music-atlas-collection-edits-v1';
+let collectionEdits={added:{},removed:{}};
+try{const v=JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY)||'{}');if(v&&typeof v==='object'){collectionEdits={added:v.added||{},removed:v.removed||{}}}}catch(e){collectionEdits={added:{},removed:{}}}
+function collectionStore(){try{localStorage.setItem(COLLECTION_STORAGE_KEY,JSON.stringify(collectionEdits))}catch(e){}}
+function pageKey(g,p){return [g,p].join('|')}
+function albumIdentity(a,g,p){if(a&&a.id)return String(a.id);return [g,p,a?.x??'',a?.y??'',a?.w??'',a?.h??'',a?.q??''].join('|')}
+function isRemovedAlbum(a,g,p){return !!collectionEdits.removed[albumIdentity(a,g,p)]}
+function pageLinks(g,p){const base=(DATA[g]?.pages?.[p]?.links||[]).filter(validEntry).filter(a=>!isRemovedAlbum(a,g,p));const extra=(collectionEdits.added[pageKey(g,p)]||[]).filter(validEntry);return [...base,...extra]}
+function mergeCollectionEdits(data){if(!data||typeof data!=='object')return;collectionEdits={added:{...(data.added||{}),...collectionEdits.added},removed:{...(data.removed||{}),...collectionEdits.removed}};collectionStore()}
+function exportCollectionEdits(){const body=JSON.stringify({format:'MY MUSIC ATLAS collection edits',version:1,createdAt:new Date().toISOString(),added:collectionEdits.added,removed:collectionEdits.removed},null,2);const a=document.createElement('a');const url=URL.createObjectURL(new Blob([body],{type:'application/json'}));a.href=url;a.download='collection-edits.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)}
+function currentPageName(){return `${genre||''} ${page||''}`.trim()}
+function openNewAlbumEditor(){if(!selected)return;$('metadataEditor').hidden=true;$('newAlbumEditor').hidden=false;$('newAlbumPageNote').textContent=`현재 페이지(${selected.g} ${selected.p}페이지) 맨 뒤에 새 음반을 추가합니다.`;$('newComposer').value='';$('newWork').value='';$('newPerformer').value='';$('newSearchQuery').value='';$('newCoverUrl').value=$('modalArt').src||'';$('newComposer').focus()}
+function cancelNewAlbumEditor(){$('newAlbumEditor').hidden=true}
+function saveNewAlbum(){if(!selected)return;const composer=$('newComposer').value.trim();const work=$('newWork').value.trim();const performer=$('newPerformer').value.trim();const searchQuery=$('newSearchQuery').value.trim();const coverUrl=$('newCoverUrl').value.trim();if(!composer){$('newComposer').focus();$('message').textContent='새 음반의 작곡가를 입력해 주세요.';return}if(!coverUrl){$('newCoverUrl').focus();$('message').textContent='표지 이미지 URL을 입력해 주세요.';return}const a={id:'manual-'+Date.now()+'-'+Math.random().toString(36).slice(2,7),q:[composer,work,performer].filter(Boolean).join(' ').trim(),composer:composer,displayWork:work,displayPerformer:performer,searchQuery:searchQuery,coverUrl:coverUrl,manualAdded:true};const k=pageKey(selected.g,selected.p);if(!collectionEdits.added[k])collectionEdits.added[k]=[];collectionEdits.added[k].push(a);collectionStore();$('newAlbumEditor').hidden=true;$('message').textContent='새 음반을 현재 페이지 맨 뒤에 추가했어요. 추가·삭제 저장 JSON으로 백업해 두세요.';if(searchMode)drawSearchPage();else if(genre===selected.g){renderCovers()}}
+function deleteCurrentAlbum(){if(!selected)return;const {a,g,p}=selected;if(a.manualAdded){const k=pageKey(g,p);collectionEdits.added[k]=(collectionEdits.added[k]||[]).filter(item=>albumIdentity(item,g,p)!==albumIdentity(a,g,p));if(!collectionEdits.added[k].length)delete collectionEdits.added[k]}else{collectionEdits.removed[albumIdentity(a,g,p)]=true}collectionStore();closeModal();$('message').textContent='';if(searchMode)drawSearchPage();else if(genre===g){renderCovers()}}
 
 function makeAlbumLabel(q,g,p,a){
  const custom=editedAlbum(a,g,p);if(custom)return visibleLabelFromFields(custom);
@@ -468,7 +493,7 @@ let hdOriginalSrc='';
 let hdChanges={};
 try{const data=JSON.parse(localStorage.getItem(HD_STORAGE_KEY)||'{}'); if(data && typeof data==='object' && !Array.isArray(data)) hdChanges=data;}catch(e){hdChanges={}}
 function hdEligible(g,p){return g==='Symphonies' && p>=1 && p<=85}
-function hdKey(a,g,p){return [g,p,a.x,a.y,a.q].join('|')}
+function hdKey(a,g,p){return albumIdentity(a,g,p)}
 function hdGet(a,g,p){return hdChanges[hdKey(a,g,p)]||null}
 function hdStore(){try{localStorage.setItem(HD_STORAGE_KEY,JSON.stringify(hdChanges))}catch(e){$('hdStatus').textContent='저장 공간 사용이 제한되어 있습니다. 선택 결과 저장 버튼으로 JSON을 백업하세요.'}hdCounterUpdate()}
 function hdCounterUpdate(){const n=Object.keys(hdChanges).filter(k=>k.startsWith('Symphonies|')).length;$('hdCounter').textContent=`${n}장 선택 / 1,078장 대상`;$('hdSwitch').textContent=hdEnabled?'원본 보기':'고화질 보기';$('hdSwitch').classList.toggle('hd-on',hdEnabled)}
@@ -541,14 +566,14 @@ document.addEventListener('DOMContentLoaded',()=>{
  hdCounterUpdate();
 });
 
-function renderCovers(){let stamp=++renderId;let items=DATA[genre].pages[page].links.filter(a=>validEntry(a)&&(!query||normalize(a.q).includes(normalize(query))));$('count').textContent=`${items.length} recordings on this page`;const root=$('albums');root.replaceChildren();if(!items.length){root.textContent='검색 결과가 없습니다.';return}let img=new Image();img.onload=()=>{if(stamp!==renderId)return;for(let a of items){let btn=document.createElement('button');btn.className='album';btn.setAttribute('aria-label',a.q+' 상세 정보');let f=document.createElement('div');f.className='art';let im=document.createElement('img');im.loading='lazy';let src=crop(img,a);if(!src)continue;im.src=(hdEnabled&&hdEligible(genre,page)?(hdGet(a,genre,page)?.url||src):src);im.onerror=()=>{if(im.src!==src)im.src=src};im.classList.toggle('hd-applied',hdEnabled&&!!hdGet(a,genre,page)?.url&&hdEligible(genre,page));im.alt=a.q;f.append(im);let t=makeAlbumLabel(a.q,genre,page,a);btn.append(f,t);btn.onclick=()=>selectAlbum(a,src,genre,page);root.append(btn)}};img.onerror=()=>root.textContent='표지 이미지를 불러올 수 없습니다.';img.src=DATA[genre].images[page]}
+function renderCovers(){let stamp=++renderId;let items=pageLinks(genre,page).filter(a=>validEntry(a)&&(!query||normalize((a.q||'')+' '+(a.searchQuery||'')).includes(normalize(query))));$('count').textContent=`${items.length} recordings on this page`;const root=$('albums');root.replaceChildren();if(!items.length){root.textContent='검색 결과가 없습니다.';return}let img=new Image();img.onload=()=>{if(stamp!==renderId)return;for(let a of items){let btn=document.createElement('button');btn.className='album';btn.setAttribute('aria-label',a.q+' 상세 정보');let f=document.createElement('div');f.className='art';let im=document.createElement('img');im.loading='lazy';let src=a.coverUrl||crop(img,a);if(!src)continue;im.src=(hdEnabled&&hdEligible(genre,page)?(hdGet(a,genre,page)?.url||src):src);im.onerror=()=>{if(im.src!==src)im.src=src};im.classList.toggle('hd-applied',hdEnabled&&!!hdGet(a,genre,page)?.url&&hdEligible(genre,page));im.alt=a.q;f.append(im);let t=makeAlbumLabel(a.q,genre,page,a);btn.append(f,t);btn.onclick=()=>selectAlbum(a,src,genre,page);root.append(btn)}};img.onerror=()=>root.textContent='표지 이미지를 불러올 수 없습니다.';img.src=DATA[genre].images[page]}
 
 function runGlobalSearch(v){
  closeMenu();v=v.trim();if(!v){searchMode=false;$('searchResults').classList.add('hidden');if(genre){$('collection').classList.remove('hidden');renderGenre()}else{$('home').classList.remove('hidden');drawHome()}return}
  searchMode=true;query='';searchHits=[];searchOffset=0;++searchToken;
  const words=normalize(v).split(/\s+/).filter(Boolean);
  for(const g of GENRES){const d=DATA[g];for(let i=1;i<d.pages.length;i++){
-  const p=d.pages[i];for(const a of p.links){const q=normalize(a.q+' '+Object.values(editedAlbum(a,g,i)||{}).join(' '));if(validEntry(a)&&words.every(w=>q.includes(w)))searchHits.push({g,i,a,region:getRegion(p)})}
+  const p=d.pages[i];for(const a of pageLinks(g,i)){const q=normalize((a.q||'')+' '+(a.searchQuery||'')+' '+Object.values(editedAlbum(a,g,i)||{}).join(' '));if(validEntry(a)&&words.every(w=>q.includes(w)))searchHits.push({g,i,a,region:getRegion(p)})}
  }}
  $('home').classList.add('hidden');$('collection').classList.add('hidden');$('searchResults').classList.remove('hidden');
  $('searchSummary').textContent=`“${v}” · ${searchHits.length.toLocaleString()}개 음반 검색 결과 · 6개 장르 전체`;
@@ -585,6 +610,7 @@ function onlyArtistName(raw){
  return s.replace(/\s+/g,' ').replace(/^[.·,\s]+|[.·,\s]+$/g,'').trim();
 }
 function searchTextFor(a,g,p){
+ if(a&&a.searchQuery&&String(a.searchQuery).trim())return String(a.searchQuery).trim();
  const correction=editedAlbum(a,g,p);
  if(correction)return [correction.composer,onlyArtistName(correction.performer)].filter(Boolean).join(' ').replace(/\s+/g,' ').trim();
  const label=makeAlbumLabel(a.q,g,p,a);
@@ -604,11 +630,14 @@ function searchTextFor(a,g,p){
 }
 function selectAlbum(a,src,fromGenre=genre,fromPage=page){
  selected={a,g:fromGenre,p:fromPage};
- $('modalArt').src=(hdEnabled&&hdEligible(fromGenre,fromPage)?(hdGet(a,fromGenre,fromPage)?.url||src):src);$('modalArt').onerror=()=>{$('modalArt').src=src};
+ const modalSrc=(hdEnabled&&hdEligible(fromGenre,fromPage)?(hdGet(a,fromGenre,fromPage)?.url||(a.coverUrl||src)):(a.coverUrl||src));
+ $('modalArt').src=modalSrc;$('modalArt').onerror=()=>{$('modalArt').src=a.coverUrl||src};
  hdSelectionChanged(a,src,fromGenre,fromPage);
  const visible=makeAlbumLabel(a.q,fromGenre,fromPage,a);
  $('albumName').textContent=visible.textContent.replace(/\s+/g,' ').trim()||COMPOSER_QC(a.q);
  $('metadataEditor').hidden=true;
+ $('newAlbumEditor').hidden=true;
+ $('deleteAlbumBtn').textContent=a.manualAdded?'－ 추가한 앨범 삭제':'－ 현재 앨범 삭제';
  $('queryValue').value=searchTextFor(a,fromGenre,fromPage);
  $('message').textContent='';
  $('albumModal').classList.add('open');document.body.style.overflow='hidden';
@@ -647,6 +676,7 @@ let debounce;document.addEventListener('DOMContentLoaded',async()=>{
   if(!Array.isArray(sym.pages)||sym.pages.length!==86||!Array.isArray(sym.images)||sym.images.length!==86)throw Error('교향곡 데이터 형식 오류');
   DATA.Symphonies=sym;
   try{const metadata=await fetch('album-edits.json',{cache:'no-cache'});if(metadata.ok){const data=await metadata.json();if(data&&data.edits)albumEdits={...data.edits,...albumEdits};}}catch(e){}
+  try{const c=await fetch('collection-edits.json',{cache:'no-cache'});if(c.ok){const data=await c.json();mergeCollectionEdits(data);}}catch(e){}
   if(h.ok){
    const approved=await h.json();const saved=approved.covers||{};
    // Manually confirmed changes from the same browser take priority over imported data.
@@ -666,5 +696,10 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('editCancelBtn').onclick=()=>{$('metadataEditor').hidden=true};
  $('editResetBtn').onclick=resetAlbumEdit;
  $('exportEditsBtn').onclick=exportAlbumEdits;
+ $('newAlbumBtn').onclick=openNewAlbumEditor;
+ $('newSaveBtn').onclick=saveNewAlbum;
+ $('newCancelBtn').onclick=cancelNewAlbumEditor;
+ $('deleteAlbumBtn').onclick=deleteCurrentAlbum;
+ $('exportCollectionBtn').onclick=exportCollectionEdits;
 });
 </script><div class="hd-float" id="hdFloat"><strong>고화질 실험</strong><span class="hd-label" id="hdCounter">0장 선택 / 1,078장 대상</span><button id="hdSwitch" type="button">고화질 보기</button><button id="hdExport" type="button">선택 결과 저장</button></div></body></html>
