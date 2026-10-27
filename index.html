@@ -1311,6 +1311,7 @@ function atlasSetEditing(on){
  // Never open the editor on phone-sized screens, including restored states.
  if(on && window.matchMedia('(max-width: 700px)').matches)on=false;
  atlasEditMode=!!on;
+ if(atlasEditMode&&$('atlasImageURL'))$('atlasImageURL').value='';
  const el=document.querySelector('#albumModal .detail');
  if(!el)return;
  el.classList.toggle('atlas-editing',atlasEditMode);
@@ -1338,6 +1339,7 @@ function atlasApplyURL(){
  const val=$('atlasImageURL').value.trim();
  if(!/^https:\/\//i.test(val)){$('atlasEditStatus').textContent='https:// 로 시작하는 이미지 주소를 넣어 주세요.';return}
  hdApply(selected.a,selected.g,selected.p,{url:val,source:'Manual image URL'});
+ $('atlasImageURL').value='';
  $('atlasEditStatus').textContent='표지 미리보기에 적용했어. 아래 저장을 눌러 백업해 주세요.';
 }
 function atlasExternalSearch(provider){
@@ -1455,7 +1457,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  $('atlasCandidatesHolder').append(panel.querySelector('.hd-status'),panel.querySelector('.hd-candidates'));
  $('atlasMetaHolder').append($('metadataEditor'));
  $('atlasAddHolder').append($('newAlbumEditor'));
- const urlRow=document.createElement('div');urlRow.className='atlas-url-tools';urlRow.innerHTML='<input id="atlasImageURL" type="url" placeholder="Google · Discogs 이미지 주소 붙여넣기"><button id="atlasApplyURL" type="button">주소 적용</button>';
+ const urlRow=document.createElement('div');urlRow.className='atlas-url-tools';urlRow.innerHTML='<input id="atlasImageURL" type="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Google · Discogs 이미지 주소 붙여넣기"><button id="atlasApplyURL" type="button">주소 적용</button>';
  $('atlasImageTools').append(urlRow);
  panel.hidden=false;panel.style.display='block'; // the inner HD controls now live in the editor only
  editToggle.onclick=()=>atlasSetEditing(true);
