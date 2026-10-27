@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-10-27T11:03:59.274Z",
+  "createdAt": "2026-10-27T12:16:49.117Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -7457,6 +7457,468 @@
       "artist": "",
       "source": "Manual image URL",
       "approvedAt": "2026-10-26T09:08:39.418Z"
+    },
+    "Orchestral|1|4.53643|23.74431|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fasolis / Goodman / Huggett / Valetti": {
+      "url": "https://m.media-amazon.com/images/I/41Zx9iqYVnL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:21:28.234Z"
+    },
+    "Orchestral|1|18.68031|23.77004|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fortin Musical Offering BWV1079": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/dd/4e/36dd4e2a-62d3-6c1c-e4f2-38f3f0b2f789/3760014198328.png/600x600bb.jpg",
+      "album": "Bach: Ouvertures-Suites",
+      "artist": "Ensemble Masques & Olivier Fortin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:21:41.029Z"
+    },
+    "Orchestral|1|32.77267|23.79592|Alessandrini": {
+      "url": "https://m.media-amazon.com/images/I/81Di52JofML._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:22:12.590Z"
+    },
+    "Orchestral|1|4.47849|48.16286|Musical Offering BWV1079 Huggett / Valetti Savall Die Kunst der Fuge BWV1080": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTVxmmYNqjJAnwqst0ScMaKhDxWzP2g8VH07MkpngIJl4Een_HAE4zv_if&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:22:44.149Z"
+    },
+    "Orchestral|1|18.68031|48.13684|Musical Offering BWV1079 Fortin Suzuki Die Kunst der Fuge BWV1080": {
+      "url": "https://image.bugsm.co.kr/album/images/200/126944/12694492.jpg?version=20240430061814",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:23:39.473Z"
+    },
+    "Orchestral|1|4.46314|72.94235|Die Kunst der Fuge BWV1080 Savall Alte Musik Berlin": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/77/b1/0a/mzi.cvlourck.jpg/600x600bb.jpg",
+      "album": "Bach: Die Kunst der Fuge (The Art of Fugue)",
+      "artist": "Akademie für Alte Musik Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:23:46.112Z"
+    },
+    "Orchestral|1|18.58101|73.17631|Die Kunst der Fuge BWV1080 Suzuki Savall": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/98/a0/2a/mzi.qrrzvbxg.tif/600x600bb.jpg",
+      "album": "J.S. Bach: Die Kunst Der Fuge",
+      "artist": "Hespèrion XXI & Jordi Savall",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:23:50.913Z"
+    },
+    "Orchestral|1|32.80649|73.02|Casals Quartet ㏙arr.㏚": {
+      "url": "https://www.harmoniamundi.com/wp-content/uploads/2023/02/902717_12x12-scaled.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:24:08.291Z"
+    },
+    "Orchestral|1|54.05669|23.79922|Trio Sonatas BWV525~530 ㏙trans.㏚ London Baroque Orchestral Transcription": {
+      "url": "https://i.discogs.com/b-_KRRw5nD5kWreS6ARNchJKTSpq3K6ej3SSezLBCxM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNzcy/MTQwLTE3NDUyODIy/OTItNDg4MC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:24:25.170Z"
+    },
+    "Orchestral|1|68.46294|23.66825|Trio Sonatas BWV525~530 ㏙trans.㏚ Purcell Quartet Orchestral Transcription": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2f/02/d0/2f02d03c-f078-68c4-da5c-86ae06d296aa/5059864065439.png/600x600bb.jpg",
+      "album": "Bach: Trio Sonatas",
+      "artist": "Purcell Quartet",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:24:31.919Z"
+    },
+    "Orchestral|1|82.71768|23.77296|org.Wilkinson": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/11/c2/eb/11c2eb7c-9181-2334-850d-61eb77c760cf/5060216349077.jpg/600x600bb.jpg",
+      "album": "Organ Sonata No. 6 in G Major, BWV 530: I. Vivace - Single",
+      "artist": "Tom Wilkinson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:24:36.349Z"
+    },
+    "Orchestral|1|54.19529|48.19444|Orchestral Transcription London Baroque Salonen": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG9zDKlHPV9i_1AeQPgWUMYchvWcYhT4BHlo4o1pwMtbBvJU_UO_Os6mou&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:24:51.566Z"
+    },
+    "Orchestral|1|68.50153|48.07058|Orchestral Transcription Purcell Quartet Ozawa": {
+      "url": "https://i.discogs.com/HvjkCcbnLy5dEGwxGbvhW9Ym6gBRlrnh8itrj6LR7ls/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjg4/Mzc5LTE2MzA4NzMw/MzEtOTk3OC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:25:11.898Z"
+    },
+    "Concertos|1|4.50736|14.47186|Abel Flute  Concert No.2 e minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/99/68/bc99684e-2849-d5dc-a454-cc3c2ac76004/761203920822.jpg/600x600bb.jpg",
+      "album": "Abel: Flute Concertos",
+      "artist": "Michael Schneider, Karl Kaiser & La Stagione Frankfurt",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:44:43.567Z"
+    },
+    "Concertos|1|4.59362|40.81902|Schneider No.2 e minor Schickhardt 4 Recorder Concerto d minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwr_iaLe0DDMQWV8PO9c5_d5wzWI-vvMQ7H5K4TS760JZM132Edy5Nu7w&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:44:57.705Z"
+    },
+    "Concertos|1|4.74922|65.71485|La Reveuse Concerto d minor Guretzky Cello Concerto G major": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/4b/9e/d84b9ec8-082f-08d0-fd5a-944293cf409b/5059864081637.png/600x600bb.jpg",
+      "album": "Guretzky: Concertos",
+      "artist": "The Harmonious Society of Tickle-Fiddle Gentlemen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:45:06.549Z"
+    },
+    "Concertos|1|28.69942|15.14194|Pez Concerto Sinfonia g minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/d1/86/f6d186f9-7d98-57f4-b4d5-68cf7352cc81/4250128507059.png/600x600bb.jpg",
+      "album": "Pez: Ouvertures - Concerti",
+      "artist": "Les Muffatti & Peter van Heyghen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:45:10.932Z"
+    },
+    "Concertos|1|28.67137|41.11361|Heyghen Concerto Sinfonia g minor Pepusch Concerto a minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-2q0oEY6rMVySUJiSUW6ie0ljU-xVRizRX6-z2tG-s9uXpKYZH3nRXg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:45:28.183Z"
+    },
+    "Concertos|1|28.45952|65.77995|Erhardt Concerto a minor Nichelmann Concerto c minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/ff/09/27/mzi.csfhyfyv.jpg/600x600bb.jpg",
+      "album": "Friedrich der Grosse (1712-2012): Music for the Berlin Court",
+      "artist": "Akademie für Alte Musik Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:45:33.044Z"
+    },
+    "Concertos|1|54.53895|15.14909|Sachsen Concerto No.3 e minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/bd/51/41/bd51411e-a513-e08c-fad6-9388ca19b019/cover.jpg/600x600bb.jpg",
+      "album": "Prinz Johann Ernst von Sachsen-Weimar: Concerti (Bonus Video Version)",
+      "artist": "Thüringer Bach Collegium",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:45:37.882Z"
+    },
+    "Concertos|1|54.52142|40.41786|Thuringer Bach Collegium Concerto No.3 e minor Sachsen Concerto No.6 g minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/bd/51/41/bd51411e-a513-e08c-fad6-9388ca19b019/cover.jpg/600x600bb.jpg",
+      "album": "Prinz Johann Ernst von Sachsen-Weimar: Concerti (Bonus Video Version)",
+      "artist": "Thüringer Bach Collegium",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:46:19.603Z"
+    },
+    "Concertos|1|54.36873|65.71485|Thuringer Bach Collegium Concerto No.6 g minor Molter Trumpet Concerto No.1 D Major": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/6d/71/15/6d711556-0e0c-323b-27a7-53958c5eeba3/4015023243279.jpg/600x600bb.jpg",
+      "album": "J.M. Molter: Concertos for Trumpets & Horns",
+      "artist": "Jean-François Madeuf, Daniela Dolci & Musica Fiorita",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:46:23.876Z"
+    },
+    "Concertos|1|79.27241|15.14909|Graun Concerto e minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdiSSkHj0OsLtFs4MriNj9HO8vvSeP_xYk-Bv7zFJMig&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:46:37.499Z"
+    },
+    "Concertos|1|79.07119|40.51953|Ghielmi Concerto e minor Graun Concerto a minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/ff/09/27/mzi.csfhyfyv.jpg/600x600bb.jpg",
+      "album": "Friedrich der Grosse (1712-2012): Music for the Berlin Court",
+      "artist": "Akademie für Alte Musik Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:46:44.748Z"
+    },
+    "Concertos|1|79.0771|65.79221|Akademie fur Alte Musik Berlin Concerto a minor Graun Concerto d minor": {
+      "url": "https://i.discogs.com/UqArX7MnqCsU1zBz_OMMYftYlDnRZ90IZpUyHbc6qDQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTMx/Mzc4LTE3Mjk2NzMx/NjgtMTM1MS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:47:05.036Z"
+    },
+    "Concertos|2|4.28638|14.34039|Richter Flute Concerto e minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHd3davpnYpZLbSRx2KOz2RKtHnWNrJCOSKpUvDygMqviYaQJ0Sj6-oKmo&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:48:53.738Z"
+    },
+    "Chamber|1|4.47133|23.21945|Violin Sonata No.6 c minor c.143 Heinrich Ignaz Biber vn.Holloway Rosary Sonata XVI.Passcagia": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d7/6e/1f/d76e1fc4-0ab1-1010-359a-5480b0b76d74/00028947208426.rgb.jpg/600x600bb.jpg",
+      "album": "Biber: Unam Ceylum",
+      "artist": "John Holloway, Aloysia Assenbaum-Holloway & Lars Ulrik Mortensen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:49:22.074Z"
+    },
+    "Chamber|1|18.67415|23.21909|Violin Sonata No.6 c minor c.143 Heinrich Ignaz Biber Rosary Sonata XVI.Passcagia": {
+      "url": "https://images.thalia.media/07/-/bd827cfcfa284dedbaf7d40ecf13d181/ostinato-works-by-biber-arnold-bertali-et-al-cd-gunar-letzbor.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:49:58.269Z"
+    },
+    "Chamber|1|31.47632|23.28332|e minor c.142 Violin Sonata No.5 Stylus Plantsticus ㏙arr.㏚ Rosary Sonata": {
+      "url": "https://m.media-amazon.com/images/I/61AmG8wcqnL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:52:34.807Z"
+    },
+    "Chamber|1|4.45142|48.17152|Rosary Sonata XVI.Passcagia vn.Holloway Violin Sonata g minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxJIiB4b6g1SmtlM-ocEtUyJLgnfjApdzdtMq_ogePwE5wA13YZ4s1Zcy&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:53:11.843Z"
+    },
+    "Chamber|1|18.77181|48.11747|Rosary Sonata XVI.Passcagia vn.Letzbor vn.Faust Violin Sonata a minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeEgGXjqiOtZsZEEcRZlONPLQKnnkqJjBr3Ohh42hZsvHHfWpvxhpfFjgR&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:53:27.326Z"
+    },
+    "Chamber|1|31.76195|48.20539|IV. Ciacona Rosary Sonata vn.Manze Battalia  a10": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/4c/e3/03/4ce303cc-4804-abfc-4ff1-053cd699a264/0093046732127.jpg/600x600bb.jpg",
+      "album": "Biber: The Rosary Sonatas",
+      "artist": "Andrew Manze & Richard Egarr",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:53:32.099Z"
+    },
+    "Chamber|1|4.38511|72.93503|Violin Sonata g minor vn.Kadesha Vox Luminis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ff/69/73/ff69736b-b4d5-c5be-79dd-c2bd41004940/3760014196652.png/600x600bb.jpg",
+      "album": "Biber: Requiem",
+      "artist": "Freiburger BarockConsort, Vox Luminis & Lionel Meunier",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:53:35.643Z"
+    },
+    "Chamber|1|18.67415|72.98726|Violin Sonata a minor vn.Faust vn.Holloway": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/3b/f4/b83bf4df-e83a-9de4-1eb1-eab425fa91e8/00028947243229.rgb.jpg/600x600bb.jpg",
+      "album": "Heinrich Ignaz Franz Biber - Georg Muffat",
+      "artist": "Aloysia Assenbaum-Holloway, John Holloway & Lars Ulrik Mortensen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:53:39.450Z"
+    },
+    "Chamber|1|32.81522|72.93534|Battalia  a10 vn.Manze Savall": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/4e/cf/bb/4ecfbbad-50dc-2958-4729-90f5a5f784ab/889845549161.jpg/600x600bb.jpg",
+      "album": "Biber: Baroque Splendor",
+      "artist": "Jordi Savall",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:53:43.035Z"
+    },
+    "Chamber|1|55.44729|15.17612|Janitsch Sonata da Camera c minor Op3/4": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/65/bb/c465bbf6-5159-9266-d889-40b4fb7dd9d0/cover.jpg/600x600bb.jpg",
+      "album": "Janitsch: Sonate da camera, vol. 2",
+      "artist": "Christopher Palameta & Notturna",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:53:46.984Z"
+    },
+    "Chamber|1|55.44729|41.08758|Palameta Camera c minor Op3/4 Janitsch Sonata da Camera c minor Op1/1": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/65/bb/c465bbf6-5159-9266-d889-40b4fb7dd9d0/cover.jpg/600x600bb.jpg",
+      "album": "Janitsch: Sonate da camera, vol. 2",
+      "artist": "Christopher Palameta & Notturna",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:53:50.066Z"
+    },
+    "Chamber|1|55.22654|66.66767|Palameta Camera c minor Op1/1 Janitsch Sonata da chiesa a minor Op7/2": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5f/96/2a/5f962a05-70c0-761c-651f-d0b2e5cee95e/5059864082030.png/600x600bb.jpg",
+      "album": "Janitsch: Sonatas & Ouverture Grosso",
+      "artist": "Tempesta di Mare & Emlyn Ngai",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:53:54.860Z"
+    },
+    "Chamber|1|79.20706|14.56185|Klein 6 Cello Sonata No.5 a minor op.4/5": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsyS-Ns_3QEt7Rdkk1KF1Ew7dsdHcu-w6YP5ibV5FkQxF_rjHt9S7ryBY&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:54:24.950Z"
+    },
+    "Chamber|1|79.20706|41.14206|vc.K.Goltz No.5 a minor op.4/5 Vilsmayr Violin Partita op.4": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/79/36/d8/7936d861-9b19-2db3-9a1d-af927833ef75/mzm.hiziihtx.jpg/600x600bb.jpg",
+      "album": "Vilsmaÿr: 6 Partitas for Solo Violin - Pisendel: Sonata in A Minor - Biber: Passacaglia in G Minor",
+      "artist": "Vaughan Jones",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:54:29.990Z"
+    },
+    "Chamber|1|79.27719|66.6156|vn.Jones Partita op.4 Weichlein Encaenia musices Op.1": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/37/0a/73/370a738e-3d49-5075-16ea-0dffdad38be1/7619990190368.jpg/600x600bb.jpg",
+      "album": "Weichlein: Encænia musices, Op. 1",
+      "artist": "Ars Antiqua Austria & Gunar Letzbor",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:54:35.938Z"
+    },
+    "Solo|1|4.38185|23.34966|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Foccroulle Prelude 㖈 Fugue": {
+      "url": "https://i.scdn.co/image/ab67616d00001e028e1021a4a9b8432e83dd62b3",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:55:07.250Z"
+    },
+    "Solo|1|18.67415|23.19341|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Walcha Prelude 㖈 Fugue": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRbnWjK25EXBJ_WhtsXvDrnMlM7uaNblh_J4gfywHKAw&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:55:57.196Z"
+    },
+    "Solo|1|32.93213|23.28332|Stylus Plantsticus ㏙arr.㏚ Prelude 㖈 Fugue": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273c522bec5a9b989597e8464b2",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:56:41.857Z"
+    },
+    "Solo|1|4.45142|48.04017|f# minor BuxWV146 Prelude 㖈 Fugue org.berg Prelude,Fugue 㖈": {
+      "url": "https://image.bugsm.co.kr/album/images/200/12208/1220802.jpg?version=20240430053908",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:57:56.463Z"
+    },
+    "Solo|1|18.77181|48.01301|Prelude 㖈 Fugue org.Walcha org.Bryndorf Chaconne": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/88/f1/3a/mzi.gkyvttyj.jpg/600x600bb.jpg",
+      "album": "Buxtehude: Organ Works (Complete), Vol. 2",
+      "artist": "Bine Katrine Bryndorf",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:58:27.751Z"
+    },
+    "Solo|1|32.87394|48.20539|d minor BuxWV140 Prelude 㖈 Fugue org.Bryndorf Chorale Prelude": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/4f/e2/8a/4fe28ad2-e07c-15c2-75bc-355a7c6d966e/747313152063.jpg/600x600bb.jpg",
+      "album": "Buxtehude: Complete Organ Works, Vol. 5",
+      "artist": "Bine Katrine Bryndorf",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T11:58:13.295Z"
+    },
+    "Solo|1|4.38511|72.96122|Chaconne BuxWV137 Prelude,Fugue 㖈 org.Walcha": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnynGMD3theN-_5jwu463Cn9GfMFR5XUxLdtmWAY1kRHatGCsAbCcrug&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:59:22.546Z"
+    },
+    "Solo|1|18.55148|72.98726|e minor BuxWV160 Chaconne org.Suzuki": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ZThESDvNSMTRIhnDc9ssPQBvgVcCNSA68Ayj-Ke2-kR_g_d70QW4HF8&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T11:59:46.234Z"
+    },
+    "Solo|1|32.99454|72.96138|e minor BuxWV179 Chorale Prelude cemb.Kappel": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9clHNInPl1pgOeRj4f8vHauLCN11tsBbgCZRetA_xWg2XmBVH91ubfMA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:00:04.755Z"
+    },
+    "Solo|1|54.20408|14.58789|Pachelbel Ciacona f minor P.43": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ff/21/da/ff21da8c-01e6-2a0c-ff86-54612dc145e8/5060262793138.jpg/600x600bb.jpg",
+      "album": "Pachelbel: Organ Works, Volume 1",
+      "artist": "Matthew Owens",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T12:00:09.822Z"
+    },
+    "Solo|1|54.27374|41.14206|org.Owens Ciacona f minor P.43 Pachelbel Ciacona d minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/30/1f/32/301f324a-9365-b6c1-135f-5977f07c758c/5059864052033.png/600x600bb.jpg",
+      "album": "Piet Kee at Weingarten",
+      "artist": "Piet Kee",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T12:00:14.077Z"
+    },
+    "Solo|1|54.29356|67.88199|org.Kee Ciacona d minor Pachelbel Magnificat,23 Fugues": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6f/c2/6e/6fc26e10-4894-baff-ab5a-15284e21787c/053479317322.jpg/600x600bb.jpg",
+      "album": "Pachelbel: Organ Music (Complete), Vol. 1",
+      "artist": "Antoine Bouchard",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T12:00:18.377Z"
+    },
+    "Solo|1|79.03481|14.43866|Bohm Vater unser in himmelreich": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIrQIDqWfHgoEL-v3hIwuc8A_AnPOVaEntyDJsgvyEoRJhcFXNrOHl4FrX&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:00:30.654Z"
+    },
+    "Solo|1|79.03481|41.00499|org.Hurford himmelreich Bohm Auf meinen lieben Gott Fantasia": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/00/28/a0/0028a09f-47ed-0a43-f69b-eef42f8fdbbd/5400439003194.png/600x600bb.jpg",
+      "album": "Böhm: Orgelwerke",
+      "artist": "Bernard Foccroulle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T12:00:34.671Z"
+    },
+    "Solo|1|78.96294|67.90589|org.Foccroulle lieben Gott Fantasia Krell Capriccio sopra il cucu": {
+      "url": "https://m.media-amazon.com/images/I/71Qz0fYiZ8L._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:03:10.127Z"
+    },
+    "Vocal|1|4.36149|14.41108|Ancient Rome Pavor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoUmybPZSmmJQj29nZQAs1oNkrNSYpSjIRiu0M0t3YnWYxai6HCEJ8k_w&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:08:21.192Z"
+    },
+    "Vocal|1|4.60786|41.05309|Synaulia Pavor Anonymous Quant la douce jouvencelle": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcCY2PvbO8MzSf4jop1sKa_WLPqDtomEO37tPTHIl6Xhc87uiNHzIUW4s&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:09:10.691Z"
+    },
+    "Vocal|1|4.62048|67.79649|Gothic Voices Quant la douce jouvencelle Ventadorn Can cei la lauzeta mover": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSanWXxVOSPVGGChJgU6vM0lWghfmfWtDbwrW5KelCdcJVoy25Wd0MTUh4&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:11:56.402Z"
+    },
+    "Vocal|1|28.63549|14.49804|Anonymous  Che ti cova nasconder": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRys_TjYEux8ZL6uzs45_91zCZnU5-aHJYzZEnugZtb_Ymc_dFhUVlMQ66_&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:12:10.144Z"
+    },
+    "Vocal|1|28.63549|41.11361|Ensemble Micrologus nasconder Anonymous  Che ti cova nasconder ㏙Ballata㏚": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRys_TjYEux8ZL6uzs45_91zCZnU5-aHJYzZEnugZtb_Ymc_dFhUVlMQ66_&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:12:44.274Z"
+    },
+    "Vocal|1|28.80835|67.82427|Ensemble Micrologus nasconder ㏙Ballata㏚ Bornelh Reis glorios": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02abb3803674c291ff34e0c167",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:13:02.517Z"
+    },
+    "Vocal|1|54.61509|14.43072|Anonymous Ar bleizi ㎿mor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/fd/c6/75/fdc6751b-5725-987d-a967-932fa77dfd9e/8424619696010_cover.jpg/600x600bb.jpg",
+      "album": "Bestiarium",
+      "artist": "La Reverdie",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T12:13:07.005Z"
+    },
+    "Vocal|1|54.33076|41.14676|La Reverdie Ar bleizi ㎿mor Perotin Alleluia Nativitas": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/cd/e8/80/mzi.vgejjvdg.jpg/600x600bb.jpg",
+      "album": "Perotin and the Ars Antiqua, Vol. 1",
+      "artist": "David James, Gordon Jones, Hilliard Ensemble, John Potter & Rogers Covey-Crump",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-10-27T12:13:11.026Z"
+    },
+    "Vocal|1|54.44483|67.77373|Hilliard Ensemble Alleluia Nativitas la Halle Je muir d 㐴amourete": {
+      "url": "https://i.ytimg.com/vi/3N4FDlKsYMg/sddefault.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:14:00.760Z"
+    },
+    "Vocal|1|79.1725|14.61008|Anonymous Ainc voir": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdlZuY8CClbTQ29LJ72Uo98n6k8tlipGnH57v8zCGKCHiAElISkZZblw4&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-10-27T12:14:24.659Z"
     }
   },
   "edits": {
@@ -9218,18 +9680,18 @@
       "updatedAt": "2026-10-27T10:52:37.449Z"
     },
     "Symphonies|18|32.7021|19.1988|Anton Bruckner 5 Celibidache r.Altus": {
-      "composer": "Anton Bruckner",
+      "composer": "Bruckner",
       "work": "Symphony No.5",
       "performer": "Celibidache r.Altus",
       "searchQuery": "Bruckner 5 Celibidache",
-      "updatedAt": "2026-10-27T10:52:47.728Z"
+      "updatedAt": "2026-10-27T11:04:48.143Z"
     },
     "Symphonies|18|4.2895|44.7958|Anton Bruckner 6 Celibidache": {
-      "composer": "Anton Bruckner",
+      "composer": "Bruckner",
       "work": "Symphony No.6",
       "performer": "Celibidache",
       "searchQuery": "Bruckner 6 Celibidache",
-      "updatedAt": "2026-10-27T10:52:55.808Z"
+      "updatedAt": "2026-10-27T11:05:00.710Z"
     },
     "Symphonies|18|18.4826|44.7958|Anton Bruckner 6 Klemperer": {
       "composer": "Bruckner",
@@ -9559,6 +10021,426 @@
       "performer": "Borin",
       "searchQuery": "Halm A Borin",
       "updatedAt": "2026-10-27T11:03:55.939Z"
+    },
+    "Orchestral|1|4.53643|23.74431|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fasolis / Goodman / Huggett / Valetti": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Orchestral Suites BWV1066~69",
+      "performer": "Fasolis / Goodman / Huggett / Valetti",
+      "searchQuery": "Bach Fasolis Orchestral Suites",
+      "updatedAt": "2026-10-27T11:21:12.103Z"
+    },
+    "Orchestral|1|18.68031|23.77004|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fortin Musical Offering BWV1079": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Orchestral Suites BWV1066~69",
+      "performer": "Fortin",
+      "searchQuery": "Johann Sebastian Bach Fortin",
+      "updatedAt": "2026-10-27T11:21:43.510Z"
+    },
+    "Orchestral|1|32.77267|23.79592|Alessandrini": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Orchestral Suites BWV1066~69",
+      "performer": "Alessandrini",
+      "searchQuery": "Johann Sebastian Bach Alessandrini",
+      "updatedAt": "2026-10-27T11:22:15.154Z"
+    },
+    "Orchestral|1|4.47849|48.16286|Musical Offering BWV1079 Huggett / Valetti Savall Die Kunst der Fuge BWV1080": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Musical Offering BWV1079",
+      "performer": "Savall",
+      "searchQuery": "Johann Sebastian Bach Savall",
+      "updatedAt": "2026-10-27T11:22:46.041Z"
+    },
+    "Orchestral|1|18.68031|48.13684|Musical Offering BWV1079 Fortin Suzuki Die Kunst der Fuge BWV1080": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Musical Offering BWV1079",
+      "performer": "Suzuki",
+      "searchQuery": "Johann Sebastian Bach Suzuki",
+      "updatedAt": "2026-10-27T11:23:12.766Z"
+    },
+    "Orchestral|1|4.46314|72.94235|Die Kunst der Fuge BWV1080 Savall Alte Musik Berlin": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Die Kunst der Fuge BWV1080",
+      "performer": "Alte Musik Berlin",
+      "searchQuery": "Johann Sebastian Bach Alte Musik Berlin",
+      "updatedAt": "2026-10-27T11:23:47.820Z"
+    },
+    "Orchestral|1|18.58101|73.17631|Die Kunst der Fuge BWV1080 Suzuki Savall": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Die Kunst der Fuge BWV1080",
+      "performer": "Savall",
+      "searchQuery": "Johann Sebastian Bach Savall",
+      "updatedAt": "2026-10-27T11:23:50.599Z"
+    },
+    "Orchestral|1|32.80649|73.02|Casals Quartet ㏙arr.㏚": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Die Kunst der Fuge BWV1080",
+      "performer": "Casals Quartet arr.",
+      "searchQuery": "Johann Sebastian Bach Casals Quartet arr",
+      "updatedAt": "2026-10-27T11:24:10.271Z"
+    },
+    "Orchestral|1|54.05669|23.79922|Trio Sonatas BWV525~530 ㏙trans.㏚ London Baroque Orchestral Transcription": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Trio Sonatas BWV525~530 trans.",
+      "performer": "London Baroque",
+      "searchQuery": "Johann Sebastian Bach London Baroque",
+      "updatedAt": "2026-10-27T11:24:28.935Z"
+    },
+    "Orchestral|1|68.46294|23.66825|Trio Sonatas BWV525~530 ㏙trans.㏚ Purcell Quartet Orchestral Transcription": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Trio Sonatas BWV525~530 trans.",
+      "performer": "Purcell Quartet",
+      "searchQuery": "Johann Sebastian Bach Purcell Quartet",
+      "updatedAt": "2026-10-27T11:24:33.363Z"
+    },
+    "Orchestral|1|82.71768|23.77296|org.Wilkinson": {
+      "composer": "Johann Sebastian Bach",
+      "work": "Trio Sonatas BWV525~530 trans.",
+      "performer": "Wilkinson",
+      "searchQuery": "Johann Sebastian Bach Wilkinson",
+      "updatedAt": "2026-10-27T11:24:38.090Z"
+    },
+    "Concertos|1|4.50736|14.47186|Abel Flute  Concert No.2 e minor": {
+      "composer": "Abel Flute",
+      "work": "Concert No.2 e minor",
+      "performer": "Schneider",
+      "searchQuery": "Abel Flute Schneider",
+      "updatedAt": "2026-10-27T11:44:46.213Z"
+    },
+    "Concertos|1|4.74922|65.71485|La Reveuse Concerto d minor Guretzky Cello Concerto G major": {
+      "composer": "Guretzky",
+      "work": "Cello Concerto G major",
+      "performer": "Gentlemen",
+      "searchQuery": "Guretzky Gentlemen",
+      "updatedAt": "2026-10-27T11:45:08.105Z"
+    },
+    "Concertos|1|28.69942|15.14194|Pez Concerto Sinfonia g minor": {
+      "composer": "Pez",
+      "work": "Concerto Sinfonia g minor",
+      "performer": "Heyghen",
+      "searchQuery": "Pez Heyghen",
+      "updatedAt": "2026-10-27T11:45:12.825Z"
+    },
+    "Concertos|1|28.67137|41.11361|Heyghen Concerto Sinfonia g minor Pepusch Concerto a minor": {
+      "composer": "Pepusch",
+      "work": "Concerto a minor",
+      "performer": "Erhardt",
+      "searchQuery": "Pepusch Erhardt",
+      "updatedAt": "2026-10-27T11:45:30.093Z"
+    },
+    "Concertos|1|28.45952|65.77995|Erhardt Concerto a minor Nichelmann Concerto c minor": {
+      "composer": "Nichelmann",
+      "work": "Concerto c minor",
+      "performer": "Akademie fur Alte Musik Berlin",
+      "searchQuery": "Nichelmann Akademie fur Alte Musik Berlin",
+      "updatedAt": "2026-10-27T11:45:35.013Z"
+    },
+    "Concertos|1|54.53895|15.14909|Sachsen Concerto No.3 e minor": {
+      "composer": "Sachsen",
+      "work": "Concerto No.3 e minor",
+      "performer": "Thuringer Bach Collegium",
+      "searchQuery": "Sachsen Thuringer Bach Collegium",
+      "updatedAt": "2026-10-27T11:45:38.973Z"
+    },
+    "Concertos|1|54.52142|40.41786|Thuringer Bach Collegium Concerto No.3 e minor Sachsen Concerto No.6 g minor": {
+      "composer": "Sachsen",
+      "work": "Concerto No.6 g minor",
+      "performer": "Thuringer Bach Collegium",
+      "searchQuery": "Sachsen Thuringer Bach Collegium",
+      "updatedAt": "2026-10-27T11:45:42.896Z"
+    },
+    "Concertos|1|54.36873|65.71485|Thuringer Bach Collegium Concerto No.6 g minor Molter Trumpet Concerto No.1 D Major": {
+      "composer": "Molter Trumpet",
+      "work": "Concerto No.1 D Major",
+      "performer": "tp.Madeuf/Dolci",
+      "searchQuery": "Molter Trumpet tp.Madeuf",
+      "updatedAt": "2026-10-27T11:46:24.916Z"
+    },
+    "Concertos|1|79.27241|15.14909|Graun Concerto e minor": {
+      "composer": "Graun",
+      "work": "Concerto e minor",
+      "performer": "Ghielmi",
+      "searchQuery": "Graun Ghielmi",
+      "updatedAt": "2026-10-27T11:46:42.086Z"
+    },
+    "Concertos|1|79.07119|40.51953|Ghielmi Concerto e minor Graun Concerto a minor": {
+      "composer": "Graun",
+      "work": "Concerto a minor",
+      "performer": "Akademie fur Alte Musik Berlin",
+      "searchQuery": "Graun Akademie fur Alte Musik Berlin",
+      "updatedAt": "2026-10-27T11:46:50.615Z"
+    },
+    "Concertos|1|79.0771|65.79221|Akademie fur Alte Musik Berlin Concerto a minor Graun Concerto d minor": {
+      "composer": "Graun",
+      "work": "Concerto d minor",
+      "performer": "Wiener Akademie",
+      "searchQuery": "Graun Wiener Akademie",
+      "updatedAt": "2026-10-27T11:47:08.454Z"
+    },
+    "Chamber|1|4.47133|23.21945|Violin Sonata No.6 c minor c.143 Heinrich Ignaz Biber vn.Holloway Rosary Sonata XVI.Passcagia": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "Violin Sonata No.6 c minor c.143",
+      "performer": "Holloway",
+      "searchQuery": "Heinrich Ignaz Biber Holloway",
+      "updatedAt": "2026-10-27T11:49:24.421Z"
+    },
+    "Chamber|1|18.67415|23.21909|Violin Sonata No.6 c minor c.143 Heinrich Ignaz Biber Rosary Sonata XVI.Passcagia": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "Violin Sonata No.6 c minor c.143",
+      "performer": "Letzbor",
+      "searchQuery": "Heinrich Ignaz Biber Letzbor",
+      "updatedAt": "2026-10-27T11:49:42.881Z"
+    },
+    "Chamber|1|4.45142|48.17152|Rosary Sonata XVI.Passcagia vn.Holloway Violin Sonata g minor": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "Rosary Sonata XVI.Passcagia",
+      "performer": "Kadesha",
+      "searchQuery": "Heinrich Ignaz Biber Kadesha",
+      "updatedAt": "2026-10-27T11:53:13.970Z"
+    },
+    "Chamber|1|18.77181|48.11747|Rosary Sonata XVI.Passcagia vn.Letzbor vn.Faust Violin Sonata a minor": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "Rosary Sonata XVI.Passcagia",
+      "performer": "Faust",
+      "searchQuery": "Heinrich Ignaz Biber Faust",
+      "updatedAt": "2026-10-27T11:53:29.155Z"
+    },
+    "Chamber|1|31.76195|48.20539|IV. Ciacona Rosary Sonata vn.Manze Battalia  a10": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "IV. Ciacona",
+      "performer": "Manze",
+      "searchQuery": "Heinrich Ignaz Biber Manze",
+      "updatedAt": "2026-10-27T11:53:33.450Z"
+    },
+    "Chamber|1|4.38511|72.93503|Violin Sonata g minor vn.Kadesha Vox Luminis": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "Violin Sonata g minor",
+      "performer": "Vox Luminis",
+      "searchQuery": "Heinrich Ignaz Biber Vox Luminis",
+      "updatedAt": "2026-10-27T11:53:36.739Z"
+    },
+    "Chamber|1|18.67415|72.98726|Violin Sonata a minor vn.Faust vn.Holloway": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "Violin Sonata g minor",
+      "performer": "Holloway",
+      "searchQuery": "Heinrich Ignaz Biber Holloway",
+      "updatedAt": "2026-10-27T11:53:40.498Z"
+    },
+    "Chamber|1|32.81522|72.93534|Battalia  a10 vn.Manze Savall": {
+      "composer": "Heinrich Ignaz Biber",
+      "work": "Violin Sonata g minor",
+      "performer": "Savall",
+      "searchQuery": "Heinrich Ignaz Biber Savall",
+      "updatedAt": "2026-10-27T11:53:44.099Z"
+    },
+    "Chamber|1|55.44729|15.17612|Janitsch Sonata da Camera c minor Op3/4": {
+      "composer": "Janitsch",
+      "work": "Sonata da Camera c minor Op3/4",
+      "performer": "Palameta",
+      "searchQuery": "Janitsch Palameta",
+      "updatedAt": "2026-10-27T11:53:47.995Z"
+    },
+    "Chamber|1|55.44729|41.08758|Palameta Camera c minor Op3/4 Janitsch Sonata da Camera c minor Op1/1": {
+      "composer": "Janitsch",
+      "work": "Sonata da Camera c minor Op1/1",
+      "performer": "Palameta",
+      "searchQuery": "Janitsch Palameta",
+      "updatedAt": "2026-10-27T11:53:51.251Z"
+    },
+    "Chamber|1|55.22654|66.66767|Palameta Camera c minor Op1/1 Janitsch Sonata da chiesa a minor Op7/2": {
+      "composer": "Janitsch",
+      "work": "Sonata da chiesa a minor Op7/2",
+      "performer": "Tempesta di Mare",
+      "searchQuery": "Janitsch Tempesta di Mare",
+      "updatedAt": "2026-10-27T11:53:56.155Z"
+    },
+    "Chamber|1|79.20706|14.56185|Klein 6 Cello Sonata No.5 a minor op.4/5": {
+      "composer": "Klein",
+      "work": "6 Cello Sonata No.5 a minor op.4/5",
+      "performer": "K.Goltz",
+      "searchQuery": "Klein K.Goltz",
+      "updatedAt": "2026-10-27T11:54:10.987Z"
+    },
+    "Chamber|1|79.20706|41.14206|vc.K.Goltz No.5 a minor op.4/5 Vilsmayr Violin Partita op.4": {
+      "composer": "Vilsmayr",
+      "work": "Violin Partita op.4",
+      "performer": "Jones",
+      "searchQuery": "Vilsmayr Jones",
+      "updatedAt": "2026-10-27T11:54:32.650Z"
+    },
+    "Solo|1|4.38185|23.34966|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Foccroulle Prelude 㖈 Fugue": {
+      "composer": "Buxtehude",
+      "work": "Passacaglia d minor BuxWV161",
+      "performer": "org.Foccroulle",
+      "searchQuery": "Buxtehude Passacaglia Foccroulle",
+      "updatedAt": "2026-10-27T12:04:37.783Z"
+    },
+    "Solo|1|18.67415|23.19341|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Walcha Prelude 㖈 Fugue": {
+      "composer": "Buxtehude",
+      "work": "Passacaglia d minor BuxWV161",
+      "performer": "org.Walcha",
+      "searchQuery": "Buxtehude Walcha Passacaglia",
+      "updatedAt": "2026-10-27T12:06:45.389Z"
+    },
+    "Solo|1|32.93213|23.28332|Stylus Plantsticus ㏙arr.㏚ Prelude 㖈 Fugue": {
+      "composer": "Buxtehude",
+      "work": "Passacaglia d minor BuxWV161",
+      "performer": "Stylus Plantsticus (arr.)",
+      "searchQuery": "Buxtehude Plantsticus",
+      "updatedAt": "2026-10-27T12:06:57.078Z"
+    },
+    "Solo|1|4.45142|48.04017|f# minor BuxWV146 Prelude 㖈 Fugue org.berg Prelude,Fugue 㖈": {
+      "composer": "Buxtehude",
+      "work": "Prelude Fugue f# minor BuxWV146",
+      "performer": "org.berg",
+      "searchQuery": "Buxtehude berg",
+      "updatedAt": "2026-10-27T12:05:38.966Z"
+    },
+    "Solo|1|18.77181|48.01301|Prelude 㖈 Fugue org.Walcha org.Bryndorf Chaconne": {
+      "composer": "Dietrich Buxtehude",
+      "work": "Prelude Fugue a minor BuxWV153",
+      "performer": "org.Bryndorf",
+      "searchQuery": "Buxtehude Bryndorf",
+      "updatedAt": "2026-10-27T12:06:00.072Z"
+    },
+    "Solo|1|32.87394|48.20539|d minor BuxWV140 Prelude 㖈 Fugue org.Bryndorf Chorale Prelude": {
+      "composer": "Dietrich Buxtehude",
+      "work": "Prelude Fugue d minor BuxWV140",
+      "performer": "org.Bryndorf",
+      "searchQuery": "Buxtehude Bryndorf",
+      "updatedAt": "2026-10-27T12:06:15.854Z"
+    },
+    "Solo|1|4.38511|72.96122|Chaconne BuxWV137 Prelude,Fugue 㖈 org.Walcha": {
+      "composer": "Dietrich Buxtehude",
+      "work": "Prelude,Fugue Chaconne BuxWV137",
+      "performer": "org.Walcha",
+      "searchQuery": "Dietrich Buxtehude Walcha",
+      "updatedAt": "2026-10-27T12:07:02.261Z"
+    },
+    "Solo|1|18.55148|72.98726|e minor BuxWV160 Chaconne org.Suzuki": {
+      "composer": "Dietrich Buxtehude",
+      "work": "e minor BuxWV160",
+      "performer": "org.Suzuki",
+      "searchQuery": "Dietrich Buxtehude Suzuki",
+      "updatedAt": "2026-10-27T12:07:05.285Z"
+    },
+    "Solo|1|32.99454|72.96138|e minor BuxWV179 Chorale Prelude cemb.Kappel": {
+      "composer": "Dietrich Buxtehude",
+      "work": "e minor BuxWV179",
+      "performer": "org.Kappel",
+      "searchQuery": "Dietrich Buxtehude Kappel",
+      "updatedAt": "2026-10-27T12:07:08.021Z"
+    },
+    "Solo|1|54.20408|14.58789|Pachelbel Ciacona f minor P.43": {
+      "composer": "Pachelbel",
+      "work": "Ciacona f minor P.43",
+      "performer": "org.Owens",
+      "searchQuery": "Pachelbel Owens",
+      "updatedAt": "2026-10-27T12:07:12.437Z"
+    },
+    "Solo|1|54.27374|41.14206|org.Owens Ciacona f minor P.43 Pachelbel Ciacona d minor": {
+      "composer": "Pachelbel",
+      "work": "Ciacona d minor",
+      "performer": "org.Kee",
+      "searchQuery": "Pachelbel Kee",
+      "updatedAt": "2026-10-27T12:07:15.629Z"
+    },
+    "Solo|1|54.29356|67.88199|org.Kee Ciacona d minor Pachelbel Magnificat,23 Fugues": {
+      "composer": "Pachelbel",
+      "work": "Magnificat,23 Fugues",
+      "performer": "org.Bouchard",
+      "searchQuery": "Pachelbel Bouchard",
+      "updatedAt": "2026-10-27T12:07:19.365Z"
+    },
+    "Solo|1|79.03481|14.43866|Bohm Vater unser in himmelreich": {
+      "composer": "Bohm Vater unser in",
+      "work": "himmelreich",
+      "performer": "org.Hurford",
+      "searchQuery": "Bohm Vater unser in Hurford",
+      "updatedAt": "2026-10-27T12:07:23.192Z"
+    },
+    "Solo|1|79.03481|41.00499|org.Hurford himmelreich Bohm Auf meinen lieben Gott Fantasia": {
+      "composer": "Bohm Auf meinen",
+      "work": "lieben Gott Fantasia",
+      "performer": "org.Foccroulle",
+      "searchQuery": "Bohm Auf meinen Foccroulle",
+      "updatedAt": "2026-10-27T12:07:26.134Z"
+    },
+    "Solo|1|78.96294|67.90589|org.Foccroulle lieben Gott Fantasia Krell Capriccio sopra il cucu": {
+      "composer": "Krell Capriccio",
+      "work": "sopra il cucu",
+      "performer": "org.Blunden",
+      "searchQuery": "Krell Capriccio Blunden",
+      "updatedAt": "2026-10-27T12:07:29.150Z"
+    },
+    "Vocal|1|4.36149|14.41108|Ancient Rome Pavor": {
+      "composer": "Ancient Rome",
+      "work": "Ancient Rome Pavor",
+      "performer": "",
+      "searchQuery": "Pavor",
+      "updatedAt": "2026-10-27T12:08:41.652Z"
+    },
+    "Vocal|1|4.60786|41.05309|Synaulia Pavor Anonymous Quant la douce jouvencelle": {
+      "composer": "Anonymous",
+      "work": "Synaulia Pavor Anonymous Quant la douce jouvencelle",
+      "performer": "",
+      "searchQuery": "jouvencelle",
+      "updatedAt": "2026-10-27T12:08:52.872Z"
+    },
+    "Vocal|1|4.62048|67.79649|Gothic Voices Quant la douce jouvencelle Ventadorn Can cei la lauzeta mover": {
+      "composer": "Ventadorn",
+      "work": "Can cei la lauzeta mover",
+      "performer": "Millenium",
+      "searchQuery": "Ventadorn Millenium",
+      "updatedAt": "2026-10-27T12:11:59.035Z"
+    },
+    "Vocal|1|28.63549|14.49804|Anonymous  Che ti cova nasconder": {
+      "composer": "Anonymous Che ti cova",
+      "work": "nasconder",
+      "performer": "Ensemble Micrologus",
+      "searchQuery": "Anonymous Che ti cova Ensemble Micrologus",
+      "updatedAt": "2026-10-27T12:12:14.439Z"
+    },
+    "Vocal|1|28.63549|41.11361|Ensemble Micrologus nasconder Anonymous  Che ti cova nasconder ㏙Ballata㏚": {
+      "composer": "Anonymous Che ti cova",
+      "work": "nasconder Ballata",
+      "performer": "Ensemble Micrologus",
+      "searchQuery": "Anonymous Che ti cova Ensemble Micrologus",
+      "updatedAt": "2026-10-27T12:12:18.686Z"
+    },
+    "Vocal|1|28.80835|67.82427|Ensemble Micrologus nasconder ㏙Ballata㏚ Bornelh Reis glorios": {
+      "composer": "Bornelh",
+      "work": "Reis glorios",
+      "performer": "Ensemble Celadon",
+      "searchQuery": "Bornelh Ensemble Celadon",
+      "updatedAt": "2026-10-27T12:12:36.098Z"
+    },
+    "Vocal|1|54.61509|14.43072|Anonymous Ar bleizi ㎿mor": {
+      "composer": "Anonymous",
+      "work": "Ar bleizi mor",
+      "performer": "La Reverdie",
+      "searchQuery": "Anonymous La Reverdie",
+      "updatedAt": "2026-10-27T12:13:08.577Z"
+    },
+    "Vocal|1|54.33076|41.14676|La Reverdie Ar bleizi ㎿mor Perotin Alleluia Nativitas": {
+      "composer": "Perotin",
+      "work": "Alleluia Nativitas",
+      "performer": "Hilliard Ensemble",
+      "searchQuery": "Perotin Hilliard Ensemble",
+      "updatedAt": "2026-10-27T12:13:12.617Z"
+    },
+    "Vocal|1|54.44483|67.77373|Hilliard Ensemble Alleluia Nativitas la Halle Je muir d 㐴amourete": {
+      "composer": "la Halle",
+      "work": "Je muir d amourete",
+      "performer": "Capella de Minstrers",
+      "searchQuery": "la Halle Capella de Minstrers",
+      "updatedAt": "2026-10-27T12:14:07.508Z"
+    },
+    "Vocal|1|79.1725|14.61008|Anonymous Ainc voir": {
+      "composer": "Anonymous",
+      "work": "Ainc voir",
+      "performer": "Orlando Consort",
+      "searchQuery": "Anonymous Orlando Consort",
+      "updatedAt": "2026-10-27T12:14:26.575Z"
     }
   },
   "favorites": {
@@ -9861,10 +10743,73 @@
     "Symphonies|20|53.3705|69.6876|Gustav Mahler Das Lied von der Klemperer": false,
     "Symphonies|20|67.5149|70.0935|Gustav Mahler Erde Boulez": false,
     "Symphonies|20|81.5775|70.0934|Gustav Mahler Bernstein WPO": false,
-    "Symphonies|21|4.3717|14.904|Halm A Borin": false
+    "Symphonies|21|4.3717|14.904|Halm A Borin": false,
+    "Orchestral|1|4.53643|23.74431|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fasolis / Goodman / Huggett / Valetti": false,
+    "Orchestral|1|18.68031|23.77004|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fortin Musical Offering BWV1079": false,
+    "Orchestral|1|32.77267|23.79592|Alessandrini": false,
+    "Orchestral|1|4.47849|48.16286|Musical Offering BWV1079 Huggett / Valetti Savall Die Kunst der Fuge BWV1080": false,
+    "Orchestral|1|18.68031|48.13684|Musical Offering BWV1079 Fortin Suzuki Die Kunst der Fuge BWV1080": false,
+    "Orchestral|1|4.46314|72.94235|Die Kunst der Fuge BWV1080 Savall Alte Musik Berlin": false,
+    "Orchestral|1|18.58101|73.17631|Die Kunst der Fuge BWV1080 Suzuki Savall": false,
+    "Orchestral|1|32.80649|73.02|Casals Quartet ㏙arr.㏚": false,
+    "Orchestral|1|54.05669|23.79922|Trio Sonatas BWV525~530 ㏙trans.㏚ London Baroque Orchestral Transcription": false,
+    "Orchestral|1|68.46294|23.66825|Trio Sonatas BWV525~530 ㏙trans.㏚ Purcell Quartet Orchestral Transcription": false,
+    "Orchestral|1|82.71768|23.77296|org.Wilkinson": false,
+    "Concertos|1|4.50736|14.47186|Abel Flute  Concert No.2 e minor": false,
+    "Concertos|1|4.59362|40.81902|Schneider No.2 e minor Schickhardt 4 Recorder Concerto d minor": true,
+    "Concertos|1|4.74922|65.71485|La Reveuse Concerto d minor Guretzky Cello Concerto G major": false,
+    "Concertos|1|28.69942|15.14194|Pez Concerto Sinfonia g minor": false,
+    "Concertos|1|28.67137|41.11361|Heyghen Concerto Sinfonia g minor Pepusch Concerto a minor": true,
+    "Concertos|1|28.45952|65.77995|Erhardt Concerto a minor Nichelmann Concerto c minor": true,
+    "Concertos|1|54.53895|15.14909|Sachsen Concerto No.3 e minor": false,
+    "Concertos|1|54.52142|40.41786|Thuringer Bach Collegium Concerto No.3 e minor Sachsen Concerto No.6 g minor": true,
+    "Concertos|1|54.36873|65.71485|Thuringer Bach Collegium Concerto No.6 g minor Molter Trumpet Concerto No.1 D Major": false,
+    "Concertos|1|79.27241|15.14909|Graun Concerto e minor": false,
+    "Concertos|1|79.07119|40.51953|Ghielmi Concerto e minor Graun Concerto a minor": false,
+    "Concertos|1|79.0771|65.79221|Akademie fur Alte Musik Berlin Concerto a minor Graun Concerto d minor": true,
+    "Chamber|1|4.47133|23.21945|Violin Sonata No.6 c minor c.143 Heinrich Ignaz Biber vn.Holloway Rosary Sonata XVI.Passcagia": false,
+    "Chamber|1|31.47632|23.28332|e minor c.142 Violin Sonata No.5 Stylus Plantsticus ㏙arr.㏚ Rosary Sonata": false,
+    "Chamber|1|4.45142|48.17152|Rosary Sonata XVI.Passcagia vn.Holloway Violin Sonata g minor": false,
+    "Chamber|1|18.77181|48.11747|Rosary Sonata XVI.Passcagia vn.Letzbor vn.Faust Violin Sonata a minor": false,
+    "Chamber|1|31.76195|48.20539|IV. Ciacona Rosary Sonata vn.Manze Battalia  a10": false,
+    "Chamber|1|4.38511|72.93503|Violin Sonata g minor vn.Kadesha Vox Luminis": false,
+    "Chamber|1|18.67415|72.98726|Violin Sonata a minor vn.Faust vn.Holloway": false,
+    "Chamber|1|32.81522|72.93534|Battalia  a10 vn.Manze Savall": false,
+    "Chamber|1|55.44729|15.17612|Janitsch Sonata da Camera c minor Op3/4": true,
+    "Chamber|1|55.44729|41.08758|Palameta Camera c minor Op3/4 Janitsch Sonata da Camera c minor Op1/1": false,
+    "Chamber|1|55.22654|66.66767|Palameta Camera c minor Op1/1 Janitsch Sonata da chiesa a minor Op7/2": false,
+    "Chamber|1|79.20706|14.56185|Klein 6 Cello Sonata No.5 a minor op.4/5": true,
+    "Chamber|1|79.20706|41.14206|vc.K.Goltz No.5 a minor op.4/5 Vilsmayr Violin Partita op.4": false,
+    "Solo|1|4.38185|23.34966|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Foccroulle Prelude 㖈 Fugue": false,
+    "Solo|1|18.67415|23.19341|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Walcha Prelude 㖈 Fugue": false,
+    "Solo|1|32.93213|23.28332|Stylus Plantsticus ㏙arr.㏚ Prelude 㖈 Fugue": false,
+    "Solo|1|4.45142|48.04017|f# minor BuxWV146 Prelude 㖈 Fugue org.berg Prelude,Fugue 㖈": false,
+    "Solo|1|18.77181|48.01301|Prelude 㖈 Fugue org.Walcha org.Bryndorf Chaconne": false,
+    "Solo|1|32.87394|48.20539|d minor BuxWV140 Prelude 㖈 Fugue org.Bryndorf Chorale Prelude": false,
+    "Solo|1|4.38511|72.96122|Chaconne BuxWV137 Prelude,Fugue 㖈 org.Walcha": false,
+    "Solo|1|18.55148|72.98726|e minor BuxWV160 Chaconne org.Suzuki": false,
+    "Solo|1|32.99454|72.96138|e minor BuxWV179 Chorale Prelude cemb.Kappel": false,
+    "Solo|1|54.20408|14.58789|Pachelbel Ciacona f minor P.43": true,
+    "Solo|1|54.27374|41.14206|org.Owens Ciacona f minor P.43 Pachelbel Ciacona d minor": false,
+    "Solo|1|54.29356|67.88199|org.Kee Ciacona d minor Pachelbel Magnificat,23 Fugues": false,
+    "Solo|1|79.03481|14.43866|Bohm Vater unser in himmelreich": false,
+    "Solo|1|79.03481|41.00499|org.Hurford himmelreich Bohm Auf meinen lieben Gott Fantasia": false,
+    "Solo|1|78.96294|67.90589|org.Foccroulle lieben Gott Fantasia Krell Capriccio sopra il cucu": false,
+    "Vocal|1|4.36149|14.41108|Ancient Rome Pavor": true,
+    "Vocal|1|4.60786|41.05309|Synaulia Pavor Anonymous Quant la douce jouvencelle": false,
+    "Vocal|1|4.62048|67.79649|Gothic Voices Quant la douce jouvencelle Ventadorn Can cei la lauzeta mover": false,
+    "Vocal|1|28.63549|14.49804|Anonymous  Che ti cova nasconder": false,
+    "Vocal|1|28.63549|41.11361|Ensemble Micrologus nasconder Anonymous  Che ti cova nasconder ㏙Ballata㏚": true,
+    "Vocal|1|28.80835|67.82427|Ensemble Micrologus nasconder ㏙Ballata㏚ Bornelh Reis glorios": false,
+    "Vocal|1|54.61509|14.43072|Anonymous Ar bleizi ㎿mor": true,
+    "Vocal|1|54.33076|41.14676|La Reverdie Ar bleizi ㎿mor Perotin Alleluia Nativitas": false,
+    "Vocal|1|54.44483|67.77373|Hilliard Ensemble Alleluia Nativitas la Halle Je muir d 㐴amourete": false,
+    "Vocal|1|79.1725|14.61008|Anonymous Ainc voir": false
   },
   "added": {},
-  "removed": {},
+  "removed": {
+    "Vocal|1|79.29736|41.17286|Orlando Consort Ainc voir Traditional Angelus ad Virginem": true
+  },
   "order": {
     "Symphonies|1": [
       "Symphonies|1|3.7649|14.9085|Stamitz Op.3-2 Hogwood",
@@ -9879,6 +10824,55 @@
       "Symphonies|1|78.6662|14.5715|Fils g minor Gaigg",
       "Symphonies|1|78.7061|41.9411|Dittersdorf G Major Shephard",
       "Symphonies|1|78.4792|68.4758|Vogler d minor Bamert"
+    ],
+    "Orchestral|1": [
+      "Orchestral|1|4.53643|23.74431|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fasolis / Goodman / Huggett / Valetti",
+      "Orchestral|1|18.68031|23.77004|Orchestral Suites BWV1066~69 Johann Sebastian Bach Fortin Musical Offering BWV1079",
+      "Orchestral|1|32.77267|23.79592|Alessandrini",
+      "Orchestral|1|4.47849|48.16286|Musical Offering BWV1079 Huggett / Valetti Savall Die Kunst der Fuge BWV1080",
+      "Orchestral|1|18.68031|48.13684|Musical Offering BWV1079 Fortin Suzuki Die Kunst der Fuge BWV1080",
+      "Orchestral|1|4.46314|72.94235|Die Kunst der Fuge BWV1080 Savall Alte Musik Berlin",
+      "Orchestral|1|18.58101|73.17631|Die Kunst der Fuge BWV1080 Suzuki Savall",
+      "Orchestral|1|32.80649|73.02|Casals Quartet ㏙arr.㏚",
+      "Orchestral|1|54.05669|23.79922|Trio Sonatas BWV525~530 ㏙trans.㏚ London Baroque Orchestral Transcription",
+      "Orchestral|1|68.46294|23.66825|Trio Sonatas BWV525~530 ㏙trans.㏚ Purcell Quartet Orchestral Transcription",
+      "Orchestral|1|82.71768|23.77296|org.Wilkinson",
+      "Orchestral|1|54.19529|48.19444|Orchestral Transcription London Baroque Salonen",
+      "Orchestral|1|68.50153|48.07058|Orchestral Transcription Purcell Quartet Ozawa"
+    ],
+    "Chamber|1": [
+      "Chamber|1|4.47133|23.21945|Violin Sonata No.6 c minor c.143 Heinrich Ignaz Biber vn.Holloway Rosary Sonata XVI.Passcagia",
+      "Chamber|1|31.47632|23.28332|e minor c.142 Violin Sonata No.5 Stylus Plantsticus ㏙arr.㏚ Rosary Sonata",
+      "Chamber|1|18.67415|23.21909|Violin Sonata No.6 c minor c.143 Heinrich Ignaz Biber Rosary Sonata XVI.Passcagia",
+      "Chamber|1|4.45142|48.17152|Rosary Sonata XVI.Passcagia vn.Holloway Violin Sonata g minor",
+      "Chamber|1|18.77181|48.11747|Rosary Sonata XVI.Passcagia vn.Letzbor vn.Faust Violin Sonata a minor",
+      "Chamber|1|31.76195|48.20539|IV. Ciacona Rosary Sonata vn.Manze Battalia  a10",
+      "Chamber|1|4.38511|72.93503|Violin Sonata g minor vn.Kadesha Vox Luminis",
+      "Chamber|1|18.67415|72.98726|Violin Sonata a minor vn.Faust vn.Holloway",
+      "Chamber|1|32.81522|72.93534|Battalia  a10 vn.Manze Savall",
+      "Chamber|1|55.44729|15.17612|Janitsch Sonata da Camera c minor Op3/4",
+      "Chamber|1|55.44729|41.08758|Palameta Camera c minor Op3/4 Janitsch Sonata da Camera c minor Op1/1",
+      "Chamber|1|55.22654|66.66767|Palameta Camera c minor Op1/1 Janitsch Sonata da chiesa a minor Op7/2",
+      "Chamber|1|79.20706|14.56185|Klein 6 Cello Sonata No.5 a minor op.4/5",
+      "Chamber|1|79.20706|41.14206|vc.K.Goltz No.5 a minor op.4/5 Vilsmayr Violin Partita op.4",
+      "Chamber|1|79.27719|66.6156|vn.Jones Partita op.4 Weichlein Encaenia musices Op.1"
+    ],
+    "Solo|1": [
+      "Solo|1|4.38185|23.34966|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Foccroulle Prelude 㖈 Fugue",
+      "Solo|1|18.67415|23.19341|Passacaglia d minor BuxWV161 Dietrich Buxtehude org.Walcha Prelude 㖈 Fugue",
+      "Solo|1|32.93213|23.28332|Stylus Plantsticus ㏙arr.㏚ Prelude 㖈 Fugue",
+      "Solo|1|4.45142|48.04017|f# minor BuxWV146 Prelude 㖈 Fugue org.berg Prelude,Fugue 㖈",
+      "Solo|1|18.77181|48.01301|Prelude 㖈 Fugue org.Walcha org.Bryndorf Chaconne",
+      "Solo|1|32.87394|48.20539|d minor BuxWV140 Prelude 㖈 Fugue org.Bryndorf Chorale Prelude",
+      "Solo|1|4.38511|72.96122|Chaconne BuxWV137 Prelude,Fugue 㖈 org.Walcha",
+      "Solo|1|18.55148|72.98726|e minor BuxWV160 Chaconne org.Suzuki",
+      "Solo|1|32.99454|72.96138|e minor BuxWV179 Chorale Prelude cemb.Kappel",
+      "Solo|1|54.20408|14.58789|Pachelbel Ciacona f minor P.43",
+      "Solo|1|54.27374|41.14206|org.Owens Ciacona f minor P.43 Pachelbel Ciacona d minor",
+      "Solo|1|54.29356|67.88199|org.Kee Ciacona d minor Pachelbel Magnificat,23 Fugues",
+      "Solo|1|79.03481|14.43866|Bohm Vater unser in himmelreich",
+      "Solo|1|79.03481|41.00499|org.Hurford himmelreich Bohm Auf meinen lieben Gott Fantasia",
+      "Solo|1|78.96294|67.90589|org.Foccroulle lieben Gott Fantasia Krell Capriccio sopra il cucu"
     ]
   }
 }
