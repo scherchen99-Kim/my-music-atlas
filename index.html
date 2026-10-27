@@ -1308,8 +1308,26 @@ function drawSearchPage(){
   let label=makeAlbumLabel(h.a.q,h.g,h.i,h.a);atlasFavoriteMark(h.a,h.g,h.i,label);atlasEnableNameLinks(label,h.a,h.g,h.i,h.a);
   let meta=document.createElement('small');meta.className='hit-source';meta.textContent=`${h.g} · ${h.region} · p.${h.i+1}`;
   btn.append(art,label,meta);root.append(btn);
-  let src='';btn.onclick=async()=>{if(!src){if(h.a.coverUrl)src=h.a.coverUrl;else{let im=await getPageImage(h.g,h.i);if(im)src=crop(im,h.a)}}if(src)selectAlbum(h.a,src,h.g,h.i)};
-  if(h.a.coverUrl){src=h.a.coverUrl;img.src=src}else getPageImage(h.g,h.i).then(im=>{if(token!==searchToken||!im)return;src=crop(im,h.a);if(!src){btn.remove();return}img.src=src});
+  // Search results must use the same cover priority as the genre grid:
+  // HD replacement (when enabled) -> album coverUrl -> cropped PDF cover.
+  const hdCover=hdEnabled&&hdEligible(h.g,h.i)?hdGet(h.a,h.g,h.i)?.url:null;
+  let src=h.a.coverUrl||'';
+  const setSearchCover=(original)=>{
+   if(token!==searchToken)return;
+   src=original||'';
+   const display=hdCover||src;
+   if(!display){btn.remove();return;}
+   img.onerror=()=>{img.onerror=null;if(src&&img.src!==src)img.src=src};
+   img.src=display;
+   img.classList.toggle('hd-applied',!!hdCover);
+  };
+  btn.onclick=async()=>{
+   if(!src){if(h.a.coverUrl)src=h.a.coverUrl;else{const im=await getPageImage(h.g,h.i);if(im)src=crop(im,h.a)}}
+   if(src||hdCover)selectAlbum(h.a,src||hdCover,h.g,h.i);
+  };
+  if(src)setSearchCover(src);
+  else if(hdCover){setSearchCover('');getPageImage(h.g,h.i).then(im=>{if(token!==searchToken||!im)return;src=crop(im,h.a)||''})}
+  else getPageImage(h.g,h.i).then(im=>{if(token!==searchToken||!im)return;setSearchCover(crop(im,h.a))});
  }
 }
 // Search terms are independent of the visible full archive caption.
