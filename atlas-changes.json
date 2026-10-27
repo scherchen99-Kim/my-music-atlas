@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-10-27T10:28:05.868Z",
+  "createdAt": "2026-10-27T11:03:59.274Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -8665,46 +8665,46 @@
       "updatedAt": "2026-10-27T10:27:07.593Z"
     },
     "Symphonies|12|53.2569|19.3019|Felix Mendelssohn 전집 Abbado": {
-      "composer": "Felix Mendelssohn",
+      "composer": "Mendelssohn",
       "work": "Symphony 전집",
       "performer": "전집 Abbado",
       "searchQuery": "Mendelssohn Abbado",
-      "updatedAt": "2026-10-27T10:26:59.643Z"
+      "updatedAt": "2026-10-27T10:33:35.060Z"
     },
     "Symphonies|12|67.6925|19.3057|Felix Mendelssohn 1 Casado": {
-      "composer": "Felix Mendelssohn",
+      "composer": "Mendelssohn",
       "work": "Symphony No.1",
       "performer": "Casado",
       "searchQuery": "Mendelssohn 1 Casado",
-      "updatedAt": "2026-10-27T10:26:54.276Z"
+      "updatedAt": "2026-10-27T10:33:37.932Z"
     },
     "Symphonies|12|81.8923|19.3019|Felix Mendelssohn 2 Manacorda": {
-      "composer": "Felix Mendelssohn",
+      "composer": "Mendelssohn",
       "work": "Symphony No.2",
       "performer": "Manacorda",
       "searchQuery": "Mendelssohn 2 Manacorda",
-      "updatedAt": "2026-10-27T10:26:47.494Z"
+      "updatedAt": "2026-10-27T10:33:41.275Z"
     },
     "Symphonies|12|53.3605|44.8279|Felix Mendelssohn 3 Maag": {
-      "composer": "Felix Mendelssohn",
+      "composer": "Mendelssohn",
       "work": "Symphony No.3",
       "performer": "Maag",
       "searchQuery": "Mendelssohn 3 Maag",
-      "updatedAt": "2026-10-27T10:26:41.678Z"
+      "updatedAt": "2026-10-27T10:33:44.659Z"
     },
     "Symphonies|12|67.6991|44.8134|Felix Mendelssohn 3 Abbado": {
-      "composer": "Felix Mendelssohn",
+      "composer": "Mendelssohn",
       "work": "Symphony No.3",
       "performer": "Abbado",
       "searchQuery": "Mendelssohn 3 Abbado",
-      "updatedAt": "2026-10-27T10:26:36.250Z"
+      "updatedAt": "2026-10-27T10:33:47.931Z"
     },
     "Symphonies|12|81.8923|44.8279|Felix Mendelssohn 3 Konwitschny": {
-      "composer": "Felix Mendelssohn",
+      "composer": "Mendelssohn",
       "work": "Symphony No.3",
       "performer": "Konwitschny",
       "searchQuery": "Mendelssohn 3 Konwitschny",
-      "updatedAt": "2026-10-27T10:26:27.147Z"
+      "updatedAt": "2026-10-27T10:33:51.955Z"
     },
     "Symphonies|12|53.3398|70.0934|Felix Mendelssohn 4 Levine BPO": {
       "composer": "Mendelssohn",
@@ -8729,10 +8729,836 @@
     },
     "Symphonies|13|4.1641|42.2535|Gernsheim 1 Baumer": {
       "composer": "Gernsheim",
-      "work": "1",
+      "work": "Symphony No.1",
       "performer": "Baumer",
       "searchQuery": "Gernsheim Baumer",
-      "updatedAt": "2026-10-27T10:25:43.930Z"
+      "updatedAt": "2026-10-27T10:34:07.843Z"
+    },
+    "Symphonies|13|4.1524|68.9598|Burgmuller 2 Bernius": {
+      "composer": "Burgmuller",
+      "work": "Symphony No.2",
+      "performer": "Bernius",
+      "searchQuery": "Burgmuller Bernius",
+      "updatedAt": "2026-10-27T10:34:12.035Z"
+    },
+    "Symphonies|13|27.7819|15.1605|Mayer 1 McFall": {
+      "composer": "Mayer",
+      "work": "Symphony No.1",
+      "performer": "McFall",
+      "searchQuery": "Mayer McFall",
+      "updatedAt": "2026-10-27T10:34:16.634Z"
+    },
+    "Symphonies|13|27.7843|42.29|Mayer 4 Malzew": {
+      "composer": "Mayer",
+      "work": "Symphony No.4",
+      "performer": "Malzew",
+      "searchQuery": "Mayer Malzew",
+      "updatedAt": "2026-10-27T10:34:23.563Z"
+    },
+    "Symphonies|13|27.9318|68.9566|Fuchs 2 Steffens": {
+      "composer": "Fuchs",
+      "work": "Symphony No.2",
+      "performer": "Steffens",
+      "searchQuery": "Fuchs Steffens",
+      "updatedAt": "2026-10-27T10:34:29.882Z"
+    },
+    "Symphonies|13|53.9303|15.2574|Hiller e minor Lau": {
+      "composer": "Hiller",
+      "work": "Symphony e minor",
+      "performer": "Lau",
+      "searchQuery": "Hiller Lau",
+      "updatedAt": "2026-10-27T10:34:36.975Z"
+    },
+    "Symphonies|13|53.7343|42.29|Loewe 1 Gaudenz": {
+      "composer": "Loewe",
+      "work": "Symphony No.1",
+      "performer": "Gaudenz",
+      "searchQuery": "Loewe Gaudenz",
+      "updatedAt": "2026-10-27T10:34:42.310Z"
+    },
+    "Symphonies|13|53.7992|68.9566|E.Franck A Major P.Frank": {
+      "composer": "E.Franck",
+      "work": "Symphony A Major",
+      "performer": "Frank",
+      "searchQuery": "E.Franck Frank",
+      "updatedAt": "2026-10-27T10:34:52.170Z"
+    },
+    "Symphonies|13|78.7624|15.2293|Herzogenberg 1 Beermann": {
+      "composer": "Herzogenberg",
+      "work": "Symphony No.1",
+      "performer": "Beermann",
+      "searchQuery": "Herzogenberg Beermann",
+      "updatedAt": "2026-10-27T10:34:57.345Z"
+    },
+    "Symphonies|13|78.797|42.2535|Reineke 1 Moesus": {
+      "composer": "Reineke",
+      "work": "Symphony No.1",
+      "performer": "Moesus",
+      "searchQuery": "Reineke Moesus",
+      "updatedAt": "2026-10-27T10:35:02.482Z"
+    },
+    "Symphonies|13|78.9536|69.1479|Bargiel C Major Potosi": {
+      "composer": "Bargiel",
+      "work": "Symphony C Major",
+      "performer": "Potosi",
+      "searchQuery": "Bargiel Potosi",
+      "updatedAt": "2026-10-27T10:35:09.969Z"
+    },
+    "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집": {
+      "composer": "Brahms",
+      "work": "Symphony 전집",
+      "performer": "Giulini WPO",
+      "searchQuery": "Brahms Giulini",
+      "updatedAt": "2026-10-27T10:36:20.552Z"
+    },
+    "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati": {
+      "composer": "Brahms",
+      "work": "Symphony 전집",
+      "performer": "Ticciati",
+      "searchQuery": "Brahms Ticciati",
+      "updatedAt": "2026-10-27T10:37:57.693Z"
+    },
+    "Symphonies|14|32.6758|19.3019|Johannes Brahms 전집 Abbado BPO": {
+      "composer": "Brahms",
+      "work": "Symphony 전집",
+      "performer": "Abbado BPO",
+      "searchQuery": "Brahms Abbado",
+      "updatedAt": "2026-10-27T10:38:07.117Z"
+    },
+    "Symphonies|14|18.4826|44.8279|Johannes Brahms 1 Giulini LAPO 1": {
+      "composer": "Brahms",
+      "work": "Symphony No.1",
+      "performer": "Giulini LAPO 1",
+      "searchQuery": "Brahms 1 Giulini",
+      "updatedAt": "2026-10-27T10:44:09.289Z"
+    },
+    "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC": {
+      "composer": "Brahms",
+      "work": "Symphony No.1",
+      "performer": "Markevitch NBC",
+      "searchQuery": "Brahms 1 Markevitch",
+      "updatedAt": "2026-10-27T10:44:06.070Z"
+    },
+    "Symphonies|14|3.9449|70.0522|Johannes Brahms 1 Furtwangler 2 r.tahra,51": {
+      "composer": "Brahms",
+      "work": "Symphony No.1",
+      "performer": "Furtwangler r.tahra,51",
+      "searchQuery": "Brahms 1 Furtwangler",
+      "updatedAt": "2026-10-27T10:44:02.609Z"
+    },
+    "Symphonies|14|18.3444|70.0934|Johannes Brahms 2 Giulini LAPO": {
+      "composer": "Brahms",
+      "work": "Symphony No.2",
+      "performer": "Giulini LAPO",
+      "searchQuery": "Brahms 2 Giulini",
+      "updatedAt": "2026-10-27T10:43:52.784Z"
+    },
+    "Symphonies|14|32.683|70.0934|Johannes Brahms 2 Monteux SFSO,47": {
+      "composer": "Brahms",
+      "work": "Symphony No.2",
+      "performer": "Monteux SFSO,47",
+      "searchQuery": "Brahms 2 Monteux",
+      "updatedAt": "2026-10-27T10:43:49.795Z"
+    },
+    "Symphonies|14|53.7212|19.3451|Johannes Brahms 2 Abbado BPO": {
+      "composer": "Brahms",
+      "work": "Symphony No.2",
+      "performer": "Abbado BPO",
+      "searchQuery": "Brahms 2 Abbado",
+      "updatedAt": "2026-10-27T10:43:46.778Z"
+    },
+    "Symphonies|14|67.8797|19.3019|Johannes Brahms 3 Giulini WPO": {
+      "composer": "Brahms",
+      "work": "Symphony No.3",
+      "performer": "Giulini WPO",
+      "searchQuery": "Brahms 3 Giulini",
+      "updatedAt": "2026-10-27T10:43:43.900Z"
+    },
+    "Symphonies|14|82.1797|19.3019|Johannes Brahms 3 Harding": {
+      "composer": "Brahms",
+      "work": "Symphony No.3",
+      "performer": "Harding",
+      "searchQuery": "Brahms 3 Harding",
+      "updatedAt": "2026-10-27T10:43:41.306Z"
+    },
+    "Symphonies|14|53.5326|44.8298|Johannes Brahms 3 Abendroth 51 4": {
+      "composer": "Brahms",
+      "work": "Symphony No.3",
+      "performer": "Abendroth 51",
+      "searchQuery": "Brahms 3 Abendroth",
+      "updatedAt": "2026-10-27T10:43:33.049Z"
+    },
+    "Symphonies|14|67.5903|44.8279|Johannes Brahms 4 Giulini WPO": {
+      "composer": "Brahms",
+      "work": "Symphony No.4",
+      "performer": "Giulini WPO",
+      "searchQuery": "Brahms 4 Giulini",
+      "updatedAt": "2026-10-27T10:43:30.265Z"
+    },
+    "Symphonies|14|82.0342|44.8279|Johannes Brahms 4 C.Klieber": {
+      "composer": "Brahms",
+      "work": "Symphony No.4",
+      "performer": "C.Klieber",
+      "searchQuery": "Brahms 4 Klieber",
+      "updatedAt": "2026-10-27T10:43:27.225Z"
+    },
+    "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner": {
+      "composer": "Brahms",
+      "work": "Symphony No.4",
+      "performer": "Suitner",
+      "searchQuery": "Brahms 4 Suitner",
+      "updatedAt": "2026-10-27T10:43:23.735Z"
+    },
+    "Symphonies|14|67.5396|70.3538|Johannes Brahms 4 Sanderling BSO 4": {
+      "composer": "Brahms",
+      "work": "Symphony No.4",
+      "performer": "Sanderling BSO",
+      "searchQuery": "Brahms 4 Sanderling",
+      "updatedAt": "2026-10-27T10:43:20.734Z"
+    },
+    "Symphonies|14|81.9642|70.3557|Johannes Brahms 4 Abbado BPO": {
+      "composer": "Brahms",
+      "work": "Symphony No.4",
+      "performer": "Abbado BPO",
+      "searchQuery": "Brahms 4 Abbado",
+      "updatedAt": "2026-10-27T10:43:15.146Z"
+    },
+    "Symphonies|15|4.1222|14.5379|Goetz F Major Albert": {
+      "composer": "Goetz",
+      "work": "Symphony F Major",
+      "performer": "Albert",
+      "searchQuery": "Goetz Albert",
+      "updatedAt": "2026-10-27T10:44:46.398Z"
+    },
+    "Symphonies|15|4.3226|40.949|Draescke 3 Weigle": {
+      "composer": "Draescke",
+      "work": "Symphony No.3",
+      "performer": "Weigle",
+      "searchQuery": "Draescke Weigle",
+      "updatedAt": "2026-10-27T10:44:50.632Z"
+    },
+    "Symphonies|15|4.4425|68.3674|Kaun 3 Stockhammer": {
+      "composer": "Kaun",
+      "work": "3",
+      "performer": "Stockhammer",
+      "searchQuery": "Kaun Stockhammer",
+      "updatedAt": "2026-10-27T10:44:57.399Z"
+    },
+    "Symphonies|15|27.8606|14.7745|Raff 3 Stadlmair": {
+      "composer": "Raff",
+      "work": "Symphony No.3",
+      "performer": "Stadlmair",
+      "searchQuery": "Raff Stadlmair",
+      "updatedAt": "2026-10-27T10:45:02.352Z"
+    },
+    "Symphonies|15|27.8541|41.6225|Raff 5 N.Jarvi": {
+      "composer": "Raff",
+      "work": "Symphony No.5",
+      "performer": "N.Jarvi",
+      "searchQuery": "Raff Jarvi",
+      "updatedAt": "2026-10-27T10:45:09.707Z"
+    },
+    "Symphonies|15|27.4863|68.3674|Raff 10 Travis": {
+      "composer": "Raff",
+      "work": "Symphony No.10",
+      "performer": "Travis",
+      "searchQuery": "Raff Travis",
+      "updatedAt": "2026-10-27T10:45:16.367Z"
+    },
+    "Symphonies|15|54.0799|14.7646|Klughardt 3 Berg": {
+      "composer": "Klughardt",
+      "work": "Symphony No.3",
+      "performer": "Berg",
+      "searchQuery": "Klughardt Berg",
+      "updatedAt": "2026-10-27T10:45:20.955Z"
+    },
+    "Symphonies|15|54.0269|41.4179|Bruch 2 Masur": {
+      "composer": "Bruch",
+      "work": "Symphony No.2",
+      "performer": "Masur",
+      "searchQuery": "Bruch Masur",
+      "updatedAt": "2026-10-27T10:45:25.862Z"
+    },
+    "Symphonies|15|54.0269|68.1384|Rudorff 3 Beermann": {
+      "composer": "Rudorff",
+      "work": "Symphony No.3",
+      "performer": "Beermann",
+      "searchQuery": "Rudorff Beermann",
+      "updatedAt": "2026-10-27T10:45:30.266Z"
+    },
+    "Symphonies|15|78.9894|14.6529|Woyrsch 1 Dorsch": {
+      "composer": "Woyrsch",
+      "work": "Symphony No.1",
+      "performer": "Dorsch",
+      "searchQuery": "Woyrsch Dorsch",
+      "updatedAt": "2026-10-27T10:45:35.103Z"
+    },
+    "Symphonies|15|79.0358|41.4992|G.Schumann b Gedschold": {
+      "composer": "G.Schumann",
+      "work": "Symphony b minor",
+      "performer": "Gedschold",
+      "searchQuery": "Schumann Gedschold",
+      "updatedAt": "2026-10-27T10:45:45.086Z"
+    },
+    "Symphonies|15|79.0358|68.203|Jadassohn 1 Griffiths": {
+      "composer": "Jadassohn",
+      "work": "Symphony No.1",
+      "performer": "Griffiths",
+      "searchQuery": "Jadassohn Griffiths",
+      "updatedAt": "2026-10-27T10:45:49.429Z"
+    },
+    "Symphonies|16|51.7204|21.9856|Alpensinfonie Thielemann": {
+      "composer": "R.Strauss",
+      "work": "Eine Alpensinfonie",
+      "performer": "Thielemann",
+      "searchQuery": "Eine Alpensinfonie Thielemann",
+      "updatedAt": "2026-10-27T10:46:45.868Z"
+    },
+    "Symphonies|16|65.9034|21.5513|Alpensinfonie Karajan": {
+      "composer": "R.Strauss",
+      "work": "Eine Alpensinfonie",
+      "performer": "Karajan",
+      "searchQuery": "Eine Alpensinfonie Karajan",
+      "updatedAt": "2026-10-27T10:46:42.391Z"
+    },
+    "Symphonies|16|80.2736|21.9856|Alpensinfonie Sinopoli": {
+      "composer": "R.Strauss",
+      "work": "Eine Alpensinfonie",
+      "performer": "Sinopoli",
+      "searchQuery": "Eine Alpensinfonie Sinopoli",
+      "updatedAt": "2026-10-27T10:46:38.724Z"
+    },
+    "Symphonies|16|51.942|48.0134|Symphonia Domestica Karajan": {
+      "composer": "R.Strauss",
+      "work": "Symphonia Domestica",
+      "performer": "Karajan",
+      "searchQuery": "Symphonia Domestica Karajan",
+      "updatedAt": "2026-10-27T10:46:32.574Z"
+    },
+    "Symphonies|16|66.8683|47.9974|2 Weigle 2": {
+      "composer": "R.Strauss",
+      "work": "Symphony No.2",
+      "performer": "Weigle",
+      "searchQuery": "Richard Strauss Weigle",
+      "updatedAt": "2026-10-27T10:47:17.348Z"
+    },
+    "Symphonies|16|80.1929|47.9974|2 Baumer": {
+      "composer": "R.Strauss",
+      "work": "Symphony No.2",
+      "performer": "Baumer",
+      "searchQuery": "Richard Strauss Baumer",
+      "updatedAt": "2026-10-27T10:47:13.590Z"
+    },
+    "Symphonies|16|4.1975|41.5732|R.Wagner C Major Wakasugi": {
+      "composer": "R.Wagner",
+      "work": "C Major",
+      "performer": "Wakasugi",
+      "searchQuery": "R.Wagner Wakasugi",
+      "updatedAt": "2026-10-27T10:47:08.796Z"
+    },
+    "Symphonies|16|28.4215|14.7868|Bittner 1 Vasiliev": {
+      "composer": "Bittner",
+      "work": "Symphony No.1",
+      "performer": "Vasiliev",
+      "searchQuery": "Bittner Vasiliev",
+      "updatedAt": "2026-10-27T10:47:27.862Z"
+    },
+    "Symphonies|16|28.35|41.488|Marx Eine Herbstsymphonie Wildner": {
+      "composer": "Marx",
+      "work": "Eine Herbstsymphonie",
+      "performer": "Wildner",
+      "searchQuery": "Marx Eine Herbstsymphonie",
+      "updatedAt": "2026-10-27T10:47:46.707Z"
+    },
+    "Symphonies|16|28.37|67.9538|Scharwenka c minor Fifield": {
+      "composer": "Scharwenka",
+      "work": "Symphony c minor",
+      "performer": "Fifield",
+      "searchQuery": "Scharwenka Fifield",
+      "updatedAt": "2026-10-27T10:47:59.650Z"
+    },
+    "Symphonies|17|4.2895|19.3019|Anton Bruckner 전집 Celibidache": {
+      "composer": "Bruckner",
+      "work": "Symphony 전집",
+      "performer": "Celibidache",
+      "searchQuery": "Bruckner Celibidache",
+      "updatedAt": "2026-10-27T10:48:30.650Z"
+    },
+    "Symphonies|17|18.6133|19.3019|Anton Bruckner 전집 Asahina r.Canyon 전집": {
+      "composer": "Bruckner",
+      "work": "Symphony 전집",
+      "performer": "Asahina r.Canyon",
+      "searchQuery": "Bruckner Asahina",
+      "updatedAt": "2026-10-27T10:49:00.538Z"
+    },
+    "Symphonies|17|32.7217|19.3019|Anton Bruckner 전집 Jochum r.Tahra": {
+      "composer": "Bruckner",
+      "work": "Symphony 전집",
+      "performer": "Jochum r.Tahra",
+      "searchQuery": "Bruckner Jochum Tahra",
+      "updatedAt": "2026-10-27T10:49:10.837Z"
+    },
+    "Symphonies|17|4.144|44.8279|Anton Bruckner f Schaller PFO": {
+      "composer": "Bruckner",
+      "work": "Symphony in F minor",
+      "performer": "Schaller PFO",
+      "searchQuery": "Bruckner Schaller",
+      "updatedAt": "2026-10-27T10:49:21.077Z"
+    },
+    "Symphonies|17|18.4826|44.8279|Anton Bruckner f Skrowaczewski": {
+      "composer": "Bruckner",
+      "work": "Symphony in F minor",
+      "performer": "Skrowaczewski",
+      "searchQuery": "Bruckner Skrowaczewski",
+      "updatedAt": "2026-10-27T10:49:33.529Z"
+    },
+    "Symphonies|17|32.6758|44.8279|Anton Bruckner 0 Young PHO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.0",
+      "performer": "Young PHO",
+      "searchQuery": "Bruckner 0 Young",
+      "updatedAt": "2026-10-27T10:49:47.336Z"
+    },
+    "Symphonies|17|4.3622|70.0934|Anton Bruckner 0 Skrowaczewski": {
+      "composer": "Bruckner",
+      "work": "Symphony No.0",
+      "performer": "Skrowaczewski",
+      "searchQuery": "Bruckner 0 Skrowaczewski",
+      "updatedAt": "2026-10-27T10:49:57.730Z"
+    },
+    "Symphonies|17|18.5974|69.9553|Anton Bruckner 1 Neumann 1": {
+      "composer": "Bruckner",
+      "work": "Symphony No.1",
+      "performer": "Neumann",
+      "searchQuery": "Bruckner 1 Neumann",
+      "updatedAt": "2026-10-27T10:50:10.479Z"
+    },
+    "Symphonies|17|32.894|70.0934|Anton Bruckner 1 Abbado WPO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.1",
+      "performer": "Abbado WPO",
+      "searchQuery": "Bruckner 1 Abbado",
+      "updatedAt": "2026-10-27T10:50:21.504Z"
+    },
+    "Symphonies|17|53.506|19.4381|Anton Bruckner Symphony 2 Giulini WSO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.2",
+      "performer": "Giulini WSO",
+      "searchQuery": "Bruckner 2 Giulini",
+      "updatedAt": "2026-10-27T10:50:32.431Z"
+    },
+    "Symphonies|17|67.6991|19.4381|Anton Bruckner 2 Muti WPO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.2",
+      "performer": "Muti WPO",
+      "searchQuery": "Bruckner 2 Muti",
+      "updatedAt": "2026-10-27T10:50:44.471Z"
+    },
+    "Symphonies|17|80.9193|19.5682|Anton Bruckner 2 Eichhorn": {
+      "composer": "Bruckner",
+      "work": "Symphony No.2",
+      "performer": "Eichhorn",
+      "searchQuery": "Bruckner Eichhorn",
+      "updatedAt": "2026-10-27T10:50:51.868Z"
+    },
+    "Symphonies|17|53.506|44.8376|Anton Bruckner 3 Sinopoli": {
+      "composer": "Bruckner",
+      "work": "Symphony No.3",
+      "performer": "Sinopoli",
+      "searchQuery": "Bruckner 3 Sinopoli",
+      "updatedAt": "2026-10-27T10:51:03.719Z"
+    },
+    "Symphonies|17|67.6991|44.8376|Anton Bruckner 3 Tennstedt BR": {
+      "composer": "Bruckner",
+      "work": "Symphony No.3",
+      "performer": "Tennstedt BR",
+      "searchQuery": "Bruckner 3 Tennstedt",
+      "updatedAt": "2026-10-27T10:51:19.442Z"
+    },
+    "Symphonies|17|81.8923|44.8376|Anton Bruckner 3 Celibidache": {
+      "composer": "Bruckner",
+      "work": "Symphony No.3",
+      "performer": "Celibidache",
+      "searchQuery": "Bruckner 3 Celibidache",
+      "updatedAt": "2026-10-27T10:51:34.126Z"
+    },
+    "Symphonies|17|53.3605|70.1031|Anton Bruckner 4 Blomstedt SKD": {
+      "composer": "Bruckner",
+      "work": "Symphony No.4",
+      "performer": "Blomstedt SKD",
+      "searchQuery": "Bruckner 4 Blomstedt",
+      "updatedAt": "2026-10-27T10:51:49.442Z"
+    },
+    "Symphonies|17|67.6991|70.1031|Anton Bruckner 4 Celibidache": {
+      "composer": "Bruckner",
+      "work": "Symphony No. 4",
+      "performer": "Celibidache",
+      "searchQuery": "Bruckner 4 Celibidache",
+      "updatedAt": "2026-10-27T10:51:57.258Z"
+    },
+    "Symphonies|17|81.8923|70.1031|Anton Bruckner 4 Roth": {
+      "composer": "Bruckner",
+      "work": "Symphony No. 4",
+      "performer": "Roth",
+      "searchQuery": "Bruckner 4 Roth",
+      "updatedAt": "2026-10-27T10:52:09.305Z"
+    },
+    "Symphonies|18|4.3158|19.1988|Anton Bruckner 5 Blomstedt LGO 5": {
+      "composer": "Bruckner",
+      "work": "Symphony No.5",
+      "performer": "Blomstedt LGO",
+      "searchQuery": "Bruckner 5 Blomstedt",
+      "updatedAt": "2026-10-27T10:52:23.769Z"
+    },
+    "Symphonies|18|18.509|19.1988|Anton Bruckner 5 Wand BPO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.5",
+      "performer": "Wand BPO",
+      "searchQuery": "Bruckner 5 Wand",
+      "updatedAt": "2026-10-27T10:52:37.449Z"
+    },
+    "Symphonies|18|32.7021|19.1988|Anton Bruckner 5 Celibidache r.Altus": {
+      "composer": "Anton Bruckner",
+      "work": "Symphony No.5",
+      "performer": "Celibidache r.Altus",
+      "searchQuery": "Bruckner 5 Celibidache",
+      "updatedAt": "2026-10-27T10:52:47.728Z"
+    },
+    "Symphonies|18|4.2895|44.7958|Anton Bruckner 6 Celibidache": {
+      "composer": "Anton Bruckner",
+      "work": "Symphony No.6",
+      "performer": "Celibidache",
+      "searchQuery": "Bruckner 6 Celibidache",
+      "updatedAt": "2026-10-27T10:52:55.808Z"
+    },
+    "Symphonies|18|18.4826|44.7958|Anton Bruckner 6 Klemperer": {
+      "composer": "Bruckner",
+      "work": "Symphony No.6",
+      "performer": "Klemperer",
+      "searchQuery": "Bruckner 6 Klemperer",
+      "updatedAt": "2026-10-27T10:53:11.608Z"
+    },
+    "Symphonies|18|32.4687|44.5196|Anton Bruckner 6 Wand NDR": {
+      "composer": "Bruckner",
+      "work": "Symphony No.6",
+      "performer": "Wand NDR",
+      "searchQuery": "Bruckner 6 Wand",
+      "updatedAt": "2026-10-27T10:53:28.471Z"
+    },
+    "Symphonies|18|4.144|69.987|Anton Bruckner 7 Matacici CZPO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.7",
+      "performer": "Matacici CZPO",
+      "searchQuery": "Bruckner 7 Matacici",
+      "updatedAt": "2026-10-27T10:53:42.167Z"
+    },
+    "Symphonies|18|18.4057|69.987|Anton Bruckner 7 Blomstedt SKD": {
+      "composer": "Bruckner",
+      "work": "Symphony No.7",
+      "performer": "Blomstedt SKD",
+      "searchQuery": "Bruckner 7 Blomstedt",
+      "updatedAt": "2026-10-27T10:53:58.431Z"
+    },
+    "Symphonies|18|32.6758|69.9869|Anton Bruckner 7 Celibidache BPO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.7",
+      "performer": "Celibidache BPO",
+      "searchQuery": "Bruckner 7 Celibidache",
+      "updatedAt": "2026-10-27T10:54:10.806Z"
+    },
+    "Symphonies|18|53.5189|19.2818|Anton Bruckner 8 Celibidache r.AUDIOR,85": {
+      "composer": "Bruckner",
+      "work": "Symphony No.8",
+      "performer": "Celibidache r.AUDIOR,85",
+      "searchQuery": "Bruckner 8 Celibidache",
+      "updatedAt": "2026-10-27T10:54:30.246Z"
+    },
+    "Symphonies|18|67.8575|19.2818|Anton Bruckner 8 Karajan WPO,88 8": {
+      "composer": "Bruckner",
+      "work": "Symphony No.8",
+      "performer": "Karajan WPO,88",
+      "searchQuery": "Bruckner 8 Karajan",
+      "updatedAt": "2026-10-27T10:54:46.141Z"
+    },
+    "Symphonies|18|82.4413|19.2818|Anton Bruckner 8 Maazel BPO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.8",
+      "performer": "Maazel BPO",
+      "searchQuery": "Bruckner 8 Maazel",
+      "updatedAt": "2026-10-27T10:54:59.589Z"
+    },
+    "Symphonies|18|53.4008|44.7911|Anton Bruckner 9 Giulini WPO": {
+      "composer": "Bruckner",
+      "work": "Symphony No.9",
+      "performer": "Giulini WPO",
+      "searchQuery": "Bruckner 9 Giulini",
+      "updatedAt": "2026-10-27T10:55:16.878Z"
+    },
+    "Symphonies|18|67.6991|44.7911|Anton Bruckner 9 Celibidache 9": {
+      "composer": "Bruckner",
+      "work": "Symphony No.9",
+      "performer": "Celibidache",
+      "searchQuery": "Bruckner 9 Celibidache",
+      "updatedAt": "2026-10-27T10:55:29.421Z"
+    },
+    "Symphonies|18|81.8923|44.7911|Anton Bruckner 9 Wand SWR": {
+      "composer": "Bruckner",
+      "work": "Symphony No.9",
+      "performer": "Wand SWR",
+      "searchQuery": "Bruckner 9 Wand",
+      "updatedAt": "2026-10-27T10:55:40.840Z"
+    },
+    "Symphonies|19|4.2895|19.3019|Gustav Mahler 전집 Bernstein r.DG": {
+      "composer": "Mahler",
+      "work": "Symphony 전집",
+      "performer": "Bernstein r.DG",
+      "searchQuery": "Mahler Bernstein",
+      "updatedAt": "2026-10-27T10:56:28.619Z"
+    },
+    "Symphonies|19|18.4826|19.3019|Gustav Mahler 전집 Bertinini": {
+      "composer": "Mahler",
+      "work": "Symphony 전집",
+      "performer": "Bertinini",
+      "searchQuery": "Mahler Bertinini",
+      "updatedAt": "2026-10-27T10:56:34.819Z"
+    },
+    "Symphonies|19|32.0793|19.3019|Gustav Mahler 전집 Abbado": {
+      "composer": "Mahler",
+      "work": "Symphony 전집",
+      "performer": "Abbado",
+      "searchQuery": "Mahler Abbado",
+      "updatedAt": "2026-10-27T10:56:41.282Z"
+    },
+    "Symphonies|19|4.144|44.8279|Gustav Mahler 1 Abbado BPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.1",
+      "performer": "Abbado BPO",
+      "searchQuery": "Mahler 1 Abbado",
+      "updatedAt": "2026-10-27T10:56:57.026Z"
+    },
+    "Symphonies|19|18.4826|44.8279|Gustav Mahler 1 Tennstedt NDR": {
+      "composer": "Mahler",
+      "work": "Symphony No.1",
+      "performer": "Tennstedt NDR",
+      "searchQuery": "Mahler 1 Tennstedt",
+      "updatedAt": "2026-10-27T10:57:12.015Z"
+    },
+    "Symphonies|19|32.6295|44.7661|Gustav Mahler 1 Jansons RCO": {
+      "composer": "Mahler",
+      "work": "Symphony No.1",
+      "performer": "Jansons RCO",
+      "searchQuery": "Mahler 1 Jansons",
+      "updatedAt": "2026-10-27T10:57:24.097Z"
+    },
+    "Symphonies|19|4.1669|70.0934|Gustav Mahler 2 Rattle BCSO": {
+      "composer": "Mahler",
+      "work": "Symphony No.2",
+      "performer": "Rattle BCSO",
+      "searchQuery": "Mahler 2 Rattle",
+      "updatedAt": "2026-10-27T10:57:37.881Z"
+    },
+    "Symphonies|19|18.1954|70.0934|Gustav Mahler 2 Mehta WPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.2",
+      "performer": "Mehta WPO",
+      "searchQuery": "Mahler 2 Mehta",
+      "updatedAt": "2026-10-27T10:57:49.980Z"
+    },
+    "Symphonies|19|32.5046|70.0934|Gustav Mahler 2 Haitink BPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.2",
+      "performer": "Haitink BPO",
+      "searchQuery": "Mahler 2 Haitink",
+      "updatedAt": "2026-10-27T10:58:04.170Z"
+    },
+    "Symphonies|19|53.4684|19.3019|Gustav Mahler 3 Chailly": {
+      "composer": "Mahler",
+      "work": "Symphony No.3",
+      "performer": "Chailly",
+      "searchQuery": "Mahler 3 Chailly",
+      "updatedAt": "2026-10-27T10:58:12.780Z"
+    },
+    "Symphonies|19|67.8446|19.3019|Gustav Mahler 3 Honeck": {
+      "composer": "Mahler",
+      "work": "Symphony No.3",
+      "performer": "Honeck",
+      "searchQuery": "Mahler 3 Honeck",
+      "updatedAt": "2026-10-27T10:58:26.732Z"
+    },
+    "Symphonies|19|81.8529|19.3019|Gustav Mahler 3 Nott": {
+      "composer": "Mahler",
+      "work": "Symphony No.3",
+      "performer": "Nott",
+      "searchQuery": "Mahler 3 Nott",
+      "updatedAt": "2026-10-27T10:58:37.815Z"
+    },
+    "Symphonies|19|53.3136|44.8279|Gustav Mahler 4 Maazel WPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.4",
+      "performer": "Maazel WPO",
+      "searchQuery": "Mahler 4 Maazel",
+      "updatedAt": "2026-10-27T10:58:49.080Z"
+    },
+    "Symphonies|19|67.6991|44.8279|Gustav Mahler 4 Fischer": {
+      "composer": "Mahler",
+      "work": "Symphony No.4",
+      "performer": "Fischer",
+      "searchQuery": "Mahler 4 Fischer",
+      "updatedAt": "2026-10-27T10:58:59.273Z"
+    },
+    "Symphonies|19|53.4467|70.0934|Gustav Mahler 5 Chailly": {
+      "composer": "Mahler",
+      "work": "Symphony No.5",
+      "performer": "Chailly",
+      "searchQuery": "Mahler 5 Chailly",
+      "updatedAt": "2026-10-27T10:59:09.631Z"
+    },
+    "Symphonies|19|68.2771|70.0933|Gustav Mahler 5 Stentz 5": {
+      "composer": "Mahler",
+      "work": "Symphony No.5",
+      "performer": "Stentz",
+      "searchQuery": "Mahler 5 Stentz",
+      "updatedAt": "2026-10-27T10:59:25.663Z"
+    },
+    "Symphonies|19|81.8923|70.0934|Gustav Mahler 5 Sinopoli": {
+      "composer": "Mahler",
+      "work": "Symphony No.5",
+      "performer": "Sinopoli",
+      "searchQuery": "Mahler 5 Sinopoli",
+      "updatedAt": "2026-10-27T10:59:35.672Z"
+    },
+    "Symphonies|20|4.2895|19.3019|Gustav Mahler 6 Tennstedt LPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.6",
+      "performer": "Tennstedt LPO",
+      "searchQuery": "Mahler 6 Tennstedt",
+      "updatedAt": "2026-10-27T10:59:49.314Z"
+    },
+    "Symphonies|20|18.4237|19.3019|Gustav Mahler 6 Bernstein WPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.6",
+      "performer": "Bernstein WPO",
+      "searchQuery": "Mahler 6 Bernstein",
+      "updatedAt": "2026-10-27T11:00:02.192Z"
+    },
+    "Symphonies|20|32.6758|19.3019|Gustav Mahler 6 Vanska": {
+      "composer": "Mahler",
+      "work": "Symphony No.6",
+      "performer": "Vanska",
+      "searchQuery": "Mahler 6 Vanska",
+      "updatedAt": "2026-10-27T11:00:18.662Z"
+    },
+    "Symphonies|20|4.144|44.8279|Gustav Mahler 7 Bloch": {
+      "composer": "Mahler",
+      "work": "Symphony No.7",
+      "performer": "Bloch",
+      "searchQuery": "Mahler 7 Bloch",
+      "updatedAt": "2026-10-27T11:00:30.134Z"
+    },
+    "Symphonies|20|18.3692|44.7842|Gustav Mahler 7 Tilson㎿Tomas LSO": {
+      "composer": "Mahler",
+      "work": "Symphony No.7",
+      "performer": "Tilson Tomas LSO",
+      "searchQuery": "Mahler 7 Tilson Tomas",
+      "updatedAt": "2026-10-27T11:00:43.947Z"
+    },
+    "Symphonies|20|32.6758|44.8279|Gustav Mahler 7 Gielen": {
+      "composer": "Mahler",
+      "work": "Symphony No.7",
+      "performer": "Gielen",
+      "searchQuery": "Mahler 7 Gielen",
+      "updatedAt": "2026-10-27T11:00:56.684Z"
+    },
+    "Symphonies|20|4.0693|70.0934|Gustav Mahler 8 Chailly": {
+      "composer": "Mahler",
+      "work": "Symphony No.8",
+      "performer": "Chailly",
+      "searchQuery": "Mahler 8 Chailly",
+      "updatedAt": "2026-10-27T11:01:13.621Z"
+    },
+    "Symphonies|20|18.3687|70.0934|Gustav Mahler 8 Tennstedt LPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.8",
+      "performer": "Tennstedt LPO",
+      "searchQuery": "Mahler 8 Tennstedt",
+      "updatedAt": "2026-10-27T11:01:25.046Z"
+    },
+    "Symphonies|20|32.6011|70.0934|Gustav Mahler 8 Nagano": {
+      "composer": "Mahler",
+      "work": "Symphony No.8",
+      "performer": "Nagano",
+      "searchQuery": "Mahler 8 Nagano",
+      "updatedAt": "2026-10-27T11:01:33.922Z"
+    },
+    "Symphonies|20|53.3512|19.3019|Gustav Mahler 9 Abbado BPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.9",
+      "performer": "Abbado BPO",
+      "searchQuery": "Mahler 9 Abbado",
+      "updatedAt": "2026-10-27T11:01:43.965Z"
+    },
+    "Symphonies|20|67.675|19.3019|Gustav Mahler 9 Bernstein RCO": {
+      "composer": "Mahler",
+      "work": "Symphony No.9",
+      "performer": "Bernstein RCO",
+      "searchQuery": "Mahler 9 Bernstein",
+      "updatedAt": "2026-10-27T11:01:55.377Z"
+    },
+    "Symphonies|20|81.8923|19.3019|Gustav Mahler 9 Karajan BPO": {
+      "composer": "Mahler",
+      "work": "Symphony No.9",
+      "performer": "Karajan BPO",
+      "searchQuery": "Mahler 9 Karajan",
+      "updatedAt": "2026-10-27T11:02:06.849Z"
+    },
+    "Symphonies|20|53.3313|44.8279|Gustav Mahler 10 Sanderling": {
+      "composer": "Mahler",
+      "work": "Symphony No.10",
+      "performer": "Sanderling",
+      "searchQuery": "Mahler 10 Sanderling",
+      "updatedAt": "2026-10-27T11:02:15.780Z"
+    },
+    "Symphonies|20|67.6809|44.8279|Gustav Mahler 10 Inbal TMSO": {
+      "composer": "Mahler",
+      "work": "Symphony No.10",
+      "performer": "Inbal TMSO",
+      "searchQuery": "Mahler 10 Inbal",
+      "updatedAt": "2026-10-27T11:02:28.380Z"
+    },
+    "Symphonies|20|81.8923|44.8279|Gustav Mahler 10 Gielen": {
+      "composer": "Mahler",
+      "work": "Symphony No.10",
+      "performer": "Gielen",
+      "searchQuery": "Mahler 10 Gielen",
+      "updatedAt": "2026-10-27T11:02:41.369Z"
+    },
+    "Symphonies|20|53.3705|69.6876|Gustav Mahler Das Lied von der Klemperer": {
+      "composer": "Mahler",
+      "work": "Das Lied von der Erde",
+      "performer": "Klemperer",
+      "searchQuery": "Klemperer Das Lied von der Erde",
+      "updatedAt": "2026-10-27T11:03:44.520Z"
+    },
+    "Symphonies|20|67.5149|70.0935|Gustav Mahler Erde Boulez": {
+      "composer": "Mahler",
+      "work": "Das Lied von der Erde",
+      "performer": "Boulez",
+      "searchQuery": "Boulez Das Lied von der Erde",
+      "updatedAt": "2026-10-27T11:03:49.468Z"
+    },
+    "Symphonies|20|81.5775|70.0934|Gustav Mahler Bernstein WPO": {
+      "composer": "Mahler",
+      "work": "Das Lied von der Erde",
+      "performer": "Bernstein WPO",
+      "searchQuery": "Bernstein Das Lied von der Erde",
+      "updatedAt": "2026-10-27T11:03:52.264Z"
+    },
+    "Symphonies|21|4.3717|14.904|Halm A Borin": {
+      "composer": "Halm A",
+      "work": "",
+      "performer": "Borin",
+      "searchQuery": "Halm A Borin",
+      "updatedAt": "2026-10-27T11:03:55.939Z"
     }
   },
   "favorites": {
@@ -8917,7 +9743,125 @@
     "Symphonies|12|53.3398|70.0934|Felix Mendelssohn 4 Levine BPO": false,
     "Symphonies|12|67.5495|69.8633|Felix Mendelssohn 4 Kondrashin": false,
     "Symphonies|12|81.9152|70.0789|Felix Mendelssohn 5 Maazel": false,
-    "Symphonies|13|4.1641|42.2535|Gernsheim 1 Baumer": true
+    "Symphonies|13|4.1641|42.2535|Gernsheim 1 Baumer": true,
+    "Symphonies|13|4.1524|68.9598|Burgmuller 2 Bernius": false,
+    "Symphonies|13|27.7819|15.1605|Mayer 1 McFall": true,
+    "Symphonies|13|27.7843|42.29|Mayer 4 Malzew": false,
+    "Symphonies|13|27.9318|68.9566|Fuchs 2 Steffens": false,
+    "Symphonies|13|53.9303|15.2574|Hiller e minor Lau": false,
+    "Symphonies|13|53.7343|42.29|Loewe 1 Gaudenz": false,
+    "Symphonies|13|53.7992|68.9566|E.Franck A Major P.Frank": false,
+    "Symphonies|13|78.7624|15.2293|Herzogenberg 1 Beermann": false,
+    "Symphonies|13|78.797|42.2535|Reineke 1 Moesus": true,
+    "Symphonies|13|78.9536|69.1479|Bargiel C Major Potosi": false,
+    "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집": false,
+    "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati": false,
+    "Symphonies|14|32.6758|19.3019|Johannes Brahms 전집 Abbado BPO": false,
+    "Symphonies|14|18.4826|44.8279|Johannes Brahms 1 Giulini LAPO 1": false,
+    "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC": false,
+    "Symphonies|14|3.9449|70.0522|Johannes Brahms 1 Furtwangler 2 r.tahra,51": false,
+    "Symphonies|14|18.3444|70.0934|Johannes Brahms 2 Giulini LAPO": false,
+    "Symphonies|14|32.683|70.0934|Johannes Brahms 2 Monteux SFSO,47": false,
+    "Symphonies|14|53.7212|19.3451|Johannes Brahms 2 Abbado BPO": false,
+    "Symphonies|14|67.8797|19.3019|Johannes Brahms 3 Giulini WPO": false,
+    "Symphonies|14|82.1797|19.3019|Johannes Brahms 3 Harding": false,
+    "Symphonies|14|53.5326|44.8298|Johannes Brahms 3 Abendroth 51 4": false,
+    "Symphonies|14|67.5903|44.8279|Johannes Brahms 4 Giulini WPO": false,
+    "Symphonies|14|82.0342|44.8279|Johannes Brahms 4 C.Klieber": false,
+    "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner": false,
+    "Symphonies|14|67.5396|70.3538|Johannes Brahms 4 Sanderling BSO 4": false,
+    "Symphonies|14|81.9642|70.3557|Johannes Brahms 4 Abbado BPO": false,
+    "Symphonies|15|4.1222|14.5379|Goetz F Major Albert": true,
+    "Symphonies|15|4.3226|40.949|Draescke 3 Weigle": false,
+    "Symphonies|15|4.4425|68.3674|Kaun 3 Stockhammer": false,
+    "Symphonies|15|27.8606|14.7745|Raff 3 Stadlmair": false,
+    "Symphonies|15|27.8541|41.6225|Raff 5 N.Jarvi": false,
+    "Symphonies|15|27.4863|68.3674|Raff 10 Travis": true,
+    "Symphonies|15|54.0799|14.7646|Klughardt 3 Berg": true,
+    "Symphonies|15|54.0269|41.4179|Bruch 2 Masur": true,
+    "Symphonies|15|54.0269|68.1384|Rudorff 3 Beermann": false,
+    "Symphonies|15|78.9894|14.6529|Woyrsch 1 Dorsch": true,
+    "Symphonies|15|79.0358|41.4992|G.Schumann b Gedschold": false,
+    "Symphonies|15|79.0358|68.203|Jadassohn 1 Griffiths": false,
+    "Symphonies|16|51.7204|21.9856|Alpensinfonie Thielemann": false,
+    "Symphonies|16|65.9034|21.5513|Alpensinfonie Karajan": false,
+    "Symphonies|16|80.2736|21.9856|Alpensinfonie Sinopoli": false,
+    "Symphonies|16|51.942|48.0134|Symphonia Domestica Karajan": false,
+    "Symphonies|16|66.8683|47.9974|2 Weigle 2": false,
+    "Symphonies|16|80.1929|47.9974|2 Baumer": false,
+    "Symphonies|16|4.1975|41.5732|R.Wagner C Major Wakasugi": false,
+    "Symphonies|16|28.4215|14.7868|Bittner 1 Vasiliev": true,
+    "Symphonies|16|28.35|41.488|Marx Eine Herbstsymphonie Wildner": false,
+    "Symphonies|16|28.37|67.9538|Scharwenka c minor Fifield": false,
+    "Symphonies|17|4.2895|19.3019|Anton Bruckner 전집 Celibidache": false,
+    "Symphonies|17|18.6133|19.3019|Anton Bruckner 전집 Asahina r.Canyon 전집": false,
+    "Symphonies|17|32.7217|19.3019|Anton Bruckner 전집 Jochum r.Tahra": false,
+    "Symphonies|17|4.144|44.8279|Anton Bruckner f Schaller PFO": false,
+    "Symphonies|17|18.4826|44.8279|Anton Bruckner f Skrowaczewski": false,
+    "Symphonies|17|32.6758|44.8279|Anton Bruckner 0 Young PHO": false,
+    "Symphonies|17|4.3622|70.0934|Anton Bruckner 0 Skrowaczewski": false,
+    "Symphonies|17|18.5974|69.9553|Anton Bruckner 1 Neumann 1": false,
+    "Symphonies|17|32.894|70.0934|Anton Bruckner 1 Abbado WPO": false,
+    "Symphonies|17|53.506|19.4381|Anton Bruckner Symphony 2 Giulini WSO": false,
+    "Symphonies|17|67.6991|19.4381|Anton Bruckner 2 Muti WPO": false,
+    "Symphonies|17|80.9193|19.5682|Anton Bruckner 2 Eichhorn": false,
+    "Symphonies|17|53.506|44.8376|Anton Bruckner 3 Sinopoli": false,
+    "Symphonies|17|67.6991|44.8376|Anton Bruckner 3 Tennstedt BR": false,
+    "Symphonies|17|81.8923|44.8376|Anton Bruckner 3 Celibidache": false,
+    "Symphonies|17|53.3605|70.1031|Anton Bruckner 4 Blomstedt SKD": false,
+    "Symphonies|17|67.6991|70.1031|Anton Bruckner 4 Celibidache": false,
+    "Symphonies|17|81.8923|70.1031|Anton Bruckner 4 Roth": false,
+    "Symphonies|18|4.3158|19.1988|Anton Bruckner 5 Blomstedt LGO 5": false,
+    "Symphonies|18|18.509|19.1988|Anton Bruckner 5 Wand BPO": false,
+    "Symphonies|18|32.7021|19.1988|Anton Bruckner 5 Celibidache r.Altus": false,
+    "Symphonies|18|4.2895|44.7958|Anton Bruckner 6 Celibidache": false,
+    "Symphonies|18|18.4826|44.7958|Anton Bruckner 6 Klemperer": false,
+    "Symphonies|18|32.4687|44.5196|Anton Bruckner 6 Wand NDR": false,
+    "Symphonies|18|4.144|69.987|Anton Bruckner 7 Matacici CZPO": false,
+    "Symphonies|18|18.4057|69.987|Anton Bruckner 7 Blomstedt SKD": false,
+    "Symphonies|18|32.6758|69.9869|Anton Bruckner 7 Celibidache BPO": false,
+    "Symphonies|18|53.5189|19.2818|Anton Bruckner 8 Celibidache r.AUDIOR,85": false,
+    "Symphonies|18|67.8575|19.2818|Anton Bruckner 8 Karajan WPO,88 8": false,
+    "Symphonies|18|82.4413|19.2818|Anton Bruckner 8 Maazel BPO": false,
+    "Symphonies|18|53.4008|44.7911|Anton Bruckner 9 Giulini WPO": false,
+    "Symphonies|18|67.6991|44.7911|Anton Bruckner 9 Celibidache 9": false,
+    "Symphonies|18|81.8923|44.7911|Anton Bruckner 9 Wand SWR": false,
+    "Symphonies|19|4.2895|19.3019|Gustav Mahler 전집 Bernstein r.DG": false,
+    "Symphonies|19|18.4826|19.3019|Gustav Mahler 전집 Bertinini": false,
+    "Symphonies|19|32.0793|19.3019|Gustav Mahler 전집 Abbado": false,
+    "Symphonies|19|4.144|44.8279|Gustav Mahler 1 Abbado BPO": false,
+    "Symphonies|19|18.4826|44.8279|Gustav Mahler 1 Tennstedt NDR": false,
+    "Symphonies|19|32.6295|44.7661|Gustav Mahler 1 Jansons RCO": false,
+    "Symphonies|19|4.1669|70.0934|Gustav Mahler 2 Rattle BCSO": false,
+    "Symphonies|19|18.1954|70.0934|Gustav Mahler 2 Mehta WPO": false,
+    "Symphonies|19|32.5046|70.0934|Gustav Mahler 2 Haitink BPO": false,
+    "Symphonies|19|53.4684|19.3019|Gustav Mahler 3 Chailly": false,
+    "Symphonies|19|67.8446|19.3019|Gustav Mahler 3 Honeck": false,
+    "Symphonies|19|81.8529|19.3019|Gustav Mahler 3 Nott": false,
+    "Symphonies|19|53.3136|44.8279|Gustav Mahler 4 Maazel WPO": false,
+    "Symphonies|19|67.6991|44.8279|Gustav Mahler 4 Fischer": false,
+    "Symphonies|19|53.4467|70.0934|Gustav Mahler 5 Chailly": false,
+    "Symphonies|19|68.2771|70.0933|Gustav Mahler 5 Stentz 5": false,
+    "Symphonies|19|81.8923|70.0934|Gustav Mahler 5 Sinopoli": false,
+    "Symphonies|20|4.2895|19.3019|Gustav Mahler 6 Tennstedt LPO": false,
+    "Symphonies|20|18.4237|19.3019|Gustav Mahler 6 Bernstein WPO": false,
+    "Symphonies|20|32.6758|19.3019|Gustav Mahler 6 Vanska": false,
+    "Symphonies|20|4.144|44.8279|Gustav Mahler 7 Bloch": false,
+    "Symphonies|20|18.3692|44.7842|Gustav Mahler 7 Tilson㎿Tomas LSO": false,
+    "Symphonies|20|32.6758|44.8279|Gustav Mahler 7 Gielen": false,
+    "Symphonies|20|4.0693|70.0934|Gustav Mahler 8 Chailly": false,
+    "Symphonies|20|18.3687|70.0934|Gustav Mahler 8 Tennstedt LPO": false,
+    "Symphonies|20|32.6011|70.0934|Gustav Mahler 8 Nagano": false,
+    "Symphonies|20|53.3512|19.3019|Gustav Mahler 9 Abbado BPO": false,
+    "Symphonies|20|67.675|19.3019|Gustav Mahler 9 Bernstein RCO": false,
+    "Symphonies|20|81.8923|19.3019|Gustav Mahler 9 Karajan BPO": false,
+    "Symphonies|20|53.3313|44.8279|Gustav Mahler 10 Sanderling": false,
+    "Symphonies|20|67.6809|44.8279|Gustav Mahler 10 Inbal TMSO": false,
+    "Symphonies|20|81.8923|44.8279|Gustav Mahler 10 Gielen": false,
+    "Symphonies|20|53.3705|69.6876|Gustav Mahler Das Lied von der Klemperer": false,
+    "Symphonies|20|67.5149|70.0935|Gustav Mahler Erde Boulez": false,
+    "Symphonies|20|81.5775|70.0934|Gustav Mahler Bernstein WPO": false,
+    "Symphonies|21|4.3717|14.904|Halm A Borin": false
   },
   "added": {},
   "removed": {},
