@@ -537,13 +537,15 @@
 @media (hover:hover) and (pointer:fine){#collection{touch-action:auto}}
 </style>
 <style id="atlas-swipe-motion-20261027">
-/* Brief horizontal transition when a touch swipe changes collection pages. */
-#collection #albums{position:relative;isolation:isolate}
-#collection #albums.atlas-page-entering{animation:atlasPageArrive .44s cubic-bezier(.22,1,.36,1) both;will-change:transform}
-#collection .atlas-page-departing{position:absolute;inset:0 auto auto 0;width:100%;pointer-events:none;z-index:3;animation:atlasPageDepart .44s cubic-bezier(.22,1,.36,1) both;will-change:transform}
-@keyframes atlasPageArrive{from{transform:translate3d(calc(var(--atlas-swipe-direction,1)*100%),0,0)}to{transform:translate3d(0,0,0)}}
-@keyframes atlasPageDepart{from{transform:translate3d(0,0,0)}to{transform:translate3d(calc(var(--atlas-swipe-direction,1)*-100%),0,0)}}
-@media(prefers-reduced-motion:reduce){#collection #albums.atlas-page-entering,#collection .atlas-page-departing{animation:none!important}}
+/* iOS-safe transition. Never render a second overlapping album page. */
+#collection #albums.atlas-page-entering {
+ animation:atlasPageSettle .24s cubic-bezier(.2,.75,.25,1) both;
+}
+@keyframes atlasPageSettle {
+ from {opacity:.42;transform:translate3d(0,12px,0)}
+ to {opacity:1;transform:translate3d(0,0,0)}
+}
+@media(prefers-reduced-motion:reduce){#collection #albums.atlas-page-entering{animation:none!important}}
 </style>
 
 <style id="atlas-names-and-swipe">
@@ -787,36 +789,19 @@ function atlasSetupSelectFocus(){
 function renderGenre(){const d=DATA[genre],p=d.pages[page];$('locationTitle').textContent=getRegion(p).replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');$('eraTitle').textContent=(p.region==='Deutsch / Austria')?(p.era||''):'';const s=$('region');s.replaceChildren();let regs=regions(genre);for(let r of regs){let o=document.createElement('option');o.value=r.i;o.textContent=r.name.replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');s.append(o)}let index=regs.findLast?regs.findLast(x=>x.i<=page):regs.filter(x=>x.i<=page).slice(-1)[0];if(index)s.value=index.i;s.onchange=()=>{setPage(+s.value);requestAnimationFrame(()=>s.blur())};
 const psel=$('page');psel.replaceChildren();for(let i=1;i<d.pages.length;i++){let opt=document.createElement('option');opt.value=i;opt.textContent=i;psel.append(opt)}psel.value=page;psel.onchange=()=>{setPage(+psel.value);requestAnimationFrame(()=>psel.blur())};$('pageInfo').textContent=`${page} / ${d.pages.length-1} pages`; $('mobilePageInfo').textContent=`${page} / ${d.pages.length-1} pages`; $('pagerText').textContent=`${page} / ${d.pages.length-1}`;$('prev').disabled=$('prev2').disabled=page<=1;$('next').disabled=$('next2').disabled=page>=d.pages.length-1;renderCovers()}
 // Create a temporary visual copy only for the transition; data and paging stay unchanged.
-let atlasSwipeSnapshot=null;
-function atlasCaptureSwipe(direction){
- const root=document.getElementById('albums');
- if(!root||!root.children.length)return;
- atlasSwipeSnapshot={direction,markup:root.innerHTML};
-}
+// Only animate the new page. The previous page is never cloned,
+// preventing exposed corners and doubled album grids in iOS Safari.
+let atlasSwipePending=false;
+function atlasCaptureSwipe(direction){atlasSwipePending=true;}
 function atlasAnimateSwipe(){
- const snap=atlasSwipeSnapshot;atlasSwipeSnapshot=null;
- if(!snap||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ if(!atlasSwipePending)return;
+ atlasSwipePending=false;
  const root=document.getElementById('albums');
- if(!root||!root.children.length)return;
- const ghost=document.createElement('div');
- ghost.className='albums atlas-page-departing';
- ghost.setAttribute('aria-hidden','true');
- ghost.innerHTML=snap.markup;
- // Keep old content visually but inert; never duplicate its interactive behavior.
- ghost.querySelectorAll('button,input,a').forEach(el=>el.tabIndex=-1);
- ghost.style.setProperty('--atlas-swipe-direction',String(snap.direction));
- root.style.setProperty('--atlas-swipe-direction',String(snap.direction));
- root.before(ghost);
- // Absolute overlay is positioned relative to the root's wrapper, not the viewport.
- const holder=root.parentElement;
- const previousPosition=holder.style.position;
- if(getComputedStyle(holder).position==='static')holder.style.position='relative';
- ghost.style.top=(root.offsetTop)+'px';
+ if(!root || !root.children.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
  root.classList.remove('atlas-page-entering');
  void root.offsetWidth;
  root.classList.add('atlas-page-entering');
- const tidy=()=>{ghost.remove();root.classList.remove('atlas-page-entering');holder.style.position=previousPosition;};
- setTimeout(tidy,490);
+ root.addEventListener('animationend',()=>root.classList.remove('atlas-page-entering'),{once:true});
 }
 // Swipe between collection pages on mobile. Album taps and vertical scroll remain intact.
 (function installCollectionSwipe(){
