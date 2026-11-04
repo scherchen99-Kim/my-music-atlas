@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-04T09:29:46.071Z",
+  "createdAt": "2026-11-04T12:38:47.584Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -8019,11 +8019,11 @@
       "approvedAt": "2026-11-04T09:27:30.868Z"
     },
     "Orchestral|2|27.82391|15.10778|Heinichen Concerto for Orchestra F Major": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/88/26/c7/8826c7ae-f6e5-1f00-b4e4-675ea7f2f2a2/00028947763307.rgb.jpg/600x600bb.jpg",
-      "album": "Heinichen: Dresden Concerti",
-      "artist": "Musica Antiqua Köln & Reinhard Goebel",
-      "source": "Apple iTunes Search API",
-      "approvedAt": "2026-11-04T09:27:52.859Z"
+      "url": "https://media.s-bol.com/qlEkgNk10vL2/lYv9JV5/550x469.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:09:16.040Z"
     },
     "Orchestral|2|28.03611|40.76004|Goebel for Orchestra F Major Fasch Overture grosso D Major": {
       "url": "https://i.scdn.co/image/ab67616d00001e02e74170cb4b18519e41e1feae",
@@ -8080,6 +8080,1714 @@
       "artist": "",
       "source": "Manual image URL",
       "approvedAt": "2026-11-04T09:29:39.477Z"
+    },
+    "Orchestral|3|4.45538|23.79592|Serenade K.250 Wolfgang Amadeus Mozart Mackerras Divertimento K.136": {
+      "url": "https://m.media-amazon.com/images/I/514j8qkKbNL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:09:46.004Z"
+    },
+    "Orchestral|3|18.60285|23.79592|Serenade K.361 Wolfgang Amadeus Mozart Bruggen Divertimento K.334": {
+      "url": "https://i.scdn.co/image/ab67616d00001e0267ec01668429274d49c9fce5",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:10:25.495Z"
+    },
+    "Orchestral|3|32.86412|23.79592|Serenade K.525 Tonnesen Divertimento K.522": {
+      "url": "https://m.media-amazon.com/images/I/717w+MspvZL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:10:40.971Z"
+    },
+    "Orchestral|3|4.43754|48.07458|Divertimento K.136 Mackerras Tonnesen Masonic Funeral": {
+      "url": "https://m.media-amazon.com/images/I/717w+MspvZL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:11:15.655Z"
+    },
+    "Orchestral|3|18.6609|48.07458|Divertimento K.334 Bruggen Janiczek Adagio und Allegro": {
+      "url": "https://m.media-amazon.com/images/I/71Wh+3viTCL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:11:50.846Z"
+    },
+    "Orchestral|3|32.91672|48.00217|Divertimento K.522 Tonnesen Manze": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRulftYUvMb6Bf8EHewacpxky7HFcFx9zmXrY-P5weiWvY-5dG-u5W3Rx4&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:12:18.719Z"
+    },
+    "Orchestral|3|4.47849|72.44297|Music K.477 Masonic Funeral Langree": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdYYxVFMoBTpJ6epPgwllcVHmdu7MfVZ06r6C-xscyuqPD-SLTnRjJA_Y&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:12:45.766Z"
+    },
+    "Orchestral|3|18.55712|72.44546|K.594 Adagio und Allegro Goebel": {
+      "url": "https://contents.kyobobook.co.kr/sih/fit-in/375x0/music/large/3755/2557383.jpg?t=2987075",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:13:03.436Z"
+    },
+    "Orchestral|3|54.52364|23.7126|K.345 : Ouverture Tomas, Konig in Agypten Pichon Don Giovanni": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZkc0NvCBdEUhtQk4HGG_ETKIdI_fkm6qmXgO49dsdauqNdId43sKR8lVM&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:14:03.310Z"
+    },
+    "Orchestral|3|68.95483|23.79592|Serail K.384 : Ouverture Die Entfuhrung aus dem Jacobs Cosi fan tutte": {
+      "url": "https://music-reviews.markallengroup.com/gramophone/media-thumbnails/mozart_die_entfuhrung_aus_dem_serail_0.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:15:18.137Z"
+    },
+    "Orchestral|3|83.21639|23.79592|K.492 : Ouverture Le nozze di Figaro Chauvin Die Zauberflote": {
+      "url": "https://m.media-amazon.com/images/I/61U0YAZcRcL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:16:41.536Z"
+    },
+    "Orchestral|3|68.8865|47.90743|K.588 : Ouverture Cosi fan tutte Jacobs": {
+      "url": "https://m.media-amazon.com/images/I/81Jvm7BAesL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:17:04.942Z"
+    },
+    "Orchestral|3|54.52364|47.99074|K.527 : Ouverture Don Giovanni Jacobs Transcription.  K.457 / 478": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273c61c7d8d3feaceba68713d97",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:17:21.934Z"
+    },
+    "Orchestral|3|83.12294|47.94542|K.620 : Ouverture Die Zauberflote Jacobs": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTlP0uaeCqvraiFjdYhGCqfkImzrVeUzWeIrZ6ZHGC3vt2dbhatGhe2UE&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:17:40.320Z"
+    },
+    "Orchestral|3|54.42325|72.41319|Transcription.  K.457 / 478 Jacobs Goebel": {
+      "url": "https://contents.kyobobook.co.kr/sih/fit-in/375x0/music/large/3545/2545339.jpg?t=2988798",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:18:01.183Z"
+    },
+    "Orchestral|4|4.45538|23.79592|Op.91 Wellington 㑄s Victory Haselbock Egmont": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/c8/de/69c8defc-80f1-d6d7-ae5c-65a1c31d7139/3760014194726.png/600x600bb.jpg",
+      "album": "Beethoven: Egmont (Resound Collection, Vol. 3)",
+      "artist": "Orchester Wiener Akademie, Martin Haselböck, Herbert Föttinger & John Malkovich",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:18:08.312Z"
+    },
+    "Orchestral|4|18.66214|23.79592|Ludwig van Beethoven Kunzel Coriolan": {
+      "url": "https://m.media-amazon.com/images/I/71AxETj9+kL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:18:32.133Z"
+    },
+    "Orchestral|4|4.12523|47.89271|Egmont Haselbock Abbado Leonore No.3": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCb8f_Gfcl5kt1QWFPl4yPd-krD9ggYRipOx6QF8cQw1NxLseZ0QpkDRU&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:18:58.717Z"
+    },
+    "Orchestral|4|18.68031|48.02283|Ouverture Op.62 Coriolan Bruggen Fidelio": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/d4/89/29d489ff-6b2c-6fd1-c98e-fabdd6cc8022/00028947897514.rgb.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphony No. 5; Egmont Overture; Coriolan Overture",
+      "artist": "Orchestra of the 18th Century & Frans Brüggen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:19:07.008Z"
+    },
+    "Orchestral|4|4.47849|72.49504|Ouverture Leonore No.3 harding": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b1/20/d6/b120d6f8-5e78-b258-c0d6-aa7c2bfd7172/0724354536458_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Beethoven: Overtures",
+      "artist": "Daniel Harding & The Deutsche Kammerphilharmonie Bremen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:19:12.923Z"
+    },
+    "Orchestral|4|16.68534|72.50716|Ouverture Op.72 Fidelio Harnoncourt": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc-2ofM3akzW4pTjaEGllKAzuxjXPU1Ia9odMjlTPKeZ_uyqH-HeQUEa-I&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:19:37.687Z"
+    },
+    "Orchestral|4|55.06131|15.10778|Schubert Rosamunde  D.797": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/4e/42/364e4248-d202-e0cb-566d-bb5615fa34fe/06UMGIM68964.rgb.jpg/600x600bb.jpg",
+      "album": "Schubert: Rosamunde (Incidental Music to Helmina Von Chézy's Play)",
+      "artist": "Anne Sofie von Otter, Chamber Orchestra of Europe & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:19:43.663Z"
+    },
+    "Orchestral|4|55.20812|40.78607|Abbado Rosamunde  D.797 Schubert Rosamunde  D.797": {
+      "url": "https://image.yes24.com/goods/9398269/XL",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:19:59.075Z"
+    },
+    "Orchestral|4|55.12496|66.57187|Dausgaard Rosamunde  D.797 Schubert German Dances  D.97": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/02/89/49/0289499d-dc7c-5b92-976c-72be19cd8e56/723385311119.png/600x600bb.jpg",
+      "album": "Schubert: Symphony No. 9 in C Major, D. 944 \"Great\" & 5 German Dances, D. 97",
+      "artist": "Budapest Festival Orchestra & Iván Fischer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:20:11.291Z"
+    },
+    "Orchestral|4|78.29094|13.6575|Der Freischutz : Overture C.Kleiber": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq49ifzks1zlWAe2ZJLi7ty8fBejtHWMSLhp-1h5PTDB1c11aUoPBobUZX&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:20:26.442Z"
+    },
+    "Orchestral|4|79.28921|40.50444|C.Kleiber Der Freischutz : Overture Weber Oberon : Overture": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f5/98/ae/f598aec1-28ba-0f55-f4d0-26bc5e3a9a25/3760014197444.png/600x600bb.jpg",
+      "album": "Weber",
+      "artist": "Konzerthausorchester Berlin, Christoph Eschenbach, Martin Helmchen & Anna Prohaska",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:20:31.150Z"
+    },
+    "Orchestral|4|79.27001|66.55276|Eschenbach Oberon : Overture Weber Invitation A La Valse": {
+      "url": "https://m.media-amazon.com/images/I/81Rvcs0QSeL._UF350,350_QL50_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:20:50.679Z"
+    },
+    "Orchestral|5|4.05296|23.7126|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Abbado ㏙BPO㏚ Die Hebriden Overture  Op.26": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwToWG6vKzNPvo8njcMbA2xeCNXzaYIzcMNlvN6CRgvB6MLvx_TZfeDr4&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:21:07.726Z"
+    },
+    "Orchestral|5|18.42492|23.79592|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Ozawa ㏙BSO㏚ Die Hebriden Overture  Op.26": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlftwn6WF34mgJp_Qo14Tgx2JdZfaxU4xG_GbllgKWURBZPmKdskN7Rs0Q&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:21:23.832Z"
+    },
+    "Orchestral|5|32.7457|23.79592|Herreweghe": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ef/a6/1f/efa61f14-e8c0-a3a5-6bba-87221318c582/3149020150214.jpg/600x600bb.jpg",
+      "album": "Mendelssohn: Ein Sommernachtstraum (A Midsummer's Night Dream)",
+      "artist": "Orchestre des Champs-Elysées & Philippe Herreweghe",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:21:31.158Z"
+    },
+    "Orchestral|5|3.99373|47.99074|Die Hebriden Overture  Op.26 Abbado ㏙BPO㏚ Abbado Die schone Melusine": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/a5/ca/54a5ca35-8e37-ad40-66c8-3ca72e804725/06UMGIM30327.rgb.jpg/600x600bb.jpg",
+      "album": "Mendelssohn: Overtures",
+      "artist": "London Symphony Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:21:36.557Z"
+    },
+    "Orchestral|5|17.30056|47.90743|Die Hebriden Overture  Op.26 Ozawa ㏙BSO㏚ Casado Ruy Blas": {
+      "url": "https://www.harmoniamundi.com/wp-content/uploads/2022/10/albums-2278.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:22:06.122Z"
+    },
+    "Orchestral|5|32.68907|47.99076|Herreweghe Kossenko": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/c7/e0/9cc7e00f-03c6-3b33-61d6-6951cfef617f/3149028147476_cover.jpg/600x600bb.jpg",
+      "album": "Mendelssohn: Symphony No. 3 \"Scottish\", The Hebrides",
+      "artist": "Les Ambassadeurs ~ La Grande Écurie & Alexis Kossenko",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:22:11.222Z"
+    },
+    "Orchestral|5|3.99373|72.35618|Overture  Op.32 Die schone Melusine Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/a5/ca/54a5ca35-8e37-ad40-66c8-3ca72e804725/06UMGIM30327.rgb.jpg/600x600bb.jpg",
+      "album": "Mendelssohn: Overtures",
+      "artist": "London Symphony Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:22:16.454Z"
+    },
+    "Orchestral|5|18.2823|72.34024|Overture  Op.95 Ruy Blas Gardner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/a3/55/41a35585-caa6-066c-dee9-751f6ca7eaf7/5059864523533.png/600x600bb.jpg",
+      "album": "Mendelssohn in Birmingham, Vol. 5",
+      "artist": "Edward Gardner & City of Birmingham Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:22:20.858Z"
+    },
+    "Orchestral|5|54.41601|23.71826|D Major Op.11 Serenade No.1 Vriend 21 Hungarian Dances": {
+      "url": "https://image.yes24.com/momo/TopCate981/MidCate02/98011403.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:22:38.182Z"
+    },
+    "Orchestral|5|68.84906|23.80157|Johannes Brahms Boston Chamber": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa_q3JqGlZtUvvFgAKaC-Z0loWzsTWodCOUvaqKhK8OQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:23:24.100Z"
+    },
+    "Orchestral|5|83.11061|23.80157|A Major Op.16 Serenade No.2 Chailly": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/4e/9c/684e9cf4-2c82-4990-5daa-6892291ecd74/00028947876892.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: Serenades",
+      "artist": "Gewandhausorchester Leipzig & Riccardo Chailly",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:23:42.664Z"
+    },
+    "Orchestral|5|54.47033|47.80802|21 Hungarian Dances Vriend Fischer Variation on a Theme": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273f282597626634ee4a5aeaf32",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:24:16.212Z"
+    },
+    "Orchestral|5|68.76068|47.61076|Boston Chamber Abbado Academic Festival": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5e/49/e0/5e49e076-daee-f64b-d802-44092ff5d384/22UMGIM88384.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms: 21 Hungarian Dances",
+      "artist": "Vienna Philharmonic & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:24:22.919Z"
+    },
+    "Orchestral|5|79.36313|47.67471|Chailly vn. Shaham ㏙arr.Joachim㏚ Tragic": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDf8Ngtxtu2n9Xx87NeG6jCKTBhfs0_uPJX7AN44sMQEYhzsjWpjJbg00&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:25:57.262Z"
+    },
+    "Orchestral|5|54.40365|72.47647|of Haydn Op.56a Variation on a Theme Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e4/e3/1b/e4e31bb4-b7c5-c7aa-d9df-200f764f4220/06UMGIM42327.rgb.jpg/600x600bb.jpg",
+      "album": "Brahms 4 Symphonien",
+      "artist": "Claudio Abbado & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:26:03.094Z"
+    },
+    "Orchestral|5|68.83089|72.4361|Overture Op.80 Academic Festival Bernstein ㏙r.Sony㏚": {
+      "url": "https://m.media-amazon.com/images/I/71RzX22crtL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:26:47.402Z"
+    },
+    "Orchestral|5|83.04228|72.49131|Overture Op.81 Tragic Bolton": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c7/b3/35/c7b33517-0c95-d111-ff95-c9f542320b35/5400863054915_cover.jpg/600x600bb.jpg",
+      "album": "Johannes Brahms: Piano Concerto No. 1 & Tragic Overture - Cherubini: Éliza (Overture)",
+      "artist": "Alexander Melnikov, Ivor Bolton & Sinfonieorchester Basel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:26:52.245Z"
+    },
+    "Orchestral|6|4.69455|40.57399|Albret Richard III Fuchs Serenade No.5": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6a/01/4e/6a014eb0-9f5a-8af5-a393-1be0b22c3608/761203989324.jpg/600x600bb.jpg",
+      "album": "Fuchs: Piano Concerto, Op. 27 & Serenade No. 5, Op. 53",
+      "artist": "Alun Francis, Luxembourg Philharmonic Orchestra & Franz Vorraber",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:52:44.194Z"
+    },
+    "Orchestral|6|4.41902|66.58005|Francis Serenade No.5 Goetz Spring Overture Op.15": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/7d/e2/5d/7de25d22-9fc3-693c-bd54-18d5eee8d7da/761203931620.jpg/600x600bb.jpg",
+      "album": "Goetz: Nenie & Psalm 137",
+      "artist": "Werner Andreas Albert, North German Radio Symphony, Hannover, North German Radio Chorus & Stephanie Stiller",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:52:48.410Z"
+    },
+    "Orchestral|6|28.25457|15.05404|Schumann Manfred  Op.115": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/4c/dd/cb/mzi.bkcmhohl.jpg/600x600bb.jpg",
+      "album": "Robert Schumann - Manfred Op. 115 SACD",
+      "artist": "Tonkünstler-Orchester, Wiener Singverein, Florian Boesch, Bruno Weil, Sigrid Plundrich, Michelle Breedt, Johannes Chum & Martin Schwab",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:52:52.983Z"
+    },
+    "Orchestral|6|28.00056|39.9654|Weil Manfred  Op.115 Overtue,Scherzo 㖈Finale Gardiner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fe/7c/39/fe7c3958-22d1-5b77-6732-01e2fa870cb7/00028945759128.rgb.jpg/600x600bb.jpg",
+      "album": "Schumann: Complete Symphonies",
+      "artist": "John Eliot Gardiner & Orchestre Révolutionnaire et Romantique",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:52:57.639Z"
+    },
+    "Orchestral|6|28.1639|66.54082|Gardiner Overtue,Scherzo 㖈Finale Schumann Konzertstuck for 4 Horns": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/d3/39/48d33988-15b3-3e8a-b7b2-e0556214908b/00028945348223.rgb.jpg/600x600bb.jpg",
+      "album": "Schumann: Symphony No. 2; \"Manfred\" Overture; Konzertstück for 4 Horns",
+      "artist": "Christian Thielemann & Philharmonia Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:53:01.922Z"
+    },
+    "Orchestral|6|53.9465|15.00029|Raff  Ein fest Burg ist unser Gott,Overture Op.127": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02a426b441c33190ae13f18541",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:53:21.930Z"
+    },
+    "Orchestral|6|53.91231|40.78607|Stadlmair unser Gott,Overture Op.127 Raff Rhapsody Op.163b": {
+      "url": "https://i.scdn.co/image/ab67616d00001e0272071ee6f1025160ececce33",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:54:12.207Z"
+    },
+    "Orchestral|6|53.99565|66.38531|Butt Rhapsody Op.163b Raff Jubel ㎿Ouverture Op.103": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzL41OU5isJFGoEWQSm84ewaTWdOk-VmHSOtTcRs5Kh6mRTfGR6-x9frc&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:54:51.262Z"
+    },
+    "Orchestral|6|78.24837|15.03778|Raff Piece Op.85": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGp-rSA7_OS0jTYut-asMZkAqDFPKK6RtA4K-8lxkeMSfX06NRmrR79OAX&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:55:16.654Z"
+    },
+    "Orchestral|6|78.27804|40.88367|Butt Piece Op.85 Reineke King Manfred": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_mZTQIybV0CHkdPFREnXKiV1nv5WAvSesSIRNEPJEE5t8725uD78OMtL-&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:55:28.926Z"
+    },
+    "Orchestral|6|78.27804|66.27501|Raudales King Manfred Graener  Variations on a Russian folksong": {
+      "url": "https://m.media-amazon.com/images/I/81JJaK5BusL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:55:43.638Z"
+    },
+    "Orchestral|7|4.5569|14.98885|J.Strauss I Radetzky Marsch": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/10/38/071038a4-aa74-db42-e2c7-58cde9ea7524/00028941002723.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss, J. I & J.II, Josef Strauss: Radetzky-Marsch",
+      "artist": "Berlin Philharmonic Orchestra & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:55:48.019Z"
+    },
+    "Orchestral|7|4.39351|41.09359|Karajan Radetzky Marsch J.Strauss II Die Fledermaus : Overture": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273246ed96dcd36711413db6ea8",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:56:00.625Z"
+    },
+    "Orchestral|7|4.11125|66.68717|C.Kleiber Fledermaus : Overture J.Strauss II An der schonen blauen Donau": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b4/4c/77/b44c7798-6e61-5084-5472-6f122c42085c/22UM1IM37720.rgb.jpg/600x600bb.jpg",
+      "album": "New Year's Concert in Vienna 1987 (Live at Musikverein, Vienna, 1987)",
+      "artist": "Vienna Philharmonic, Herbert von Karajan & Kathleen Battle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:56:05.419Z"
+    },
+    "Orchestral|7|28.16407|15.07918|J.Strauss II Kaiser ㎿Walzer": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/30/af/bb/30afbb9c-11a3-1a7e-c9aa-0efed5d0415a/00028941002228.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss, Johann: Emperor Waltz; Tritsch-Tratsch-Polka; Roses From The South; The Gypsy Baron (Overture); Annen Polka; Wine, Women And Song; Hunting Polka",
+      "artist": "Berlin Philharmonic Orchestra & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:56:53.069Z"
+    },
+    "Orchestral|7|28.19783|41.07164|Karajan Kaiser ㎿Walzer J.Strauss II Voice of Spring": {
+      "url": "https://m.media-amazon.com/images/I/81GWNY90Y1L.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:57:09.158Z"
+    },
+    "Orchestral|7|28.16391|66.77772|C.Kleiber Voice of Spring J.Strauss II Eljen a Magyar": {
+      "url": "https://m.media-amazon.com/images/I/81GWNY90Y1L.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:57:17.709Z"
+    },
+    "Orchestral|7|54.01289|15.11448|J. Strauss  ㏙Josef㏚ Delirien Walzer Op.212": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/2c/e8/d52ce815-77a6-1770-f1fe-ffe6f2d219da/196871461559.jpg/600x600bb.jpg",
+      "album": "Neujahrskonzert 2024 / New Year's Concert 2024 / Concert du Nouvel An 2024 (Live)",
+      "artist": "Christian Thielemann & Vienna Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:57:22.149Z"
+    },
+    "Orchestral|7|54.06204|41.1291|Thielemann Delirien Walzer Op.212 Lanner Die Mozartisten Op.106": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8d/e5/b4/8de5b4f8-3c04-d3db-618e-d85a43e58eac/747313695027.png/600x600bb.jpg",
+      "album": "Champagne!: The Sound of Lumbye & His Idols",
+      "artist": "Concerto Copenhagen & Lars Ulrik Mortensen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:57:26.425Z"
+    },
+    "Orchestral|7|53.77872|65.98296|Mortensen Die Mozartisten Op.106 4Jahreszeiten Wiener Schrammel Ensemble": {
+      "url": "https://m.media-amazon.com/images/I/B1ErH8LYx7S._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:57:39.669Z"
+    },
+    "Orchestral|7|78.54532|15.12514|E Strauss  ㏙Eduard㏚ Carmen ㎿Quardrille Op.134": {
+      "url": "https://i.scdn.co/image/ab67616d00001e022d05165ef59d851ea1b91ef1",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:57:54.309Z"
+    },
+    "Orchestral|7|78.32719|41.01646|Angerer Carmen ㎿Quardrille Op.134 Suppe Light Cavalry Overture": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/1c/27/b81c27ef-f104-b238-6836-bb964302172b/00028947892496.rgb.jpg/600x600bb.jpg",
+      "album": "Suppé: Overtures",
+      "artist": "Charles Dutoit & Orchestre Symphonique de Montréal",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:57:59.064Z"
+    },
+    "Orchestral|7|78.31247|66.90443|Dutoit Overture Suppe Poet and Peasant Overture": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2b/94/2e/2b942e65-146c-4916-3d17-971486aa94b3/00028941537720.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini & Suppé: Overtures",
+      "artist": "Berlin Philharmonic Orchestra & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:58:02.391Z"
+    },
+    "Orchestral|8|4.46085|15.02381|Bruch Swedish Dances": {
+      "url": "https://image.bugsm.co.kr/album/images/200/11191/1119189.jpg?version=20240430050350",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:58:47.764Z"
+    },
+    "Orchestral|8|4.52327|40.78607|Albret Swedish Dances Bruch Suite on Russian Themes": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/df/51/5a/df515adf-4ee3-3b79-d4f4-bba1b27eab4e/845221054209.jpg/600x600bb.jpg",
+      "album": "Bruch: Concerto for 2 Pianos, Op. 88a & Suite No. 1 on Russian Themes, Op. 79b (Live)",
+      "artist": "Staatskapelle Halle, Ariane Matiakh & Piano Duo Mona & Rica Bard",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:58:52.032Z"
+    },
+    "Orchestral|8|4.54475|66.26369|Matiakh Suite on Russian Themes Draescke Funeral March Op.79": {
+      "url": "https://m.media-amazon.com/images/I/51lJ72zwSaL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:59:24.163Z"
+    },
+    "Orchestral|8|28.24698|15.14862|Herzogenberg Odysseus, Op.16": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bc/34/27/bc34279c-ac07-5854-907c-cc994c41ab48/761203728022.jpg/600x600bb.jpg",
+      "album": "Herzogenberg: Violin Concerto in A Major, WoO 4 & Odysseus, Op. 16",
+      "artist": "Ulf Wallin, Deutsche Radio Philharmonie Saarbrücken Kaiserslautern & Frank Beermann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:59:29.745Z"
+    },
+    "Orchestral|8|28.24698|40.70746|Beermann Odysseus, Op.16 Humperdinck Hansel und Gretel : Prelude": {
+      "url": "https://i.scdn.co/image/ab67616d00001e020c9eb8a5d8a7bf507efb468c",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T11:59:49.264Z"
+    },
+    "Orchestral|8|28.26398|66.47952|Mackerras und Gretel : Prelude Marx Eine Fruhlingsmusik": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f3/2a/bcf32a64-45da-ef19-554c-76ae627f3eef/0761203732029.jpg/600x600bb.jpg",
+      "album": "Marx: Eine Frühlingsmusik, Idylle & Feste im Herbst",
+      "artist": "Radio-Symphonieorchester Wien & Johannes Wildner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:59:52.731Z"
+    },
+    "Orchestral|8|54.03317|14.99609|Marx Symphonische Nachtmusik": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1d/19/75/1d197533-f754-01ef-353f-494c119fd0f9/747313383177.jpg/600x600bb.jpg",
+      "album": "Marx: Orchestral Works, Vol. 1",
+      "artist": "Bochum Symphony Orchestra & Steven Sloane",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T11:59:56.927Z"
+    },
+    "Orchestral|8|54.1406|40.75044|Sloane Nachtmusik Rauchenecker  Sympho ㎿nisches Tonwerk im Stil einer": {
+      "url": "https://i.scdn.co/image/ab67616d0000b2734372e2970b53926876a1d0dc",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:00:12.432Z"
+    },
+    "Orchestral|8|54.1602|66.35405|Griffiths ㎿nisches Tonwerk im Stil einer G.Schumann  Overture zu einem Drama Op.45": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/94/87/f8/9487f885-f08e-6c3a-18df-44558cd5728b/761203511020.jpg/600x600bb.jpg",
+      "album": "G. Schumann: Symphony in F Minor, Op. 42 & Overtures",
+      "artist": "Deutsches Symphonie-Orchester Berlin & James Feddeck",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:00:16.032Z"
+    },
+    "Orchestral|8|78.98222|14.88012|S.Wagner Der Friedensengel Prelude": {
+      "url": "https://d1iiivw74516uk.cloudfront.net/eyJidWNrZXQiOiJwcmVzdG8tY292ZXItaW1hZ2VzIiwia2V5IjoiODAxNzQ2NC4xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzAwfSwianBlZyI6eyJxdWFsaXR5Ijo2NX0sInRvRm9ybWF0IjoianBlZyJ9LCJ0aW1lc3RhbXAiOjE0MDE5ODI1NTd9",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:00:34.732Z"
+    },
+    "Orchestral|8|78.9462|40.72426|Albert Der Friedensengel Prelude Wetz Kleist Overture Op.16": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/96/f5/a3/mzi.uqzvlfuc.jpg/600x600bb.jpg",
+      "album": "Wetz: Symphony No. 2 - Kleist Overture Op. 16",
+      "artist": "Werner Andreas Albert & Rheinland-Pfalz State Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:00:40.848Z"
+    },
+    "Orchestral|9|4.38815|23.63143|Overture Rienzi Sinopoli Tannhauser": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/40/3e/d7403e18-7319-825e-aca4-201fcec10543/00028944916522.rgb.jpg/600x600bb.jpg",
+      "album": "Wagner: Overtures",
+      "artist": "Staatskapelle Dresden & Giuseppe Sinopoli",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:00:45.289Z"
+    },
+    "Orchestral|9|33.02712|23.26061|Die Meistersinger von Karajan Siegfried Idyll": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5963mWLvf8shfkORo0DPYpYNoUDisUhnDbWQm3WYD3LsZt6Bz4iFCdn0&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:01:35.575Z"
+    },
+    "Orchestral|9|4.25267|48.05972|Overture Tannhauser Celibidache Tristan und Isolde": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features4/v4/d8/06/70/d80670f8-143d-b712-8b3d-416e48b2da1d/dj.ecwyzjbm.jpg/600x600bb.jpg",
+      "album": "Sergiù Celibidache Edition Vol I - Wagner",
+      "artist": "Munich Philharmonic & Sergiu Celibidache",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:01:40.048Z"
+    },
+    "Orchestral|9|18.69314|48.10613|Prekude Act 1 㖈 3 Lohengrin Thielemann Tristan und Isolde": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxpDPiKav82pxSW7y55pqTLgD7z7Je8JH52Vx5Bro_dn3u8ZI48n7d1Y&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:01:56.039Z"
+    },
+    "Orchestral|9|32.96221|48.07967|Siegfried Idyll Karajan Pinnock": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OSGSPzFuQI3NJ6qDDTyg738jLemJ0TVFZyH4vwA-2A&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:02:14.175Z"
+    },
+    "Orchestral|9|4.33622|72.92101|Prelude Tristan und Isolde Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d8/c4/30/d8c430d9-3d25-f476-3051-7f37a489cee8/00028947437727.rgb.jpg/600x600bb.jpg",
+      "album": "Wagner: Orchestral Pieces from Parsifal, Tristan und Isolde & Tannhäuser",
+      "artist": "Berlin Philharmonic Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:02:18.479Z"
+    },
+    "Orchestral|9|18.54906|72.9762|Liebestod Tristan und Isolde s.Studer/Sinopoli": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002705227/front/400/OoFZRN_lSXAkdnxS-2WVbB_TZlp6n_cq-Emr2zx15tU=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:02:31.855Z"
+    },
+    "Orchestral|9|54.8877|23.71499|Prelude Act1 Parsifal Karajan Der Ring ㏙Orchestral Highlights㏚": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02e93ed35e76145d9e97e117f6",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:03:23.198Z"
+    },
+    "Orchestral|9|68.9726|23.70367|Good Friday Music Parsifal Abbado Der Ring ㏙Orchestral Highlights㏚": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d8/c4/30/d8c430d9-3d25-f476-3051-7f37a489cee8/00028947437727.rgb.jpg/600x600bb.jpg",
+      "album": "Wagner: Orchestral Pieces from Parsifal, Tristan und Isolde & Tannhäuser",
+      "artist": "Berlin Philharmonic Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:03:31.558Z"
+    },
+    "Orchestral|9|83.10737|23.61844|Funeral March Gotterdammerung Celibidache": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features4/v4/d8/06/70/d80670f8-143d-b712-8b3d-416e48b2da1d/dj.ecwyzjbm.jpg/600x600bb.jpg",
+      "album": "Sergiù Celibidache Edition Vol I - Wagner",
+      "artist": "Munich Philharmonic & Sergiu Celibidache",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:03:34.943Z"
+    },
+    "Orchestral|9|54.88329|48.07967|Der Ring ㏙Orchestral Highlights㏚ Karajan Szell": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/53/6d/dd/mzi.fvujdnja.jpg/600x600bb.jpg",
+      "album": "Wagner Without Words",
+      "artist": "George Szell & The Cleveland Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:03:39.446Z"
+    },
+    "Orchestral|9|68.95583|48.07967|Der Ring ㏙Orchestral Highlights㏚ Abbado de Waart": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTad-kCFJqfJk3ah_dTN2jwV1WTU22cXMqU4ey1LEZV0sQq3Xomgok7214&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:03:58.598Z"
+    },
+    "Orchestral|10|4.34469|23.59526|Don Juan Op.20 Richard Strauss Haitink Macbeth Op.23": {
+      "url": "https://i.discogs.com/YElASe3vg-CXo03e7Qd3rxTSe72ko1PG2r2bnTBnNTE/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2NjY4/NTAtMTQ4MTY0NTky/Ni0xNDY4LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:04:24.450Z"
+    },
+    "Orchestral|10|18.6995|23.63143|Richard Strauss Honeck": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/1c/29/eb/1c29eb39-c2b8-816b-0d5d-443799021ac8/030911270728.jpg/600x600bb.jpg",
+      "album": "R. Strauss: Don Juan, Op. 20, Death and Transfiguration, Op. 24 & Till Eulenspiegel's Merry Pranks, Op. 28",
+      "artist": "Pittsburgh Symphony Orchestra & Manfred Honeck",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:04:33.546Z"
+    },
+    "Orchestral|10|33.02712|23.59261|Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/91/1f/ab/911fab6a-e076-7b47-119f-dcf40ffec355/00028943901628.rgb.jpg/600x600bb.jpg",
+      "album": "Also Sprach Zarathustra",
+      "artist": "Berlin Philharmonic Orchestra, Herbert von Karajan & Thomas Brandis",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:04:38.431Z"
+    },
+    "Orchestral|10|4.32461|48.01438|Macbeth Op.23 Haitink Roth Tod und Verklarung Op.24": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSelxabZ6bbHorBhncGl_icCzivwZB1Qa7smfdl65lyzUZkzRK1dvvCVYE&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:04:58.598Z"
+    },
+    "Orchestral|10|18.69314|48.10613|Honeck Maazel Tod und Verklarung Op.24": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6f/83/f4/6f83f421-f674-116d-2262-88c7761db51d/00028947940470.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss, R.: Sinfonia Domestica; Macbeth (The Originals / Live)",
+      "artist": "Vienna Philharmonic & Lorin Maazel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:05:07.602Z"
+    },
+    "Orchestral|10|18.63646|72.92101|Tod und Verklarung Op.24 Maazel Sinopoli": {
+      "url": "https://i.scdn.co/image/ab67616d00001e027dcbe935ec69a71156ff1ed8",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:06:33.801Z"
+    },
+    "Orchestral|10|33.02079|72.92101|Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/d2/55/bbd2550a-a825-68a3-fd9a-f1caaf51ffa1/16UMGIM31901.rgb.jpg/600x600bb.jpg",
+      "album": "R. Strauss: Four Last Songs & Orchestral Works",
+      "artist": "Gundula Janowitz, Herbert von Karajan & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:05:41.448Z"
+    },
+    "Orchestral|10|54.08187|23.2643|Till Eulenspiegels Op.30 Chailly Also sprach Zarathustra Op.30": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/0a/57/5f0a57a8-985e-a9e2-6d70-017608c5a946/19UMGIM26529.rgb.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: Also sprach Zarathustra, Tod und Verklärung, Till Eulenspiegel, Salome's Dance (Live)",
+      "artist": "Riccardo Chailly & Lucerne Festival Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:05:48.116Z"
+    },
+    "Orchestral|10|68.39452|23.69121|Till Eulenspiegels Op.30 Karajan Also sprach Zarathustra Op.30": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/85/7e/5b857e58-d72f-b449-1a38-1aeee9772c51/00028946638828.rgb.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: Also sprach Zarathustra",
+      "artist": "Vienna Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:05:53.887Z"
+    },
+    "Orchestral|10|82.73599|23.57585|Urbanski": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1c/1e/64/1c1e64fe-67ad-3810-2350-77af06a17d8f/3760014194139.png/600x600bb.jpg",
+      "album": "Strauss: Also sprach Zarathustra, Don Juan, Till Eulenspiegel",
+      "artist": "NDR Elbphilharmonie Orchester & Krzysztof Urbański",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:05:58.238Z"
+    },
+    "Orchestral|10|54.1073|48.37388|Also sprach Zarathustra Op.30 Chailly Sinopoli Ein Heldenleben Op.40": {
+      "url": "https://i.scdn.co/image/ab67616d00001e027dcbe935ec69a71156ff1ed8",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:06:22.117Z"
+    },
+    "Orchestral|10|68.4898|48.45728|Also sprach Zarathustra Op.30 Karajan Karajan Ein Heldenleben Op.40": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/61/ed/19/61ed19a8-081c-1e55-334d-8147debf638c/00028947950844.rgb.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: Tone Poems",
+      "artist": "Herbert von Karajan & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:06:40.693Z"
+    },
+    "Orchestral|10|82.63579|48.45728|Urbanski Previn": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7c/55/69/7c556968-2474-c703-09d4-38651d535548/22CRGIM33074.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss: Also sprach Zarathustra, Op. 30, TrV 176 & Tod und Verklärung, Op. 24, TrV 158",
+      "artist": "André Previn & Vienna Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:06:44.397Z"
+    },
+    "Orchestral|10|54.16158|72.92102|Ein Heldenleben Op.40 Sinopoli Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7a/20/62/7a206289-e446-1ca5-6add-1e22a2a3dcee/00028947771562.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss: Ein Heldenleben, Till Eulenspiegel",
+      "artist": "Berlin Philharmonic Orchestra, Herbert von Karajan & Michel Schwalbé",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:06:50.821Z"
+    },
+    "Orchestral|10|68.47524|72.92101|Ein Heldenleben Op.40 Karajan Roth": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c0/1e/bd/c01ebd37-f522-92c8-0a8f-f8668732c7eb/4010276025955.jpg/600x600bb.jpg",
+      "album": "R. Strauss: Tone Poems, Vol. 1",
+      "artist": "François-Xavier Roth & SWR Sinfonieorchester Baden-Baden und Freiburg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:06:55.406Z"
+    },
+    "Orchestral|10|82.72219|72.92101|Previn Sondergard": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bf/00/6b/bf006b74-d76a-5021-e9f5-95287b0a13fc/8720205578716.png/600x600bb.jpg",
+      "album": "Strauss: Ein Heldenleben, Der Rosenkavalier Suite",
+      "artist": "Royal Scottish National Orchestra & Thomas Søndergård",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:06:59.054Z"
+    },
+    "Orchestral|11|4.47503|23.79592|Metamorphosen TrV290 Richard Strauss Herzog Aus Italien Op.16": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/43/2f/85/432f8546-dfea-ce02-7039-03c8b753bffd/cover.jpg/600x600bb.jpg",
+      "album": "Métamorphoses nocturnes (Live)",
+      "artist": "Appassionato & Mathieu Herzog",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:07:02.789Z"
+    },
+    "Orchestral|11|18.68031|23.84253|Metamorphosen TrV290 Richard Strauss Azkoul": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-ar7PsAFAvcJ2-aOZ_yt7YeToZ8i_9jpuLocwu6st9OYr_K5NRNZbVDwG&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:07:21.029Z"
+    },
+    "Orchestral|11|32.83977|23.79592|Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9d/79/97/9d79973c-449a-4cdf-746d-e3d3a774bce2/00028941089229.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss: Metamorphosen, Tod und Verklärung",
+      "artist": "Berlin Philharmonic Orchestra & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:07:25.989Z"
+    },
+    "Orchestral|11|4.45695|48.07458|Aus Italien Op.16 Herzog Muti Le Bourgeois Gentilhomme Op.60": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/ee/24/85ee2487-337e-b06b-30c4-0f356fb27eb7/00028947889786.rgb.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: Aus Italien - Don Juan",
+      "artist": "Riccardo Muti & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:07:29.653Z"
+    },
+    "Orchestral|11|18.6798|48.07458|Azkoul Weigle Le Bourgeois Gentilhomme Op.60": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/56/e8/f9/56e8f90c-3ce5-38a3-b278-29d878988a2d/4260034868922.jpg/600x600bb.jpg",
+      "album": "R. Strauss: Tod und Verklärung & Aus Italien (Live)",
+      "artist": "Frankfurter Opern- und Museumsorchester & Sebastian Weigle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:07:34.225Z"
+    },
+    "Orchestral|11|4.27388|72.22223|Le Bourgeois Gentilhomme Op.60 Muti Dutoit": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoxel7zhbQpZd4i1hi94YyWXnVIBmcPEmLA6f3OIlBnjfJpbTJoHRA34w&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:07:54.201Z"
+    },
+    "Orchestral|11|18.68031|72.49504|Le Bourgeois Gentilhomme Op.60 Weigle Boyd": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjDdon2R4wShHCh20YaVsUTuBXQojfLrRDUgMcM5tWdTkZz_OCs8U0U3M&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:08:06.844Z"
+    },
+    "Orchestral|11|54.176|23.79592|Rosenkavalier : Suite Previn Intermezzo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMs0V8FvyUVLvgu4czWPjGhAnaMmg_ewkogLpa6h53SayzFY2R-druvFpD&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:08:17.880Z"
+    },
+    "Orchestral|11|68.46294|23.79592|Nelsons Salome": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/60/2e/ab602e50-d27d-6b54-6114-43bffed55302/21UM1IM57117.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss: Salome, Op. 54, TrV 215: Dance of the Seven Veils - EP",
+      "artist": "Gewandhausorchester Leipzig & Andris Nelsons",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:26.029Z"
+    },
+    "Orchestral|11|82.71768|23.79592|: Andante con moto Capriccio Kamu": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b7/7e/f0/b77ef0ea-b4ad-c84c-aadf-61ebe5d20182/761195120224.jpg/600x600bb.jpg",
+      "album": "Strauss: 3 Hymns, Opera Arias",
+      "artist": "Soile Isokoski, Okko Kamu & Helsinki Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:30.940Z"
+    },
+    "Orchestral|11|54.14786|47.8659|: Symphonic Intermezzi Intermezzo Nelsons Don Quixote Op.35": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3d/e5/74/3de5749e-89d8-e295-ce0b-19c1cf1c3b90/21UM1IM21361.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss",
+      "artist": "Andris Nelsons, Gewandhausorchester Leipzig & Boston Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:34.908Z"
+    },
+    "Orchestral|11|68.08476|47.37121|: Dances of the Seven Veils Salome Burlesque in d minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/78/dd/a578dd97-9925-85c1-250a-8684f2729669/00028948316038.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss: Salome",
+      "artist": "Vienna Philharmonic, Birgit Nilsson, Sir Georg Solti, Grace Hoffman, Gerhard Stolze & Eberhard Wächter",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:38.890Z"
+    },
+    "Orchestral|11|54.26861|72.46204|Don Quixote Op.35 Nelsons vc.Queyras/Roth": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7a/f8/48/7af848bc-a1f9-a8f9-bf7f-dde39b6a3c9f/5400863054939_cover.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: Don Quixote. Till Eulenspiegel",
+      "artist": "François-Xavier Roth, Gürzenich-Orchester Köln, Jean-Guihen Queyras & Tabea Zimmermann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:42.089Z"
+    },
+    "Orchestral|11|68.56364|72.51629|Burlesque in d minor Solti p.Thibaudet/Blomstedt": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/88/c3/3b88c3de-b8e0-5bff-a73b-53fc9c86ac83/00028947565505.rgb.jpg/600x600bb.jpg",
+      "album": "Strauss, R.: Rosenkavalier Waltzes, Burleske",
+      "artist": "Gewandhausorchester Leipzig, Jean-Yves Thibaudet & Herbert Blomstedt",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:45.700Z"
+    },
+    "Orchestral|12|4.51873|15.04364|Bruckner Overture in g minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/63/69/a7/6369a76c-1f8f-2bd3-2568-e9123068c4e9/4260034860254.jpg/600x600bb.jpg",
+      "album": "Bruckner: Sämtliche Symphonien",
+      "artist": "Rundfunk-Sinfonieorchester Saarbrücken & Stanisław Skrowaczewski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:52.624Z"
+    },
+    "Orchestral|12|4.5433|40.60348|Skrowaczewski Overture in g minor Rott Hamlet Overture": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d0/23/85/d0238503-bc30-6922-f827-f96975bba69c/845221054087.jpg/600x600bb.jpg",
+      "album": "Rott: Complete Orchestral Works, Vol.1",
+      "artist": "Gürzenich-Orchester Köln & Christopher Ward",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:08:57.169Z"
+    },
+    "Orchestral|12|4.58225|66.21115|Ward Hamlet Overture Rott Pastorales Vosrspiel": {
+      "url": "https://m.media-amazon.com/images/I/9196fxb23oL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:09:28.569Z"
+    },
+    "Orchestral|12|27.87294|15.00038|Mahler arr. Beethoven Symphony No.5": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSVad7VN6DV5nFjGN6bCb7Lj43AcXSCm3LnjpqQbPvK59e2uZgyxTBhwvS&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:09:40.380Z"
+    },
+    "Orchestral|12|27.95118|40.65586|Tiboris Symphony No.5 Mahler arr. Beethoven Symphony No.9": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/0b/dc/bc/dj.junshwwc.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphonie No. 9 (Arr. Mahler)",
+      "artist": "Tonkünstler-Orchester, Kristjan Järvi & Slowakischer Philharmonischer Chor",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:09:44.036Z"
+    },
+    "Orchestral|12|27.41828|65.40817|K.Jarvi Symphony No.9 String Quartet 14 Kofman": {
+      "url": "https://m.media-amazon.com/images/I/516ZLqeJCiL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:09:59.283Z"
+    },
+    "Orchestral|12|53.55941|14.69835|Mahler arr. Schumann Symphonies": {
+      "url": "https://m.media-amazon.com/images/I/7181gmvqBpL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:10:13.807Z"
+    },
+    "Orchestral|12|53.75564|40.57034|Chailly Symphonies Mahler arr. Beethoven String Quartet Op.95": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/40/e0/6340e06f-a314-0130-f14d-dbe8369d133f/06UMGIM74056.rgb.jpg/600x600bb.jpg",
+      "album": "Beethoven (arr. Mahler): String Quartet No. 11 - Brahms (orch. Scoenberg): Piano Quartet No. 1",
+      "artist": "Christoph von Dohnányi & Vienna Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:10:28.028Z"
+    },
+    "Orchestral|12|53.9125|66.07401|Dohnanyi String Quartet Op.95 Mahler Totenfeier": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/e0/d7/cde0d774-d23d-5139-1489-db3731d50a4c/8720604705973_cover.jpg/600x600bb.jpg",
+      "album": "Strauss, Mahler & Bruckner: Orchestral Works",
+      "artist": "Rundfunk-Sinfonieorchester Berlin & Vladimir Jurowski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:10:36.176Z"
+    },
+    "Orchestral|12|78.60784|15.10778|Zemlinsky Die Seejungfrau": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/43/f1/8b/43f18b9f-6010-dbfb-3961-5d930d6579c6/00028944496925.rgb.jpg/600x600bb.jpg",
+      "album": "Zemlinsky: Die Seejungfrau / Psalms Nos. 13 & 23",
+      "artist": "Ernst Senff Chor, Rundfunk-Sinfonieorchester Berlin & Riccardo Chailly",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:10:39.709Z"
+    },
+    "Orchestral|12|78.71422|40.61194|Chailly Die Seejungfrau Zemlinsky Die Seejungfrau": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQknUwXen1XPJzW7uw2O5qXd3Jsbu3qpfGqfuA-RgMu501inbfA3Y7y2iu&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:11:10.652Z"
+    },
+    "Orchestral|12|78.69749|66.16721|Colon Die Seejungfrau Ochs  㑄S Kommt Ein Vogel Geflogen Variations": {
+      "url": "https://i.discogs.com/Du6IiweRmeKIFxnLfxSYcQy3PdEoDJjcaMCObHbbfc8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExODU4/MzI2LTE2MTQ4NjYx/NjAtOTYzMi5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:11:27.656Z"
+    },
+    "Orchestral|13|4.54641|23.66404|Der Geburtstag der Infantin Franz Schreker Petrenko Pantastische": {
+      "url": "https://i.scdn.co/image/ab67616d00001e026f83532c9a5d5af862839625",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:11:41.741Z"
+    },
+    "Orchestral|13|18.62075|23.73494|Der Geburtstag der Infantin Franz Schreker Zagrosek Romantic Suite Op.14": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRijtS14OTAvAAfoQMwBFjHyv3A_hYArtNYSrvzw6ywpj8ittAmmaBhD0U&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:11:55.096Z"
+    },
+    "Orchestral|13|32.86845|23.74124|Ekkehard Op.20 Sinaisky": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/85/9b/84859b68-0b1f-daf3-d290-f6dd68102369/5059864979736.png/600x600bb.jpg",
+      "album": "Schreker: Orchestral Works, Vol. 1",
+      "artist": "Vassily Sinaisky & BBC Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:11:58.662Z"
+    },
+    "Orchestral|13|4.50064|48.05492|Overture Op.15 Pantastische Sinaisky Der Schatzgraber :": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/85/9b/84859b68-0b1f-daf3-d290-f6dd68102369/5059864979736.png/600x600bb.jpg",
+      "album": "Schreker: Orchestral Works, Vol. 1",
+      "artist": "Vassily Sinaisky & BBC Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:12:01.509Z"
+    },
+    "Orchestral|13|18.72204|48.05492|Romantic Suite Op.14 Zagrosek Sinaisky Der ferne Klan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/10/44/5b1044c1-0dbb-32d5-e401-117a5af27134/5059864995132.png/600x600bb.jpg",
+      "album": "Schreker: Romantic Suite, Fünf Gesänge, Prelude to 'Das Spielwerk' & Vorspiel zu einer großen Oper",
+      "artist": "Vassily Sinaisky, BBC Philharmonic & Katarina Karnéus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:12:04.623Z"
+    },
+    "Orchestral|13|4.47849|72.41599|Symphonies Zweischenspiel Der Schatzgraber : Renes": {
+      "url": "https://image.yes24.com/goods/35425247/XL",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:12:17.946Z"
+    },
+    "Orchestral|13|18.68031|72.49504|: Nachtstuck Der ferne Klan Eschenbach": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fe/54/f1/fe54f154-8e51-95f8-9200-695e3c39f7df/22UM1IM13227.rgb.jpg/600x600bb.jpg",
+      "album": "Der ferne Klang... Orchestral Works & Songs by Franz Schreker",
+      "artist": "Konzerthausorchester Berlin & Christoph Eschenbach",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:12:21.356Z"
+    },
+    "Orchestral|13|32.70239|72.31884|: Vorspiel zu einem Drama Die Gezeichneten Gielen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/6f/60/a7/mzi.kjhraipi.jpg/600x600bb.jpg",
+      "album": "Mahler: Symphony No. 4 In G Major - Schreker: Prelude to a Drama",
+      "artist": "Christine Whittlesey, Wolfgang Hock, Michael Gielen & South West German Radio Symphony Orchestra, Baden-Baden",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:12:24.936Z"
+    },
+    "Orchestral|13|54.60283|15.05518|Variations anf Fugue on a Theme by Mozart": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYK8ZiYSz_-IWakKAjPNlmz7YXifrQgYNgCrD7p4BVzNn9WseHGAwMjnU9&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:12:40.904Z"
+    },
+    "Orchestral|13|54.54407|40.41977|C.Davis on a Theme by Mozart Variations anf Fugue on a Theme by Beethoven": {
+      "url": "https://i.scdn.co/image/ab67616d0000b2730191dd4c941eb32d2c6f27be",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:12:52.996Z"
+    },
+    "Orchestral|13|54.67634|66.1079|Segerstam on a Theme by Beethoven Reger Bocklin Suite": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/42/67/ed4267a8-e574-028d-4e8e-ae27d3e0caf6/5059864879432.png/600x600bb.jpg",
+      "album": "Reger: Four Tone Poems after Arnold Böcklin & Variations and Fugue on a Theme of Johann Adam Hiller",
+      "artist": "Neeme Järvi & Royal Concertgebouw Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:13:04.952Z"
+    },
+    "Orchestral|13|78.59176|15.01745|Reznicek Schlemihl": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/40/00/4c/40004cc4-0c40-622e-cfa1-03ebdea33a82/761203979523.jpg/600x600bb.jpg",
+      "album": "Reznicek: Schlemihl & Overture-Phantasie II \"Raskolnikov\"",
+      "artist": "WDR Symphony Orchestra Cologne & Michail Jurowski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:13:10.152Z"
+    },
+    "Orchestral|13|78.5818|40.52565|Jurowski Schlemihl Reznicek Der Sieger": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/04/f2/5b/04f25b9b-ac6b-835e-e3df-8cfa43f6e85b/761203989829.jpg/600x600bb.jpg",
+      "album": "Reznicek: Der Sieger",
+      "artist": "WDR Symphony Orchestra Cologne, Michail Jurowski, Beate Koepp & WDR Rundfunkchor Köln",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:13:13.448Z"
+    },
+    "Orchestral|13|78.66549|65.91461|Jurowski Der Sieger Reznicek Kol Nidrey ㎿Variation": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b0/98/05/b09805ee-d83a-d4b8-dea3-eaaed89ef6fc/761203704729.jpg/600x600bb.jpg",
+      "album": "Reznicek: Chamisso-Variationen",
+      "artist": "WDR Symphony Orchestra Cologne & Michail Jurowski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:13:16.747Z"
+    },
+    "Orchestral|14|4.0504|15.07929|Metamorphosen on a Themes of Weber": {
+      "url": "https://i.discogs.com/2Ne15KItO9mwVW8LiNSafMgvn7GdrdrpnsVIg8bIyeY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2Mjc3/MTAtMTM5ODM3NTEz/NS0zMjQ4LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:13:36.715Z"
+    },
+    "Orchestral|14|4.00064|40.66123|Sawallische Themes of Weber Metamorphosen on a Themes of Weber": {
+      "url": "https://image.bugsm.co.kr/album/images/1200/12183/1218327.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:13:52.414Z"
+    },
+    "Orchestral|14|4.11656|66.19311|Stern Themes of Weber Hindemith Nobilissima Visione": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/be/a8/00bea875-c646-920b-8738-d6c0cd94564b/00028944738926.rgb.jpg/600x600bb.jpg",
+      "album": "Hindemith: \"Mathis der Maler\" - Nobilissima Visione - Symphonic Metamorphoses",
+      "artist": "Berlin Philharmonic Orchestra & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:13:57.307Z"
+    },
+    "Orchestral|14|27.82223|14.97749|Dostal Spanish Sketches": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-yTtAa5H-u2CaK-K4_Juy6oqlaOBgZf9SBgfmHrszU4sKhw3RRkzUuRU&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:14:20.784Z"
+    },
+    "Orchestral|14|53.86962|15.00704|Pfitzner Das Kathchen von Heilbronn": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/c1/01/99/mzi.qccbndrs.jpg/600x600bb.jpg",
+      "album": "WOLF, H.: Penthesilea / PFITZNER, H.: Das Kathchen Von Heilbronn / STRAUSS, R.: Fantasy (Berlin Staatskapelle, Suitner)",
+      "artist": "Otmar Suitner, Staatskapelle Berlin, Frank Lienert & Juliane Koren",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:14:28.163Z"
+    },
+    "Orchestral|14|53.86962|40.52333|Suitner von Heilbronn Pfitzner Elegie und Reigen": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/79/a4/05/79a40572-7938-04a5-3c05-2b98c0a7c561/761203913626.jpg/600x600bb.jpg",
+      "album": "Pfitzner: Symphony in C-Sharp Minor, Elegie und Reigen & Fantasie, Op. 56",
+      "artist": "Werner Andreas Albert & Bamberg Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:14:35.595Z"
+    },
+    "Orchestral|14|53.90759|66.1079|Albert Elegie und Reigen Schmidt Variations on a Hussar 㐴s Song": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/47/a8/59/47a859db-d4e2-fe2f-5d78-5acc502d996a/845221052748.jpg/600x600bb.jpg",
+      "album": "Schmidt: Variations on a Hussar's Song, Fantasia & Chaconne",
+      "artist": "Jasminka Stancul, Deutsche Staatsphilharmonie Rheinland-Pfalz & Alexander Rumpf",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:14:39.161Z"
+    },
+    "Orchestral|14|78.83315|15.05992|Schmidt Variations on a Beethoven": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIX5M5U9BNkFj9AEw2W4n0A69BE8P8DJPV1IRL-gCYRCSV56_f404rZj8&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:14:54.574Z"
+    },
+    "Orchestral|14|78.87429|40.47872|Becker on a Beethoven Minkus Don Quixote": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/d8/f6/69/mzi.anevgrxj.jpg/600x600bb.jpg",
+      "album": "Minkus: Don Quijote",
+      "artist": "Sofia National Opera Orchestra & Boris Spassov",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:15:00.231Z"
+    },
+    "Orchestral|14|78.87429|66.19311|Spassov Don Quixote Minkus La Bayadere": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/2d/3f/9f2d3f9a-3768-1914-cd71-d9a89c53512b/mzi.xmnujzhl.jpg/600x600bb.jpg",
+      "album": "Minkus: La Bayadere & Paquita",
+      "artist": "Sofia National Opera Orchestra & Boris Spassov",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:15:03.975Z"
+    },
+    "Orchestral|15|4.24891|15.10778|Korngold Much Ado About Nothing Op.11": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/61/50/64/61506492-065b-d283-ccc8-6df8968646e2/761195119129.jpg/600x600bb.jpg",
+      "album": "Korngold: Much Ado About Nothing & Sinfonietta",
+      "artist": "Helsinki Philharmonic Orchestra, John Storgårds & Mati Turi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:15:07.453Z"
+    },
+    "Orchestral|15|4.38496|40.53966|Storgards About Nothing Op.11 Korngold Symphonic Serenade": {
+      "url": "https://m.media-amazon.com/images/I/91xqnsf+TML._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:15:51.635Z"
+    },
+    "Orchestral|15|4.33581|66.11251|Amsterdam Sinfonietta ㏙2Movt.㏚ Symphonic Serenade Korngold A Midsummer Night 㐴s Dream": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0a/00/8b/0a008b6b-a9f0-9147-1f4a-21538701e143/761203944927.jpg/600x600bb.jpg",
+      "album": "Korngold: A Midsummer Night's Dream (After F. Mendelssohn)",
+      "artist": "Gerd Albrecht, Deutsches Symphonie-Orchester Berlin, Berlin Radio Choir, Michael Burt & Celina Lindsley",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:15:55.967Z"
+    },
+    "Orchestral|15|28.08892|14.87614|Korngold Straussiana": {
+      "url": "https://m.media-amazon.com/images/I/81BU4p5QXtL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:16:09.267Z"
+    },
+    "Orchestral|15|28.22552|40.57434|Albert Straussiana Korngold The Sea Hawk": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/46/60/a9/4660a90b-a6ca-c2e2-4972-a508b729354b/013491323428.png/600x600bb.jpg",
+      "album": "Korngold: The Sea Hawk & Symphony in F-Sharp Major",
+      "artist": "Oregon Symphony & James DePreist",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:16:15.443Z"
+    },
+    "Orchestral|15|54.08169|15.02949|Loeffler La mort de tintagiles": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a0/aa/6a/a0aa6ae3-05ec-c3d8-5b00-ffc6003877a4/761195139622.jpg/600x600bb.jpg",
+      "album": "Americascapes",
+      "artist": "Basque National Orchestra & Robert Trevino",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:16:19.435Z"
+    },
+    "Orchestral|15|54.02346|40.46298|Trevino La mort de tintagiles Loeffler La Villanelle du Diable": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/54/2a/72/542a728a-b2fb-a367-ec6f-794a2c2c4240/765387731328_1.jpg/600x600bb.jpg",
+      "album": "Loeffler: Divertissement Espagnol & La Villanelle Du Diable",
+      "artist": "BBC Concert Orchestra & Johannes Wildner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:16:23.070Z"
+    },
+    "Orchestral|15|54.0625|65.92039|Wildner La Villanelle du Diable Loeffler Five Irish Fantasies": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b3/b5/81/b3b581a8-abd5-b59f-723f-8049143b4c91/93228033226.jpg/600x600bb.jpg",
+      "album": "Charles Martin Loeffler: Orchestral Works",
+      "artist": "Indianapolis Symphony Orchestra, John Nelson, Jennie Hansen & Neil Rosenshein",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:16:27.723Z"
+    },
+    "Orchestral|15|78.58364|15.02716|Pitzner ㎿ Palestrina Prelude Act1 㖈 2": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0EAcg4mQkk4i6iHwvr8D9bcBcEDoLgqYwsR1JkH9inwdI-JAr6ARl1E&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:16:40.978Z"
+    },
+    "Orchestral|15|78.95215|40.31545|Thielemann Prelude Act1 㖈 2 Hausegger Barbarossa": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5jIZ1sHjck1Cu1pUEwOYh_irrVp3Qfpczu8sV3x1znw&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:16:56.850Z"
+    },
+    "Orchestral|15|78.81554|65.85456|Fischer ㎿Hermus Barbarossa Wolf Penthesila Fischer ㎿Dieskau": {
+      "url": "https://i.discogs.com/kp6ENY9UGx9R5Uev12eeg2XhYDcwnplpGpduzMVGl5I/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDk3/MDA4LTE1Njc3ODgy/NjUtNTg2NS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:17:08.166Z"
+    },
+    "Orchestral|16|4.38815|23.63143|Gurrelieder Arnold Schoenberg Chailly Pelleas und Melisande Op.5": {
+      "url": "https://m.media-amazon.com/images/I/51DW4+Lji+L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:17:20.766Z"
+    },
+    "Orchestral|16|18.77766|23.63143|Arnold Schoenberg Stenz Pelleas und Melisande Op.5": {
+      "url": "https://m.media-amazon.com/images/I/61yXgfQj35L._UXNaN_FMjpg_QL85_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:17:35.261Z"
+    },
+    "Orchestral|16|33.15117|23.63143|Abbado": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlx5xZtoCXu6kOikGM2pfPL6fEnTSqxbY8toLiVziNyiCiSQmQ2wTrtKQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:17:49.430Z"
+    },
+    "Orchestral|16|4.32437|48.10615|Pelleas und Melisande Op.5 Chailly Sinopoli Verklarte Nacht Op.4": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2sTEVUjJG4KfQC0aqvKuRRhSmgVNML3gGZ_70xZkA16pK-mTsCWlOOkE&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:18:03.138Z"
+    },
+    "Orchestral|16|18.59964|48.05972|Pelleas und Melisande Op.5 Stenz Thielemann": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq_0YRDWKXRpGyDDQD0y4FyHSXJp5MbiVUqoMt4-8b1A&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:18:15.225Z"
+    },
+    "Orchestral|16|32.78687|48.17856|Abbado P.Jarvi": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/13/bb/30/13bb30b0-55ad-be30-08f2-fc3812033a6d/3701624510582.png/600x600bb.jpg",
+      "album": "Schoenberg & Fauré: Pelléas et Mélisande",
+      "artist": "Frankfurt Radio Symphony & Paavo Järvi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:18:18.894Z"
+    },
+    "Orchestral|16|4.50511|72.8435|Verklarte Nacht Op.4 Sinopoli Herzog ㏙Orch.㏚": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273660cbd95ffcfa1079c06b2cc",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:18:52.429Z"
+    },
+    "Orchestral|16|18.67798|72.89819|Verklarte Nacht Op.4 Thielemann Queyras ㏙Orch.㏚": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo_PPO_XDBy3cgXCQKFSHTK3TOUjZYDHzwDWR-ea5AOMCchOB8z6y2dR6T&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:19:05.289Z"
+    },
+    "Orchestral|16|54.26904|23.57583|Variation for Orchestra Op.31 Karajan Piece for Orchestra Op.16": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwAZcNfhfKq8hE-PCiP3-uJM6RZsqg-jLmuQFO9VUHLJ0GKpYl4YLiCFKY&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:19:20.805Z"
+    },
+    "Orchestral|16|68.44764|23.44562|Variation for Orchestra Op.31 Nagano Piece for Orchestra Op.16": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002082690/front/400/3WVp7HklhF7tWyM4goanlRyhM-OFI8zG4l-qVpXXB1I=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:20:01.968Z"
+    },
+    "Orchestral|16|68.51521|48.17856|Piece for Orchestra Op.16 Nagano Rattle": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEXQ2ISvSvmEPwmZXDo13fgJyJ0I-JqVtzDO6EWAPi54HpTqQUksqQJgE&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:20:17.848Z"
+    },
+    "Orchestral|16|82.82231|48.10615|Warsaw Op.46 A Survivor from Abbado": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002122179/front/400/xgPdLx2MBQ1mqtnFhQuHoFWnbEN5fCjifro6xhIBuB4=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:20:32.308Z"
+    },
+    "Orchestral|16|54.19508|72.84146|Brahms Piano Quartet No.1 Schoenberg arr. Dohnanyi": {
+      "url": "https://m.media-amazon.com/images/I/81K1eo9JqgL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:20:46.752Z"
+    },
+    "Orchestral|16|68.48853|72.84178|Rattle": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/14/bf/4b/14bf4ba7-75b4-b9e6-6c1b-14bcc5e4a2f3/825646341542.jpg/600x600bb.jpg",
+      "album": "Schoenberg: Orchestral Works",
+      "artist": "Berlin Philharmonic Orchestra & Sir Simon Rattle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:20:50.909Z"
+    },
+    "Orchestral|17|4.30452|23.56858|Passacaglia Op.1 Anton Webern Pieces ㏙5㏚ Op.5": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNQb3C6y8W8OOz-20EZurwH5IDrmE3umr2_1yzDMbcWg_Vhoucpxq56o&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:21:01.137Z"
+    },
+    "Orchestral|17|18.55984|23.65951|Dohnanyi Pieces ㏙6㏚ Op.6": {
+      "url": "https://i.scdn.co/image/ab67616d00001e029cdef77bd0e8ca56f75dad04",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:21:17.752Z"
+    },
+    "Orchestral|17|32.73499|23.87504|In Sommerwind Webern arr. Musical Offering ㏙Bach㏚": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcmyVoI0vAmy6JIIFzLWJk4n2B_9qnKmA-DIRWHXZhudVHFNy4Mhqr_frk&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:22:40.816Z"
+    },
+    "Orchestral|17|18.54349|48.07458|Pieces ㏙6㏚ Op.6 Dohnanyi Abbado": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002122179/front/400/xgPdLx2MBQ1mqtnFhQuHoFWnbEN5fCjifro6xhIBuB4=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:23:19.677Z"
+    },
+    "Orchestral|17|32.70538|47.99487|Musical Offering ㏙Bach㏚ Webern arr. Poppen": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh2ZWZeUxnVgzEioMIKqDUREae18veCgpnWF5WuB6HVJRaVrIonSWDMwVB&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:23:31.543Z"
+    },
+    "Orchestral|17|4.47849|72.49504|Satz for Strings Webern Langsamer P.Jarvi ㏙Orch.㏚": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtmQf2MkUkiTi2ja6xhRvVAJXwM9rDHF-XRBu9sO6biYp8ovqZanBMoQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:23:42.031Z"
+    },
+    "Orchestral|17|18.77197|72.49505|Abbado Belcea Quartet ㏙Quartet㏚": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5d/af/c1/5dafc1f8-b046-563e-063e-9f6bd8cc3393/3760014192098.png/600x600bb.jpg",
+      "album": "Berg, Webern & Schönberg: Chamber Music",
+      "artist": "Belcea Quartet, Nicolas Bone & António Meneses",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:23:47.557Z"
+    },
+    "Orchestral|17|54.58136|23.70327|Pieces ㏙3㏚  Op.6 Alban Berg Karajan Lulu Suite": {
+      "url": "https://m.media-amazon.com/images/I/51x9loB2RfL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:24:07.687Z"
+    },
+    "Orchestral|17|68.76848|23.75598|Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/5b/6c/d25b6c5f-5501-3ee4-ce4f-1ee0c9f4141d/00028944584622.rgb.jpg/600x600bb.jpg",
+      "album": "Berg: Seven Early Songs - Wine - Three Pieces for Orchestra",
+      "artist": "Vienna Philharmonic & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:24:11.867Z"
+    },
+    "Orchestral|17|82.85558|23.83509|Tilson Tomas": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWfoCeGLxXFzNZS2nrOsUwt1sS19-MTCFWwOwSvP9hGkMnMK0ubw9BKitw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:24:43.598Z"
+    },
+    "Orchestral|17|54.56593|48.03464|Lulu Suite Karajan Sinopoli Wozzeck": {
+      "url": "https://image.yes24.com/momo/TopCate0010/hani/L_499232.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:25:06.215Z"
+    },
+    "Orchestral|17|68.68271|48.00715|Abbado Boulez arr.": {
+      "url": "https://m.media-amazon.com/images/I/91JokbQq6VL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:25:40.716Z"
+    },
+    "Orchestral|17|54.37272|72.4551|Three Excerpts Wozzeck Levine": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBI7Ls8YTpqkI33NQDaG61mT9C-wxkXI8BuLE_jByTw&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:25:53.567Z"
+    },
+    "Orchestral|17|68.85091|72.42848|Piano Sonata Op.1 arr. Amsterdam Sinfonietta": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24fcITAjconhGo-AK7G7vQtkwuiNjx97zSihDXAX9WhipblkAlHF4FvTi&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:26:05.866Z"
+    },
+    "Orchestral|17|82.92729|72.49504|String Quartet Nos.2-4 arr. Lyric Suite Queyras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3e/d7/4c/3ed74c66-2107-aaa3-d7be-7966f9ea9c52/5414939982231_cover.jpg/600x600bb.jpg",
+      "album": "Berg: Lyrische Suite & Schoenberg: Verklärte Nacht",
+      "artist": "Jean-Guihen Queyras & Ensemble Resonanz",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:26:09.494Z"
+    },
+    "Orchestral|18|4.51675|14.93088|Eisler Suite No.2": {
+      "url": "https://imusic.b-cdn.net/images/item/original/825/0782124922825.jpg?eisler-pommer-1996-works-for-orchestra-cd&class=scaled&v=1140369204",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:26:32.851Z"
+    },
+    "Orchestral|18|4.47548|40.39625|Pommer Suite No.2 Eisler Winterschlacht Suite": {
+      "url": "https://i.scdn.co/image/ab67616d0000b27318326244d2c805401cb1dd12",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:27:02.830Z"
+    },
+    "Orchestral|18|4.59965|66.19842|Brecht Winterschlacht Suite Eisler Orchestral Pieces": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/2e/72/0b2e72f8-b688-0d05-9fa7-670a11811815/761203907120.jpg/600x600bb.jpg",
+      "album": "Eisler: Orchestral Works",
+      "artist": "Mathias Husmann & Magdeburgische Philharmonie",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:27:07.739Z"
+    },
+    "Orchestral|18|28.38582|15.14375|Weill Kleine Dreigroschenmusik": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwvyGPj1r2cqV-9EKb3tMcHZ60oKaM0Il6_ZVf-FRXvAwcJdYXAdINDzn&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:27:18.134Z"
+    },
+    "Orchestral|18|28.40529|40.28367|Tilson Tomas Dreigroschenmusik Weill Quodlibet for Orchestra Op.9": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1f/49/1d/1f491d16-a6b9-c94d-f058-201b53d3fa4b/5059864504631.png/600x600bb.jpg",
+      "album": "Weill: Symphonies Nos. 1 and 2 & Quodlibet",
+      "artist": "Antony Beaumont & The Deutsche Kammerphilharmonie Bremen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:27:21.389Z"
+    },
+    "Orchestral|18|28.31431|66.21987|Beaumont for Orchestra Op.9 Ullmann Don Quixote Fandango": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/40/15/75/401575c6-bc76-eccf-8883-348d22928dc1/4011790366128.jpg/600x600bb.jpg",
+      "album": "Ullmann: Musica Rediviva",
+      "artist": "Czech Philharmonic, Gerd Albrecht, Ruža Pospiš-Baldani & Erika Pluhar",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:27:26.870Z"
+    },
+    "Orchestral|18|54.06157|15.20089|Krenek Tricks and Trifles": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b7/0e/ff/b70eff5c-a8dc-218b-126e-b8bba3136c06/845221053790.jpg/600x600bb.jpg",
+      "album": "Krenek: Orchestral Works",
+      "artist": "Deutsche Staatsphilharmonie Rheinland-Pfalz & Karl-Heinz Steffens",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:27:31.465Z"
+    },
+    "Orchestral|18|54.15946|40.78607|Steffens Tricks and Trifles Krenek Phantastische Ersche...": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyAOWqLHrRek5KsJeT0fEEitmNigmy3qsPhVnGzviB7g2M8fofF8MMt6Ft&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:28:09.978Z"
+    },
+    "Orchestral|18|54.10063|66.37077|R.Davies Phantastische Ersche... Braunfels Don Juan Op.34": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxxZ9oSUFbwLW4bwMM9G81bWeemoUGuDl-Nl2W305eKDohjde1nody4ZQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:28:34.941Z"
+    },
+    "Orchestral|18|78.69955|15.46591|Ben ㎿Haim Evocation Op.32": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs-BqeTmCAQ7V7EsfxafKS6JUIv0vugpEpfcKl6a3p6cX8lG1qBFBx0q5J&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:29:06.241Z"
+    },
+    "Orchestral|18|78.84196|40.85654|Bach Evocation Op.32 F.Weingartner Konig Lear Op.20": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rUre-KcvW9qtGLOJGdCqEoiRltZUCyJoEI4d-mSFxQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:29:24.861Z"
+    },
+    "Orchestral|18|78.87509|66.2982|Letonja Konig Lear Op.20 W.Furtwangler Overture Op.3": {
+      "url": "https://m.media-amazon.com/images/I/412rIO8-bvL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:29:43.862Z"
+    },
+    "Orchestral|19|4.82324|15.00025|Dessau Symphonic Mozart ㎿Adaptation": {
+      "url": "https://m.media-amazon.com/images/I/612zY+QLJ-L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:29:59.421Z"
+    },
+    "Orchestral|19|4.64032|40.6438|Athinaos Mozart ㎿Adaptation Einem Dantons Tod Op.6a": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVJZjAyjt7-flC6yQy-DRt6LiFiLdvKAZtXHKgZeBkbGHBLI6UZbwUqW_K&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:30:11.831Z"
+    },
+    "Orchestral|19|4.56836|66.06821|Lifschitz Dantons Tod Op.6a Einem Bruckner Dialog Op.39": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002731981/front/400/UwxIcfL1NVYFPtYyjvETiphUoDg0hsvx4F4sL4oO-nA=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:30:34.228Z"
+    },
+    "Orchestral|19|28.44183|14.87878|Henze Manadenjagd": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8sJFurNAdWReXyzNSb3rnf1KrK0y2GCfJSsZxb7kfsPI3R9z3hXhDxwA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:30:46.004Z"
+    },
+    "Orchestral|19|28.61589|40.71146|Abbado Manadenjagd Henze 3 Sinfonische Etuden": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEvXEChn6Q5RE2jwJDEfxz6Phcl7_Liy4dAVqWIHCUg&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:31:12.556Z"
+    },
+    "Orchestral|19|28.78672|66.19038|Henze 3 Sinfonische Etuden Henze Telemanniana": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPeL-QgVs5FeYuq1L33GttUdj8BOSMNlLkPdlShBIluUzYZfMpxeGgqk8&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:31:31.328Z"
+    },
+    "Orchestral|19|53.95541|15.0798|Zender Logos ㎿Fragmente": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7a/2e/e2/7a2ee245-c59a-14ab-e0e6-c5afa967fec8/4010228676525_cover.jpg/600x600bb.jpg",
+      "album": "Zender: Logos-Fragmente (Canto IX)",
+      "artist": "SWR Vokalensemble Stuttgart, SWR Sinfonieorchester Baden-Baden und Freiburg & Emilio Pomarico",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:31:36.940Z"
+    },
+    "Orchestral|19|54.19337|40.59245|Pomarico Logos ㎿Fragmente Rihm Styx and Lethe": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/e6/ea/81/mzi.khtqzdpa.jpg/600x600bb.jpg",
+      "album": "Rihm: Styx Und Lethe - Dritte Musik - Music for Oboe and Orchestra",
+      "artist": "Alexander Ott, South West German Radio Symphony Orchestra, Baden-Baden, Hans Zender, Lucas Fels, Michael Gielen, Gottfried Schneider, Jan Latham-Koenig, Hirofumi Fukai & Walter Grimmer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:31:44.721Z"
+    },
+    "Orchestral|19|54.21519|66.18241|Zender Styx and Lethe Rihm Depart": {
+      "url": "https://m.lpstock.co.kr/web/product/big/202111/68b7242e111032e4be29cf617a87e828.png",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:31:54.887Z"
+    },
+    "Orchestral|19|78.83607|15.09687|HK Gruber Busking": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScFEkjFJv8Vk1e99G7OoRarsjKvFR_SumRUj-h-oGLhq8QEmrQr0IgJf4y&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:32:23.320Z"
+    },
+    "Orchestral|19|78.71891|40.71819|HK Gruber Busking HK Gruber Manhattan Broadcasts": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8o4AET-QaLWqONdTBJiWmITK9bd7uFPn7E4OE970ynQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:32:46.122Z"
+    },
+    "Orchestral|19|78.81649|66.29413|HK Gruber Manhattan Broadcasts HK Gruber Rough Music": {
+      "url": "https://cdn.shopify.com/s/files/1/0674/5433/7265/files/7318599916811_p0.jpg?v=1765912671",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:32:58.803Z"
+    },
+    "Orchestral|20|4.52332|14.98102|Zimmermann Dialogue": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m07/d07/h18/s06.ctgosfnx.jpg/600x600bb.jpg",
+      "album": "Bernd Alois Zimmermann: Dialog - Monologe - Perspektiven (Music to an Imaginary Ballet for Two Pianos) - Photoptosis (Prelude for Large Orchestra)",
+      "artist": "Andreas Grau, Bernhard Kontarsky, Deutsches Symphonie-Orchester Berlin & Götz Schmacher",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:33:04.104Z"
+    },
+    "Orchestral|20|4.52333|40.83027|Kontarsky Dialogue Zimmermann Canto di speranza": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/73/f4/2373f4a9-7369-c56f-5b64-0fd87a703e04/00028947668855.rgb.jpg/600x600bb.jpg",
+      "album": "Zimmermann: Canto di Speranza",
+      "artist": "Thomas Zehetmair, Heinz Holliger & WDR Symphony Orchestra Cologne",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:33:09.231Z"
+    },
+    "Orchestral|20|4.84675|66.18873|Holliger Canto di speranza Ruzicka Haydn ㎿Metamorphosen": {
+      "url": "https://i.discogs.com/hTG2tBFjRpNQHQMvyCAY-1yS5MVZNnw4NEn2yUrF-lk/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNzM2/NjktMTQ2MDM1MDA5/MC03OTgxLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:33:22.532Z"
+    },
+    "Orchestral|20|28.29305|15.07084|Poppe Filz": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnB-Y5F57cUmCD6CzJy7bc2TZssdveAmZFAn9ZoHNpeC5WTYB76PACxMsZ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:33:48.967Z"
+    },
+    "Orchestral|20|28.29305|40.48209|Poppe Filz Kalitzke Vier Toteninseln": {
+      "url": "https://m.media-amazon.com/images/I/912cAYVKAsL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:34:24.727Z"
+    },
+    "Orchestral|20|28.29171|66.30922|Kalitzke Vier Toteninseln T.Larcher Still": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8ViRV4yqs59fNZ03oOZtlRAyyA4VOgbkFE1I2cKZgIvR7JmjwmMNIxQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:34:49.398Z"
+    },
+    "Orchestral|20|54.10387|14.87071|Maintz Triptico vertical": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy55Nts64pJ381i2jefkvecjmg5E8DJ8Gd4lq6N7-U5w&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:35:01.983Z"
+    },
+    "Orchestral|20|54.23917|40.70782|Eschenbach Triptico vertical Kirchner Music for Orchestra": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/54/62/9f/54629f5f-1312-8f80-dc1b-696ac33f05a2/794465968424.jpg/600x600bb.jpg",
+      "album": "Leon Kirchner: Music for Orchestra",
+      "artist": "Boston Modern Orchestra Project & Gil Rose",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:35:06.229Z"
+    },
+    "Orchestral|20|54.31358|66.33281|Rose for Orchestra Stockhausen Kontakte": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ce/09/f2/ce09f261-6194-ec39-fc71-f6da1c350715/764593027423.jpg/600x600bb.jpg",
+      "album": "Stockhausen: The Complete Early Percussion Works",
+      "artist": "Steven Schick, James Avery & Red Fish Blue Fish",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:35:10.561Z"
+    },
+    "Orchestral|20|79.02472|15.03266|M.Bach Silhouetten": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRec7BrNg6SyNbOy2v-Pfa1xWA3KbatzirB6xahO001LVLZazX7x2WqUZZ2&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:36:13.174Z"
+    },
+    "Orchestral|20|79.04453|40.72633|Mussauer Silhouetten Schwertsik Divertimento Macchiato": {
+      "url": "https://image.yes24.com/momo/TopCate215/MidCate02/21416517.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:36:25.902Z"
+    },
+    "Orchestral|20|78.96513|66.21661|Hardenberger Divertimento Macchiato Schwertsik Nachtmusiken Op.104": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/fc/85/d2fc853e-9abc-008a-fea8-2ee929d5c02b/5059864168734.png/600x600bb.jpg",
+      "album": "Schwertsik: Baumgesänge, Nachtmusiken & Herr K. entdeckt Amerika",
+      "artist": "BBC Philharmonic & HK Gruber",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:36:29.435Z"
+    },
+    "Orchestral|21|4.28325|15.00184|Zawinul Voice of the Danube": {
+      "url": "https://i.scdn.co/image/ab67616d0000b27369a5310eb9ce77f0491d6777",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:36:49.002Z"
+    },
+    "Orchestral|21|4.42603|40.43512|Zawinul Voice of the Danube Schnebell Re ㎿Vision : Beethoven ㎿Moment": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJl3lEwOHOGusjB5ChuryiQJR1Bb7cHpFARmqMTru2pD3CCvQFj8yUfITx&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:36:59.589Z"
+    },
+    "Orchestral|21|4.47526|66.09907|Schreier : Beethoven ㎿Moment Fuchs Point of Tranquility": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d6/e5/9c/d6e59ce1-2d61-ff08-ea9f-98f86efdc313/5059864532634.png/600x600bb.jpg",
+      "album": "Kenneth Fuchs: Orchestral Works, Vol. 2",
+      "artist": "Sinfonia of London, John Wilson, James Buckle & Timothy McAllister",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:37:04.302Z"
+    },
+    "Orchestral|21|28.09475|14.81362|Schneider Draculissimo": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/b1/4e/fab14e8e-76cf-3100-7e83-8347505fa826/4010228511420.jpg/600x600bb.jpg",
+      "album": "Schneider: Bach, Dracula, Vivaldi & Co.",
+      "artist": "Tonkünstler-Orchester, Kevin John Edusei & Olga Watts",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:37:08.501Z"
+    },
+    "Orchestral|21|28.10062|40.4875|Edusei Draculissimo Schneider Raptus. Die Freiheit des Beethoven": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuO0ds_5mgDFOpa6y6ti66Pg6Wo-lvW_fw_8u0yryrd0fOOSDIrYEeVyNH&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:37:21.070Z"
+    },
+    "Orchestral|21|28.10062|66.18728|Gaudenz Die Freiheit des Beethoven Schneider Isolde 㖈 Tristan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/dd/6a/38/dd6a38cb-f043-8567-350e-47bcb199df28/4010228511826_cover.jpg/600x600bb.jpg",
+      "album": "Schneider: Magic of Irreality",
+      "artist": "Siberian State Symphony Orchestra & Vladimir Lande",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:37:27.686Z"
+    },
+    "Orchestral|21|54.13884|14.86617|Cerha Orchesterstucke": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/31/a0/52/31a052a8-6c7f-76f2-afce-ffd4f60b691c/cover.jpg/600x600bb.jpg",
+      "album": "Friedrich Cerha: Orchestral Works",
+      "artist": "SWR Sinfonieorchester Baden-Baden und Freiburg, Emilio Pomarico, WDR Symphony Orchestra Cologne & Jukka-Pekka Saraste",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:37:31.686Z"
+    },
+    "Orchestral|21|54.07718|40.46223|Saraste Orchesterstucke Lang The Ocean of Yes and No.": {
+      "url": "https://m.media-amazon.com/images/I/71-ElZqeflL.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:38:01.009Z"
+    },
+    "Orchestral|21|54.05771|66.20068|Deroyer of Yes and No. Beyer Griechenland Musik": {
+      "url": "https://m.media-amazon.com/images/I/716GMsXB4rL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:38:16.093Z"
+    },
+    "Orchestral|21|78.73701|14.86617|Beppe Remote Galaxy": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/36/45/63/36456390-aa20-3d76-11ce-4694cc63a8e6/cover.jpg/600x600bb.jpg",
+      "album": "Remote Galaxy by Flint Juventino Beppe",
+      "artist": "Vladimir Ashkenazy & Philharmonia Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:38:20.229Z"
+    },
+    "Orchestral|21|78.8207|40.6225|Ashkenazy Remote Galaxy Widmann Con Brio": {
+      "url": "https://i.scdn.co/image/ab67616d00001e0203cd5d5dde8a968a53bfde76",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-04T12:38:33.104Z"
+    },
+    "Orchestral|22|4.36028|23.57973|Swan Lake Op.20 Pyotr Ilyich Tchaikovsky Dutoit ㏙Complete㏚ The Sleeping Beauty Op.66": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7b/01/57/7b015711-871b-0d8b-5bec-d6857e5661db/06UMGIM47668.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Swan Lake",
+      "artist": "Orchestre Symphonique de Montréal & Charles Dutoit",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-04T12:38:41.509Z"
     }
   },
   "edits": {
@@ -12261,6 +13969,1714 @@
       "performer": "Goebel",
       "searchQuery": "Reicha Sinfonia Goebel",
       "updatedAt": "2026-11-04T09:29:43.806Z"
+    },
+    "Orchestral|3|4.45538|23.79592|Serenade K.250 Wolfgang Amadeus Mozart Mackerras Divertimento K.136": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Serenade K.250",
+      "performer": "Mackerras",
+      "searchQuery": "Wolfgang Amadeus Mozart Mackerras",
+      "updatedAt": "2026-11-04T11:09:48.109Z"
+    },
+    "Orchestral|3|18.60285|23.79592|Serenade K.361 Wolfgang Amadeus Mozart Bruggen Divertimento K.334": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Serenade K.250",
+      "performer": "Bruggen",
+      "searchQuery": "Wolfgang Amadeus Mozart Bruggen",
+      "updatedAt": "2026-11-04T11:10:27.348Z"
+    },
+    "Orchestral|3|32.86412|23.79592|Serenade K.525 Tonnesen Divertimento K.522": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Serenade K.250",
+      "performer": "Tonnesen",
+      "searchQuery": "Wolfgang Amadeus Mozart Tonnesen",
+      "updatedAt": "2026-11-04T11:10:42.770Z"
+    },
+    "Orchestral|3|4.43754|48.07458|Divertimento K.136 Mackerras Tonnesen Masonic Funeral": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Divertimento K.136",
+      "performer": "Tonnesen Masonic Funeral Music K.477",
+      "searchQuery": "Wolfgang Amadeus Mozart Tonnesen Masonic Funeral Music K.477",
+      "updatedAt": "2026-11-04T11:11:17.103Z"
+    },
+    "Orchestral|3|18.6609|48.07458|Divertimento K.334 Bruggen Janiczek Adagio und Allegro": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Divertimento K.136",
+      "performer": "Janiczek Adagio und Allegro K.594",
+      "searchQuery": "Wolfgang Amadeus Mozart Janiczek Adagio und Allegro K.594",
+      "updatedAt": "2026-11-04T11:11:34.738Z"
+    },
+    "Orchestral|3|32.91672|48.00217|Divertimento K.522 Tonnesen Manze": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Divertimento K.136",
+      "performer": "Manze",
+      "searchQuery": "Wolfgang Amadeus Mozart Manze",
+      "updatedAt": "2026-11-04T11:12:20.459Z"
+    },
+    "Orchestral|3|4.47849|72.44297|Music K.477 Masonic Funeral Langree": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Masonic Funeral Music K.477",
+      "performer": "Langree",
+      "searchQuery": "Wolfgang Amadeus Mozart Langree",
+      "updatedAt": "2026-11-04T11:12:47.711Z"
+    },
+    "Orchestral|3|18.55712|72.44546|K.594 Adagio und Allegro Goebel": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Masonic Funeral Music K.477",
+      "performer": "Goebel",
+      "searchQuery": "Wolfgang Amadeus Mozart Goebel",
+      "updatedAt": "2026-11-04T11:13:05.145Z"
+    },
+    "Orchestral|3|54.52364|23.7126|K.345 : Ouverture Tomas, Konig in Agypten Pichon Don Giovanni": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Serenade K.525",
+      "performer": "Pichon Don Giovanni K.527 : Ouverture",
+      "searchQuery": "Wolfgang Amadeus Mozart Pichon Don Giovanni K.527 : Ouverture",
+      "updatedAt": "2026-11-04T11:13:30.759Z"
+    },
+    "Orchestral|3|68.95483|23.79592|Serail K.384 : Ouverture Die Entfuhrung aus dem Jacobs Cosi fan tutte": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Serenade K.525",
+      "performer": "Jacobs Cosi fan tutte K.588 : Ouverture",
+      "searchQuery": "Wolfgang Amadeus Mozart Jacobs Cosi fan tutte K.588 : Ouverture",
+      "updatedAt": "2026-11-04T11:15:21.810Z"
+    },
+    "Orchestral|3|83.21639|23.79592|K.492 : Ouverture Le nozze di Figaro Chauvin Die Zauberflote": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "",
+      "performer": "Chauvin Die Zauberflote K.620 : Ouverture",
+      "searchQuery": "Wolfgang Amadeus Mozart Chauvin Die Zauberflote K.620 : Ouverture",
+      "updatedAt": "2026-11-04T11:16:43.549Z"
+    },
+    "Orchestral|3|54.52364|47.99074|K.527 : Ouverture Don Giovanni Jacobs Transcription.  K.457 / 478": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Divertimento K.334",
+      "performer": "Jacobs",
+      "searchQuery": "Wolfgang Amadeus Mozart Jacobs",
+      "updatedAt": "2026-11-04T11:16:59.701Z"
+    },
+    "Orchestral|3|68.8865|47.90743|K.588 : Ouverture Cosi fan tutte Jacobs": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Divertimento K.522",
+      "performer": "Jacobs",
+      "searchQuery": "Wolfgang Amadeus Mozart Jacobs",
+      "updatedAt": "2026-11-04T11:17:07.585Z"
+    },
+    "Orchestral|3|83.12294|47.94542|K.620 : Ouverture Die Zauberflote Jacobs": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "",
+      "performer": "Jacobs",
+      "searchQuery": "Wolfgang Amadeus Mozart Jacobs",
+      "updatedAt": "2026-11-04T11:17:46.064Z"
+    },
+    "Orchestral|3|54.42325|72.41319|Transcription.  K.457 / 478 Jacobs Goebel": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Adagio und Allegro K.594",
+      "performer": "Goebel",
+      "searchQuery": "Wolfgang Amadeus Mozart Goebel",
+      "updatedAt": "2026-11-04T11:18:04.284Z"
+    },
+    "Orchestral|4|4.45538|23.79592|Op.91 Wellington 㑄s Victory Haselbock Egmont": {
+      "composer": "Ludwig van Beethoven",
+      "work": "",
+      "performer": "Haselbock Egmont Ouverture Op.84",
+      "searchQuery": "Ludwig van Beethoven Haselbock Egmont Ouverture Op.84",
+      "updatedAt": "2026-11-04T11:18:10.509Z"
+    },
+    "Orchestral|4|18.66214|23.79592|Ludwig van Beethoven Kunzel Coriolan": {
+      "composer": "Ludwig van Beethoven",
+      "work": "",
+      "performer": "Kunzel Coriolan Ouverture Op.62",
+      "searchQuery": "Ludwig van Beethoven Kunzel Coriolan Ouverture Op.62",
+      "updatedAt": "2026-11-04T11:18:34.544Z"
+    },
+    "Orchestral|4|4.12523|47.89271|Egmont Haselbock Abbado Leonore No.3": {
+      "composer": "Ludwig van Beethoven",
+      "work": "",
+      "performer": "Abbado Leonore No.3 Ouverture",
+      "searchQuery": "Ludwig van Beethoven Abbado Leonore No.3 Ouverture",
+      "updatedAt": "2026-11-04T11:19:00.328Z"
+    },
+    "Orchestral|4|18.68031|48.02283|Ouverture Op.62 Coriolan Bruggen Fidelio": {
+      "composer": "Ludwig van Beethoven",
+      "work": "",
+      "performer": "Bruggen Fidelio Ouverture Op.72",
+      "searchQuery": "Ludwig van Beethoven Bruggen Fidelio Ouverture Op.72",
+      "updatedAt": "2026-11-04T11:19:10.092Z"
+    },
+    "Orchestral|4|4.47849|72.49504|Ouverture Leonore No.3 harding": {
+      "composer": "Ludwig van Beethoven",
+      "work": "",
+      "performer": "harding",
+      "searchQuery": "Ludwig van Beethoven harding",
+      "updatedAt": "2026-11-04T11:19:14.035Z"
+    },
+    "Orchestral|4|16.68534|72.50716|Ouverture Op.72 Fidelio Harnoncourt": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Ouverture Op.72 Fidelio Harnoncourt",
+      "performer": "",
+      "searchQuery": "Ludwig van Beethoven Harnoncourt",
+      "updatedAt": "2026-11-04T11:19:39.688Z"
+    },
+    "Orchestral|4|55.06131|15.10778|Schubert Rosamunde  D.797": {
+      "composer": "Schubert",
+      "work": "Rosamunde D.797",
+      "performer": "Abbado",
+      "searchQuery": "Schubert Abbado",
+      "updatedAt": "2026-11-04T11:19:45.419Z"
+    },
+    "Orchestral|4|55.20812|40.78607|Abbado Rosamunde  D.797 Schubert Rosamunde  D.797": {
+      "composer": "Schubert",
+      "work": "Rosamunde D.797",
+      "performer": "Dausgaard",
+      "searchQuery": "Schubert Dausgaard",
+      "updatedAt": "2026-11-04T11:20:07.916Z"
+    },
+    "Orchestral|4|55.12496|66.57187|Dausgaard Rosamunde  D.797 Schubert German Dances  D.97": {
+      "composer": "Schubert",
+      "work": "German Dances D.97",
+      "performer": "",
+      "searchQuery": "Schubert D.97",
+      "updatedAt": "2026-11-04T11:20:12.941Z"
+    },
+    "Orchestral|4|78.29094|13.6575|Der Freischutz : Overture C.Kleiber": {
+      "composer": "Weber",
+      "work": "Der Freischutz : Overture",
+      "performer": "C.Kleiber",
+      "searchQuery": "Weber C.Kleiber",
+      "updatedAt": "2026-11-04T11:20:28.599Z"
+    },
+    "Orchestral|4|79.28921|40.50444|C.Kleiber Der Freischutz : Overture Weber Oberon : Overture": {
+      "composer": "Weber",
+      "work": "Oberon : Overture",
+      "performer": "Eschenbach",
+      "searchQuery": "Weber Eschenbach",
+      "updatedAt": "2026-11-04T11:20:32.627Z"
+    },
+    "Orchestral|4|79.27001|66.55276|Eschenbach Oberon : Overture Weber Invitation A La Valse": {
+      "composer": "Weber",
+      "work": "Invitation A La Valse",
+      "performer": "Karajan",
+      "searchQuery": "Weber Karajan",
+      "updatedAt": "2026-11-04T11:20:52.787Z"
+    },
+    "Orchestral|5|4.05296|23.7126|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Abbado ㏙BPO㏚ Die Hebriden Overture  Op.26": {
+      "composer": "Felix Mendelssohn",
+      "work": "A Midsummer Night s Dream Op.61",
+      "performer": "Abbado BPO",
+      "searchQuery": "Felix Mendelssohn Abbado BPO",
+      "updatedAt": "2026-11-04T11:21:09.611Z"
+    },
+    "Orchestral|5|18.42492|23.79592|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Ozawa ㏙BSO㏚ Die Hebriden Overture  Op.26": {
+      "composer": "Felix Mendelssohn",
+      "work": "A Midsummer Night s Dream Op.61",
+      "performer": "Ozawa BSO",
+      "searchQuery": "Felix Mendelssohn Ozawa BSO",
+      "updatedAt": "2026-11-04T11:21:26.795Z"
+    },
+    "Orchestral|5|32.7457|23.79592|Herreweghe": {
+      "composer": "Felix Mendelssohn",
+      "work": "A Midsummer Night s Dream Op.61",
+      "performer": "Herreweghe",
+      "searchQuery": "Felix Mendelssohn Herreweghe",
+      "updatedAt": "2026-11-04T11:21:33.375Z"
+    },
+    "Orchestral|5|3.99373|47.99074|Die Hebriden Overture  Op.26 Abbado ㏙BPO㏚ Abbado Die schone Melusine": {
+      "composer": "Felix Mendelssohn",
+      "work": "Die Hebriden Overture Op.26",
+      "performer": "Abbado Die schone Melusine Overture Op.32",
+      "searchQuery": "Felix Mendelssohn Abbado Die schone Melusine Overture Op.32",
+      "updatedAt": "2026-11-04T11:21:37.859Z"
+    },
+    "Orchestral|5|17.30056|47.90743|Die Hebriden Overture  Op.26 Ozawa ㏙BSO㏚ Casado Ruy Blas": {
+      "composer": "Felix Mendelssohn",
+      "work": "Die Hebriden Overture Op.26",
+      "performer": "Casado Ruy Blas Overture Op.95",
+      "searchQuery": "Felix Mendelssohn Casado Ruy Blas Overture Op.95",
+      "updatedAt": "2026-11-04T11:22:07.755Z"
+    },
+    "Orchestral|5|32.68907|47.99076|Herreweghe Kossenko": {
+      "composer": "Felix Mendelssohn",
+      "work": "Die Hebriden Overture Op.26",
+      "performer": "Kossenko",
+      "searchQuery": "Felix Mendelssohn Kossenko",
+      "updatedAt": "2026-11-04T11:22:12.890Z"
+    },
+    "Orchestral|5|3.99373|72.35618|Overture  Op.32 Die schone Melusine Abbado": {
+      "composer": "Felix Mendelssohn",
+      "work": "",
+      "performer": "Abbado",
+      "searchQuery": "Felix Mendelssohn Abbado",
+      "updatedAt": "2026-11-04T11:22:17.891Z"
+    },
+    "Orchestral|5|18.2823|72.34024|Overture  Op.95 Ruy Blas Gardner": {
+      "composer": "Felix Mendelssohn",
+      "work": "",
+      "performer": "Gardner",
+      "searchQuery": "Felix Mendelssohn Gardner",
+      "updatedAt": "2026-11-04T11:22:22.122Z"
+    },
+    "Orchestral|5|54.41601|23.71826|D Major Op.11 Serenade No.1 Vriend 21 Hungarian Dances": {
+      "composer": "Johannes Brahms",
+      "work": "Serenade No.1",
+      "performer": "Vriend",
+      "searchQuery": "Johannes Brahms Vriend",
+      "updatedAt": "2026-11-04T11:22:49.527Z"
+    },
+    "Orchestral|5|68.84906|23.80157|Johannes Brahms Boston Chamber": {
+      "composer": "Johannes Brahms",
+      "work": "Serenade No.1",
+      "performer": "Boston Chamber",
+      "searchQuery": "Johannes Brahms Boston Chamber",
+      "updatedAt": "2026-11-04T11:23:38.764Z"
+    },
+    "Orchestral|5|83.11061|23.80157|A Major Op.16 Serenade No.2 Chailly": {
+      "composer": "Johannes Brahms",
+      "work": "Serenade No.2 A Major Op.16",
+      "performer": "Chailly",
+      "searchQuery": "Johannes Brahms Chailly",
+      "updatedAt": "2026-11-04T11:23:43.899Z"
+    },
+    "Orchestral|5|54.47033|47.80802|21 Hungarian Dances Vriend Fischer Variation on a Theme": {
+      "composer": "Johannes Brahms",
+      "work": "",
+      "performer": "Fischer Variation on a Theme of Haydn Op.56a",
+      "searchQuery": "Johannes Brahms Fischer Variation on a Theme of Haydn Op.56a",
+      "updatedAt": "2026-11-04T11:24:18.071Z"
+    },
+    "Orchestral|5|68.76068|47.61076|Boston Chamber Abbado Academic Festival": {
+      "composer": "Johannes Brahms",
+      "work": "",
+      "performer": "Abbado",
+      "searchQuery": "Johannes Brahms Abbado",
+      "updatedAt": "2026-11-04T11:24:24.448Z"
+    },
+    "Orchestral|5|79.36313|47.67471|Chailly vn. Shaham ㏙arr.Joachim㏚ Tragic": {
+      "composer": "Johannes Brahms",
+      "work": "Chailly vn. Shaham arr.Joachim Tragic",
+      "performer": "",
+      "searchQuery": "Johannes Brahms Tragic",
+      "updatedAt": "2026-11-04T11:25:59.206Z"
+    },
+    "Orchestral|5|54.40365|72.47647|of Haydn Op.56a Variation on a Theme Abbado": {
+      "composer": "Johannes Brahms",
+      "work": "",
+      "performer": "Abbado",
+      "searchQuery": "Johannes Brahms Abbado",
+      "updatedAt": "2026-11-04T11:26:05.559Z"
+    },
+    "Orchestral|5|68.83089|72.4361|Overture Op.80 Academic Festival Bernstein ㏙r.Sony㏚": {
+      "composer": "Johannes Brahms",
+      "work": "",
+      "performer": "Bernstein r.Sony",
+      "searchQuery": "Johannes Brahms Bernstein r.Sony",
+      "updatedAt": "2026-11-04T11:26:49.326Z"
+    },
+    "Orchestral|5|83.04228|72.49131|Overture Op.81 Tragic Bolton": {
+      "composer": "Johannes Brahms",
+      "work": "",
+      "performer": "Bolton",
+      "searchQuery": "Johannes Brahms Bolton",
+      "updatedAt": "2026-11-04T11:26:53.746Z"
+    },
+    "Orchestral|6|4.69455|40.57399|Albret Richard III Fuchs Serenade No.5": {
+      "composer": "Fuchs",
+      "work": "Serenade No.5",
+      "performer": "Francis",
+      "searchQuery": "Fuchs Francis",
+      "updatedAt": "2026-11-04T11:26:57.606Z"
+    },
+    "Orchestral|6|4.41902|66.58005|Francis Serenade No.5 Goetz Spring Overture Op.15": {
+      "composer": "Goetz",
+      "work": "Spring Overture Op.15",
+      "performer": "Albert",
+      "searchQuery": "Goetz Albert",
+      "updatedAt": "2026-11-04T11:52:49.955Z"
+    },
+    "Orchestral|6|28.25457|15.05404|Schumann Manfred  Op.115": {
+      "composer": "Schumann",
+      "work": "Manfred Op.115",
+      "performer": "Weil",
+      "searchQuery": "Schumann Weil",
+      "updatedAt": "2026-11-04T11:52:55.043Z"
+    },
+    "Orchestral|6|28.00056|39.9654|Weil Manfred  Op.115 Overtue,Scherzo 㖈Finale Gardiner": {
+      "composer": "Schumann",
+      "work": "Overtue,Scherzo Finale",
+      "performer": "Gardiner",
+      "searchQuery": "Schumann Gardiner",
+      "updatedAt": "2026-11-04T11:52:59.372Z"
+    },
+    "Orchestral|6|28.1639|66.54082|Gardiner Overtue,Scherzo 㖈Finale Schumann Konzertstuck for 4 Horns": {
+      "composer": "Schumann",
+      "work": "Konzertstuck for 4 Horns",
+      "performer": "Thielemann",
+      "searchQuery": "Schumann Thielemann",
+      "updatedAt": "2026-11-04T11:53:03.405Z"
+    },
+    "Orchestral|6|53.9465|15.00029|Raff  Ein fest Burg ist unser Gott,Overture Op.127": {
+      "composer": "Raff Ein fest Burg ist",
+      "work": "unser Gott,Overture Op.127",
+      "performer": "Stadlmair",
+      "searchQuery": "Raff Ein fest Burg ist Stadlmair",
+      "updatedAt": "2026-11-04T11:53:23.666Z"
+    },
+    "Orchestral|6|53.91231|40.78607|Stadlmair unser Gott,Overture Op.127 Raff Rhapsody Op.163b": {
+      "composer": "Raff",
+      "work": "Rhapsody Op.163b",
+      "performer": "Butt",
+      "searchQuery": "Raff Butt",
+      "updatedAt": "2026-11-04T11:54:13.843Z"
+    },
+    "Orchestral|6|53.99565|66.38531|Butt Rhapsody Op.163b Raff Jubel ㎿Ouverture Op.103": {
+      "composer": "Raff",
+      "work": "Jubel Ouverture Op.103",
+      "performer": "Albert",
+      "searchQuery": "Raff Albert",
+      "updatedAt": "2026-11-04T11:55:01.823Z"
+    },
+    "Orchestral|6|78.24837|15.03778|Raff Piece Op.85": {
+      "composer": "Raff",
+      "work": "Piece Op.85",
+      "performer": "Butt",
+      "searchQuery": "Raff Butt",
+      "updatedAt": "2026-11-04T11:55:18.206Z"
+    },
+    "Orchestral|6|78.27804|40.88367|Butt Piece Op.85 Reineke King Manfred": {
+      "composer": "Reineke",
+      "work": "King Manfred",
+      "performer": "Raudales",
+      "searchQuery": "Reineke Raudales",
+      "updatedAt": "2026-11-04T11:55:30.423Z"
+    },
+    "Orchestral|6|78.27804|66.27501|Raudales King Manfred Graener  Variations on a Russian folksong": {
+      "composer": "Graener",
+      "work": "Variations on a Russian folksong",
+      "performer": "Albert",
+      "searchQuery": "Graener Albert",
+      "updatedAt": "2026-11-04T11:55:45.184Z"
+    },
+    "Orchestral|7|4.5569|14.98885|J.Strauss I Radetzky Marsch": {
+      "composer": "J.Strauss I",
+      "work": "Radetzky Marsch",
+      "performer": "Karajan",
+      "searchQuery": "J.Strauss I Karajan",
+      "updatedAt": "2026-11-04T11:55:49.253Z"
+    },
+    "Orchestral|7|4.39351|41.09359|Karajan Radetzky Marsch J.Strauss II Die Fledermaus : Overture": {
+      "composer": "J.Strauss II",
+      "work": "Die Fledermaus : Overture",
+      "performer": "C.Kleiber",
+      "searchQuery": "J.Strauss II C.Kleiber",
+      "updatedAt": "2026-11-04T11:56:02.126Z"
+    },
+    "Orchestral|7|4.11125|66.68717|C.Kleiber Fledermaus : Overture J.Strauss II An der schonen blauen Donau": {
+      "composer": "J.Strauss II An der",
+      "work": "schonen blauen Donau",
+      "performer": "Karajan",
+      "searchQuery": "J.Strauss II An der Karajan",
+      "updatedAt": "2026-11-04T11:56:07.726Z"
+    },
+    "Orchestral|7|28.16407|15.07918|J.Strauss II Kaiser ㎿Walzer": {
+      "composer": "J.Strauss II",
+      "work": "Kaiser Walzer",
+      "performer": "Karajan",
+      "searchQuery": "J.Strauss II Karajan",
+      "updatedAt": "2026-11-04T11:56:54.637Z"
+    },
+    "Orchestral|7|28.19783|41.07164|Karajan Kaiser ㎿Walzer J.Strauss II Voice of Spring": {
+      "composer": "J.Strauss II",
+      "work": "Voice of Spring",
+      "performer": "C.Kleiber",
+      "searchQuery": "J.Strauss II C.Kleiber",
+      "updatedAt": "2026-11-04T11:57:10.794Z"
+    },
+    "Orchestral|7|28.16391|66.77772|C.Kleiber Voice of Spring J.Strauss II Eljen a Magyar": {
+      "composer": "J.Strauss II",
+      "work": "Eljen a Magyar",
+      "performer": "C.Kleiber",
+      "searchQuery": "J.Strauss II C.Kleiber",
+      "updatedAt": "2026-11-04T11:57:19.358Z"
+    },
+    "Orchestral|7|54.01289|15.11448|J. Strauss  ㏙Josef㏚ Delirien Walzer Op.212": {
+      "composer": "J. Strauss Josef",
+      "work": "Delirien Walzer Op.212",
+      "performer": "Thielemann",
+      "searchQuery": "J. Strauss Josef Thielemann",
+      "updatedAt": "2026-11-04T11:57:23.362Z"
+    },
+    "Orchestral|7|54.06204|41.1291|Thielemann Delirien Walzer Op.212 Lanner Die Mozartisten Op.106": {
+      "composer": "Lanner",
+      "work": "Die Mozartisten Op.106",
+      "performer": "Mortensen",
+      "searchQuery": "Lanner Mortensen",
+      "updatedAt": "2026-11-04T11:57:27.902Z"
+    },
+    "Orchestral|7|53.77872|65.98296|Mortensen Die Mozartisten Op.106 4Jahreszeiten Wiener Schrammel Ensemble": {
+      "composer": "Lanner",
+      "work": "4Jahreszeiten",
+      "performer": "Wiener Schrammel Ensemble",
+      "searchQuery": "Lanner Wiener Schrammel Ensemble",
+      "updatedAt": "2026-11-04T11:57:41.230Z"
+    },
+    "Orchestral|7|78.54532|15.12514|E Strauss  ㏙Eduard㏚ Carmen ㎿Quardrille Op.134": {
+      "composer": "E Strauss Eduard",
+      "work": "Carmen Quardrille Op.134",
+      "performer": "Angerer",
+      "searchQuery": "E Strauss Eduard Angerer",
+      "updatedAt": "2026-11-04T11:57:55.610Z"
+    },
+    "Orchestral|7|78.32719|41.01646|Angerer Carmen ㎿Quardrille Op.134 Suppe Light Cavalry Overture": {
+      "composer": "Suppe Light Cavalry",
+      "work": "Overture",
+      "performer": "Dutoit",
+      "searchQuery": "Suppe Light Cavalry Dutoit",
+      "updatedAt": "2026-11-04T11:58:00.261Z"
+    },
+    "Orchestral|7|78.31247|66.90443|Dutoit Overture Suppe Poet and Peasant Overture": {
+      "composer": "Suppe Poet and",
+      "work": "Peasant Overture",
+      "performer": "Karajan",
+      "searchQuery": "Suppe Poet and Karajan",
+      "updatedAt": "2026-11-04T11:58:03.838Z"
+    },
+    "Orchestral|8|4.46085|15.02381|Bruch Swedish Dances": {
+      "composer": "Bruch",
+      "work": "Swedish Dances",
+      "performer": "Albret",
+      "searchQuery": "Bruch Albret",
+      "updatedAt": "2026-11-04T11:58:49.409Z"
+    },
+    "Orchestral|8|4.52327|40.78607|Albret Swedish Dances Bruch Suite on Russian Themes": {
+      "composer": "Bruch",
+      "work": "Suite on Russian Themes",
+      "performer": "Matiakh",
+      "searchQuery": "Bruch Matiakh",
+      "updatedAt": "2026-11-04T11:58:53.229Z"
+    },
+    "Orchestral|8|4.54475|66.26369|Matiakh Suite on Russian Themes Draescke Funeral March Op.79": {
+      "composer": "Draescke",
+      "work": "Funeral March Op.79",
+      "performer": "Weigle",
+      "searchQuery": "Draescke Weigle",
+      "updatedAt": "2026-11-04T11:59:26.029Z"
+    },
+    "Orchestral|8|28.24698|15.14862|Herzogenberg Odysseus, Op.16": {
+      "composer": "Herzogenberg",
+      "work": "Odysseus, Op.16",
+      "performer": "Beermann",
+      "searchQuery": "Herzogenberg Beermann",
+      "updatedAt": "2026-11-04T11:59:33.774Z"
+    },
+    "Orchestral|8|28.24698|40.70746|Beermann Odysseus, Op.16 Humperdinck Hansel und Gretel : Prelude": {
+      "composer": "Humperdinck Hansel",
+      "work": "und Gretel : Prelude",
+      "performer": "Mackerras",
+      "searchQuery": "Humperdinck Hansel Mackerras",
+      "updatedAt": "2026-11-04T11:59:50.532Z"
+    },
+    "Orchestral|8|28.26398|66.47952|Mackerras und Gretel : Prelude Marx Eine Fruhlingsmusik": {
+      "composer": "Marx",
+      "work": "Eine Fruhlingsmusik",
+      "performer": "Wildner",
+      "searchQuery": "Marx Wildner",
+      "updatedAt": "2026-11-04T11:59:53.998Z"
+    },
+    "Orchestral|8|54.03317|14.99609|Marx Symphonische Nachtmusik": {
+      "composer": "Marx Symphonische",
+      "work": "Nachtmusik",
+      "performer": "Sloane",
+      "searchQuery": "Marx Symphonische Sloane",
+      "updatedAt": "2026-11-04T11:59:58.162Z"
+    },
+    "Orchestral|8|54.1406|40.75044|Sloane Nachtmusik Rauchenecker  Sympho ㎿nisches Tonwerk im Stil einer": {
+      "composer": "Rauchenecker Sympho",
+      "work": "nisches Tonwerk im Stil einer",
+      "performer": "Griffiths",
+      "searchQuery": "Rauchenecker Sympho Griffiths",
+      "updatedAt": "2026-11-04T12:00:13.688Z"
+    },
+    "Orchestral|8|54.1602|66.35405|Griffiths ㎿nisches Tonwerk im Stil einer G.Schumann  Overture zu einem Drama Op.45": {
+      "composer": "G.Schumann",
+      "work": "Overture zu einem Drama Op.45",
+      "performer": "Feddeck",
+      "searchQuery": "G.Schumann Feddeck",
+      "updatedAt": "2026-11-04T12:00:17.004Z"
+    },
+    "Orchestral|8|78.98222|14.88012|S.Wagner Der Friedensengel Prelude": {
+      "composer": "S.Wagner",
+      "work": "Der Friedensengel Prelude",
+      "performer": "Albert",
+      "searchQuery": "S.Wagner Albert",
+      "updatedAt": "2026-11-04T12:00:36.135Z"
+    },
+    "Orchestral|8|78.9462|40.72426|Albert Der Friedensengel Prelude Wetz Kleist Overture Op.16": {
+      "composer": "Wetz",
+      "work": "Kleist Overture Op.16",
+      "performer": "Albert",
+      "searchQuery": "Wetz Albert",
+      "updatedAt": "2026-11-04T12:00:42.144Z"
+    },
+    "Orchestral|9|4.38815|23.63143|Overture Rienzi Sinopoli Tannhauser": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Sinopoli",
+      "searchQuery": "Richard Wagner Sinopoli",
+      "updatedAt": "2026-11-04T12:00:47.420Z"
+    },
+    "Orchestral|9|33.02712|23.26061|Die Meistersinger von Karajan Siegfried Idyll": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Karajan",
+      "searchQuery": "Richard Wagner Karajan",
+      "updatedAt": "2026-11-04T12:01:37.451Z"
+    },
+    "Orchestral|9|4.25267|48.05972|Overture Tannhauser Celibidache Tristan und Isolde": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Celibidache",
+      "searchQuery": "Richard Wagner Celibidache",
+      "updatedAt": "2026-11-04T12:01:41.544Z"
+    },
+    "Orchestral|9|18.69314|48.10613|Prekude Act 1 㖈 3 Lohengrin Thielemann Tristan und Isolde": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Thielemann",
+      "searchQuery": "Richard Wagner Thielemann",
+      "updatedAt": "2026-11-04T12:01:57.759Z"
+    },
+    "Orchestral|9|32.96221|48.07967|Siegfried Idyll Karajan Pinnock": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Pinnock",
+      "searchQuery": "Richard Wagner Pinnock",
+      "updatedAt": "2026-11-04T12:02:15.575Z"
+    },
+    "Orchestral|9|4.33622|72.92101|Prelude Tristan und Isolde Abbado": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Abbado",
+      "searchQuery": "Richard Wagner Abbado",
+      "updatedAt": "2026-11-04T12:02:19.656Z"
+    },
+    "Orchestral|9|18.54906|72.9762|Liebestod Tristan und Isolde s.Studer/Sinopoli": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "s.Studer/Sinopoli",
+      "searchQuery": "Richard Wagner Studer",
+      "updatedAt": "2026-11-04T12:02:33.419Z"
+    },
+    "Orchestral|9|54.8877|23.71499|Prelude Act1 Parsifal Karajan Der Ring ㏙Orchestral Highlights㏚": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Karajan",
+      "searchQuery": "Richard Wagner Karajan",
+      "updatedAt": "2026-11-04T12:03:29.351Z"
+    },
+    "Orchestral|9|68.9726|23.70367|Good Friday Music Parsifal Abbado Der Ring ㏙Orchestral Highlights㏚": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Abbado",
+      "searchQuery": "Richard Wagner Abbado",
+      "updatedAt": "2026-11-04T12:03:32.909Z"
+    },
+    "Orchestral|9|83.10737|23.61844|Funeral March Gotterdammerung Celibidache": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Celibidache",
+      "searchQuery": "Richard Wagner Celibidache",
+      "updatedAt": "2026-11-04T12:03:35.767Z"
+    },
+    "Orchestral|9|54.88329|48.07967|Der Ring ㏙Orchestral Highlights㏚ Karajan Szell": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "Szell",
+      "searchQuery": "Richard Wagner Szell",
+      "updatedAt": "2026-11-04T12:03:45.327Z"
+    },
+    "Orchestral|9|68.95583|48.07967|Der Ring ㏙Orchestral Highlights㏚ Abbado de Waart": {
+      "composer": "Richard Wagner",
+      "work": "",
+      "performer": "de Waart",
+      "searchQuery": "Richard Wagner de Waart",
+      "updatedAt": "2026-11-04T12:04:02.190Z"
+    },
+    "Orchestral|10|4.34469|23.59526|Don Juan Op.20 Richard Strauss Haitink Macbeth Op.23": {
+      "composer": "Richard Strauss",
+      "work": "Don Juan Op.20",
+      "performer": "Haitink",
+      "searchQuery": "Richard Strauss Haitink",
+      "updatedAt": "2026-11-04T12:04:30.790Z"
+    },
+    "Orchestral|10|18.6995|23.63143|Richard Strauss Honeck": {
+      "composer": "Richard Strauss",
+      "work": "Don Juan Op.20",
+      "performer": "Honeck",
+      "searchQuery": "Richard Strauss Honeck",
+      "updatedAt": "2026-11-04T12:04:35.045Z"
+    },
+    "Orchestral|10|33.02712|23.59261|Karajan": {
+      "composer": "Richard Strauss",
+      "work": "Don Juan Op.20",
+      "performer": "Karajan",
+      "searchQuery": "Richard Strauss Karajan",
+      "updatedAt": "2026-11-04T12:04:39.802Z"
+    },
+    "Orchestral|10|4.32461|48.01438|Macbeth Op.23 Haitink Roth Tod und Verklarung Op.24": {
+      "composer": "Richard Strauss",
+      "work": "Macbeth Op.23",
+      "performer": "Roth",
+      "searchQuery": "Richard Strauss Roth",
+      "updatedAt": "2026-11-04T12:04:59.766Z"
+    },
+    "Orchestral|10|18.69314|48.10613|Honeck Maazel Tod und Verklarung Op.24": {
+      "composer": "Richard Strauss",
+      "work": "Macbeth Op.23",
+      "performer": "Maazel",
+      "searchQuery": "Richard Strauss Maazel",
+      "updatedAt": "2026-11-04T12:05:10.062Z"
+    },
+    "Orchestral|10|18.63646|72.92101|Tod und Verklarung Op.24 Maazel Sinopoli": {
+      "composer": "Richard Strauss",
+      "work": "Tod und Verklarung Op.24",
+      "performer": "Sinopoli",
+      "searchQuery": "Richard Strauss Sinopoli",
+      "updatedAt": "2026-11-04T12:05:38.446Z"
+    },
+    "Orchestral|10|33.02079|72.92101|Karajan": {
+      "composer": "Richard Strauss",
+      "work": "Tod und Verklarung Op.24",
+      "performer": "Karajan",
+      "searchQuery": "Richard Strauss Karajan",
+      "updatedAt": "2026-11-04T12:05:42.548Z"
+    },
+    "Orchestral|10|54.08187|23.2643|Till Eulenspiegels Op.30 Chailly Also sprach Zarathustra Op.30": {
+      "composer": "Richard Strauss",
+      "work": "Till Eulenspiegels Op.30",
+      "performer": "Chailly",
+      "searchQuery": "Richard Strauss Chailly",
+      "updatedAt": "2026-11-04T12:05:49.505Z"
+    },
+    "Orchestral|10|68.39452|23.69121|Till Eulenspiegels Op.30 Karajan Also sprach Zarathustra Op.30": {
+      "composer": "Richard Strauss",
+      "work": "Till Eulenspiegels Op.30",
+      "performer": "Karajan",
+      "searchQuery": "Richard Strauss Karajan",
+      "updatedAt": "2026-11-04T12:05:55.850Z"
+    },
+    "Orchestral|10|82.73599|23.57585|Urbanski": {
+      "composer": "Richard Strauss",
+      "work": "Till Eulenspiegels Op.30",
+      "performer": "Urbanski",
+      "searchQuery": "Richard Strauss Urbanski",
+      "updatedAt": "2026-11-04T12:05:59.387Z"
+    },
+    "Orchestral|10|54.1073|48.37388|Also sprach Zarathustra Op.30 Chailly Sinopoli Ein Heldenleben Op.40": {
+      "composer": "Richard Strauss",
+      "work": "Also sprach Zarathustra Op.30",
+      "performer": "Sinopoli",
+      "searchQuery": "Richard Strauss Sinopoli",
+      "updatedAt": "2026-11-04T12:06:27.348Z"
+    },
+    "Orchestral|10|68.4898|48.45728|Also sprach Zarathustra Op.30 Karajan Karajan Ein Heldenleben Op.40": {
+      "composer": "Richard Strauss",
+      "work": "Also sprach Zarathustra Op.30",
+      "performer": "Karajan",
+      "searchQuery": "Richard Strauss Karajan",
+      "updatedAt": "2026-11-04T12:06:41.950Z"
+    },
+    "Orchestral|10|82.63579|48.45728|Urbanski Previn": {
+      "composer": "Richard Strauss",
+      "work": "Also sprach Zarathustra Op.30",
+      "performer": "Previn",
+      "searchQuery": "Richard Strauss Previn",
+      "updatedAt": "2026-11-04T12:06:45.518Z"
+    },
+    "Orchestral|10|54.16158|72.92102|Ein Heldenleben Op.40 Sinopoli Karajan": {
+      "composer": "Richard Strauss",
+      "work": "Ein Heldenleben Op.40",
+      "performer": "Karajan",
+      "searchQuery": "Richard Strauss Karajan",
+      "updatedAt": "2026-11-04T12:06:52.570Z"
+    },
+    "Orchestral|10|68.47524|72.92101|Ein Heldenleben Op.40 Karajan Roth": {
+      "composer": "Richard Strauss",
+      "work": "Ein Heldenleben Op.40",
+      "performer": "Roth",
+      "searchQuery": "Richard Strauss Roth",
+      "updatedAt": "2026-11-04T12:06:56.765Z"
+    },
+    "Orchestral|10|82.72219|72.92101|Previn Sondergard": {
+      "composer": "Richard Strauss",
+      "work": "Ein Heldenleben Op.40",
+      "performer": "Sondergard",
+      "searchQuery": "Richard Strauss Sondergard",
+      "updatedAt": "2026-11-04T12:07:00.197Z"
+    },
+    "Orchestral|11|4.47503|23.79592|Metamorphosen TrV290 Richard Strauss Herzog Aus Italien Op.16": {
+      "composer": "Richard Strauss",
+      "work": "Metamorphosen TrV290",
+      "performer": "Herzog",
+      "searchQuery": "Richard Strauss Herzog",
+      "updatedAt": "2026-11-04T12:07:03.953Z"
+    },
+    "Orchestral|11|18.68031|23.84253|Metamorphosen TrV290 Richard Strauss Azkoul": {
+      "composer": "Richard Strauss",
+      "work": "Metamorphosen TrV290",
+      "performer": "Azkoul",
+      "searchQuery": "Richard Strauss Azkoul",
+      "updatedAt": "2026-11-04T12:07:23.277Z"
+    },
+    "Orchestral|11|32.83977|23.79592|Karajan": {
+      "composer": "Richard Strauss",
+      "work": "Metamorphosen TrV290",
+      "performer": "Karajan",
+      "searchQuery": "Richard Strauss Karajan",
+      "updatedAt": "2026-11-04T12:07:27.354Z"
+    },
+    "Orchestral|11|4.45695|48.07458|Aus Italien Op.16 Herzog Muti Le Bourgeois Gentilhomme Op.60": {
+      "composer": "Richard Strauss",
+      "work": "Aus Italien Op.16",
+      "performer": "Muti",
+      "searchQuery": "Richard Strauss Muti",
+      "updatedAt": "2026-11-04T12:07:30.901Z"
+    },
+    "Orchestral|11|18.6798|48.07458|Azkoul Weigle Le Bourgeois Gentilhomme Op.60": {
+      "composer": "Richard Strauss",
+      "work": "Aus Italien Op.16",
+      "performer": "Weigle",
+      "searchQuery": "Richard Strauss Weigle",
+      "updatedAt": "2026-11-04T12:07:35.765Z"
+    },
+    "Orchestral|11|4.27388|72.22223|Le Bourgeois Gentilhomme Op.60 Muti Dutoit": {
+      "composer": "Richard Strauss",
+      "work": "Le Bourgeois Gentilhomme Op.60",
+      "performer": "Dutoit",
+      "searchQuery": "Richard Strauss Dutoit",
+      "updatedAt": "2026-11-04T12:07:55.476Z"
+    },
+    "Orchestral|11|18.68031|72.49504|Le Bourgeois Gentilhomme Op.60 Weigle Boyd": {
+      "composer": "Richard Strauss",
+      "work": "Le Bourgeois Gentilhomme Op.60",
+      "performer": "Boyd",
+      "searchQuery": "Richard Strauss Boyd",
+      "updatedAt": "2026-11-04T12:08:08.301Z"
+    },
+    "Orchestral|11|54.176|23.79592|Rosenkavalier : Suite Previn Intermezzo": {
+      "composer": "Richard Strauss",
+      "work": "",
+      "performer": "Previn Intermezzo : Symphonic Intermezzi",
+      "searchQuery": "Richard Strauss Previn Intermezzo : Symphonic Intermezzi",
+      "updatedAt": "2026-11-04T12:08:19.070Z"
+    },
+    "Orchestral|11|68.46294|23.79592|Nelsons Salome": {
+      "composer": "Richard Strauss",
+      "work": "",
+      "performer": "Nelsons Salome : Dances of the Seven Veils",
+      "searchQuery": "Richard Strauss Nelsons Salome : Dances of the Seven Veils",
+      "updatedAt": "2026-11-04T12:08:27.733Z"
+    },
+    "Orchestral|11|82.71768|23.79592|: Andante con moto Capriccio Kamu": {
+      "composer": "Richard Strauss",
+      "work": "",
+      "performer": "Kamu",
+      "searchQuery": "Richard Strauss Kamu",
+      "updatedAt": "2026-11-04T12:08:32.109Z"
+    },
+    "Orchestral|11|54.14786|47.8659|: Symphonic Intermezzi Intermezzo Nelsons Don Quixote Op.35": {
+      "composer": "Richard Strauss",
+      "work": "",
+      "performer": "Nelsons",
+      "searchQuery": "Richard Strauss Nelsons",
+      "updatedAt": "2026-11-04T12:08:36.525Z"
+    },
+    "Orchestral|11|68.08476|47.37121|: Dances of the Seven Veils Salome Burlesque in d minor": {
+      "composer": "Richard Strauss",
+      "work": "",
+      "performer": "Solti",
+      "searchQuery": "Richard Strauss Solti",
+      "updatedAt": "2026-11-04T12:08:39.933Z"
+    },
+    "Orchestral|11|54.26861|72.46204|Don Quixote Op.35 Nelsons vc.Queyras/Roth": {
+      "composer": "Richard Strauss",
+      "work": "",
+      "performer": "Queyras/Roth",
+      "searchQuery": "Richard Strauss Queyras",
+      "updatedAt": "2026-11-04T12:08:43.265Z"
+    },
+    "Orchestral|11|68.56364|72.51629|Burlesque in d minor Solti p.Thibaudet/Blomstedt": {
+      "composer": "Richard Strauss",
+      "work": "",
+      "performer": "Thibaudet/Blomstedt",
+      "searchQuery": "Richard Strauss Thibaudet",
+      "updatedAt": "2026-11-04T12:08:47.333Z"
+    },
+    "Orchestral|12|4.51873|15.04364|Bruckner Overture in g minor": {
+      "composer": "Bruckner",
+      "work": "Overture in g minor",
+      "performer": "Skrowaczewski",
+      "searchQuery": "Bruckner Skrowaczewski",
+      "updatedAt": "2026-11-04T12:08:54.491Z"
+    },
+    "Orchestral|12|4.5433|40.60348|Skrowaczewski Overture in g minor Rott Hamlet Overture": {
+      "composer": "Rott",
+      "work": "Hamlet Overture",
+      "performer": "Ward",
+      "searchQuery": "Rott Ward",
+      "updatedAt": "2026-11-04T12:08:58.539Z"
+    },
+    "Orchestral|12|4.58225|66.21115|Ward Hamlet Overture Rott Pastorales Vosrspiel": {
+      "composer": "Rott",
+      "work": "Pastorales Vosrspiel",
+      "performer": "R.Davie",
+      "searchQuery": "Rott R.Davie",
+      "updatedAt": "2026-11-04T12:09:29.700Z"
+    },
+    "Orchestral|12|27.87294|15.00038|Mahler arr. Beethoven Symphony No.5": {
+      "composer": "Mahler arr. Beethoven",
+      "work": "Symphony No.5",
+      "performer": "Tiboris",
+      "searchQuery": "Mahler arr. Beethoven Tiboris",
+      "updatedAt": "2026-11-04T12:09:41.836Z"
+    },
+    "Orchestral|12|27.95118|40.65586|Tiboris Symphony No.5 Mahler arr. Beethoven Symphony No.9": {
+      "composer": "Mahler arr. Beethoven",
+      "work": "Symphony No.9",
+      "performer": "K.Jarvi",
+      "searchQuery": "Mahler arr. Beethoven K.Jarvi",
+      "updatedAt": "2026-11-04T12:09:45.344Z"
+    },
+    "Orchestral|12|27.41828|65.40817|K.Jarvi Symphony No.9 String Quartet 14 Kofman": {
+      "composer": "Mahler arr. Schubert",
+      "work": "String Quartet 14",
+      "performer": "Kofman",
+      "searchQuery": "Mahler arr. Schubert Kofman",
+      "updatedAt": "2026-11-04T12:10:00.832Z"
+    },
+    "Orchestral|12|53.55941|14.69835|Mahler arr. Schumann Symphonies": {
+      "composer": "Mahler arr. Schumann",
+      "work": "Symphonies",
+      "performer": "Chailly",
+      "searchQuery": "Mahler arr. Schumann Chailly",
+      "updatedAt": "2026-11-04T12:10:24.844Z"
+    },
+    "Orchestral|12|53.75564|40.57034|Chailly Symphonies Mahler arr. Beethoven String Quartet Op.95": {
+      "composer": "Mahler arr. Beethoven",
+      "work": "String Quartet Op.95",
+      "performer": "Dohnanyi",
+      "searchQuery": "Mahler arr. Beethoven Dohnanyi",
+      "updatedAt": "2026-11-04T12:10:29.296Z"
+    },
+    "Orchestral|12|53.9125|66.07401|Dohnanyi String Quartet Op.95 Mahler Totenfeier": {
+      "composer": "Mahler",
+      "work": "Totenfeier",
+      "performer": "Jurowski",
+      "searchQuery": "Mahler Jurowski",
+      "updatedAt": "2026-11-04T12:10:37.364Z"
+    },
+    "Orchestral|12|78.60784|15.10778|Zemlinsky Die Seejungfrau": {
+      "composer": "Zemlinsky",
+      "work": "Die Seejungfrau",
+      "performer": "Chailly",
+      "searchQuery": "Zemlinsky Chailly",
+      "updatedAt": "2026-11-04T12:10:40.913Z"
+    },
+    "Orchestral|12|78.71422|40.61194|Chailly Die Seejungfrau Zemlinsky Die Seejungfrau": {
+      "composer": "Zemlinsky",
+      "work": "Die Seejungfrau",
+      "performer": "Colon",
+      "searchQuery": "Zemlinsky Colon",
+      "updatedAt": "2026-11-04T12:11:12.116Z"
+    },
+    "Orchestral|12|78.69749|66.16721|Colon Die Seejungfrau Ochs  㑄S Kommt Ein Vogel Geflogen Variations": {
+      "composer": "Ochs S Kommt Ein",
+      "work": "Vogel Geflogen Variations",
+      "performer": "Albert",
+      "searchQuery": "Ochs S Kommt Ein Albert",
+      "updatedAt": "2026-11-04T12:11:29.709Z"
+    },
+    "Orchestral|13|4.54641|23.66404|Der Geburtstag der Infantin Franz Schreker Petrenko Pantastische": {
+      "composer": "Franz Schreker",
+      "work": "Der Geburtstag der Infantin",
+      "performer": "Petrenko Pantastische Overture Op.15",
+      "searchQuery": "Franz Schreker Petrenko Pantastische Overture Op.15",
+      "updatedAt": "2026-11-04T12:11:43.668Z"
+    },
+    "Orchestral|13|18.62075|23.73494|Der Geburtstag der Infantin Franz Schreker Zagrosek Romantic Suite Op.14": {
+      "composer": "Franz Schreker",
+      "work": "Der Geburtstag der Infantin",
+      "performer": "Zagrosek",
+      "searchQuery": "Franz Schreker Zagrosek",
+      "updatedAt": "2026-11-04T12:11:56.353Z"
+    },
+    "Orchestral|13|32.86845|23.74124|Ekkehard Op.20 Sinaisky": {
+      "composer": "Franz Schreker",
+      "work": "Der Geburtstag der Infantin",
+      "performer": "Sinaisky",
+      "searchQuery": "Franz Schreker Sinaisky",
+      "updatedAt": "2026-11-04T12:11:59.553Z"
+    },
+    "Orchestral|13|4.50064|48.05492|Overture Op.15 Pantastische Sinaisky Der Schatzgraber :": {
+      "composer": "Franz Schreker",
+      "work": "",
+      "performer": "Sinaisky",
+      "searchQuery": "Franz Schreker Sinaisky",
+      "updatedAt": "2026-11-04T12:12:02.817Z"
+    },
+    "Orchestral|13|18.72204|48.05492|Romantic Suite Op.14 Zagrosek Sinaisky Der ferne Klan": {
+      "composer": "Franz Schreker",
+      "work": "",
+      "performer": "Sinaisky",
+      "searchQuery": "Franz Schreker Sinaisky",
+      "updatedAt": "2026-11-04T12:12:05.432Z"
+    },
+    "Orchestral|13|4.47849|72.41599|Symphonies Zweischenspiel Der Schatzgraber : Renes": {
+      "composer": "Franz Schreker",
+      "work": "",
+      "performer": "Renes",
+      "searchQuery": "Franz Schreker Renes",
+      "updatedAt": "2026-11-04T12:12:19.112Z"
+    },
+    "Orchestral|13|18.68031|72.49504|: Nachtstuck Der ferne Klan Eschenbach": {
+      "composer": "Franz Schreker",
+      "work": "",
+      "performer": "Eschenbach",
+      "searchQuery": "Franz Schreker Eschenbach",
+      "updatedAt": "2026-11-04T12:12:22.320Z"
+    },
+    "Orchestral|13|32.70239|72.31884|: Vorspiel zu einem Drama Die Gezeichneten Gielen": {
+      "composer": "Franz Schreker",
+      "work": "",
+      "performer": "Gielen",
+      "searchQuery": "Franz Schreker Gielen",
+      "updatedAt": "2026-11-04T12:12:28.993Z"
+    },
+    "Orchestral|13|54.60283|15.05518|Variations anf Fugue on a Theme by Mozart": {
+      "composer": "Reger",
+      "work": "Variations anf Fugue",
+      "performer": "on a Theme by Mozart C.Davis",
+      "searchQuery": "Reger on a Theme by Mozart C.Davis",
+      "updatedAt": "2026-11-04T12:12:42.720Z"
+    },
+    "Orchestral|13|54.54407|40.41977|C.Davis on a Theme by Mozart Variations anf Fugue on a Theme by Beethoven": {
+      "composer": "Reger",
+      "work": "Variations anf Fugue",
+      "performer": "on a Theme by Beethoven Segerstam",
+      "searchQuery": "Reger on a Theme by Beethoven Segerstam",
+      "updatedAt": "2026-11-04T12:12:54.862Z"
+    },
+    "Orchestral|13|54.67634|66.1079|Segerstam on a Theme by Beethoven Reger Bocklin Suite": {
+      "composer": "Reger",
+      "work": "Bocklin Suite",
+      "performer": "N.Jarvi",
+      "searchQuery": "Reger N.Jarvi",
+      "updatedAt": "2026-11-04T12:13:06.556Z"
+    },
+    "Orchestral|13|78.59176|15.01745|Reznicek Schlemihl": {
+      "composer": "Reznicek",
+      "work": "Schlemihl",
+      "performer": "Jurowski",
+      "searchQuery": "Reznicek Jurowski",
+      "updatedAt": "2026-11-04T12:13:11.472Z"
+    },
+    "Orchestral|13|78.5818|40.52565|Jurowski Schlemihl Reznicek Der Sieger": {
+      "composer": "Reznicek",
+      "work": "Der Sieger",
+      "performer": "Jurowski",
+      "searchQuery": "Reznicek Jurowski",
+      "updatedAt": "2026-11-04T12:13:14.624Z"
+    },
+    "Orchestral|13|78.66549|65.91461|Jurowski Der Sieger Reznicek Kol Nidrey ㎿Variation": {
+      "composer": "Reznicek",
+      "work": "Kol Nidrey Variation",
+      "performer": "Jurowski",
+      "searchQuery": "Reznicek Jurowski",
+      "updatedAt": "2026-11-04T12:13:26.228Z"
+    },
+    "Orchestral|14|4.0504|15.07929|Metamorphosen on a Themes of Weber": {
+      "composer": "Hindemith",
+      "work": "Metamorphosen on a",
+      "performer": "Themes of Weber Sawallische",
+      "searchQuery": "Hindemith Themes of Weber Sawallische",
+      "updatedAt": "2026-11-04T12:13:38.052Z"
+    },
+    "Orchestral|14|4.00064|40.66123|Sawallische Themes of Weber Metamorphosen on a Themes of Weber": {
+      "composer": "Hindemith",
+      "work": "Metamorphosen on a",
+      "performer": "Themes of Weber Stern",
+      "searchQuery": "Hindemith Themes of Weber Stern",
+      "updatedAt": "2026-11-04T12:13:53.328Z"
+    },
+    "Orchestral|14|4.11656|66.19311|Stern Themes of Weber Hindemith Nobilissima Visione": {
+      "composer": "Hindemith",
+      "work": "Nobilissima Visione",
+      "performer": "Abbado",
+      "searchQuery": "Hindemith Abbado",
+      "updatedAt": "2026-11-04T12:13:58.672Z"
+    },
+    "Orchestral|14|27.82223|14.97749|Dostal Spanish Sketches": {
+      "composer": "Dostal",
+      "work": "Spanish Sketches",
+      "performer": "Dostal",
+      "searchQuery": "Dostal Dostal",
+      "updatedAt": "2026-11-04T12:14:25.775Z"
+    },
+    "Orchestral|14|53.86962|15.00704|Pfitzner Das Kathchen von Heilbronn": {
+      "composer": "Pfitzner Das Kathchen",
+      "work": "von Heilbronn",
+      "performer": "Suitner",
+      "searchQuery": "Pfitzner Das Kathchen Suitner",
+      "updatedAt": "2026-11-04T12:14:30.511Z"
+    },
+    "Orchestral|14|53.86962|40.52333|Suitner von Heilbronn Pfitzner Elegie und Reigen": {
+      "composer": "Pfitzner",
+      "work": "Elegie und Reigen",
+      "performer": "Albert",
+      "searchQuery": "Pfitzner Albert",
+      "updatedAt": "2026-11-04T12:14:36.895Z"
+    },
+    "Orchestral|14|53.90759|66.1079|Albert Elegie und Reigen Schmidt Variations on a Hussar 㐴s Song": {
+      "composer": "Schmidt",
+      "work": "Variations on a Hussar s Song",
+      "performer": "Rumpf",
+      "searchQuery": "Schmidt Rumpf",
+      "updatedAt": "2026-11-04T12:14:40.061Z"
+    },
+    "Orchestral|14|78.83315|15.05992|Schmidt Variations on a Beethoven": {
+      "composer": "Schmidt",
+      "work": "Variations on a Beethoven",
+      "performer": "Becker",
+      "searchQuery": "Schmidt Becker",
+      "updatedAt": "2026-11-04T12:14:56.072Z"
+    },
+    "Orchestral|14|78.87429|40.47872|Becker on a Beethoven Minkus Don Quixote": {
+      "composer": "Minkus",
+      "work": "Don Quixote",
+      "performer": "Spassov",
+      "searchQuery": "Minkus Spassov",
+      "updatedAt": "2026-11-04T12:15:01.652Z"
+    },
+    "Orchestral|14|78.87429|66.19311|Spassov Don Quixote Minkus La Bayadere": {
+      "composer": "Minkus",
+      "work": "La Bayadere",
+      "performer": "Spassov",
+      "searchQuery": "Minkus Spassov",
+      "updatedAt": "2026-11-04T12:15:05.167Z"
+    },
+    "Orchestral|15|4.24891|15.10778|Korngold Much Ado About Nothing Op.11": {
+      "composer": "Korngold Much Ado",
+      "work": "About Nothing Op.11",
+      "performer": "Storgards",
+      "searchQuery": "Korngold Much Ado Storgards",
+      "updatedAt": "2026-11-04T12:15:10.762Z"
+    },
+    "Orchestral|15|4.38496|40.53966|Storgards About Nothing Op.11 Korngold Symphonic Serenade": {
+      "composer": "Korngold",
+      "work": "Symphonic Serenade",
+      "performer": "Amsterdam Sinfonietta 2Movt.",
+      "searchQuery": "Korngold Amsterdam Sinfonietta 2Movt",
+      "updatedAt": "2026-11-04T12:15:53.327Z"
+    },
+    "Orchestral|15|4.33581|66.11251|Amsterdam Sinfonietta ㏙2Movt.㏚ Symphonic Serenade Korngold A Midsummer Night 㐴s Dream": {
+      "composer": "Korngold A Midsummer",
+      "work": "Night s Dream",
+      "performer": "Albrecht",
+      "searchQuery": "Korngold A Midsummer Albrecht",
+      "updatedAt": "2026-11-04T12:15:57.295Z"
+    },
+    "Orchestral|15|28.08892|14.87614|Korngold Straussiana": {
+      "composer": "Korngold",
+      "work": "Straussiana",
+      "performer": "Albert",
+      "searchQuery": "Korngold Albert",
+      "updatedAt": "2026-11-04T12:16:10.623Z"
+    },
+    "Orchestral|15|28.22552|40.57434|Albert Straussiana Korngold The Sea Hawk": {
+      "composer": "Korngold",
+      "work": "The Sea Hawk",
+      "performer": "De Preist",
+      "searchQuery": "Korngold De Preist",
+      "updatedAt": "2026-11-04T12:16:17.427Z"
+    },
+    "Orchestral|15|54.08169|15.02949|Loeffler La mort de tintagiles": {
+      "composer": "Loeffler",
+      "work": "La mort de tintagiles",
+      "performer": "Trevino",
+      "searchQuery": "Loeffler Trevino",
+      "updatedAt": "2026-11-04T12:16:20.544Z"
+    },
+    "Orchestral|15|54.02346|40.46298|Trevino La mort de tintagiles Loeffler La Villanelle du Diable": {
+      "composer": "Loeffler",
+      "work": "La Villanelle du Diable",
+      "performer": "Wildner",
+      "searchQuery": "Loeffler Wildner",
+      "updatedAt": "2026-11-04T12:16:24.223Z"
+    },
+    "Orchestral|15|54.0625|65.92039|Wildner La Villanelle du Diable Loeffler Five Irish Fantasies": {
+      "composer": "Loeffler",
+      "work": "Five Irish Fantasies",
+      "performer": "Nelson",
+      "searchQuery": "Loeffler Nelson",
+      "updatedAt": "2026-11-04T12:16:29.367Z"
+    },
+    "Orchestral|15|78.58364|15.02716|Pitzner ㎿ Palestrina Prelude Act1 㖈 2": {
+      "composer": "Pitzner Palestrina",
+      "work": "Prelude Act1 2",
+      "performer": "Thielemann",
+      "searchQuery": "Pitzner Palestrina Thielemann",
+      "updatedAt": "2026-11-04T12:16:42.631Z"
+    },
+    "Orchestral|15|78.95215|40.31545|Thielemann Prelude Act1 㖈 2 Hausegger Barbarossa": {
+      "composer": "Hausegger",
+      "work": "Barbarossa",
+      "performer": "Fischer Hermus",
+      "searchQuery": "Hausegger Fischer Hermus",
+      "updatedAt": "2026-11-04T12:16:58.350Z"
+    },
+    "Orchestral|15|78.81554|65.85456|Fischer ㎿Hermus Barbarossa Wolf Penthesila Fischer ㎿Dieskau": {
+      "composer": "Wolf Penthesila",
+      "work": "Fischer Dieskau",
+      "performer": "",
+      "searchQuery": "Wolf Penthesila Dieskau",
+      "updatedAt": "2026-11-04T12:17:09.363Z"
+    },
+    "Orchestral|16|4.38815|23.63143|Gurrelieder Arnold Schoenberg Chailly Pelleas und Melisande Op.5": {
+      "composer": "Arnold Schoenberg",
+      "work": "Gurrelieder",
+      "performer": "Chailly",
+      "searchQuery": "Arnold Schoenberg Chailly",
+      "updatedAt": "2026-11-04T12:17:22.534Z"
+    },
+    "Orchestral|16|18.77766|23.63143|Arnold Schoenberg Stenz Pelleas und Melisande Op.5": {
+      "composer": "Arnold Schoenberg",
+      "work": "Gurrelieder",
+      "performer": "Stenz",
+      "searchQuery": "Arnold Schoenberg Stenz",
+      "updatedAt": "2026-11-04T12:17:36.960Z"
+    },
+    "Orchestral|16|33.15117|23.63143|Abbado": {
+      "composer": "Arnold Schoenberg",
+      "work": "Gurrelieder",
+      "performer": "Abbado",
+      "searchQuery": "Arnold Schoenberg Abbado",
+      "updatedAt": "2026-11-04T12:17:50.886Z"
+    },
+    "Orchestral|16|4.32437|48.10615|Pelleas und Melisande Op.5 Chailly Sinopoli Verklarte Nacht Op.4": {
+      "composer": "Arnold Schoenberg",
+      "work": "Pelleas und Melisande Op.5",
+      "performer": "Sinopoli",
+      "searchQuery": "Arnold Schoenberg Sinopoli",
+      "updatedAt": "2026-11-04T12:18:04.614Z"
+    },
+    "Orchestral|16|18.59964|48.05972|Pelleas und Melisande Op.5 Stenz Thielemann": {
+      "composer": "Arnold Schoenberg",
+      "work": "Pelleas und Melisande Op.5",
+      "performer": "Thielemann",
+      "searchQuery": "Arnold Schoenberg Thielemann",
+      "updatedAt": "2026-11-04T12:18:16.582Z"
+    },
+    "Orchestral|16|32.78687|48.17856|Abbado P.Jarvi": {
+      "composer": "Arnold Schoenberg",
+      "work": "Pelleas und Melisande Op.5",
+      "performer": "Jarvi",
+      "searchQuery": "Arnold Schoenberg Jarvi",
+      "updatedAt": "2026-11-04T12:18:21.086Z"
+    },
+    "Orchestral|16|4.50511|72.8435|Verklarte Nacht Op.4 Sinopoli Herzog ㏙Orch.㏚": {
+      "composer": "Arnold Schoenberg",
+      "work": "Verklarte Nacht Op.4",
+      "performer": "Herzog Orch.",
+      "searchQuery": "Arnold Schoenberg Herzog Orch",
+      "updatedAt": "2026-11-04T12:18:54.721Z"
+    },
+    "Orchestral|16|18.67798|72.89819|Verklarte Nacht Op.4 Thielemann Queyras ㏙Orch.㏚": {
+      "composer": "Arnold Schoenberg",
+      "work": "Verklarte Nacht Op.4",
+      "performer": "Queyras Orch.",
+      "searchQuery": "Arnold Schoenberg Queyras Orch",
+      "updatedAt": "2026-11-04T12:19:06.806Z"
+    },
+    "Orchestral|16|54.26904|23.57583|Variation for Orchestra Op.31 Karajan Piece for Orchestra Op.16": {
+      "composer": "Arnold Schoenberg",
+      "work": "Variation for Orchestra Op.31",
+      "performer": "Karajan",
+      "searchQuery": "Arnold Schoenberg Karajan",
+      "updatedAt": "2026-11-04T12:19:25.621Z"
+    },
+    "Orchestral|16|68.44764|23.44562|Variation for Orchestra Op.31 Nagano Piece for Orchestra Op.16": {
+      "composer": "Arnold Schoenberg",
+      "work": "Variation for Orchestra Op.31",
+      "performer": "Nagano",
+      "searchQuery": "Arnold Schoenberg Nagano",
+      "updatedAt": "2026-11-04T12:20:03.601Z"
+    },
+    "Orchestral|16|68.51521|48.17856|Piece for Orchestra Op.16 Nagano Rattle": {
+      "composer": "Arnold Schoenberg",
+      "work": "Piece for Orchestra Op.16",
+      "performer": "Rattle",
+      "searchQuery": "Arnold Schoenberg Rattle",
+      "updatedAt": "2026-11-04T12:20:19.388Z"
+    },
+    "Orchestral|16|82.82231|48.10615|Warsaw Op.46 A Survivor from Abbado": {
+      "composer": "Arnold Schoenberg",
+      "work": "Piece for Orchestra Op.16",
+      "performer": "Abbado",
+      "searchQuery": "Arnold Schoenberg Abbado",
+      "updatedAt": "2026-11-04T12:20:33.832Z"
+    },
+    "Orchestral|16|54.19508|72.84146|Brahms Piano Quartet No.1 Schoenberg arr. Dohnanyi": {
+      "composer": "Arnold Schoenberg",
+      "work": "",
+      "performer": "Dohnanyi",
+      "searchQuery": "Arnold Schoenberg Dohnanyi",
+      "updatedAt": "2026-11-04T12:20:48.370Z"
+    },
+    "Orchestral|16|68.48853|72.84178|Rattle": {
+      "composer": "Arnold Schoenberg",
+      "work": "",
+      "performer": "Rattle",
+      "searchQuery": "Arnold Schoenberg Rattle",
+      "updatedAt": "2026-11-04T12:20:52.253Z"
+    },
+    "Orchestral|17|4.30452|23.56858|Passacaglia Op.1 Anton Webern Pieces ㏙5㏚ Op.5": {
+      "composer": "Anton Webern",
+      "work": "Passacaglia Op.1",
+      "performer": "Karajan",
+      "searchQuery": "Anton Webern Karajan",
+      "updatedAt": "2026-11-04T12:21:09.070Z"
+    },
+    "Orchestral|17|18.55984|23.65951|Dohnanyi Pieces ㏙6㏚ Op.6": {
+      "composer": "Anton Webern",
+      "work": "Passacaglia Op.1",
+      "performer": "Dohnanyi",
+      "searchQuery": "Anton Webern Dohnanyi",
+      "updatedAt": "2026-11-04T12:21:18.976Z"
+    },
+    "Orchestral|17|32.73499|23.87504|In Sommerwind Webern arr. Musical Offering ㏙Bach㏚": {
+      "composer": "Anton Webern",
+      "work": "In Sommerwind",
+      "performer": "Webern arr.",
+      "searchQuery": "Anton Webern Webern arr",
+      "updatedAt": "2026-11-04T12:22:44.115Z"
+    },
+    "Orchestral|17|18.54349|48.07458|Pieces ㏙6㏚ Op.6 Dohnanyi Abbado": {
+      "composer": "Anton Webern",
+      "work": "Pieces 5 Op.5",
+      "performer": "Abbado",
+      "searchQuery": "Anton Webern Abbado",
+      "updatedAt": "2026-11-04T12:22:48.863Z"
+    },
+    "Orchestral|17|32.70538|47.99487|Musical Offering ㏙Bach㏚ Webern arr. Poppen": {
+      "composer": "Anton Webern",
+      "work": "Webern arr. Musical Offering Bach",
+      "performer": "Poppen",
+      "searchQuery": "Anton Webern Poppen",
+      "updatedAt": "2026-11-04T12:23:33.015Z"
+    },
+    "Orchestral|17|4.47849|72.49504|Satz for Strings Webern Langsamer P.Jarvi ㏙Orch.㏚": {
+      "composer": "Anton Webern",
+      "work": "Satz for Strings",
+      "performer": "Jarvi Orch.",
+      "searchQuery": "Anton Webern Jarvi Orch",
+      "updatedAt": "2026-11-04T12:23:43.599Z"
+    },
+    "Orchestral|17|18.77197|72.49505|Abbado Belcea Quartet ㏙Quartet㏚": {
+      "composer": "Anton Webern",
+      "work": "Satz for Strings",
+      "performer": "Belcea Quartet Quartet",
+      "searchQuery": "Anton Webern Belcea Quartet Quartet",
+      "updatedAt": "2026-11-04T12:23:48.671Z"
+    },
+    "Orchestral|17|54.58136|23.70327|Pieces ㏙3㏚  Op.6 Alban Berg Karajan Lulu Suite": {
+      "composer": "Alban Berg",
+      "work": "In Sommerwind",
+      "performer": "Karajan",
+      "searchQuery": "Alban Berg Karajan",
+      "updatedAt": "2026-11-04T12:24:09.347Z"
+    },
+    "Orchestral|17|68.76848|23.75598|Abbado": {
+      "composer": "Alban Berg",
+      "work": "In Sommerwind",
+      "performer": "Abbado",
+      "searchQuery": "Alban Berg Abbado",
+      "updatedAt": "2026-11-04T12:24:13.419Z"
+    },
+    "Orchestral|17|82.85558|23.83509|Tilson Tomas": {
+      "composer": "Alban Berg",
+      "work": "Pieces 3 Op.6",
+      "performer": "Tilson Tomas",
+      "searchQuery": "Alban Berg Tilson Tomas",
+      "updatedAt": "2026-11-04T12:24:45.463Z"
+    },
+    "Orchestral|17|54.56593|48.03464|Lulu Suite Karajan Sinopoli Wozzeck": {
+      "composer": "Alban Berg",
+      "work": "Webern arr. Musical Offering Bach",
+      "performer": "Sinopoli Wozzeck Three Excerpts",
+      "searchQuery": "Alban Berg Sinopoli Wozzeck Three Excerpts",
+      "updatedAt": "2026-11-04T12:25:07.957Z"
+    },
+    "Orchestral|17|68.68271|48.00715|Abbado Boulez arr.": {
+      "composer": "Alban Berg",
+      "work": "Webern arr. Musical Offering Bach",
+      "performer": "Boulez arr. Piano Sonata Op.1",
+      "searchQuery": "Alban Berg Boulez arr. Sonata Op.1",
+      "updatedAt": "2026-11-04T12:25:42.371Z"
+    },
+    "Orchestral|17|54.37272|72.4551|Three Excerpts Wozzeck Levine": {
+      "composer": "Alban Berg",
+      "work": "Wozzeck Three Excerpts",
+      "performer": "Levine",
+      "searchQuery": "Alban Berg Levine",
+      "updatedAt": "2026-11-04T12:25:55.087Z"
+    },
+    "Orchestral|17|68.85091|72.42848|Piano Sonata Op.1 arr. Amsterdam Sinfonietta": {
+      "composer": "Alban Berg",
+      "work": "arr. Piano Sonata Op.1",
+      "performer": "Amsterdam Sinfonietta",
+      "searchQuery": "Alban Berg Amsterdam Sinfonietta",
+      "updatedAt": "2026-11-04T12:26:07.191Z"
+    },
+    "Orchestral|17|82.92729|72.49504|String Quartet Nos.2-4 arr. Lyric Suite Queyras": {
+      "composer": "Alban Berg",
+      "work": "arr. Piano Sonata Op.1",
+      "performer": "Queyras",
+      "searchQuery": "Alban Berg Queyras",
+      "updatedAt": "2026-11-04T12:26:10.631Z"
+    },
+    "Orchestral|18|4.51675|14.93088|Eisler Suite No.2": {
+      "composer": "Eisler",
+      "work": "Suite No.2",
+      "performer": "Pommer",
+      "searchQuery": "Eisler Pommer",
+      "updatedAt": "2026-11-04T12:26:34.352Z"
+    },
+    "Orchestral|18|4.47548|40.39625|Pommer Suite No.2 Eisler Winterschlacht Suite": {
+      "composer": "Eisler",
+      "work": "Winterschlacht Suite",
+      "performer": "Brecht",
+      "searchQuery": "Eisler Brecht",
+      "updatedAt": "2026-11-04T12:27:05.489Z"
+    },
+    "Orchestral|18|4.59965|66.19842|Brecht Winterschlacht Suite Eisler Orchestral Pieces": {
+      "composer": "Eisler",
+      "work": "Orchestral Pieces",
+      "performer": "Husmann",
+      "searchQuery": "Eisler Husmann",
+      "updatedAt": "2026-11-04T12:27:09.155Z"
+    },
+    "Orchestral|18|28.38582|15.14375|Weill Kleine Dreigroschenmusik": {
+      "composer": "Weill Kleine",
+      "work": "Dreigroschenmusik",
+      "performer": "Tilson Tomas",
+      "searchQuery": "Weill Kleine Tilson Tomas",
+      "updatedAt": "2026-11-04T12:27:19.445Z"
+    },
+    "Orchestral|18|28.40529|40.28367|Tilson Tomas Dreigroschenmusik Weill Quodlibet for Orchestra Op.9": {
+      "composer": "Weill Quodlibet",
+      "work": "for Orchestra Op.9",
+      "performer": "Beaumont",
+      "searchQuery": "Weill Quodlibet Beaumont",
+      "updatedAt": "2026-11-04T12:27:22.556Z"
+    },
+    "Orchestral|18|28.31431|66.21987|Beaumont for Orchestra Op.9 Ullmann Don Quixote Fandango": {
+      "composer": "Ullmann",
+      "work": "Don Quixote Fandango",
+      "performer": "Albrecht",
+      "searchQuery": "Ullmann Albrecht",
+      "updatedAt": "2026-11-04T12:27:28.802Z"
+    },
+    "Orchestral|18|54.06157|15.20089|Krenek Tricks and Trifles": {
+      "composer": "Krenek",
+      "work": "Tricks and Trifles",
+      "performer": "Steffens",
+      "searchQuery": "Krenek Steffens",
+      "updatedAt": "2026-11-04T12:27:32.739Z"
+    },
+    "Orchestral|18|54.15946|40.78607|Steffens Tricks and Trifles Krenek Phantastische Ersche...": {
+      "composer": "Krenek",
+      "work": "Phantastische Ersche...",
+      "performer": "R.Davies",
+      "searchQuery": "Krenek R.Davies",
+      "updatedAt": "2026-11-04T12:28:11.262Z"
+    },
+    "Orchestral|18|54.10063|66.37077|R.Davies Phantastische Ersche... Braunfels Don Juan Op.34": {
+      "composer": "Braunfels",
+      "work": "Don Juan Op.34",
+      "performer": "Franck",
+      "searchQuery": "Braunfels Franck",
+      "updatedAt": "2026-11-04T12:28:41.001Z"
+    },
+    "Orchestral|18|78.69955|15.46591|Ben ㎿Haim Evocation Op.32": {
+      "composer": "Ben Haim",
+      "work": "Evocation Op.32",
+      "performer": "Bach",
+      "searchQuery": "Ben Haim Bach",
+      "updatedAt": "2026-11-04T12:29:07.661Z"
+    },
+    "Orchestral|18|78.84196|40.85654|Bach Evocation Op.32 F.Weingartner Konig Lear Op.20": {
+      "composer": "F.Weingartner",
+      "work": "Konig Lear Op.20",
+      "performer": "Letonja",
+      "searchQuery": "F.Weingartner Letonja",
+      "updatedAt": "2026-11-04T12:29:26.509Z"
+    },
+    "Orchestral|18|78.87509|66.2982|Letonja Konig Lear Op.20 W.Furtwangler Overture Op.3": {
+      "composer": "W.Furtwangler",
+      "work": "Overture Op.3",
+      "performer": "Walter",
+      "searchQuery": "W.Furtwangler Walter",
+      "updatedAt": "2026-11-04T12:29:45.865Z"
+    },
+    "Orchestral|19|4.82324|15.00025|Dessau Symphonic Mozart ㎿Adaptation": {
+      "composer": "Dessau Symphonic",
+      "work": "Mozart Adaptation",
+      "performer": "Athinaos",
+      "searchQuery": "Dessau Symphonic Athinaos",
+      "updatedAt": "2026-11-04T12:30:00.549Z"
+    },
+    "Orchestral|19|4.64032|40.6438|Athinaos Mozart ㎿Adaptation Einem Dantons Tod Op.6a": {
+      "composer": "Einem",
+      "work": "Dantons Tod Op.6a",
+      "performer": "Lifschitz",
+      "searchQuery": "Einem Lifschitz",
+      "updatedAt": "2026-11-04T12:30:12.833Z"
+    },
+    "Orchestral|19|4.56836|66.06821|Lifschitz Dantons Tod Op.6a Einem Bruckner Dialog Op.39": {
+      "composer": "Einem",
+      "work": "Bruckner Dialog Op.39",
+      "performer": "Matacic",
+      "searchQuery": "Einem Matacic",
+      "updatedAt": "2026-11-04T12:30:35.769Z"
+    },
+    "Orchestral|19|28.44183|14.87878|Henze Manadenjagd": {
+      "composer": "Henze",
+      "work": "Manadenjagd",
+      "performer": "Abbado",
+      "searchQuery": "Henze Abbado",
+      "updatedAt": "2026-11-04T12:30:50.750Z"
+    },
+    "Orchestral|19|28.61589|40.71146|Abbado Manadenjagd Henze 3 Sinfonische Etuden": {
+      "composer": "Henze",
+      "work": "3 Sinfonische Etuden",
+      "performer": "Henze",
+      "searchQuery": "Henze Henze",
+      "updatedAt": "2026-11-04T12:31:14.037Z"
+    },
+    "Orchestral|19|28.78672|66.19038|Henze 3 Sinfonische Etuden Henze Telemanniana": {
+      "composer": "Henze",
+      "work": "Telemanniana",
+      "performer": "Markson",
+      "searchQuery": "Henze Markson",
+      "updatedAt": "2026-11-04T12:31:34.269Z"
+    },
+    "Orchestral|19|53.95541|15.0798|Zender Logos ㎿Fragmente": {
+      "composer": "Zender",
+      "work": "Logos Fragmente",
+      "performer": "Pomarico",
+      "searchQuery": "Zender Pomarico",
+      "updatedAt": "2026-11-04T12:31:41.988Z"
+    },
+    "Orchestral|19|54.19337|40.59245|Pomarico Logos ㎿Fragmente Rihm Styx and Lethe": {
+      "composer": "Rihm",
+      "work": "Styx and Lethe",
+      "performer": "Zender",
+      "searchQuery": "Rihm Zender",
+      "updatedAt": "2026-11-04T12:31:45.756Z"
+    },
+    "Orchestral|19|54.21519|66.18241|Zender Styx and Lethe Rihm Depart": {
+      "composer": "Rihm",
+      "work": "Depart",
+      "performer": "Abbado",
+      "searchQuery": "Rihm Abbado",
+      "updatedAt": "2026-11-04T12:31:56.261Z"
+    },
+    "Orchestral|19|78.83607|15.09687|HK Gruber Busking": {
+      "composer": "HK Gruber",
+      "work": "Busking",
+      "performer": "HK Gruber",
+      "searchQuery": "HK Gruber HK Gruber",
+      "updatedAt": "2026-11-04T12:32:24.828Z"
+    },
+    "Orchestral|19|78.71891|40.71819|HK Gruber Busking HK Gruber Manhattan Broadcasts": {
+      "composer": "HK Gruber",
+      "work": "Manhattan Broadcasts",
+      "performer": "HK Gruber",
+      "searchQuery": "HK Gruber HK Gruber",
+      "updatedAt": "2026-11-04T12:32:47.622Z"
+    },
+    "Orchestral|19|78.81649|66.29413|HK Gruber Manhattan Broadcasts HK Gruber Rough Music": {
+      "composer": "HK Gruber",
+      "work": "Rough Music",
+      "performer": "K.Jarvi",
+      "searchQuery": "HK Gruber K.Jarvi",
+      "updatedAt": "2026-11-04T12:33:00.480Z"
+    },
+    "Orchestral|20|4.52332|14.98102|Zimmermann Dialogue": {
+      "composer": "Zimmermann",
+      "work": "Dialogue",
+      "performer": "Kontarsky",
+      "searchQuery": "Zimmermann Kontarsky",
+      "updatedAt": "2026-11-04T12:33:06.059Z"
+    },
+    "Orchestral|20|4.52333|40.83027|Kontarsky Dialogue Zimmermann Canto di speranza": {
+      "composer": "Zimmermann",
+      "work": "Canto di speranza",
+      "performer": "Holliger",
+      "searchQuery": "Zimmermann Holliger",
+      "updatedAt": "2026-11-04T12:33:10.396Z"
+    },
+    "Orchestral|20|4.84675|66.18873|Holliger Canto di speranza Ruzicka Haydn ㎿Metamorphosen": {
+      "composer": "Ruzicka",
+      "work": "Haydn Metamorphosen",
+      "performer": "Albrecht",
+      "searchQuery": "Ruzicka Albrecht",
+      "updatedAt": "2026-11-04T12:33:24.204Z"
+    },
+    "Orchestral|20|28.29305|15.07084|Poppe Filz": {
+      "composer": "Poppe",
+      "work": "Filz",
+      "performer": "Poppe",
+      "searchQuery": "Poppe Poppe",
+      "updatedAt": "2026-11-04T12:33:50.440Z"
+    },
+    "Orchestral|20|28.29305|40.48209|Poppe Filz Kalitzke Vier Toteninseln": {
+      "composer": "Kalitzke",
+      "work": "Vier Toteninseln",
+      "performer": "Kalitzke",
+      "searchQuery": "Kalitzke Kalitzke",
+      "updatedAt": "2026-11-04T12:34:26.363Z"
+    },
+    "Orchestral|20|28.29171|66.30922|Kalitzke Vier Toteninseln T.Larcher Still": {
+      "composer": "T.Larcher",
+      "work": "Still",
+      "performer": "R.Davies",
+      "searchQuery": "T.Larcher R.Davies",
+      "updatedAt": "2026-11-04T12:34:51.136Z"
+    },
+    "Orchestral|20|54.10387|14.87071|Maintz Triptico vertical": {
+      "composer": "Maintz",
+      "work": "Triptico vertical",
+      "performer": "Eschenbach",
+      "searchQuery": "Maintz Eschenbach",
+      "updatedAt": "2026-11-04T12:35:03.475Z"
+    },
+    "Orchestral|20|54.23917|40.70782|Eschenbach Triptico vertical Kirchner Music for Orchestra": {
+      "composer": "Kirchner Music",
+      "work": "for Orchestra",
+      "performer": "Rose",
+      "searchQuery": "Kirchner Music Rose",
+      "updatedAt": "2026-11-04T12:35:07.696Z"
+    },
+    "Orchestral|20|54.31358|66.33281|Rose for Orchestra Stockhausen Kontakte": {
+      "composer": "Stockhausen",
+      "work": "Kontakte",
+      "performer": "Stockhausen",
+      "searchQuery": "Stockhausen Stockhausen",
+      "updatedAt": "2026-11-04T12:35:11.703Z"
+    },
+    "Orchestral|20|79.02472|15.03266|M.Bach Silhouetten": {
+      "composer": "M.Bach",
+      "work": "Silhouetten",
+      "performer": "Mussauer",
+      "searchQuery": "M.Bach Mussauer",
+      "updatedAt": "2026-11-04T12:36:14.465Z"
+    },
+    "Orchestral|20|79.04453|40.72633|Mussauer Silhouetten Schwertsik Divertimento Macchiato": {
+      "composer": "Schwertsik",
+      "work": "Divertimento Macchiato",
+      "performer": "Hardenberger",
+      "searchQuery": "Schwertsik Hardenberger",
+      "updatedAt": "2026-11-04T12:36:27.215Z"
+    },
+    "Orchestral|20|78.96513|66.21661|Hardenberger Divertimento Macchiato Schwertsik Nachtmusiken Op.104": {
+      "composer": "Schwertsik",
+      "work": "Nachtmusiken Op.104",
+      "performer": "HK Gruber",
+      "searchQuery": "Schwertsik HK Gruber",
+      "updatedAt": "2026-11-04T12:36:30.943Z"
+    },
+    "Orchestral|21|4.28325|15.00184|Zawinul Voice of the Danube": {
+      "composer": "Zawinul",
+      "work": "Voice of the Danube",
+      "performer": "Zawinul",
+      "searchQuery": "Zawinul Zawinul",
+      "updatedAt": "2026-11-04T12:36:50.202Z"
+    },
+    "Orchestral|21|4.42603|40.43512|Zawinul Voice of the Danube Schnebell Re ㎿Vision : Beethoven ㎿Moment": {
+      "composer": "Schnebell Re Vision",
+      "work": ": Beethoven Moment",
+      "performer": "Schreier",
+      "searchQuery": "Schnebell Re Vision Schreier",
+      "updatedAt": "2026-11-04T12:37:00.690Z"
+    },
+    "Orchestral|21|4.47526|66.09907|Schreier : Beethoven ㎿Moment Fuchs Point of Tranquility": {
+      "composer": "Fuchs",
+      "work": "Point of Tranquility",
+      "performer": "Wilson",
+      "searchQuery": "Fuchs Wilson",
+      "updatedAt": "2026-11-04T12:37:05.714Z"
+    },
+    "Orchestral|21|28.09475|14.81362|Schneider Draculissimo": {
+      "composer": "Schneider",
+      "work": "Draculissimo",
+      "performer": "Edusei",
+      "searchQuery": "Schneider Edusei",
+      "updatedAt": "2026-11-04T12:37:09.757Z"
+    },
+    "Orchestral|21|28.10062|40.4875|Edusei Draculissimo Schneider Raptus. Die Freiheit des Beethoven": {
+      "composer": "Schneider Raptus.",
+      "work": "Die Freiheit des Beethoven",
+      "performer": "Gaudenz",
+      "searchQuery": "Schneider Raptus. Gaudenz",
+      "updatedAt": "2026-11-04T12:37:24.936Z"
+    },
+    "Orchestral|21|28.10062|66.18728|Gaudenz Die Freiheit des Beethoven Schneider Isolde 㖈 Tristan": {
+      "composer": "Schneider",
+      "work": "Isolde Tristan",
+      "performer": "Lande",
+      "searchQuery": "Schneider Lande",
+      "updatedAt": "2026-11-04T12:37:29.018Z"
+    },
+    "Orchestral|21|54.13884|14.86617|Cerha Orchesterstucke": {
+      "composer": "Cerha",
+      "work": "Orchesterstucke",
+      "performer": "Saraste",
+      "searchQuery": "Cerha Saraste",
+      "updatedAt": "2026-11-04T12:37:34.536Z"
+    },
+    "Orchestral|21|54.07718|40.46223|Saraste Orchesterstucke Lang The Ocean of Yes and No.": {
+      "composer": "Lang The Ocean",
+      "work": "of Yes and No.",
+      "performer": "Deroyer",
+      "searchQuery": "Lang The Ocean Deroyer",
+      "updatedAt": "2026-11-04T12:38:03.518Z"
+    },
+    "Orchestral|21|54.05771|66.20068|Deroyer of Yes and No. Beyer Griechenland Musik": {
+      "composer": "Beyer",
+      "work": "Griechenland Musik",
+      "performer": "Rickenbacher",
+      "searchQuery": "Beyer Rickenbacher",
+      "updatedAt": "2026-11-04T12:38:17.490Z"
+    },
+    "Orchestral|21|78.73701|14.86617|Beppe Remote Galaxy": {
+      "composer": "Beppe",
+      "work": "Remote Galaxy",
+      "performer": "Ashkenazy",
+      "searchQuery": "Beppe Ashkenazy",
+      "updatedAt": "2026-11-04T12:38:21.562Z"
+    },
+    "Orchestral|21|78.8207|40.6225|Ashkenazy Remote Galaxy Widmann Con Brio": {
+      "composer": "Widmann",
+      "work": "Con Brio",
+      "performer": "Widmann",
+      "searchQuery": "Widmann Widmann",
+      "updatedAt": "2026-11-04T12:38:38.907Z"
+    },
+    "Orchestral|22|4.36028|23.57973|Swan Lake Op.20 Pyotr Ilyich Tchaikovsky Dutoit ㏙Complete㏚ The Sleeping Beauty Op.66": {
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "work": "Swan Lake Op.20",
+      "performer": "Dutoit Complete",
+      "searchQuery": "Pyotr Ilyich Tchaikovsky Dutoit Complete",
+      "updatedAt": "2026-11-04T12:38:45.782Z"
     }
   },
   "favorites": {
@@ -12861,7 +16277,251 @@
     "Orchestral|2|53.7726|66.46436|Florilgium Tafelmusik e minor Telemann Tafelmusik F Major": false,
     "Orchestral|2|78.64823|14.91106|Schneider Sinfonia Concertante Op.19": true,
     "Orchestral|2|78.47419|40.91629|Brown Concertante Op.19 Eberl La Folia si Spagna": true,
-    "Orchestral|2|78.45473|66.46436|Goebel La Folia si Spagna Reicha Sinfonia Concertante G Major": false
+    "Orchestral|2|78.45473|66.46436|Goebel La Folia si Spagna Reicha Sinfonia Concertante G Major": false,
+    "Orchestral|3|4.45538|23.79592|Serenade K.250 Wolfgang Amadeus Mozart Mackerras Divertimento K.136": false,
+    "Orchestral|3|18.60285|23.79592|Serenade K.361 Wolfgang Amadeus Mozart Bruggen Divertimento K.334": false,
+    "Orchestral|3|32.86412|23.79592|Serenade K.525 Tonnesen Divertimento K.522": false,
+    "Orchestral|3|4.43754|48.07458|Divertimento K.136 Mackerras Tonnesen Masonic Funeral": false,
+    "Orchestral|3|18.6609|48.07458|Divertimento K.334 Bruggen Janiczek Adagio und Allegro": false,
+    "Orchestral|3|32.91672|48.00217|Divertimento K.522 Tonnesen Manze": false,
+    "Orchestral|3|4.47849|72.44297|Music K.477 Masonic Funeral Langree": false,
+    "Orchestral|3|18.55712|72.44546|K.594 Adagio und Allegro Goebel": false,
+    "Orchestral|3|54.52364|23.7126|K.345 : Ouverture Tomas, Konig in Agypten Pichon Don Giovanni": false,
+    "Orchestral|3|68.95483|23.79592|Serail K.384 : Ouverture Die Entfuhrung aus dem Jacobs Cosi fan tutte": false,
+    "Orchestral|3|83.21639|23.79592|K.492 : Ouverture Le nozze di Figaro Chauvin Die Zauberflote": false,
+    "Orchestral|3|54.52364|47.99074|K.527 : Ouverture Don Giovanni Jacobs Transcription.  K.457 / 478": false,
+    "Orchestral|3|68.8865|47.90743|K.588 : Ouverture Cosi fan tutte Jacobs": false,
+    "Orchestral|3|83.12294|47.94542|K.620 : Ouverture Die Zauberflote Jacobs": false,
+    "Orchestral|3|54.42325|72.41319|Transcription.  K.457 / 478 Jacobs Goebel": false,
+    "Orchestral|4|4.45538|23.79592|Op.91 Wellington 㑄s Victory Haselbock Egmont": false,
+    "Orchestral|4|18.66214|23.79592|Ludwig van Beethoven Kunzel Coriolan": false,
+    "Orchestral|4|4.12523|47.89271|Egmont Haselbock Abbado Leonore No.3": false,
+    "Orchestral|4|18.68031|48.02283|Ouverture Op.62 Coriolan Bruggen Fidelio": false,
+    "Orchestral|4|4.47849|72.49504|Ouverture Leonore No.3 harding": false,
+    "Orchestral|4|16.68534|72.50716|Ouverture Op.72 Fidelio Harnoncourt": false,
+    "Orchestral|4|55.06131|15.10778|Schubert Rosamunde  D.797": false,
+    "Orchestral|4|55.20812|40.78607|Abbado Rosamunde  D.797 Schubert Rosamunde  D.797": false,
+    "Orchestral|4|55.12496|66.57187|Dausgaard Rosamunde  D.797 Schubert German Dances  D.97": false,
+    "Orchestral|4|78.29094|13.6575|Der Freischutz : Overture C.Kleiber": false,
+    "Orchestral|4|79.28921|40.50444|C.Kleiber Der Freischutz : Overture Weber Oberon : Overture": false,
+    "Orchestral|4|79.27001|66.55276|Eschenbach Oberon : Overture Weber Invitation A La Valse": false,
+    "Orchestral|5|4.05296|23.7126|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Abbado ㏙BPO㏚ Die Hebriden Overture  Op.26": false,
+    "Orchestral|5|18.42492|23.79592|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Ozawa ㏙BSO㏚ Die Hebriden Overture  Op.26": false,
+    "Orchestral|5|32.7457|23.79592|Herreweghe": false,
+    "Orchestral|5|3.99373|47.99074|Die Hebriden Overture  Op.26 Abbado ㏙BPO㏚ Abbado Die schone Melusine": false,
+    "Orchestral|5|17.30056|47.90743|Die Hebriden Overture  Op.26 Ozawa ㏙BSO㏚ Casado Ruy Blas": false,
+    "Orchestral|5|32.68907|47.99076|Herreweghe Kossenko": false,
+    "Orchestral|5|3.99373|72.35618|Overture  Op.32 Die schone Melusine Abbado": false,
+    "Orchestral|5|18.2823|72.34024|Overture  Op.95 Ruy Blas Gardner": false,
+    "Orchestral|5|54.41601|23.71826|D Major Op.11 Serenade No.1 Vriend 21 Hungarian Dances": false,
+    "Orchestral|5|68.84906|23.80157|Johannes Brahms Boston Chamber": false,
+    "Orchestral|5|83.11061|23.80157|A Major Op.16 Serenade No.2 Chailly": false,
+    "Orchestral|5|54.47033|47.80802|21 Hungarian Dances Vriend Fischer Variation on a Theme": false,
+    "Orchestral|5|68.76068|47.61076|Boston Chamber Abbado Academic Festival": false,
+    "Orchestral|5|79.36313|47.67471|Chailly vn. Shaham ㏙arr.Joachim㏚ Tragic": false,
+    "Orchestral|5|54.40365|72.47647|of Haydn Op.56a Variation on a Theme Abbado": false,
+    "Orchestral|5|68.83089|72.4361|Overture Op.80 Academic Festival Bernstein ㏙r.Sony㏚": false,
+    "Orchestral|5|83.04228|72.49131|Overture Op.81 Tragic Bolton": false,
+    "Orchestral|6|4.69455|40.57399|Albret Richard III Fuchs Serenade No.5": true,
+    "Orchestral|6|4.41902|66.58005|Francis Serenade No.5 Goetz Spring Overture Op.15": false,
+    "Orchestral|6|28.25457|15.05404|Schumann Manfred  Op.115": false,
+    "Orchestral|6|28.00056|39.9654|Weil Manfred  Op.115 Overtue,Scherzo 㖈Finale Gardiner": false,
+    "Orchestral|6|28.1639|66.54082|Gardiner Overtue,Scherzo 㖈Finale Schumann Konzertstuck for 4 Horns": false,
+    "Orchestral|6|53.9465|15.00029|Raff  Ein fest Burg ist unser Gott,Overture Op.127": true,
+    "Orchestral|6|53.91231|40.78607|Stadlmair unser Gott,Overture Op.127 Raff Rhapsody Op.163b": false,
+    "Orchestral|6|53.99565|66.38531|Butt Rhapsody Op.163b Raff Jubel ㎿Ouverture Op.103": false,
+    "Orchestral|6|78.24837|15.03778|Raff Piece Op.85": true,
+    "Orchestral|6|78.27804|40.88367|Butt Piece Op.85 Reineke King Manfred": false,
+    "Orchestral|6|78.27804|66.27501|Raudales King Manfred Graener  Variations on a Russian folksong": false,
+    "Orchestral|7|4.5569|14.98885|J.Strauss I Radetzky Marsch": false,
+    "Orchestral|7|4.39351|41.09359|Karajan Radetzky Marsch J.Strauss II Die Fledermaus : Overture": false,
+    "Orchestral|7|4.11125|66.68717|C.Kleiber Fledermaus : Overture J.Strauss II An der schonen blauen Donau": false,
+    "Orchestral|7|28.16407|15.07918|J.Strauss II Kaiser ㎿Walzer": false,
+    "Orchestral|7|28.19783|41.07164|Karajan Kaiser ㎿Walzer J.Strauss II Voice of Spring": false,
+    "Orchestral|7|28.16391|66.77772|C.Kleiber Voice of Spring J.Strauss II Eljen a Magyar": false,
+    "Orchestral|7|54.01289|15.11448|J. Strauss  ㏙Josef㏚ Delirien Walzer Op.212": false,
+    "Orchestral|7|54.06204|41.1291|Thielemann Delirien Walzer Op.212 Lanner Die Mozartisten Op.106": true,
+    "Orchestral|7|53.77872|65.98296|Mortensen Die Mozartisten Op.106 4Jahreszeiten Wiener Schrammel Ensemble": false,
+    "Orchestral|7|78.54532|15.12514|E Strauss  ㏙Eduard㏚ Carmen ㎿Quardrille Op.134": true,
+    "Orchestral|7|78.32719|41.01646|Angerer Carmen ㎿Quardrille Op.134 Suppe Light Cavalry Overture": false,
+    "Orchestral|7|78.31247|66.90443|Dutoit Overture Suppe Poet and Peasant Overture": false,
+    "Orchestral|8|4.46085|15.02381|Bruch Swedish Dances": false,
+    "Orchestral|8|4.52327|40.78607|Albret Swedish Dances Bruch Suite on Russian Themes": false,
+    "Orchestral|8|4.54475|66.26369|Matiakh Suite on Russian Themes Draescke Funeral March Op.79": false,
+    "Orchestral|8|28.24698|15.14862|Herzogenberg Odysseus, Op.16": true,
+    "Orchestral|8|28.24698|40.70746|Beermann Odysseus, Op.16 Humperdinck Hansel und Gretel : Prelude": false,
+    "Orchestral|8|28.26398|66.47952|Mackerras und Gretel : Prelude Marx Eine Fruhlingsmusik": false,
+    "Orchestral|8|54.03317|14.99609|Marx Symphonische Nachtmusik": false,
+    "Orchestral|8|54.1406|40.75044|Sloane Nachtmusik Rauchenecker  Sympho ㎿nisches Tonwerk im Stil einer": false,
+    "Orchestral|8|54.1602|66.35405|Griffiths ㎿nisches Tonwerk im Stil einer G.Schumann  Overture zu einem Drama Op.45": false,
+    "Orchestral|8|78.98222|14.88012|S.Wagner Der Friedensengel Prelude": false,
+    "Orchestral|8|78.9462|40.72426|Albert Der Friedensengel Prelude Wetz Kleist Overture Op.16": false,
+    "Orchestral|9|4.38815|23.63143|Overture Rienzi Sinopoli Tannhauser": false,
+    "Orchestral|9|33.02712|23.26061|Die Meistersinger von Karajan Siegfried Idyll": false,
+    "Orchestral|9|4.25267|48.05972|Overture Tannhauser Celibidache Tristan und Isolde": false,
+    "Orchestral|9|18.69314|48.10613|Prekude Act 1 㖈 3 Lohengrin Thielemann Tristan und Isolde": false,
+    "Orchestral|9|32.96221|48.07967|Siegfried Idyll Karajan Pinnock": false,
+    "Orchestral|9|4.33622|72.92101|Prelude Tristan und Isolde Abbado": false,
+    "Orchestral|9|18.54906|72.9762|Liebestod Tristan und Isolde s.Studer/Sinopoli": false,
+    "Orchestral|9|54.8877|23.71499|Prelude Act1 Parsifal Karajan Der Ring ㏙Orchestral Highlights㏚": false,
+    "Orchestral|9|68.9726|23.70367|Good Friday Music Parsifal Abbado Der Ring ㏙Orchestral Highlights㏚": false,
+    "Orchestral|9|83.10737|23.61844|Funeral March Gotterdammerung Celibidache": false,
+    "Orchestral|9|54.88329|48.07967|Der Ring ㏙Orchestral Highlights㏚ Karajan Szell": false,
+    "Orchestral|9|68.95583|48.07967|Der Ring ㏙Orchestral Highlights㏚ Abbado de Waart": false,
+    "Orchestral|10|4.34469|23.59526|Don Juan Op.20 Richard Strauss Haitink Macbeth Op.23": false,
+    "Orchestral|10|18.6995|23.63143|Richard Strauss Honeck": false,
+    "Orchestral|10|33.02712|23.59261|Karajan": false,
+    "Orchestral|10|4.32461|48.01438|Macbeth Op.23 Haitink Roth Tod und Verklarung Op.24": false,
+    "Orchestral|10|18.69314|48.10613|Honeck Maazel Tod und Verklarung Op.24": false,
+    "Orchestral|10|18.63646|72.92101|Tod und Verklarung Op.24 Maazel Sinopoli": false,
+    "Orchestral|10|33.02079|72.92101|Karajan": false,
+    "Orchestral|10|54.08187|23.2643|Till Eulenspiegels Op.30 Chailly Also sprach Zarathustra Op.30": false,
+    "Orchestral|10|68.39452|23.69121|Till Eulenspiegels Op.30 Karajan Also sprach Zarathustra Op.30": false,
+    "Orchestral|10|82.73599|23.57585|Urbanski": false,
+    "Orchestral|10|54.1073|48.37388|Also sprach Zarathustra Op.30 Chailly Sinopoli Ein Heldenleben Op.40": false,
+    "Orchestral|10|68.4898|48.45728|Also sprach Zarathustra Op.30 Karajan Karajan Ein Heldenleben Op.40": false,
+    "Orchestral|10|82.63579|48.45728|Urbanski Previn": false,
+    "Orchestral|10|54.16158|72.92102|Ein Heldenleben Op.40 Sinopoli Karajan": false,
+    "Orchestral|10|68.47524|72.92101|Ein Heldenleben Op.40 Karajan Roth": false,
+    "Orchestral|10|82.72219|72.92101|Previn Sondergard": false,
+    "Orchestral|11|4.47503|23.79592|Metamorphosen TrV290 Richard Strauss Herzog Aus Italien Op.16": false,
+    "Orchestral|11|18.68031|23.84253|Metamorphosen TrV290 Richard Strauss Azkoul": false,
+    "Orchestral|11|32.83977|23.79592|Karajan": false,
+    "Orchestral|11|4.45695|48.07458|Aus Italien Op.16 Herzog Muti Le Bourgeois Gentilhomme Op.60": false,
+    "Orchestral|11|18.6798|48.07458|Azkoul Weigle Le Bourgeois Gentilhomme Op.60": false,
+    "Orchestral|11|4.27388|72.22223|Le Bourgeois Gentilhomme Op.60 Muti Dutoit": false,
+    "Orchestral|11|18.68031|72.49504|Le Bourgeois Gentilhomme Op.60 Weigle Boyd": false,
+    "Orchestral|11|54.176|23.79592|Rosenkavalier : Suite Previn Intermezzo": false,
+    "Orchestral|11|68.46294|23.79592|Nelsons Salome": false,
+    "Orchestral|11|82.71768|23.79592|: Andante con moto Capriccio Kamu": false,
+    "Orchestral|11|54.14786|47.8659|: Symphonic Intermezzi Intermezzo Nelsons Don Quixote Op.35": false,
+    "Orchestral|11|68.08476|47.37121|: Dances of the Seven Veils Salome Burlesque in d minor": false,
+    "Orchestral|11|54.26861|72.46204|Don Quixote Op.35 Nelsons vc.Queyras/Roth": false,
+    "Orchestral|11|68.56364|72.51629|Burlesque in d minor Solti p.Thibaudet/Blomstedt": false,
+    "Orchestral|12|4.51873|15.04364|Bruckner Overture in g minor": false,
+    "Orchestral|12|4.5433|40.60348|Skrowaczewski Overture in g minor Rott Hamlet Overture": false,
+    "Orchestral|12|4.58225|66.21115|Ward Hamlet Overture Rott Pastorales Vosrspiel": false,
+    "Orchestral|12|27.87294|15.00038|Mahler arr. Beethoven Symphony No.5": false,
+    "Orchestral|12|27.95118|40.65586|Tiboris Symphony No.5 Mahler arr. Beethoven Symphony No.9": true,
+    "Orchestral|12|27.41828|65.40817|K.Jarvi Symphony No.9 String Quartet 14 Kofman": false,
+    "Orchestral|12|53.55941|14.69835|Mahler arr. Schumann Symphonies": false,
+    "Orchestral|12|53.75564|40.57034|Chailly Symphonies Mahler arr. Beethoven String Quartet Op.95": false,
+    "Orchestral|12|53.9125|66.07401|Dohnanyi String Quartet Op.95 Mahler Totenfeier": false,
+    "Orchestral|12|78.60784|15.10778|Zemlinsky Die Seejungfrau": true,
+    "Orchestral|12|78.71422|40.61194|Chailly Die Seejungfrau Zemlinsky Die Seejungfrau": false,
+    "Orchestral|12|78.69749|66.16721|Colon Die Seejungfrau Ochs  㑄S Kommt Ein Vogel Geflogen Variations": true,
+    "Orchestral|13|4.54641|23.66404|Der Geburtstag der Infantin Franz Schreker Petrenko Pantastische": false,
+    "Orchestral|13|18.62075|23.73494|Der Geburtstag der Infantin Franz Schreker Zagrosek Romantic Suite Op.14": false,
+    "Orchestral|13|32.86845|23.74124|Ekkehard Op.20 Sinaisky": false,
+    "Orchestral|13|4.50064|48.05492|Overture Op.15 Pantastische Sinaisky Der Schatzgraber :": false,
+    "Orchestral|13|18.72204|48.05492|Romantic Suite Op.14 Zagrosek Sinaisky Der ferne Klan": false,
+    "Orchestral|13|4.47849|72.41599|Symphonies Zweischenspiel Der Schatzgraber : Renes": false,
+    "Orchestral|13|18.68031|72.49504|: Nachtstuck Der ferne Klan Eschenbach": false,
+    "Orchestral|13|32.70239|72.31884|: Vorspiel zu einem Drama Die Gezeichneten Gielen": false,
+    "Orchestral|13|54.60283|15.05518|Variations anf Fugue on a Theme by Mozart": false,
+    "Orchestral|13|54.54407|40.41977|C.Davis on a Theme by Mozart Variations anf Fugue on a Theme by Beethoven": false,
+    "Orchestral|13|54.67634|66.1079|Segerstam on a Theme by Beethoven Reger Bocklin Suite": true,
+    "Orchestral|13|78.59176|15.01745|Reznicek Schlemihl": false,
+    "Orchestral|13|78.5818|40.52565|Jurowski Schlemihl Reznicek Der Sieger": false,
+    "Orchestral|13|78.66549|65.91461|Jurowski Der Sieger Reznicek Kol Nidrey ㎿Variation": true,
+    "Orchestral|14|4.0504|15.07929|Metamorphosen on a Themes of Weber": true,
+    "Orchestral|14|4.00064|40.66123|Sawallische Themes of Weber Metamorphosen on a Themes of Weber": false,
+    "Orchestral|14|4.11656|66.19311|Stern Themes of Weber Hindemith Nobilissima Visione": false,
+    "Orchestral|14|27.82223|14.97749|Dostal Spanish Sketches": false,
+    "Orchestral|14|53.86962|15.00704|Pfitzner Das Kathchen von Heilbronn": false,
+    "Orchestral|14|53.86962|40.52333|Suitner von Heilbronn Pfitzner Elegie und Reigen": false,
+    "Orchestral|14|53.90759|66.1079|Albert Elegie und Reigen Schmidt Variations on a Hussar 㐴s Song": false,
+    "Orchestral|14|78.83315|15.05992|Schmidt Variations on a Beethoven": false,
+    "Orchestral|14|78.87429|40.47872|Becker on a Beethoven Minkus Don Quixote": false,
+    "Orchestral|14|78.87429|66.19311|Spassov Don Quixote Minkus La Bayadere": false,
+    "Orchestral|15|4.24891|15.10778|Korngold Much Ado About Nothing Op.11": false,
+    "Orchestral|15|4.38496|40.53966|Storgards About Nothing Op.11 Korngold Symphonic Serenade": true,
+    "Orchestral|15|4.33581|66.11251|Amsterdam Sinfonietta ㏙2Movt.㏚ Symphonic Serenade Korngold A Midsummer Night 㐴s Dream": true,
+    "Orchestral|15|28.08892|14.87614|Korngold Straussiana": false,
+    "Orchestral|15|28.22552|40.57434|Albert Straussiana Korngold The Sea Hawk": false,
+    "Orchestral|15|54.08169|15.02949|Loeffler La mort de tintagiles": true,
+    "Orchestral|15|54.02346|40.46298|Trevino La mort de tintagiles Loeffler La Villanelle du Diable": false,
+    "Orchestral|15|54.0625|65.92039|Wildner La Villanelle du Diable Loeffler Five Irish Fantasies": false,
+    "Orchestral|15|78.58364|15.02716|Pitzner ㎿ Palestrina Prelude Act1 㖈 2": true,
+    "Orchestral|15|78.95215|40.31545|Thielemann Prelude Act1 㖈 2 Hausegger Barbarossa": false,
+    "Orchestral|15|78.81554|65.85456|Fischer ㎿Hermus Barbarossa Wolf Penthesila Fischer ㎿Dieskau": false,
+    "Orchestral|16|4.38815|23.63143|Gurrelieder Arnold Schoenberg Chailly Pelleas und Melisande Op.5": false,
+    "Orchestral|16|18.77766|23.63143|Arnold Schoenberg Stenz Pelleas und Melisande Op.5": false,
+    "Orchestral|16|33.15117|23.63143|Abbado": false,
+    "Orchestral|16|4.32437|48.10615|Pelleas und Melisande Op.5 Chailly Sinopoli Verklarte Nacht Op.4": false,
+    "Orchestral|16|18.59964|48.05972|Pelleas und Melisande Op.5 Stenz Thielemann": false,
+    "Orchestral|16|32.78687|48.17856|Abbado P.Jarvi": false,
+    "Orchestral|16|4.50511|72.8435|Verklarte Nacht Op.4 Sinopoli Herzog ㏙Orch.㏚": false,
+    "Orchestral|16|18.67798|72.89819|Verklarte Nacht Op.4 Thielemann Queyras ㏙Orch.㏚": false,
+    "Orchestral|16|54.26904|23.57583|Variation for Orchestra Op.31 Karajan Piece for Orchestra Op.16": false,
+    "Orchestral|16|68.44764|23.44562|Variation for Orchestra Op.31 Nagano Piece for Orchestra Op.16": false,
+    "Orchestral|16|68.51521|48.17856|Piece for Orchestra Op.16 Nagano Rattle": false,
+    "Orchestral|16|82.82231|48.10615|Warsaw Op.46 A Survivor from Abbado": false,
+    "Orchestral|16|54.19508|72.84146|Brahms Piano Quartet No.1 Schoenberg arr. Dohnanyi": false,
+    "Orchestral|16|68.48853|72.84178|Rattle": false,
+    "Orchestral|17|4.30452|23.56858|Passacaglia Op.1 Anton Webern Pieces ㏙5㏚ Op.5": false,
+    "Orchestral|17|18.55984|23.65951|Dohnanyi Pieces ㏙6㏚ Op.6": false,
+    "Orchestral|17|32.73499|23.87504|In Sommerwind Webern arr. Musical Offering ㏙Bach㏚": false,
+    "Orchestral|17|18.54349|48.07458|Pieces ㏙6㏚ Op.6 Dohnanyi Abbado": false,
+    "Orchestral|17|32.70538|47.99487|Musical Offering ㏙Bach㏚ Webern arr. Poppen": false,
+    "Orchestral|17|4.47849|72.49504|Satz for Strings Webern Langsamer P.Jarvi ㏙Orch.㏚": false,
+    "Orchestral|17|18.77197|72.49505|Abbado Belcea Quartet ㏙Quartet㏚": false,
+    "Orchestral|17|54.58136|23.70327|Pieces ㏙3㏚  Op.6 Alban Berg Karajan Lulu Suite": false,
+    "Orchestral|17|68.76848|23.75598|Abbado": false,
+    "Orchestral|17|82.85558|23.83509|Tilson Tomas": false,
+    "Orchestral|17|54.56593|48.03464|Lulu Suite Karajan Sinopoli Wozzeck": false,
+    "Orchestral|17|68.68271|48.00715|Abbado Boulez arr.": false,
+    "Orchestral|17|54.37272|72.4551|Three Excerpts Wozzeck Levine": false,
+    "Orchestral|17|68.85091|72.42848|Piano Sonata Op.1 arr. Amsterdam Sinfonietta": false,
+    "Orchestral|17|82.92729|72.49504|String Quartet Nos.2-4 arr. Lyric Suite Queyras": false,
+    "Orchestral|18|4.51675|14.93088|Eisler Suite No.2": true,
+    "Orchestral|18|4.47548|40.39625|Pommer Suite No.2 Eisler Winterschlacht Suite": false,
+    "Orchestral|18|4.59965|66.19842|Brecht Winterschlacht Suite Eisler Orchestral Pieces": false,
+    "Orchestral|18|28.38582|15.14375|Weill Kleine Dreigroschenmusik": true,
+    "Orchestral|18|28.40529|40.28367|Tilson Tomas Dreigroschenmusik Weill Quodlibet for Orchestra Op.9": false,
+    "Orchestral|18|28.31431|66.21987|Beaumont for Orchestra Op.9 Ullmann Don Quixote Fandango": false,
+    "Orchestral|18|54.06157|15.20089|Krenek Tricks and Trifles": false,
+    "Orchestral|18|54.15946|40.78607|Steffens Tricks and Trifles Krenek Phantastische Ersche...": false,
+    "Orchestral|18|54.10063|66.37077|R.Davies Phantastische Ersche... Braunfels Don Juan Op.34": true,
+    "Orchestral|18|78.69955|15.46591|Ben ㎿Haim Evocation Op.32": true,
+    "Orchestral|18|78.84196|40.85654|Bach Evocation Op.32 F.Weingartner Konig Lear Op.20": true,
+    "Orchestral|18|78.87509|66.2982|Letonja Konig Lear Op.20 W.Furtwangler Overture Op.3": false,
+    "Orchestral|19|4.82324|15.00025|Dessau Symphonic Mozart ㎿Adaptation": false,
+    "Orchestral|19|4.64032|40.6438|Athinaos Mozart ㎿Adaptation Einem Dantons Tod Op.6a": true,
+    "Orchestral|19|4.56836|66.06821|Lifschitz Dantons Tod Op.6a Einem Bruckner Dialog Op.39": true,
+    "Orchestral|19|28.44183|14.87878|Henze Manadenjagd": true,
+    "Orchestral|19|28.61589|40.71146|Abbado Manadenjagd Henze 3 Sinfonische Etuden": false,
+    "Orchestral|19|28.78672|66.19038|Henze 3 Sinfonische Etuden Henze Telemanniana": true,
+    "Orchestral|19|53.95541|15.0798|Zender Logos ㎿Fragmente": false,
+    "Orchestral|19|54.19337|40.59245|Pomarico Logos ㎿Fragmente Rihm Styx and Lethe": true,
+    "Orchestral|19|54.21519|66.18241|Zender Styx and Lethe Rihm Depart": false,
+    "Orchestral|19|78.83607|15.09687|HK Gruber Busking": true,
+    "Orchestral|19|78.71891|40.71819|HK Gruber Busking HK Gruber Manhattan Broadcasts": false,
+    "Orchestral|19|78.81649|66.29413|HK Gruber Manhattan Broadcasts HK Gruber Rough Music": false,
+    "Orchestral|20|4.52332|14.98102|Zimmermann Dialogue": false,
+    "Orchestral|20|4.52333|40.83027|Kontarsky Dialogue Zimmermann Canto di speranza": false,
+    "Orchestral|20|4.84675|66.18873|Holliger Canto di speranza Ruzicka Haydn ㎿Metamorphosen": false,
+    "Orchestral|20|28.29305|15.07084|Poppe Filz": false,
+    "Orchestral|20|28.29305|40.48209|Poppe Filz Kalitzke Vier Toteninseln": false,
+    "Orchestral|20|28.29171|66.30922|Kalitzke Vier Toteninseln T.Larcher Still": false,
+    "Orchestral|20|54.10387|14.87071|Maintz Triptico vertical": false,
+    "Orchestral|20|54.23917|40.70782|Eschenbach Triptico vertical Kirchner Music for Orchestra": false,
+    "Orchestral|20|54.31358|66.33281|Rose for Orchestra Stockhausen Kontakte": false,
+    "Orchestral|20|79.02472|15.03266|M.Bach Silhouetten": true,
+    "Orchestral|20|79.04453|40.72633|Mussauer Silhouetten Schwertsik Divertimento Macchiato": false,
+    "Orchestral|20|78.96513|66.21661|Hardenberger Divertimento Macchiato Schwertsik Nachtmusiken Op.104": true,
+    "Orchestral|21|4.28325|15.00184|Zawinul Voice of the Danube": true,
+    "Orchestral|21|4.42603|40.43512|Zawinul Voice of the Danube Schnebell Re ㎿Vision : Beethoven ㎿Moment": true,
+    "Orchestral|21|4.47526|66.09907|Schreier : Beethoven ㎿Moment Fuchs Point of Tranquility": true,
+    "Orchestral|21|28.09475|14.81362|Schneider Draculissimo": false,
+    "Orchestral|21|28.10062|40.4875|Edusei Draculissimo Schneider Raptus. Die Freiheit des Beethoven": true,
+    "Orchestral|21|28.10062|66.18728|Gaudenz Die Freiheit des Beethoven Schneider Isolde 㖈 Tristan": false,
+    "Orchestral|21|54.13884|14.86617|Cerha Orchesterstucke": false,
+    "Orchestral|21|54.07718|40.46223|Saraste Orchesterstucke Lang The Ocean of Yes and No.": false,
+    "Orchestral|21|54.05771|66.20068|Deroyer of Yes and No. Beyer Griechenland Musik": false,
+    "Orchestral|21|78.73701|14.86617|Beppe Remote Galaxy": false,
+    "Orchestral|21|78.8207|40.6225|Ashkenazy Remote Galaxy Widmann Con Brio": true,
+    "Orchestral|22|4.36028|23.57973|Swan Lake Op.20 Pyotr Ilyich Tchaikovsky Dutoit ㏙Complete㏚ The Sleeping Beauty Op.66": false
   },
   "added": {},
   "removed": {
