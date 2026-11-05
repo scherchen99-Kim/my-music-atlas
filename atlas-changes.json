@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-04T13:57:46.640Z",
+  "createdAt": "2026-11-05T11:42:53.351Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -10936,6 +10936,832 @@
       "artist": "",
       "source": "Manual image URL",
       "approvedAt": "2026-11-04T13:57:42.499Z"
+    },
+    "Orchestral|36|4.26274|15.0077|Klami Kalevala Suite": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpXJad33PLRWRzNUGRBBySAV9q8u1t8uU4hdA7nkR6e-V3zmsItg51X5Q&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T02:33:54.044Z"
+    },
+    "Orchestral|36|4.2238|40.91628|Eschenbach Kalevala Suite Klami Sea Pictures": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/e5/81/12e581c3-9eb4-ee98-f51a-cd33868226d4/5059864142734.png/600x600bb.jpg",
+      "album": "Klami: Karelian Rhapsody, Kalevala Suite, Sea Pictures",
+      "artist": "Petri Sakari & Iceland Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T02:33:59.988Z"
+    },
+    "Orchestral|36|4.26274|66.67512|Sakari Sea Pictures Aho Symphonic Dances": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002848470/front/400/UWJ3p0jf8qzy-vbHxm7biypQg_7iAU1wjqLgK_xGXts=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T02:34:14.436Z"
+    },
+    "Orchestral|36|28.13123|15.16531|Melartin The Blue Pearl Op.160": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/36/3a/80/363a8098-e6c3-cc67-d553-62ea496009d6/761195128329.jpg/600x600bb.jpg",
+      "album": "Melartin: Orchestral Works",
+      "artist": "Soile Isokoski, Finnish Radio Symphony Orchestra & Hannu Lintu",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T02:34:18.543Z"
+    },
+    "Orchestral|36|28.14459|40.42647|Lintu The Blue Pearl Op.160 Kuula Prelude 㖈 Fugue Op.10": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ba/fa/58/bafa58ce-3c35-a049-eec4-f1645e926e87/761195127025.jpg/600x600bb.jpg",
+      "album": "Toivo Kuula: South Ostrobothnian Suites 1 & 2, Festive March, Op. 13 and Prelude & Fugue, Op. 10",
+      "artist": "Turku Philharmonic Orchestra & Leif Segerstam",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T02:34:21.787Z"
+    },
+    "Orchestral|36|28.2075|66.65166|Segerstam Prelude 㖈 Fugue Op.10 Rautavaara A Tapestry of Life": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/c1/25/ae/mzi.vbmugnfp.jpg/600x600bb.jpg",
+      "album": "Rautavaara: Before the Icons - A Tapestry of Life",
+      "artist": "Leif Segerstam",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T02:34:26.543Z"
+    },
+    "Orchestral|36|53.65749|15.07219|Rautavaara Autumn Gardens": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/67/0b/17/mzi.vktgjfcv.jpg/600x600bb.jpg",
+      "album": "Rautavaara: Piano Concerto No. 3, Autumn Gardens",
+      "artist": "Vladimir Ashkenazy & Helsinki Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T02:34:31.365Z"
+    },
+    "Concertos|2|4.36832|40.45443|fl.B.Kuijken/Lammon Flute Concerto e minor Kropfgans Lute Concerto c minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/2e/5a/bc/2e5abcf0-21c8-75d8-691d-2565b96d0ba0/V4HttpAssetRepositoryClient-ticket.ljjgmogb.jpg-1139328908707204176.jpg/600x600bb.jpg",
+      "album": "Music for Lute, Violin & Violincello",
+      "artist": "Giuliano Carmignola, Lutz Kirchhof & Francesco Galligioni",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T03:44:48.485Z"
+    },
+    "Concertos|2|4.44564|66.80143|Carmignola Lute Concerto c minor Heinichen Concert F Major S.234": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9e/d8/e1/9ed8e1a0-7d9f-a62a-834d-b04581ea1787/00028943754927.rgb.jpg/600x600bb.jpg",
+      "album": "Heinichen: Dresden Concerti",
+      "artist": "Musica Antiqua Köln & Reinhard Goebel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T03:51:42.821Z"
+    },
+    "Concertos|2|54.69207|15.15724|Stamitz Concerto for Flute 㖈Oboe G Major": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/51/c9/c551c949-067e-47a7-e7cb-7aa4bda50f05/8720604708233_cover.jpg/600x600bb.jpg",
+      "album": "Haydn & Stamitz",
+      "artist": "Ana de la Vega, Ramón Ortega Quero, Trondheim Soloists & Geir Inge Lotsberg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T03:35:38.881Z"
+    },
+    "Concertos|2|28.09577|40.40951|Albert Concert e minor S.222 Heinichen Oboe  Concert g minor S.237": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/49/ff/46/49ff46d5-067b-83a9-025d-227016448589/4015023243095.jpg/600x600bb.jpg",
+      "album": "Heinichen: Italian Cantatas & Concertos",
+      "artist": "Maria Friederike Schoder, Terry Wey & Batzdorfer Hofkapelle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T03:52:06.148Z"
+    },
+    "Concertos|2|27.99622|66.38216|Batzdorfer Hofkapelle Oboe  Concert g minor S.237 Heinichen Concert Movement c minor S.240": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/aa/2a/85aa2acb-8895-1922-284c-e78f55816c06/00028947912552.rgb.jpg/600x600bb.jpg",
+      "album": "Heinichen: Concerti grandi",
+      "artist": "Musica Antiqua Köln & Reinhard Goebel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T03:46:04.115Z"
+    },
+    "Concertos|2|28.59841|14.42833|Heinichen Concert e minor S.222": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/44/d9/16/44d916e3-4d83-e27e-8f4b-a5d52c483ebb/761203963720.jpg/600x600bb.jpg",
+      "album": "Heinichen: Dresden Wind Concertos",
+      "artist": "Thomas Albert & Fiori Musicali",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T03:51:52.174Z"
+    },
+    "Concertos|2|54.69207|66.05967|ci.Ottebsamer Clarinet Concerto No.7 Pleyel Clarinet Concerto C Major": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8f/bc/0d/8fbc0d92-3ae4-2dfa-240f-d53a7eb58df6/mzi.njawznxw.jpg/600x600bb.jpg",
+      "album": "Pleyel: Clarinet Concertos Nos. 1 and 2 - Sinfonia Concertante In B Flat Major",
+      "artist": "Sebastian Tewinkel, South West German Chamber Orchestra, Pforzheim, Dieter Klöcker & Sandra Arnold",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T03:56:19.894Z"
+    },
+    "Concertos|2|79.37558|15.20117|Pisendel Violin Concerto g minor": {
+      "url": "https://m.media-amazon.com/images/I/71bls2FCYQL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T03:57:28.828Z"
+    },
+    "Concertos|3|18.27988|23.30081|a minor TWV52:a1 Recorder Concerto Goebel Viola Concerto": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/fbea56989a13c4590e34a9263cc75f00/1000x1000-000000-80-0-0.jpg",
+      "album": "Telemann: Chamber Concertos",
+      "artist": "Musica Antiqua Köln",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T08:51:46.071Z"
+    },
+    "Concertos|3|3.99395|48.05972|D major TWV51:D7 Trumpet Concerto Kuijken Concerto F major": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/da/21/a9/da21a9c1-07f9-8e9e-8ff2-9e1fa15243ac/4015023243187.jpg/600x600bb.jpg",
+      "album": "Telemann: Trumpet & Horn Concertos",
+      "artist": "Jean-François Madeuf, Pierre-Yves Madeuf, La Petite Bande & Sigiswald Kuijken",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T04:58:25.832Z"
+    },
+    "Concertos|3|18.28158|48.10613|G major TWV51:G9 Viola Concerto Alte Musik Berlin Concerto A major": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/3175d67716bbf9981b59bc882c31ebcc/1000x1000-000000-80-0-0.jpg",
+      "album": "Georg Philipp Telemann: Viola Concertos - Overtures - Fantasias",
+      "artist": "Antoine Tamestit",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:15:29.658Z"
+    },
+    "Concertos|3|4.05652|72.89128|TWV53 Concerto F major Alte Musik Berlin": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/96/9c/bd969ce9-1b78-866a-a28d-af9c676c970a/5414939987915.png/600x600bb.jpg",
+      "album": "Telemann: Concerti per molti stromenti",
+      "artist": "Akademie für Alte Musik Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:16:04.149Z"
+    },
+    "Concertos|3|18.24083|72.94335|TWV53:A2 Concerto A major Florilegium": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/24/5d/d5/245dd59b-ed5e-f6f4-b9fb-1c4f710163ae/723385272083.png/600x600bb.jpg",
+      "album": "Telemann: Concerto in A Major from Tafelmusik, Pt. 1 - Bach: Non sa che sia dolore BWV 209 & Triple Concerto BWV 1044",
+      "artist": "Florilegium, Ashley Solomon & Lucy Crowe",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:16:24.426Z"
+    },
+    "Concertos|3|32.44429|72.90501|D major TWV54:D3 3 Trumpet Concerto Pinnock": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/fe080a669cd084af787c875b5ed0e575/1000x1000-000000-80-0-0.jpg",
+      "album": "Telemann: Concerto for 3 Trumpets in D Major; Tafelmusik, Pt. 2",
+      "artist": "The English Concert",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:16:32.232Z"
+    },
+    "Concertos|3|54.12774|15.1736|Quantz Flute Concerto a minor": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/a58b95552ec446e3a0abfcd5b63016b8/1000x1000-000000-80-0-0.jpg",
+      "album": "Johann Joachim Quantz: Flute Concertos",
+      "artist": "Greg Dikmans",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:16:37.487Z"
+    },
+    "Concertos|3|79.29518|14.757|Graupner Concerto B flat Major": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/a2c4219ba94489b328cce87e58d5cfbd/1000x1000-000000-80-0-0.jpg",
+      "album": "Graupner: Concertos & Overtures",
+      "artist": "Rien Voskuilen",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:17:15.402Z"
+    },
+    "Concertos|3|79.29518|66.06899|bn.Azzolini Basson Concerto c minor Nichelmann Harpsichord Concerto d minor": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/11832f09d21e1edbae8d3a721a295666/1000x1000-000000-80-0-0.jpg",
+      "album": "Nichelmann: Harpsichord Concerto in D Minor: I. Allegro",
+      "artist": "Philippe Grisvard",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:17:35.284Z"
+    },
+    "Concertos|4|4.00392|23.40493|Brandenburg Concertos BWV1046~51 Johann Sebastian Bach Goebel Violin Concertos BWV1041~43": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/fbef8ffbe71bbe6f7884beb30bf25913/1000x1000-000000-80-0-0.jpg",
+      "album": "Bach, J.S.: Brandenburg Concertos",
+      "artist": "Musica Antiqua Köln",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:17:40.855Z"
+    },
+    "Concertos|4|32.48311|23.31405|Zefiro": {
+      "url": "https://theclassicreview.com/wp-content/uploads/2018/09/Bach-Brandenburg-Zefiro-Amazon.webp",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:18:16.799Z"
+    },
+    "Concertos|4|18.37555|48.09516|Violin Concertos BWV1041~43 Alessandrini vn.Hahn Concerto for Keybord BWV1052~54": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/6bb7a0d4eff8a2f9fad94ddde98dff59/1000x1000-000000-80-0-0.jpg",
+      "album": "J.S. Bach: Violin Concertos",
+      "artist": "Hilary Hahn",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:18:30.019Z"
+    },
+    "Concertos|4|4.09987|48.10613|Violin Concertos BWV1041~43 Goebel vn.Manze/vn.Podger Concerto for Keybord BWV1052~54": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f2/87/f0/f287f0b3-3f39-fed6-fb1e-57a278244e2c/0093046715526.jpg/600x600bb.jpg",
+      "album": "J.S. Bach: Solo & Double Violin Concertos",
+      "artist": "Andrew Manze, Rachel Podger & Academy of Ancient Music",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:18:25.749Z"
+    },
+    "Concertos|4|4.04954|72.90631|Concerto for Keybord BWV1052~54 vn.Manze/vn.Podger p.Tharaud": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b5/6a/0a/b56a0a06-57a5-7516-1684-9851358a62fe/dj.eojhiaao.jpg/600x600bb.jpg",
+      "album": "J.S. Bach: Piano Concertos BWV1052, 1054, 1056, 1058, 1065",
+      "artist": "Alexandre Tharaud, Bernard Labadie & Les Violons du Roy",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:18:54.446Z"
+    },
+    "Concertos|4|18.33838|72.92101|Concerto for Keybord BWV1052~54 vn.Hahn cemb.Staier": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/ad3d1f9f2a63790fcb67fc090cb8ccf6/1000x1000-000000-80-0-0.jpg",
+      "album": "J. S. Bach: Harpsichord Concertos",
+      "artist": "Andreas Staier",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:19:00.233Z"
+    },
+    "Concertos|4|53.30761|23.41811|D Major BWV1064r Triple Concerto Freiburger Baroque Concerto 4 Pianos": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c0/1a/21/c01a2124-b25a-d0c6-57e9-45e663458d4f/3149020214527.jpg/600x600bb.jpg",
+      "album": "Bach: Violin Concertos",
+      "artist": "Freiburger Barockorchester, Petra Müllejans, Gottfried von der Goltz & Anne Katharina Schreiber",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:20:18.048Z"
+    },
+    "Concertos|4|67.76165|47.9202|d minor BWV1063 Concerto 3 Pianos p.Koroliov etc.": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5b/1d/39/5b1d3921-a8db-1c11-93fe-8e237b9d43c0/3760014194467.png/600x600bb.jpg",
+      "album": "Bach: Concertos for Pianos",
+      "artist": "Anna Vinnitskaya, Ljupka Hadzi Georgieva, Evgeni Koroliov & Kammerakademie Potsdam",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:22:22.666Z"
+    },
+    "Concertos|4|82.06931|47.8161|c minor BWV1060 Concerto 2 Pianos Ensemble Masques": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/7c/82/ac7c82ff-c1b6-7802-d55a-169c8069b21a/3760014195723.png/600x600bb.jpg",
+      "album": "Bach: Concertos for Two Harpsichords",
+      "artist": "Ensemble Masques, Olivier Fortin & Emmanuel Frankenberg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:22:28.752Z"
+    },
+    "Concertos|5|4.5484|14.50013|C.P.E.Bach Oboe Concerto E flat": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/58/0b/91/580b9128-1245-41c5-3264-4f90007ff120/3149020938959.png/600x600bb.jpg",
+      "album": "C.P.E. Bach: Oboe Concertos",
+      "artist": "Akademie für Alte Musik Berlin & Xenia Löffler",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:22:35.600Z"
+    },
+    "Concertos|5|54.05838|66.7199|Hastead Concerto E flat Major J.C.Bach Keybord Concerto D Op.7-3": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bc/a6/8f/bca68f13-2ede-a7cf-395a-6ca605e2da75/22UMGIM92958.rgb.jpg/600x600bb.jpg",
+      "album": "Bach, J.C.: Keyboard Concertos, Opp. 1 & 7",
+      "artist": "Ingrid Haebler, Capella Academica Wien & Eduard Melkus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:27:11.650Z"
+    },
+    "Concertos|5|79.03971|40.57283|Il Convito Concerto f minor F.45 W.F.Bach Cembalo Concerto e minor F.43": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/63/d0/48/mzi.ejtkncdd.jpg/600x600bb.jpg",
+      "album": "W.F. Bach: Symphonies & Concertos",
+      "artist": "Akademie für Alte Musik Berlin & Stephan Mai",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:27:45.401Z"
+    },
+    "Concertos|6|4.90627|41.10547|vc.Queyras Cello Concerto g minor Wranitzky Violn Concerto C Major": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/61ed0e770d959cfe17adc8c4fdbfbff8/1000x1000-000000-80-0-0.jpg",
+      "album": "A. Wranitzky: Violin Concerto - P. Wranitzky: Cello Concerto & Symphony in D Major",
+      "artist": "Münchener Kammerorchester",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:14:23.937Z"
+    },
+    "Concertos|6|5.03812|66.69512|Griffiths Violn Concerto C Major Hoffmeister Violin Concerto D Mjor": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/83a9dd557ab5c37c2b12cb0c49e6afaf/1000x1000-000000-80-0-0.jpg",
+      "album": "Hoffmeister, Stamitz & M. Haydn: Viola Concertos",
+      "artist": "Andra Dārziņa",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:14:36.555Z"
+    },
+    "Concertos|6|28.2839|40.94542|Musica Viva Cello Concerto a minor Eberl Concerto for 2 Piano B flat Major Op.45": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/7fb0dcda38ab42cf5d025612e71504a2/1000x1000-000000-80-0-0.jpg",
+      "album": "Eberl: Concerto for 2 Pianos & Sonatas for Piano 4 Hands",
+      "artist": "Paolo Giacometti",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:40:49.319Z"
+    },
+    "Concertos|6|54.00835|41.13392|Moesus Concerto G Major Op.8 Spohr Clarinet Concerto No.4 WoO20": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/f559b528d3cf4add244a331d0b8a6980/1000x1000-000000-80-0-0.jpg",
+      "album": "Spohr, Nielsen & Debussy: Clarinet Concertos & Rhapsody",
+      "artist": "Dionysis Grammenos",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:43:07.959Z"
+    },
+    "Concertos|6|53.77387|66.75223|ob.Grammenos Concerto No.4 WoO20 Lebrun Flute Concerto No.1": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/2534926843883e1db1912f33374613e9/1000x1000-000000-80-0-0.jpg",
+      "album": "Lebrun, Haydn: 6 Concertos pour flûte (Première intégrale mondiale)",
+      "artist": "Andras Adorjan",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:44:00.592Z"
+    },
+    "Concertos|6|78.85841|66.56491|fp.Brautigam Concerto E Major Op.3 Dussek 2  Fortepiano Concerto B flat Major Op.63": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/569b35fd24a6d88d507ff9597906ebeb/1000x1000-000000-80-0-0.jpg",
+      "album": "Beethoven's World - Eberl, Dussek: Concertos for 2 Pianos",
+      "artist": "Tal & Groethuysen",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:44:54.976Z"
+    },
+    "Concertos|7|18.38749|23.63143|Cello Concerto No.1 㖈 2 Franz Joseph Haydn vc.Moreau/Minasi Piano Concerto": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/ef/62/90/ef629018-4662-91d0-0297-e8863c355b7b/825646052516.jpg/600x600bb.jpg",
+      "album": "Giovincello",
+      "artist": "Edgar Moreau, Il Pomo d'Oro & Riccardo Minasi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:51:27.917Z"
+    },
+    "Concertos|7|3.99395|48.00749|D Major H.18/11 Piano Concerto p.Tharaud/Labadie Violin Concerto": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/38/48/2d/38482d78-d5de-d6a8-1ebf-543b4d6c2ab9/825646262380.jpg/600x600bb.jpg",
+      "album": "Mozart: Piano Concerto No. 9, \"Jeunehomme\" - Haydn: Piano Concerto No. 11",
+      "artist": "Alexandre Tharaud & Joyce DiDonato",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:52:02.275Z"
+    },
+    "Concertos|7|18.32087|48.03376|G Major H.18/3 㖈 4 Piano Concerto p.Hamelin/Labadie Trumpet Concerto": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1a/14/1d/1a141d61-d28c-3ce7-c903-5242a8307ab2/23UMGIM97152.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: Piano Concertos Nos. 3, 4 & 11",
+      "artist": "Marc-André Hamelin, Les Violons du Roy & Bernard Labadie",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:52:11.563Z"
+    },
+    "Concertos|7|4.04954|72.90631|C Major H.7a/1 Violin Concerto Gli Incogniti": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5d/cf/be/5dcfbee5-ce7c-271d-e12d-f538648c6367/3149020935514.png/600x600bb.jpg",
+      "album": "Haydn: Concerti per Esterházy",
+      "artist": "Amandine Beyer, Gli Incogniti & Marco Ceccato",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:53:08.313Z"
+    },
+    "Concertos|7|32.52707|72.90631|C Major H. 18/2 Organ Concerto Koopman": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/16/79/f3/1679f33f-2be9-c9e1-561c-53715200ef55/00028941645227.rgb.jpg/600x600bb.jpg",
+      "album": "Haydn: The 6 Organ Concertos",
+      "artist": "Ton Koopman & The Amsterdam Baroque Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:53:40.406Z"
+    },
+    "Concertos|7|55.28175|14.54687|Schobert Fortepiano Concerto No.3 C Major": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/040f6f1b17cfe5e23a9262c8822b1ac0/1000x1000-000000-80-0-0.jpg",
+      "album": "Schobert, Schröter & Dussek: Fortepiano Concertos",
+      "artist": "Fania Chapiro",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:53:45.952Z"
+    },
+    "Concertos|7|55.31571|40.87349|Faina Chapiro Concerto No.3 C Major Romberg Violin Concerto No.12 g minor": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/c14ccd59103908c1d17aaca77c37097b/1000x1000-000000-80-0-0.jpg",
+      "album": "Romberg: Violin Concertos",
+      "artist": "Chouchane Siranossian",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:53:50.967Z"
+    },
+    "Concertos|7|55.28175|67.15795|vn.Siranossian Concerto No.12 g minor Ries Violin Concerto e minoe Op.24": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/cd2601a79227f2fcb98700b9a2e38335/1000x1000-000000-80-0-0.jpg",
+      "album": "Ries, F.: Concerto for 2 Horns, Woo 19 / Violin Concerto No. 1 / Overtures To Die Rauberbraut and The Sorceress",
+      "artist": "Michael Alexander Willens",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:53:56.867Z"
+    },
+    "Concertos|7|79.23191|14.54687|M.Haydn Trumpet Concerto C Major MH60": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/14/1b/76/141b76dc-9acb-dc3c-f8e6-21190a93a936/761203753826.jpg/600x600bb.jpg",
+      "album": "Michael Haydn: Complete Wind Concertos, Vol. 2",
+      "artist": "Salzburger Hofmusik & Wolfgang Brunner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:54:03.433Z"
+    },
+    "Concertos|7|79.23191|40.35657|tp.Hofmusik Concerto C Major MH60 M.Haydn Horn Concerto C Major MH60": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/aa/f4/33/aaf4336f-97b3-a4f9-e35e-e6089202c4a9/723385302100.png/600x600bb.jpg",
+      "album": "Joseph & Michael Haydn",
+      "artist": "Jasper de Waal & Concertgebouw Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:54:10.127Z"
+    },
+    "Concertos|8|18.60886|23.63738|C Major, K.246 Piano Concerto No.8 fp.Immerseel Concerto for 2 Pianos": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b8/82/00/b8820027-42a8-d5cd-14a0-8c937f984e08/723385069027.png/600x600bb.jpg",
+      "album": "Mozart: Clavier-Concerte 8, 28 &12",
+      "artist": "Anima Eterna Brugge & Jos van Immerseel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:55:20.037Z"
+    },
+    "Concertos|8|4.64846|48.1106|cemb.Dreyfus/Melkus fp.Pashchenko Piano Concerto No.12": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/9b/db/c19bdbb7-6675-bae9-593c-f95286ee6088/3760014197260.png/600x600bb.jpg",
+      "album": "Mozart: Piano Concertos 9 & 17",
+      "artist": "Olga Pashchenko & Il Gardellino",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T09:55:38.314Z"
+    },
+    "Concertos|8|32.98428|48.46143|p.Serkin/Abbado p.Previn/Larrocha Piano Concerto No.14": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/745f96f69d545fe1ae1f1ed0663f3fc4/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Concerto for Two Pianos and Orchestra in E-Flat Major, K. 365 & Sonata for Two Pianos in D Major, K. 448",
+      "artist": "André Previn",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:55:49.912Z"
+    },
+    "Concertos|8|4.54137|73.45683|A Major K.414 Piano Concerto No.12 p.Bavouzet/Nagy": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/3b36e89ce92fce0b08bc2a1815e1aab0/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart Piano Concertos 11, 12, & 13",
+      "artist": "Jean-Efflam Bavouzet",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:56:00.023Z"
+    },
+    "Concertos|8|33.00672|73.45683|E flat Major K.449 Piano Concerto No.14 p.Bavouzet/Nagy": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/9afecb0b2dfc8cac153b1da328523de6/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos, Vol. 2",
+      "artist": "Jean-Efflam Bavouzet",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:46:29.614Z"
+    },
+    "Concertos|8|82.39747|23.63073|fp.Staier": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/48/85/2c/mzi.wusjkzpd.jpg/600x600bb.jpg",
+      "album": "Mozart: Piano Concertos Nos. 9 & 17",
+      "artist": "Andreas Staier & Concerto Köln",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:47:35.726Z"
+    },
+    "Concertos|8|82.51581|48.83604|fp.Staier p.Bavouzet/Nagy": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/9afecb0b2dfc8cac153b1da328523de6/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos, Vol. 2",
+      "artist": "Jean-Efflam Bavouzet",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:47:58.119Z"
+    },
+    "Concertos|8|68.31298|74.0364|p.Pollini/Bohm p.Gulda/Abbado": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/3f9b5493cc6aef69156c6c0a83eaf200/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos. 20 & 21",
+      "artist": "Friedrich Gulda",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:48:22.150Z"
+    },
+    "Concertos|9|4.62383|23.96021|C Major K.467 Piano Concerto No.21 p.Gulda/Abbado Piano Concerto No.23": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/3f9b5493cc6aef69156c6c0a83eaf200/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos. 20 & 21",
+      "artist": "Friedrich Gulda",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:49:02.606Z"
+    },
+    "Concertos|9|32.92128|48.53482|p.Serkin/Abbado p.Horowitz/Giulini": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/c8c174caf2c1a22e0b337a9e17c5dea6/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concerto No. 23 K. 488; Piano Sonata K. 333",
+      "artist": "Vladimir Horowitz",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:50:45.950Z"
+    },
+    "Concertos|9|18.82942|73.05228|p.Grimaud p.Haskil/Markevitch": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/97830f178d1aa87093b7fdbde6d57c2a/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: 4 Violin Sonatas for Piano and Violin, Nos.18, 21, 24 & 26",
+      "artist": "Clara Haskil",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:51:01.520Z"
+    },
+    "Concertos|9|53.79832|23.92885|C Major K.503 Piano Concerto No.25 p.Gulda/Abbado Piano Concerto No.27": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/50e5b3da00185ad71d4d9135c8440cbc/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos. 25 & 27",
+      "artist": "Friedrich Gulda",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:51:13.451Z"
+    },
+    "Concertos|9|68.22438|48.5472|p.Gulda/Harnoncourt p.Haskil": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ee/57/05/ee57056a-7acd-cf30-eff3-a857da6f4d0c/00028944972221.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Piano Concertos Nos. 19 & 27 and Piano Sonata K. 280",
+      "artist": "Bavarian State Orchestra & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T11:01:01.782Z"
+    },
+    "Concertos|9|53.74354|72.89908|Violin Concerto No.1~5 p.Gieles/Bohm vn.Faust/Antonini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/a2/13/7d/a2137d42-e5c8-9900-4a43-8b34000c1006/3149020223024.png/600x600bb.jpg",
+      "album": "Mozart: Violin Concertos",
+      "artist": "Isabelle Faust, Il Giardino Armonico & Giovanni Antonini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T11:01:37.316Z"
+    },
+    "Concertos|9|67.96164|72.8828|Violin Concerto No.1~5 p.Haskil vn.Capucon": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/b1dcef44cf05f59891aa3a506ed14d16/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: The Violin Concertos",
+      "artist": "Renaud Capuçon",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T11:01:43.728Z"
+    },
+    "Concertos|9|82.32702|74.17143|p.Pires/Abbado vn.Kavakos": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/e711f5268a0e45b77dc77ac76b9b82a1/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart Violin Concertos",
+      "artist": "Leonidas Kavakos",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T11:01:50.311Z"
+    },
+    "Concertos|10|18.82574|48.88905|vn.Grumiaux/C.Davis vn.Kremer/va.Kashikasian": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8f/12/90/8f1290d0-29fe-10fe-8a82-68420b6a1ae0/00028941346124.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Sinfonia Concertante, K. 364 - Violin Concerto No. 1",
+      "artist": "Vienna Philharmonic & Nikolaus Harnoncourt",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T05:42:50.371Z"
+    },
+    "Concertos|10|68.60525|73.92534|cl.Wlach bn.Santana/Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/45/aa/0d/45aa0d65-dff2-f02e-4b68-9639d45d8655/12UMGIM14349.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: Clarinet Concerto, Flute Concerto No. 2 & Bassoon Concerto",
+      "artist": "Orchestra Mozart & Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T05:43:36.557Z"
+    },
+    "Concertos|10|4.62383|23.96021|G Major K.216 Violin Concerto No.3 vn.Martzy/Jochum Sinfonia Concertante": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2JvnhFR2n9HAkzSpzfWtV5rON6Wzh_7gYZkdk6o556A&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T11:02:16.752Z"
+    },
+    "Concertos|3|54.53647|65.93602|fl.Kussenko Concerto D Major Cartellieri Clarinet Concerto No.3 E flat": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/e9759d5f9346174e702a204c006d24df/1000x1000-000000-80-0-0.jpg",
+      "album": "Cartellieri: Concertos for Clarinet and Orchestra Vol. 1",
+      "artist": "Dieter Klocker",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:17:10.556Z"
+    },
+    "Concertos|4|18.27988|23.37906|Brandenburg Concertos BWV1046~51 Johann Sebastian Bach Alessandrini Violin Concertos BWV1041~43": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/aa20365a5b5f1f8a13210e35b41d0aca/1000x1000-000000-80-0-0.jpg",
+      "album": "Bach: Brandenburg Concertos",
+      "artist": "Concerto Italiano",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:17:45.768Z"
+    },
+    "Concertos|6|4.97676|15.23501|Moon Cello Concerto g minor": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/e5efd4c93d9463eca1d629a157795d19/1000x1000-000000-80-0-0.jpg",
+      "album": "Haydn: Cello Concertos Nos. 1 & 2 - Monn: Cello Concerto (Remastered)",
+      "artist": "Freiburger Barockorchester",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:08:02.512Z"
+    },
+    "Concertos|6|28.2839|15.18686|Hartel Cello Concerto a minor": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/25a695bd4b8a9f2d6bf940df82f1b0ad/1000x1000-000000-80-0-0.jpg",
+      "album": "Hasse, CPE Bach & Hertel: Cello Concertos",
+      "artist": "Musica Viva",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:14:43.104Z"
+    },
+    "Orchestral|37|4.302|15.20879|Sallinen Chamber Music No.3": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/b8/1c/32/b81c323a-ec90-6cc0-80f3-7811e4bd0ba7/761195125625.jpg/600x600bb.jpg",
+      "album": "Sallinen: Chamber Music",
+      "artist": "Various Artists",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T02:49:56.613Z"
+    },
+    "Concertos|3|32.48311|23.3666|e minor TWV52:e1 Recorder Concerto Ensemble1700 Oboe Concerto": {
+      "url": "https://contents.kyobobook.co.kr/sih/fit-in/375x0/music/large/2744/2447231.jpg?t=2988774",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T05:35:45.447Z"
+    },
+    "Concertos|19|4.70286|14.77961|Webern Concerto for 9 Instruments Op.24": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/cf86d3435a537cee08180bf1da83e7ec/1000x1000-000000-80-0-0.jpg",
+      "album": "Boulez conducts Webern",
+      "artist": "Ensemble Intercontemporain",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:44:02.264Z"
+    },
+    "Concertos|19|4.7944|41.13392|Boulez for 9 Instruments Op.24 Hindemith Violin Concerto": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/c57ec753a865d7d4d877efaf9585c928/1000x1000-000000-80-0-0.jpg",
+      "album": "Hindemith: Violin Sonatas & Concerto",
+      "artist": "Frank Peter Zimmermann",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:44:33.179Z"
+    },
+    "Concertos|7|4.13986|23.63143|Cello Concerto No.1 㖈 2 Franz Joseph Haydn vc.Poltera Piano Concerto": {
+      "url": "https://i.scdn.co/image/ab67616d0000b27351e226e84715127a30945a0f",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T09:51:18.952Z"
+    },
+    "Concertos|7|32.39573|23.40409|vc.Yo ㎿Yo Ma Sinfonia Concertante": {
+      "url": "https://m.media-amazon.com/images/I/61bhXXGkwrL.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T09:51:54.696Z"
+    },
+    "Concertos|7|32.54677|48.05972|H.1/105 Sinfonia Concertante Cohen Organ Concerto": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0004417010/front/400/oml05HYc2d0w_4X1RRedexyhM-OFI8zG4l-qVpXXB1I=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T09:53:01.401Z"
+    },
+    "Concertos|7|18.22051|72.90631|E flat Major H.7e/1 Trumpet Concerto tp.Hardenberger/Marriner": {
+      "url": "https://m.media-amazon.com/images/I/91joLdwWgQL._AC_UL450_SY450_QL70_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T09:53:28.748Z"
+    },
+    "Concertos|7|79.23191|67.15795|hr.Waal Concerto C Major MH60 Danzi Concertante B flat Major Op.41": {
+      "url": "https://i.ebayimg.com/00/s/NTAwWDUwMA==/z/ZucAAOSwenBghums/$_57.JPG",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T09:54:34.336Z"
+    },
+    "Concertos|8|4.48108|23.63143|F Major, K.242 Concerto for 3 Pianos cemb.Dreyfus/Melkus": {
+      "url": "https://i.discogs.com/0EJuLAqbvRZMMUG7-0tBcMIq3dATRJ9Go0dCjSXEE78/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzMDMy/NDMtMTYzMTIxNjMx/Mi05MDg0LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T09:55:09.340Z"
+    },
+    "Concertos|8|32.74768|23.63143|E flat Major, K.271 Piano Concerto No.9 p.Serkin/Abbado": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/308f4e5f76b414316a03bcd198259ad9/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos.9 \"Jeunehomme\" & 17",
+      "artist": "London Symphony Orchestra",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:55:31.803Z"
+    },
+    "Concertos|8|18.81722|48.1106|E flat Major, K.365 Concerto for 2 Pianos Jussen Piano Concerto No.13": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/916bbb340a08ee40c4b6b0decb10ca9e/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart Double Piano Concertos",
+      "artist": "Lucas Jussen",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T09:55:44.148Z"
+    },
+    "Concertos|8|18.81546|73.45683|C Major K.415 Piano Concerto No.13 p.Cave/Alessandrini": {
+      "url": "https://cdn.outhere-music.com/outhere.prod/public/styles/col4_mobile/public/imported/albums/mozart-piano-concertos-k-415-175--503-alpha243-20260306054221-front.jpg?itok=yoZMfEMx",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:46:23.984Z"
+    },
+    "Concertos|4|32.56624|72.86894|vn.Bobesco cemb.Hantai": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273440eec696fa1ccdcc065d494",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:19:56.780Z"
+    },
+    "Concertos|4|67.54968|23.38025|c minor BWV1060r Concerto Oboe 㖈Violin Pinnock Concerto 3 Pianos": {
+      "url": "https://m.media-amazon.com/images/I/51en4br23rL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:21:13.139Z"
+    },
+    "Concertos|4|81.92181|23.38025|A Major BWV1055r Concerto Oboe Ogrinchouk Concerto 2 Pianos": {
+      "url": "https://image.yes24.com/goods/4698389/XL",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:21:47.734Z"
+    },
+    "Concertos|4|53.38952|47.9463|a minor BWV1065 Concerto 4 Pianos p.Beroff/Collard….": {
+      "url": "https://i.ebayimg.com/images/g/SmUAAOSwAgVl~fQ0/s-l400.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:22:15.941Z"
+    },
+    "Concertos|5|4.63375|40.85319|Alte Musik Berlin Oboe Concerto E flat C.P.E.Bach Cello Concerto A Major": {
+      "url": "https://image.yes24.com/momo/TopCate0010/hani/L_476911.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:23:03.173Z"
+    },
+    "Concertos|5|4.54419|66.89486|vc.Mork/Labadie Cello Concerto A Major C.P.E.Bach Cembalo Concerto g minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5xQYCK-rycgrd4DVQqgvExaIMTYSxDckbPa-MirT0Zw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:23:34.910Z"
+    },
+    "Concertos|5|28.88009|14.36038|J.C.Bach ㏙W.F.Bach㏚ Cembalo Concerto f minor": {
+      "url": "https://c02.purpledshub.com/uploads/sites/43/2020/05/CD_0190294888466_Bach_CMYK-a70ab07.jpg?w=1200&webp=1",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:24:43.386Z"
+    },
+    "Concertos|5|28.64779|40.44742|Rondeau Cembalo Concerto f minor J.C.Bach Cembalo Concerto d minor": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEhVCIAiQEnr3_ZnyPdP8PAPszlLbMKxygdLCNEMabQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:25:08.753Z"
+    },
+    "Concertos|5|28.60347|66.85011|Hastead Cembalo Concerto d minor J.C.Bach Sinfonia Concertante D Major W.C35": {
+      "url": "https://m.media-amazon.com/images/I/41bGjThLdcL._UXNaN_FMjpg_QL85_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:25:35.396Z"
+    },
+    "Concertos|5|54.21428|14.50013|J.C.Bach Cello Concerto in c minor": {
+      "url": "https://m.media-amazon.com/images/I/91tsJ5pgg3L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:25:59.372Z"
+    },
+    "Concertos|5|53.79189|40.45443|vc.Radutiu Cello Concerto in c minor J.C.Bach Keybord Concerto E flat Major": {
+      "url": "https://i.scdn.co/image/ab67616d0000b2733a1b092e4cdd5f6d3e02b9d9",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:26:57.749Z"
+    },
+    "Concertos|5|78.81952|14.58976|W.F.Bach Cembalo Concerto f minor F.45": {
+      "url": "https://image.yes24.com/goods/23258377/XL",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:27:30.109Z"
+    },
+    "Concertos|5|79.14584|66.63875|Akademie fur Alte Musik Berlin Concerto e minor F.43 W.F.Bach Flute Concerto D Major": {
+      "url": "https://image.yes24.com/goods/3249493/XL",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:28:29.271Z"
+    },
+    "Concertos|6|28.5026|66.85807|Giacometti 2 Piano B flat Major Op.45 L.Mozart Trumpet Concerto E flat Major": {
+      "url": "https://m.media-amazon.com/images/I/A1cFFWus7BL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:43:16.557Z"
+    },
+    "Concertos|6|53.9243|15.09226|Witt Flute Concerto G Major Op.8": {
+      "url": "https://m.media-amazon.com/images/I/81Z23MnI3kL._AC_UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:43:52.525Z"
+    },
+    "Concertos|6|78.52007|41.13392|cl/Klocker Concerto E flat Major Wilms Piano Concerto E Major Op.3": {
+      "url": "https://coverartarchive.org/release-group/c2929df7-5683-44e0-bfb6-7c73632ae310/front-500",
+      "album": "Wilms: The Piano Concertos, Vol. 1",
+      "artist": "Johann Wilhelm Wilms",
+      "source": "MusicBrainz",
+      "approvedAt": "2026-11-05T10:44:49.389Z"
+    },
+    "Concertos|8|53.65521|23.52559|B flat Major K.450 Piano Concerto No.15 p.Michelangeli/Garben Piano Concerto No.18": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDipYDmqLoXViyrbeOdq7waa4XTLwUcv0WHVeTXqi0G-mZ6EjFXcZqt7k&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:47:14.422Z"
+    },
+    "Concertos|8|68.19513|23.5413|G Major K.453 Piano Concerto No.17 p.Serkin/Abbado Piano Concerto No.19": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/308f4e5f76b414316a03bcd198259ad9/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos.9 \"Jeunehomme\" & 17",
+      "artist": "London Symphony Orchestra",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:47:23.669Z"
+    },
+    "Concertos|8|53.926|48.85395|B flat Major K.415 Piano Concerto No.18 p.Serkin/Abbado Piano Concerto No.20": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/fa4d3f5838ae549020433b5d43bdda87/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos.18 & 24",
+      "artist": "Rudolf Serkin",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:47:43.876Z"
+    },
+    "Concertos|8|68.1757|48.76162|F Major K.459 Piano Concerto No.19 p.Pollini/Bohm": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/548e09b177fc9ebbeb5b9a935250daae/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos. 23 & 19",
+      "artist": "Maurizio Pollini",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:47:50.176Z"
+    },
+    "Concertos|8|53.98604|74.0364|d minor K.466 Piano Concerto No.20 p.Haskil/Markevitch": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4b/7d/70/4b7d704f-6341-3684-a0c5-c532e4e1ff5f/00028941225320.rgb.jpg/600x600bb.jpg",
+      "album": "Mozart: 4 Violin Sonatas for Piano and Violin, Nos. 18, 21, 24 & 26",
+      "artist": "Clara Haskil & Arthur Grumiaux",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-05T10:48:14.718Z"
+    },
+    "Concertos|8|82.48705|74.0364|p.Bavouzet/Nagy p.Shiraga ㏙arr.Hummel㏚": {
+      "url": "https://m.media-amazon.com/images/I/81rLHVxndGL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:48:52.575Z"
+    },
+    "Concertos|9|18.79401|23.96021|Wolfgang Amadeus Mozart p.Anda": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/d74abc26c43bccbbac38a3367328f9ec/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos.6, 17 & 21",
+      "artist": "Géza Anda",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:49:11.817Z"
+    },
+    "Concertos|9|33.01497|24.09372|E flat Major K.482 Piano Concerto No.22 p.Serkin/Abbado": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7znr7RvspZ1ux04dJYabgB4neb6j9a2Y3z6_Wa0zFAyRfv3f6pM0_8mY&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:50:00.281Z"
+    },
+    "Concertos|9|4.41117|48.63502|A Major K.488 Piano Concerto No.23 p.Sokolov Piano Concerto No.24": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsdPwAR7mZC2jDYBjiOzZ6j-171fmreZCnt56OHg5oQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:50:39.218Z"
+    },
+    "Concertos|9|4.44505|73.07859|c minor K.491 Piano Concerto No.24 p.Serkin/Abbado": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/fa4d3f5838ae549020433b5d43bdda87/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concertos Nos.18 & 24",
+      "artist": "Rudolf Serkin",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:50:54.018Z"
+    },
+    "Concertos|9|32.98054|72.98718|p.Horowitz/Giulini p.Blechacz / Nagano": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/ce8c967c19c3e641364b32fb1aeb4249/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: Piano Concerto No. 24 in C Minor — Beethoven: Piano Concerto No. 3 in C Minor; 32 Variations in C Minor",
+      "artist": "Rafał Blechacz",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:51:08.603Z"
+    },
+    "Concertos|9|68.18336|23.92885|D Major K.537 Piano Concerto No.26 p.Gulda/Harnoncourt": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRHqUHFVyXOeb8H2yEY9qzFz0v4NCzvN3BXtiI21u8Sw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T10:59:39.490Z"
+    },
+    "Concertos|9|82.47795|23.92885|p.Haebler/Rowicki": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/6e1bb9f8d356e4c05138abc892ec84bb/1000x1000-000000-80-0-0.jpg",
+      "album": "Mozart: The Complete Piano Sonatas",
+      "artist": "Ingrid Haebler",
+      "source": "Deezer",
+      "approvedAt": "2026-11-05T10:59:48.822Z"
+    },
+    "Concertos|9|82.54161|48.54721|p.Haebler/Rowicki p.Pires/Abbado": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAyQoESJ3aeeGo7WDy7oany69dAglNiEBdBWxjVApMEg&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-05T11:01:29.024Z"
     }
   },
   "edits": {
@@ -17973,6 +18799,62 @@
       "performer": "Vanska",
       "searchQuery": "Jean Sibelius Vanska",
       "updatedAt": "2026-11-04T13:57:44.981Z"
+    },
+    "Orchestral|36|4.26274|15.0077|Klami Kalevala Suite": {
+      "composer": "Klami",
+      "work": "Kalevala Suite",
+      "performer": "Eschenbach",
+      "searchQuery": "Klami Eschenbach",
+      "updatedAt": "2026-11-05T02:33:56.139Z"
+    },
+    "Orchestral|36|4.2238|40.91628|Eschenbach Kalevala Suite Klami Sea Pictures": {
+      "composer": "Klami",
+      "work": "Sea Pictures",
+      "performer": "Sakari",
+      "searchQuery": "Klami Sakari",
+      "updatedAt": "2026-11-05T02:34:01.548Z"
+    },
+    "Orchestral|36|4.26274|66.67512|Sakari Sea Pictures Aho Symphonic Dances": {
+      "composer": "Aho",
+      "work": "Symphonic Dances",
+      "performer": "Vanska",
+      "searchQuery": "Aho Vanska",
+      "updatedAt": "2026-11-05T02:34:16.243Z"
+    },
+    "Orchestral|36|28.13123|15.16531|Melartin The Blue Pearl Op.160": {
+      "composer": "Melartin",
+      "work": "The Blue Pearl Op.160",
+      "performer": "Lintu",
+      "searchQuery": "Melartin Lintu",
+      "updatedAt": "2026-11-05T02:34:19.626Z"
+    },
+    "Orchestral|36|28.14459|40.42647|Lintu The Blue Pearl Op.160 Kuula Prelude 㖈 Fugue Op.10": {
+      "composer": "Kuula",
+      "work": "Prelude Fugue Op.10",
+      "performer": "Segerstam",
+      "searchQuery": "Kuula Segerstam",
+      "updatedAt": "2026-11-05T02:34:22.843Z"
+    },
+    "Orchestral|36|28.2075|66.65166|Segerstam Prelude 㖈 Fugue Op.10 Rautavaara A Tapestry of Life": {
+      "composer": "Rautavaara",
+      "work": "A Tapestry of Life",
+      "performer": "Segerstam",
+      "searchQuery": "Rautavaara Segerstam",
+      "updatedAt": "2026-11-05T02:34:27.726Z"
+    },
+    "Concertos|10|83.00445|73.7228|C Major K.314 Oboe Concerto ob.Ogrintchouk": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "",
+      "performer": "Ogrintchouk",
+      "searchQuery": "Wolfgang Amadeus Mozart Ogrintchouk",
+      "updatedAt": "2026-11-05T05:44:26.457Z"
+    },
+    "Concertos|10|4.62383|23.96021|G Major K.216 Violin Concerto No.3 vn.Martzy/Jochum Sinfonia Concertante": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "",
+      "performer": "Martzy/Jochum Sinfonia Concertante E flat Major K.364",
+      "searchQuery": "Wolfgang Amadeus Mozart Martzy",
+      "updatedAt": "2026-11-05T06:02:48.666Z"
     }
   },
   "favorites": {
@@ -18981,7 +19863,19 @@
     "Orchestral|35|82.48478|48.15333|Luonnotar Op.70 P.Jarvi P.Jarvi The Oceanides Op.73": false,
     "Orchestral|35|53.79772|73.0144|Rakastava Op.14 Saraste Gardner": false,
     "Orchestral|35|68.15047|73.0144|King Christian II Op.27 Vanska Rouvali": false,
-    "Orchestral|35|82.47806|72.96575|The Oceanides Op.73 P.Jarvi Vanska": false
+    "Orchestral|35|82.47806|72.96575|The Oceanides Op.73 P.Jarvi Vanska": false,
+    "Orchestral|36|4.26274|15.0077|Klami Kalevala Suite": false,
+    "Orchestral|36|4.2238|40.91628|Eschenbach Kalevala Suite Klami Sea Pictures": false,
+    "Orchestral|36|4.26274|66.67512|Sakari Sea Pictures Aho Symphonic Dances": false,
+    "Orchestral|36|28.13123|15.16531|Melartin The Blue Pearl Op.160": true,
+    "Orchestral|36|28.14459|40.42647|Lintu The Blue Pearl Op.160 Kuula Prelude 㖈 Fugue Op.10": false,
+    "Orchestral|36|28.2075|66.65166|Segerstam Prelude 㖈 Fugue Op.10 Rautavaara A Tapestry of Life": false,
+    "Concertos|2|54.69207|40.62965|Vega/Quero Flute 㖈Oboe G Major Stamitz Clarinet Concerto No.7": false,
+    "Concertos|5|4.63375|40.85319|Alte Musik Berlin Oboe Concerto E flat C.P.E.Bach Cello Concerto A Major": true,
+    "Concertos|10|4.62383|23.96021|G Major K.216 Violin Concerto No.3 vn.Martzy/Jochum Sinfonia Concertante": false,
+    "Concertos|10|33.2214|23.96021|A Major K.219 Violin Concerto No.5 vn.Schneiderhan/Jochum Sinfonia Concertante": false,
+    "Concertos|3|4.03699|23.40493|e minor TWV52:e3 Flute Concerto Kuijken Trumpet Concerto": false,
+    "Concertos|3|18.27988|23.30081|a minor TWV52:a1 Recorder Concerto Goebel Viola Concerto": false
   },
   "added": {},
   "removed": {
