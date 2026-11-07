@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-07T08:17:48.153Z",
+  "createdAt": "2026-11-07T10:02:41.155Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -30375,6 +30375,461 @@
       "artist": "",
       "source": "Manual image URL",
       "approvedAt": "2026-11-07T08:17:33.149Z"
+    },
+    "Concertos|65|3.99395|48.05972|Concero Grosso Op.6 Kallweit Manze Organ Concerto Op.4": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToiGlb7QX3lZ9nPiN08wzeinI_gwglfqBmYsyQz6s8hw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:06:57.037Z"
+    },
+    "Concertos|65|17.87576|46.47099|Lamon Organ Concerto Op.7": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02896b795335ba50d11a931e0e",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:40:15.757Z"
+    },
+    "Concertos|65|32.57307|48.09516|Beznosiuk Harp Concerto Op.6-4": {
+      "url": "https://i.discogs.com/F1vyK37QjxYLlnSN9BBWyFlLoRIpH1N4AApZicIxv3I/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4Mjg3/MjMtMTQ3NzY1NTA3/My05NjA0LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:40:46.011Z"
+    },
+    "Concertos|65|4.04954|72.90631|Organ Concerto Op.4 Manze Dantone": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGaYt_CuwCscIu0oIsuqa0fYjD99tYwylKXN0Buh4XcQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:40:58.614Z"
+    },
+    "Concertos|65|18.29461|72.92101|Organ Concerto Op.7 Antonini Pinnock": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9X9wi0O8vMfiVxGFeO-IOFGoa0KVU3Wdeu_iIinjecw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:41:19.667Z"
+    },
+    "Concertos|65|32.56624|72.92101|Harp Concerto Op.6-4 Beznosiuk Koell": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzDYyQ1__TjVfw1j8PCmjv7ZtRStxw8aQ9lKeBZaBBAA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:41:51.123Z"
+    },
+    "Concertos|65|50.43419|72.94649|Concerto d minor Freiburger Barock La Reveuse": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp82y5T19_c36hArG3-X_R7DJCzbMAPueb_vcKJw8fEA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:42:00.323Z"
+    },
+    "Concertos|65|78.49273|14.5621|Field Piano Concerto No.2 A flat Major H.31": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ANnxoCBP5tW1Q4hNJesvLzkNqotelm8whSna6apGEQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:42:54.249Z"
+    },
+    "Concertos|65|78.49273|39.8297|p.O 㐴Coner/Mackerras No.2 A flat Major H.31 S.Bennett Piano Concerto No.5": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxRA4ORsS4LSk3cNJClR6yB53MvciMTkQt5r3LMU0kkA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:43:13.853Z"
+    },
+    "Concertos|65|78.56286|65.20172|p.Binns Concerto No.5 Bache Piano Concerto E Major Op.18": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehP3MOJLt4GeA-tf5-wYMwEB4Yu0-kw0dNg0iDdAloA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:43:22.973Z"
+    },
+    "Concertos|66|32.5789|23.65835|vc.DuPre/Barbiroli": {
+      "url": "https://contents.kyobobook.co.kr/sih/fit-in/375x0/music/large/5650/2056565.jpg?t=2983463",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:43:39.652Z"
+    },
+    "Concertos|66|15.99288|45.00214|vc.Weilerstein/Barenboim": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5G-aY7ASMBymqNVX3OSG1XrWc5Q-AmHWiGpEwzOeTmw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:44:17.932Z"
+    },
+    "Concertos|66|32.52907|48.10613|vc.DuPre/Barbiroli vn.Kang/Leaper": {
+      "url": "https://m.media-amazon.com/images/I/61JnMGnQC0L._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:44:58.646Z"
+    },
+    "Concertos|66|82.41122|23.65835|vn.Chung/Previn": {
+      "url": "https://i.discogs.com/01BmFl3xvPH1fIDmdURfWZyd1oMizesspWfjf2TUS_c/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTIw/Nzk2LTE0OTE5ODIx/OTYtOTE3OC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:45:41.499Z"
+    },
+    "Concertos|67|53.92392|48.05971|Clarinet Concerto c minor Op.23 vc.Wallfisch/Handley cl.Johnson/Groven Violin Concerto": {
+      "url": "https://m.media-amazon.com/images/I/51MVA0F1QML._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:46:12.086Z"
+    },
+    "Concertos|67|68.25085|48.10613|Clarinet Concerto c minor Op.23 vc.Ma/Handley cl.Collins Eclogue Op.10": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkyisBUqDM1PMoSwJbkc-qMqTI7BgbgINWMZRK4rKUgQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:46:25.237Z"
+    },
+    "Concertos|67|29.72736|14.60276|Parry Piano Concerto f #": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRasFdJkzS4W0XuXf9KIWfCTdcqZtAzsbUEKwFC8_Ntw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:46:44.200Z"
+    },
+    "Concertos|67|29.55601|40.99753|p.Lane/Brabbins Piano Concerto f # Stanford Clarinet Concerto a": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgRzg7lbsSge07qqxAM1A8GdLY4GscHPIXtGY5IAOYfQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:47:01.173Z"
+    },
+    "Concertos|68|53.8069|14.642|Scott Piano Concerto No.2": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlCTIXLA_jora3jWmHN6TjczMU6Pa3tU8Bh6aVAMOm1Q&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:47:27.619Z"
+    },
+    "Concertos|68|79.27531|14.52438|Bliss Cello Concerto Op.120": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkE07VgalqKRrJ5_iQVVpccTIsw8nJusdxooOZfijz1Q&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:47:36.630Z"
+    },
+    "Concertos|68|79.36706|65.65235|p.Binns/Thomson Concerto b minor Moeran Violin Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTnVIQrDIIJRd-b8SJ-GXU1gAgxVxvcMWBYvvTt7T0kw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:48:01.538Z"
+    },
+    "Concertos|69|5.15907|65.92155|vn.Little/A.Davis Concerto g Op.80 Delius Cello Concerto": {
+      "url": "https://cdn11.bigcommerce.com/s-rdecee92oy/products/53410/images/6614952/5wclp243395__28231.1778481789.500.750.jpg?c=2",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:48:26.558Z"
+    },
+    "Concertos|69|29.38664|14.69285|Arnold Concerto for 2 Pinos 3 Hands Op.104": {
+      "url": "https://i.ebayimg.com/images/g/cJEAAOSw98RdK4DU/s-l400.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:48:50.108Z"
+    },
+    "Concertos|70|4.65536|14.62435|Tevener The Protecting Veil": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgOl4lZ3a4f7a7UlpX9tuUl3f64hxAO6-iiG-CwgKm4Q&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:49:22.107Z"
+    },
+    "Concertos|70|4.7183|39.76865|vc.Isserlis The Protecting Veil Tevener The Protecting Veil": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxAqWEXlORIpcb0-QGeENuQTBxwPJGeHN8bqWJI-XGrQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:49:51.058Z"
+    },
+    "Concertos|70|4.71632|65.57605|vc.Ma The Protecting Veil Talbot Ink Dark Moon": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbpHADWhnO_JuDHo2wGP_lYLzN6jEKtZOEJ06Y8DUhCw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:50:07.043Z"
+    },
+    "Concertos|70|29.60856|14.66811|Nyman Piano Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEw77BuS4mNrjOOtqzoe2scxKG4PjOMoOrk-oRlM36tg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:50:22.278Z"
+    },
+    "Concertos|70|29.71114|40.12209|p.Scott/Nyman Piano Concerto Nyman Trombone Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaHq3cJ4Ejp8SnPcjBjVax2hce6gbWLuKFBgOoFj2-Fg&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:50:38.787Z"
+    },
+    "Concertos|70|54.29267|40.30691|vc.Webber/Judd Farewell to Philosophy Bryars Violn Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFejvETwEtaKQpBt91IMe_it8OyJOVCxkT9_WKsIsBzg&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:51:01.450Z"
+    },
+    "Concertos|70|78.84101|14.79832|MacMillan Cello Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHIaza_71DOZVcY4_HWFq13__vR6hZLRDCDbUuU1OAyg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:51:21.347Z"
+    },
+    "Concertos|70|76.63927|39.14628|vc.Wallfish/Vanska Cello Concerto MacMillan Veni, Veni Emmanuel": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP3eejd9y7Uv9551cCMX2Rjb2XcfNrmsKAGO6yYFh8QCfV50IPUjY43NET&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:52:21.162Z"
+    },
+    "Concertos|71|53.83067|14.79832|Leifs Organ Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoVLC9ejnKVnpKY1hlgNunKGKtOYfjVzKPBRv2qwEe5A&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:52:35.458Z"
+    },
+    "Concertos|71|78.44159|39.83396|vn.Astrand/Collon for Violin 㖈 Orchestra Kuusisto Violin Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNFN7VlAE3XzmXJIqTkvBX6ob6xyori85Xu8o33b-VcQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:52:56.603Z"
+    },
+    "Concertos|71|78.32867|65.76883|vn.Kuusisto Concerto Bjarnason Processions": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR80lngywIgl5NMQQgrnQu1EF0dhp479s_Agcn9B_XWrA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:53:34.252Z"
+    },
+    "Concertos|73|54.21335|15.00443|D.Chesky Violin Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThqkYTavqyXj5UpuUz4onWaJ3sUNqFc-rdOtQnWmfP9w&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:53:53.948Z"
+    },
+    "Concertos|73|54.13711|40.75337|vn.Chiu Violin Concerto C.Corea Piano Concerto No.1": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF3iQiL4sgFG_V999V93SBTeRb4xHGD9eS0rGj4JDeyg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:54:13.511Z"
+    },
+    "Concertos|73|77.21885|66.62193|ob.Button/Guerrero Oboe Concerto Bernstein Serenade": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYVd_FuG18a1dLHmGd0WJKrai1ot-qrht8Vu2NowqYHg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:54:41.922Z"
+    },
+    "Concertos|74|32.651|23.6003|Violin Concerto No.2 vn.Kremer Cello Concerto No.2": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShsf4NB4zRgf_tLtJ1ldRf_EcPWl2bGqDmH6BRkAwkNQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:54:52.004Z"
+    },
+    "Concertos|74|3.7949|73.60748|Harpsichord Concerto p.Bartlett/Gilman Gothoni": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5fkr-VUtfGhOS18KC8oHjAHCfzJ12fg7CTIZU9wGbNg&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:55:02.367Z"
+    },
+    "Concertos|74|52.68718|23.51483|Violin Concerto John Adams vn.Kremer/Nagano Scheherazade.2.": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCvXHATV-qV5XglNYZqfk2o0TKUG2VjZpWzq6py4mBig&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:55:09.787Z"
+    },
+    "Concertos|74|82.16786|48.46325|Century Rolls p.Wang/Dudamel p.Ex/Adams": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTknKgz54GWkNlWLaHFE5MQosV02AKBKLjZqj2P_O7dTA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:55:37.044Z"
+    },
+    "Concertos|74|54.28319|73.4489|City Noir vn.Josefowicz/Robertson sax.McAllister": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGaV1UvPTDGRDLDZFONwLrpG4oYPTnU-VYA7w6YpNzw&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:55:45.023Z"
+    },
+    "Concertos|75|18.22695|23.40409|Air for Cello Aaron Jay Kernis vc.Mork/Oue ㏙arr.㏚ Colored Field": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTup79rTPOujsx5B6jjh-Mnup4wR4Rq3cJxruFa6vPm_A&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:56:23.338Z"
+    },
+    "Concertos|75|32.58521|23.55814|Air for Flute fl.Piccinini ㏙arr.㏚ Dreamsongs": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv9P9fBtwe914J2mqdE2o9MOZjxp12Dyg9Ws_vh83JQA&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:56:08.580Z"
+    },
+    "Concertos|75|18.34941|48.64496|for Cello Colored Field vc.Mork/Oue Flute Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTup79rTPOujsx5B6jjh-Mnup4wR4Rq3cJxruFa6vPm_A&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:56:19.446Z"
+    },
+    "Concertos|75|54.14893|23.58668|Flute Concerto Christopher Rouse fl.Bezaly Seeing": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdUyrK_YUxwBSJfLQo4FJotVjp7porunBYOBOLiqcKEQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:56:36.540Z"
+    },
+    "Concertos|75|82.52293|48.46325|Concerto de Gaudi perc.Glennie/Segerstam g.Isbin/Tang": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThBbdBrayb_xE_WBNU4yd4Q00Q6yVA5jkYUQ3rqhmUVg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:56:46.972Z"
+    },
+    "Concertos|76|4.71991|66.61319|p.Hough/Liebermann Piano Concerto No.1 Dahl Alto Saxophone Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQst0n-fiFUgf5ERKEiDl_N3HZwrY9xmxjSb3ocbYntmg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:56:56.789Z"
+    },
+    "Concertos|76|28.1956|40.53738|Clair Concerto No.2 Jarrett Elegy for Violin 㖈 Orchestra": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMqbJFeuHjL27xLXpGQxCzVMkU9yvkCtfGkNv1y7msvA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:57:04.941Z"
+    },
+    "Concertos|76|54.3049|14.77992|J.Williams Violin Concerto No.2": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfIg99h7-R_l_rZ7qLy02-6FYjNQDO9znUvIsdl0BtGA&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:57:18.973Z"
+    },
+    "Concertos|76|54.33607|40.72515|vn.Mutter/J.Williams Violin Concerto No.2 J.Williams Cello Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyhq_RB9NLQo66AJ6LwRpB_G5IGPZSA11bcV0ofJ5UBg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:57:51.666Z"
+    },
+    "Concertos|76|54.3049|66.61845|vc.Ma/J.Williams Cello Concerto Akiho Steel Pans Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGDHWqqxd9BxdqrHQ1uq9U5YTDQvyvSFkdht3DzzofA&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:57:58.726Z"
+    },
+    "Concertos|77|28.62955|14.71876|Erb Cello Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ6j5HxdvLaWZreE957VzI3HjHeAheJWMCeYG7mmex3g&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:58:11.539Z"
+    },
+    "Concertos|78|4.51137|15.34602|F.Say Never Give Up": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SSO-YINZAsseTIV7Dkop8UA5wnxgFzJbvv3Q1jVCOQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:59:02.909Z"
+    },
+    "Concertos|78|4.51978|40.88164|vc.Thomas Never Give Up F.Say Silence of Anatolia": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdIGKsVSpKTazRPha6pYBwyAcOfhCGXz7YhUiAq5tpHQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:59:10.081Z"
+    },
+    "Concertos|78|4.58565|66.43354|p.Sa Chen Silence of Anatolia F.Say Violin Concerto": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRULeRRGiyzoesbc0W2yeuMgqeyhfC4gGMhKxyoWvOJaA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:59:34.737Z"
+    },
+    "Concertos|78|78.8378|66.48721|vn.Zimmermann/Nott Letter Writing Briger The Eyes of the Wind": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3dp3SYKeP8wLrPG7crl6kTTAezuNpawfPdrm1of9yw&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T09:59:46.652Z"
+    },
+    "Concertos|79|4.40922|41.43987|g.Sollscher Guitar Concerto A.501 Villa ㎿Lobos Fantasia A.490": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbTfSpxTalPV4oIAxhh5zFskmoGYrdRlKcNJKUsLgZ-w&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:00:30.541Z"
+    },
+    "Concertos|80|5.47261|14.77632|Fantasma/Cantos cl.Meyer/Abbado": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLtGp_NssSUANGzRNIFO4sCsoEFwkPJ2cNA_HZ32nUYA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:00:52.005Z"
+    },
+    "Concertos|80|29.52941|67.40062|Moscow Soloista Viola Concerto Piano Concerto No.2 p.Nojima/Otaks": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn6RrLkpwmNJgY2iMVXAVE8-q4UjKDTUXjHn6n0yqBBA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:01:01.837Z"
+    },
+    "Concertos|81|29.47201|14.86698|Recorder Concerto rec.Petri/Shui": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKj51c8PV2JSryoKhVrmQlbeEM5NBCoKM8htfdacEA1w&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:01:15.382Z"
+    },
+    "Concertos|81|54.27066|14.75143|Yellow River Piano Concerto p.Lang Lang": {
+      "url": "https://m.media-amazon.com/images/I/51XvP1SUb9L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:01:52.725Z"
+    },
+    "Concertos|82|4.75558|14.47529|윤이상 Violin Concerto No.3 vn.Park/Vanska": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOev4RaiMsM2J5dhmdFJLzCBKYj_Ms1n8PKgA2ajhaA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:02:13.342Z"
+    },
+    "Concertos|82|4.73617|66.6836|vc.Haimovitz/Davies 윤이상 Cello Concerto 윤이상 Flute Concerto Camerata Bern": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZJjdmunGolk7ziAWcZEm1bN9Rk_HDz1NZKzpavNIunQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:02:21.688Z"
+    },
+    "Concertos|82|29.36662|40.71751|vn.Tetzlaff/Rattle 진은숙 Violin Concerto No.1 진은숙 Piano Concerto p.Kim/Chung": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvjU2MzOgZb_yM9PYAik0znnw80JgTyRlSGujiUSffg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-07T10:02:31.529Z"
     }
   },
   "edits": {
@@ -38489,7 +38944,8 @@
     "Concertos|10|33.2214|23.96021|A Major K.219 Violin Concerto No.5 vn.Schneiderhan/Jochum Sinfonia Concertante": false,
     "Concertos|3|4.03699|23.40493|e minor TWV52:e3 Flute Concerto Kuijken Trumpet Concerto": false,
     "Concertos|3|18.27988|23.30081|a minor TWV52:a1 Recorder Concerto Goebel Viola Concerto": false,
-    "Concertos|13|18.3272|23.41031|Piano Concerto a minor Op.54 Robert Schumann p.Lupu/Previn Violin Concerto d minor WoO23": false
+    "Concertos|13|18.3272|23.41031|Piano Concerto a minor Op.54 Robert Schumann p.Lupu/Previn Violin Concerto d minor WoO23": false,
+    "Concertos|65|17.87576|46.47099|Lamon Organ Concerto Op.7": false
   },
   "added": {},
   "removed": {
