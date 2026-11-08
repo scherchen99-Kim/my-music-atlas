@@ -1061,7 +1061,8 @@ const COMPOSER_ALIASES=[
 ['Schumann','Robert Schumann'],['Verdi','Giuseppe Verdi'],['Puccini','Giacomo Puccini'],['Chopin','Frédéric Chopin']
 ].sort((a,b)=>b[0].length-a[0].length);
 const COMPOSER_ESC=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-const COMPOSER_QC=s=>String(s||'').replace(/[㚕㏙㏚㐴㑄㎿㐱㐲㖈�]+/g,' ').replace(/\s+/g,' ').trim();
+const atlasFixOcrText=s=>String(s||'').replace(/\s*㖈\s*/g,' & ').trim();
+const COMPOSER_QC=s=>atlasFixOcrText(s).replace(/[㚕㏙㏚㐴㑄㎿㐱㐲�]+/g,' ').replace(/\s+/g,' ').trim();
 const COMPOSER_WORDS=/\b(?:Symphony|Symphonies|Concerto|Concertos|Sonata|Sonatas|Suite|Suites|Trio|Quartet|Quartets|Overture|Ouverture|Divertimento|Serenade|Mass|Requiem|Oratorio|Cantata|Motet|BWV|Op\.?|No\.?|D\.?|K\.?|H\.?|Wq\.?|Coriolan|Egmont|Fidelio|Rosamunde|Freischutz|Freischütz)\b/i;
 const COMPOSER_PIECES=/^(?:\d+(?:[~\/.-]\d+)*|K\.\s*\d+|BWV\s*\d+|Op\.\s*\d+|D\.\s*\d+)$/i;
 const COMPOSER_ENSEMBLE=/^(?:SWR|RCO|BPO|WPO|LPO|LSO|BSO|NBC|VPO|RPO|SFSO|TMSO|NBC|NDR)$/i;
@@ -1095,7 +1096,7 @@ function textFields(a,g,p){
 function visibleLabelFromFields(fields){
  const root=document.createElement('div');root.className='album-label';
  for(const [key,cls] of [['composer','composer'],['work','work'],['performer','performer']]){
-  const val=(fields[key]||'').trim();if(!val)continue;
+  const val=atlasFixOcrText(fields[key]);if(!val)continue;
   const span=document.createElement('span');span.className='label-'+cls;
   span.textContent=(root.childNodes.length?(key==='performer'?' · ':' '):'')+val;
   root.append(span);
@@ -1539,19 +1540,20 @@ function atlasDisplayComposer(name){
  return ATLAS_SHORT_COMPOSERS.get(value.toLowerCase().replace(/㎿/g,'-').replace(/\s+/g,' '))||value;
 }
 function atlasSearchWords(raw){
- return String(raw||'').normalize('NFKC')
+ return atlasFixOcrText(raw).normalize('NFKC')
   .replace(/\p{Script=Hangul}+/gu,' ')
   .replace(/(?<![\p{L}\p{N}])\p{L}+\./gu,' ')
-  .replace(/[^\p{L}\p{M}\p{N}]+/gu,' ')
+  .replace(/&/g,' & ')
+  .replace(/[^\p{L}\p{M}\p{N}&]+/gu,' ')
   .trim();
 }
 function atlasWithoutOpus(raw){
  return String(raw||'').normalize('NFKC')
-  .replace(/\bop\.?\s*\d+(?:[a-z](?![\p{L}\p{N}]))?(?:\s*[-–—/]\s*\d+(?:[a-z](?![\p{L}\p{N}]))?)*/giu,' ');
+  .replace(/\bop\s*\.?\s*\d+(?:[a-z](?![\p{L}\p{N}]))?(?:\s*[-–—/]\s*\d+(?:[a-z](?![\p{L}\p{N}]))?)*/giu,' ');
 }
 function atlasWithoutKey(raw){
  return String(raw||'').normalize('NFKC')
-  .replace(/\b(?:in\s+)?[a-g](?:[♯♭#b]|[\s\-–—]+(?:flat|sharp))?(?:[\s\-–—]+(?:major|minor)\b|\s*(?:장조|단조))/giu,' ');
+  .replace(/\b(?:in\s+)?[a-g](?:\s*[♯♭#]|b|[\s\-–—]+(?:flat|sharp))?(?:[\s\-–—]+(?:major|minor)\b|\s*(?:장조|단조))/giu,' ');
 }
 function atlasNormalizeSearch(raw,composer='',work=''){
  let query=atlasSearchWords(atlasWithoutKey(atlasWithoutOpus(raw)));
