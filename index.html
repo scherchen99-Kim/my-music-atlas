@@ -1533,34 +1533,39 @@ function drawSearchPage(){
  }
 }
 // Search terms are independent of the visible full archive caption.
-const INSTRUMENT_PREFIX=/\b(?:p|pn|pf|vn|vln|vl|va|vc|vlc|fl|ob|cl|org|hp|cemb|sop|s|mez|ten|bar|bs|cond|dir|gtr|gt|tpt|hrn|perc|sax|viol|cb|fg|rec)\.(?=\s*[A-Za-zÀ-ž])/gi;
-function onlyArtistName(raw){
- let s=String(raw||'').replace(/[㚕㏙㏚㐴㑄㎿㐱㐲㖈�]/g,' ');
- s=s.replace(INSTRUMENT_PREFIX,'').trim();
- // For several named interpreters choose the first to avoid overly long service queries.
- s=s.split(/\s*\/\s*/)[0].trim();
- s=s.replace(/(?:\b(?:piano|violin|viola|cello|organ|flute|clarinet|oboe|harpsichord|conductor)\b)/gi,' ');
- return s.replace(/\s+/g,' ').replace(/^[.·,\s]+|[.·,\s]+$/g,'').trim();
+const ATLAS_SHORT_COMPOSERS = new Map(Object.entries({"aaron copland":"Copland","aaron jay kernis":"Kernis","alban berg":"Berg","alfred schnittke":"Schnittke","anton bruckner":"Bruckner","anton dvorak":"Dvorak","anton webern":"Webern","antonin dvorak":"Dvorak","antonio vivaldi":"Vivaldi","aram khachaturian":"Khachaturian","arnold schoenberg":"Schoenberg","arvo part":"Part","astor piazzolla":"Piazzolla","bedrich smetana":"Smetana","bela bartok":"Bartok","benjamin britten":"Britten","camille saint-seans":"Saint-Seans","carl philipp emanuel bach":"C.P.E. Bach","cesar franck":"Franck","charles-marie widor":"Widor","christopher rouse":"Rouse","claude debussy":"Debussy","claudio monteverdi":"Monteverdi","dieterich buxtehude":"Buxtehude","dmitri shostakovich":"Shostakovich","domenico scarlatti":"Scarlatti","edouard lalo":"Lalo","edvard grieg":"Grieg","edward elgar":"Elgar","edword elgar":"Elgar","einojuhani rautavaara":"Rautavaara","erik satie":"Satie","felix mendelssohn":"Mendelssohn","francis poulenc":"Poulenc","francois couperin":"Couperin","franz liszt":"Liszt","franz schreker":"Schreker","franz schubert":"Schubert","frederick delius":"Delius","frédéric chopin":"Chopin","gabriel faure":"Faure","georg philipp telemann":"Telemann","george frideric handel":"Handel","gerald finzi":"Finzi","giacomo puccini":"Puccini","gioachino rossini":"Rossini","giuseppe verdi":"Verdi","gustav mahler":"Mahler","gustav theodore holst":"Holst","hanry purcell":"Purcell","hector berlioz":"Berlioz","heinrich ignaz biber":"Biber","henry purcell":"Purcell","igor stravinsky":"Stravinsky","james macmillan":"MacMillan","jan dismas zelenka":"Zelenka","jean sibelius":"Sibelius","jean-philippe rameau":"Rameau","joaquin rodrigo":"Rodrigo","johann sebastian bach":"J.S. Bach","johannes brahms":"Brahms","john adams":"Adams","john dowland":"Dowland","john rutter":"Rutter","john tavener":"Tavener","joseph haydn":"Haydn","karl orff":"Orff","kurt weill":"Weill","leos janacek":"Janacek","ludwig van beethoven":"Beethoven","marin marais":"Marais","maurice ravel":"Ravel","max bruch":"Bruch","modest mussorgsky":"Mussorgsky","niccolo paganini":"Paganini","nikolai rimsky-korskov":"Rimsky-Korskov","olivier messiaen":"Messiaen","ottorino respighi":"Respighi","paul hindemith":"Hindemith","peteris vasks":"Vasks","philip glass":"Glass","pyotr ilyich tchaikovsky":"Tchaikovsky","ralph vaughan williams":"Vaughan Williams","richard strauss":"Strauss","richard wagner":"Wagner","robert schumann":"Schumann","samuel barber":"Barber","sergei prokofiev":"Prokofiev","sergei rachmaninov":"Rachmaninov","sergei scriabin":"Scriabin","william walton":"Walton","wolfgang amadeus mozart":"Mozart","johann christian bach":"J.C. Bach","franz joseph haydn":"Haydn","dmitry shostakovich":"Shostakovich","nikolai rimsky-korsakov":"Rimsky-Korsakov","joseph joachim raff":"Raff"}));
+function atlasDisplayComposer(name){
+ const value=String(name||'').trim();
+ return ATLAS_SHORT_COMPOSERS.get(value.toLowerCase().replace(/㎿/g,'-').replace(/\s+/g,' '))||value;
+}
+function atlasSearchWords(raw){
+ return String(raw||'').normalize('NFKC')
+  .replace(/(?<![\p{L}\p{N}])\p{L}+\./gu,' ')
+  .replace(/[^\p{L}\p{M}\p{N}]+/gu,' ')
+  .trim();
+}
+function atlasNormalizeSearch(raw,composer=''){
+ const query=atlasSearchWords(raw);
+ if(!query)return '';
+ const queryKey=normalize(query)+' ';
+ const matches=name=>name.includes(' ')&&queryKey.startsWith(normalize(name)+' ');
+ const full=atlasSearchWords(composer);
+ const known=COMPOSER_ALIASES.find(([alias])=>matches(atlasSearchWords(alias)));
+ const mapped=[...ATLAS_SHORT_COMPOSERS.keys()].find(name=>matches(atlasSearchWords(name)));
+ const prefix=matches(full)?full:known?atlasSearchWords(known[0]):atlasSearchWords(mapped);
+ if(!prefix)return query;
+ const name=matches(full)?composer:known?known[1]:mapped;
+ const display=atlasDisplayComposer(name);
+ const surname=atlasSearchWords(display===name?name.trim().split(/\s+/).at(-1):display);
+ return [surname,query.slice(prefix.length).trim()].filter(Boolean).join(' ');
 }
 function searchTextFor(a,g,p){
+ const fields=textFields(a,g,p);
  const correction=editedAlbum(a,g,p);
- if(correction&&typeof correction.searchQuery==='string'&&correction.searchQuery.trim())return correction.searchQuery.trim();
- if(a&&a.searchQuery&&String(a.searchQuery).trim())return String(a.searchQuery).trim();
- if(correction)return [correction.composer,onlyArtistName(correction.performer)].filter(Boolean).join(' ').replace(/\s+/g,' ').trim();
- const label=makeAlbumLabel(a.q,g,p,a);
- const c=(a.composer||label.querySelector('.label-composer')?.textContent||albumComposerFromPage(g,p,a)||'').trim();
- let artist=a.displayPerformer||label.querySelector('.label-performer')?.textContent||'';
- artist=onlyArtistName(artist.replace(/^\s*[·-]\s*/,''));
- if(!artist){
-   // Some PDF captions only contain an interpreter: fall back to a short end-name.
-   const raw=COMPOSER_QC(a.q);
-   const tail=raw.split(/\s+/).filter(Boolean);
-   const last=tail[tail.length-1]||'';
-   if(last && !/^(?:major|minor|opus|concerto|symphony|sonata|suite|No\.|Op\.|BWV|K\.|D\.|\d+)$/i.test(last)) artist=onlyArtistName(last);
- }
- const composer=COMPOSER_QC(c);
- // Never copy a long unverified PDF OCR description to the music service.
- return [composer,artist].filter(Boolean).join(' ').replace(/\s+/g,' ').trim();
+ const raw=(correction?correction.searchQuery:a?.searchQuery)||
+  [fields.composer,fields.work,fields.performer].filter(Boolean).join(' ')||
+  cleanSearch(a?.q);
+ return atlasNormalizeSearch(raw,fields.composer);
 }
 
 function modalAlbumListContext(){
@@ -1634,12 +1639,20 @@ function selectAlbum(a,src,fromGenre=genre,fromPage=page){
 function closeModal(){$('albumModal').classList.remove('open');document.body.style.overflow=''}
 window.addEventListener('pageshow',()=>{if(!document.getElementById('albumModal')?.classList.contains('open'))document.body.style.overflow='';});
 async function copyQ(){
- if(!selected||!$('queryValue').value.trim())return false;
+ if(!selected)return false;
+ const field=$('queryValue');
+ const term=selectedServiceSearch(field.value);
+ if(!term)return false;
  let ok=false;
- try{await navigator.clipboard.writeText($('queryValue').value.trim());ok=true}catch(e){}
- if(!ok){$('queryValue').focus();$('queryValue').select();try{ok=document.execCommand('copy')}catch(e){}}
+ try{await navigator.clipboard.writeText(term);ok=true}catch(e){}
+ if(!ok){field.value=term;field.focus();field.select();try{ok=document.execCommand('copy')}catch(e){}}
  $('message').textContent=ok?'검색어 복사 완료 · 음악 앱 검색창에 붙여넣으세요.':'자동 복사가 차단됐어요. 아래 검색어를 길게 눌러 복사하세요.';
  return ok;
+}
+function selectedServiceSearch(raw){
+ if(!selected)return '';
+ const {a,g,p}=selected;
+ return atlasNormalizeSearch(raw,textFields(a,g,p).composer);
 }
 function openRoon(){copyQ();window.location.href='roon://'}
 function atlasOpenService(url){
@@ -1652,20 +1665,20 @@ function atlasOpenService(url){
 }
 function openMusicPlayer(base,includeQuery=false){
  if(!selected)return;
- const term=$('queryValue').value.trim()||searchTextFor(selected.a,selected.g,selected.p);
+ const term=selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p);
  if(term)copyQ();
  atlasOpenService(includeQuery&&term?base+encodeURIComponent(term):base);
  $('message').textContent='검색어를 복사했어요. 음악 서비스에서 붙여넣어 주세요.';
 }
 function openMusicSearch(base){
  if(!selected)return;
- const term=$('queryValue').value.trim()||searchTextFor(selected.a,selected.g,selected.p);
+ const term=selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p);
  if(!term)return;
  copyQ();atlasOpenService(base+encodeURIComponent(term));
 }
 function openAppleMusic(){
  if(!selected)return;
- const term=$('queryValue').value.trim()||searchTextFor(selected.a,selected.g,selected.p);
+ const term=selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p);
  if(!term)return;
  copyQ();
  atlasOpenService('https://music.apple.com/kr/search?term='+encodeURIComponent(term));
