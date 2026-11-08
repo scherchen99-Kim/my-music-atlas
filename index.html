@@ -1224,9 +1224,29 @@ function saveNewAlbum(){
 }
 function deleteCurrentAlbum(){if(!selected)return;const {a,g,p}=selected;if(a.manualAdded){const k=pageKey(g,p);collectionEdits.added[k]=(collectionEdits.added[k]||[]).filter(item=>albumIdentity(item,g,p)!==albumIdentity(a,g,p));if(!collectionEdits.added[k].length)delete collectionEdits.added[k]}else{collectionEdits.removed[albumIdentity(a,g,p)]=true}collectionStore();closeModal();$('message').textContent='';if(searchMode)drawSearchPage();else if(genre===g){renderCovers()}}
 
+// Use reviewed names for captions because some composer fields include title fragments.
+const ATLAS_COMPOSER_CAPTION_VARIANTS = new Map([
+ ['camille saint seans','Saint-Seans'],
+ ['charles marie widor','Widor'],
+ ['dietrich buxtehude','Buxtehude'],
+ ['frederic chopin','Chopin'],
+ ['jean philippe rameau','Rameau'],
+ ['nikolai rimsky korskov','Rimsky-Korskov'],
+ ['wilhelm friedemann bach','W.F. Bach']
+]);
+function atlasComposerCaption(name){
+ const value=String(name||'').trim();
+ const key=value.toLowerCase().replace(/㎿/g,'-').replace(/\s+/g,' ');
+ const plainKey=key.normalize('NFD').replace(/\p{M}/gu,'');
+ return ATLAS_SHORT_COMPOSERS.get(key)||ATLAS_SHORT_COMPOSERS.get(plainKey)
+  ||ATLAS_COMPOSER_CAPTION_VARIANTS.get(plainKey)||value;
+}
 function makeAlbumLabel(q,g,p,a){
- const custom=editedAlbum(a,g,p);if(custom)return visibleLabelFromFields(custom);
- return makeAlbumLabelOriginal(q,g,p,a);
+ const custom=editedAlbum(a,g,p);
+ const label=custom?visibleLabelFromFields(custom):makeAlbumLabelOriginal(q,g,p,a);
+ const composer=label.querySelector('.label-composer');
+ if(composer)composer.textContent=atlasComposerCaption(composer.textContent);
+ return label;
 }
 function makeAlbumLabelOriginal(q,g,p,a){
   const label=document.createElement('div');label.className='album-label';
@@ -1547,9 +1567,10 @@ function atlasSearchWords(raw){
   .replace(/[^\p{L}\p{M}\p{N}&]+/gu,' ')
   .trim();
 }
+const ATLAS_OPUS_NUMBER=String.raw`\bop\s*\.?\s*\d+(?:[a-z](?![\p{L}\p{N}]))?(?:\s*[-–—/]\s*\d+(?:[a-z](?![\p{L}\p{N}]))?)*`;
 function atlasWithoutOpus(raw){
- return String(raw||'').normalize('NFKC')
-  .replace(/\bop\s*\.?\s*\d+(?:[a-z](?![\p{L}\p{N}]))?(?:\s*[-–—/]\s*\d+(?:[a-z](?![\p{L}\p{N}]))?)*/giu,' ');
+ const group=new RegExp(ATLAS_OPUS_NUMBER+String.raw`(?:\s*[&㖈]\s*`+ATLAS_OPUS_NUMBER+')*','giu');
+ return String(raw||'').normalize('NFKC').replace(group,' ');
 }
 function atlasWithoutKey(raw){
  return String(raw||'').normalize('NFKC')
@@ -1557,13 +1578,19 @@ function atlasWithoutKey(raw){
 }
 function atlasNormalizeSearch(raw,composer='',work=''){
  let query=atlasSearchWords(atlasWithoutKey(atlasWithoutOpus(raw)));
- // Match the work phrase in older queries that kept the opus number but lost its label.
+ // Match older work phrases that still contain a bare number or an orphaned ampersand.
  const workWithoutKey=atlasWithoutKey(work);
- const workWords=atlasSearchWords(workWithoutKey);
  const shortWork=atlasSearchWords(atlasWithoutOpus(workWithoutKey));
- if(workWords&&workWords!==shortWork){
-  const pattern=new RegExp('(^| )'+COMPOSER_ESC(workWords)+'(?= |$)','iu');
+ const oldWorkForms=[
+  atlasSearchWords(workWithoutKey),
+  atlasSearchWords(workWithoutKey.replace(new RegExp(ATLAS_OPUS_NUMBER,'giu'),' '))
+ ];
+ for(const oldWork of oldWorkForms){
+  if(!shortWork||!oldWork||oldWork===shortWork)continue;
+  const pattern=new RegExp('(^| )'+COMPOSER_ESC(oldWork)+'(?= |$)','iu');
+  if(!pattern.test(query))continue;
   query=query.replace(pattern,(_,space)=>space+shortWork).replace(/ +/g,' ').trim();
+  break;
  }
  if(!query)return '';
  const queryKey=normalize(query)+' ';
