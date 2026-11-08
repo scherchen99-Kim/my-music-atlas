@@ -1540,12 +1540,29 @@ function atlasDisplayComposer(name){
 }
 function atlasSearchWords(raw){
  return String(raw||'').normalize('NFKC')
+  .replace(/\p{Script=Hangul}+/gu,' ')
   .replace(/(?<![\p{L}\p{N}])\p{L}+\./gu,' ')
   .replace(/[^\p{L}\p{M}\p{N}]+/gu,' ')
   .trim();
 }
-function atlasNormalizeSearch(raw,composer=''){
- const query=atlasSearchWords(raw);
+function atlasWithoutOpus(raw){
+ return String(raw||'').normalize('NFKC')
+  .replace(/\bop\.?\s*\d+(?:[a-z](?![\p{L}\p{N}]))?(?:\s*[-–—/]\s*\d+(?:[a-z](?![\p{L}\p{N}]))?)*/giu,' ');
+}
+function atlasWithoutKey(raw){
+ return String(raw||'').normalize('NFKC')
+  .replace(/\b(?:in\s+)?[a-g](?:[♯♭#b]|[\s\-–—]+(?:flat|sharp))?(?:[\s\-–—]+(?:major|minor)\b|\s*(?:장조|단조))/giu,' ');
+}
+function atlasNormalizeSearch(raw,composer='',work=''){
+ let query=atlasSearchWords(atlasWithoutKey(atlasWithoutOpus(raw)));
+ // Match the work phrase in older queries that kept the opus number but lost its label.
+ const workWithoutKey=atlasWithoutKey(work);
+ const workWords=atlasSearchWords(workWithoutKey);
+ const shortWork=atlasSearchWords(atlasWithoutOpus(workWithoutKey));
+ if(workWords&&workWords!==shortWork){
+  const pattern=new RegExp('(^| )'+COMPOSER_ESC(workWords)+'(?= |$)','iu');
+  query=query.replace(pattern,(_,space)=>space+shortWork).replace(/ +/g,' ').trim();
+ }
  if(!query)return '';
  const queryKey=normalize(query)+' ';
  const matches=name=>name.includes(' ')&&queryKey.startsWith(normalize(name)+' ');
@@ -1565,9 +1582,8 @@ function searchTextFor(a,g,p){
  const raw=(correction?correction.searchQuery:a?.searchQuery)||
   [fields.composer,fields.work,fields.performer].filter(Boolean).join(' ')||
   cleanSearch(a?.q);
- return atlasNormalizeSearch(raw,fields.composer);
+ return atlasNormalizeSearch(raw,fields.composer,fields.work);
 }
-
 function modalAlbumListContext(){
  if(searchMode){
   const items=searchHits.map(h=>({a:h.a,g:h.g,p:h.i})).filter(item=>validEntry(item.a));
@@ -1652,7 +1668,8 @@ async function copyQ(){
 function selectedServiceSearch(raw){
  if(!selected)return '';
  const {a,g,p}=selected;
- return atlasNormalizeSearch(raw,textFields(a,g,p).composer);
+ const fields=textFields(a,g,p);
+ return atlasNormalizeSearch(raw,fields.composer,fields.work);
 }
 function openRoon(){copyQ();window.location.href='roon://'}
 function atlasOpenService(url){
