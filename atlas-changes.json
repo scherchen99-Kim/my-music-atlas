@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-09T12:32:51.857Z",
+  "createdAt": "2026-11-09T13:16:08.595Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -38060,7 +38060,7 @@
       "album": "Mozart: Opera Arias",
       "artist": "Sandrine Piau",
       "source": "Deezer",
-      "approvedAt": "2026-11-08T15:18:42.671Z"
+      "approvedAt": "2026-11-09T12:43:59.855Z"
     },
     "Vocal|53|68.27431|72.66284|Verrai,carino Don Giovanni s.Battle": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/09/77/13/097713d5-b191-d42f-adf0-b977c0e6e7ed/00028943994927.rgb.jpg/600x600bb.jpg",
@@ -38182,11 +38182,11 @@
       "approvedAt": "2026-11-08T15:20:19.953Z"
     },
     "Vocal|55|33.26377|23.54328|Mass No.5 A Flat D.678 Sawallisch": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/65e09887fd6396481d547773750f2b92/1000x1000-000000-80-0-0.jpg",
-      "album": "Schubert: The Great Masses",
-      "artist": "Helen Donath",
-      "source": "Deezer",
-      "approvedAt": "2026-11-08T15:20:36.980Z"
+      "url": "https://i.scdn.co/image/ab67616d0000b2738780986056697a537f6404c6",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:45:21.158Z"
     },
     "Vocal|55|18.5725|48.17521|Mass No.6 E Flat D.950 Weil Abbado Nazarus D.689": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8d/6f/0f/8d6f0f66-a197-4cc7-0e95-f5dbc38af3e1/00028942308824.rgb.jpg/600x600bb.jpg",
@@ -39267,11 +39267,11 @@
       "approvedAt": "2026-11-08T15:46:09.661Z"
     },
     "Vocal|66|68.34416|73.05762|Der Rosenkavalier  opera,Op.59 Sinopoli Karajan": {
-      "url": "https://cdn-images.dzcdn.net/images/cover/fbc1d8af7f7b22aecfda3ff1e116d81f/1000x1000-000000-80-0-0.jpg",
-      "album": "Strauss: Der Rosenkavalier",
-      "artist": "Anna Tomowa-Sintow",
-      "source": "Deezer",
-      "approvedAt": "2026-11-08T15:47:28.941Z"
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOipNmpZuUrX1UxgV0HtjltcpC27ngcUxGl-NhxDuS6A&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:01:32.497Z"
     },
     "Vocal|66|83.07283|72.96308|Solti E.Kleiber": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/72/9c/4f/729c4f5e-6d10-1311-7e7f-3fdedfe17518/00028946711125.rgb.jpg/600x600bb.jpg",
@@ -43269,6 +43269,615 @@
       "artist": "",
       "source": "Manual image URL",
       "approvedAt": "2026-11-09T12:32:41.125Z"
+    },
+    "Vocal|48|54.12331|15.15296|J.Ch.Bach Lamento. Ach,dass ich…": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVhePk37O_OUvtoZlFggdLC1S1zYEwOTf8Z9hR6sAfXg&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:40:16.794Z"
+    },
+    "Vocal|49|82.82164|72.60103|Armida Dorati": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKUkVkj5A9nM3OCe1Pi5aVTlrV-WvM40be5KsSrK19XQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:40:54.617Z"
+    },
+    "Vocal|50|54.13339|67.28952|Egarr Messe Solemnelle Gossec Requiem": {
+      "url": "https://m.media-amazon.com/images/I/61ofUxieN7L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:41:13.318Z"
+    },
+    "Vocal|52|3.38421|22.56514|Wolfgang Amadeus Mozart Great Mass  c minor K427": {
+      "url": "https://m.media-amazon.com/images/I/71xaXmA2nUL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:41:26.513Z"
+    },
+    "Vocal|52|18.69519|48.25482|Great Mass  c minor K427 Herreweghe Christie Coronation Mass C Major K317": {
+      "url": "https://m.media-amazon.com/images/I/51j9d3kV-LL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:42:09.623Z"
+    },
+    "Vocal|52|33.26377|72.92706|Fricsay Karajan": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEfRmjznxvBTr-cGCNbdLk259A-HalcS9UpBMqaWT1KHndoOcxi9gp5_xt&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:42:26.277Z"
+    },
+    "Vocal|52|53.8776|23.40493|Missa Harnoncourt Ave verum corpus": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_CtARqKtNXvbjS10YzCCJAcfVnm30PVOBoqc848BIg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:42:36.114Z"
+    },
+    "Vocal|52|83.09679|72.69694|K.523 Abendempfindung p.Schwarzkopf/p.Gieseking": {
+      "url": "https://m.media-amazon.com/images/I/51MamQ3TudL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:43:04.875Z"
+    },
+    "Vocal|53|32.08849|72.64929|Giulini Klemperer": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOcJW5IEBqV-yQaezq4AKD-yyY8IhMoLsyllRri4O16zyKSCZ2px-Mce5D&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:43:24.925Z"
+    },
+    "Vocal|53|68.32141|23.32637|Così fan tutte opera, K.588 Karajan Die Entführung aus dem Serail opera, K.384": {
+      "url": "https://m.media-amazon.com/images/I/71ZRw28SeBL._UF350,350_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:43:45.177Z"
+    },
+    "Vocal|54|3.95129|23.37465|Missa Solemnis D Major Op.123 Ludwig van Beethoven Herreweghe Mass C Major Op.86": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAllVa5LzIjOZ4mWGjGzVmzT-tSRmvRPH7jdhz_EKQHmWZidsSJoTRnq-f&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:44:14.242Z"
+    },
+    "Vocal|54|3.93484|72.63635|Incidental music  Op.84 Egmont Szell": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCyrOsGm_SRviw3z5hOLl0ZMgA02cLoWxxeiaSDt-R2LsNG7NnJDxaVyUp&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:44:35.661Z"
+    },
+    "Vocal|55|3.94493|48.14857|Shaw Harnoncourt Deutsche Messe": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/50/44/bc/5044bc36-775b-819e-2f74-2ebc1e1c959b/4260306189144.png/600x600bb.jpg",
+      "album": "Schubert: Mass No. 6 in E-Flat Major, D. 950",
+      "artist": "Berlin Philharmonic Orchestra, Bernarda Fink, Christian Gerhaher, Nikolaus Harnoncourt, Jonas Kaufmann, Dorothea Röschmann, Christian Elsner & Rundfunkchor, Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T12:47:36.221Z"
+    },
+    "Vocal|55|17.68731|72.88407|Nazarus D.689 Abbado Guschlbauer": {
+      "url": "https://m.media-amazon.com/images/I/51aoMBTejUL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:48:07.272Z"
+    },
+    "Vocal|55|33.30792|72.89284|Stabat Mater D.383 Rilling Corboz": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Nhx7RpKrtuCKGsktr2lpqvLEvM66JWHr0qieNNqpR2Jr3ntyZE-jnRI&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:48:19.083Z"
+    },
+    "Vocal|55|68.62683|23.67349|opera , D.647 Die Zwillngsbruder Sawallisch Gott ist mein Hirt": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_tafz0-ST_WQPpOwT37NxgPiVj3fXbCWoIkmpEiiIw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:48:27.555Z"
+    },
+    "Vocal|56|53.45649|72.3545|Erlkonig D.328 t.Wunderlich/p.Gisen t.Bostridge/p.Drake": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjo1odFpnC5BVH-_duZn45y2U3OqbNrsH1bEcX0BqSwg&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:48:57.211Z"
+    },
+    "Vocal|56|82.64945|72.43149|Schafer/Ainsley/Keenlyside": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROnV-7Jta_4b-QpZlT3IjywufxkiY1S4fZBdNSUXihMniPxNu_QADQkwvx&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:49:07.243Z"
+    },
+    "Vocal|57|18.49583|48.03944|D.259 An den Mond br.Goerne/p.Hafliger Wiegenlied": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL8f0oafV8eAILekGpDf3EBGjghIUsIl7k-Gk9kDldRQm6cdxmqqVcsxxy&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:49:35.224Z"
+    },
+    "Vocal|57|33.27498|47.82926|D.433 Seligkeit s.Streich/p.Werba Der Tod und das": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273657af1d15c293c4aecc6ef97",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:49:53.461Z"
+    },
+    "vocal-pdf-v1-57-185-697": {
+      "url": "https://i.scdn.co/image/ab67616d0000b2737b00e025c06501f54d3c1011",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:50:02.933Z"
+    },
+    "Vocal|57|83.20799|48.03943|D.764 Der Musensohn ms.Ludwig/p.Parsons Auf dem Wasser": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Iady8uxza0SrV_xEiq0n7_gBZiEBrqbeSRdgjKWAxN8YdXRxz87Ruzpi&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:50:16.728Z"
+    },
+    "Vocal|58|18.46189|23.41682|D.799 Im Abendrot s.Bonney/p.Parsons Nacht Und Traume  D.827": {
+      "url": "https://image.bugsm.co.kr/album/images/1200/10844/1084481.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:50:27.787Z"
+    },
+    "Vocal|58|17.52321|71.84093|s.Murray/p.Johnson": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHMmKmPRId9MhjYuzptHc7P0kTZ5OMfbCaBeYTiulRbcATm4Tu9ZDyebP&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:50:53.369Z"
+    },
+    "Vocal|59|29.5057|67.03724|Bertini Die Drei Pintos opera Weber Missa Sancta": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY8bZvGuFwljMjl2JVJl-zLq41WVnUMgRQs1bezOI-uA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:51:10.532Z"
+    },
+    "Vocal|59|78.91973|41.13392|D 㐴Arcy Il ritorno del marinaio Suppe Requiem": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD-_PR99xL1HUqkmKFYQAFKqt4gcnhSkyq6vP7x7qpbVFs-Kz5jm6F3ow4&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:51:20.468Z"
+    },
+    "Vocal|59|77.11191|67.03724|Corboz Requiem Flotow opera Martha": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe6sFF7ZkD-Pby2QGeaHlh-4AqCZHlYIh3nmG98PgtCA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:51:30.034Z"
+    },
+    "Vocal|60|33.19708|72.79273|Auf Flugelen des Nagano s.Bonney/p.Parsons": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1VCh8hAE39E-tgeXdljTC6Jq2h5NEHOkRdFo-Eb4HQg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:51:46.940Z"
+    },
+    "Vocal|60|55.11129|15.23873|Loewe  Lieder und Balladen : Ach neige, du Schmer…": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIuUcEYvVUZW_wJFXx-6sYizSl7RCJdG4oesUSRjlSyO9YBT3CWUNJ6T8&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:52:14.230Z"
+    },
+    "Vocal|60|55.11129|41.13392|s.Piau/p.Manoff : Ach neige, du Schmer… Loewe Erlkonig No.3/1": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl90ZstL4b9fivo9O9fE_yd_DcOcQs-7Y21AijJ2y-x_SBWngPkqTXO1o&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:52:22.293Z"
+    },
+    "Vocal|60|78.72442|67.0291|t.Steffani/p.Huber 12 Songs from Ruckert 㐴s C.Schumann Lieder Op.12 : Lorelei": {
+      "url": "https://i.scdn.co/image/ab67616d0000b273276729f6e3aedabfe639a64a",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:52:32.025Z"
+    },
+    "Vocal|61|32.91405|23.50961|s.Bonney/p.Pappano": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/40/eb/f7/40ebf782-a746-1877-bdd6-6bbda096e0c9/025091004928.jpg/600x600bb.jpg",
+      "album": "Robert Schumann: Love Fugue",
+      "artist": "Mark Ledford, Uri Caine Ensemble & La Gaia Scienza",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T12:53:58.431Z"
+    },
+    "Vocal|61|3.54248|47.8923|t.Wunderlich/p.Giesen Frauenliebe und ㎿leben Op.42": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAeaCf0oaERiU5Z1jHSv_8GQsBDMLfVNnNwqZRuQYF-tJmcvOV9DdqMNlx&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:54:55.627Z"
+    },
+    "vocal-pdf-v1-62-332-479": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02a268b72793e13b0a0854378b",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:55:22.514Z"
+    },
+    "Vocal|63|17.54374|48.19209|Der fliegende Holänder opera,WWV63 s.Davidsen Keilberth Tannhäuser  opera,WWV70": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpTV6W82hSc8bCgAZmAqKyzWEIKWUsU3R-XQ_6UBUnsA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:55:42.526Z"
+    },
+    "Vocal|63|53.68345|48.15016|Die Meistersinger von Nürnberg  opera,WWV70 Kempe Sawallisch Tristan und Isolde opera,WWV63": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZl77nXpu9-upk15x3JUDmBh4vQrw07aOO3NiskwEA5d2EibMPTfQ2AYQg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:56:12.478Z"
+    },
+    "Vocal|63|68.41828|48.15016|Die Meistersinger von Nürnberg  opera,WWV70 Schneider Karajan Tristan und Isolde opera,WWV63": {
+      "url": "https://m.media-amazon.com/images/I/91GLNx6tsJL._UF350,350_QL50_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:56:22.094Z"
+    },
+    "Vocal|63|67.11182|72.70657|Tristan und Isolde opera,WWV63 Karajan": {
+      "url": "https://i.discogs.com/nk2mG1dMZy6mAGeyvAlX-nvAJStKUr6eXGPwvwEwato/rs:fit/g:sm/q:90/h:526/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5OTEw/MjQtMTQ3MzQxMDI5/OS02NTMxLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:56:31.449Z"
+    },
+    "Vocal|64|18.50598|23.48918|Der Ring des Nibelungen opera Richard Wagner Keilberth Der Ring des Nibelungen": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbbnO989g2FwViQq8BX9K3PUna_w4M13UHWJsbX3HI7Q&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:56:41.005Z"
+    },
+    "Vocal|64|3.78226|48.41258|Bohm Janowski Parsifal  opera,WWV75": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/12/2a/d3/122ad333-38c1-d9b6-db9e-228042140733/743214541722.jpg/600x600bb.jpg",
+      "album": "Wagner: Der Ring des Nibelungen - Gesamtaufnahme",
+      "artist": "Marek Janowski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T12:57:50.075Z"
+    },
+    "Vocal|64|18.07289|47.09767|Der Ring des Nibelungen Keilberth": {
+      "url": "https://m.media-amazon.com/images/I/91YVbO6cn6L._UF350,350_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:58:18.540Z"
+    },
+    "Vocal|64|55.3106|41.13392|C.Kleiber Die Fledermaus J.Strauss II operetta Die Fledermaus": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgz3YwfHrBoGsMl3m9oFKZigKN9j1BGYKJ0HUHRUijdOPwbejQM9oEykg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T12:58:42.583Z"
+    },
+    "Vocal|64|55.31078|67.02751|Karajan Die Fledermaus J.Strauss II operetta Zigeunerbaron": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Ch-1qenp-TkEb4pkClNK35nouSOkyjLGVLNtFH4jZA&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:00:19.019Z"
+    },
+    "Vocal|66|53.64329|72.96308|Der Rosenkavalier  opera,Op.59 Bohm Karajan": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfsU1T2RRvLgKp0LuJzyvzrBAPGNCZVyCG2sCLwUuf14FxNre9FW5uzY_&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:01:14.641Z"
+    },
+    "Vocal|67|3.56392|23.4525|Ariadne auf Naxos  Op.60 Richard Strauss Nagano Intermezzo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpjgOuHdfZZMC0ErFSkHiHSKIKAhoAKWaq8lf4bke2XWAxls_xuVqygpg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:01:47.548Z"
+    },
+    "Vocal|67|18.64429|23.54703|Richard Strauss Bohm Arabella  Op.79": {
+      "url": "https://image.bugsm.co.kr/album/images/200/40089/4008912.jpg?version=20251011010448",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:01:58.861Z"
+    },
+    "Vocal|67|1.87898|48.10336|Op.72 Intermezzo Keilberth Die schweigsame": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM-43vjtjawxd7ekQURI3RRVg2cppp6m0j9hBAZMiLLA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:02:16.691Z"
+    },
+    "Vocal|67|18.62552|48.19791|Arabella  Op.79 Bohm Albrecht Daphne": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiqSx2Zhn8IFEJCjQViifXA9hh2ejscrrHYlNnJi-qTg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:02:25.874Z"
+    },
+    "Vocal|67|33.22975|48.1979|Solti Tate Capriccio": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/42/0d/48/420d487b-bde9-a52c-8699-47a64ed4640f/00028947834649.rgb.jpg/600x600bb.jpg",
+      "album": "Richard Strauss: Arabella",
+      "artist": "Dame Kiri Te Kanawa, Franz Grundheber, Gabriele Fontana, Helga Dernesch, Peter Seiffert, Chorus of the Royal Opera House, Covent Garden, Orchestra of the Royal Opera House & Jeffrey Tate",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T13:02:54.990Z"
+    },
+    "Vocal|67|54.3695|15.15296|Bruch opera Die Loreley Op.16": {
+      "url": "https://image.yes24.com/momo/TopCate0010/hani/L_1377204.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:03:16.963Z"
+    },
+    "Vocal|67|52.16923|40.6971|C.Kleiber Die Loreley Op.16 Odysseus Op.41 Karajan": {
+      "url": "https://i.discogs.com/65Oy0Z2pkKLq3Uw6MY1Qjm67eHq_YU8n69zTOENBytI/rs:fit/g:sm/q:90/h:511/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NTcx/OTE3LTE2ODAwMDYy/MjItNDI4MS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:04:48.224Z"
+    },
+    "Vocal|68|4.7732|41.02685|s.Schwarzkopf/br.Dieskau Italiensches Liderbuch Wolf  Goethe Lieder No.9 Mignon": {
+      "url": "https://i.scdn.co/image/ab67616d00001e02b204b427a5400cbe50bc7fb0",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:05:08.212Z"
+    },
+    "Vocal|68|54.67554|41.09983|Grun 3 Liebe Op.18 S.Wagner opera Heidenkonig": {
+      "url": "https://i.discogs.com/sogXgot6ccpF6U8UmeUS0eS-yBEBe0AzGgiz-_VvoNM/rs:fit/g:sm/q:90/h:433/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk1NTYw/NDgtMTQ4MjY4Njk4/NC03NzEzLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:05:29.332Z"
+    },
+    "Vocal|68|78.89429|15.19992|Reger Maria Wiegenlied": {
+      "url": "https://m.media-amazon.com/images/I/817kLCqmg1L._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:06:10.644Z"
+    },
+    "Vocal|69|4.06173|15.2306|Schmidt Das Bush mit sieben siegeln": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE3Nnzbzcc76qUrBIUydSZd3fXDrojR2fdViN3-Gchkg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:06:21.993Z"
+    },
+    "Vocal|69|3.46292|67.03723|Mitropouls mit sieben siegeln Schmidt Das Bush mit sieben siegeln": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0v3cihN3pORc-xbXcpOi51wJ9tmfkpjooPvDBQqPXo8CztnUhCgK_Y81v&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:06:31.006Z"
+    },
+    "Vocal|69|79.84284|15.36081|Pfitzner Herr Oluf Op.12": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD-xdIyvo8vZqZQ1QJjlVXbgRNSHrZT65C_RhgaW9NaVcX4N_RUaptkAeg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:06:44.716Z"
+    },
+    "Vocal|70|28.99195|15.2306|Zemlinsky opera Der Zwerg": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5YrsdrnLOK7BN-L-lW-BZnrfsiS6TXjyb5YrMPVxC6Y6rhwHA8Z_a7ac&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:06:54.741Z"
+    },
+    "Vocal|70|27.42913|41.13392|Colon Der Zwerg Zemlinsky opera Der Traumgörge": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5UbH-eaX-uoOlf3FMqpGh5qJPRZx2pd_Rvs4TPZWy12hjDa2jUf9pbUP&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:07:03.005Z"
+    },
+    "vocal-pdf-v1-70-539-410": {
+      "url": "https://i.scdn.co/image/ab67616d00001e0221a4174043b54b3d0c051872",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:07:26.199Z"
+    },
+    "Vocal|71|54.76359|41.13392|s.Fleming/Abbado 7 Early Songs Berg Altenberg Lieder, Op. 4": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaJeOtmhzUU47rbYHPIkoDMXhK3Wiq0KCAcoqPFL8S9w&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:07:47.705Z"
+    },
+    "Vocal|72|3.99848|48.10336|Catulli Carmina Previn Most Die Kluge , opera": {
+      "url": "https://m.media-amazon.com/images/I/61OJ5H6o4cL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:08:00.470Z"
+    },
+    "Vocal|72|33.20174|47.79687|Trionfi di Afrodite Ozawa Carmina Burana": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA6xdojgpTngZuSj5ztrlu9KS3s6vv1m9zXt-FrIPvZFh0FvXi6YZgqUk&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:08:08.441Z"
+    },
+    "Vocal|72|4.11316|73.38269|Die Kluge , opera Most Sawallish": {
+      "url": "https://contents.kyobobook.co.kr/sih/fit-in/375x0/music/large/5840/2048582.jpg?t=2988608",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:08:17.197Z"
+    },
+    "Vocal|72|18.94229|73.24181|Der Mond , opera Jochum Sawallish": {
+      "url": "https://m.media-amazon.com/images/I/71XIFuPg4zL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:08:27.449Z"
+    },
+    "Vocal|72|33.29385|73.27086|Piano Version Carmina Burana": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJyXhjV7zADYnt7Azp2HdIMDWY-jBzExxFzcJbqiQneQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:08:35.144Z"
+    },
+    "Vocal|73|3.99848|48.10336|Die Dreigroschenoper , opera ms.Otter/Gardiner Ruggeberg One Touch of Venus": {
+      "url": "https://m.media-amazon.com/images/I/818qOKMx3VL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:08:53.446Z"
+    },
+    "Vocal|73|33.42504|48.06891|Mahoganny , opera Hillier Ruggeberg Youkail": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYJAgaUMU5EzwWqFVslcCNFmy_ZzqS-XA9ZMOobNSnhhE8WdGkyYwj8Iw&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:09:28.766Z"
+    },
+    "Vocal|73|54.60885|15.35267|Spoliansky Alles Schwindel": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-5nZ9Taursp6zHbiSS8UKTxAWa0oPzduv9SIMEICvEd5vQUmHgiSo5CRk&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:09:41.292Z"
+    },
+    "Vocal|73|78.55485|15.32664|Waxman Allein in einer grossen Stadt": {
+      "url": "https://i.discogs.com/eacng_y-bXbFn-Nhzm75J5aY8GjFf4PMuSjELi1u930/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyMDM5/Ny0xNjU2NzQ3MjA2/LTE4NzguanBlZw.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:09:53.780Z"
+    },
+    "Vocal|73|54.69907|41.12578|s.Lemper/Ziegler Alles Schwindel Hollaender Sex Appeal": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-rcOrpXlyvLWGC_2_ToyzQD-vpnv6a6BNYByegmG954tSpDJjmDc3uBA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:10:01.564Z"
+    },
+    "Vocal|73|54.72672|68.33933|s.Lemper/Ziegler Sex Appeal Hollaender Illusions": {
+      "url": "https://i.discogs.com/wKJvkf9WBA-gL48XIy920kq1XSmY5T6kWu2d6xP_K5k/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDEy/NDg2LTE1NzQwMDcw/MjUtNTY3MS5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:10:11.080Z"
+    },
+    "Vocal|74|53.05975|68.09518|Zagrosek Deutsche Sinfonie Schilling Mina Lisa, opera": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/a749da7f2a671e0aeb24e5c9b84dcb3d/1900x1900-000000-80-0-0.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:10:29.333Z"
+    },
+    "Vocal|75|54.2096|41.7931|Chanticleer Ave Maria Petersen Grosse Messe": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRziwV7J-BUwh6EWH72hoVoOV3EXXVGmBMF06wyBwObu4QL4U9ex38HqriQ&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:11:08.485Z"
+    },
+    "Vocal|75|78.65348|67.79198|Poppen Maria ㎿Triptychon Martin Golgotha": {
+      "url": "https://image.bugsm.co.kr/album/images/200/10428/1042806.jpg?version=20250411002743",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:11:25.553Z"
+    },
+    "Vocal|76|54.30567|15.46491|Zeisl Requiem ebraico": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2qzsG7YeoxtC4WwQywL5s_dw9yk6wO5_JX2VmsYT_MA&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:12:22.963Z"
+    },
+    "Vocal|77|2.67177|14.73623|Requiem for a Young Poet Gielen": {
+      "url": "https://i.discogs.com/iks62tIiJ8cyiskv3dIZ6RSrCS_8KA6Bd3gXjjinHHc/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUyNjU5/MjgtMTYxNDk3Mjc0/My0zMjM0LmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:12:38.609Z"
+    },
+    "Vocal|77|4.80706|68.55037|Kontarsky Die Soldaten, opera U.Zimmermann Die Weisse Rose, opera": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTiahpsydp9ceVogctaE51KuvMCH5HyU65nFXk7G8Wbw&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:12:52.454Z"
+    },
+    "Vocal|77|28.51468|68.61602|Pomarico Logos ㎿Fragmente Stabler fallen,fallen…": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNiLcg9wmtHh_Q51rmIJzVQrhhPLTe-1ZZgX94O2tmsQSnZ0B8S1Tsyjg&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:13:01.944Z"
+    },
+    "Vocal|77|53.68233|15.49102|Henze opera Die Bassariden": {
+      "url": "https://fastly-s3.allmusic.com/release/mr0002654770/front/400/H_lO7ZyoMJNPeYnRc3KQ6h_TZlp6n_cq-Emr2zx15tU=.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:13:10.665Z"
+    },
+    "Vocal|78|5.01451|15.07297|Schnebell New Music in Church": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_yInqI6copdnM9xqSHePOYOpHXBOWAXtcJuK4B06rHQ&s",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:13:22.330Z"
+    },
+    "Vocal|78|5.01451|42.05351|Ziegler New Music in Church Schnebell Mit diesen Handen": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsTJfzwGv9xhgYySpg7DEe-LeGCRE08QbqDBZLJ-Ij-bKSRvkTUUNcXoPn&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:13:30.368Z"
+    },
+    "Vocal|78|4.22811|68.87643|ms.Seitz/vc.Bach Mit diesen Handen Schnebell Missa": {
+      "url": "https://image.yes24.com/momo/TopCate487/MidCate04/48635720.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:14:25.120Z"
+    },
+    "Vocal|78|28.70578|15.10004|Schneider So ich mich selber lese…": {
+      "url": "https://m.media-amazon.com/images/I/71a2mlhLXyL._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:15:10.784Z"
+    },
+    "Vocal|78|53.93795|15.2306|Petersen Gross Messe": {
+      "url": "https://m.media-amazon.com/images/I/61JgXHsLvfL._UF1000,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:15:30.411Z"
+    },
+    "Vocal|78|78.43654|15.2306|Walden Missa Iubileum Aureum": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpGQKWbJKuQYM058aiFnOuF4uU9ZniQx80gCe1azGpMWTqfQXkx1g9JfA&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:15:40.395Z"
+    },
+    "Vocal|80|4.59147|67.48435|Gergiev Prince Igor, opera Borodin  For the Shores of Thy Far Native Land": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqlbyCbTZ4ScggEtHecfVuQhfsboDdFb-TF4FU4YslWLe9HTyDjhUH3ZhF&s=10",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-09T13:16:02.755Z"
     }
   },
   "edits": {
@@ -59546,6 +60155,3044 @@
       "performer": "Rademann",
       "searchQuery": "Bach Magnificat 772 Rademann",
       "updatedAt": "2026-11-09T12:32:51.832Z"
+    },
+    "Vocal|48|4.21271|67.03724|Rademann Magnificat H.772 C.P.E.Bach Helig H778": {
+      "composer": "C.P.E.Bach",
+      "work": "Helig H778",
+      "performer": "Butt",
+      "searchQuery": "Bach Helig H778 Butt",
+      "updatedAt": "2026-11-09T12:38:12.906Z"
+    },
+    "Vocal|48|28.27449|15.17837|C.P.E.Bach Matthaus Passion": {
+      "composer": "C.P.E.Bach",
+      "work": "Matthaus Passion",
+      "performer": "Beringer",
+      "searchQuery": "Bach Matthaus Passion Beringer",
+      "updatedAt": "2026-11-09T12:38:13.588Z"
+    },
+    "Vocal|48|28.27449|41.13392|Beringer Matthaus Passion C.P.E.Bach Markus Passion": {
+      "composer": "C.P.E.Bach",
+      "work": "Markus Passion",
+      "performer": "Daus",
+      "searchQuery": "Bach Markus Passion Daus",
+      "updatedAt": "2026-11-09T12:38:14.223Z"
+    },
+    "Vocal|48|28.33259|67.03724|Daus Markus Passion J.C.F.Bach Wachet auf, ruft uns die Stimme": {
+      "composer": "J.C.F.Bach",
+      "work": "Wachet auf, ruft uns die Stimme",
+      "performer": "Kopp",
+      "searchQuery": "Bach Wachet auf ruft uns die Stimme Kopp",
+      "updatedAt": "2026-11-09T12:38:14.922Z"
+    },
+    "Vocal|48|54.12331|15.15296|J.Ch.Bach Lamento. Ach,dass ich…": {
+      "composer": "J.Ch.Bach",
+      "work": "Lamento. Ach,dass ich…",
+      "performer": "c-t.Charvet",
+      "searchQuery": "Bach Lamento Charvet",
+      "updatedAt": "2026-11-09T12:40:07.889Z"
+    },
+    "Vocal|48|54.12331|41.13392|c ㎿t.Charvet Lamento. Ach,dass ich… J.Ch.Bach Furchte dich nicht": {
+      "composer": "J.Ch.Bach",
+      "work": "Furchte dich nicht",
+      "performer": "Junghanel",
+      "searchQuery": "Bach Furchte dich nicht Junghanel",
+      "updatedAt": "2026-11-09T12:40:23.982Z"
+    },
+    "Vocal|48|54.08647|67.03724|Junghanel Furchte dich nicht J.C.Bach Salve Regina CW E24": {
+      "composer": "J.C.Bach",
+      "work": "Salve Regina CW E24",
+      "performer": "Gaigg",
+      "searchQuery": "Bach Salve Regina CW E24 Gaigg",
+      "updatedAt": "2026-11-09T12:40:24.774Z"
+    },
+    "Vocal|48|79.06779|15.2306|W.F.Bach O Wunder, we kann dieses fassen?": {
+      "composer": "W.F.Bach",
+      "work": "O Wunder, we kann dieses fassen?",
+      "performer": "Otto",
+      "searchQuery": "Bach O Wunder we kann dieses fassen Otto",
+      "updatedAt": "2026-11-09T12:40:25.826Z"
+    },
+    "Vocal|48|78.67608|41.26413|Otto we kann dieses fassen? W.F.Bach Lasset uns ablegen F80": {
+      "composer": "W.F.Bach",
+      "work": "Lasset uns ablegen F80",
+      "performer": "Max",
+      "searchQuery": "Bach Lasset uns ablegen F80 Max",
+      "updatedAt": "2026-11-09T12:40:26.510Z"
+    },
+    "Vocal|48|79.44928|67.03724|Max ablegen F80 H.Bach Ich danke dir Gott": {
+      "composer": "H.Bach",
+      "work": "Ich danke dir Gott",
+      "performer": "Meunier",
+      "searchQuery": "Bach Ich danke dir Gott Meunier",
+      "updatedAt": "2026-11-09T12:40:27.154Z"
+    },
+    "Vocal|49|3.97033|23.81401|Nelsonmesse  H.22/11 Franz Joseph Haydn Pinnock Nikolaimesse": {
+      "composer": "Franz Joseph Haydn",
+      "work": "NelsonmesseH.22/11",
+      "performer": "Pinnock",
+      "searchQuery": "Haydn 22 11 Pinnock",
+      "updatedAt": "2026-11-09T12:40:27.762Z"
+    },
+    "Vocal|49|18.63472|23.747|Franz Joseph Haydn Hickox Theresienmesse": {
+      "composer": "Franz Joseph Haydn",
+      "work": "NelsonmesseH.22/11",
+      "performer": "Hickox",
+      "searchQuery": "Haydn 22 11 Hickox",
+      "updatedAt": "2026-11-09T12:40:28.361Z"
+    },
+    "Vocal|49|33.31619|23.79908|C.Davis Harmoniemesse": {
+      "composer": "Franz Joseph Haydn",
+      "work": "NelsonmesseH.22/11",
+      "performer": "C.Davis",
+      "searchQuery": "Haydn 22 11 Davis",
+      "updatedAt": "2026-11-09T12:40:29.161Z"
+    },
+    "Vocal|49|3.87818|48.32684|H.22/6 Nikolaimesse Preston Die Schopfung H21/2": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Nikolaimesse H.22/6",
+      "performer": "Preston",
+      "searchQuery": "Haydn Nikolaimesse 22 6 Preston",
+      "updatedAt": "2026-11-09T12:40:34.989Z"
+    },
+    "Vocal|49|18.52725|48.1643|H.22/12 Theresienmesse Pinnock": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Theresienmesse H.22/12",
+      "performer": "Pinnock",
+      "searchQuery": "Haydn Theresienmesse 22 12 Pinnock",
+      "updatedAt": "2026-11-09T12:40:35.630Z"
+    },
+    "Vocal|49|33.36486|48.21901|H.22/14 Harmoniemesse Kuijken": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Harmoniemesse H.22/14",
+      "performer": "Kuijken",
+      "searchQuery": "Haydn Harmoniemesse 22 14 Kuijken",
+      "updatedAt": "2026-11-09T12:40:36.223Z"
+    },
+    "Vocal|49|3.91171|72.97162|Die Schopfung H21/2 Preston Antonini": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Die Schopfung H21/2",
+      "performer": "Antonini",
+      "searchQuery": "Haydn Die Schopfung H21 2 Antonini",
+      "updatedAt": "2026-11-09T12:40:37.023Z"
+    },
+    "Vocal|49|18.62452|72.97976|Pinnock Weil": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Die Schopfung H21/2",
+      "performer": "Weil",
+      "searchQuery": "Haydn Die Schopfung H21 2 Weil",
+      "updatedAt": "2026-11-09T12:40:37.662Z"
+    },
+    "Vocal|49|33.37563|72.97976|Kuijken Karajan": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Die Schopfung H21/2",
+      "performer": "Karajan",
+      "searchQuery": "Haydn Die Schopfung H21 2 Karajan",
+      "updatedAt": "2026-11-09T12:40:38.286Z"
+    },
+    "Vocal|49|53.80407|23.78184|Die Jahreszeiten  H.21/3 Jacobs Stabat Mater": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Die JahreszeitenH.21/3",
+      "performer": "Jacobs",
+      "searchQuery": "Haydn Die 21 3 Jacobs",
+      "updatedAt": "2026-11-09T12:40:38.872Z"
+    },
+    "Vocal|49|68.37883|23.64884|Bohm Te Deum": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Die JahreszeitenH.21/3",
+      "performer": "Bohm",
+      "searchQuery": "Haydn Die 21 3 Bohm",
+      "updatedAt": "2026-11-09T12:40:39.477Z"
+    },
+    "Vocal|49|82.98732|23.75206|Worte … H.20/2 Die Sieben letzten Sperling II Mondo della luna": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Die Sieben letzten Worte … H.20/2",
+      "performer": "Sperling",
+      "searchQuery": "Haydn Die Sieben letzten Worte 20 2 Sperling",
+      "updatedAt": "2026-11-09T12:40:40.074Z"
+    },
+    "Vocal|49|53.57583|48.39121|H.20bis Stabat Mater Pinnock L 㑄isola disabitata": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Stabat Mater H.20bis",
+      "performer": "Pinnock",
+      "searchQuery": "Haydn Stabat Mater 20bis Pinnock",
+      "updatedAt": "2026-11-09T12:40:40.682Z"
+    },
+    "Vocal|49|68.3371|48.52956|Hob.XXIIIc:2 Te Deum Hickox Orlando Paladino": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Te Deum Hob.XXIIIc:2",
+      "performer": "Hickox",
+      "searchQuery": "Haydn Te Deum XXIIIc 2 Hickox",
+      "updatedAt": "2026-11-09T12:40:41.289Z"
+    },
+    "Vocal|49|83.11154|48.51467|H.28/7 II Mondo della luna Dorati Armida": {
+      "composer": "Franz Joseph Haydn",
+      "work": "II Mondo della luna H.28/7",
+      "performer": "Dorati",
+      "searchQuery": "Haydn II Mondo della luna 28 7 Dorati",
+      "updatedAt": "2026-11-09T12:40:41.872Z"
+    },
+    "Vocal|49|53.82081|73.05577|opera,H.28/9 L 㑄isola disabitata Forck": {
+      "composer": "Franz Joseph Haydn",
+      "work": "L'isola disabitata opera,H.28/9",
+      "performer": "Forck",
+      "searchQuery": "Haydn L isola disabitata opera 28 9 Forck",
+      "updatedAt": "2026-11-09T12:40:42.470Z"
+    },
+    "Vocal|49|67.73025|72.04929|Orlando Paladino Hickox": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Orlando Paladino opera,H.28/11",
+      "performer": "Harnoncourt",
+      "searchQuery": "Haydn Orlando Paladino opera 28 11 Harnoncourt",
+      "updatedAt": "2026-11-09T12:40:43.382Z"
+    },
+    "Vocal|49|82.82164|72.60103|Armida Dorati": {
+      "composer": "Franz Joseph Haydn",
+      "work": "Armida opera,H.28/12",
+      "performer": "Harnoncourt",
+      "searchQuery": "Haydn Armida opera 28 12 Harnoncourt",
+      "updatedAt": "2026-11-09T12:40:45.378Z"
+    },
+    "Vocal|50|4.60375|15.20473|Gluck opera Orfeo ed Euridice": {
+      "composer": "Gluck",
+      "work": "opera Orfeo ed Euridice",
+      "performer": "Jacobs",
+      "searchQuery": "Gluck opera Orfeo ed Euridice Jacobs",
+      "updatedAt": "2026-11-09T12:40:47.382Z"
+    },
+    "Vocal|50|28.19546|15.2306|Gluck Alceste, opera": {
+      "composer": "Gluck",
+      "work": "Alceste, opera",
+      "performer": "Gardiner",
+      "searchQuery": "Gluck Alceste opera Gardiner",
+      "updatedAt": "2026-11-09T12:40:57.255Z"
+    },
+    "Vocal|50|54.10293|15.26725|M.Haydn Requiem": {
+      "composer": "M.Haydn",
+      "work": "Requiem",
+      "performer": "Janssens",
+      "searchQuery": "Haydn Requiem Janssens",
+      "updatedAt": "2026-11-09T12:40:58.562Z"
+    },
+    "Vocal|50|4.60375|41.26413|Jacobs Orfeo ed Euridice Gluck opera Orfeo ed Euridice": {
+      "composer": "Gluck",
+      "work": "opera Orfeo ed Euridice",
+      "performer": "Fasolis",
+      "searchQuery": "Gluck opera Orfeo ed Euridice Fasolis",
+      "updatedAt": "2026-11-09T12:40:59.197Z"
+    },
+    "Vocal|50|28.29463|41.39433|Gardiner Alceste, opera Fux Requiem": {
+      "composer": "Fux",
+      "work": "Requiem",
+      "performer": "Vox Luminis",
+      "searchQuery": "Fux Requiem Vox Luminis",
+      "updatedAt": "2026-11-09T12:40:59.806Z"
+    },
+    "Vocal|50|54.11709|41.39433|Janssens Requiem Dussek Messe Solemnelle": {
+      "composer": "Dussek",
+      "work": "Messe Solemnelle",
+      "performer": "Egarr",
+      "searchQuery": "Dussek Messe Solemnelle Egarr",
+      "updatedAt": "2026-11-09T12:41:00.439Z"
+    },
+    "Vocal|50|4.60375|67.28952|Fasolis Orfeo ed Euridice Gluck opera Orfeo ed Euridice": {
+      "composer": "Gluck",
+      "work": "opera Orfeo ed Euridice",
+      "performer": "Fagioli",
+      "searchQuery": "Gluck opera Orfeo ed Euridice Fagioli",
+      "updatedAt": "2026-11-09T12:41:01.062Z"
+    },
+    "Vocal|50|28.3338|67.28952|Vox Luminis Requiem Fux Gesu Cristo negato da Pietro K.297": {
+      "composer": "Fux",
+      "work": "Gesu Cristo negato da Pietro K.297",
+      "performer": "Letzbor",
+      "searchQuery": "Fux Gesu Cristo negato da Pietro 297 Letzbor",
+      "updatedAt": "2026-11-09T12:41:01.630Z"
+    },
+    "Vocal|50|54.13339|67.28952|Egarr Messe Solemnelle Gossec Requiem": {
+      "composer": "Gossec",
+      "work": "Requiem",
+      "performer": "Devos",
+      "searchQuery": "Gossec Requiem Devos",
+      "updatedAt": "2026-11-09T12:41:14.245Z"
+    },
+    "Vocal|51|5.08889|15.48288|Neukomm Requiem": {
+      "composer": "Neukomm",
+      "work": "Requiem",
+      "performer": "Malgoire",
+      "searchQuery": "Neukomm Requiem Malgoire",
+      "updatedAt": "2026-11-09T12:41:14.888Z"
+    },
+    "Vocal|51|28.7968|15.48288|Eybler Requiem": {
+      "composer": "Eybler",
+      "work": "Requiem",
+      "performer": "Heibich",
+      "searchQuery": "Eybler Requiem Heibich",
+      "updatedAt": "2026-11-09T12:41:15.503Z"
+    },
+    "Vocal|51|5.08889|41.36024|Malgoire Requiem Neukomm Miserere mei Deus": {
+      "composer": "Neukomm",
+      "work": "Miserere mei Deus",
+      "performer": "Malgoire",
+      "searchQuery": "Neukomm Miserere mei Deus Malgoire",
+      "updatedAt": "2026-11-09T12:41:16.126Z"
+    },
+    "Vocal|51|28.85713|41.39433|Heibich Requiem Dussek Solemn Mass": {
+      "composer": "Dussek",
+      "work": "Solemn Mass",
+      "performer": "Egarr",
+      "searchQuery": "Dussek Solemn Mass Egarr",
+      "updatedAt": "2026-11-09T12:41:16.723Z"
+    },
+    "Vocal|51|5.08889|67.28952|Malgoire Miserere mei Deus Neukomm Libera me, Domine": {
+      "composer": "Neukomm",
+      "work": "Libera me, Domine",
+      "performer": "Arnan",
+      "searchQuery": "Neukomm Libera me Domine Arnan",
+      "updatedAt": "2026-11-09T12:41:17.326Z"
+    },
+    "vocal-pdf-v1-51-287-669": {
+      "composer": "Schweitzer",
+      "work": "The Resurrection of Christ",
+      "performer": "Susmuth",
+      "searchQuery": "Schweitzer The Resurrection of Christ Susmuth",
+      "updatedAt": "2026-11-09T12:41:17.877Z"
+    },
+    "Vocal|52|3.38421|22.56514|Wolfgang Amadeus Mozart Great Mass  c minor K427": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "RequiemK.626",
+      "performer": "Christie",
+      "searchQuery": "Mozart 626 Christie",
+      "updatedAt": "2026-11-09T12:41:27.653Z"
+    },
+    "Vocal|52|18.76576|23.65897|Wolfgang Amadeus Mozart Herreweghe Great Mass  c minor K427": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "RequiemK.626",
+      "performer": "Herreweghe",
+      "searchQuery": "Mozart 626 Herreweghe",
+      "updatedAt": "2026-11-09T12:41:28.246Z"
+    },
+    "Vocal|52|33.43204|23.75415|Bernstein": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "RequiemK.626",
+      "performer": "Bernstein",
+      "searchQuery": "Mozart 626 Bernstein",
+      "updatedAt": "2026-11-09T12:41:28.805Z"
+    },
+    "Vocal|52|4.04259|48.36722|Great Mass  c minor K427 Christie Suzuki Coronation Mass C Major K317": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Great Mass c minor K427",
+      "performer": "Suzuki",
+      "searchQuery": "Mozart Great Mass K427 Suzuki",
+      "updatedAt": "2026-11-09T12:41:29.526Z"
+    },
+    "Vocal|52|18.69519|48.25482|Great Mass  c minor K427 Herreweghe Christie Coronation Mass C Major K317": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Great Mass c minor K427",
+      "performer": "Christie",
+      "searchQuery": "Mozart Great Mass K427 Christie",
+      "updatedAt": "2026-11-09T12:42:11.339Z"
+    },
+    "Vocal|52|33.20832|48.19909|Bernstein Fricsay": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Great Mass c minor K427",
+      "performer": "Fricsay",
+      "searchQuery": "Mozart Great Mass K427 Fricsay",
+      "updatedAt": "2026-11-09T12:42:12.214Z"
+    },
+    "Vocal|52|3.89869|72.78871|Coronation Mass C Major K317 Suzuki Pinnock": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Coronation Mass C Major K317",
+      "performer": "Pinnock",
+      "searchQuery": "Mozart Coronation Mass K317 Pinnock",
+      "updatedAt": "2026-11-09T12:42:12.822Z"
+    },
+    "Vocal|52|18.61121|72.90125|Coronation Mass C Major K317 Christie Equilbey": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Coronation Mass C Major K317",
+      "performer": "Equilbey",
+      "searchQuery": "Mozart Coronation Mass K317 Equilbey",
+      "updatedAt": "2026-11-09T12:42:13.555Z"
+    },
+    "Vocal|52|33.26377|72.92706|Fricsay Karajan": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Coronation Mass C Major K317",
+      "performer": "Karajan",
+      "searchQuery": "Mozart Coronation Mass K317 Karajan",
+      "updatedAt": "2026-11-09T12:42:27.830Z"
+    },
+    "Vocal|52|53.8776|23.40493|Missa Harnoncourt Ave verum corpus": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Missa c minor K.139",
+      "performer": "Harnoncourt",
+      "searchQuery": "Mozart Missa 139 Harnoncourt",
+      "updatedAt": "2026-11-09T12:42:37.122Z"
+    },
+    "Vocal|52|68.432|23.51749|Missa solemnis Carwood Versperae solennes": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Missa solemnis C Major K.337",
+      "performer": "Carwood",
+      "searchQuery": "Mozart Missa solemnis 337 Carwood",
+      "updatedAt": "2026-11-09T12:42:37.772Z"
+    },
+    "Vocal|52|83.05683|23.53374|d minor K.341 Kyrie Gardiner Ch 㐴io mi scordi di te..": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Kyrie d minor K.341",
+      "performer": "Gardiner",
+      "searchQuery": "Mozart Kyrie 341 Gardiner",
+      "updatedAt": "2026-11-09T12:42:38.430Z"
+    },
+    "Vocal|52|53.69874|48.36272|D Major K.618 Ave verum corpus Netherlands Chamber Choir Exsultate,jubilate": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Ave verum corpus D Major K.618",
+      "performer": "Netherlands Chamber Choir",
+      "searchQuery": "Mozart Ave verum corpus 618 Netherlands Chamber Choir",
+      "updatedAt": "2026-11-09T12:42:39.072Z"
+    },
+    "Vocal|52|68.49015|48.36281|K.339 : Laudate pueri Versperae solennes s.Sampson/Suzuki Das Veilchen": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Versperae solennes K.339 : Laudate pueri",
+      "performer": "s.Sampson/Suzuki",
+      "searchQuery": "Mozart Versperae solennes 339 Laudate pueri Sampson Suzuki",
+      "updatedAt": "2026-11-09T12:42:39.687Z"
+    },
+    "Vocal|52|83.09076|48.37168|K.505 Ch 㐴io mi scordi di te.. s.Kozena/Rattle Abendempfindung": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Ch'io mi scordi di te.. K.505",
+      "performer": "s.Kozena/Rattle",
+      "searchQuery": "Mozart Ch io mi scordi di 505 Kozena Rattle",
+      "updatedAt": "2026-11-09T12:42:40.310Z"
+    },
+    "Vocal|52|53.78813|72.5627|Exsultate,jubilate Netherlands Chamber Choir s.Kirkby/Hogwood": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Exsultate,jubilate K.165",
+      "performer": "s.Kirkby/Hogwood",
+      "searchQuery": "Mozart Exsultate jubilate 165 Kirkby Hogwood",
+      "updatedAt": "2026-11-09T12:42:40.878Z"
+    },
+    "Vocal|52|68.43686|72.68879|Das Veilchen s.Sampson/Suzuki s.Konradi/p.Heide": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Das Veilchen K.476",
+      "performer": "s.Konradi/p.Heide",
+      "searchQuery": "Mozart Das Veilchen 476 Konradi Heide",
+      "updatedAt": "2026-11-09T12:42:41.493Z"
+    },
+    "Vocal|52|83.09679|72.69694|K.523 Abendempfindung p.Schwarzkopf/p.Gieseking": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Abendempfindung K.523",
+      "performer": "p.Schwarzkopf/p.Gieseking",
+      "searchQuery": "Mozart Schwarzkopf Gieseking",
+      "updatedAt": "2026-11-09T12:43:08.929Z"
+    },
+    "Vocal|53|3.95129|23.16528|Le nozze di Figaro opera, K492 Wolfgang Amadeus Mozart Jacobs Don Giovanni opera, K527": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Le nozze di Figaro opera,K492",
+      "performer": "Jacobs",
+      "searchQuery": "Mozart Le nozze di Figaro opera K492 Jacobs",
+      "updatedAt": "2026-11-09T12:43:10.719Z"
+    },
+    "Vocal|53|18.64821|23.30362|Le nozze di Figaro opera, K492 Wolfgang Amadeus Mozart Bohm": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Le nozze di Figaro opera,K492",
+      "performer": "Bohm",
+      "searchQuery": "Mozart Le nozze di Figaro opera K492 Bohm",
+      "updatedAt": "2026-11-09T12:43:11.306Z"
+    },
+    "Vocal|53|33.34515|23.22824|Currentzis": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Le nozze di Figaro opera,K492",
+      "performer": "Currentzis",
+      "searchQuery": "Mozart Le nozze di Figaro opera K492 Currentzis",
+      "updatedAt": "2026-11-09T12:43:11.972Z"
+    },
+    "Vocal|53|3.95129|47.85781|Don Giovanni opera, K527 Jacobs Jacobs Die Zauberflöte opera, K620": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Don Giovanni opera,K527",
+      "performer": "Jacobs",
+      "searchQuery": "Mozart Don Giovanni opera K527 Jacobs",
+      "updatedAt": "2026-11-09T12:43:12.692Z"
+    },
+    "Vocal|53|18.61121|47.99616|Don Giovanni opera, K527 Bohm Currentzis Die Zauberflöte opera, K620": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Don Giovanni opera,K527",
+      "performer": "Currentzis",
+      "searchQuery": "Mozart Don Giovanni opera K527 Currentzis",
+      "updatedAt": "2026-11-09T12:43:13.305Z"
+    },
+    "Vocal|53|33.26377|47.99616|Currentzis Giulini": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Don Giovanni opera,K527",
+      "performer": "Giulini",
+      "searchQuery": "Mozart Don Giovanni opera K527 Giulini",
+      "updatedAt": "2026-11-09T12:43:13.854Z"
+    },
+    "Vocal|53|3.9703|72.72467|Die Zauberflöte opera, K620 Jacobs": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Die Zauberflöte opera,K620",
+      "performer": "Jacobs",
+      "searchQuery": "Mozart Die Zauberflöte opera K620 Jacobs",
+      "updatedAt": "2026-11-09T12:43:14.446Z"
+    },
+    "Vocal|53|18.50009|72.58632|Die Zauberflöte opera, K620 Currentzis Christie": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Die Zauberflöte opera,K620",
+      "performer": "Christie",
+      "searchQuery": "Mozart Die Zauberflöte opera K620 Christie",
+      "updatedAt": "2026-11-09T12:43:15.054Z"
+    },
+    "Vocal|53|32.08849|72.64929|Giulini Klemperer": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Die Zauberflöte opera,K620",
+      "performer": "Klemperer",
+      "searchQuery": "Mozart Die Zauberflöte opera K620 Klemperer",
+      "updatedAt": "2026-11-09T12:43:26.137Z"
+    },
+    "Vocal|53|53.75143|23.18802|Così fan tutte opera, K.588 Jacobs Die Entführung aus dem Serail opera, K.384": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Così fan tutte opera,K.588",
+      "performer": "Jacobs",
+      "searchQuery": "Mozart Così fan tutte opera 588 Jacobs",
+      "updatedAt": "2026-11-09T12:43:26.725Z"
+    },
+    "Vocal|53|68.32141|23.32637|Così fan tutte opera, K.588 Karajan Die Entführung aus dem Serail opera, K.384": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Così fan tutte opera,K.588",
+      "performer": "Karajan",
+      "searchQuery": "Mozart Così fan tutte opera 588 Karajan",
+      "updatedAt": "2026-11-09T12:43:46.314Z"
+    },
+    "Vocal|53|82.96493|23.47295|opera,K621 La Clemenza di Tito Jacobs Idomeneo opera, K366": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "La Clemenza di Tito opera,K621",
+      "performer": "Jacobs",
+      "searchQuery": "Mozart La Clemenza di Tito opera K621 Jacobs",
+      "updatedAt": "2026-11-09T12:43:46.902Z"
+    },
+    "Vocal|53|53.80754|48.19771|Die Entführung aus dem Serail opera, K.384 Jacobs Jacobs Zaide opera,K.344": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Die Entführung aus dem Serail opera,K.384",
+      "performer": "Jacobs",
+      "searchQuery": "Mozart Die Entführung aus dem Serail opera 384 Jacobs",
+      "updatedAt": "2026-11-09T12:43:47.554Z"
+    },
+    "Vocal|53|68.46747|48.31011|Die Entführung aus dem Serail opera, K.384 Karajan Nezet ㎿Seguin Don Giovanni": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Die Entführung aus dem Serail opera,K.384",
+      "performer": "Nezet-Seguin",
+      "searchQuery": "Mozart Die Entführung aus dem Serail opera 384 Nezet Seguin",
+      "updatedAt": "2026-11-09T12:43:48.178Z"
+    },
+    "vocal-pdf-v1-53-830-483": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Idomeneo opera,K366",
+      "performer": "Jacobs",
+      "searchQuery": "Mozart Idomeneo opera K366 Jacobs",
+      "updatedAt": "2026-11-09T12:43:48.741Z"
+    },
+    "Vocal|53|53.74716|72.6888|Ruhe sanft, mein holdes… Zaide opera,K.344 s.Piau": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Zaide opera,K.344 Ruhe sanft, mein holdes…",
+      "performer": "s.Piau",
+      "searchQuery": "Mozart Zaide opera 344 Ruhe sanft mein Piau",
+      "updatedAt": "2026-11-09T12:44:01.161Z"
+    },
+    "Vocal|53|68.27431|72.66284|Verrai,carino Don Giovanni s.Battle": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Don Giovanni Verrai,carino",
+      "performer": "s.Battle",
+      "searchQuery": "Mozart Don Giovanni Verrai carino Battle",
+      "updatedAt": "2026-11-09T12:44:01.841Z"
+    },
+    "Vocal|53|82.64032|72.6888|Voi che sapete Le nozze di Figaro m ㎿s.Bartolo": {
+      "composer": "Wolfgang Amadeus Mozart",
+      "work": "Le nozze di Figaro Voi che sapete",
+      "performer": "m-s.Bartolo",
+      "searchQuery": "Mozart Le nozze di Figaro Voi che sapete m Bartolo",
+      "updatedAt": "2026-11-09T12:44:02.485Z"
+    },
+    "Vocal|54|3.95129|23.37465|Missa Solemnis D Major Op.123 Ludwig van Beethoven Herreweghe Mass C Major Op.86": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Missa Solemnis D Major Op.123",
+      "performer": "Herreweghe",
+      "searchQuery": "Beethoven Missa Solemnis Herreweghe",
+      "updatedAt": "2026-11-09T12:44:15.370Z"
+    },
+    "Vocal|54|18.57711|23.46752|Missa Solemnis D Major Op.123 Ludwig van Beethoven Gardiner": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Missa Solemnis D Major Op.123",
+      "performer": "Gardiner",
+      "searchQuery": "Beethoven Missa Solemnis Gardiner",
+      "updatedAt": "2026-11-09T12:44:16.009Z"
+    },
+    "Vocal|54|33.26377|23.513|Klemperer Christus am Olberge": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Missa Solemnis D Major Op.123",
+      "performer": "Klemperer",
+      "searchQuery": "Beethoven Missa Solemnis Klemperer",
+      "updatedAt": "2026-11-09T12:44:16.646Z"
+    },
+    "Vocal|54|3.86887|48.14453|Mass C Major Op.86 Herreweghe Gardiner Egmont": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Mass C Major Op.86",
+      "performer": "Gardiner",
+      "searchQuery": "Beethoven Mass Gardiner",
+      "updatedAt": "2026-11-09T12:44:17.285Z"
+    },
+    "Vocal|54|18.61122|48.28288|Gardiner Corboz Choral Fantasy": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Mass C Major Op.86",
+      "performer": "Corboz",
+      "searchQuery": "Beethoven Mass Corboz",
+      "updatedAt": "2026-11-09T12:44:18.158Z"
+    },
+    "Vocal|54|33.19557|48.19192|Christus am Olberge Klemperer Nagano": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Christus am Olberge Op.85",
+      "performer": "Nagano",
+      "searchQuery": "Beethoven Christus am Olberge Nagano",
+      "updatedAt": "2026-11-09T12:44:18.797Z"
+    },
+    "Vocal|54|3.93484|72.63635|Incidental music  Op.84 Egmont Szell": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Egmont Incidental musicOp.84",
+      "performer": "Szell",
+      "searchQuery": "Beethoven Egmont Incidental 84 Szell",
+      "updatedAt": "2026-11-09T12:44:36.868Z"
+    },
+    "Vocal|54|18.55545|72.76263|Op.80 Choral Fantasy p.Pollini/Abbado": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Choral Fantasy Op.80",
+      "performer": "p.Pollini/Abbado",
+      "searchQuery": "Beethoven Choral Fantasy Pollini Abbado",
+      "updatedAt": "2026-11-09T12:44:37.753Z"
+    },
+    "Vocal|54|68.5948|23.67349|Fidelio ㏙Leonore㏚ opera, Op.72 Klemperer Ich Liebe Dich": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Fidelio(Leonore) opera,Op.72",
+      "performer": "Klemperer",
+      "searchQuery": "Beethoven Fidelio Leonore opera Klemperer",
+      "updatedAt": "2026-11-09T12:44:38.513Z"
+    },
+    "Vocal|54|83.18931|23.66669|Bernstein Die Ehre Gottes aus…": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Fidelio(Leonore) opera,Op.72",
+      "performer": "Bernstein",
+      "searchQuery": "Beethoven Fidelio Leonore opera Bernstein",
+      "updatedAt": "2026-11-09T12:44:39.105Z"
+    },
+    "Vocal|54|53.77553|48.36379|Op.46 Adelaide t.Gura/p.Berner An die ferne Geliebte": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Adelaide Op.46",
+      "performer": "t.Gura/p.Berner",
+      "searchQuery": "Beethoven Adelaide Gura Berner",
+      "updatedAt": "2026-11-09T12:44:39.705Z"
+    },
+    "Vocal|54|68.4122|48.31411|WoO123 Ich Liebe Dich t.Wunderlich/p.Gisen 25 Irish Songs": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Ich Liebe Dich WoO123",
+      "performer": "t.Wunderlich/p.Gisen",
+      "searchQuery": "Beethoven Ich Liebe Dich WoO123 Wunderlich Gisen",
+      "updatedAt": "2026-11-09T12:44:40.302Z"
+    },
+    "Vocal|54|83.09213|48.36272|Op.48/5 Die Ehre Gottes aus… br.Goerne/p.Lisiecki": {
+      "composer": "Ludwig van Beethoven",
+      "work": "Die Ehre Gottes aus… Op.48/5",
+      "performer": "br.Goerne/p.Lisiecki",
+      "searchQuery": "Beethoven Die Ehre Gottes Goerne Lisiecki",
+      "updatedAt": "2026-11-09T12:44:40.869Z"
+    },
+    "Vocal|54|53.81055|72.71168|Op.98 An die ferne Geliebte t.Bostridge/p.Pappano": {
+      "composer": "Ludwig van Beethoven",
+      "work": "An die ferne Geliebte Op.98",
+      "performer": "t.Bostridge/p.Pappano",
+      "searchQuery": "Beethoven An die ferne Geliebte Bostridge Pappano",
+      "updatedAt": "2026-11-09T12:44:41.409Z"
+    },
+    "vocal-pdf-v1-54-684-726": {
+      "composer": "Ludwig van Beethoven",
+      "work": "25 Irish Songs WoO152",
+      "performer": "br.Dieskau",
+      "searchQuery": "Beethoven 25 Irish Songs WoO152 Dieskau",
+      "updatedAt": "2026-11-09T12:44:41.989Z"
+    },
+    "Vocal|55|3.95129|23.37891|Mass No.2 G D.167 Franz Schubert Shaw": {
+      "composer": "Franz Schubert",
+      "work": "Mass No.2 G D.167",
+      "performer": "Shaw",
+      "searchQuery": "Schubert Mass 2 G 167 Shaw",
+      "updatedAt": "2026-11-09T12:44:42.725Z"
+    },
+    "Vocal|55|18.57229|23.54328|Franz Schubert Weil Mass No.6 E Flat D.950": {
+      "composer": "Franz Schubert",
+      "work": "Mass No.2 G D.167",
+      "performer": "Weil",
+      "searchQuery": "Schubert Mass 2 G 167 Weil",
+      "updatedAt": "2026-11-09T12:44:43.369Z"
+    },
+    "Vocal|55|33.26377|23.54328|Mass No.5 A Flat D.678 Sawallisch": {
+      "composer": "Franz Schubert",
+      "work": "Mass No.5 A Flat D.678",
+      "performer": "Sawallisch",
+      "searchQuery": "Schubert Mass 5 A Flat 678 Sawallisch",
+      "updatedAt": "2026-11-09T12:44:43.953Z"
+    },
+    "Vocal|55|3.94493|48.14857|Shaw Harnoncourt Deutsche Messe": {
+      "composer": "Schubert",
+      "work": "Mass No.5 A Flat D.678",
+      "performer": "Harnoncourt",
+      "searchQuery": "Schubert Mass 5 Harnoncourt",
+      "updatedAt": "2026-11-09T12:47:33.681Z"
+    },
+    "Vocal|55|18.5725|48.17521|Mass No.6 E Flat D.950 Weil Abbado Nazarus D.689": {
+      "composer": "Franz Schubert",
+      "work": "Mass No.6 E Flat D.950",
+      "performer": "Abbado",
+      "searchQuery": "Schubert Mass 6 E Flat 950 Abbado",
+      "updatedAt": "2026-11-09T12:46:19.161Z"
+    },
+    "Vocal|55|17.68731|72.88407|Nazarus D.689 Abbado Guschlbauer": {
+      "composer": "Franz Schubert",
+      "work": "Nazarus D.689",
+      "performer": "Guschlbauer",
+      "searchQuery": "Schubert Nazarus 689 Guschlbauer",
+      "updatedAt": "2026-11-09T12:48:11.657Z"
+    },
+    "Vocal|55|33.30792|72.89284|Stabat Mater D.383 Rilling Corboz": {
+      "composer": "Franz Schubert",
+      "work": "Stabat Mater D.383",
+      "performer": "Corboz",
+      "searchQuery": "Schubert Stabat Mater 383 Corboz",
+      "updatedAt": "2026-11-09T12:48:20.256Z"
+    },
+    "Vocal|55|68.62683|23.67349|opera , D.647 Die Zwillngsbruder Sawallisch Gott ist mein Hirt": {
+      "composer": "Franz Schubert",
+      "work": "Die Zwillngsbruder opera, D.647",
+      "performer": "Sawallisch",
+      "searchQuery": "Schubert Die Zwillngsbruder opera 647 Sawallisch",
+      "updatedAt": "2026-11-09T12:48:28.881Z"
+    },
+    "Vocal|55|82.91946|23.8037|opera , D.647 Alfonso und Estrella Harnoncourt Standchen": {
+      "composer": "Franz Schubert",
+      "work": "Alfonso und Estrella opera, D.647",
+      "performer": "Harnoncourt",
+      "searchQuery": "Schubert Alfonso und Estrella opera 647 Harnoncourt",
+      "updatedAt": "2026-11-09T12:48:30.058Z"
+    },
+    "Vocal|55|53.95606|48.16292|D.983c Die Nacht Creed": {
+      "composer": "Franz Schubert",
+      "work": "Die Nacht D.983c",
+      "performer": "Creed",
+      "searchQuery": "Schubert Die Nacht 983c Creed",
+      "updatedAt": "2026-11-09T12:48:30.698Z"
+    },
+    "Vocal|55|68.55757|48.10118|D.706 Gott ist mein Hirt Gardiner": {
+      "composer": "Franz Schubert",
+      "work": "Gott ist mein Hirt D.706",
+      "performer": "Gardiner",
+      "searchQuery": "Schubert Gott ist mein Hirt 706 Gardiner",
+      "updatedAt": "2026-11-09T12:48:31.267Z"
+    },
+    "Vocal|55|83.15318|48.15325|D.920 Standchen Immerseel": {
+      "composer": "Franz Schubert",
+      "work": "Standchen D.920",
+      "performer": "Immerseel",
+      "searchQuery": "Schubert Standchen 920 Immerseel",
+      "updatedAt": "2026-11-09T12:48:31.896Z"
+    },
+    "Vocal|56|3.90806|23.80371|Winterreise D.911 Franz Schubert t.Pregardien/p.Staier Winterreise": {
+      "composer": "Franz Schubert",
+      "work": "Winterreise D.911",
+      "performer": "t.Pregardien/p.Staier",
+      "searchQuery": "Schubert Winterreise 911 Pregardien Staier",
+      "updatedAt": "2026-11-09T12:48:32.828Z"
+    },
+    "Vocal|56|18.70066|23.89126|Franz Schubert br.Goerner/p.Eschenbach Winterreise": {
+      "composer": "Franz Schubert",
+      "work": "Winterreise D.911",
+      "performer": "br.Goerner/p.Eschenbach",
+      "searchQuery": "Schubert Winterreise 911 Goerner Eschenbach",
+      "updatedAt": "2026-11-09T12:48:33.468Z"
+    },
+    "Vocal|56|33.23094|23.79341|br.Dieskau/p.Moore Eine Winterreise": {
+      "composer": "Franz Schubert",
+      "work": "Winterreise D.911",
+      "performer": "br.Dieskau/p.Moore",
+      "searchQuery": "Schubert Winterreise 911 Dieskau Moore",
+      "updatedAt": "2026-11-09T12:48:34.045Z"
+    },
+    "Vocal|56|4.00753|47.9335|1827 Original Ver. Winterreise s.Baird/fp.Willis Die schone Mullerin D.795": {
+      "composer": "Franz Schubert",
+      "work": "Winterreise 1827 Original Ver.",
+      "performer": "s.Baird/fp.Willis",
+      "searchQuery": "Schubert Winterreise 1827 Original Baird Willis",
+      "updatedAt": "2026-11-09T12:48:34.601Z"
+    },
+    "Vocal|56|18.75005|48.00085|Schubert ㎿Zender Winterreise t.Blochwitz/ Ensemble Modern": {
+      "composer": "Franz Schubert",
+      "work": "Winterreise Schubert-Zender",
+      "performer": "t.Blochwitz/ Ensemble Modern",
+      "searchQuery": "Schubert Winterreise Schubert Zender Blochwitz Ensemble Modern",
+      "updatedAt": "2026-11-09T12:48:35.245Z"
+    },
+    "vocal-pdf-v1-56-331-448": {
+      "composer": "Franz Schubert",
+      "work": "Winterreise",
+      "performer": "vocal.Waysfeld/p.Chassy",
+      "searchQuery": "Schubert Winterreise Waysfeld Chassy",
+      "updatedAt": "2026-11-09T12:48:35.822Z"
+    },
+    "Vocal|56|4.02003|72.54711|Die schone Mullerin D.795 s.Baird/fp.Willis t.Bostridge/p.Johnson": {
+      "composer": "Franz Schubert",
+      "work": "Die schone Mullerin D.795",
+      "performer": "t.Bostridge/p.Johnson",
+      "searchQuery": "Schubert Die schone Mullerin 795 Bostridge Johnson",
+      "updatedAt": "2026-11-09T12:48:36.390Z"
+    },
+    "Vocal|56|18.53598|72.50447|Die schone Mullerin D.795 Ensemble Modern t.Wunderlich/p.Gisen": {
+      "composer": "Franz Schubert",
+      "work": "Die schone Mullerin D.795",
+      "performer": "t.Wunderlich/p.Gisen",
+      "searchQuery": "Schubert Die schone Mullerin 795 Wunderlich Gisen",
+      "updatedAt": "2026-11-09T12:48:37.919Z"
+    },
+    "Vocal|56|33.21189|72.63419|vocal.Waysfeld/p.Chassy br.Guthrie/Barokksolistene ㏙arr.㏚": {
+      "composer": "Franz Schubert",
+      "work": "Die schone Mullerin D.795",
+      "performer": "br.Guthrie/Barokksolistene (arr.)",
+      "searchQuery": "Schubert Die schone Mullerin 795 Guthrie Barokksolistene",
+      "updatedAt": "2026-11-09T12:48:39.775Z"
+    },
+    "Vocal|56|53.40353|23.8037|Schwanengesang D.957 t.Gura/p.Berner Schwanengesang": {
+      "composer": "Franz Schubert",
+      "work": "Schwanengesang D.957",
+      "performer": "t.Gura/p.Berner",
+      "searchQuery": "Schubert Schwanengesang 957 Gura Berner",
+      "updatedAt": "2026-11-09T12:48:41.404Z"
+    },
+    "Vocal|56|67.98749|23.66535|Schwanengesang D.957 br.Goerner/p.Eschenbach Schwanengesang": {
+      "composer": "Franz Schubert",
+      "work": "Schwanengesang D.957",
+      "performer": "br.Goerner/p.Eschenbach",
+      "searchQuery": "Schubert Schwanengesang 957 Goerner Eschenbach",
+      "updatedAt": "2026-11-09T12:48:42.116Z"
+    },
+    "Vocal|56|82.59027|23.8037|br.Dieskau/p.Moore": {
+      "composer": "Franz Schubert",
+      "work": "Schwanengesang D.957",
+      "performer": "br.Dieskau/p.Moore",
+      "searchQuery": "Schubert Schwanengesang 957 Dieskau Moore",
+      "updatedAt": "2026-11-09T12:48:42.763Z"
+    },
+    "Vocal|56|53.3195|48.3393|Standchen Schwanengesang t.Wunderlich/p.Gisen Erlkonig D.328": {
+      "composer": "Franz Schubert",
+      "work": "Schwanengesang Standchen",
+      "performer": "t.Wunderlich/p.Gisen",
+      "searchQuery": "Schubert Schwanengesang Standchen Wunderlich Gisen",
+      "updatedAt": "2026-11-09T12:48:43.421Z"
+    },
+    "Vocal|56|68.02529|48.4881|Der Dopplganger Schwanengesang t.Pregardien/p.Gees": {
+      "composer": "Franz Schubert",
+      "work": "Schwanengesang Der Dopplganger",
+      "performer": "t.Pregardien/p.Gees",
+      "searchQuery": "Schubert Schwanengesang Der Dopplganger Pregardien Gees",
+      "updatedAt": "2026-11-09T12:48:44.048Z"
+    },
+    "Vocal|56|53.45649|72.3545|Erlkonig D.328 t.Wunderlich/p.Gisen t.Bostridge/p.Drake": {
+      "composer": "Franz Schubert",
+      "work": "Erlkonig D.328",
+      "performer": "t.Bostridge/p.Drake",
+      "searchQuery": "Schubert Erlkonig 328 Bostridge Drake",
+      "updatedAt": "2026-11-09T12:48:58.471Z"
+    },
+    "Vocal|56|67.90277|72.3545|t.Pregardien/p.Gees br.Quasthoff/Abbado": {
+      "composer": "Franz Schubert",
+      "work": "Erlkonig D.328",
+      "performer": "br.Quasthoff/Abbado",
+      "searchQuery": "Schubert Erlkonig 328 Quasthoff Abbado",
+      "updatedAt": "2026-11-09T12:48:59.111Z"
+    },
+    "Vocal|56|82.64945|72.43149|Schafer/Ainsley/Keenlyside": {
+      "composer": "Franz Schubert",
+      "work": "Erlkonig D.328",
+      "performer": "Schafer/Ainsley/Keenlyside",
+      "searchQuery": "Schubert Erlkonig 328 Schafer Ainsley Keenlyside",
+      "updatedAt": "2026-11-09T12:49:08.307Z"
+    },
+    "Vocal|57|4.05006|23.48193|Lieder 전집 Franz Schubert br.Dieskau/p.Moore Heidenroslein": {
+      "composer": "Franz Schubert",
+      "work": "Lieder 전집",
+      "performer": "br.Dieskau/p.Moore",
+      "searchQuery": "Schubert Lieder Dieskau Moore",
+      "updatedAt": "2026-11-09T12:49:09.067Z"
+    },
+    "Vocal|57|18.61369|23.51448|Spinnrade  D.118 Gretchen am s.Sampson/p.Middleton An den Mond": {
+      "composer": "Franz Schubert",
+      "work": "Gretchen am SpinnradeD.118",
+      "performer": "s.Sampson/p.Middleton",
+      "searchQuery": "Schubert Gretchen am 118 Sampson Middleton",
+      "updatedAt": "2026-11-09T12:49:09.792Z"
+    },
+    "Vocal|57|33.17732|23.53671|Nachtlied I  D.224 Wanderers ms.Baker/p.Johnson Seligkeit": {
+      "composer": "Franz Schubert",
+      "work": "Wanderers Nachtlied ID.224",
+      "performer": "ms.Baker/p.Johnson",
+      "searchQuery": "Schubert Wanderers Nachtlied 224 Baker Johnson",
+      "updatedAt": "2026-11-09T12:49:12.185Z"
+    },
+    "Vocal|57|4.05006|47.9353|Op.3/3 D.257 Heidenroslein br.Ameling/p.Jansen Der Wanderer": {
+      "composer": "Franz Schubert",
+      "work": "Heidenroslein Op.3/3 D.257",
+      "performer": "br.Ameling/p.Jansen",
+      "searchQuery": "Schubert Heidenroslein 257 Ameling Jansen",
+      "updatedAt": "2026-11-09T12:49:12.867Z"
+    },
+    "Vocal|57|18.49583|48.03944|D.259 An den Mond br.Goerne/p.Hafliger Wiegenlied": {
+      "composer": "Franz Schubert",
+      "work": "An den Mond D.259",
+      "performer": "br.Goerne/p.Hafliger",
+      "searchQuery": "Schubert An den Mond Goerne Hafliger",
+      "updatedAt": "2026-11-09T12:49:42.561Z"
+    },
+    "Vocal|57|33.27498|47.82926|D.433 Seligkeit s.Streich/p.Werba Der Tod und das": {
+      "composer": "Franz Schubert",
+      "work": "Seligkeit D.433",
+      "performer": "s.Streich/p.Werba",
+      "searchQuery": "Schubert Seligkeit 433 Streich Werba",
+      "updatedAt": "2026-11-09T12:49:55.068Z"
+    },
+    "Vocal|57|4.05006|72.80649|D.489 Der Wanderer br.Goerne/p.Cho": {
+      "composer": "Franz Schubert",
+      "work": "Der Wanderer D.489",
+      "performer": "br.Goerne/p.Cho",
+      "searchQuery": "Schubert Der Wanderer 489 Goerne Cho",
+      "updatedAt": "2026-11-09T12:49:55.690Z"
+    },
+    "vocal-pdf-v1-57-185-697": {
+      "composer": "Franz Schubert",
+      "work": "Wiegenlied",
+      "performer": "s.Ameling/p.Baldwin",
+      "searchQuery": "Schubert Wiegenlied Ameling Baldwin",
+      "updatedAt": "2026-11-09T12:50:04.046Z"
+    },
+    "Vocal|57|33.17732|72.7999|Madchen  D.531 Der Tod und das s.Norman/p.Moll": {
+      "composer": "Franz Schubert",
+      "work": "Der Tod und das MadchenD.531",
+      "performer": "s.Norman/p.Moll",
+      "searchQuery": "Schubert Der Tod und das 531 Norman Moll",
+      "updatedAt": "2026-11-09T12:50:04.685Z"
+    },
+    "Vocal|57|53.94231|23.56926|D.544 Ganymed t.Gura/p.Berner Nachtstuck": {
+      "composer": "Franz Schubert",
+      "work": "Ganymed D.544",
+      "performer": "t.Gura/p.Berner",
+      "searchQuery": "Schubert Ganymed 544 Gura Berner",
+      "updatedAt": "2026-11-09T12:50:05.297Z"
+    },
+    "Vocal|57|68.64436|23.64469|D.547 An die Musik s.Schwarzkopf Nachtviolen": {
+      "composer": "Franz Schubert",
+      "work": "An die Musik D.547",
+      "performer": "s.Schwarzkopf",
+      "searchQuery": "Schubert An die Musik 547 Schwarzkopf",
+      "updatedAt": "2026-11-09T12:50:05.968Z"
+    },
+    "Vocal|57|83.20799|23.64469|Op.32, D550 Die Forelle br.Dieskau/p.Moore Der Musensohn": {
+      "composer": "Franz Schubert",
+      "work": "Die Forelle Op.32, D550",
+      "performer": "br.Dieskau/p.Moore",
+      "searchQuery": "Schubert Die Forelle D550 Dieskau Moore",
+      "updatedAt": "2026-11-09T12:50:06.605Z"
+    },
+    "Vocal|57|54.08073|48.03944|D.672 Nachtstuck ms.Fassbaender/p.Johnson Der Zwerg  D.771": {
+      "composer": "Franz Schubert",
+      "work": "Nachtstuck D.672",
+      "performer": "ms.Fassbaender/p.Johnson",
+      "searchQuery": "Schubert Nachtstuck 672 Fassbaender Johnson",
+      "updatedAt": "2026-11-09T12:50:07.213Z"
+    },
+    "Vocal|57|68.59553|48.03944|D.752 Nachtviolen s.Fink/p.Huber": {
+      "composer": "Franz Schubert",
+      "work": "Nachtviolen D.752",
+      "performer": "s.Fink/p.Huber",
+      "searchQuery": "Schubert Nachtviolen 752 Fink Huber",
+      "updatedAt": "2026-11-09T12:50:07.777Z"
+    },
+    "Vocal|57|83.20799|48.03943|D.764 Der Musensohn ms.Ludwig/p.Parsons Auf dem Wasser": {
+      "composer": "Franz Schubert",
+      "work": "Der Musensohn D.764",
+      "performer": "ms.Ludwig/p.Parsons",
+      "searchQuery": "Schubert Der Musensohn 764 Ludwig Parsons",
+      "updatedAt": "2026-11-09T12:50:17.725Z"
+    },
+    "Vocal|57|54.2678|72.70224|Der Zwerg  D.771 ms.Fassbaender/p.Johnson br.Dieskau/p.Moore": {
+      "composer": "Franz Schubert",
+      "work": "Der ZwergD.771",
+      "performer": "br.Dieskau/p.Moore",
+      "searchQuery": "Schubert Der 771 Dieskau Moore",
+      "updatedAt": "2026-11-09T12:50:18.432Z"
+    },
+    "Vocal|57|68.83142|72.70224|s.Fink/p.Huber t.C 㖈J.Pregardien/p.Gees": {
+      "composer": "Franz Schubert",
+      "work": "Der ZwergD.771",
+      "performer": "t.C㖈J.Pregardien/p.Gees",
+      "searchQuery": "Schubert Der 771 C & Pregardien Gees",
+      "updatedAt": "2026-11-09T12:50:19.050Z"
+    },
+    "Vocal|57|83.4033|72.7999|zu singen  D.774 Auf dem Wasser s.Vourc 㐴h ㏙arr.㏚": {
+      "composer": "Franz Schubert",
+      "work": "Auf dem Wasser zu singenD.774",
+      "performer": "s.Vourc'h (arr.)",
+      "searchQuery": "Schubert Auf dem Wasser zu 774 Vourc h",
+      "updatedAt": "2026-11-09T12:50:19.682Z"
+    },
+    "Vocal|58|3.80593|23.54703|Op.59/3 D.776 Du bist die Ruh t.Kristjansson Gesange aus Wilhelm": {
+      "composer": "Franz Schubert",
+      "work": "Du bist die Ruh Op.59/3 D.776",
+      "performer": "t.Kristjansson",
+      "searchQuery": "Schubert Du bist die Ruh 776 Kristjansson",
+      "updatedAt": "2026-11-09T12:50:20.481Z"
+    },
+    "Vocal|58|18.46189|23.41682|D.799 Im Abendrot s.Bonney/p.Parsons Nacht Und Traume  D.827": {
+      "composer": "Franz Schubert",
+      "work": "Im Abendrot D.799",
+      "performer": "s.Bonney/p.Parsons",
+      "searchQuery": "Schubert Im Abendrot 799 Bonney Parsons",
+      "updatedAt": "2026-11-09T12:50:30.497Z"
+    },
+    "Vocal|58|33.06253|23.45992|D.806 Abendstern br.Goerne/p.Deutsch": {
+      "composer": "Franz Schubert",
+      "work": "Abendstern D.806",
+      "performer": "br.Goerne/p.Deutsch",
+      "searchQuery": "Schubert Abendstern 806 Goerne Deutsch",
+      "updatedAt": "2026-11-09T12:50:31.170Z"
+    },
+    "Vocal|58|3.93122|48.3794|Meister D.877 Gesange aus Wilhelm s.Schafer/t.Ainsley Die junge Nonne": {
+      "composer": "Franz Schubert",
+      "work": "Gesange aus Wilhelm Meister D.877",
+      "performer": "s.Schafer/t.Ainsley",
+      "searchQuery": "Schubert Gesange aus Wilhelm Meister 877 Schafer Ainsley",
+      "updatedAt": "2026-11-09T12:50:31.754Z"
+    },
+    "vocal-pdf-v1-58-185-483": {
+      "composer": "Franz Schubert",
+      "work": "Nacht Und TraumeD.827",
+      "performer": "s.Murray/p.Johnson",
+      "searchQuery": "Schubert Nacht Und 827 Murray Johnson",
+      "updatedAt": "2026-11-09T12:50:32.537Z"
+    },
+    "Vocal|58|33.13347|48.36248|Nacht Und Traume  D.827 br.Goerne/p.Deutsch s.Battle/p.Levine Ellens Gesang III  Ave Maria D.839": {
+      "composer": "Franz Schubert",
+      "work": "Nacht Und TraumeD.827",
+      "performer": "s.Battle/p.Levine",
+      "searchQuery": "Schubert Nacht Und 827 Battle Levine",
+      "updatedAt": "2026-11-09T12:50:33.190Z"
+    },
+    "Vocal|58|3.91111|73.13577|op.828 Die junge Nonne s.Fink/p.Huber": {
+      "composer": "Franz Schubert",
+      "work": "Die junge Nonne op.828",
+      "performer": "s.Fink/p.Huber",
+      "searchQuery": "Schubert Die junge Nonne Fink Huber",
+      "updatedAt": "2026-11-09T12:50:33.778Z"
+    },
+    "Vocal|58|17.52321|71.84093|s.Murray/p.Johnson": {
+      "composer": "Franz Schubert",
+      "work": "Ellens Gesang IIIAve Maria D.839",
+      "performer": "s.Janowitz/p.Gage",
+      "searchQuery": "Schubert Ellens Gesang IIIAve Maria 839 Janowitz Gage",
+      "updatedAt": "2026-11-09T12:50:54.754Z"
+    },
+    "Vocal|58|32.98335|73.17793|Ellens Gesang III  Ave Maria D.839 s.Battle/p.Levine s.Sampson/p.Middleton": {
+      "composer": "Franz Schubert",
+      "work": "Ellens Gesang IIIAve Maria D.839",
+      "performer": "s.Sampson/p.Middleton",
+      "searchQuery": "Schubert Ellens Gesang IIIAve Maria 839 Sampson Middleton",
+      "updatedAt": "2026-11-09T12:50:55.382Z"
+    },
+    "Vocal|58|53.52312|23.85693|Mond D.870 Der Wanderer an den t.Pregardien/p.Gees Im Fruhling": {
+      "composer": "Franz Schubert",
+      "work": "Der Wanderer an den Mond D.870",
+      "performer": "t.Pregardien/p.Gees",
+      "searchQuery": "Schubert Der Wanderer an den Mond 870 Pregardien Gees",
+      "updatedAt": "2026-11-09T12:50:55.986Z"
+    },
+    "Vocal|58|68.14876|23.80745|D.877 No.4 Lied Der Mignon III ms.Ludwig/p.Gage An Silvia": {
+      "composer": "Franz Schubert",
+      "work": "Lied Der Mignon III D.877 No.4",
+      "performer": "ms.Ludwig/p.Gage",
+      "searchQuery": "Schubert Lied Der Mignon III 877 4 Ludwig Gage",
+      "updatedAt": "2026-11-09T12:50:56.586Z"
+    },
+    "Vocal|58|82.68574|23.70268|D.879 No.4 Sehnsucht ms.Fassbaender/p.Reimann An die Laute": {
+      "composer": "Franz Schubert",
+      "work": "Sehnsucht D.879 No.4",
+      "performer": "ms.Fassbaender/p.Reimann",
+      "searchQuery": "Schubert Sehnsucht 879 4 Fassbaender Reimann",
+      "updatedAt": "2026-11-09T12:50:57.222Z"
+    },
+    "Vocal|58|53.65268|48.36248|D.882 Im Fruhling ms.von Otter/p.Forsberg Der Hirt auf dem Felsen  D.965": {
+      "composer": "Franz Schubert",
+      "work": "Im Fruhling D.882",
+      "performer": "ms.von Otter/p.Forsberg",
+      "searchQuery": "Schubert Im Fruhling 882 von Otter Forsberg",
+      "updatedAt": "2026-11-09T12:50:57.835Z"
+    },
+    "Vocal|58|68.25322|48.3393|D.891 An Silvia t.Wunderlich/p.Gisen Der Hirt auf dem Felsen  D.965": {
+      "composer": "Franz Schubert",
+      "work": "An Silvia D.891",
+      "performer": "t.Wunderlich/p.Gisen",
+      "searchQuery": "Schubert An Silvia 891 Wunderlich Gisen",
+      "updatedAt": "2026-11-09T12:50:58.424Z"
+    },
+    "Vocal|58|82.62686|48.36248|D.905 An die Laute br.Terfel/p.Martineau": {
+      "composer": "Franz Schubert",
+      "work": "An die Laute D.905",
+      "performer": "br.Terfel/p.Martineau",
+      "searchQuery": "Schubert An die Laute 905 Terfel Martineau",
+      "updatedAt": "2026-11-09T12:50:59.025Z"
+    },
+    "Vocal|58|53.65532|73.19972|Der Hirt auf dem Felsen  D.965 ms.von Otter/p.Forsberg s.Ameling/p.Demus": {
+      "composer": "Franz Schubert",
+      "work": "Der Hirt auf dem FelsenD.965",
+      "performer": "s.Ameling/p.Demus",
+      "searchQuery": "Schubert Der Hirt auf dem 965 Ameling Demus",
+      "updatedAt": "2026-11-09T12:50:59.609Z"
+    },
+    "Vocal|58|68.39609|73.17793|Der Hirt auf dem Felsen  D.965 t.Wunderlich/p.Gisen s.Battle/p.Levine": {
+      "composer": "Franz Schubert",
+      "work": "Der Hirt auf dem FelsenD.965",
+      "performer": "s.Battle/p.Levine",
+      "searchQuery": "Schubert Der Hirt auf dem 965 Battle Levine",
+      "updatedAt": "2026-11-09T12:51:00.210Z"
+    },
+    "Vocal|59|4.50568|15.2306|Weber opera Der Freischutz Op.77": {
+      "composer": "Weber",
+      "work": "opera Der Freischutz Op.77",
+      "performer": "C.Kleiber",
+      "searchQuery": "Weber opera Der Freischutz Kleiber",
+      "updatedAt": "2026-11-09T12:51:00.909Z"
+    },
+    "Vocal|59|4.50568|41.13392|C.Kleiber Der Freischutz Op.77 Weber opera Der Freischutz Op.77": {
+      "composer": "Weber",
+      "work": "opera Der Freischutz Op.77",
+      "performer": "Jacobs",
+      "searchQuery": "Weber opera Der Freischutz Jacobs",
+      "updatedAt": "2026-11-09T12:51:01.514Z"
+    },
+    "Vocal|59|29.60333|15.23062|Weber Oberon, J306 opera": {
+      "composer": "Weber",
+      "work": "Oberon, J306 opera",
+      "performer": "Hofstetter",
+      "searchQuery": "Weber Oberon J306 opera Hofstetter",
+      "updatedAt": "2026-11-09T12:51:02.085Z"
+    },
+    "Vocal|59|28.45242|41.13392|Hofstetter Oberon, J306 opera Weber ㎿Mahler Die Drei Pintos opera": {
+      "composer": "Weber -Mahler",
+      "work": "Die Drei Pintos opera",
+      "performer": "Bertini",
+      "searchQuery": "Mahler Die Drei Pintos opera Bertini",
+      "updatedAt": "2026-11-09T12:51:02.746Z"
+    },
+    "Vocal|59|29.5057|67.03724|Bertini Die Drei Pintos opera Weber Missa Sancta": {
+      "composer": "Weber",
+      "work": "Missa Sancta",
+      "performer": "Wilhelm",
+      "searchQuery": "Weber Missa Sancta Wilhelm",
+      "updatedAt": "2026-11-09T12:51:11.626Z"
+    },
+    "Vocal|59|54.26153|15.2306|Mayr La Passione": {
+      "composer": "Mayr",
+      "work": "La Passione",
+      "performer": "Ingolstadt",
+      "searchQuery": "Mayr La Passione Ingolstadt",
+      "updatedAt": "2026-11-09T12:51:12.201Z"
+    },
+    "Vocal|59|54.20242|41.13392|Ingolstadt La Passione Mayr Stabat Mater": {
+      "composer": "Mayr",
+      "work": "Stabat Mater",
+      "performer": "Helgath",
+      "searchQuery": "Mayr Stabat Mater Helgath",
+      "updatedAt": "2026-11-09T12:51:12.753Z"
+    },
+    "Vocal|59|54.26153|67.03724|Helgath Stabat Mater Abert opera Ekkehard": {
+      "composer": "Abert",
+      "work": "opera Ekkehard",
+      "performer": "Falk",
+      "searchQuery": "Abert opera Ekkehard Falk",
+      "updatedAt": "2026-11-09T12:51:13.338Z"
+    },
+    "Vocal|59|78.91973|15.2306|Suppe opera Il ritorno del marinaio": {
+      "composer": "Suppe",
+      "work": "opera Il ritorno del marinaio",
+      "performer": "D'Arcy",
+      "searchQuery": "Suppe opera Il ritorno del marinaio D Arcy",
+      "updatedAt": "2026-11-09T12:51:13.910Z"
+    },
+    "Vocal|59|78.91973|41.13392|D 㐴Arcy Il ritorno del marinaio Suppe Requiem": {
+      "composer": "Suppe",
+      "work": "Requiem",
+      "performer": "Corboz",
+      "searchQuery": "Suppe Requiem Corboz",
+      "updatedAt": "2026-11-09T12:51:21.473Z"
+    },
+    "Vocal|59|77.11191|67.03724|Corboz Requiem Flotow opera Martha": {
+      "composer": "Flotow",
+      "work": "opera Martha",
+      "performer": "Heger",
+      "searchQuery": "Flotow opera Martha Heger",
+      "updatedAt": "2026-11-09T12:51:31.090Z"
+    },
+    "Vocal|60|-0.277|17.556|Felix Mendelssohn": {
+      "composer": "Mendelssohn",
+      "work": "",
+      "performer": "",
+      "searchQuery": "Mendelssohn",
+      "updatedAt": "2026-11-09T12:51:32.313Z"
+    },
+    "Vocal|60|18.88967|23.4525|Felix Mendelssohn Herreweghe": {
+      "composer": "Felix Mendelssohn",
+      "work": "Elijah Op.70",
+      "performer": "Herreweghe",
+      "searchQuery": "Mendelssohn Elijah Herreweghe",
+      "updatedAt": "2026-11-09T12:51:32.930Z"
+    },
+    "Vocal|60|33.4509|23.54703|McCreesh Die Erste": {
+      "composer": "Felix Mendelssohn",
+      "work": "Elijah Op.70",
+      "performer": "McCreesh",
+      "searchQuery": "Mendelssohn Elijah McCreesh",
+      "updatedAt": "2026-11-09T12:51:33.570Z"
+    },
+    "Vocal|60|3.99983|47.89137|Paulus Op.36 Sawallisch Psalm42  Op.42": {
+      "composer": "Felix Mendelssohn",
+      "work": "Paulus Op.36",
+      "performer": "Spering",
+      "searchQuery": "Mendelssohn Paulus Spering",
+      "updatedAt": "2026-11-09T12:51:34.178Z"
+    },
+    "Vocal|60|18.86634|48.11874|Herreweghe Bernius Psalm115  Op.31": {
+      "composer": "Felix Mendelssohn",
+      "work": "Paulus Op.36",
+      "performer": "Bernius",
+      "searchQuery": "Mendelssohn Paulus Bernius",
+      "updatedAt": "2026-11-09T12:51:34.842Z"
+    },
+    "Vocal|60|33.63529|48.21115|Walpugisnacht Op.60 Die Erste Nagano Auf Flugelen des": {
+      "composer": "Felix Mendelssohn",
+      "work": "Die Erste Walpugisnacht Op.60",
+      "performer": "Nagano",
+      "searchQuery": "Mendelssohn Die Erste Walpugisnacht Nagano",
+      "updatedAt": "2026-11-09T12:51:35.442Z"
+    },
+    "Vocal|60|4.16543|73.34278|Psalm42  Op.42 Spering Rilling": {
+      "composer": "Felix Mendelssohn",
+      "work": "Psalm42Op.42",
+      "performer": "Rilling",
+      "searchQuery": "Mendelssohn Psalm42Op 42 Rilling",
+      "updatedAt": "2026-11-09T12:51:36.069Z"
+    },
+    "Vocal|60|18.84107|73.34278|Psalm115  Op.31 Bernius Rilling": {
+      "composer": "Felix Mendelssohn",
+      "work": "Psalm115Op.31",
+      "performer": "Rilling",
+      "searchQuery": "Mendelssohn Psalm115Op 31 Rilling",
+      "updatedAt": "2026-11-09T12:51:36.698Z"
+    },
+    "Vocal|60|33.19708|72.79273|Auf Flugelen des Nagano s.Bonney/p.Parsons": {
+      "composer": "Felix Mendelssohn",
+      "work": "Auf Flugelen des Gesanges Op.34/2",
+      "performer": "s.Bonney/p.Parsons",
+      "searchQuery": "Mendelssohn Auf Flugelen des Gesanges Bonney Parsons",
+      "updatedAt": "2026-11-09T12:52:07.685Z"
+    },
+    "Vocal|60|55.11129|15.23873|Loewe  Lieder und Balladen : Ach neige, du Schmer…": {
+      "composer": "Loewe",
+      "work": "Lieder und Balladen : Ach neige, du Schmer…",
+      "performer": "s.Piau/p.Manoff",
+      "searchQuery": "Loewe Lieder und Balladen Ach neige du Piau Manoff",
+      "updatedAt": "2026-11-09T12:52:15.298Z"
+    },
+    "Vocal|60|78.72442|15.2306|F. Mendelssohn Gartenlieder Op.3": {
+      "composer": "F. Mendelssohn",
+      "work": "Gartenlieder Op.3",
+      "performer": "Temple",
+      "searchQuery": "Mendelssohn Gartenlieder Temple",
+      "updatedAt": "2026-11-09T12:52:15.890Z"
+    },
+    "Vocal|60|55.11129|41.13392|s.Piau/p.Manoff : Ach neige, du Schmer… Loewe Erlkonig No.3/1": {
+      "composer": "Loewe",
+      "work": "Erlkonig No.3/1",
+      "performer": "t.Pregardien/p.Gees",
+      "searchQuery": "Loewe Erlkonig 3 1 Pregardien Gees",
+      "updatedAt": "2026-11-09T12:52:23.241Z"
+    },
+    "Vocal|60|78.72442|41.13392|Temple Gartenlieder Op.3 C.Schumann 12 Songs from Ruckert 㐴s": {
+      "composer": "C.Schumann",
+      "work": "12 Songs from Ruckert's",
+      "performer": "t.Steffani/p.Huber",
+      "searchQuery": "Schumann 12 Songs from Ruckert s Steffani Huber",
+      "updatedAt": "2026-11-09T12:52:23.837Z"
+    },
+    "Vocal|60|55.11129|67.0291|t.Pregardien/p.Gees Erlkonig No.3/1 Tom der Reimer Op.135a br.Krimmel/p.Tchakarova": {
+      "composer": "Loewe",
+      "work": "Tom der Reimer Op.135a",
+      "performer": "br.Krimmel/p.Tchakarova",
+      "searchQuery": "Loewe Tom der Reimer Krimmel Tchakarova",
+      "updatedAt": "2026-11-09T12:52:24.390Z"
+    },
+    "Vocal|60|78.72442|67.0291|t.Steffani/p.Huber 12 Songs from Ruckert 㐴s C.Schumann Lieder Op.12 : Lorelei": {
+      "composer": "C.Schumann",
+      "work": "Lieder Op.12 : Lorelei",
+      "performer": "ms.Schultz/p.Ware",
+      "searchQuery": "Schumann Lieder Lorelei Schultz Ware",
+      "updatedAt": "2026-11-09T12:52:34.473Z"
+    },
+    "Vocal|61|3.93122|23.50961|Dichterliebe  Op.48 Robert Schumann t.Wunderlich/p.Giesen": {
+      "composer": "Robert Schumann",
+      "work": "Dichterliebe Op.48",
+      "performer": "t.Wunderlich/p.Giesen",
+      "searchQuery": "Schumann 48 Wunderlich Giesen",
+      "updatedAt": "2026-11-09T12:54:37.372Z"
+    },
+    "Vocal|61|32.91405|23.50961|s.Bonney/p.Pappano": {
+      "composer": "Robert Schumann",
+      "work": "Dichterliebe Op.48",
+      "performer": "Uri Caine Ensemble",
+      "searchQuery": "Schumann Uri Caine Ensemble",
+      "updatedAt": "2026-11-09T12:54:32.890Z"
+    },
+    "Vocal|61|3.54248|47.8923|t.Wunderlich/p.Giesen Frauenliebe und ㎿leben Op.42": {
+      "composer": "Robert Schumann",
+      "work": "Dichterliebe Op.48",
+      "performer": "s.Bonney/p.Pappano",
+      "searchQuery": "Schumann Dichterliebe Bonney",
+      "updatedAt": "2026-11-09T12:54:28.507Z"
+    },
+    "Vocal|61|18.62124|47.86734|Liederkreis Op.39 t.Souzay/p.Baldwin t.Gura/p.Schultsz Frauenliebe und ㎿leben Op.42": {
+      "composer": "Robert Schumann",
+      "work": "Liederkreis Op.39",
+      "performer": "t.Gura/p.Schultsz",
+      "searchQuery": "Schumann Liederkreis Gura Schultsz",
+      "updatedAt": "2026-11-09T12:54:44.822Z"
+    },
+    "Vocal|61|33.11243|47.86734|s.Bonney/p.Pappano br.Dieskau/p.Brendel": {
+      "composer": "Robert Schumann",
+      "work": "Liederkreis Op.39",
+      "performer": "br.Dieskau/p.Brendel",
+      "searchQuery": "Schumann Liederkreis Dieskau Brendel",
+      "updatedAt": "2026-11-09T12:54:58.215Z"
+    },
+    "Vocal|61|3.93122|73.31161|Frauenliebe und ㎿leben Op.42 Uri Caine Ensemble ms.von Otter/p.Forsberg": {
+      "composer": "Robert Schumann",
+      "work": "Frauenliebe und -leben Op.42",
+      "performer": "ms.von Otter/p.Forsberg",
+      "searchQuery": "Schumann Frauenliebe und leben von Otter Forsberg",
+      "updatedAt": "2026-11-09T12:54:58.803Z"
+    },
+    "Vocal|61|18.58797|73.15415|Frauenliebe und ㎿leben Op.42 t.Gura/p.Schultsz ms.Fassbaender/p.Gage": {
+      "composer": "Robert Schumann",
+      "work": "Frauenliebe und -leben Op.42",
+      "performer": "ms.Fassbaender/p.Gage",
+      "searchQuery": "Schumann Frauenliebe und leben Fassbaender Gage",
+      "updatedAt": "2026-11-09T12:54:59.530Z"
+    },
+    "Vocal|61|33.0388|73.37671|Liederkreis Op.24 br.Dieskau/p.Brendel t.Bostridge/p.Drake": {
+      "composer": "Robert Schumann",
+      "work": "Liederkreis Op.24",
+      "performer": "t.Bostridge/p.Drake",
+      "searchQuery": "Schumann Liederkreis Bostridge Drake",
+      "updatedAt": "2026-11-09T12:55:00.130Z"
+    },
+    "Vocal|61|54.06106|23.50927|No.1 Widmung Myrthen Op.25 s.Bonney/p.Ashkenazy Belsatzar Op.57": {
+      "composer": "Robert Schumann",
+      "work": "Myrthen Op.25 No.1 Widmung",
+      "performer": "s.Bonney/p.Ashkenazy",
+      "searchQuery": "Schumann Myrthen 1 Widmung Bonney Ashkenazy",
+      "updatedAt": "2026-11-09T12:55:00.826Z"
+    },
+    "Vocal|61|68.58575|23.40355|No.3 Der Nussbaum Myrthen Op.25 ms.Fink/p.Vignoles Genoveva Op.81 opera": {
+      "composer": "Robert Schumann",
+      "work": "Myrthen Op.25 No.3 Der Nussbaum",
+      "performer": "ms.Fink/p.Vignoles",
+      "searchQuery": "Schumann Myrthen 3 Der Nussbaum Fink Vignoles",
+      "updatedAt": "2026-11-09T12:55:01.399Z"
+    },
+    "Vocal|61|83.15505|23.40355|Grenadiere Op.49/1 Die beiden br.Hasselhorn": {
+      "composer": "Robert Schumann",
+      "work": "Die beiden Grenadiere Op.49/1",
+      "performer": "br.Hasselhorn",
+      "searchQuery": "Schumann Die beiden Grenadiere Hasselhorn",
+      "updatedAt": "2026-11-09T12:55:01.994Z"
+    },
+    "Vocal|61|53.88405|47.47279|Belsatzar Op.57 s.Bonney/p.Ashkenazy br.Gerhaher/p.Huber Das Paradies und": {
+      "composer": "Robert Schumann",
+      "work": "Belsatzar Op.57",
+      "performer": "br.Gerhaher/p.Huber",
+      "searchQuery": "Schumann Belsatzar Gerhaher Huber",
+      "updatedAt": "2026-11-09T12:55:02.571Z"
+    },
+    "Vocal|61|68.55045|47.22004|Genoveva Op.81 opera ms.Fink/p.Vignoles Scenes from Goethe 㐴s Faust WoO3": {
+      "composer": "Robert Schumann",
+      "work": "Genoveva Op.81 opera",
+      "performer": "Albrecht",
+      "searchQuery": "Schumann Genoveva opera Albrecht",
+      "updatedAt": "2026-11-09T12:55:03.204Z"
+    },
+    "Vocal|61|54.12277|73.16572|die Peri Op.50 Das Paradies und Gardiner": {
+      "composer": "Robert Schumann",
+      "work": "Das Paradies und die Peri Op.50",
+      "performer": "Gardiner",
+      "searchQuery": "Schumann Das Paradies und die Peri Gardiner",
+      "updatedAt": "2026-11-09T12:55:10.847Z"
+    },
+    "Vocal|61|83.22514|73.16572|Op.98b Requiem fur Mignon Abbado": {
+      "composer": "Robert Schumann",
+      "work": "Requiem fur Mignon Op.98b",
+      "performer": "Abbado",
+      "searchQuery": "Schumann Requiem fur Mignon Abbado",
+      "updatedAt": "2026-11-09T12:55:11.420Z"
+    },
+    "Vocal|62|4.0647|23.4525|Ein deutsches Requiem Op.45 Johannes Brahms Karajan Ein deutsches Requiem": {
+      "composer": "Johannes Brahms",
+      "work": "Ein deutsches Requiem Op.45",
+      "performer": "Karajan",
+      "searchQuery": "Brahms Ein deutsches Requiem Karajan",
+      "updatedAt": "2026-11-09T12:55:12.041Z"
+    },
+    "Vocal|62|18.70906|23.4525|Ein deutsches Requiem Op.45 Johannes Brahms Blomstedt Ein deutsches Requiem": {
+      "composer": "Johannes Brahms",
+      "work": "Ein deutsches Requiem Op.45",
+      "performer": "Blomstedt",
+      "searchQuery": "Brahms Ein deutsches Requiem Blomstedt",
+      "updatedAt": "2026-11-09T12:55:12.620Z"
+    },
+    "Vocal|62|33.3915|23.48568|Herreweghe Alto Rhapsody Op.53": {
+      "composer": "Johannes Brahms",
+      "work": "Ein deutsches Requiem Op.45",
+      "performer": "Herreweghe",
+      "searchQuery": "Brahms Ein deutsches Requiem Herreweghe",
+      "updatedAt": "2026-11-09T12:55:13.238Z"
+    },
+    "Vocal|62|3.9553|48.12687|London Version Ein deutsches Requiem Accentus": {
+      "composer": "Johannes Brahms",
+      "work": "Ein deutsches Requiem London Version",
+      "performer": "Accentus",
+      "searchQuery": "Brahms Ein deutsches Requiem London Version Accentus",
+      "updatedAt": "2026-11-09T12:55:13.827Z"
+    },
+    "Vocal|62|18.7838|48.31232|English Version Ein deutsches Requiem Fort": {
+      "composer": "Johannes Brahms",
+      "work": "Ein deutsches Requiem English Version",
+      "performer": "Fort",
+      "searchQuery": "Brahms Ein deutsches Requiem English Version Fort",
+      "updatedAt": "2026-11-09T12:55:14.775Z"
+    },
+    "vocal-pdf-v1-62-332-479": {
+      "composer": "Johannes Brahms",
+      "work": "Alto Rhapsody Op.53",
+      "performer": "a.West/Knappersbusch",
+      "searchQuery": "Brahms Alto Rhapsody West Knappersbusch",
+      "updatedAt": "2026-11-09T12:55:23.605Z"
+    },
+    "Vocal|62|3.92588|73.6299|Begrabnisgesang Op.13 Accentus Hauschild": {
+      "composer": "Johannes Brahms",
+      "work": "Begrabnisgesang Op.13",
+      "performer": "Hauschild",
+      "searchQuery": "Brahms Begrabnisgesang Hauschild",
+      "updatedAt": "2026-11-09T12:55:24.259Z"
+    },
+    "vocal-pdf-v1-62-186-734": {
+      "composer": "Johannes Brahms",
+      "work": "Schicksalslied Op.54",
+      "performer": "Abbado",
+      "searchQuery": "Brahms Schicksalslied Abbado",
+      "updatedAt": "2026-11-09T12:55:24.879Z"
+    },
+    "Vocal|62|33.29385|73.52554|Nanie Op.82 a.West/Knappersbusch Blomstedt": {
+      "composer": "Johannes Brahms",
+      "work": "Nanie Op.82",
+      "performer": "Blomstedt",
+      "searchQuery": "Brahms Nanie Blomstedt",
+      "updatedAt": "2026-11-09T12:55:25.507Z"
+    },
+    "Vocal|62|53.84702|23.03723|Vier ernste Gesange Op.121 br.Goerne/p.Eschenbach Libeslieder": {
+      "composer": "Johannes Brahms",
+      "work": "Vier ernste Gesange Op.121",
+      "performer": "br.Goerne/p.Eschenbach",
+      "searchQuery": "Brahms Vier ernste Gesange Goerne Eschenbach",
+      "updatedAt": "2026-11-09T12:55:26.090Z"
+    },
+    "Vocal|62|68.54243|23.39336|br.Nagy/Elts ㏙Orch.arr.㏚ Neue Libeslieder": {
+      "composer": "Johannes Brahms",
+      "work": "Vier ernste Gesange Op.121",
+      "performer": "br.Nagy/Elts (Orch.arr.)",
+      "searchQuery": "Brahms Vier ernste Gesange Nagy Elts",
+      "updatedAt": "2026-11-09T12:55:26.772Z"
+    },
+    "Vocal|62|83.01498|23.36499|Op.33 Die schöne Magelone br.Chest/p.Amaral 3 Motets Op.110": {
+      "composer": "Johannes Brahms",
+      "work": "Die schöne Magelone Op.33",
+      "performer": "br.Chest/p.Amaral",
+      "searchQuery": "Brahms Die schöne Magelone Chest Amaral",
+      "updatedAt": "2026-11-09T12:55:27.394Z"
+    },
+    "Vocal|62|54.11304|48.04729|Waltzes Op.52 Libeslieder RIAS Kammerchor 5 Lieder Op.49": {
+      "composer": "Johannes Brahms",
+      "work": "Libeslieder Waltzes Op.52",
+      "performer": "RIAS Kammerchor",
+      "searchQuery": "Brahms Libeslieder Waltzes RIAS Kammerchor",
+      "updatedAt": "2026-11-09T12:55:28.010Z"
+    },
+    "Vocal|62|68.49901|47.91709|Waltzes Op.65 Neue Libeslieder the prince consort 8 Lieder Op.59": {
+      "composer": "Johannes Brahms",
+      "work": "Neue Libeslieder Waltzes Op.65",
+      "performer": "the prince consort",
+      "searchQuery": "Brahms Neue Libeslieder Waltzes the prince consort",
+      "updatedAt": "2026-11-09T12:55:28.591Z"
+    },
+    "Vocal|62|83.03429|47.96397|3 Motets Op.110 br.Chest/p.Amaral Dijkstra 6 Lieder Op.86": {
+      "composer": "Johannes Brahms",
+      "work": "3 Motets Op.110",
+      "performer": "Dijkstra",
+      "searchQuery": "Brahms 3 Motets Dijkstra",
+      "updatedAt": "2026-11-09T12:55:29.214Z"
+    },
+    "Vocal|62|54.07053|73.3077|No.4 Wiegenlied 5 Lieder Op.49 ms.Otter/p.Forsberg": {
+      "composer": "Johannes Brahms",
+      "work": "5 Lieder Op.49 No.4 Wiegenlied",
+      "performer": "ms.Otter/p.Forsberg",
+      "searchQuery": "Brahms 5 Lieder 4 Wiegenlied Otter Forsberg",
+      "updatedAt": "2026-11-09T12:55:29.805Z"
+    },
+    "Vocal|62|68.57401|73.30771|No.3 Regenlied 8 Lieder Op.59 br.Dieskau/p.Vasary": {
+      "composer": "Johannes Brahms",
+      "work": "8 Lieder Op.59 No.3 Regenlied",
+      "performer": "br.Dieskau/p.Vasary",
+      "searchQuery": "Brahms 8 Lieder 3 Regenlied Dieskau Vasary",
+      "updatedAt": "2026-11-09T12:55:30.394Z"
+    },
+    "Vocal|62|82.96597|73.28993|No.2 Feldeinsamkeit 6 Lieder Op.86 s.Fink/p.Vignoles": {
+      "composer": "Johannes Brahms",
+      "work": "6 Lieder Op.86 No.2 Feldeinsamkeit",
+      "performer": "s.Fink/p.Vignoles",
+      "searchQuery": "Brahms 6 Lieder 2 Feldeinsamkeit Fink Vignoles",
+      "updatedAt": "2026-11-09T12:55:30.979Z"
+    },
+    "Vocal|63|3.6986|23.5615|Wesendonck Lieder WWV91 Richard Wagner s.Studer/Sinopoli Der fliegende Holänder opera,WWV63": {
+      "composer": "Richard Wagner",
+      "work": "Wesendonck Lieder WWV91",
+      "performer": "s.Studer/Sinopoli",
+      "searchQuery": "Wagner Wesendonck Lieder WWV91 Studer Sinopoli",
+      "updatedAt": "2026-11-09T12:55:31.594Z"
+    },
+    "vocal-pdf-v1-63-186-234": {
+      "composer": "Richard Wagner",
+      "work": "Wesendonck Lieder WWV91",
+      "performer": "s.Davidsen",
+      "searchQuery": "Wagner Wesendonck Lieder WWV91 Davidsen",
+      "updatedAt": "2026-11-09T12:55:32.162Z"
+    },
+    "vocal-pdf-full-63-334-234": {
+      "composer": "Richard Wagner",
+      "work": "Wesendonck Lieder WWV91",
+      "performer": "s.Varadi/Dieskau",
+      "searchQuery": "Wagner Wesendonck Lieder WWV91 Varadi Dieskau",
+      "updatedAt": "2026-11-09T12:55:32.675Z"
+    },
+    "vocal-pdf-v1-63-38-482": {
+      "composer": "Richard Wagner",
+      "work": "Der fliegende Holänder opera,WWV63",
+      "performer": "Nelsson",
+      "searchQuery": "Wagner Der fliegende Holänder opera WWV63 Nelsson",
+      "updatedAt": "2026-11-09T12:55:33.207Z"
+    },
+    "Vocal|63|17.54374|48.19209|Der fliegende Holänder opera,WWV63 s.Davidsen Keilberth Tannhäuser  opera,WWV70": {
+      "composer": "Richard Wagner",
+      "work": "Der fliegende Holänder opera,WWV63",
+      "performer": "Keilberth",
+      "searchQuery": "Wagner Der fliegende Holänder opera WWV63 Keilberth",
+      "updatedAt": "2026-11-09T12:55:44.224Z"
+    },
+    "Vocal|63|33.4035|48.19209|s.Varadi/Dieskau Sinopoli": {
+      "composer": "Richard Wagner",
+      "work": "Der fliegende Holänder opera,WWV63",
+      "performer": "Sinopoli",
+      "searchQuery": "Wagner Der fliegende Holänder opera WWV63 Sinopoli",
+      "updatedAt": "2026-11-09T12:55:44.895Z"
+    },
+    "Vocal|63|3.85575|72.85833|Tannhäuser  opera,WWV70 Nelsson Solti": {
+      "composer": "Richard Wagner",
+      "work": "Tannhäuseropera,WWV70",
+      "performer": "Solti",
+      "searchQuery": "Wagner Tannhäuseropera WWV70 Solti",
+      "updatedAt": "2026-11-09T12:55:45.531Z"
+    },
+    "Vocal|63|18.56232|72.85833|Keilberth Sawallisch": {
+      "composer": "Richard Wagner",
+      "work": "Tannhäuseropera,WWV70",
+      "performer": "Sawallisch",
+      "searchQuery": "Wagner Tannhäuseropera WWV70 Sawallisch",
+      "updatedAt": "2026-11-09T12:55:48.622Z"
+    },
+    "Vocal|63|33.20818|72.85832|Sinopoli Haitink": {
+      "composer": "Richard Wagner",
+      "work": "Tannhäuseropera,WWV70",
+      "performer": "Haitink",
+      "searchQuery": "Wagner Tannhäuseropera WWV70 Haitink",
+      "updatedAt": "2026-11-09T12:55:50.254Z"
+    },
+    "Vocal|63|50.82705|23.48648|Lohengrin  opera,WWV75 Kempe Die Meistersinger von Nürnberg  opera,WWV70": {
+      "composer": "Richard Wagner",
+      "work": "Lohengrinopera,WWV75",
+      "performer": "Kempe",
+      "searchQuery": "Wagner Lohengrinopera WWV75 Kempe",
+      "updatedAt": "2026-11-09T12:55:50.904Z"
+    },
+    "Vocal|63|68.34465|23.48648|Schneider Die Meistersinger von Nürnberg  opera,WWV70": {
+      "composer": "Richard Wagner",
+      "work": "Lohengrinopera,WWV75",
+      "performer": "Schneider",
+      "searchQuery": "Wagner Lohengrinopera WWV75 Schneider",
+      "updatedAt": "2026-11-09T12:55:51.530Z"
+    },
+    "vocal-pdf-v1-63-829-233": {
+      "composer": "Richard Wagner",
+      "work": "Lohengrinopera,WWV75",
+      "performer": "Kubelik",
+      "searchQuery": "Wagner Lohengrinopera WWV75 Kubelik",
+      "updatedAt": "2026-11-09T12:55:52.147Z"
+    },
+    "Vocal|63|53.68345|48.15016|Die Meistersinger von Nürnberg  opera,WWV70 Kempe Sawallisch Tristan und Isolde opera,WWV63": {
+      "composer": "Richard Wagner",
+      "work": "Die Meistersinger von Nürnbergopera,WWV70",
+      "performer": "Sawallisch",
+      "searchQuery": "Wagner Die Meistersinger von Nürnbergopera WWV70 Sawallisch",
+      "updatedAt": "2026-11-09T12:56:13.743Z"
+    },
+    "Vocal|63|68.41828|48.15016|Die Meistersinger von Nürnberg  opera,WWV70 Schneider Karajan Tristan und Isolde opera,WWV63": {
+      "composer": "Richard Wagner",
+      "work": "Die Meistersinger von Nürnbergopera,WWV70",
+      "performer": "Karajan",
+      "searchQuery": "Wagner Die Meistersinger von Nürnbergopera WWV70 Karajan",
+      "updatedAt": "2026-11-09T12:56:23.206Z"
+    },
+    "Vocal|63|83.08458|48.15016|Kubelik Solti": {
+      "composer": "Richard Wagner",
+      "work": "Die Meistersinger von Nürnbergopera,WWV70",
+      "performer": "Solti",
+      "searchQuery": "Wagner Die Meistersinger von Nürnbergopera WWV70 Solti",
+      "updatedAt": "2026-11-09T12:56:23.891Z"
+    },
+    "Vocal|63|52.54979|73.05762|Tristan und Isolde opera,WWV63 Sawallisch Bohm": {
+      "composer": "Richard Wagner",
+      "work": "Tristan und Isolde opera,WWV63",
+      "performer": "Bohm",
+      "searchQuery": "Wagner Tristan und Isolde opera WWV63 Bohm",
+      "updatedAt": "2026-11-09T12:56:24.543Z"
+    },
+    "Vocal|63|67.11182|72.70657|Tristan und Isolde opera,WWV63 Karajan": {
+      "composer": "Richard Wagner",
+      "work": "Tristan und Isolde opera,WWV63",
+      "performer": "Goodall",
+      "searchQuery": "Wagner Tristan und Isolde opera WWV63 Goodall",
+      "updatedAt": "2026-11-09T12:56:32.359Z"
+    },
+    "Vocal|63|82.34795|72.96308|Solti Furtwangler": {
+      "composer": "Richard Wagner",
+      "work": "Tristan und Isolde opera,WWV63",
+      "performer": "Furtwangler",
+      "searchQuery": "Wagner Tristan und Isolde opera WWV63 Furtwangler",
+      "updatedAt": "2026-11-09T12:56:33.089Z"
+    },
+    "Vocal|64|2.81005|23.4525|Der Ring des Nibelungen opera Richard Wagner Bohm": {
+      "composer": "Richard Wagner",
+      "work": "Der Ring des Nibelungen opera",
+      "performer": "Bohm",
+      "searchQuery": "Wagner Der Ring des Nibelungen opera Bohm",
+      "updatedAt": "2026-11-09T12:56:33.773Z"
+    },
+    "Vocal|64|18.50598|23.48918|Der Ring des Nibelungen opera Richard Wagner Keilberth Der Ring des Nibelungen": {
+      "composer": "Richard Wagner",
+      "work": "Der Ring des Nibelungen opera",
+      "performer": "Keilberth",
+      "searchQuery": "Wagner Der Ring des Nibelungen opera Keilberth",
+      "updatedAt": "2026-11-09T12:56:45.327Z"
+    },
+    "vocal-pdf-v1-64-332-234": {
+      "composer": "Richard Wagner",
+      "work": "Der Ring des Nibelungen opera",
+      "performer": "Barenboim",
+      "searchQuery": "Wagner Der Ring des Nibelungen opera Barenboim",
+      "updatedAt": "2026-11-09T12:56:45.947Z"
+    },
+    "Vocal|64|3.78226|48.41258|Bohm Janowski Parsifal  opera,WWV75": {
+      "composer": "Richard Wagner",
+      "work": "Der Ring des Nibelungen opera",
+      "performer": "Janowski",
+      "searchQuery": "Wagner Der Ring des Nibelungen Janowski",
+      "updatedAt": "2026-11-09T12:57:38.999Z"
+    },
+    "Vocal|64|18.07289|47.09767|Der Ring des Nibelungen Keilberth": {
+      "composer": "Richard Wagner",
+      "work": "Der Ring des Nibelungen English Version",
+      "performer": "Goodall",
+      "searchQuery": "Wagner Der Ring des Nibelungen English Version Goodall",
+      "updatedAt": "2026-11-09T12:58:23.372Z"
+    },
+    "vocal-pdf-v1-64-332-454": {
+      "composer": "Richard Wagner",
+      "work": "Der Ring des Nibelungen",
+      "performer": "Maazel",
+      "searchQuery": "Wagner Der Ring des Nibelungen Maazel",
+      "updatedAt": "2026-11-09T12:58:24.170Z"
+    },
+    "Vocal|64|0.6806|72.93125|Parsifal  opera,WWV75 Janowski Karajan": {
+      "composer": "Wagner",
+      "work": "Parsifal opera,WWV75 Janowski Karajan",
+      "performer": "",
+      "searchQuery": "Wagner Parsifal opera WWV75 Janowski Karajan",
+      "updatedAt": "2026-11-09T12:58:24.787Z"
+    },
+    "Vocal|64|18.64693|73.37419|Goodall Knappertsbusch": {
+      "composer": "Richard Wagner",
+      "work": "Parsifalopera,WWV75",
+      "performer": "Knappertsbusch",
+      "searchQuery": "Wagner Parsifalopera WWV75 Knappertsbusch",
+      "updatedAt": "2026-11-09T12:58:25.416Z"
+    },
+    "Vocal|64|55.3106|15.2306|J.Strauss II operetta Die Fledermaus": {
+      "composer": "J.Strauss II",
+      "work": "operetta Die Fledermaus",
+      "performer": "C.Kleiber",
+      "searchQuery": "II operetta Die Fledermaus Kleiber",
+      "updatedAt": "2026-11-09T12:58:26.079Z"
+    },
+    "Vocal|64|78.9215|15.2306|Lehar operetta Die lustige Witwe": {
+      "composer": "Lehar",
+      "work": "operetta Die lustige Witwe",
+      "performer": "Karajan",
+      "searchQuery": "Lehar operetta Die lustige Witwe Karajan",
+      "updatedAt": "2026-11-09T12:58:26.691Z"
+    },
+    "Vocal|64|55.3106|41.13392|C.Kleiber Die Fledermaus J.Strauss II operetta Die Fledermaus": {
+      "composer": "J.Strauss II",
+      "work": "operetta Die Fledermaus",
+      "performer": "Karajan",
+      "searchQuery": "II operetta Die Fledermaus Karajan",
+      "updatedAt": "2026-11-09T12:58:44.231Z"
+    },
+    "Vocal|64|78.9215|41.13392|Karajan Die lustige Witwe Reznicek opera Donna Diana": {
+      "composer": "Reznicek",
+      "work": "opera Donna Diana",
+      "performer": "Windfuhr",
+      "searchQuery": "Reznicek opera Donna Diana Windfuhr",
+      "updatedAt": "2026-11-09T12:58:44.920Z"
+    },
+    "Vocal|64|55.31078|67.02751|Karajan Die Fledermaus J.Strauss II operetta Zigeunerbaron": {
+      "composer": "J.Strauss II",
+      "work": "operetta Zigeunerbaron",
+      "performer": "Frenz",
+      "searchQuery": "Strauss Zigeunerbaron Frenz",
+      "updatedAt": "2026-11-09T13:00:28.132Z"
+    },
+    "Vocal|65|3.78987|23.4525|Te Deum WAB45 Anton Bruckner Jochum Mass No.2  e minor  WAB27": {
+      "composer": "Anton Bruckner",
+      "work": "Te Deum WAB45",
+      "performer": "Jochum",
+      "searchQuery": "Bruckner Te Deum WAB45 Jochum",
+      "updatedAt": "2026-11-09T13:00:21.127Z"
+    },
+    "Vocal|65|18.606|23.48065|Anton Bruckner Celibidache": {
+      "composer": "Anton Bruckner",
+      "work": "Te Deum WAB45",
+      "performer": "Celibidache",
+      "searchQuery": "Bruckner Te Deum WAB45 Celibidache",
+      "updatedAt": "2026-11-09T13:00:27.070Z"
+    },
+    "vocal-pdf-full-65-330-203": {
+      "composer": "Anton Bruckner",
+      "work": "Te Deum WAB45",
+      "performer": "Best",
+      "searchQuery": "Bruckner Te Deum WAB45 Best",
+      "updatedAt": "2026-11-09T13:00:32.476Z"
+    },
+    "Vocal|65|3.90784|48.10336|Mass No.2  e minor  WAB27 Jochum Herreweghe Psalm 112  WAB35": {
+      "composer": "Anton Bruckner",
+      "work": "Mass No.2e minorWAB27",
+      "performer": "Herreweghe",
+      "searchQuery": "Bruckner Mass 2e minorWAB27 Herreweghe",
+      "updatedAt": "2026-11-09T13:00:33.088Z"
+    },
+    "Vocal|65|18.42381|48.1979|Mass No.2  e minor  WAB27 Celibidache Jochum Locus iste WBA23": {
+      "composer": "Anton Bruckner",
+      "work": "Mass No.2e minorWAB27",
+      "performer": "Jochum",
+      "searchQuery": "Bruckner Mass 2e minorWAB27 Jochum",
+      "updatedAt": "2026-11-09T13:00:33.721Z"
+    },
+    "Vocal|65|33.1792|48.1979|f minor WAB28 Mass No.3 Celibidache Ave Maria WBA6": {
+      "composer": "Anton Bruckner",
+      "work": "Mass No.3 f minor WAB28",
+      "performer": "Celibidache",
+      "searchQuery": "Bruckner Mass 3 WAB28 Celibidache",
+      "updatedAt": "2026-11-09T13:00:34.356Z"
+    },
+    "Vocal|65|4.01214|73.38016|Psalm 112  WAB35 Herreweghe Best": {
+      "composer": "Anton Bruckner",
+      "work": "Psalm 112WAB35",
+      "performer": "Best",
+      "searchQuery": "Bruckner Psalm 112WAB35 Best",
+      "updatedAt": "2026-11-09T13:00:35.056Z"
+    },
+    "Vocal|65|18.67969|73.38269|Locus iste WBA23 Jochum Bernius": {
+      "composer": "Anton Bruckner",
+      "work": "Locus iste WBA23",
+      "performer": "Bernius",
+      "searchQuery": "Bruckner Locus iste WBA23 Bernius",
+      "updatedAt": "2026-11-09T13:00:35.870Z"
+    },
+    "Vocal|65|33.15978|73.44651|Ave Maria WBA6 Celibidache Creed": {
+      "composer": "Anton Bruckner",
+      "work": "Ave Maria WBA6",
+      "performer": "Creed",
+      "searchQuery": "Bruckner Ave Maria WBA6 Creed",
+      "updatedAt": "2026-11-09T13:00:36.524Z"
+    },
+    "Vocal|65|53.90977|23.17612|Das Knaben Wunderhorn Gustav Mahler Bonny/Goerne/Chailly Das Klagende Lied": {
+      "composer": "Gustav Mahler",
+      "work": "Das Knaben Wunderhorn",
+      "performer": "Bonny/Goerne/Chailly",
+      "searchQuery": "Mahler Das Knaben Wunderhorn Bonny Goerne Chailly",
+      "updatedAt": "2026-11-09T13:00:37.337Z"
+    },
+    "Vocal|65|68.64663|23.17612|Das Knaben Wunderhorn Schwarzkopf/Dieskau/Szell Lieder eines fahrenden Gesellen": {
+      "composer": "Gustav Mahler",
+      "work": "Das Knaben Wunderhorn",
+      "performer": "Schwarzkopf/Dieskau/Szell",
+      "searchQuery": "Mahler Das Knaben Wunderhorn Schwarzkopf Dieskau Szell",
+      "updatedAt": "2026-11-09T13:00:37.971Z"
+    },
+    "Vocal|65|83.47259|23.17612|Otter/Quasthoff/Abbado Lieder eines fahrenden Gesellen": {
+      "composer": "Gustav Mahler",
+      "work": "Das Knaben Wunderhorn",
+      "performer": "Otter/Quasthoff/Abbado",
+      "searchQuery": "Mahler Das Knaben Wunderhorn Otter Quasthoff Abbado",
+      "updatedAt": "2026-11-09T13:00:38.554Z"
+    },
+    "Vocal|65|53.9142|48.25164|Das Klagende Lied Bonny/Goerne/Chailly Chailly Kindertotenlieder / Ruckert Lieder": {
+      "composer": "Gustav Mahler",
+      "work": "Das Klagende Lied",
+      "performer": "Chailly",
+      "searchQuery": "Mahler Das Klagende Lied Chailly",
+      "updatedAt": "2026-11-09T13:00:39.171Z"
+    },
+    "Vocal|65|68.62142|48.23517|Lieder eines fahrenden Gesellen Schwarzkopf/Dieskau/Szell br.Hampson/Bernstein Kindertotenlieder / Ruckert Lieder": {
+      "composer": "Gustav Mahler",
+      "work": "Lieder eines fahrenden Gesellen",
+      "performer": "br.Hampson/Bernstein",
+      "searchQuery": "Mahler Lieder eines fahrenden Gesellen Hampson Bernstein",
+      "updatedAt": "2026-11-09T13:00:39.737Z"
+    },
+    "Vocal|65|83.47259|48.22754|Lieder eines fahrenden Gesellen Otter/Quasthoff/Abbado ms.Baker/Barbirolli": {
+      "composer": "Gustav Mahler",
+      "work": "Lieder eines fahrenden Gesellen",
+      "performer": "ms.Baker/Barbirolli",
+      "searchQuery": "Mahler Lieder eines fahrenden Gesellen Baker Barbirolli",
+      "updatedAt": "2026-11-09T13:00:40.312Z"
+    },
+    "Vocal|65|53.94931|72.90678|Kindertotenlieder / Ruckert Lieder Chailly br.Hampson/Bernstein": {
+      "composer": "Gustav Mahler",
+      "work": "Kindertotenlieder / Ruckert Lieder",
+      "performer": "br.Hampson/Bernstein",
+      "searchQuery": "Mahler Kindertotenlieder Ruckert Lieder Hampson Bernstein",
+      "updatedAt": "2026-11-09T13:00:40.899Z"
+    },
+    "Vocal|65|68.75978|72.90678|Kindertotenlieder / Ruckert Lieder br.Hampson/Bernstein br.Dieskau/Bohm": {
+      "composer": "Gustav Mahler",
+      "work": "Kindertotenlieder / Ruckert Lieder",
+      "performer": "br.Dieskau/Bohm",
+      "searchQuery": "Mahler Kindertotenlieder Ruckert Lieder Dieskau Bohm",
+      "updatedAt": "2026-11-09T13:00:42.421Z"
+    },
+    "Vocal|65|83.39425|73.00132|ms.Baker/Barbirolli s.Karg/p.Martineau": {
+      "composer": "Gustav Mahler",
+      "work": "Kindertotenlieder / Ruckert Lieder",
+      "performer": "s.Karg/p.Martineau",
+      "searchQuery": "Mahler Kindertotenlieder Ruckert Lieder Karg Martineau",
+      "updatedAt": "2026-11-09T13:00:43.708Z"
+    },
+    "Vocal|66|3.85575|23.4525|Vier letzte Lieder Op.150 Richard Strauss s.Janowitz/Karajan Zueignung": {
+      "composer": "Richard Strauss",
+      "work": "Vier letzte Lieder Op.150",
+      "performer": "s.Janowitz/Karajan",
+      "searchQuery": "Strauss Vier letzte Lieder Janowitz Karajan",
+      "updatedAt": "2026-11-09T13:00:47.873Z"
+    },
+    "Vocal|66|18.64646|23.54703|Richard Strauss s.Popp/Tilson Tomas Allerseelen": {
+      "composer": "Richard Strauss",
+      "work": "Vier letzte Lieder Op.150",
+      "performer": "s.Popp/Tilson Tomas",
+      "searchQuery": "Strauss Vier letzte Lieder Popp Tilson Tomas",
+      "updatedAt": "2026-11-09T13:00:48.420Z"
+    },
+    "Vocal|66|33.29385|23.54703|s.Schwarzkopf/Szell Ruhe, meine Seele!": {
+      "composer": "Richard Strauss",
+      "work": "Vier letzte Lieder Op.150",
+      "performer": "s.Schwarzkopf/Szell",
+      "searchQuery": "Strauss Vier letzte Lieder Schwarzkopf Szell",
+      "updatedAt": "2026-11-09T13:00:49.000Z"
+    },
+    "Vocal|66|3.95719|48.46487|Op.10 No.1 Zueignung s.Bonney/p.Martineau Morgen": {
+      "composer": "Richard Strauss",
+      "work": "Zueignung Op.10 No.1",
+      "performer": "s.Bonney/p.Martineau",
+      "searchQuery": "Strauss Zueignung 1 Bonney Martineau",
+      "updatedAt": "2026-11-09T13:00:49.620Z"
+    },
+    "Vocal|66|18.62552|48.1979|Op.10 No.8 Allerseelen s.Bonney/p.Martineau Wigenlied": {
+      "composer": "Richard Strauss",
+      "work": "Allerseelen Op.10 No.8",
+      "performer": "s.Bonney/p.Martineau",
+      "searchQuery": "Strauss Allerseelen 8 Bonney Martineau",
+      "updatedAt": "2026-11-09T13:00:51.492Z"
+    },
+    "Vocal|66|33.27444|48.10336|Op.27 No.1 Ruhe, meine Seele! s.Lott/N.Jarvi": {
+      "composer": "Richard Strauss",
+      "work": "Ruhe, meine Seele! Op.27 No.1",
+      "performer": "s.Lott/N.Jarvi",
+      "searchQuery": "Strauss Ruhe meine Seele 1 Lott Jarvi",
+      "updatedAt": "2026-11-09T13:00:52.128Z"
+    },
+    "Vocal|66|3.89123|73.38269|Op.27 No.4 Morgen s.Devieilhe/p.Pordoy": {
+      "composer": "Richard Strauss",
+      "work": "Morgen Op.27 No.4",
+      "performer": "s.Devieilhe/p.Pordoy",
+      "searchQuery": "Strauss Morgen 4 Devieilhe Pordoy",
+      "updatedAt": "2026-11-09T13:00:52.888Z"
+    },
+    "vocal-pdf-v1-66-185-733": {
+      "composer": "Richard Strauss",
+      "work": "Wigenlied Op.41 No.1",
+      "performer": "s.Davidsen/Salonen",
+      "searchQuery": "Strauss Wigenlied 1 Davidsen Salonen",
+      "updatedAt": "2026-11-09T13:00:53.528Z"
+    },
+    "Vocal|66|53.67585|23.48648|Salome  opera,Op.54 Sinopoli Elektra  opera,Op.58": {
+      "composer": "Richard Strauss",
+      "work": "Salomeopera,Op.54",
+      "performer": "Sinopoli",
+      "searchQuery": "Strauss Salomeopera Sinopoli",
+      "updatedAt": "2026-11-09T13:00:54.137Z"
+    },
+    "Vocal|66|68.29205|23.48648|Bohm": {
+      "composer": "Richard Strauss",
+      "work": "Salomeopera,Op.54",
+      "performer": "Bohm",
+      "searchQuery": "Strauss Salomeopera Bohm",
+      "updatedAt": "2026-11-09T13:00:54.743Z"
+    },
+    "Vocal|66|81.66745|23.39021|Solti": {
+      "composer": "Richard Strauss",
+      "work": "Salomeopera,Op.54",
+      "performer": "Solti",
+      "searchQuery": "Strauss Salomeopera Solti",
+      "updatedAt": "2026-11-09T13:00:55.337Z"
+    },
+    "vocal-pdf-v1-66-536-454": {
+      "composer": "Richard Strauss",
+      "work": "Ruhe, meine Seele!",
+      "performer": "Bohm",
+      "searchQuery": "Strauss Ruhe meine Seele Bohm",
+      "updatedAt": "2026-11-09T13:00:55.948Z"
+    },
+    "Vocal|66|68.0216|48.15016|Bohm Sinopoli Der Rosenkavalier  opera,Op.59": {
+      "composer": "Richard Strauss",
+      "work": "Elektraopera,Op.58",
+      "performer": "Sinopoli",
+      "searchQuery": "Strauss Elektraopera Sinopoli",
+      "updatedAt": "2026-11-09T13:00:56.544Z"
+    },
+    "Vocal|66|82.97519|48.03344|Solti": {
+      "composer": "Richard Strauss",
+      "work": "Elektraopera,Op.58",
+      "performer": "Solti",
+      "searchQuery": "Strauss Elektraopera Solti",
+      "updatedAt": "2026-11-09T13:00:57.140Z"
+    },
+    "Vocal|66|53.64329|72.96308|Der Rosenkavalier  opera,Op.59 Bohm Karajan": {
+      "composer": "Richard Strauss",
+      "work": "Der Rosenkavalieropera,Op.59",
+      "performer": "Karajan",
+      "searchQuery": "Strauss Der Rosenkavalieropera Karajan",
+      "updatedAt": "2026-11-09T13:00:57.770Z"
+    },
+    "Vocal|66|68.34416|73.05762|Der Rosenkavalier  opera,Op.59 Sinopoli Karajan": {
+      "composer": "Richard Strauss",
+      "work": "Der Rosenkavalieropera,Op.59",
+      "performer": "Karajan",
+      "searchQuery": "Strauss Der Rosenkavalieropera Karajan",
+      "updatedAt": "2026-11-09T13:00:59.223Z"
+    },
+    "Vocal|66|83.07283|72.96308|Solti E.Kleiber": {
+      "composer": "Richard Strauss",
+      "work": "Der Rosenkavalieropera,Op.59",
+      "performer": "E.Kleiber",
+      "searchQuery": "Strauss Der Rosenkavalieropera Kleiber",
+      "updatedAt": "2026-11-09T13:01:34.532Z"
+    },
+    "Vocal|67|3.56392|23.4525|Ariadne auf Naxos  Op.60 Richard Strauss Nagano Intermezzo": {
+      "composer": "Richard Strauss",
+      "work": "Ariadne auf NaxosOp.60",
+      "performer": "Nagano",
+      "searchQuery": "Strauss Ariadne auf 60 Nagano",
+      "updatedAt": "2026-11-09T13:01:48.615Z"
+    },
+    "Vocal|67|18.64429|23.54703|Richard Strauss Bohm Arabella  Op.79": {
+      "composer": "Richard Strauss",
+      "work": "Ariadne auf NaxosOp.60",
+      "performer": "Bohm",
+      "searchQuery": "Strauss Ariadne auf 60 Bohm",
+      "updatedAt": "2026-11-09T13:02:08.638Z"
+    },
+    "Vocal|67|33.29385|23.54703|Schatten  Op.65 Die Frau ohne Solti": {
+      "composer": "Richard Strauss",
+      "work": "Die Frau ohne SchattenOp.65",
+      "performer": "Solti",
+      "searchQuery": "Strauss Die Frau ohne 65 Solti",
+      "updatedAt": "2026-11-09T13:02:09.381Z"
+    },
+    "Vocal|67|1.87898|48.10336|Op.72 Intermezzo Keilberth Die schweigsame": {
+      "composer": "Strauss",
+      "work": "Op.72 Intermezzo Keilberth Die schweigsame",
+      "performer": "",
+      "searchQuery": "Strauss Intermezzo Keilberth Die schweigsame",
+      "updatedAt": "2026-11-09T13:02:17.800Z"
+    },
+    "Vocal|67|18.62552|48.19791|Arabella  Op.79 Bohm Albrecht Daphne": {
+      "composer": "Richard Strauss",
+      "work": "ArabellaOp.79",
+      "performer": "Albrecht",
+      "searchQuery": "Strauss 79 Albrecht",
+      "updatedAt": "2026-11-09T13:02:28.464Z"
+    },
+    "Vocal|67|33.22975|48.1979|Solti Tate Capriccio": {
+      "composer": "Richard Strauss",
+      "work": "ArabellaOp.79",
+      "performer": "Tate",
+      "searchQuery": "Strauss Arabella Tate",
+      "updatedAt": "2026-11-09T13:02:53.172Z"
+    },
+    "Vocal|67|3.912|72.59905|Die schweigsame Keilberth": {
+      "composer": "Richard Strauss",
+      "work": "Die schweigsame FrauOp.80",
+      "performer": "Sawallish",
+      "searchQuery": "Strauss Die schweigsame 80 Sawallish",
+      "updatedAt": "2026-11-09T13:02:56.755Z"
+    },
+    "Vocal|67|18.59923|72.79665|Op.82 Daphne Haitink": {
+      "composer": "Richard Strauss",
+      "work": "Daphne Op.82",
+      "performer": "Haitink",
+      "searchQuery": "Strauss Daphne Haitink",
+      "updatedAt": "2026-11-09T13:02:57.516Z"
+    },
+    "Vocal|67|32.35537|73.00791|Op.85 Capriccio Sawallish": {
+      "composer": "Richard Strauss",
+      "work": "Capriccio Op.85",
+      "performer": "Sawallish",
+      "searchQuery": "Strauss Capriccio Sawallish",
+      "updatedAt": "2026-11-09T13:02:58.209Z"
+    },
+    "Vocal|67|54.3695|15.15296|Bruch opera Die Loreley Op.16": {
+      "composer": "Bruch",
+      "work": "Die Loreley Op.16",
+      "performer": "Blunier",
+      "searchQuery": "Bruch Die Loreley Blunier",
+      "updatedAt": "2026-11-09T13:04:25.905Z"
+    },
+    "Vocal|67|78.47215|15.12395|Bruch Das Lied von der Glocke": {
+      "composer": "Bruch",
+      "work": "Das Lied von der Glocke",
+      "performer": "Steen",
+      "searchQuery": "Bruch Das Lied von der Glocke Steen",
+      "updatedAt": "2026-11-09T13:04:21.271Z"
+    },
+    "Vocal|67|52.16923|40.6971|C.Kleiber Die Loreley Op.16 Odysseus Op.41 Karajan": {
+      "composer": "Bruch",
+      "work": "Odysseus Op.41",
+      "performer": "Karajan",
+      "searchQuery": "Bruch Odysseus Karajan",
+      "updatedAt": "2026-11-09T13:04:49.293Z"
+    },
+    "Vocal|67|78.49146|41.13392|Steen Das Lied von der Glocke Mass a minor Op.197 Grun": {
+      "composer": "Rheinberger",
+      "work": "Mass a minor Op.197",
+      "performer": "Grun",
+      "searchQuery": "Rheinberger Mass Grun",
+      "updatedAt": "2026-11-09T13:04:57.964Z"
+    },
+    "Vocal|67|54.36969|66.93247|Karajan Odysseus Op.41 Bruch Christkindelieder Op.92": {
+      "composer": "Bruch",
+      "work": "Christkindelieder Op.92",
+      "performer": "Froschauer",
+      "searchQuery": "Bruch Christkindelieder Froschauer",
+      "updatedAt": "2026-11-09T13:04:58.618Z"
+    },
+    "Vocal|67|78.49146|66.77683|Grun Mass a minor Op.197 Der Stern von Bethlehem Froschauer": {
+      "composer": "Rheinberger",
+      "work": "Der Stern von Bethlehem",
+      "performer": "Froschauer",
+      "searchQuery": "Rheinberger Der Stern von Bethlehem Froschauer",
+      "updatedAt": "2026-11-09T13:04:59.225Z"
+    },
+    "Vocal|68|4.7732|15.2306|Wolf Italiensches Liderbuch": {
+      "composer": "Wolf",
+      "work": "Italiensches Liderbuch",
+      "performer": "s.Schwarzkopf/br.Dieskau",
+      "searchQuery": "Wolf Italiensches Liderbuch Schwarzkopf Dieskau",
+      "updatedAt": "2026-11-09T13:04:59.840Z"
+    },
+    "Vocal|68|4.7732|41.02685|s.Schwarzkopf/br.Dieskau Italiensches Liderbuch Wolf  Goethe Lieder No.9 Mignon": {
+      "composer": "Wolf",
+      "work": "Goethe Lieder",
+      "performer": "No.9 Mignon s.Sampson/p.Middleton",
+      "searchQuery": "Wolf Goethe Lieder 9 Mignon Sampson Middleton",
+      "updatedAt": "2026-11-09T13:05:09.613Z"
+    },
+    "Vocal|68|4.75362|67.14691|s.Sampson/p.Middleton No.9 Mignon Wolf  Goethe Lieder No.26 Die Sprode": {
+      "composer": "Wolf",
+      "work": "Goethe Lieder No.26 Die Sprode",
+      "performer": "s.Auger/p.Gage",
+      "searchQuery": "Wolf Goethe Lieder 26 Die Sprode Auger Gage",
+      "updatedAt": "2026-11-09T13:05:10.222Z"
+    },
+    "Vocal|68|28.91595|15.23874|Wolf  Merike Lieder No.8 Begegnung": {
+      "composer": "Wolf",
+      "work": "Merike Lieder No.8 Begegnung",
+      "performer": "br.Dieskau/p.Richter",
+      "searchQuery": "Wolf Merike Lieder 8 Begegnung Dieskau Richter",
+      "updatedAt": "2026-11-09T13:05:10.825Z"
+    },
+    "Vocal|68|29.10358|41.14206|br.Dieskau/p.Richter No.8 Begegnung Wolf  Merike Lieder No.28 Gebet": {
+      "composer": "Wolf",
+      "work": "Merike Lieder No.28 Gebet",
+      "performer": "s.Ameling / p. Baldwin",
+      "searchQuery": "Wolf Merike Lieder 28 Gebet Ameling Baldwin",
+      "updatedAt": "2026-11-09T13:05:11.524Z"
+    },
+    "Vocal|68|29.10358|66.99315|s.Ameling / p. Baldwin No.28 Gebet Wolf  Einchendorff Lieder No.3 Verschwiegene Liebe": {
+      "composer": "Wolf",
+      "work": "Einchendorff Lieder No.3 Verschwiegene Liebe",
+      "performer": "t.Bostridge/p.Papano",
+      "searchQuery": "Wolf Einchendorff Lieder 3 Verschwiegene Liebe Bostridge Papano",
+      "updatedAt": "2026-11-09T13:05:12.191Z"
+    },
+    "Vocal|68|54.65631|15.23874|Cornelius 3 Liebe Op.18": {
+      "composer": "Cornelius",
+      "work": "3 Liebe Op.18",
+      "performer": "Grun",
+      "searchQuery": "Cornelius 3 Liebe Grun",
+      "updatedAt": "2026-11-09T13:05:13.009Z"
+    },
+    "Vocal|68|54.67554|41.09983|Grun 3 Liebe Op.18 S.Wagner opera Heidenkonig": {
+      "composer": "S.Wagner",
+      "work": "opera Heidenkonig",
+      "performer": "Kodama",
+      "searchQuery": "Wagner opera Heidenkonig Kodama",
+      "updatedAt": "2026-11-09T13:05:30.482Z"
+    },
+    "Vocal|68|54.67554|67.04538|Kodama Heidenkonig Wetz Requiem": {
+      "composer": "Wetz",
+      "work": "Requiem",
+      "performer": "Albrecht",
+      "searchQuery": "Wetz Requiem Albrecht",
+      "updatedAt": "2026-11-09T13:05:31.139Z"
+    },
+    "Vocal|68|78.89429|15.19992|Reger Maria Wiegenlied": {
+      "composer": "Reger",
+      "work": "Maria Wiegenlied",
+      "performer": "Oscar's Motet Choir",
+      "searchQuery": "Reger Maria Wiegenlied Oscar s Motet Choir",
+      "updatedAt": "2026-11-09T13:05:56.997Z"
+    },
+    "Vocal|68|78.89429|41.18876|Oscar 㐴s Motet Choir Maria Wiegenlied Reger Psalm 100": {
+      "composer": "Reger",
+      "work": "Psalm 100",
+      "performer": "Polyansky",
+      "searchQuery": "Reger Psalm 100 Polyansky",
+      "updatedAt": "2026-11-09T13:05:58.096Z"
+    },
+    "Vocal|68|78.89429|67.14691|Polyansky Psalm 100 Reger Requiem": {
+      "composer": "Reger",
+      "work": "Requiem",
+      "performer": "Spering",
+      "searchQuery": "Reger Requiem Spering",
+      "updatedAt": "2026-11-09T13:06:13.501Z"
+    },
+    "Vocal|69|4.06173|15.2306|Schmidt Das Bush mit sieben siegeln": {
+      "composer": "Schmidt",
+      "work": "Das Bush mit sieben siegeln",
+      "performer": "Most",
+      "searchQuery": "Schmidt Das Bush mit sieben siegeln Most",
+      "updatedAt": "2026-11-09T13:06:23.006Z"
+    },
+    "Vocal|69|3.46292|67.03723|Mitropouls mit sieben siegeln Schmidt Das Bush mit sieben siegeln": {
+      "composer": "Schmidt",
+      "work": "Das Bush mit sieben siegeln",
+      "performer": "Harnoncourt",
+      "searchQuery": "Schmidt Das Bush mit sieben siegeln Harnoncourt",
+      "updatedAt": "2026-11-09T13:06:33.641Z"
+    },
+    "Vocal|69|28.5337|15.2306|Schmidt opera Notre Dame": {
+      "composer": "Schmidt",
+      "work": "opera Notre Dame",
+      "performer": "Prick",
+      "searchQuery": "Schmidt opera Notre Dame Prick",
+      "updatedAt": "2026-11-09T13:06:34.491Z"
+    },
+    "Vocal|69|28.66718|41.10797|Prick Notre Dame Humperdinck opera Hansel und Gretel": {
+      "composer": "Humperdinck",
+      "work": "opera Hansel und Gretel",
+      "performer": "C.Davis",
+      "searchQuery": "Humperdinck opera Hansel und Gretel Davis",
+      "updatedAt": "2026-11-09T13:06:35.117Z"
+    },
+    "Vocal|69|28.35453|67.03723|C.Davis Hansel und Gretel Humperdinck opera Königskinder": {
+      "composer": "Humperdinck",
+      "work": "opera Königskinder",
+      "performer": "Weigle",
+      "searchQuery": "Humperdinck opera Königskinder Weigle",
+      "updatedAt": "2026-11-09T13:06:35.801Z"
+    },
+    "Vocal|69|54.74151|15.36081|Pfitzner Palestrina, opera": {
+      "composer": "Pfitzner",
+      "work": "Palestrina, opera",
+      "performer": "Kubelik",
+      "searchQuery": "Pfitzner Palestrina opera Kubelik",
+      "updatedAt": "2026-11-09T13:06:36.462Z"
+    },
+    "Vocal|69|54.7626|41.26413|Kubelik Palestrina, opera Pfitzner Palestrina, opera": {
+      "composer": "Pfitzner",
+      "work": "Palestrina, opera",
+      "performer": "Petrenko",
+      "searchQuery": "Pfitzner Palestrina opera Petrenko",
+      "updatedAt": "2026-11-09T13:06:37.133Z"
+    },
+    "Vocal|69|54.74641|67.56621|Petrenko Palestrina, opera Pfitzner opera Von Deutscher Seele": {
+      "composer": "Pfitzner",
+      "work": "opera Von Deutscher Seele",
+      "performer": "Metzmacher",
+      "searchQuery": "Pfitzner opera Von Deutscher Seele Metzmacher",
+      "updatedAt": "2026-11-09T13:06:37.833Z"
+    },
+    "Vocal|69|79.84284|15.36081|Pfitzner Herr Oluf Op.12": {
+      "composer": "Pfitzner",
+      "work": "Herr Oluf Op.12",
+      "performer": "br.Hasselhorn",
+      "searchQuery": "Pfitzner Herr Oluf Hasselhorn",
+      "updatedAt": "2026-11-09T13:06:45.734Z"
+    },
+    "Vocal|69|79.79405|41.13392|br.Hasselhorn Herr Oluf Op.12 Pfitzner An den Mond Op.18": {
+      "composer": "Pfitzner",
+      "work": "An den Mond Op.18",
+      "performer": "br.Begemann",
+      "searchQuery": "Pfitzner An den Mond Begemann",
+      "updatedAt": "2026-11-09T13:06:46.417Z"
+    },
+    "vocal-pdf-v1-70-47-151": {
+      "composer": "Zemlinsky",
+      "work": "6 Songs Op.13",
+      "performer": "ms.Otter/Gardiner",
+      "searchQuery": "Zemlinsky 6 Songs Otter Gardiner",
+      "updatedAt": "2026-11-09T13:06:47.008Z"
+    },
+    "Vocal|70|4.62232|41.13799|ms.Otter/Gardiner 6 Songs Op.13 Zemlinsky Psalm 23": {
+      "composer": "Zemlinsky",
+      "work": "Psalm 23",
+      "performer": "Chailly",
+      "searchQuery": "Zemlinsky Psalm 23 Chailly",
+      "updatedAt": "2026-11-09T13:06:47.593Z"
+    },
+    "Vocal|70|4.69152|67.16743|Chailly Psalm 23 Zemlinsky opera Florentine tragedy": {
+      "composer": "Zemlinsky",
+      "work": "opera Florentine tragedy",
+      "performer": "Chailly",
+      "searchQuery": "Zemlinsky opera Florentine tragedy Chailly",
+      "updatedAt": "2026-11-09T13:06:48.206Z"
+    },
+    "Vocal|70|28.99195|15.2306|Zemlinsky opera Der Zwerg": {
+      "composer": "Zemlinsky",
+      "work": "opera Der Zwerg",
+      "performer": "Colon",
+      "searchQuery": "Zemlinsky opera Der Zwerg Colon",
+      "updatedAt": "2026-11-09T13:06:55.529Z"
+    },
+    "Vocal|70|27.42913|41.13392|Colon Der Zwerg Zemlinsky opera Der Traumgörge": {
+      "composer": "Zemlinsky",
+      "work": "opera Der Traumgörge",
+      "performer": "Colon",
+      "searchQuery": "Zemlinsky opera Der Traumgörge Colon",
+      "updatedAt": "2026-11-09T13:07:04.065Z"
+    },
+    "Vocal|70|53.30295|15.23061|Korngold Die tote Stadt, opera": {
+      "composer": "Korngold",
+      "work": "Die tote Stadt, opera",
+      "performer": "Weigle",
+      "searchQuery": "Korngold Die tote Stadt opera Weigle",
+      "updatedAt": "2026-11-09T13:07:04.762Z"
+    },
+    "vocal-pdf-v1-70-539-410": {
+      "composer": "Korngold",
+      "work": "Die tote Stadt : Marietta's Song",
+      "performer": "s.Fleming",
+      "searchQuery": "Korngold Die tote Stadt Fleming",
+      "updatedAt": "2026-11-09T13:07:30.478Z"
+    },
+    "Vocal|70|52.48587|67.03723|s.Fleming Stadt : Marietta 㐴s Song Korngold opera Das Wunder der Heliane": {
+      "composer": "Korngold",
+      "work": "opera Das Wunder der Heliane",
+      "performer": "Mauceri",
+      "searchQuery": "Korngold opera Das Wunder der Heliane Mauceri",
+      "updatedAt": "2026-11-09T13:07:32.978Z"
+    },
+    "Vocal|70|78.93931|15.00327|Korngold opera Between Two World": {
+      "composer": "Korngold",
+      "work": "opera Between Two World",
+      "performer": "Mauceri",
+      "searchQuery": "Korngold opera Between Two World Mauceri",
+      "updatedAt": "2026-11-09T13:07:33.609Z"
+    },
+    "Vocal|70|79.10981|41.13392|Mauceri Between Two World Korngold 4 Abschiedslieder Op.14": {
+      "composer": "Korngold",
+      "work": "4 Abschiedslieder Op.14",
+      "performer": "ms.Finnie/Downes",
+      "searchQuery": "Korngold 4 Abschiedslieder Finnie Downes",
+      "updatedAt": "2026-11-09T13:07:34.175Z"
+    },
+    "vocal-pdf-v1-71-38-233": {
+      "composer": "Arnold Schoenberg",
+      "work": "Gurrelieder",
+      "performer": "Chailly",
+      "searchQuery": "Schoenberg Gurrelieder Chailly",
+      "updatedAt": "2026-11-09T13:07:34.849Z"
+    },
+    "Vocal|71|18.64646|23.54703|Arnold Schoenberg Stentz Pierrot lunaire Op.21": {
+      "composer": "Arnold Schoenberg",
+      "work": "Gurrelieder",
+      "performer": "Stentz",
+      "searchQuery": "Schoenberg Gurrelieder Stentz",
+      "updatedAt": "2026-11-09T13:07:35.562Z"
+    },
+    "Vocal|71|33.29385|23.54703|Abbado Erwartung Op.17": {
+      "composer": "Arnold Schoenberg",
+      "work": "Gurrelieder",
+      "performer": "Abbado",
+      "searchQuery": "Schoenberg Gurrelieder Abbado",
+      "updatedAt": "2026-11-09T13:07:36.218Z"
+    },
+    "Vocal|71|3.9511|48.08549|Serenade Op.24 Chailly Atherton Moses und Aron": {
+      "composer": "Arnold Schoenberg",
+      "work": "Serenade Op.24",
+      "performer": "Atherton",
+      "searchQuery": "Schoenberg Serenade Atherton",
+      "updatedAt": "2026-11-09T13:07:36.875Z"
+    },
+    "Vocal|71|18.74457|48.10336|monodrama Pierrot lunaire Op.21 Kopatchinskaja Friede Auf Erden": {
+      "composer": "Arnold Schoenberg",
+      "work": "Pierrot lunaire Op.21 monodrama",
+      "performer": "Kopatchinskaja",
+      "searchQuery": "Schoenberg Pierrot lunaire monodrama Kopatchinskaja",
+      "updatedAt": "2026-11-09T13:07:37.492Z"
+    },
+    "Vocal|71|33.29385|48.10336|monodrama Erwartung Op.17 Boulez A Survivor from": {
+      "composer": "Arnold Schoenberg",
+      "work": "Erwartung Op.17 monodrama",
+      "performer": "Boulez",
+      "searchQuery": "Schoenberg Erwartung monodrama Boulez",
+      "updatedAt": "2026-11-09T13:07:38.097Z"
+    },
+    "Vocal|71|4.00804|73.35499|biblical drama Moses und Aron Boulez": {
+      "composer": "Arnold Schoenberg",
+      "work": "Moses und Aron biblical drama",
+      "performer": "Boulez",
+      "searchQuery": "Schoenberg Moses und Aron biblical drama Boulez",
+      "updatedAt": "2026-11-09T13:07:38.741Z"
+    },
+    "Vocal|71|18.5467|73.38269|Op.13 Friede Auf Erden Nagano": {
+      "composer": "Arnold Schoenberg",
+      "work": "Friede Auf Erden Op.13",
+      "performer": "Nagano",
+      "searchQuery": "Schoenberg Friede Auf Erden Nagano",
+      "updatedAt": "2026-11-09T13:07:39.314Z"
+    },
+    "Vocal|71|32.87207|73.37202|Warsaw Op.46 A Survivor from Abbado": {
+      "composer": "Arnold Schoenberg",
+      "work": "A Survivor from Warsaw Op.46",
+      "performer": "Abbado",
+      "searchQuery": "Schoenberg A Survivor from Warsaw Abbado",
+      "updatedAt": "2026-11-09T13:07:39.865Z"
+    },
+    "Vocal|71|54.8571|15.2306|Berg 7 Early Songs": {
+      "composer": "Berg",
+      "work": "7 Early Songs",
+      "performer": "s.Fleming/Abbado",
+      "searchQuery": "Berg 7 Early Songs Fleming Abbado",
+      "updatedAt": "2026-11-09T13:07:40.491Z"
+    },
+    "Vocal|71|79.49408|15.2306|Berg Wozzeck Op.7 opera": {
+      "composer": "Berg",
+      "work": "Wozzeck Op.7 opera",
+      "performer": "Dohnanyi",
+      "searchQuery": "Berg Wozzeck opera Dohnanyi",
+      "updatedAt": "2026-11-09T13:07:41.066Z"
+    },
+    "Vocal|71|54.76359|41.13392|s.Fleming/Abbado 7 Early Songs Berg Altenberg Lieder, Op. 4": {
+      "composer": "Berg",
+      "work": "Altenberg Lieder, Op. 4",
+      "performer": "s.Clytemnestra",
+      "searchQuery": "Berg Altenberg Lieder Clytemnestra",
+      "updatedAt": "2026-11-09T13:07:49.692Z"
+    },
+    "Vocal|71|79.54517|41.13392|Dohnanyi Wozzeck Op.7 opera Berg Wozzeck Op.7 opera": {
+      "composer": "Berg",
+      "work": "Wozzeck Op.7 opera",
+      "performer": "Abbado",
+      "searchQuery": "Berg Wozzeck opera Abbado",
+      "updatedAt": "2026-11-09T13:07:50.358Z"
+    },
+    "Vocal|71|54.82204|67.03724|s.Clytemnestra Altenberg Lieder, Op. 4 Berg Lulu, opera": {
+      "composer": "Berg",
+      "work": "Lulu, opera",
+      "performer": "Boulez",
+      "searchQuery": "Berg Lulu opera Boulez",
+      "updatedAt": "2026-11-09T13:07:50.977Z"
+    },
+    "Vocal|71|79.39412|67.03724|Abbado Wozzeck Op.7 opera Berg Wozzeck Op.7 opera": {
+      "composer": "Berg",
+      "work": "Wozzeck Op.7 opera",
+      "performer": "Metzmacher",
+      "searchQuery": "Berg Wozzeck opera Metzmacher",
+      "updatedAt": "2026-11-09T13:07:51.598Z"
+    },
+    "Vocal|72|3.77654|23.4525|Carmina Burana Karl Orff Previn Catulli Carmina": {
+      "composer": "Karl Orff",
+      "work": "Carmina Burana",
+      "performer": "Previn",
+      "searchQuery": "Orff Carmina Burana Previn",
+      "updatedAt": "2026-11-09T13:07:52.213Z"
+    },
+    "Vocal|72|18.64646|23.54703|Jochum": {
+      "composer": "Karl Orff",
+      "work": "Carmina Burana",
+      "performer": "Jochum",
+      "searchQuery": "Orff Carmina Burana Jochum",
+      "updatedAt": "2026-11-09T13:07:52.858Z"
+    },
+    "Vocal|72|33.29385|23.31201|Ozawa Trionfi di Afrodite": {
+      "composer": "Karl Orff",
+      "work": "Carmina Burana",
+      "performer": "Ozawa",
+      "searchQuery": "Orff Carmina Burana Ozawa",
+      "updatedAt": "2026-11-09T13:07:53.491Z"
+    },
+    "Vocal|72|3.99848|48.10336|Catulli Carmina Previn Most Die Kluge , opera": {
+      "composer": "Karl Orff",
+      "work": "Catulli Carmina",
+      "performer": "Most",
+      "searchQuery": "Orff Catulli Carmina Most",
+      "updatedAt": "2026-11-09T13:08:01.541Z"
+    },
+    "Vocal|72|33.20174|47.79687|Trionfi di Afrodite Ozawa Carmina Burana": {
+      "composer": "Karl Orff",
+      "work": "Trionfi di Afrodite",
+      "performer": "Kegel",
+      "searchQuery": "Orff Trionfi di Afrodite Kegel",
+      "updatedAt": "2026-11-09T13:08:09.807Z"
+    },
+    "Vocal|72|4.11316|73.38269|Die Kluge , opera Most Sawallish": {
+      "composer": "Karl Orff",
+      "work": "Die Kluge, opera",
+      "performer": "Sawallish",
+      "searchQuery": "Orff Die Kluge opera Sawallish",
+      "updatedAt": "2026-11-09T13:08:18.001Z"
+    },
+    "Vocal|72|18.94229|73.24181|Der Mond , opera Jochum Sawallish": {
+      "composer": "Karl Orff",
+      "work": "Der Mond, opera",
+      "performer": "Sawallish",
+      "searchQuery": "Orff Der Mond opera Sawallish",
+      "updatedAt": "2026-11-09T13:08:28.389Z"
+    },
+    "Vocal|72|33.29385|73.27086|Piano Version Carmina Burana": {
+      "composer": "Orff",
+      "work": "Piano Version Carmina Burana",
+      "performer": "",
+      "searchQuery": "Orff Piano Version Carmina Burana",
+      "updatedAt": "2026-11-09T13:08:36.174Z"
+    },
+    "Vocal|72|54.70836|15.2306|Schreker Die Gezeichneten, opera": {
+      "composer": "Schreker",
+      "work": "Die Gezeichneten, opera",
+      "performer": "Zagrosek",
+      "searchQuery": "Schreker Die Gezeichneten opera Zagrosek",
+      "updatedAt": "2026-11-09T13:08:37.246Z"
+    },
+    "Vocal|72|78.33904|15.2306|Schreker Irrelohe, opera": {
+      "composer": "Schreker",
+      "work": "Irrelohe, opera",
+      "performer": "Guike",
+      "searchQuery": "Schreker Irrelohe opera Guike",
+      "updatedAt": "2026-11-09T13:08:37.894Z"
+    },
+    "Vocal|72|54.70836|41.13392|Zagrosek Die Gezeichneten, opera Schreker Der Ferne Klang, opera": {
+      "composer": "Schreker",
+      "work": "Der Ferne Klang, opera",
+      "performer": "Weigle",
+      "searchQuery": "Schreker Der Ferne Klang opera Weigle",
+      "updatedAt": "2026-11-09T13:08:38.618Z"
+    },
+    "Vocal|72|77.50518|41.13392|Guike Irrelohe, opera Krenek Jonny Spielt Auf, opera": {
+      "composer": "Krenek",
+      "work": "Jonny Spielt Auf, opera",
+      "performer": "Zagrosek",
+      "searchQuery": "Krenek Jonny Spielt Auf opera Zagrosek",
+      "updatedAt": "2026-11-09T13:08:39.291Z"
+    },
+    "Vocal|72|54.70836|67.0099|Weigle Der Ferne Klang, opera Schreker Der Schatzgraber, opera": {
+      "composer": "Schreker",
+      "work": "Der Schatzgraber, opera",
+      "performer": "Albrecht",
+      "searchQuery": "Schreker Der Schatzgraber opera Albrecht",
+      "updatedAt": "2026-11-09T13:08:39.930Z"
+    },
+    "Vocal|72|78.72681|66.88906|Zagrosek Jonny Spielt Auf, opera Krenek Reisebuch aus….Alpen": {
+      "composer": "Krenek",
+      "work": "Reisebuch aus….Alpen",
+      "performer": "br.Holzmair/p.Wyss",
+      "searchQuery": "Krenek Reisebuch Alpen Holzmair Wyss",
+      "updatedAt": "2026-11-09T13:08:40.575Z"
+    },
+    "vocal-pdf-full-73-38-208": {
+      "composer": "Kurt Weill",
+      "work": "Die sieben Todsunden",
+      "performer": "ms.Otter/Gardiner",
+      "searchQuery": "Weill Die sieben Todsunden Otter Gardiner",
+      "updatedAt": "2026-11-09T13:08:42.089Z"
+    },
+    "Vocal|73|18.64646|23.54703|s.Lemper/Mauceri Die Dreigroschenoper , opera": {
+      "composer": "Kurt Weill",
+      "work": "Die sieben Todsunden",
+      "performer": "s.Lemper/Mauceri",
+      "searchQuery": "Weill Die sieben Todsunden Lemper Mauceri",
+      "updatedAt": "2026-11-09T13:08:45.708Z"
+    },
+    "Vocal|73|33.20201|23.54703|Berlner Requiem Hillier Mahoganny , opera": {
+      "composer": "Kurt Weill",
+      "work": "Berlner Requiem",
+      "performer": "Hillier",
+      "searchQuery": "Weill Berlner Requiem Hillier",
+      "updatedAt": "2026-11-09T13:08:46.358Z"
+    },
+    "Vocal|73|3.99848|48.10336|Die Dreigroschenoper , opera ms.Otter/Gardiner Ruggeberg One Touch of Venus": {
+      "composer": "Kurt Weill",
+      "work": "Die Dreigroschenoper, opera",
+      "performer": "Ruggeberg",
+      "searchQuery": "Weill Die Dreigroschenoper opera Ruggeberg",
+      "updatedAt": "2026-11-09T13:08:54.561Z"
+    },
+    "Vocal|73|18.58679|47.91176|Die Dreigroschenoper , opera s.Lemper/Mauceri Mauceri Je ne t 㐴aime pas": {
+      "composer": "Kurt Weill",
+      "work": "Die Dreigroschenoper, opera",
+      "performer": "Mauceri",
+      "searchQuery": "Weill Die Dreigroschenoper opera Mauceri",
+      "updatedAt": "2026-11-09T13:08:55.158Z"
+    },
+    "Vocal|73|33.42504|48.06891|Mahoganny , opera Hillier Ruggeberg Youkail": {
+      "composer": "Kurt Weill",
+      "work": "Mahoganny, opera",
+      "performer": "Ruggeberg",
+      "searchQuery": "Weill Mahoganny opera Ruggeberg",
+      "updatedAt": "2026-11-09T13:09:30.262Z"
+    },
+    "vocal-pdf-v1-73-38-706": {
+      "composer": "Kurt Weill",
+      "work": "One Touch of Venus",
+      "performer": "ms.Otter/Gardiner",
+      "searchQuery": "Weill One Touch of Venus Otter Gardiner",
+      "updatedAt": "2026-11-09T13:09:30.956Z"
+    },
+    "Vocal|73|18.81924|73.24182|Je ne t 㐴aime pas Mauceri s.Lemper": {
+      "composer": "Kurt Weill",
+      "work": "Je ne t'aime pas",
+      "performer": "s.Lemper",
+      "searchQuery": "Weill Je ne t aime pas Lemper",
+      "updatedAt": "2026-11-09T13:09:31.675Z"
+    },
+    "Vocal|73|33.52039|73.24182|Youkail Ruggeberg s.Lemper/Mauceri": {
+      "composer": "Kurt Weill",
+      "work": "Youkail",
+      "performer": "s.Lemper/Mauceri",
+      "searchQuery": "Weill Youkail Lemper Mauceri",
+      "updatedAt": "2026-11-09T13:09:33.226Z"
+    },
+    "Vocal|73|54.60885|15.35267|Spoliansky Alles Schwindel": {
+      "composer": "Spoliansky",
+      "work": "Alles Schwindel",
+      "performer": "s.Lemper/Ziegler",
+      "searchQuery": "Spoliansky Alles Schwindel Lemper Ziegler",
+      "updatedAt": "2026-11-09T13:09:33.918Z"
+    },
+    "Vocal|73|78.55485|15.32664|Waxman Allein in einer grossen Stadt": {
+      "composer": "Waxman",
+      "work": "Allein in einer grossen Stadt",
+      "performer": "s.Lemper/Fontaine",
+      "searchQuery": "Waxman Allein in einer grossen Stadt Lemper Fontaine",
+      "updatedAt": "2026-11-09T13:09:35.318Z"
+    },
+    "Vocal|73|54.69907|41.12578|s.Lemper/Ziegler Alles Schwindel Hollaender Sex Appeal": {
+      "composer": "Hollaender",
+      "work": "Sex Appeal",
+      "performer": "s.Lemper/Ziegler",
+      "searchQuery": "Hollaender Sex Appeal Lemper Ziegler",
+      "updatedAt": "2026-11-09T13:10:02.794Z"
+    },
+    "Vocal|73|78.46464|41.13392|s.Lemper/Fontaine Allein in einer grossen Stadt Waxman Das Lied Terezin": {
+      "composer": "Waxman",
+      "work": "Das Lied Terezin",
+      "performer": "Foster",
+      "searchQuery": "Waxman Das Lied Terezin Foster",
+      "updatedAt": "2026-11-09T13:10:03.527Z"
+    },
+    "Vocal|73|54.72672|68.33933|s.Lemper/Ziegler Sex Appeal Hollaender Illusions": {
+      "composer": "Hollaender",
+      "work": "Illusions",
+      "performer": "s.Lemper/Ziegler",
+      "searchQuery": "Hollaender Illusions Lemper Ziegler",
+      "updatedAt": "2026-11-09T13:10:12.030Z"
+    },
+    "Vocal|74|4.54787|15.49102|Goldschmidt opera Der Gewaltige Hahnrei": {
+      "composer": "Goldschmidt",
+      "work": "opera Der Gewaltige Hahnrei",
+      "performer": "Zagrosek",
+      "searchQuery": "Goldschmidt opera Der Gewaltige Hahnrei Zagrosek",
+      "updatedAt": "2026-11-09T13:10:12.798Z"
+    },
+    "Vocal|74|28.81882|15.2306|Braunfels Die Vogel, opera": {
+      "composer": "Braunfels",
+      "work": "Die Vogel, opera",
+      "performer": "Zagrosek",
+      "searchQuery": "Braunfels Die Vogel opera Zagrosek",
+      "updatedAt": "2026-11-09T13:10:13.446Z"
+    },
+    "vocal-pdf-v1-74-41-417": {
+      "composer": "Rathaus",
+      "work": "opera Der letzte Pierrot",
+      "performer": "Yinon",
+      "searchQuery": "Rathaus opera Der letzte Pierrot Yinon",
+      "updatedAt": "2026-11-09T13:10:14.698Z"
+    },
+    "Vocal|74|28.96193|41.53236|Zagrosek Die Vogel, opera Braunfels Te Deum Op.32": {
+      "composer": "Braunfels",
+      "work": "Te Deum Op.32",
+      "performer": "Honeck",
+      "searchQuery": "Braunfels Te Deum Honeck",
+      "updatedAt": "2026-11-09T13:10:15.294Z"
+    },
+    "Vocal|74|54.18069|41.7931|Zagrosek Der Kaiser von Atlantis Eisler Deutsche Sinfonie": {
+      "composer": "Eisler",
+      "work": "Deutsche Sinfonie",
+      "performer": "Zagrosek",
+      "searchQuery": "Eisler Deutsche Sinfonie Zagrosek",
+      "updatedAt": "2026-11-09T13:10:15.930Z"
+    },
+    "Vocal|74|4.19042|68.09518|Yinon Der letzte Pierrot Krasa opera Verloung im Traume": {
+      "composer": "Krasa",
+      "work": "opera Verloung im Traume",
+      "performer": "Zagrosek",
+      "searchQuery": "Krasa opera Verloung im Traume Zagrosek",
+      "updatedAt": "2026-11-09T13:10:16.511Z"
+    },
+    "Vocal|74|28.91178|68.09518|Honeck Te Deum Op.32 Wolpe Zeus und Elida, opera": {
+      "composer": "Wolpe",
+      "work": "Zeus und Elida, opera",
+      "performer": "Herbers",
+      "searchQuery": "Wolpe Zeus und Elida opera Herbers",
+      "updatedAt": "2026-11-09T13:10:17.090Z"
+    },
+    "Vocal|74|53.05975|68.09518|Zagrosek Deutsche Sinfonie Schilling Mina Lisa, opera": {
+      "composer": "Schilling",
+      "work": "Mina Lisa, opera",
+      "performer": "Seibel",
+      "searchQuery": "Schilling Mina Lisa opera Seibel",
+      "updatedAt": "2026-11-09T13:10:31.098Z"
+    },
+    "Vocal|75|3.62797|15.2306|Goldmark opera Die Königin von Saba": {
+      "composer": "Goldmark",
+      "work": "opera Die Königin von Saba",
+      "performer": "Bollon",
+      "searchQuery": "Goldmark opera Die Königin von Saba Bollon",
+      "updatedAt": "2026-11-09T13:10:31.723Z"
+    },
+    "Vocal|75|5.49473|41.66289|Bollon Die Königin von Saba Goldmark opera Merlin": {
+      "composer": "Goldmark",
+      "work": "opera Merlin",
+      "performer": "Schaller",
+      "searchQuery": "Goldmark opera Merlin Schaller",
+      "updatedAt": "2026-11-09T13:10:32.340Z"
+    },
+    "Vocal|75|5.49473|68.04849|Schaller Merlin d 㑄Albert opera Der Golem": {
+      "composer": "d 'Albert",
+      "work": "opera Der Golem",
+      "performer": "Bluner",
+      "searchQuery": "Albert opera Der Golem Bluner",
+      "updatedAt": "2026-11-09T13:10:33.143Z"
+    },
+    "Vocal|75|28.95507|15.57453|Beer opera Polnische Hochzeit": {
+      "composer": "Beer",
+      "work": "opera Polnische Hochzeit",
+      "performer": "Schirmer",
+      "searchQuery": "Beer opera Polnische Hochzeit Schirmer",
+      "updatedAt": "2026-11-09T13:10:33.766Z"
+    },
+    "Vocal|75|28.96193|41.66289|Schirmer Polnische Hochzeit Erdmann 2 Lider Op.11/1 Der Engel": {
+      "composer": "Erdmann",
+      "work": "2 Lider Op.11/1 Der Engel",
+      "performer": "br.Timoshenko/p.Desseva",
+      "searchQuery": "Erdmann 2 Lider Der Engel Timoshenko Desseva",
+      "updatedAt": "2026-11-09T13:10:34.357Z"
+    },
+    "Vocal|75|54.27592|15.2306|Biebl Ave Maria": {
+      "composer": "Biebl",
+      "work": "Ave Maria",
+      "performer": "Chanticleer",
+      "searchQuery": "Biebl Ave Maria Chanticleer",
+      "updatedAt": "2026-11-09T13:10:34.951Z"
+    },
+    "Vocal|75|54.2096|41.7931|Chanticleer Ave Maria Petersen Grosse Messe": {
+      "composer": "Petersen",
+      "work": "Grosse Messe",
+      "performer": "Drewantz",
+      "searchQuery": "Petersen Grosse Messe Drewantz",
+      "updatedAt": "2026-11-09T13:11:09.351Z"
+    },
+    "Vocal|75|54.27592|68.09518|Drewantz Grosse Messe Pepping Matthaus Passion": {
+      "composer": "Pepping",
+      "work": "Matthaus Passion",
+      "performer": "Parkman",
+      "searchQuery": "Pepping Matthaus Passion Parkman",
+      "updatedAt": "2026-11-09T13:11:10.046Z"
+    },
+    "Vocal|75|79.48386|15.48288|Martin Mass for Double chorus": {
+      "composer": "Martin",
+      "work": "Mass for Double chorus",
+      "performer": "D'Donnell",
+      "searchQuery": "Martin Mass for Double chorus D Donnell",
+      "updatedAt": "2026-11-09T13:11:10.724Z"
+    },
+    "Vocal|75|79.49256|41.7931|D 㐴Donnell Mass for Double chorus Martin Maria ㎿Triptychon": {
+      "composer": "Martin",
+      "work": "Maria-Triptychon",
+      "performer": "Poppen",
+      "searchQuery": "Martin Maria Triptychon Poppen",
+      "updatedAt": "2026-11-09T13:11:12.907Z"
+    },
+    "Vocal|75|78.65348|67.79198|Poppen Maria ㎿Triptychon Martin Golgotha": {
+      "composer": "Martin",
+      "work": "Golgotha",
+      "performer": "Martin",
+      "searchQuery": "Martin Golgotha Martin",
+      "updatedAt": "2026-11-09T13:11:47.779Z"
+    },
+    "Vocal|76|4.93185|14.97698|Hindemith Requiem": {
+      "composer": "Hindemith",
+      "work": "Requiem",
+      "performer": "Sawallish",
+      "searchQuery": "Hindemith Requiem Sawallish",
+      "updatedAt": "2026-11-09T13:11:48.730Z"
+    },
+    "Vocal|76|4.93185|41.52454|Sawallish Requiem Hindemith Melancolie Op.13": {
+      "composer": "Hindemith",
+      "work": "Melancolie Op.13",
+      "performer": "s.Hannigan",
+      "searchQuery": "Hindemith Melancolie Hannigan",
+      "updatedAt": "2026-11-09T13:11:50.079Z"
+    },
+    "Vocal|76|5.16444|67.44414|s.Hannigan Melancolie Op.13 Hindemith Das Marienleben Op.27": {
+      "composer": "Hindemith",
+      "work": "Das Marienleben Op.27",
+      "performer": "ms.Banse/p.Helmchen",
+      "searchQuery": "Hindemith Das Marienleben Banse Helmchen",
+      "updatedAt": "2026-11-09T13:11:50.731Z"
+    },
+    "Vocal|76|28.79456|15.03937|Hindemith Mathis der Maler, opera": {
+      "composer": "Hindemith",
+      "work": "Mathis der Maler, opera",
+      "performer": "Billy",
+      "searchQuery": "Hindemith Mathis der Maler opera Billy",
+      "updatedAt": "2026-11-09T13:11:51.327Z"
+    },
+    "Vocal|76|28.79456|41.40206|Billy Mathis der Maler, opera Hindemith Cardillac opera": {
+      "composer": "Hindemith",
+      "work": "Cardillac opera",
+      "performer": "Soltesz",
+      "searchQuery": "Hindemith Cardillac opera Soltesz",
+      "updatedAt": "2026-11-09T13:11:51.966Z"
+    },
+    "vocal-pdf-v1-76-287-673": {
+      "composer": "Gurlitt",
+      "work": "Wozzeck, opera",
+      "performer": "Albrecht",
+      "searchQuery": "Gurlitt Wozzeck opera Albrecht",
+      "updatedAt": "2026-11-09T13:11:52.579Z"
+    },
+    "Vocal|76|54.30567|15.46491|Zeisl Requiem ebraico": {
+      "composer": "Zeisl",
+      "work": "Requiem ebraico",
+      "performer": "Foster",
+      "searchQuery": "Zeisl Requiem ebraico Foster",
+      "updatedAt": "2026-11-09T13:12:24.124Z"
+    },
+    "Vocal|76|54.26639|41.65475|Foster Requiem ebraico Zeisl Letzter Tanz": {
+      "composer": "Zeisl",
+      "work": "Letzter Tanz",
+      "performer": "br.Bastlein/p.Spencer",
+      "searchQuery": "Zeisl Letzter Tanz Bastlein Spencer",
+      "updatedAt": "2026-11-09T13:12:25.366Z"
+    },
+    "Vocal|76|54.27911|67.42633|br.Bastlein/p.Spencer Letzter Tanz Kirchner Messa di Pace": {
+      "composer": "Kirchner",
+      "work": "Messa di Pace",
+      "performer": "Gulke",
+      "searchQuery": "Kirchner Messa di Pace Gulke",
+      "updatedAt": "2026-11-09T13:12:26.074Z"
+    },
+    "Vocal|76|79.15191|15.49102|Egk Peer Gynt, opera": {
+      "composer": "Egk",
+      "work": "Peer Gynt, opera",
+      "performer": "Kontarsky",
+      "searchQuery": "Egk Peer Gynt opera Kontarsky",
+      "updatedAt": "2026-11-09T13:12:26.719Z"
+    },
+    "Vocal|76|79.15191|42.05352|Kontarsky Peer Gynt, opera Egk Irische Legende, opera": {
+      "composer": "Egk",
+      "work": "Irische Legende, opera",
+      "performer": "Szell",
+      "searchQuery": "Egk Irische Legende opera Szell",
+      "updatedAt": "2026-11-09T13:12:27.340Z"
+    },
+    "Vocal|76|79.01551|67.63662|Szell Irische Legende, opera Schwitters Ursonate": {
+      "composer": "Schwitters",
+      "work": "Ursonate",
+      "performer": "Schwitters",
+      "searchQuery": "Schwitters Ursonate Schwitters",
+      "updatedAt": "2026-11-09T13:12:28.007Z"
+    },
+    "Vocal|77|2.67177|14.73623|Requiem for a Young Poet Gielen": {
+      "composer": "B.Zimmermann",
+      "work": "Requiem for a Young Poet",
+      "performer": "Gielen",
+      "searchQuery": "Zimmermann Requiem for a Young Poet Gielen",
+      "updatedAt": "2026-11-09T13:12:44.467Z"
+    },
+    "Vocal|77|4.1711|42.05351|Gielen Requiem for a Young Poet B.Zimmermann Die Soldaten, opera": {
+      "composer": "B.Zimmermann",
+      "work": "Die Soldaten, opera",
+      "performer": "Kontarsky",
+      "searchQuery": "Zimmermann Die Soldaten opera Kontarsky",
+      "updatedAt": "2026-11-09T13:12:45.111Z"
+    },
+    "Vocal|77|4.80706|68.55037|Kontarsky Die Soldaten, opera U.Zimmermann Die Weisse Rose, opera": {
+      "composer": "U.Zimmermann",
+      "work": "Die Weisse Rose, opera",
+      "performer": "U.Zimmermann",
+      "searchQuery": "Zimmermann Die Weisse Rose opera Zimmermann",
+      "updatedAt": "2026-11-09T13:12:53.673Z"
+    },
+    "Vocal|77|28.27383|15.2306|Rihm opera Die Eroberung von Mexico": {
+      "composer": "Rihm",
+      "work": "opera Die Eroberung von Mexico",
+      "performer": "Metzmacher",
+      "searchQuery": "Rihm opera Die Eroberung von Mexico Metzmacher",
+      "updatedAt": "2026-11-09T13:12:54.307Z"
+    },
+    "Vocal|77|28.37674|42.05351|Metzmacher Die Eroberung von Mexico Zender Logos ㎿Fragmente": {
+      "composer": "Zender",
+      "work": "Logos-Fragmente",
+      "performer": "Pomarico",
+      "searchQuery": "Zender Logos Fragmente Pomarico",
+      "updatedAt": "2026-11-09T13:12:54.983Z"
+    },
+    "Vocal|77|28.51468|68.61602|Pomarico Logos ㎿Fragmente Stabler fallen,fallen…": {
+      "composer": "Stabler",
+      "work": "fallen,fallen…",
+      "performer": "Stabler",
+      "searchQuery": "Stabler fallen Stabler",
+      "updatedAt": "2026-11-09T13:13:02.957Z"
+    },
+    "Vocal|77|53.68233|15.49102|Henze opera Die Bassariden": {
+      "composer": "Henze",
+      "work": "opera Die Bassariden",
+      "performer": "Dohnanyi",
+      "searchQuery": "Henze opera Die Bassariden Dohnanyi",
+      "updatedAt": "2026-11-09T13:13:11.807Z"
+    },
+    "Vocal|77|54.2246|42.05351|Dohnanyi Die Bassariden Henze opera Der Prinz von Hamburg": {
+      "composer": "Henze",
+      "work": "opera Der Prinz von Hamburg",
+      "performer": "Meister",
+      "searchQuery": "Henze opera Der Prinz von Hamburg Meister",
+      "updatedAt": "2026-11-09T13:13:12.496Z"
+    },
+    "Vocal|77|53.12747|68.61602|Meister Der Prinz von Hamburg Einem opera Der Besuch der alte…": {
+      "composer": "Einem",
+      "work": "opera Der Besuch der alte…",
+      "performer": "Stein",
+      "searchQuery": "Einem opera Der Besuch der Stein",
+      "updatedAt": "2026-11-09T13:13:13.179Z"
+    },
+    "Vocal|77|79.04578|15.49102|Laurenz Der Prozess, opera": {
+      "composer": "Laurenz",
+      "work": "Der Prozess, opera",
+      "performer": "Gruber",
+      "searchQuery": "Laurenz Der Prozess opera Gruber",
+      "updatedAt": "2026-11-09T13:13:13.827Z"
+    },
+    "Vocal|77|79.04578|42.05351|Gruber Der Prozess, opera Behrend Requiem on Hiroshima": {
+      "composer": "Behrend",
+      "work": "Requiem on Hiroshima",
+      "performer": "Behrend",
+      "searchQuery": "Behrend Requiem on Hiroshima Behrend",
+      "updatedAt": "2026-11-09T13:13:14.511Z"
+    },
+    "Vocal|77|78.91031|68.87643|Behrend Requiem on Hiroshima Stockhausen Stimmung": {
+      "composer": "Stockhausen",
+      "work": "Stimmung",
+      "performer": "Hillier",
+      "searchQuery": "Stockhausen Stimmung Hillier",
+      "updatedAt": "2026-11-09T13:13:15.151Z"
+    },
+    "Vocal|78|5.01451|15.07297|Schnebell New Music in Church": {
+      "composer": "Schnebell",
+      "work": "New Music in Church",
+      "performer": "Ziegler",
+      "searchQuery": "Schnebell New Music in Church Ziegler",
+      "updatedAt": "2026-11-09T13:13:24.019Z"
+    },
+    "Vocal|78|5.01451|42.05351|Ziegler New Music in Church Schnebell Mit diesen Handen": {
+      "composer": "Schnebell",
+      "work": "Mit diesen Handen",
+      "performer": "ms.Seitz/vc.Bach",
+      "searchQuery": "Schnebell Mit diesen Handen Seitz Bach",
+      "updatedAt": "2026-11-09T13:13:31.375Z"
+    },
+    "Vocal|78|4.22811|68.87643|ms.Seitz/vc.Bach Mit diesen Handen Schnebell Missa": {
+      "composer": "Schnebell",
+      "work": "Missa",
+      "performer": "Pesko",
+      "searchQuery": "Schnebell Missa Pesko",
+      "updatedAt": "2026-11-09T13:14:26.757Z"
+    },
+    "Vocal|78|28.70578|15.10004|Schneider So ich mich selber lese…": {
+      "composer": "Schneider",
+      "work": "So ich mich selber lese…",
+      "performer": "Schneider",
+      "searchQuery": "Schneider So ich mich selber Schneider",
+      "updatedAt": "2026-11-09T13:15:12.476Z"
+    },
+    "Vocal|78|28.64721|42.05351|Schneider So ich mich selber lese… Widmann Messe": {
+      "composer": "Widmann",
+      "work": "Messe",
+      "performer": "Poppen",
+      "searchQuery": "Widmann Messe Poppen",
+      "updatedAt": "2026-11-09T13:15:13.136Z"
+    },
+    "Vocal|78|28.69225|68.87643|Poppen Messe Stephan opera Die Ersten Menschen": {
+      "composer": "Stephan",
+      "work": "opera Die Ersten Menschen",
+      "performer": "Franck",
+      "searchQuery": "Stephan opera Die Ersten Menschen Franck",
+      "updatedAt": "2026-11-09T13:15:13.768Z"
+    },
+    "Vocal|78|53.93795|15.2306|Petersen Gross Messe": {
+      "composer": "Petersen",
+      "work": "Gross Messe",
+      "performer": "Breitschaft",
+      "searchQuery": "Petersen Gross Messe Breitschaft",
+      "updatedAt": "2026-11-09T13:15:31.696Z"
+    },
+    "Vocal|78|78.43654|15.2306|Walden Missa Iubileum Aureum": {
+      "composer": "Walden",
+      "work": "Missa Iubileum Aureum",
+      "performer": "Elling",
+      "searchQuery": "Walden Missa Iubileum Aureum Elling",
+      "updatedAt": "2026-11-09T13:15:41.715Z"
+    },
+    "Vocal|78|79.42349|42.05351|Elling Missa Iubileum Aureum Glanert Oceane, opera": {
+      "composer": "Glanert",
+      "work": "Oceane, opera",
+      "performer": "Runnicles",
+      "searchQuery": "Glanert Oceane opera Runnicles",
+      "updatedAt": "2026-11-09T13:15:42.720Z"
+    },
+    "Vocal|78|79.38286|68.87643|Runnicles Oceane, opera Glanert Caligula, opera": {
+      "composer": "Glanert",
+      "work": "Caligula, opera",
+      "performer": "Stentz",
+      "searchQuery": "Glanert Caligula opera Stentz",
+      "updatedAt": "2026-11-09T13:15:43.541Z"
+    },
+    "Vocal|79|4.43025|15.2306|Reimann L 㑄invisible, opera": {
+      "composer": "Reimann",
+      "work": "L'invisible, opera",
+      "performer": "Runnicles",
+      "searchQuery": "Reimann L invisible opera Runnicles",
+      "updatedAt": "2026-11-09T13:15:44.643Z"
+    },
+    "Vocal|79|4.75459|42.05351|Runnicles L 㑄invisible, opera Doderer Salve Regina": {
+      "composer": "Doderer",
+      "work": "Salve Regina",
+      "performer": "Schirmer",
+      "searchQuery": "Doderer Salve Regina Schirmer",
+      "updatedAt": "2026-11-09T13:15:45.336Z"
+    },
+    "Vocal|79|4.75449|68.87643|Schirmer Salve Regina Rissmann Wonderland": {
+      "composer": "Rissmann",
+      "work": "Wonderland",
+      "performer": "Reynolds",
+      "searchQuery": "Rissmann Wonderland Reynolds",
+      "updatedAt": "2026-11-09T13:15:45.944Z"
+    },
+    "Vocal|80|4.50568|15.20465|Glinka opera Ruslan and Lyudmila": {
+      "composer": "Glinka",
+      "work": "opera Ruslan and Lyudmila",
+      "performer": "Gergiev",
+      "searchQuery": "Glinka opera Ruslan and Lyudmila Gergiev",
+      "updatedAt": "2026-11-09T13:15:46.631Z"
+    },
+    "Vocal|80|29.24524|15.32669|Rimsky ㎿Korsakov The Golden Cockerel, opera": {
+      "composer": "Rimsky -Korsakov",
+      "work": "The Golden Cockerel, opera",
+      "performer": "Manolov",
+      "searchQuery": "Korsakov The Golden Cockerel opera Manolov",
+      "updatedAt": "2026-11-09T13:15:47.604Z"
+    },
+    "Vocal|80|4.15269|41.13392|Gergiev Ruslan and Lyudmila Borodin Prince Igor, opera": {
+      "composer": "Borodin",
+      "work": "Prince Igor, opera",
+      "performer": "Gergiev",
+      "searchQuery": "Borodin Prince Igor opera Gergiev",
+      "updatedAt": "2026-11-09T13:15:48.511Z"
+    },
+    "Vocal|80|29.26381|41.37645|Manolov The Golden Cockerel, opera Rimsky ㎿Korsakov Sadko, opera": {
+      "composer": "Rimsky -Korsakov",
+      "work": "Sadko, opera",
+      "performer": "Gergiev",
+      "searchQuery": "Korsakov Sadko opera Gergiev",
+      "updatedAt": "2026-11-09T13:15:49.132Z"
+    },
+    "Vocal|80|4.59147|67.48435|Gergiev Prince Igor, opera Borodin  For the Shores of Thy Far Native Land": {
+      "composer": "Borodin",
+      "work": "For the Shores of Thy Far Native Land",
+      "performer": "br.Ghristoff",
+      "searchQuery": "Borodin For the Shores of Thy Far Native Land Ghristoff",
+      "updatedAt": "2026-11-09T13:16:08.564Z"
     }
   },
   "favorites": {
