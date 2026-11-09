@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-08T16:05:50.535Z",
+  "createdAt": "2026-11-09T00:50:44.500Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -39971,7 +39971,7 @@
       "album": "Elegie",
       "artist": "Jörg Widmann, Heinz Holliger, Christoph Poppen & German Radio Philharmonic Orchestra",
       "source": "Apple iTunes Search API",
-      "approvedAt": "2026-11-08T16:00:50.648Z"
+      "approvedAt": "2026-11-08T22:24:05.491Z"
     },
     "Vocal|78|28.69225|68.87643|Poppen Messe Stephan opera Die Ersten Menschen": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/34/c0/2d/34c02d55-9005-a5bb-db99-f5c00a325996/0822189025540_cover.jpg/600x600bb.jpg",
@@ -40042,6 +40042,2281 @@
       "artist": "Vladimir Galusin, Valentina Tsidipova, Marianna Tarassova, Chorus of the Kirov Opera, St. Petersburg, Orchestra of the Kirov Opera, St. Petersburg & Valery Gergiev",
       "source": "Apple iTunes Search API",
       "approvedAt": "2026-11-08T16:01:43.091Z"
+    },
+    "Vocal|80|29.21143|67.48435|Gergiev Sadko, opera Rimsky ㎿Korsakov Mozart and Salieri, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/2f/b1/052fb164-d029-a90f-e030-7d93001d6b82/5059864914935.png/600x600bb.jpg",
+      "album": "Rimsky-Korsakov: Mozart & Salieri - Glinka: Songs",
+      "artist": "Yuli Turovsky, I Musici de Montréal, Nikita Storojev & Vladimir Bogachov",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:24:46.938Z"
+    },
+    "Vocal|80|53.09048|23.54328|Boris Godunov , opera Modest Mussorgsky Karajan Khovanshchina , opera": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/1bf9cb5a099bdaf1a22b4545b8a9bc26/1000x1000-000000-80-0-0.jpg",
+      "album": "Mussorgsky: Boris Godunov",
+      "artist": "Nicolai Ghiaurov",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:24:59.507Z"
+    },
+    "Vocal|80|67.558|23.54328|Modest Mussorgsky Fedoseyev": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/82/04/c1820485-0c96-2581-2424-54ede63dcd38/24UMGIM93080.rgb.jpg/600x600bb.jpg",
+      "album": "Mussorgsky: Boris Godunov (Version 1872)",
+      "artist": "Alexander Vedernikov, Vladimir Matorin, Vladislav Piavko, Irina Arkhipova, Yuri Mazurok, Andrei Sokolov, Vesna Children's Choir, USSR Radio and TV Symphony Chorus, USSR Radio and TV Symphony Orchestra & Vladimir Fedoseyev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:25:03.370Z"
+    },
+    "Vocal|80|82.47655|23.48307|Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/46/a1/4b/46a14b8e-365e-2662-e2de-154c379e7fb5/074645897721.jpg/600x600bb.jpg",
+      "album": "Mussorgsky: Boris Godunov",
+      "artist": "Claudio Abbado, Anatoly Kotcherga & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:25:07.215Z"
+    },
+    "Vocal|80|53.08985|48.80714|Khovanshchina , opera Karajan Gergiev": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/c1/94/b1c19465-8f12-9ea8-79e6-27a380ee911c/00028943214728.rgb.jpg/600x600bb.jpg",
+      "album": "Mussorgsky: Khovanshchina",
+      "artist": "Bulat Minjelkiev, Nikolai Ohotnikov, Vladimir Galusin, Olga Borodina, Orchestra of the Kirov Opera, St. Petersburg & Valery Gergiev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:25:11.989Z"
+    },
+    "vocal-pdf-v1-80-532-742": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b6/19/fd/b619fdd9-eca4-f5ac-6ee3-764eff77efaa/22UMGIM74970.rgb.jpg/600x600bb.jpg",
+      "album": "Songs and Dances of Death (Dmitri Hvorostovsky – The Philips Recitals, Vol. 5)",
+      "artist": "Dmitri Hvorostovsky, Mariinsky Orchestra & Valery Gergiev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:25:43.337Z"
+    },
+    "Vocal|81|3.87173|23.54328|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Levine Pique Dame ,": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/35/40/12/35401265-92c0-0566-0879-142ac2c8f54f/00028942395923.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Eugen Onegin",
+      "artist": "James Levine & Staatskapelle Dresden",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:26:06.787Z"
+    },
+    "Vocal|81|18.54822|23.66535|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Khaikine Iolanta ,": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/c9/14/76/c914764d-f651-5bb3-89e2-043896874d83/3770003441328_cover.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Eugène Onéguine (Les indispensables de Diapason)",
+      "artist": "Galina Vichnievskaia, Evgueni Belov, Serguei Lemechev, Chœur et Orchestre du Bolchoï & Boris Khaikine",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:26:10.819Z"
+    },
+    "Vocal|81|33.19677|23.54328|Solti The Snow Maiden ,": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/19/d0/ca/19d0ca6b-7d4a-b6b6-6a7a-a7cc44ab2a63/00028941741325.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Eugene Onegin",
+      "artist": "Bernd Weikl, Teresa Kubiak, Sir Georg Solti & Stuart Burrows",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:26:15.172Z"
+    },
+    "Vocal|81|4.04259|48.92315|opera  Op.68 Pique Dame , Rostropovich Liturgy of St.John": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/e3/ad/f6e3ad49-fb66-bd1a-efd3-f0570ece5e5e/00028946367926.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Queen of Spades (Pique Dame) [3 CDs]",
+      "artist": "Orchestre National de France & Mstislav Rostropovich",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:26:18.805Z"
+    },
+    "Vocal|81|18.79284|48.94096|opera  Op.69 Iolanta , Villaume 9 Sacred pieces": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/28/7e/5a287ef4-d9b4-2570-88e4-417f06b8a4b5/00028947939740.rgb.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: Iolanta (Live at Philharmonie Essen, 2012)",
+      "artist": "Anna Netrebko, Sergey Skorokhodov, Alexey Markov, Vitalij Kowaljow, Slovenian Philharmonic Orchestra & Emmanuel Villaume",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:26:23.913Z"
+    },
+    "vocal-pdf-v1-81-333-457": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/36/df/3436df77-d819-e721-76fe-1135ddf3d2c3/cover.jpg/600x600bb.jpg",
+      "album": "Tchaikovsky: The Snow Maiden Sneguročka",
+      "artist": "Andrey Chistiakov, Russian State Chorus, Russian State Orchestra, Nikolai Vassiliev, Natalia Erassova & Alexander Archipov",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:26:28.280Z"
+    },
+    "Vocal|81|4.03809|74.16831|Chrysostom Op.41 Liturgy of St.John Kalva": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/302db9f4c60d3d9d9d9e7deabbf698e9/1000x1000-000000-80-0-0.jpg",
+      "album": "Tchaikovsky: Liturgy of St. John Chrysostom, Op. 41, TH 75 (Excerpts) & 9 Sacred Pieces, TH 78",
+      "artist": "Latvian Radio Choir",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:26:40.393Z"
+    },
+    "Vocal|81|33.11768|74.15516|Op.6 No.6 None But the Lonely ms.Borodina": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/0e6dc46a4622a98d2cfea457a825822e/1000x1000-000000-80-0-0.jpg",
+      "album": "None But The Lonely Heart: Tchaikovsky Romances",
+      "artist": "Olga Borodina",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:27:00.372Z"
+    },
+    "Vocal|81|53.96938|23.54328|The Bells Op.35 Sergei Rachmaninov Jansons Vespers Op.37": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f5/27/f5/f527f5a2-bf2d-b8de-e43e-915c6c46d263/4035719001549.jpg/600x600bb.jpg",
+      "album": "Rachmaninoff: The Bells & Symphonic Dances",
+      "artist": "Chor und Symphonieorchester des Bayerischen Rundfunks & Mariss Jansons",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:27:04.124Z"
+    },
+    "Vocal|81|68.40422|23.53514|Sergei Rachmaninov Pletnev": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/793abe3ea90e9c8b7824d02c83586992/1000x1000-000000-80-0-0.jpg",
+      "album": "Rachmaninov: The Bells / Taneyev: John of Damascus",
+      "artist": "Russian National Orchestra",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:27:10.964Z"
+    },
+    "Vocal|81|83.16611|23.54328|Aleko  opera N.Jarvi Liturgy of St.John": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/78/91/a2789112-cebb-9bf4-375e-6bc39ac76d8e/00028945345321.rgb.jpg/600x600bb.jpg",
+      "album": "Rachmaninov: Aleko",
+      "artist": "Gothenburg Symphony Orchestra & Neeme Järvi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:27:15.822Z"
+    },
+    "Vocal|81|54.14025|48.9491|Vespers Op.37 Jansons Best 6 Songs Op.4": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/72/d5/f5/72d5f5c0-4fc7-9601-8ea5-4c52eac3c3dd/23UMGIM68925.rgb.jpg/600x600bb.jpg",
+      "album": "Rachmaninoff: Vespers (All-Night Vigil)",
+      "artist": "Corydon Singers & Matthew Best",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:27:18.954Z"
+    },
+    "Vocal|81|83.21276|48.81834|Chrysostom Op.31 Liturgy of St.John Best": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ae/46/46/ae464649-2be1-e495-ab1e-e7e92cf2db37/23UMGIM97375.rgb.jpg/600x600bb.jpg",
+      "album": "Rachmaninoff: The Divine Liturgy of St John Chrysostom",
+      "artist": "Corydon Singers & Matthew Best",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:27:33.413Z"
+    },
+    "vocal-pdf-v1-81-540-741": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/afe66bd8f6d49de4d11185fb3b9910fc/1000x1000-000000-80-0-0.jpg",
+      "album": "Goldins: Jewish Folk Songs - Rachmaninov: Romantic Songs",
+      "artist": "Inessa Galante",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:27:42.258Z"
+    },
+    "vocal-pdf-v1-81-827-740": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ba/89/f6/ba89f620-2694-f983-7b11-262bda423494/23UMGIM66419.rgb.jpg/600x600bb.jpg",
+      "album": "Kathleen Battle at Carnegie Hall (Kathleen Battle Edition, Vol. 7)",
+      "artist": "Kathleen Battle & Margo Garrett",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:27:55.632Z"
+    },
+    "Vocal|82|4.79569|15.2306|Grechaninov Strastnaya Sed 㐴mista Op.58": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/ed/5b/c4ed5bf2-5449-8c36-8f4f-5796baad9117/5059864504433.png/600x600bb.jpg",
+      "album": "Grechaninov: Passion Week",
+      "artist": "Phoenix Bach Choir, Kansas City Chorale, Charles Bruffy, Caroline Markham, Paul Davidson & Bryan Taylor",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:00.123Z"
+    },
+    "Vocal|82|4.79569|41.13392|Bruffy Strastnaya Sed 㐴mista Op.58 Grechaninov All ㎿Night Vigil Op.59": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f0/6e/33/f06e33c6-01ef-b435-750e-cd2d0e805627/23UMGIM97129.rgb.jpg/600x600bb.jpg",
+      "album": "Grechaninov: Vespers (All-Night Vigil)",
+      "artist": "Holst Singers & Stephen Layton",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:03.406Z"
+    },
+    "Vocal|82|4.79569|66.95028|Layton All ㎿Night Vigil Op.59 Grechaninov Praise the Lord": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/d1/25/f4d125a9-6f8a-773b-58e8-64a3cb8f2018/5059864969836.png/600x600bb.jpg",
+      "album": "Grechaninov: Symphony No. 3 & Kvalite Boga",
+      "artist": "Valery Polyansky, Russian State Symphony Orchestra, Ludmila Kuznetsova & State Symphony Capella of Russia",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:07.528Z"
+    },
+    "Vocal|82|29.43543|15.2306|Bortnyansky Sacred Concerto No.3": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/fb/44/a7fb446f-2af8-0a8f-ce96-bb19959781e7/5059864972935.png/600x600bb.jpg",
+      "album": "Bortnyansky: Sacred Concertos, Vol. 1",
+      "artist": "State Symphony Capella of Russia & Valery Polyansky",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:11.158Z"
+    },
+    "Vocal|82|29.50272|41.13392|Polyansky Sacred Concerto No.3 Taneyev John of Damaskus Op.1": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/a8/eb/f6a8eb35-8909-442c-ba15-ea21ba4940c8/00028947102922.rgb.jpg/600x600bb.jpg",
+      "album": "Rachmaninoff: The Bells & Taneyev: John of Damascus",
+      "artist": "Russian National Orchestra & Mikhail Pletnev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:14.796Z"
+    },
+    "Vocal|82|29.55072|67.03724|Pletnev John of Damaskus Op.1 Taneyev 12 Chorus Op.27": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/d3/18/f2/d318f242-b34a-c7e2-3dfd-c0c100f69605/4010276026884.jpg/600x600bb.jpg",
+      "album": "Russia",
+      "artist": "Marcus Creed & SWR Vokalensemble Stuttgart",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:17.766Z"
+    },
+    "Vocal|82|54.69826|41.13392|Borodina userdnaya Op.43/6 Chesnokov To the Most Holy….Op.43": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/85/dd/45/85dd45fc-5daa-4b00-b0b5-a1a6d1b54c90/5059864528736.png/600x600bb.jpg",
+      "album": "More Honourable than the Cherubim",
+      "artist": "PaTRAM Institute Male Choir, Vladimir Gorbik & Mikhail Davydov",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:40.668Z"
+    },
+    "Vocal|82|78.97022|15.36081|Chesnokov Spaseniye sodelal Op.25/1": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5d/29/00/5d2900ea-f36c-c372-d3d3-8ee1cbe7c667/730099530118.png/600x600bb.jpg",
+      "album": "Chesnokov: Spaseniye sodelal (Salvation is Created) - Single",
+      "artist": "St John's Voices, Cambridge University Chamber Choir & Graham Walker",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:28:51.673Z"
+    },
+    "Vocal|82|79.08377|41.13392|Walker Spaseniye sodelal Op.25/1 Kalinnikov Radiant Light": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/492abafba217141a787394859da8a323/1000x1000-000000-80-0-0.jpg",
+      "album": "Ikon, Vol. 1: Sacred Choral Music from Russia & Eastern Europe",
+      "artist": "Holst Singers",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:29:02.489Z"
+    },
+    "Vocal|83|4.63678|15.2306|Shostakovich opera Lady Macbeth of the Mts…": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/0a/c6/810ac6f4-9066-86cd-38b5-fbd227f0c321/00028943751124.rgb.jpg/600x600bb.jpg",
+      "album": "Shostakovich: Lady Macbeth of Mtsensk District",
+      "artist": "Paris Opera Orchestra & Myung-whun Chung",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:29:06.113Z"
+    },
+    "vocal-pdf-v1-83-46-410": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/f0be10f955ada5d1b59861841c865f39/1000x1000-000000-80-0-0.jpg",
+      "album": "Shostakovich: Moscow-Cheryomushki",
+      "artist": "Dmitri Shostakovich",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:29:22.067Z"
+    },
+    "Vocal|83|4.66817|67.17559|Rozhdestvensky Moskva,Cheremushki Shostakovich cantata Stepan Razin Op.119": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/35/b1/8b/35b18b59-5b00-be95-c9ad-0b75669f5c3c/825646166602.jpg/600x600bb.jpg",
+      "album": "Shostakovich: Cantatas \"Song of the Forests\"",
+      "artist": "Paavo Järvi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:29:25.579Z"
+    },
+    "Vocal|83|54.06144|15.2306|Prokofiev cantata Alexander Nevsky Op.78": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/70/af/1f70af76-9ac7-c3cb-5115-198e094a624b/00028944741926.rgb.jpg/600x600bb.jpg",
+      "album": "Prokofiev: Alexander Nevsky; Scythian Suite; Lieutenant Kijé",
+      "artist": "Chicago Symphony Orchestra, Elena Obraztsova, Claudio Abbado & London Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:29:46.487Z"
+    },
+    "Vocal|83|54.1786|41.13392|Abbado Alexander Nevsky Op.78 Prokofiev Ivan yhe Terrible Op.116": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/5d474a49c1a684847718c6d2e90b968f/1000x1000-000000-80-0-0.jpg",
+      "album": "Prokofiev: Ivan the Terrible & Ballad of an Unknown Boy",
+      "artist": "Sergei Prokofiev",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:29:56.877Z"
+    },
+    "Vocal|83|53.7983|67.09189|Polyansky Ivan yhe Terrible Op.116 Prokofiev opera Gambler": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/fe/7c/5afe7c1c-633c-89fc-a7bb-d4eda25aaccc/00028945455921.rgb.jpg/600x600bb.jpg",
+      "album": "Prokofiev: The Gambler",
+      "artist": "Sergei Alexashkin, Ljuba Kazarnovskaya, Chorus of the Kirov Opera, St. Petersburg, Orchestra of the Kirov Opera, St. Petersburg & Valery Gergiev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:30:00.284Z"
+    },
+    "Vocal|83|78.76473|15.2306|Prokofiev opera War and Peace": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5a/f0/92/5af0929e-0eb6-69fd-679f-cadd01c5267c/00028943409728.rgb.jpg/600x600bb.jpg",
+      "album": "Prokofiev: War and Peace",
+      "artist": "Chorus of the Kirov Opera, St. Petersburg, Orchestra of the Kirov Opera, St. Petersburg & Valery Gergiev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:30:04.467Z"
+    },
+    "Vocal|84|4.46253|15.2306|Stravinsky opera Oedipus Rex": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/af/47/21/dj.agnhrofy.jpg/600x600bb.jpg",
+      "album": "Stravinsky: Oedipus Rex",
+      "artist": "Esa-Pekka Salonen, Anne Sofie von Otter, Swedish Radio Chorus & Swedish Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:31:37.325Z"
+    },
+    "Vocal|84|4.41693|41.13392|Salonen Oedipus Rex Stravinsky opera The Lake 㐴s Progress": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/be/f7/92bef777-434d-9a95-d91c-94023148280e/06UMGIM07502.rgb.jpg/600x600bb.jpg",
+      "album": "Stravinsky: The Rake's Progress",
+      "artist": "London Symphony Orchestra, Anne Sofie von Otter, Bryn Terfel, John Eliot Gardiner & Ian Bostridge",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:31:40.457Z"
+    },
+    "vocal-pdf-v1-84-299-151": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/d1/6d/37d16d64-6aa5-a33d-f94f-d456e4021f5b/190296706271.jpg/600x600bb.jpg",
+      "album": "Stravinsky: L'histoire du soldat & Renard",
+      "artist": "Charles Dutoit",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:31:52.767Z"
+    },
+    "Vocal|84|29.8854|41.13392|Dutoit The Soldier 㐴s Tale Stravinsky Messe": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f4/d8/fa/f4d8fa69-6497-2bbc-eab2-81245ea1588b/3149020191316.png/600x600bb.jpg",
+      "album": "Stravinsky: Les Noces",
+      "artist": "RIAS Kammerchor, MusikFabrik & Daniel Reuss",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:31:56.065Z"
+    },
+    "Vocal|84|29.73708|67.03724|Reuss Messe Weinberg opera The Passenger": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/19/ac/5a19acaa-d5d7-2d93-6f70-ecc1e5eeca2e/845221054551.jpg/600x600bb.jpg",
+      "album": "Weinberg: The Passenger, Op. 97",
+      "artist": "Dshamilja Kaiser, Nadja Stefanoff, Will Hartmann, Markus Butter, Grazer Philharmoniker & Roland Kluttig",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:31:59.469Z"
+    },
+    "Vocal|84|54.0029|15.2306|Schnittke Choir Concerto": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/ca8ebfe2e31ba7b54539d7aaad0c431d/1000x1000-000000-80-0-0.jpg",
+      "album": "Schnittke & Pärt: Choral Works (2)",
+      "artist": "Estonian Philharmonic Chamber Choir",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:32:20.991Z"
+    },
+    "Vocal|84|53.84959|41.13392|Putnins Choir Concerto Schnittke Requiem": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/19f8e954d832de08b186f9d7518aaa1b/1000x1000-000000-80-0-0.jpg",
+      "album": "Schnittke: Symphony No. 4 / Requiem",
+      "artist": "Uppsala Academic Chamber Choir",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:32:29.431Z"
+    },
+    "Vocal|84|53.92864|68.87643|Kamu Requiem Schnittke Faust Cantata": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/5e840cf38a1f99edc2d987fe4ac09ff6/1000x1000-000000-80-0-0.jpg",
+      "album": "Schnittke: Faust Cantata",
+      "artist": "James Depreist",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:32:36.964Z"
+    },
+    "vocal-pdf-v1-84-791-146": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/d5/02/65d5024f-b310-fa3d-36e5-5943eddfda1c/5414939981623_cover.jpg/600x600bb.jpg",
+      "album": "Schnittke: Penitential Psalms",
+      "artist": "RIAS Kammerchor & Hans-Christoph Rademann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:32:41.150Z"
+    },
+    "Vocal|85|5.15197|15.17595|Martynov The Beatitudes": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/47/8c/b0/478cb0cd-b9a1-bf19-e012-5911bad5d84a/0093046752668.jpg/600x600bb.jpg",
+      "album": "The Sacred Spirit of Russia",
+      "artist": "Conspirare & Craig Hella Johnson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:32:45.286Z"
+    },
+    "Vocal|85|5.04302|41.14206|Conspirare The Beatitudes Martynov The Beatitudes": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/cf/27/9e/cf279ebd-d91a-f857-ff0e-be282e982088/859715688269_cover.jpg/600x600bb.jpg",
+      "album": "Passionslieder",
+      "artist": "Vladimir Martynov & Tatiana Grindenko",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:32:49.104Z"
+    },
+    "Vocal|85|5.08184|68.88457|Grindenko The Beatitudes Martynov Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/17/59/dd175930-a1b0-0134-6c17-b31f37e2e898/mzi.jzzmtgzn.jpg/600x600bb.jpg",
+      "album": "Martynov: Stabat Mater - Requiem",
+      "artist": "Ensemble Opus Posthumus & Tatiana Grindenko",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:32:52.542Z"
+    },
+    "Vocal|85|29.24165|15.20215|Alfeyev St. Matthew Passion": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/60/d0/a4/60d0a42b-ba52-fc95-a074-5196c4edceb4/cover.jpg/600x600bb.jpg",
+      "album": "Metropolitan Hilarion Alfeyev: St. Matthew Passion",
+      "artist": "Moscow Synodal Choir, Vladimir Fedoseyev, Tchaikovsky Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:32:55.475Z"
+    },
+    "Vocal|85|29.28095|41.99896|Fedoseyev St. Matthew Passion Alfeyev St. Matthew Passion": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a1/b1/1f/a1b11f6f-899b-5ca0-9eb3-f3fef2dd2943/cover.jpg/600x600bb.jpg",
+      "album": "Митрополит Иларион: Страсти по Матфею (Английская версия)",
+      "artist": "Metropolitan Hilarion Alfeyev, Moscow Synodal Choir & Russian National Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:32:58.779Z"
+    },
+    "Vocal|85|29.30096|68.82196|Alfeyev St. Matthew Passion Alfeyev Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/31/a7/d7/31a7d7dc-3333-81ef-dc7f-2f78cb888e74/cover.jpg/600x600bb.jpg",
+      "album": "Metropolitan Hilarion Alfeyev: Stabat Mater, A Song of Ascents & Christmas Oratorio",
+      "artist": "Hibla Gerzmava, Vladimir Spivakov & Nikolai Didenko",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:33:01.945Z"
+    },
+    "Vocal|85|54.55123|15.20215|Alfeyev De Profundis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/0a/e9/930ae929-28d6-0466-9a87-afe80cce2a77/8720604704860_cover.jpg/600x600bb.jpg",
+      "album": "DE PROFUNDIS - Compositions for orchestra and choir",
+      "artist": "Moscow Synodal Choir, Russian National Orchestra & Metropolitan Hilarion Alfeyev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:33:05.195Z"
+    },
+    "Vocal|85|54.65068|68.84798|Puzakov The Divine Liturgy Alfeyev Liturgy No.2": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/27/fc/49/27fc4993-2ce2-e1e3-78e1-81946ecd9207/cover.jpg/600x600bb.jpg",
+      "album": "Metropolitan Hilarion Alfeyev: Liturgical Chants",
+      "artist": "Masters of Choral Singing & Lev Kontorovich",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:33:24.178Z"
+    },
+    "Vocal|85|79.44337|15.14047|Gubaidulina Sieben Worte": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/c14125deb204a3105f2d5a644086f179/1000x1000-000000-80-0-0.jpg",
+      "album": "Gubaidulina: '...The Deceitful Face of Hope and Despair' / Sieben Worte",
+      "artist": "Gothenburg Symphony Orchestra",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:33:35.089Z"
+    },
+    "Vocal|86|4.9516|15.2306|Kancheli Lament": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c9/9f/4c/c99f4c65-1903-9fe5-0fc2-511908b6ab42/00028946513828.rgb.jpg/600x600bb.jpg",
+      "album": "Giya Kancheli: Lament",
+      "artist": "Gidon Kremer, Jansug Kakhidze, Maacha Deubner & Tbilisi Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:33:46.216Z"
+    },
+    "Vocal|86|54.3063|15.2306|Harkavyy Kyrie": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/32/24/c63224bf-d35a-4332-7d3d-a86ff5b3622c/00028947612414.rgb.jpg/600x600bb.jpg",
+      "album": "Trio Mediaeval: Soir, dit-elle",
+      "artist": "Trio Mediæval",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:05.132Z"
+    },
+    "Vocal|86|4.991|41.10819|Kremer Lament Kancheli Abii ne viderem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1f/0b/36/1f0b3637-9aa7-5f77-ad23-6f1aa6ecc7a7/00028944594126.rgb.jpg/600x600bb.jpg",
+      "album": "Kancheli: Abii Ne Viderem",
+      "artist": "Dennis Russell Davies, Kim Kashkashian, Giya Kancheli, Hilliard Ensemble & Stuttgart Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:07.950Z"
+    },
+    "Vocal|86|4.991|67.03724|Hilliard Ensemble Abii ne viderem Kancheli Styx": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c8/ce/79/c8ce79a8-6d3a-e56a-2196-904696efb469/00028947149422.rgb.jpg/600x600bb.jpg",
+      "album": "Kancheli: Styx and Gubaidulina: Viola Concerto",
+      "artist": "Yuri Bashmet, Mariinsky Orchestra & Valery Gergiev",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:10.783Z"
+    },
+    "Vocal|87|4.01916|23.54845|Te Deum Arvo Part Kaljuste Passio": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f8/3f/6c/f83f6cc8-464d-aa60-bc55-dc4ebb999c48/00028943916226.rgb.jpg/600x600bb.jpg",
+      "album": "Pärt: Te Deum",
+      "artist": "Tõnu Kaljuste, Estonian Philharmonic Chamber Choir & Tallinn Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:13.988Z"
+    },
+    "vocal-pdf-v1-87-185-234": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/a8/ed/9aa8ed48-dbef-4ffc-bfd1-4a69c4db29d2/00042283195929.rgb.jpg/600x600bb.jpg",
+      "album": "Pärt: Arbos",
+      "artist": "Dennis Russell Davies, Gidon Kremer, Hilliard Ensemble, Staatsorchester Stuttgart, The Brass Ensemble, Thomas Demenga & Vladimir Mendelssohn",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:17.388Z"
+    },
+    "Vocal|87|33.31384|23.53514|Ross Berliner Messe": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4c/62/1f/4c621fae-ee15-452a-0269-a6a3f82b1015/3149020940594_cover.jpg/600x600bb.jpg",
+      "album": "Arvo Pärt: Stabat",
+      "artist": "Choir of Clare College, Cambridge, Dmitri Ensemble & Graham Ross",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:20.592Z"
+    },
+    "Vocal|87|3.92056|48.81075|Passio Kaljuste Hilliard Ensemble": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/81/a4/e4/81a4e49d-ca66-b22b-8878-e6120aa5a9d0/00042283710924.rgb.jpg/600x600bb.jpg",
+      "album": "Pärt: Passio Domini Nostri Jesu Christi Secundum Joannem",
+      "artist": "Hilliard Ensemble & Paul Hillier",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:23.346Z"
+    },
+    "Vocal|87|18.27282|48.54199|Triodion Hilliard Ensemble De Profundis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/74/8f/51/748f5183-192b-ba4e-f26a-554b34e417e4/mzi.psnxawgg.jpg/600x600bb.jpg",
+      "album": "Pärt: Music for Unaccompanied Choir",
+      "artist": "Elora Festival Singers & Noel Edison",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:26.413Z"
+    },
+    "Vocal|87|33.23742|48.79474|Berliner Messe Ross Kaljuste": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f8/3f/6c/f83f6cc8-464d-aa60-bc55-dc4ebb999c48/00028943916226.rgb.jpg/600x600bb.jpg",
+      "album": "Pärt: Te Deum",
+      "artist": "Tõnu Kaljuste, Estonian Philharmonic Chamber Choir & Tallinn Chamber Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:29.249Z"
+    },
+    "Vocal|87|4.03809|74.14227|Da Pacem Domine Hilliard Ensemble Hillier": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/3f/4a/613f4a49-e44b-6bfe-ccc4-1216e45c301a/0093046740122.jpg/600x600bb.jpg",
+      "album": "Arvo Pärt: Da pacem",
+      "artist": "Estonian Philharmonic Chamber Choir & Paul Hillier",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:34:32.848Z"
+    },
+    "Vocal|87|18.48239|74.11535|De Profundis Edison Hilliard Ensemble": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/4aefa9bf7d624d33587c0315946a911d/1000x1000-000000-80-0-0.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-08T22:35:15.503Z"
+    },
+    "vocal-pdf-v1-87-544-151": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/41/bf/8c/41bf8c8c-8cae-f520-3f1f-da178198745e/4014513028327_1448.jpg/600x600bb.jpg",
+      "album": "Sisask: Jõuluoratoorium (Weihnachtsoratorium), Missa No. 4 Jõulumissa (Weihnachtsmesse)",
+      "artist": "Academic Male Choir of Tallinn Technical University, Siim Selis, Madis Kareda & Juri Rent",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:35:28.030Z"
+    },
+    "Vocal|87|79.12933|15.1525|Tuur Salve Regina": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/f72b1e0b5f0c6d35d46d13bd750479bd/1000x1000-000000-80-0-0.jpg",
+      "album": "Erkki-Sven Tüür: Oxymoron",
+      "artist": "Erkki-Sven Tüür",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:35:39.666Z"
+    },
+    "Vocal|87|54.49618|41.13392|Selis Christmas Oratorio Sisask Te Deum Op.37": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/1d/54/b21d545f-f885-7548-bc4c-3ec5f7a11d21/rls00115600.jpg/600x600bb.jpg",
+      "album": "Urmas Sisask: Te Deum, Op. 37 - EP",
+      "artist": "Ave Sopp, Pärnu Chamber Choir & Pärnu City Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:35:43.239Z"
+    },
+    "Vocal|87|79.09017|41.13392|Elts Salve Regina Tormis Tasase Maa Laul": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4f/c9/c1/4fc9c160-4dcb-8ad1-d3d3-5365d1ab2d9f/00028948123063.rgb.jpg/600x600bb.jpg",
+      "album": "Tõnu Kõrvits: Mirror",
+      "artist": "Anja Lechner, Kadri Voorand, Tõnu Kaljuste, Tallinn Chamber Orchestra & Estonian Philharmonic Chamber Choir",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:35:51.479Z"
+    },
+    "Vocal|87|54.51564|67.01113|Sopp Te Deum Op.37 Tuur Randaja ohtulaul": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/77/0b/2f/770b2fe3-0e0e-2d39-24fd-b691ce40d40a/3760014199172.png/600x600bb.jpg",
+      "album": "Tüür: Canticum Canticorum Caritatis",
+      "artist": "Collegium Musicale Chamber Choir & Endrik Üksvärav",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:35:54.448Z"
+    },
+    "Vocal|87|79.12933|67.03724|Kaljuste Tasase Maa Laul Tormis Helletused": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/bba7ec7396b58c125865251c2609d83e/1000x1000-000000-80-0-0.jpg",
+      "album": "Tormis: Curse Upon Iron - Works for male choir",
+      "artist": "Orphei Drängar",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:36:01.752Z"
+    },
+    "Vocal|88|4.65335|15.23597|Tulev Songs": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/03/93/7d03933f-deac-c34e-d710-d724d8a18a08/5414939991691_cover.jpg/600x600bb.jpg",
+      "album": "Toivo Tulev: Songs",
+      "artist": "Estonian Philharmonic Chamber Choir, Tallinn Chamber Orchestra, Paul Hillier & Robin Blaze",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:04.735Z"
+    },
+    "Vocal|88|4.61395|41.13929|Hillier Songs Tulev Tanto gentile": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/06/4d/0f/064d0f13-3465-21e9-2c8c-f38f82664083/747313373574.jpg/600x600bb.jpg",
+      "album": "Tulev: Magnificat",
+      "artist": "Kaspars Putniņš & Latvian Radio Choir",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:07.938Z"
+    },
+    "Vocal|88|4.36353|67.03724|Putnins Tanto gentile Tamberg opera Cyrano de Bergerac": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1a/5d/b3/1a5db322-e698-0de4-5e16-bf5848ba6744/761203983223.jpg/600x600bb.jpg",
+      "album": "Tamberg: Cyrano de Bergerac, Op. 45",
+      "artist": "Sauli Tiilikainen, Mia Huhta, Mati Körts, Jassi Zahharov, Riina Airenne, Orchestra of the Estonian National Opera & Paul Magi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:10.806Z"
+    },
+    "Vocal|88|29.59463|41.13392|Hillier Dona nobis pacem Vasks Pater noster": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/54/2d/fb/mzi.mqudzhps.jpg/600x600bb.jpg",
+      "album": "Vasks: Pater Noster, Dona Nobis Pacem, Mass",
+      "artist": "Latvian Radio Choir, Sigvards Kļava & Sinfonietta Rīga",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:23.617Z"
+    },
+    "Vocal|88|29.59463|67.03724|Klava Pater noster Vasks Silent Songs": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/52/d0/47/mzi.unfibgej.jpg/600x600bb.jpg",
+      "album": "Vasks: Plainscapes",
+      "artist": "Sigvards Kļava, Latvian Radio Choir, Guna Aboltina, Sandis Šteinbergs & Janis Kokins",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:26.566Z"
+    },
+    "Vocal|88|54.49697|15.2306|Vasks Mein Herr und mein Gott": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5b/c7/43/5bc74324-9db9-393b-10da-972a113a35a6/0761195130223.jpg/600x600bb.jpg",
+      "album": "Vasks: Laudate Dominum",
+      "artist": "Latvian Radio Choir, Sinfonietta Rīga & Sigvards Kļava",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:30.129Z"
+    },
+    "Vocal|88|54.49697|41.13392|Klava Mein Herr und mein Gott Vasks Da Pacem, Domino": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5b/c7/43/5bc74324-9db9-393b-10da-972a113a35a6/0761195130223.jpg/600x600bb.jpg",
+      "album": "Vasks: Laudate Dominum",
+      "artist": "Latvian Radio Choir, Sinfonietta Rīga & Sigvards Kļava",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:33.201Z"
+    },
+    "Vocal|88|79.49697|15.2306|Kozlowski Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/91/c7/7991c76f-ee69-1073-4b52-bec96ea844aa/8720929571253_cover.jpg/600x600bb.jpg",
+      "album": "Józef Kozłowski: Requiem",
+      "artist": "Singapore Symphony Orchestra, Singapore Symphony Chorus & Youth Choir, Hans Graf, Olga Peretyatko, Olesya Petrova, Boris Stepanov & Christoph Seidl",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:36:36.139Z"
+    },
+    "Vocal|89|4.96303|41.05628|s.Kringelborn/P.Jarvi Luonnotar Sibelius Oma maa Op.92": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/60/e1/2f/60e12f27-13a9-6931-9d9f-84ea34962488/0724354558955_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Sibelius:Cantatas",
+      "artist": "Paavo Järvi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:37:08.063Z"
+    },
+    "Vocal|89|4.93166|67.03724|P.Jarvi Oma maa Op.92 Sibelius  Tweifth Night Op.60/1 Kom nu hit…": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/10/c1/ac/10c1acb2-0e33-bef0-e428-00ad05420e12/5059864517839.png/600x600bb.jpg",
+      "album": "In the Stream of Life - Songs by Sibelius",
+      "artist": "Gerald Finley, Edward Gardner & Bergen Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:37:11.246Z"
+    },
+    "Vocal|89|28.97593|15.2306|Sibelius  6 Songs Op.50/3 Im Feld ein Madchen…": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/46c1d899118aa0f5e0b20256926a4583/1000x1000-000000-80-0-0.jpg",
+      "album": "Sibelius: Songs, Op. 13, 50, 90, and Others",
+      "artist": "Anne Sofie von Otter",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:37:20.489Z"
+    },
+    "Vocal|89|29.18821|41.13392|ms.Otter/p.Forsberg Im Feld ein Madchen… Sibelius  5 Songs Op.37/4 Var det en drom": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/94/9e/ef/mzi.rwftjwxe.jpg/600x600bb.jpg",
+      "album": "Sibelius: Orchestral Songs",
+      "artist": "Soile Isokoski, Leif Segerstam & Helsinki Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:37:25.219Z"
+    },
+    "Vocal|89|53.55383|15.2306|Rautavaara Vigilia": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/cd2c4fed943fd47be02598f1ede53b36/1000x1000-000000-80-0-0.jpg",
+      "album": "Rautavaara: Vigilia",
+      "artist": "Helsinki Chamber Choir",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:37:44.216Z"
+    },
+    "Vocal|89|53.47407|41.13392|Schweckendiek Vigilia Rautavaara Missa a capella": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a3/ec/6e/a3ec6eb8-4332-615d-5fa5-de8e063925bd/761195122327.jpg/600x600bb.jpg",
+      "album": "Rautavaara: Missa a cappella - Sacred Choral Works",
+      "artist": "Sigvards Kļava",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:37:47.354Z"
+    },
+    "Vocal|89|78.9165|15.2306|Saariaho opera L 㐴Amour de loin": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/93/53/c5/mzi.amgamxkb.jpg/600x600bb.jpg",
+      "album": "Kaija Saariaho: L'Amour de Loin",
+      "artist": "Kent Nagano",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:06.128Z"
+    },
+    "Vocal|89|78.95725|41.13392|Nagano L 㐴Amour de loin Saariaho La Passion de Simone": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/32/a3/36/32a33618-2f9b-607b-16fb-5e6a2ce18524/761195121757.jpg/600x600bb.jpg",
+      "album": "Saariaho: La passion de Simone",
+      "artist": "Tapiola Chamber Choir, Esa-Pekka Salonen & Finnish Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:08.884Z"
+    },
+    "Vocal|89|78.95725|67.03724|Salonen La Passion de Simone M.Lindberg Accused": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ad/14/c7/ad14c712-992f-99a0-665c-06970dbb7d3b/761195134528.jpg/600x600bb.jpg",
+      "album": "Lindberg: Accused & Two Episodes",
+      "artist": "Anu Komsi, Finnish Radio Symphony Orchestra & Hannu Lintu",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:11.602Z"
+    },
+    "Vocal|90|4.58413|15.20457|Kraus Konigs Gustav III": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/05/02/22/050222fc-66ca-aca8-e9ef-7f8316d2b1f1/7392068204241.jpg/600x600bb.jpg",
+      "album": "Kraus: Arie e cantate",
+      "artist": "The Drottningholm Court Theatre Orchestra, Barbara Bonney, Thomas Schuback, Claes-Hakan Ahnsjo, Karin Jonsson-Hazell, Asa Akerberg & Olof Larsson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:14.517Z"
+    },
+    "Vocal|90|29.06461|15.0981|Alfven Vid sekelskifet Op.12": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/b0/68/71/b06871b5-4898-13ff-fc77-a1c498b8f519/7393338103622.jpg/600x600bb.jpg",
+      "album": "Alfvén: Cantatas",
+      "artist": "Lena Hoel, Karl-Magnus Fredriksson, Royal Philharmonic Choir of Stockholm, Gävle Symphony Orchestra & Stefan Parkman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:17.914Z"
+    },
+    "Vocal|90|29.08492|69.65768|N.Jarvi Sangen Op.44 Atterberg Aladin, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e1/e8/0b/e1e80b41-b6fd-fe32-04e0-76a070b446d1/761203516124.png/600x600bb.jpg",
+      "album": "Atterberg: Aladin, Op. 43",
+      "artist": "Staatsorchester Braunschweig, Chor des Staatstheaters Braunschweig, Jonas Alber, Michael Ha, Frank Blees, Solen Mainguené & Oleksandr Pushniak",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:31.281Z"
+    },
+    "Vocal|90|53.94448|15.29988|Martinsson Garden of Devotion Op.97": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ff/fa/18/fffa1807-4d50-e44c-42cf-0bd2ca56d920/608917275421.jpg/600x600bb.jpg",
+      "album": "Martinsson: Garden of Devotion",
+      "artist": "Lisa Larsson, Netherlands Chamber Orchestra & Gordan Nikolic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:34.265Z"
+    },
+    "Vocal|90|54.21289|42.44414|s.Larsson/Nikolic Garden of Devotion Op.97 Martinsson Orchestral Songs Op.82a": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/cd5106904e6a1bd0e9f1f1fe2979dc08/1000x1000-000000-80-0-0.jpg",
+      "album": "Martinsson: Presentiment",
+      "artist": "Royal Stockholm Philharmonic Orchestra",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:38:42.153Z"
+    },
+    "Vocal|90|54.51915|69.65768|s.Larsson/Oramo Orchestral Songs Op.82a Martinsson Ich denke Dein… Op.100": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/6c682e3b689130c3ba257cf6db51297f/1000x1000-000000-80-0-0.jpg",
+      "album": "Into Eternity",
+      "artist": "Lisa Larsson",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:38:47.705Z"
+    },
+    "Vocal|90|78.81681|15.17853|Sandstrom A Cradle Song": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/fb/e8/66/mzi.ktavfxaw.jpg/600x600bb.jpg",
+      "album": "Sandström: A Cradle Song & The Tyger",
+      "artist": "Eric Ericson Chamber Choir, Eric Ericson & Arne Lundmark",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:50.542Z"
+    },
+    "Vocal|90|78.81681|42.44414|Ericson A Cradle Song N.Lindberg Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/c9/e3/ba/mzi.njlgzkoc.jpg/600x600bb.jpg",
+      "album": "Lindberg: Requiem",
+      "artist": "Swedish Radio Choir, Nils Lindberg Big Band & Gustaf Sjökvist",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:53.894Z"
+    },
+    "Vocal|91|4.1017|16.27226|Grieg Mountain Maid Op.67": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/a4/23/dba423a7-54b5-29fd-f0b2-bb485c1684b3/00028943752121.rgb.jpg/600x600bb.jpg",
+      "album": "Grieg: Songs",
+      "artist": "Anne Sofie von Otter & Bengt Forsberg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:38:56.648Z"
+    },
+    "Vocal|91|4.17554|42.57435|ms.Otter Mountain Maid Op.67 Grieg Last Spring Op.33/2": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/02/ef/b4/02efb4df-bae4-2632-f9e2-9e30d7abe66c/00028946676226.rgb.jpg/600x600bb.jpg",
+      "album": "Barbara Bonney: Diamonds in the Snow",
+      "artist": "Barbara Bonney & Antonio Pappano",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:39:00.195Z"
+    },
+    "Vocal|91|4.15417|68.87643|s.Bonney Last Spring Op.33/2 Grieg  Peer Gynt : Solveig 㐴s Song": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5a/04/3c/5a043c8b-4f25-23fe-0ffb-cd74eceac48b/00028941103826.rgb.jpg/600x600bb.jpg",
+      "album": "Grieg: Peer Gynt (Incidental Music)",
+      "artist": "Edo de Waart, Elly Ameling, San Francisco Symphony Chorus & San Francisco Symphony",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:39:03.278Z"
+    },
+    "Vocal|91|54.10184|68.74623|Versto Helligkvad Op.19 Ratkje And Sing….": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/14/51/e2/1451e2f8-c5ba-2e6f-bbd7-7b677f6d291f/cover.jpg/600x600bb.jpg",
+      "album": "Maja S.K. Ratkje: And Sing ...",
+      "artist": "Oslo Sinfonietta, Maja S.K. Ratkje, Cikada & Christian Eggen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:39:59.833Z"
+    },
+    "Vocal|91|78.79954|16.40247|Arnesen Magnificat": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/be/264abe82-3daa-b54d-6753-7349edcff168/7041888519621.jpg/600x600bb.jpg",
+      "album": "Magnificat",
+      "artist": "Nidarosdomens Jentekor & TrondheimSolistene",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:02.801Z"
+    },
+    "Vocal|91|79.05761|42.57435|TrondheimSolistene Magnificat Arnesen Tuvayhun : Beatitudes": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/27/d7/e227d701-791e-eeed-1f93-13f6d3a6f910/7041888526520.jpg/600x600bb.jpg",
+      "album": "Arnesen: TUVAYHUN — Beatitudes for a Wounded World",
+      "artist": "Nidarosdomens Jentekor, TrondheimSolistene & Anita Brevik",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:05.739Z"
+    },
+    "Vocal|92|4.5175|16.40247|Gjeilo Sunrise Mass": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4f/3c/f4/4f3cf418-7dd5-8d6a-c806-b81f403fe92c/mzi.qqpmjnhb.jpg/600x600bb.jpg",
+      "album": "Gjeilo: Sunrise  Mass",
+      "artist": "Majorstua Kammerkor, Tore Erik Mohn & Ola Gjeilo",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:19.584Z"
+    },
+    "Vocal|92|29.18213|16.21106|Gjeilo Ubi Caritas": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/04/a2/02/04a20248-2252-b43c-f539-4554f063b31b/16UMGIM01268.rgb.jpg/600x600bb.jpg",
+      "album": "Ola Gjeilo",
+      "artist": "Ola Gjeilo",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:22.382Z"
+    },
+    "Vocal|92|4.5175|42.57435|Mohn Sunrise Mass Gjeilo Dark Night of the Soul": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/76/33/5d763391-5b2a-dd7c-5f7d-fca77cbe03cb/5059864510038.png/600x600bb.jpg",
+      "album": "Northern Lights: Choral Works by Ola Gjeilo",
+      "artist": "Phoenix Chorale & Charles Bruffy",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:24.948Z"
+    },
+    "Vocal|92|29.14319|42.57435|Smith Ubi Caritas Gjeilo Tundra": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/26/4a/be/264abe82-3daa-b54d-6753-7349edcff168/7041888519621.jpg/600x600bb.jpg",
+      "album": "Magnificat",
+      "artist": "Nidarosdomens Jentekor & TrondheimSolistene",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:27.502Z"
+    },
+    "Vocal|92|4.5175|68.66789|Bruffy Dark Night of the Soul Gjeilo The Road": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/c2/42/62c2424b-0906-4600-ad2b-4791b3b94313/23UMGIM81812.rgb.jpg/600x600bb.jpg",
+      "album": "Dreamweaver",
+      "artist": "Ola Gjeilo, The Choir of Royal Holloway, Royal Philharmonic Orchestra & Rupert Gough",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:30.205Z"
+    },
+    "Vocal|93|4.6051|16.27226|Gade Elverskud Op.30": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/6141be92b5f12bc626872731625d84ea/1000x1000-000000-80-0-0.jpg",
+      "album": "Gade: Elverskud, Echoes of Ossian & Five Songs",
+      "artist": "Niels Gade",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:40:36.673Z"
+    },
+    "Vocal|93|4.6051|42.31393|Kitajenko Elverskud Op.30 Gade Elverskud Op.30": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/2d/bc/61/mzi.dcwsvbva.jpg/600x600bb.jpg",
+      "album": "Gade: Elverskud Op. 30",
+      "artist": "Collegium Musicum, Canzone Vocal Ensemble, Frans Rasmussen, Edith Guillaume, Lisbeth Balslev & Mikael Melbye",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:43.357Z"
+    },
+    "Vocal|93|4.56133|68.3556|Rasmunssen Elverskud Op.30 Gade Kalanus Op.48": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/2c/e3/24/mzi.ijvqtwjn.jpg/600x600bb.jpg",
+      "album": "Gade: Kalanus Op. 48",
+      "artist": "Collegium Musicum, Canzone Vocal Ensemble & Frans Rasmussen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:46.830Z"
+    },
+    "Vocal|93|29.19816|16.24624|Tarp Te Deum Op.33": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/05e21ac8bc4bb8217b2c6346a406c955/1000x1000-000000-80-0-0.jpg",
+      "album": "Tarp, S.E.: Te Deum / Symphony No. 7",
+      "artist": "Various Artists",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:40:54.334Z"
+    },
+    "Vocal|93|29.31213|42.41811|Nelson Te Deum Op.33 Hoybye Hope. Easter Music": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b8/18/33/b818337a-348d-aaa4-25eb-d7c8a4a7b34b/23UM1IM51716.rgb.jpg/600x600bb.jpg",
+      "album": "John Høybye: Hope. Easter Music & Psalm 151",
+      "artist": "Ars Nova Copenhagen, Mads Haaber's Quartet & John Høybye",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:40:57.824Z"
+    },
+    "Vocal|93|29.19816|68.48581|Hoybye Hope. Easter Music Abrahamsen Let Me Tell You": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/40/ab/77/40ab77dd-e431-2890-d241-31bd273f59dc/025091023226.jpg/600x600bb.jpg",
+      "album": "Hans Abrahamsen: Let Me Tell You",
+      "artist": "Barbara Hannigan, Bavarian Radio Symphony Orchestra & Andris Nelsons",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:41:00.555Z"
+    },
+    "Vocal|93|54.24056|16.40247|Sorensen St. Mattew Passion": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/0554e716e2708bddebf7bee45c1cae7e/1000x1000-000000-80-0-0.jpg",
+      "album": "Bent Sørensen: St Matthew Passion",
+      "artist": "The Norwegian Soloists’ Choir",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:41:21.544Z"
+    },
+    "Vocal|93|54.27988|68.48581|Hillier Requiem Sorensen Sneklokker": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/72/18/fd/7218fda5-5ca0-da8d-3bdb-04bc4fd85af2/747313162963.jpg/600x600bb.jpg",
+      "album": "Bent Sørensen: Snowbells",
+      "artist": "Danish National Vocal Ensemble & Paul Hillier",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:41:36.975Z"
+    },
+    "Vocal|93|79.30277|42.44414|Leeuw Theatre of the World Andriessen Miror de peine": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0f/ad/0f/0fad0f5b-8768-4c28-b993-6d505c31be5a/5400439007642.png/600x600bb.jpg",
+      "album": "Andriessen: Miroir de peine - Berlioz: Symphonie fantastique",
+      "artist": "Philharmonie Zuidnederland, Dmitri Liss & Christianne Stotijn",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:41:53.138Z"
+    },
+    "Vocal|93|79.36083|68.48581|ms.Stotijn/Liss Miror de peine Tjornhoj enTmenschT:#lament": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/63/a6/6a63a6cb-221f-5b26-fd55-24efe742ae86/747313693924.png/600x600bb.jpg",
+      "album": "Line Tjørnhøj: enTmenschT",
+      "artist": "Theatre of Voices & Paul Hillier",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:41:56.624Z"
+    },
+    "Vocal|94|18.55198|23.54328|Sinopoli": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2b/1c/26/2b1c2691-1626-aec2-5884-8972014d3078/00028947103325.rgb.jpg/600x600bb.jpg",
+      "album": "Dvorák: Stabat Mater, Op. 58",
+      "artist": "Staatskapelle Dresden & Giuseppe Sinopoli",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:42:13.817Z"
+    },
+    "Vocal|94|33.28371|23.65836|Bestion ㏙ensmble Ver.㏚": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0c/e8/960ce884-0a53-1957-b506-64421bef09c0/3701624510544.png/600x600bb.jpg",
+      "album": "Scarlatti & Dvořák: Stabat Mater",
+      "artist": "La tempête & Simon-Pierre Bestion",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:42:17.152Z"
+    },
+    "Vocal|94|4.09568|48.81075|Requiem Op.89 Sawallish Sawallish Te Deum Op.93": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ae/df/2d/aedf2d06-17cf-3741-9170-216e9d94ccfb/cover.jpg/600x600bb.jpg",
+      "album": "Dvořák: Requiem",
+      "artist": "Various Artists",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:42:22.540Z"
+    },
+    "Vocal|94|33.26377|48.9491|Mass d minor Bestion ㏙ensmble Ver.㏚ Smetacek Gypsy Melodies Op.55": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/10/78/8f/10788f91-2125-0d22-6194-6717ed9a1eeb/cover.jpg/600x600bb.jpg",
+      "album": "Dvořák: Mass In D Major, Biblical Songs, Te Deum",
+      "artist": "Václav Smetáček & Prague Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:42:53.946Z"
+    },
+    "Vocal|94|4.11371|73.40155|Te Deum Op.93 Sawallish Belohlavek": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/31/e9/25/31e9254b-5bfc-3b7f-aed1-698c7606dbe5/20UMGIM01154.rgb.jpg/600x600bb.jpg",
+      "album": "Dvořák: Requiem, Biblical Songs, Te Deum",
+      "artist": "Czech Philharmonic, Jakub Hrůša, Jiří Bělohlávek, Prague Philharmonic Choir, Jan Martiník, Ailyn Pérez, Christianne Stotijn, Michael Spyres & Svatopluk Sem",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:42:56.751Z"
+    },
+    "Vocal|94|18.61111|73.45134|Rusalka opera  Op.114 Kubelik Mackerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4f/ca/8d/4fca8d80-2a58-0e14-a23d-c58bf6d8de1a/00028946056820.rgb.jpg/600x600bb.jpg",
+      "album": "Dvorak: Rusalka",
+      "artist": "Renée Fleming, Ben Heppner, Czech Philharmonic & Sir Charles Mackerras",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:00.153Z"
+    },
+    "Vocal|94|33.11968|73.65022|No.4 Songs my mother… Gypsy Melodies Op.55 s.Fink/p.Berner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/fe/b4/2f/mzi.kziasjkh.jpg/600x600bb.jpg",
+      "album": "Dvořák: Zigeunerlieder, Songs & Duets",
+      "artist": "Genia Kühmeier, Bernarda Fink & Christoph Berner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:03.190Z"
+    },
+    "Vocal|94|54.90019|17.03724|Rejcha Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/88/5b/97885ba7-db9e-badb-6a31-45183ef83cc8/cover.jpg/600x600bb.jpg",
+      "album": "Rejcha: Requiem",
+      "artist": "Prague Philharmonic Choir, Lubomir Matl, Dvorak Chamber Orchestra, Jaroslav Tvrzský, Ludek Vele, Anna Barová, Venceslava Hruba-Freiberger & Vladimír Doležal",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:08.376Z"
+    },
+    "Vocal|94|78.97582|17.03724|Kodaly Missa Brevis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/c1/34/d4/c134d461-739b-eb5d-3423-23f3b4b38829/190295345525.jpg/600x600bb.jpg",
+      "album": "Kodály: Missa brevis - Janáček: Mass in E-Flat & The Lord's Prayer",
+      "artist": "The Choir of King's College, Cambridge & Sir Stephen Cleobury",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:11.498Z"
+    },
+    "Vocal|94|78.95418|42.9487|Cleobury Missa Brevis Kodaly Psalmus Hungaricus": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/f7e64663e6f37f7db2d452f166e8fc6b/1000x1000-000000-80-0-0.jpg",
+      "album": "Janácek: Glagolitic Mass - Kodaly: Psalmus Hungaricus",
+      "artist": "Leoš Janáček",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:43:26.957Z"
+    },
+    "Vocal|94|54.86149|68.72598|Kosler The Bartered Bride Smetana opera The Bartered Bride": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/16/43/b8/1643b841-03a9-6056-438d-158a56a0fa34/3149020211922.jpg/600x600bb.jpg",
+      "album": "Bedřich Smetana: The Bartered Bride",
+      "artist": "BBC Symphony Orchestra & Jiří Bělohlávek",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:30.024Z"
+    },
+    "Vocal|94|78.87524|68.90564|Mackerras Psalmus Hungaricus Fibich opera Sarka": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e9/f5/45/e9f54563-e801-fbef-1cd0-16dbbb3e3101/cover.jpg/600x600bb.jpg",
+      "album": "Fibich: Šárka",
+      "artist": "Jaroslava Janska, Bozena Effenberkova, Jan Stych, Filharmonie Brno & Brno Janáček Opera Chorus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:33.178Z"
+    },
+    "Vocal|95|4.94592|15.2306|Janacek Jenufa, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fa/fd/95/fafd95fb-fb57-805d-36a4-0cb7fb89525f/00028941448323.rgb.jpg/600x600bb.jpg",
+      "album": "Janácek: Jenufa",
+      "artist": "Elisabeth Söderström, Eva Randová, Peter Dvorský, Sir Charles Mackerras, Vienna Philharmonic & Wieslaw Ochman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:36.396Z"
+    },
+    "Vocal|95|2.63695|37.86104|Jenufa, opera Janacek Mackerras": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f1/f6/50/f1f650df-c07f-223d-37a0-c9abd7335474/00028941712929.rgb.jpg/600x600bb.jpg",
+      "album": "Janácek: The Cunning Little Vixen",
+      "artist": "Dalibor Jedlicka, Lucia Popp, Sir Charles Mackerras & Vienna Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:39.368Z"
+    },
+    "Vocal|95|5.09161|67.03724|Mackerras The Cunning Little Vixen Janacek Osud, opera": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/a9b69d837b3f089c5d726358833533f4/1000x1000-000000-80-0-0.jpg",
+      "album": "Janáček: Osud (Fate)",
+      "artist": "Leoš Janáček",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:43:46.901Z"
+    },
+    "Vocal|95|29.80323|15.2306|Janacek Katya Kabanova, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/7f/b7/e77fb77f-3b21-a459-56db-8e8633097a08/0822231188964_cover.jpg/600x600bb.jpg",
+      "album": "Janáček: Katya Kabanova",
+      "artist": "Sir Simon Rattle, London Symphony Orchestra, Amanda Majeski, Simon O'Neill, Katarina Dalayman, Andrew Staples & Ladislav Elgr",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:43:50.202Z"
+    },
+    "Vocal|95|29.80323|41.13392|Rattle Katya Kabanova, opera Janacek Glagolitic Mass": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/8d33d07ef965e99150c7b9222f985d2b/1000x1000-000000-80-0-0.jpg",
+      "album": "Janáček: Glagolitic Mass",
+      "artist": "Various Artists",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:43:58.490Z"
+    },
+    "Vocal|95|29.80323|67.03724|Mackerras Glagolitic Mass Janacek Glagolitic Mass": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/77/63/dc/7763dccc-6135-1141-9e05-3804e8f1da5c/00028948340828.rgb.jpg/600x600bb.jpg",
+      "album": "Janáček: Glagolitic Mass; Taras Bulba; Sinfonietta; The Fiddler’s Child",
+      "artist": "Jiří Bělohlávek & Czech Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:44:01.527Z"
+    },
+    "Vocal|95|54.71017|15.2306|Hass opera Sarlatan": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/fb465e5b8b77ccfc330300bde21a913b/1000x1000-000000-80-0-0.jpg",
+      "album": "Haas: Sarlatan",
+      "artist": "Israel Yinon",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:44:10.850Z"
+    },
+    "Vocal|95|79.54993|15.2048|Tucapsky Polnice slavy": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6d/df/e9/6ddfe9ca-5695-4c59-9043-83340800b42b/cover.jpg/600x600bb.jpg",
+      "album": "Seidel: Polnice slávy",
+      "artist": "Antonín Tučapský & Moravian Teachers Choral Society",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:44:39.151Z"
+    },
+    "Vocal|96|4.95806|15.2306|Liszt  Die Legende von der Heiligen Elisabeth": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/41e47a2a1f107e112b7db0cdf8bd631d/1000x1000-000000-80-0-0.jpg",
+      "album": "Liszt: Legende Von Der Heiligen Elisabeth (Die)",
+      "artist": "János Ferencsik",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:44:51.731Z"
+    },
+    "Vocal|96|29.67434|15.2306|Liszt Missa Choralis": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/a7da66dc5984d6203914f45709be0a57/1000x1000-000000-80-0-0.jpg",
+      "album": "Liszt: Missa Choralis & Via Crucis",
+      "artist": "Corydon Singers",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:45:00.469Z"
+    },
+    "Vocal|96|54.4016|15.2306|Liszt Sonetti di Petrarca S.270": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5e/8b/5f/5e8b5f9c-129c-fe70-e3d0-942bae4b29ef/3149020940556_cover.jpg/600x600bb.jpg",
+      "album": "Lieder & Balladen",
+      "artist": "Stéphane Degout & Simon Lepper",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:03.591Z"
+    },
+    "Vocal|96|4.95806|41.52455|Frrencsik der Heiligen Elisabeth Liszt Christus": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/9e/74/f0/9e74f0b8-a895-de51-be17-e9568ac0ae77/0760623136660_1448.jpg/600x600bb.jpg",
+      "album": "Liszt: Christus",
+      "artist": "Beethoven Orchestra Bonn, Marc Soustrot & Roman Kofman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:06.512Z"
+    },
+    "Vocal|96|29.51671|41.13392|Best Missa Choralis Liszt Oh,quand je dors S.282": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e2/93/2d/e2932daa-a15f-d9a5-dee0-0dd320364cc3/00028947028925.rgb.jpg/600x600bb.jpg",
+      "album": "While I Dream",
+      "artist": "Barbara Bonney & Antonio Pappano",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:09.196Z"
+    },
+    "Vocal|96|54.39063|41.13392|br.Degout/p.Lepper Sonetti di Petrarca S.270 Liszt opera Sardanapalo": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/78/8d/e4/788de470-c5c6-92c8-3864-bd2f0d5c17b8/cover.jpg/600x600bb.jpg",
+      "album": "Liszt: Sardanapalo & Mazeppa",
+      "artist": "Joyce El-Khoury, Weimar Staatskapelle Chamber Orchestra & Kirill Karabits",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:11.832Z"
+    },
+    "Vocal|96|4.95806|68.07891|Kofman Christus Liszt Via Crucis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/65/33/5f/65335f6b-f118-0ad0-f898-54ff26c87b38/3760014193903.png/600x600bb.jpg",
+      "album": "Liszt: Via Crucis",
+      "artist": "Collegium Vocale Gent & Reinbert de Leeuw",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:14.532Z"
+    },
+    "Vocal|96|29.60461|68.07891|s.Bonney/p.Pappano Oh,quand je dors S.282 Liszt Die Loreley.273": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/84/b9/6784b996-d71a-b8d5-344c-a6eff46daebe/24UMGIM19541.rgb.jpg/600x600bb.jpg",
+      "album": "Liszt: The Complete Songs, Vol. 6",
+      "artist": "Julia Kleiter & Julius Drake",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:17.419Z"
+    },
+    "Vocal|97|4.61322|15.2306|Bartok opera Duke Bluebeard 㐴s Castle": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/75/ed/ab/75edab9b-1453-ff52-47d2-17fa6dac6408/724355616258.jpg/600x600bb.jpg",
+      "album": "Bartók: Bluebeard's Castle",
+      "artist": "Sir John Tomlinson, Bernard Haitink, Sandor Eles, Anne Sofie von Otter & Berlin Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:20.106Z"
+    },
+    "Vocal|97|4.54525|67.97526|Boulez Duke Bluebeard 㐴s Castle Bartok opera Duke Bluebeard 㐴s Castle": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8a/f0/67/8af067d4-04a5-d239-12df-1a71cdc3b7ba/00028946637722.rgb.jpg/600x600bb.jpg",
+      "album": "Bartók: Duke Bluebeard's Castle",
+      "artist": "Christa Ludwig, István Kertész, Walter Berry & London Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:51.373Z"
+    },
+    "Vocal|97|29.78696|15.2306|Bartok Cantata profana": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/24/d9/f524d9bd-08f4-2053-e7e9-38dc071bda70/06UMGIM39509.rgb.jpg/600x600bb.jpg",
+      "album": "Bartók: The Wooden Prince & Cantata Profana",
+      "artist": "Chicago Symphony Orchestra & Pierre Boulez",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:56.893Z"
+    },
+    "Vocal|97|29.7675|41.66289|BoulezHaitink Cantata profana Bartok Falun, Village Scenes": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f8/3f/eb/f83feb13-d9f2-fb47-484f-97cf9131644e/cover.jpg/600x600bb.jpg",
+      "album": "Stravinsky, Janáček, Bartók: Village Stories",
+      "artist": "Lukas Vasilek & Prague Philharmonic Choir",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:45:59.775Z"
+    },
+    "Vocal|97|29.85076|68.09518|Vasilek Falun, Village Scenes Ligeti Lux Aeterna": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6d/02/31/6d02314c-a9c3-3588-d423-8eff83466223/21UMGIM78097.rgb.jpg/600x600bb.jpg",
+      "album": "Lux aeterna ... for 10-16 parts. Werke von Ligeti, Scarlatti, Boyd und Mahler",
+      "artist": "Kammerchor Stuttgart & Frieder Bernius",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:03.011Z"
+    },
+    "Vocal|97|54.05315|15.1737|Ligeti opera Le Grand Macabre": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music22/v4/e3/18/54/e31854fc-613a-7311-10dd-761895149191/mzm.xipqjwdy.jpg/600x600bb.jpg",
+      "album": "Ligeti: Le Grand Macabre",
+      "artist": "Esa-Pekka Salonen & Philharmonia Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:05.497Z"
+    },
+    "Vocal|97|78.76018|15.20215|Eotvos opera Three Sisters": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d5/68/b5/d568b5b5-0bc9-d6e3-c592-6d8292016c56/00028945969428.rgb.jpg/600x600bb.jpg",
+      "album": "Eötvös: 3 Sisters",
+      "artist": "Orchestre de l'Opéra de Lyon & Kent Nagano",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:16.107Z"
+    },
+    "Vocal|97|78.71508|68.06673|Vajda Paradise Reloaded I.Fischer Ein Deutsch ㎿ Jiddische Kantate": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/49/c4/ca49c483-870e-fe0b-da6a-a1ce177a507e/4260052383186.jpg/600x600bb.jpg",
+      "album": "Listen to Our Cry",
+      "artist": "Reinhold Friedrich, Dorothee Mields, Georgisches Kammerorchester Ingolstadt & Ruben Gazarian",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:26.144Z"
+    },
+    "Vocal|98|4.50572|15.2306|Chopin The Wish Op.74/1": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/c4/fb/8ac4fb1e-2bb6-b5d6-09e3-54ae0ba694aa/00028946307229.rgb.jpg/600x600bb.jpg",
+      "album": "Chopin: Songs",
+      "artist": "Elzbieta Szmytka & Malcolm Martineau",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:29.196Z"
+    },
+    "Vocal|98|29.26511|15.35267|Lukaszewski Luctus Mariae": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/61/d0/26/61d026bb-bb55-3a40-2f0b-5dc0bc7a37b5/5903600615627.jpg/600x600bb.jpg",
+      "album": "G.B. Pergolesi: Stabat Mater, P. Łukaszewski: Luctus Mariae",
+      "artist": "Chopin University Press, Anna Mikołajczyk-Niewiedział & Wanda Franek",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:36.954Z"
+    },
+    "Vocal|98|54.86879|15.2306|Szymanowski Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/7f/65/b3/7f65b337-7551-d74b-21fb-aa36847fa1cf/094636159355.jpg/600x600bb.jpg",
+      "album": "Szymanowski: Choral Works",
+      "artist": "Sir Simon Rattle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:53.251Z"
+    },
+    "Vocal|98|54.95973|41.14206|Rattle Stabat Mater Szymanowski Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a8/ea/43/a8ea43a1-adf2-484e-aaea-64d369490fbc/22CRGIM32234.rgb.jpg/600x600bb.jpg",
+      "album": "Szymanowski & Poulenc: Stabat Maters",
+      "artist": "Robert Shaw, Atlanta Symphony Orchestra & Atlanta Symphony Orchestra Chorus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:46:57.422Z"
+    },
+    "Vocal|98|79.01449|15.20449|Lutoslawski 20 Polish Carols": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/19/76/c4/1976c480-cbb2-607e-ac1a-96705300c6cb/5902547009612.jpg/600x600bb.jpg",
+      "album": "Lutosławski: Songs & Carols",
+      "artist": "Anna Radziejewska & Mariusz Rutkowski",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:00.470Z"
+    },
+    "Vocal|98|78.95574|41.13392|Rutkowski 20 Polish Carols Penderecki St.Luke Passion": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3c/66/d6/3c66d6af-c724-0299-1d9a-b24f32acfaa0/00028943032827.rgb.jpg/600x600bb.jpg",
+      "album": "Penderecki: St. Luke Passion",
+      "artist": "Sigune von Osten, Stephen Roberts, Kurt Rydl, Edward Lubaszenko, Krakow Boys Choir, Warsaw National Philharmonic Choir & Polish National Radio Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:04.353Z"
+    },
+    "Vocal|98|78.99503|68.87643|Penderecki St.Luke Passion Penderecki Lacrimosa": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/39/38/46/39384616-b681-c7c5-648b-c0cbb9ec9908/5902547004020.jpg/600x600bb.jpg",
+      "album": "Penderecki: Te Deum - Lacrimosa",
+      "artist": "Krzysztof Penderecki",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:07.556Z"
+    },
+    "Vocal|99|5.35887|15.2306|Gorecki Totus Tuus Op.60": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/af/6b/92/af6b92f4-c9ec-0fb1-fbab-3efc97906d7f/00028943683524.rgb.jpg/600x600bb.jpg",
+      "album": "Górecki: Beatus Vir - Totus tuus - Old Polish Music",
+      "artist": "Nikita Storojew, Prague Philharmonic Chorus, Czech Philharmonic & John Nelson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:11.764Z"
+    },
+    "Vocal|99|4.95876|41.13392|Nelson Totus Tuus Op.60 Gorecki Kleines Requiem Op.66": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fe/5b/69/fe5b69fd-506f-4818-3ee5-652cb00b9fd1/075597936223.jpg/600x600bb.jpg",
+      "album": "Henryk Górecki: Kleines Requiem für eine Polka - Harpsichord Concerto - Good Night",
+      "artist": "David Zinman, Dawn Upshaw, David Zinman/Dawn Upshaw/London Sinfonietta/Elzbieta Chojnacka & London Sinfonietta",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:14.647Z"
+    },
+    "Vocal|99|29.5448|15.2306|Gorecki O Domina Nostra Op.55": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4f/88/f0/4f88f07f-6a86-7600-632d-37a1c067dced/00028943795623.rgb.jpg/600x600bb.jpg",
+      "album": "Górecki, Satie, Milhaud: O Domina Nostra",
+      "artist": "Sarah Leonard & Christopher Bowers-Broadbent",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:26.673Z"
+    },
+    "Vocal|99|29.70551|41.13392|s.Leonard O Domina Nostra Op.55 Kilar Victoria": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m07/d26/h01/s05.ewgxqeyi.jpg/600x600bb.jpg",
+      "album": "Kilar: Choral And Orchestral Works",
+      "artist": "Cracow Philharmonic Chorus, Hasmik Papian & Jacek Mentel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:31.277Z"
+    },
+    "Vocal|99|29.51186|67.95684|Wit Victoria Kilar The Ninth Gate": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/65/6b/80656b0e-b450-7c3c-43e2-45c7b94d29ae/199806883242.jpg/600x600bb.jpg",
+      "album": "La Luce",
+      "artist": "Simone Kermes, Julien Salemkour, Warsaw Chamber Opera Orchestra & Warsaw Chamber Opera Chorus, Warsaw Sifonietta & Wojciech Czepiel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:37.163Z"
+    },
+    "Vocal|99|78.16099|13.95618|Glagolitisches Requiem Repusic": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/83/d1/52/83d152c4-81aa-66b3-78df-78b08f6a3879/4035719003314.jpg/600x600bb.jpg",
+      "album": "Kuljerić: Hrvatski glagoljaški rekvijem - Gotovac: Himna slobodi (Live)",
+      "artist": "Bavarian Radio Chorus, Munich Radio Orchestra & Ivan Repušić",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:49.064Z"
+    },
+    "Vocal|99|78.61155|41.13392|Repusic Glagolitisches Requiem Zajc opera Nikola Šubić Zrinski": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f6/de/b3/f6deb35d-2dcb-f09a-1df6-45a0d3646722/761203533527.jpg/600x600bb.jpg",
+      "album": "Zajc: Nikola Šubić Zrinski, Op. 403 (Live)",
+      "artist": "Robert Kolar, Kristina Kolar, Anamarija Knego, Aljaž Farasin, Rijeka Opera Symphony Orchestra & Ville Matvejeff",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:51.830Z"
+    },
+    "Vocal|100|4.03102|23.70673|Requiem Op.5 Hector Berlioz McCreesh Te Deum Op.22": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4d/0d/e5/4d0de5a5-87a8-1085-1cb1-4824eea13434/887396383951.jpg/600x600bb.jpg",
+      "album": "Berlioz: Grande messe des morts, 1837",
+      "artist": "Wroclaw Philharmonic Orchestra, Wroclaw Philharmonic Choir, Gabrieli Consort & Players & Paul McCreesh",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:47:54.466Z"
+    },
+    "Vocal|100|4.02051|48.3278|Te Deum Op.22 McCreesh Abbado L 㐴Enfance du Christ Op.25": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/28/ed/1528edf4-78b0-0c1e-d260-55aa83e137ea/00028941069627.rgb.jpg/600x600bb.jpg",
+      "album": "Berlioz: Te Deum",
+      "artist": "Claudio Abbado, Francisco Araiza, London Symphony Chorus, Martin Haselböck, London Philharmonic Choir, Wooburn Singers, Boys Choirs, European Community Youth Orchestra & Richard Hickox",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:05.403Z"
+    },
+    "Vocal|100|18.70066|48.37043|Levine C.Davis L 㐴Enfance du Christ Op.25": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/0c/65/aa/0c65aa4a-d36c-2142-345d-5a638cba6fdf/00028947892946.rgb.jpg/600x600bb.jpg",
+      "album": "Berlioz: Te Deum",
+      "artist": "Sir Colin Davis, London Symphony Chorus & London Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:11.440Z"
+    },
+    "Vocal|100|33.10452|48.37043|Messe solennelle H.20a C.Davis Niquet": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/46/5a/b8/465ab80d-c40a-25f3-03df-db0223cf36fa/3760014195648.png/600x600bb.jpg",
+      "album": "Berlioz: Messe Solennelle",
+      "artist": "Le Concert Spirituel & Hervé Niquet",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:14.696Z"
+    },
+    "Vocal|100|18.53004|72.48001|L 㐴Enfance du Christ Op.25 C.Davis Ticciati": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7c/56/55/7c56559e-6e2d-3d83-c12a-67821c1fdb36/8720205579676.png/600x600bb.jpg",
+      "album": "Berlioz: L'enfance du Christ",
+      "artist": "Robin Ticciati, Swedish Radio Symphony Orchestra & Swedish Radio Shymphony Choir",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:17.432Z"
+    },
+    "Vocal|100|33.09865|72.47066|Niquet Herreweghe": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/61/72/d2/6172d29f-c814-0959-9e76-f6325f56550a/dj.pmcvjunu.jpg/600x600bb.jpg",
+      "album": "Berlioz: L'enfance du Christ",
+      "artist": "La Chapelle Royale, Collegium Vocale Gent, Orchestre des Champs-Elysées & Philippe Herreweghe",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:21.764Z"
+    },
+    "Vocal|100|68.27631|23.59485|br.Spyres/Nelson Herminie Op.29": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f0/e1/c4/f0e1c430-e2bd-cf70-5f45-d8caeeba02fd/5054197196874.jpg/600x600bb.jpg",
+      "album": "Berlioz: Les Nuits d'été, Op. 7 - Harold en Italie, Op. 16",
+      "artist": "Michael Spyres, Timothy Ridout, Orchestre philharmonique de Strasbourg & John Nelson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:40.096Z"
+    },
+    "Vocal|100|82.75367|23.55221|ms.Balleys/Herreweghe": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/24/f5/54/mzi.usbzgtap.jpg/600x600bb.jpg",
+      "album": "Berlioz: Les nuits d'été, Herminie",
+      "artist": "Brigitte Balleys, Mireille Delunsch, Orchestre des Champs-Elysées & Philippe Herreweghe",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:44.726Z"
+    },
+    "Vocal|100|53.72455|48.29737|H.36 La Mort de Cleopatre s.Gens/Langree Les Troyens": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/64/e0/7b/64e07b4a-fdff-5d68-3b7c-20197ced5c38/0724354542251_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Berlioz: Les Nuits d'ete etc",
+      "artist": "Louis Langrée, Orchestre de l'Opéra de Lyon & Véronique Gens",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:47.818Z"
+    },
+    "Vocal|100|68.36949|48.25008|Herminie Op.29 br.Spyres/Nelson s.Larsson La Damnation de": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/38/39/a4/3839a46c-20ef-fa6b-187c-95443858e28c/608917263923.jpg/600x600bb.jpg",
+      "album": "La Captive",
+      "artist": "Lisa Larsson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:50.704Z"
+    },
+    "Vocal|100|53.48277|71.91183|Les Troyens s.Gens/Langree": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/9e/66/089e66df-181f-b521-7976-1a4fa864fae9/00028941643223.rgb.jpg/600x600bb.jpg",
+      "album": "Berlioz: Les Troyens",
+      "artist": "Sir Colin Davis, Berit Lindholm, Chorus of the Royal Opera House, Covent Garden, Jon Vickers, Josephine Veasey & Wandsworth School Boys' Choir",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:53.903Z"
+    },
+    "Vocal|100|68.38167|72.36695|Faust opera Op.24 La Damnation de C.Davis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b2/7e/88/b27e88be-3c50-dfab-197e-edbe245797bb/00028941639523.rgb.jpg/600x600bb.jpg",
+      "album": "Berlioz: La Damnation de Faust",
+      "artist": "Nicolai Gedda, Josephine Veasey, Jules Bastin, London Symphony Chorus, London Symphony Orchestra & Sir Colin Davis",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:48:57.787Z"
+    },
+    "Vocal|100|82.51769|72.04867|opera Op.23 Benvenuto Cellini C.Davis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c3/86/a3/c386a35b-1efa-a2db-cabf-02854430cf0a/00028941695529.rgb.jpg/600x600bb.jpg",
+      "album": "Berlioz: Benvenuto Cellini",
+      "artist": "BBC Symphony Orchestra, Nicolai Gedda, Chorus of the Royal Opera House, Covent Garden, Christiane Eda-Pierre, Jane Berbié, Robert Massard, Roger Soyer & Sir Colin Davis",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:01.573Z"
+    },
+    "Vocal|101|4.11665|14.45371|Meyerbeer Le Prophete, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/2a/2e/0a/2a2e0a00-175e-e11d-0de5-812d0bd5fc18/886445662603.jpg/600x600bb.jpg",
+      "album": "Meyerbeer: Le prophète",
+      "artist": "Henry Lewis & Royal Philharmonic Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:09.770Z"
+    },
+    "Vocal|101|3.68959|40.56805|Lewis Le Prophete, opera Meyerbeer Les Huguenots, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7b/62/0f/7b620f07-7cf5-2791-f3da-b6bd77bd806c/00028943054928.rgb.jpg/600x600bb.jpg",
+      "album": "Meyerbeer: Les Huguenots",
+      "artist": "Dame Joan Sutherland, Anastasios Vrenios, Gabriel Bacquier, Martina Arroyo, Huguette Tourangeau, Philharmonia Orchestra, Nicola Ghiuselev & Richard Bonynge",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:15.424Z"
+    },
+    "Vocal|101|5.07705|67.2933|Bonynge Les Huguenots, opera Meyerbeer L 㑄Africaine, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/4e/83/66/4e8366e3-8f1d-082c-e4ea-9a40f5d82966/761203782826.jpg/600x600bb.jpg",
+      "album": "Meyerbeer: Vasco de Gama (L'Africaine)",
+      "artist": "Claudia Sorokina, Robert Schumann Philharmonie, Frank Beermann, Chor der Oper Chemnitz, Thomas Seidel, Bjorn Werner, Guibee Yang, Pierre-Yves Pruvot, Tommaso Randazzo, Kouta Rasanen, Anton Reimer, Thomas Frob, Martin Gabler, Stefan Kringel, Tiina Penttinen, Bernhard Berchtold & Rolf Broman",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:18.383Z"
+    },
+    "Vocal|101|29.61229|14.42526|Bizet Carmen, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/58/e0/f1/58e0f167-082d-40cc-c35d-556007c57cc4/12UMGIM57166.rgb.jpg/600x600bb.jpg",
+      "album": "Bizet: Carmen",
+      "artist": "Ileana Cotrubas, Teresa Berganza, Plácido Domingo, Sherrill Milnes, London Symphony Orchestra, Claudio Abbado & The Ambrosian Singers",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:22.053Z"
+    },
+    "Vocal|101|29.80761|40.61186|Abbado Carmen, opera Bizet Carmen, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/56/73/7a/56737a92-8157-456d-78d8-c25be8d61072/888880752901.jpg/600x600bb.jpg",
+      "album": "Bizet: Carmen (Highlights)",
+      "artist": "Herbert von Karajan, Vienna Philharmonic, Franco Corelli & Leontyne Price",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:25.574Z"
+    },
+    "Vocal|101|29.78516|67.26483|Karajan Carmen, opera Bizet Carmen, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4a/7d/a4/4a7da4b3-8333-5f01-9848-d34d71a67780/dj.bhaviwgi.jpg/600x600bb.jpg",
+      "album": "Bizet: Carmen",
+      "artist": "Berlin Philharmonic Orchestra, Chor des Deutschen Staatsoper, Jonas Kaufmann, Magdalena Kožená & Sir Simon Rattle",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:29.070Z"
+    },
+    "Vocal|101|54.13907|14.42526|Bizet opera Les Pecheurs de Perles": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2b/5c/c6/2b5cc61d-8f46-dc41-975a-eff72eaee418/8720604706857_cover.jpg/600x600bb.jpg",
+      "album": "Bizet: Les Pechêurs de perles (Live)",
+      "artist": "Alexandre Bloch, Orchestre National de Lille, Cyrille Dubois, Julie Fuchs, Florian Sempey & Luc-Bertin Hugault",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:33.010Z"
+    },
+    "Vocal|101|54.10838|66.81475|Pretre Les Pecheurs de Perles Bizet L 㐴Arlesienne": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e2/b2/b9/e2b2b945-3c79-db47-00bf-f7feda55b58c/cover.jpg/600x600bb.jpg",
+      "album": "Bizet: L'Arlésienne",
+      "artist": "Daniel Mesguich, Ianne Rouleau, Jean-Claude Malgoire & Orchestre de Chambre National de Toulouse",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:46.635Z"
+    },
+    "Vocal|101|78.95264|40.5765|Cluytens Le Roi d 㑄Ys, opera David opera Le Désert": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/74/7f/90/747f90dd-72b1-eda4-1137-312584a3a7ab/cover.jpg/600x600bb.jpg",
+      "album": "David: Le désert",
+      "artist": "Orchestre de chambre de Paris, Accentus & Laurence Equilbey",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:57.007Z"
+    },
+    "Vocal|101|79.34442|66.72772|Equilbey Le Désert Caillebotte Dies Irae": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/9d/02/d2/9d02d249-9e5f-9f10-fa04-ceda53fbc776/3700551770571_cover.jpg/600x600bb.jpg",
+      "album": "Caillebotte: Dies irae, Une journée & Psaume 132",
+      "artist": "Eric Génovèse, Michel Piquemal, Orchestre Pasdeloup & Chœur Régional Vittoria d'Ile-de-France",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:49:59.761Z"
+    },
+    "Vocal|102|4.66336|39.77081|C.Davis Samson et Dalila, opera Saint ㎿Seans Requiem Op.54": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/01114ac3a3579c3c751950daf47b5185/1000x1000-000000-80-0-0.jpg",
+      "album": "Saint-Saens: Messe de Requiem & Partsongs",
+      "artist": "Orchestra della Svizzera italiana",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:50:26.063Z"
+    },
+    "Vocal|102|4.67207|65.61309|Fasolis Requiem Op.54 Saint ㎿Seans Melodies persanes Op.26": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/99964da84fee98210456ed0f7cb5cef2/1000x1000-000000-80-0-0.jpg",
+      "album": "Saint-Saëns: Mélodies avec orchestre",
+      "artist": "Yann Beuron",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:50:43.287Z"
+    },
+    "Vocal|102|29.33709|39.25215|Cobos Messe a Quartre Op.4 Saint ㎿Seans Oratorio Noel Op.12": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/beb3ed3bb13d5cbc9572c66c1da66a3c/1000x1000-000000-80-0-0.jpg",
+      "album": "Saint-Saëns: Oratorio de Noël, Op. 12 - Mendelssohn: Vom Himmel hoch, MWV A 10",
+      "artist": "Martin Flämig",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:51:02.014Z"
+    },
+    "Vocal|102|29.78996|65.58464|Flamig Oratorio Noel Op.12 Gounod Saint François d 㑄Assise": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/97/11/5b9711bb-a56d-26bc-7cd5-f4721db47511/cover.jpg/600x600bb.jpg",
+      "album": "Gounod: Saint François d'Assise - Liszt: Légende de Sainte Cécile",
+      "artist": "Accentus, Laurence Equilbey & Orchestre de chambre de Paris",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:51:05.765Z"
+    },
+    "Vocal|102|54.11862|39.68132|Pretre Faust Gounod opera Faust": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/09/ac/8309ac03-49e4-585e-7542-51ce6c9ee9d5/00028942124028.rgb.jpg/600x600bb.jpg",
+      "album": "Gounod: Faust",
+      "artist": "Dame Joan Sutherland, Franco Corelli, Nicolai Ghiaurov, Ambrosian Opera Chorus, London Symphony Orchestra & Richard Bonynge",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:51:22.962Z"
+    },
+    "Vocal|102|79.04341|13.93802|Gounod Messe solennelle de Sainte Cecile": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/c4/3c/1b/c43c1b52-f8a9-2562-28da-3a15b3fcbb82/077774709453.jpg/600x600bb.jpg",
+      "album": "Gounod: Messe Solennelle de Sainte Cécile",
+      "artist": "Barbara Hendricks, Georges Prêtre & Laurence Dale",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:51:30.396Z"
+    },
+    "Vocal|102|78.9407|39.74236|Pretre de Sainte Cecile Gounod Messe solennelle de Sainte Cecile": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/98/79/c6/9879c6e2-f300-f58a-586f-15e5cee94d52/00028942740921.rgb.jpg/600x600bb.jpg",
+      "album": "Gounod: Messe Solennelle de Sainte Cécile",
+      "artist": "Czech Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:51:33.380Z"
+    },
+    "Vocal|102|77.94496|65.02534|Markevitch de Sainte Cecile Requiem Corboz": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b2/90/db/b290db46-9cb8-c5fb-3255-39c045820233/3760127221296.jpg/600x600bb.jpg",
+      "album": "Requiem & Messe Chorale",
+      "artist": "Michel Corboz, Ensemble Vocal de Lausanne, Ensemble Instrumental de Lausanne, Charlotte Müller Perrier & Valérie Bonnard",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:51:37.151Z"
+    },
+    "Vocal|103|29.39997|40.99152|Plasson Don Quichotte, opera Offenbach opera Les Contes d 㑄Hoffmann": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6f/5b/3d/6f5b3db5-e7e2-c9e0-6ab5-f151969449e2/00028945823423.rgb.jpg/600x600bb.jpg",
+      "album": "Offenbach: Les contes d'Hoffmann - Highlights",
+      "artist": "Orchestre de la Suisse Romande & Richard Bonynge",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:53:28.096Z"
+    },
+    "Vocal|103|54.53107|14.3877|Delibes Lakme, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cc/f4/bb/ccf4bb3f-ace7-2e72-9ae3-cef90682a76c/00028945822020.rgb.jpg/600x600bb.jpg",
+      "album": "Delibes: Lakmé - Highlights",
+      "artist": "Dame Joan Sutherland, Orchestre national de l'Opéra de Monte-Carlo & Richard Bonynge",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:53:40.860Z"
+    },
+    "Vocal|103|54.53107|40.92538|Bonynge Lakme, opera Caillebotte Dies Lrae": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/9d/02/d2/9d02d249-9e5f-9f10-fa04-ceda53fbc776/3700551770571_cover.jpg/600x600bb.jpg",
+      "album": "Caillebotte: Dies irae, Une journée & Psaume 132",
+      "artist": "Eric Génovèse, Michel Piquemal, Orchestre Pasdeloup & Chœur Régional Vittoria d'Ile-de-France",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:53:43.942Z"
+    },
+    "Vocal|103|78.56962|15.17869|Canteloube Songs of the Auvergne": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/82cb753b89d4642ec2b34e5c87f206a1/1000x1000-000000-80-0-0.jpg",
+      "album": "Canteloube: Chants d'Auvergne",
+      "artist": "Carolyn Sampson",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:53:54.151Z"
+    },
+    "Vocal|103|77.73047|41.00371|s.Sampson/Rophe Songs of the Auvergne Canteloube Songs of the Auvergne": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/6f/bf/46/6fbf4663-312e-1247-839f-fe8558a18d6c/699675118921.jpg/600x600bb.jpg",
+      "album": "Canteloube: Songs of the Auvergne",
+      "artist": "Netania Davrath & Pierre De La Roche",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:53:57.800Z"
+    },
+    "Vocal|104|4.7396|15.2306|Franck Redemption": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/29/64/31/29643158-7424-260e-efb9-8108559511bd/5054197339295.jpg/600x600bb.jpg",
+      "album": "Franck: Rédemption & Le chasseur maudit",
+      "artist": "Michel Plasson, Beatrice Uria-Monzon, Lambert Wilson & Orchestre National du Capitole de Toulouse",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:54:12.031Z"
+    },
+    "Vocal|104|4.63957|66.91517|Jordan Les Beatitudes Franck Messe Solennelle": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/04/76/ed/mzi.mioizoyq.jpg/600x600bb.jpg",
+      "album": "Mass in A major, Op.12, Quae est ista, Dextera Domini",
+      "artist": "Dezső Karasszon, Salamon Kamp & Debrecen Kodály Choir",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:54:29.593Z"
+    },
+    "vocal-pdf-v1-104-300-410": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/82d7843443c7ffda301f5e822bfdfab2/1000x1000-000000-80-0-0.jpg",
+      "album": "Panis angelicus – Favourite Motets from Westminster Cathedral",
+      "artist": "Westminster Cathedral Choir",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:54:46.607Z"
+    },
+    "Vocal|104|30.09585|68.12949|O 㐴Donnell Panis angelicus Chausson opera Le Roi Arthus": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e2/b7/83/e2b78384-6c1e-ec6e-bdd0-d6bc3c3272db/22CRGIM31997.rgb.jpg/600x600bb.jpg",
+      "album": "Chausson: Le roi arthus, Op. 23",
+      "artist": "Leon Botstein, Andrew Schroeder, Susan Bullock, Simon O'Neill, François Le Roux, Donald McIntyre & BBC Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:54:49.545Z"
+    },
+    "Vocal|104|53.77328|15.2306|Chausson  Poeme de l 㐴amour et de la mar Op.20": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/58/df/cb/58dfcb70-e370-5a23-dca1-8916c930c652/3760014194412.png/600x600bb.jpg",
+      "album": "Chausson: Poème de l'amour et de la mer & Symphonie, Op. 20",
+      "artist": "Véronique Gens, Orchestre National de Lille & Alexandre Bloch",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:54:52.864Z"
+    },
+    "Vocal|104|53.81352|41.53268|s.Gens/Bloch l 㐴amour et de la mar Op.20 Chausson La tempete Op.18": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/e9/8c/49e98cc8-b59b-13b1-9990-33667f052dc0/cover.jpg/600x600bb.jpg",
+      "album": "Chausson le littéraire",
+      "artist": "Ensemble Musica Nigella & Takénori Némoto",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:54:57.253Z"
+    },
+    "Vocal|104|53.85257|67.9531|Pancrazi/Pingeot La tempete Op.18 Chausson Le temps des Iilas": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/9c755a21b457fdd5363f6fcaa9a5a7de/1000x1000-000000-80-0-0.jpg",
+      "album": "Chausson: Songs (Hyperion French Song Edition)",
+      "artist": "Graham Johnson",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:55:13.492Z"
+    },
+    "Vocal|104|79.45739|15.31009|Hahn Etudes latines : Neere": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/dd/f5/49/ddf54997-61b0-73b2-7dd5-8d592c9a9eda/034571171418.jpg/600x600bb.jpg",
+      "album": "Hahn: Songs",
+      "artist": "Graham Johnson, Dame Felicity Lott, Susan Bickley, Ian Bostridge & Stephen Varcoe",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:55:17.130Z"
+    },
+    "Vocal|104|79.31664|68.08331|br.Cutting / p.Hyland Etudes latines : Neere Hahn A Chloris": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/ca/fb/4fcafbee-f551-cba0-a134-01d9c715b599/3760014192159.png/600x600bb.jpg",
+      "album": "Néère",
+      "artist": "Véronique Gens & Susan Manoff",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:55:34.045Z"
+    },
+    "Vocal|105|33.08427|23.6641|Herreweghe Chantique de": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/1e/95/3d/mzi.kifninpj.jpg/600x600bb.jpg",
+      "album": "Fauré: Requiem (Op. 48), Messe des Pêcheurs de Villerville",
+      "artist": "Ensemble Musique Oblique, La Chapelle Royale & Philippe Herreweghe",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:56:08.130Z"
+    },
+    "Vocal|105|33.19478|48.34599|Jean Racine Op.11 Chantique de Toretelier 3 Songs Op.23/1": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/b94a9c5f539d8c55a50076e977c70eba/1000x1000-000000-80-0-0.jpg",
+      "album": "Fauré: Requiem & La Naissance de Vénus",
+      "artist": "Yan Pascal Tortelier",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:56:33.534Z"
+    },
+    "Vocal|105|3.805|72.6197|Pavane Op.50 p.Naoumoff ㏙arr.㏚ Marriner": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/37/8d/0e/378d0ebc-3459-e891-b63e-26adbc84e379/00028941055224.rgb.jpg/600x600bb.jpg",
+      "album": "Fauré: Pelléas et Mélisande, Pavane, Fantasie",
+      "artist": "Academy of St Martin in the Fields Chorus, Academy of St Martin in the Fields & Neville Marriner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:56:37.721Z"
+    },
+    "Vocal|105|33.17848|72.48002|Les berceaux 3 Songs Op.23/1 s.Fleming": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/2e5e91b1daafb730bc48558fd4487c7b/1000x1000-000000-80-0-0.jpg",
+      "album": "Voice of Nature: The Anthropocene",
+      "artist": "Renée Fleming",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T22:56:56.823Z"
+    },
+    "Vocal|105|79.5101|15.2306|Durufle Requiem Op.9": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/84/38/cf8438c6-6d3a-bc81-ebe8-b017f2659f3d/23UMGIM97062.rgb.jpg/600x600bb.jpg",
+      "album": "Duruflé: Requiem & 4 Motets",
+      "artist": "Corydon Singers, English Chamber Orchestra & Matthew Best",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:57:19.033Z"
+    },
+    "Vocal|105|54.95831|40.71246|Plasson Missa 㐱Cum Jubilo㐲 Op.11 Durufle Quatre Motets Op.10": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/7e/c4/74/7ec474db-1782-a185-a9da-d630c7b81b70/193483480480.jpg/600x600bb.jpg",
+      "album": "Quatre Motets sur des thèmes grégoriens pour choeur a cappella, Op. 10: I. Ubi caritas - Single",
+      "artist": "Houston Chamber Choir, Ken Cowan & Robert Simpson",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:57:25.386Z"
+    },
+    "Vocal|105|79.37603|40.61308|Best Requiem Op.9 Durufle Requiem Op.9": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c2/5e/cb/c25ecbe1-f7ad-6d51-27ac-885b4ff0748c/8720205580160.png/600x600bb.jpg",
+      "album": "Debussy: Nocturnes – Duruflé: Requiem",
+      "artist": "Robin Ticciati, Magdalena Kožená & Deutsches Symphonie-Orchester Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:57:28.874Z"
+    },
+    "Vocal|106|5.15265|15.2306|Debussy opera Pelleas et Melisande": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/04/73/9b/04739b40-9153-06fe-2fe6-96f69e0e1c8b/3149020944042_cover.jpg/600x600bb.jpg",
+      "album": "Debussy: Pelléas et Mélisande",
+      "artist": "François-Xavier Roth, Les Siècles, Vannina Santoni, Julien Behr, Alexandre Duhamel, Marie-Ange Todorovitch, Jean Teitgen & Chœur de l'Opéra de Lille",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:02.020Z"
+    },
+    "Vocal|106|5.11163|41.13392|Roth Pelleas et Melisande Debussy opera Pelleas et Melisande": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/ec/67/66ec6795-afdf-f8cd-f8fd-9ff2ce35daf3/00028943534420.rgb.jpg/600x600bb.jpg",
+      "album": "Debussy: Pelléas et Mélisande",
+      "artist": "Vienna Philharmonic, Claudio Abbado, Francois Le Roux & Maria Ewing",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:05.099Z"
+    },
+    "Vocal|106|4.82951|67.44665|Abbado Pelleas et Melisande Debussy Le martyre de Saint Sebastien": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ef/bc/81/efbc817f-5510-fb00-674f-58b3579b0d8d/dj.bmhofcro.jpg/600x600bb.jpg",
+      "album": "Debussy: Le Martyre de Saint Sébastien",
+      "artist": "Michael Tilson Thomas, Sylvia McNair, Ann Murray & Nathalie Stutzmann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:08.648Z"
+    },
+    "Vocal|106|29.87264|15.14254|Debussy Chansons de Bilitis CD97": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cb/c8/b2/cbc8b207-1595-5a5f-37e2-4fc3d7242702/8720929571291_cover.jpg/600x600bb.jpg",
+      "album": "L'extase: Debussy & Messiaen Songs",
+      "artist": "Magdalena Kožená & Mitsuko Uchida",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:11.923Z"
+    },
+    "Vocal|106|29.87264|41.08185|s.Kozena / p.Uchida Chansons de Bilitis CD97 Ropartz Messe de Sainte ㎿Anne": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/35/ab/d7/35abd726-c9c1-2df6-cec3-51a77f3c4c5f/3487720000423_cover.jpg/600x600bb.jpg",
+      "album": "Ropartz: En l'honneur de Sainte-Anne",
+      "artist": "Nicole Corti, Jean Bizot & Chœur Britten",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:15.486Z"
+    },
+    "Vocal|106|29.83393|67.43601|Bizot Messe de Sainte ㎿Anne Ropartz Le Miracle de Saint Nicolas": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m11/d13/h18/s05.tmiwyigm.jpg/600x600bb.jpg",
+      "album": "Ropartz: Le Miracle de Saint Nicolas",
+      "artist": "Christian Papis, Didier Henry, Ile de France Vittoria Regional Choir & Michel Piquemal",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:19.838Z"
+    },
+    "vocal-pdf-v1-106-543-151": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/92/7d/6e927dbe-6777-c852-caf9-950230928f52/00028944976922.rgb.jpg/600x600bb.jpg",
+      "album": "Ravel: L'enfant et les sortilèges; L'heure espagnole",
+      "artist": "Orchestre National de France, Berlin Philharmonic Orchestra, Lorin Maazel & Rundfunk-Sinfonieorchester Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:25.096Z"
+    },
+    "Vocal|106|54.40275|41.33863|Maazel L 㐴enfant et les sortileges Ravel opera L 㐴heure espagnole": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8d/81/c3/8d81c365-5ced-cab8-6ef1-3a31135a0097/3149020946732_cover.jpg/600x600bb.jpg",
+      "album": "Ravel: L'Heure espagnole - Bolero",
+      "artist": "François-Xavier Roth, Isabelle Druet, Les Siècles, Julien Behr, Loïc Félix, Thomas Dolié & Jean Teitgen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:31.713Z"
+    },
+    "Vocal|106|54.40275|67.43601|Roth L 㐴heure espagnole Ravel 3 Poemes M.64": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/82/75/c3/8275c3e2-abd9-2e34-8dbf-801670fa00d8/3701624510193.png/600x600bb.jpg",
+      "album": "Reflet",
+      "artist": "Sandrine Piau, Orchestre Victor Hugo & Jean-François Verdier",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:34.319Z"
+    },
+    "vocal-pdf-v1-106-791-151": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1e/9d/13/1e9d1323-c189-c046-d145-0cfcf3aa050c/00028948306695.rgb.jpg/600x600bb.jpg",
+      "album": "Les chemins de l'amour - Songs By Duparc, Ravel, Poulenc & Satie",
+      "artist": "Jessye Norman & Dalton Baldwin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:37.521Z"
+    },
+    "Vocal|106|79.18877|41.13392|s.Norman/p.Baldwin Melodies hebraiques Langlais Missa Salve Regina": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4b/50/a4/4b50a4d7-d14d-95ac-7a62-66784ac04788/23UM1IM28664.rgb.jpg/600x600bb.jpg",
+      "album": "Jean Langlais: Missa Salve regina & Messe solennelle",
+      "artist": "Westminster Cathedral Choir & David Hill",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:40.853Z"
+    },
+    "Vocal|106|79.41511|67.43601|Hill Missa Salve Regina Roussel opera Bacchus Et Ariane": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f1/5f/39/f15f39ba-3669-3c65-6877-5290dd311413/5059864949432.png/600x600bb.jpg",
+      "album": "Roussel: Bacchus et Ariane & Le Festin de l'Araignée",
+      "artist": "Yan Pascal Tortelier & BBC Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:43.641Z"
+    },
+    "Vocal|107|18.58858|23.70673|Francis Poulenc Reuss Quatre motets": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9e/8d/04/9e8d04c7-22f1-34f9-afe8-2046e7145e12/5414939982248.png/600x600bb.jpg",
+      "album": "Poulenc: Stabat Mater; 7 Répons des Ténèbres",
+      "artist": "Estonian Philharmonic Chamber Choir, Daniel Reuss, Cappella Amsterdam, Carolyn Sampson & Estonian National Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:53.059Z"
+    },
+    "Vocal|107|33.04529|23.6641|Gloria Ozawa O Magnum Mysterium": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cd/8b/97/cd8b97a4-4f5c-97b0-37ca-57b42bd44758/00028942730427.rgb.jpg/600x600bb.jpg",
+      "album": "Poulenc: Gloria; Stabat Mater",
+      "artist": "Boston Symphony Orchestra, Kathleen Battle, Seiji Ozawa & Tanglewood Festival Chorus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:58:56.061Z"
+    },
+    "Vocal|107|18.52363|48.37043|Quatre motets Reuss Shaw Figure humaine": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/14/4b/2b/144b2b44-d15c-e8e4-b902-e3883b69a855/22CRGIM32762.rgb.jpg/600x600bb.jpg",
+      "album": "Poulenc: Mass in G Major, Motets for Christmas and Lent & Four Short Prayers of Saint Francis",
+      "artist": "Robert Shaw & Robert Shaw Festival Singers",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:59:17.191Z"
+    },
+    "Vocal|107|4.12916|72.48001|Mass G Major Pretre O 㐴Donnell": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/16/39/b3/1639b3aa-f547-4fa5-2649-679b58446996/23UMGIM79224.rgb.jpg/600x600bb.jpg",
+      "album": "Poulenc: Mass in G; Motets for Christmas & Lent etc.",
+      "artist": "Westminster Cathedral Choir & James O'Donnell",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:59:30.967Z"
+    },
+    "Vocal|107|18.6277|72.48001|Figure humaine Shaw Dijkstra": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8d/85/77/8d85777c-51f6-9aae-4a09-4823f8b7b5a9/723385314110.png/600x600bb.jpg",
+      "album": "Poulenc: Figure humaine, Mass in G, Un soir de neige & 7 Chansons",
+      "artist": "Swedish Radio Choir & Peter Dijkstra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:59:34.819Z"
+    },
+    "Vocal|107|54.68651|15.23874|Duparc Chanson Triste": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/ca/fb/4fcafbee-f551-cba0-a134-01d9c715b599/3760014192159.png/600x600bb.jpg",
+      "album": "Néère",
+      "artist": "Véronique Gens & Susan Manoff",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:59:45.211Z"
+    },
+    "Vocal|107|78.75118|15.23874|Vierne Messe Solennelle Op.16": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/01/2f/36/012f36c5-62ca-13ef-35fd-bcf18561738a/23UM1IM29124.rgb.jpg/600x600bb.jpg",
+      "album": "Vierne, Widor & Dupré: Choral Music",
+      "artist": "Westminster Cathedral Choir & James O'Donnell",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T22:59:49.144Z"
+    },
+    "Vocal|107|78.89143|41.23387|O 㐴Donnell Messe Solennelle Op.16 Tomasi Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/89/88/93/mzi.mlfisxfd.jpg/600x600bb.jpg",
+      "album": "Tomasi: Requiem pour la paix - Fanfares liturgiques",
+      "artist": "Marie-Paule Lavogez, Michel Piquemal, Didier Henry, Jacqueline Mayeur, Michel Pastor, Provence-Alpes-Cote d'Azur Regional Choir, Alpes-Maritimes Departmental Choir, Orchestre Philharmonique de Marseille, Andre Vaisse, Alain Delzant & Trombone Massilia",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:00:01.199Z"
+    },
+    "Vocal|107|54.37667|69.82626|br.Souzay/p.Baldwin L 㐴Invitation au voyage Gouvy Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/70/59/a4/7059a454-c817-fbf7-ef40-052c1bd35806/3383510000461.jpg/600x600bb.jpg",
+      "album": "Gouvy: Requiem in E-Flat Minor, Op. 70 & Cantate de printemps, Op. 73",
+      "artist": "Orchestre National de Lorraine & Jacques Houtmann",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:00:06.868Z"
+    },
+    "Vocal|107|78.69275|69.77637|Piquemal Requiem N.Boulanger Soleils couchants": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/87/7b/c7/877bc7bd-78ee-8bcb-e873-4180b79735af/3149020946275_cover.jpg/600x600bb.jpg",
+      "album": "Nadia & Lili Boulanger: Les Heures claires (The Complete Songs)",
+      "artist": "Lucile Richardot, Anne de Fornel, Stéphane Degout, Emmanuelle Bertrand, Raquel Camarinha & Sarah Nemtanu",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:00:10.042Z"
+    },
+    "Vocal|108|4.64705|15.2306|L.Boulanger Faust et Helene": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/f3abb96744d150f3a1396793b75d0ed4/1000x1000-000000-80-0-0.jpg",
+      "album": "Boulanger: Faust et Hélène",
+      "artist": "Yan Pascal Tortelier",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:00:18.081Z"
+    },
+    "Vocal|108|4.50913|68.08705|L.Boulanger Pie Jesu L.Boulanger Psaum 24": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e4/35/ee/e435ee4f-8097-1c86-466a-11a01c9331a6/3377891311483.jpg/600x600bb.jpg",
+      "album": "Boulanger, L.: Psalms - 24, 129, 130 - Pour Les Funerailles D'Un Soldat - D'Un Soir Triste - Vieille Priere Bouddhique",
+      "artist": "Namur Symphonic Choir, Martial Defontaine, Mark Stringer, Luxembourg Philharmonic Orchestra, Vincent Le Texier & Sonia de Beaufort",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:00:29.719Z"
+    },
+    "Vocal|108|29.45499|14.99096|Messiaen Poemes pour Mi": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/8b/44/bb8b4456-f54a-118f-173b-bde6a8dfb9f0/00028945347820.rgb.jpg/600x600bb.jpg",
+      "album": "Messiaen: Poèmes Pour Mi, Sept Haïkaï, Le Réveil Des Oiseaux",
+      "artist": "Françoise Pollet, The Cleveland Orchestra, Pierre-Laurent Aimard, Joela Jones & Pierre Boulez",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:00:33.038Z"
+    },
+    "Vocal|108|29.32172|41.14206|Boulez Poemes pour Mi Messiaen opera At. Francois D 㐴Assise": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cf/7d/47/cf7d47cd-597e-1156-7822-d633511cead7/06UMGIM69247.rgb.jpg/600x600bb.jpg",
+      "album": "Messiaen: Saint Francois D'Assise",
+      "artist": "Hallé & Kent Nagano",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:00:41.245Z"
+    },
+    "Vocal|108|29.43307|68.0611|Nagano At. Francois D 㐴Assise Paulet De profundis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/31/5b/d5/315bd5b3-1b08-39ac-f44e-eb97f798e9cc/3487720009365_cover.jpg/600x600bb.jpg",
+      "album": "Paulet: De profundis (Œuvres sacrées)",
+      "artist": "Choeur de chambre les éléments, Véronique Le Guen & Joël Suhubiette",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:00:47.871Z"
+    },
+    "Vocal|108|54.31671|15.5679|Palmeri Misatango": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/3f/86/8c/3f868ccb-10e0-e136-3a8d-b48c63bc8ff3/3663729024022_cover.jpg/600x600bb.jpg",
+      "album": "Palmeri: Misatango, Misa a Buenos Aires",
+      "artist": "Choeur Régional Vittoria d'Ile de France, Orchestre Pasdeloup, Michel Piquemal, Sophie Hanne & Gilberto Pereyra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:04:42.622Z"
+    },
+    "Vocal|108|78.37687|68.08705|Altinoglu Seneque dernier jour Connesson Athanor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/e5/82/f7/mzi.qempkrde.jpg/600x600bb.jpg",
+      "album": "Connesson: Athanor & Supernova",
+      "artist": "Virginie Pesch, Nigel Smith, Choeur de Radio France & Orchestre National de France",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:05:23.426Z"
+    },
+    "Vocal|109|4.81899|15.35267|Haazen Missa Luba": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/daa02316671612b4d8c3a4a19820a77c/1000x1000-000000-80-0-0.jpg",
+      "album": "Missa Luba Remastered 2026",
+      "artist": "Muungano National Choir",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:05:35.271Z"
+    },
+    "Vocal|109|29.58199|15.2306|Boesmans Wintermärchen, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/df/04/56/df0456af-a7b6-f1e3-2239-b0832e784256/00028946955925.rgb.jpg/600x600bb.jpg",
+      "album": "Boesmans: Wintermärchen (Le conte d'hiver)",
+      "artist": "Antonio Pappano, L’Orchestre Symphonique de la Monnaie, Arthur Debski, Dale Duesing, Renato Balsadonna & Susan Chilcott",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:05:39.501Z"
+    },
+    "Vocal|109|54.45019|15.2306|Diepenbrock Wenige wissen das Geheimnis der Liebe": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/4b56b1775796803aa6d3f4e0d7a7fe5b/1000x1000-000000-80-0-0.jpg",
+      "album": "Diepenbrock: Orchestral Works, Vol. 2",
+      "artist": "Alphons Diepenbrock",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:05:51.660Z"
+    },
+    "Vocal|109|4.83931|42.03724|Mganga Missa Luba Cassol Vsprs Orchestra": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/54/4f/e8/mzi.zbukdvom.jpg/600x600bb.jpg",
+      "album": "Cassol: Vsprs Orchestra",
+      "artist": "Oltremontano, Fabrizio Cassol & Aka Moon",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:05:58.533Z"
+    },
+    "Vocal|109|29.605|41.98517|Moon Wintermärchen, opera Boesmans Pinocchio, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/70/e2/8b/70e28be6-ce1c-cfb9-8d67-1f18a39d3c2b/5412217046477.jpg/600x600bb.jpg",
+      "album": "Philippe Boesmans: Pinocchio",
+      "artist": "L’Orchestre Symphonique de la Monnaie & Patrick Davin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:06:03.104Z"
+    },
+    "vocal-pdf-v1-109-544-410": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/ca0cf24580e6476a1e469c47063fd64b/1000x1000-000000-80-0-0.jpg",
+      "album": "Mahler 7 / Diepenbrock: Im grossen Schweigen",
+      "artist": "Royal Concertgebouw Orchestra",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:08:31.726Z"
+    },
+    "Vocal|109|28.82356|67.82663|Davin Pinocchio, opera Boesmans Yvonne, Princesse de": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/9d/40/78/mzi.ufgcxnmh.jpg/600x600bb.jpg",
+      "album": "Boesmans: Yvonne, Princesse de Bourgogne",
+      "artist": "Various Artists",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:08:51.466Z"
+    },
+    "Vocal|109|54.45019|67.82663|br.Hageggard/Chailly Im Grossen Schweigen Diepenbrock Hymnen an die Nacht": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/9a/8c/72/9a8c722b-bd92-53a6-67c7-0e023f8b5e1d/761203783625.jpg/600x600bb.jpg",
+      "album": "Diepenbrock: Orchestral Songs",
+      "artist": "Hans Christoph Begemann, Sinfonieorchester St. Gallen & Otto Tausk",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:08:55.537Z"
+    },
+    "Vocal|110|4.51792|15.2306|Ammann Missa Defensor Pacis": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/32/c7/1b/32c71b2a-c27a-41e1-6961-ea21dc7997dd/845221054155.jpg/600x600bb.jpg",
+      "album": "Ammann: Missa Defensor Pacis",
+      "artist": "Basler Madrigalisten & Raphael Immoos",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:12:03.380Z"
+    },
+    "Vocal|110|53.96463|15.2306|Honegger 㖈 Ibert L 㐴Aiglon, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/45/7e/0b/457e0bd2-834c-be34-b2ee-9aff4f5398ca/00028947895077.rgb.jpg/600x600bb.jpg",
+      "album": "Honegger & Ibert: L'Aiglon (Live in Montreal, 2015)",
+      "artist": "Anne-Catherine Gillet, Kent Nagano, Marc Barrard, Orchestre Symphonique de Montréal, Etienne Dupuis, Philippe Sly, Hélène Guilmette & Marie-Nicole Lemieux",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:12:23.953Z"
+    },
+    "Vocal|110|4.51792|41.00296|Immoos Missa Defensor Pacis Schoeck Notturno Op.47": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/02aec116d6b2cf3bd557432e79f290fc/1000x1000-000000-80-0-0.jpg",
+      "album": "Schoeck: Notturno, Op. 47 & Wanderung Im Gebirge, Op. 45",
+      "artist": "Carmina Quartet",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:12:43.125Z"
+    },
+    "Vocal|110|53.96463|41.13392|Nagano L 㐴Aiglon, opera Honegger Une cantate de Noel": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cd/a7/97/cda7971d-b7b5-cfc9-3138-90e730e0ebfc/23UM1IM28640.rgb.jpg/600x600bb.jpg",
+      "album": "Honegger: Une Cantate de Noël, Cello Concerto & Other Orchestral Works",
+      "artist": "BBC National Orchestra of Wales & Thierry Fischer",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:12:57.133Z"
+    },
+    "Vocal|110|4.47887|67.03724|br.Bar/Carmina QT. Notturno Op.47 Schoeck 24 Elegie Op.36": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e8/f4/5f/e8f45f49-1167-5c0f-b94e-4f70b358142f/886449642120.jpg/600x600bb.jpg",
+      "album": "Schoeck: Elegie, Op. 36",
+      "artist": "Christian Gerhaher, Heinz Holliger & Kammerorchester Basel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:00.788Z"
+    },
+    "Vocal|110|29.35445|67.04538|Abravanel Le roi David H.37b Honegger oratorio Janne d 㐴Arc au bucher": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/95/b2/63/95b263a6-0e4f-b66b-50ca-7434e03a1f8b/3760014197093.png/600x600bb.jpg",
+      "album": "Honegger: Jeanne d'Arc au bûcher",
+      "artist": "Orquestra Simfònica de Barcelona i Nacional de Catalunya, Marc Soustrot, Marion Cotillard & Xavier Gallais",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:04.640Z"
+    },
+    "Vocal|111|5.39587|14.49804|Boccherini Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5e/ee/37/5eee37da-57cc-a62c-4dfc-fa0d6874f23e/5414939986390_cover.jpg/600x600bb.jpg",
+      "album": "Boccherini: Stabat Mater, Symphonies",
+      "artist": "Ensemble 415, Agnès Mellon & Chiara Banchini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:12.779Z"
+    },
+    "Vocal|111|5.39587|41.10547|Banchini Stabat Mater Boccherini Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/f2/3b/eaf23bef-e3e5-39d3-7973-dd8c65583596/24UMGIM01676.rgb.jpg/600x600bb.jpg",
+      "album": "Boccherini & Astorga: Stabat Maters",
+      "artist": "The King's Consort & Robert King",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:19.536Z"
+    },
+    "Vocal|111|5.39587|67.58987|king Stabat Mater Salieri Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/3a/07/c53a0785-0495-e2e5-525f-8689e2d2785c/3770011431861.png/600x600bb.jpg",
+      "album": "Mozart & Salieri: Requiem",
+      "artist": "Hervé Niquet & Le Concert Spirituel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:24.501Z"
+    },
+    "Vocal|111|29.88705|14.65543|Brunetti Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/91/72/23/mzi.bzmcypta.jpg/600x600bb.jpg",
+      "album": "Brunetti, G.G.: Stabat Mater",
+      "artist": "Elena Mosuc, Turicum Ensemble, Choralchor & Luiz Alves da Silva",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:28.469Z"
+    },
+    "Vocal|111|29.84277|41.08772|Turicum Stabat Mater Gasparini Stabat Mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/7a/ea/mzi.tdxvvitx.jpg/600x600bb.jpg",
+      "album": "Stabat Mater",
+      "artist": "Stradivaria, Daniel Cuiller, Isabelle Poulenard, Isabelle Desrochers & Martin Oro",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:32.004Z"
+    },
+    "Vocal|111|28.74119|67.93651|Stradivaria Ensemble Stabat Mater Jommelli Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/9e/34/2c/9e342cab-3166-0fda-17f2-a31d04f6420a/5425004840769.jpg/600x600bb.jpg",
+      "album": "Jommelli: Missa pro Defunctis, Libera me & Miserere",
+      "artist": "Il Gardellino & Peter van Heyghen",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:35.025Z"
+    },
+    "Vocal|111|54.74884|41.03503|Muti Requiem d minor Cherubini Mass No.5 d minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1b/7c/45/1b7c4520-a337-7ccf-6372-612da55706e4/5026854784434.jpg/600x600bb.jpg",
+      "album": "Cherubini: Masses, Overtures & Motets",
+      "artist": "Riccardo Muti",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:44.680Z"
+    },
+    "Vocal|111|79.61425|14.62825|Cherubini Requiem c minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/15/40/5e/15405ea2-61ef-f580-90d7-2e1b3a17fef0/cover.jpg/600x600bb.jpg",
+      "album": "Cherubini: Requiem - In Paradisum",
+      "artist": "Christoph Spering, Das Neue Orchester & Chorus Musicus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:13:58.762Z"
+    },
+    "Vocal|111|79.5918|41.11361|Spering Requiem c minor Cherubini Requiem c minor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/51/cb/d6/51cbd61b-4469-8389-3acf-4a62712cf3c0/23UMGIM97020.rgb.jpg/600x600bb.jpg",
+      "album": "Cherubini: Requiem & Marche funèbre",
+      "artist": "Corydon Singers & Matthew Best",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:14:03.093Z"
+    },
+    "Vocal|112|4.4557|14.49804|Donizetti L 㑄elisir d㐴amore, opera": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/2993e0d8752ea5c9660222cee2b6f225/1000x1000-000000-80-0-0.jpg",
+      "album": "Donizetti: L'Elisir d'Amore",
+      "artist": "Joan Sutherland",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:14:16.602Z"
+    },
+    "Vocal|112|4.93291|41.10547|Bonynge L 㑄elisir d㐴amore, opera Donizetti opera Lucia di Lammermoor": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/66/e3/2966e36a-323a-46d3-79fa-5fa423852ef2/00028947865322.rgb.jpg/600x600bb.jpg",
+      "album": "Donizetti: Lucia di Lammermoor",
+      "artist": "Luciano Pavarotti, Richard Bonynge, Orchestra of the Royal Opera House, Dame Joan Sutherland, Sherrill Milnes, Nicolai Ghiaurov & Chorus of the Royal Opera House, Covent Garden",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:14:33.755Z"
+    },
+    "Vocal|112|4.93291|67.58269|Bonynge Lucia di Lammermoor Donizetti opera La fille du régiment": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/21/4a/6d/214a6d69-d038-fcff-55e1-fc6fe7e39871/00028947865209.rgb.jpg/600x600bb.jpg",
+      "album": "Donizetti: La Fille du Régiment",
+      "artist": "Luciano Pavarotti, Richard Bonynge, Orchestra of the Royal Opera House, Dame Joan Sutherland, Monica Sinclair, Jules Bruyere & Chorus of the Royal Opera House, Covent Garden",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:14:36.674Z"
+    },
+    "Vocal|112|29.30727|14.49804|Donizetti L 㐴Ange de Nisida, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/14/2a/4e142ac2-5f37-20a9-2334-f0d25e7cf257/792938005843.jpg/600x600bb.jpg",
+      "album": "Donizetti: L'Ange de Nisida (Live)",
+      "artist": "Joyce El-Khoury, David Junghoon Kim, Orchestra of the Royal Opera House & Sir Mark Elder",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:14:39.657Z"
+    },
+    "Vocal|112|29.584|41.10547|Edler L 㐴Ange de Nisida, opera Donizetti opera Don Pasquale": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/90/26/0e/90260ebb-5999-3dd6-02fc-14b181507e70/0077774706858_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Donizetti: Don Pasquale",
+      "artist": "Ambrosian Opera Chorus, Gosta Winbergh, Guido Fabris, John Mordler, Mirella Freni, Philharmonia Orchestra & Riccardo Muti",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:14:43.495Z"
+    },
+    "Vocal|112|29.25492|67.50434|Muti Don Pasquale Donizetti Requiem": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/59/2f/0c/592f0c41-c888-2c20-d7d3-89f5f30de409/4011790172125.jpg/600x600bb.jpg",
+      "album": "Donizetti: Messa di Requiem",
+      "artist": "Chor der Bamberger Symphoniker, Miguel Ángel Gómez-Martínez & Bamberg Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:14:47.314Z"
+    },
+    "vocal-pdf-v1-112-539-148": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/47d82e384c22ac99460b717b338941fb/1000x1000-000000-80-0-0.jpg",
+      "album": "Tosti: L'alba sepàra dalla luce l'ombra (Transcr. Hazell)",
+      "artist": "Freddie De Tommaso",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:14:54.864Z"
+    },
+    "Vocal|112|53.77686|67.59081|t.Bjorling Ideale di Capua O Solemio": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/e3185f057def881d401f2649742f5d98/1000x1000-000000-80-0-0.jpg",
+      "album": "Spirito Italiano",
+      "artist": "Luciano Pavarotti",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:15:12.887Z"
+    },
+    "Vocal|112|78.58823|14.88867|de Curtis Torna a Surriento": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d5/e9/73/d5e9733a-78e4-b61c-2c32-8ac4c393e073/5099955936958_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Neapolitan Songs",
+      "artist": "Giuseppe di Stefano",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:15:20.405Z"
+    },
+    "Vocal|113|3.96991|23.46323|Petite Messe Solennelle Gioachino Rossini Immerseel Stabat mater": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/a8/bd/f0/mzi.adcxqxwu.jpg/600x600bb.jpg",
+      "album": "Rossini: Petite Messe Solennelle",
+      "artist": "Netherlands Chamber Choir & Jos van Immerseel",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:15:35.538Z"
+    },
+    "Vocal|113|18.57337|23.40001|Gioachino Rossini Creed": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/f5/03/87f50341-3d74-7cb5-1aa7-f68c2f616163/mzi.jbepelui.jpg/600x600bb.jpg",
+      "album": "Rossini: Petite Messe Solennelle",
+      "artist": "Marcus Creed & RIAS Kammerchor",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:16:40.029Z"
+    },
+    "Vocal|113|33.18312|23.53602|Messa di gloria Marriner Messe per Rossini": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/43/83/16438358-3b56-2241-c8f8-7a2689104a52/00028943413220.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: Messa di Gloria",
+      "artist": "Sumi Jo, Ann Murray, Francisco Araiza, Raúl Giménez, Samuel Ramey, Academy of St Martin in the Fields Chorus, Academy of St Martin in the Fields & Neville Marriner",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:16:42.926Z"
+    },
+    "Vocal|113|3.79699|48.06044|Stabat mater Immerseel Chung": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/29/e5/0b29e5ff-a2e8-bd9d-488c-fcf276321fac/00028944917826.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: Stabat Mater",
+      "artist": "Luba Orgonasova, Cecilia Bartoli, Dietrich D. Gerpheide, Chor der Wiener Staatsoper, Raúl Giménez, Myung-whun Chung, Roberto Scandiuzzi & Vienna Philharmonic",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:17:27.006Z"
+    },
+    "Vocal|113|17.16977|47.0748|Creed Il Barbiere di Siviglia opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fb/db/88/fbdb8899-fbd2-17d6-202f-6e0524a8d59c/00028941003423.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: Stabat Mater",
+      "artist": "Philharmonia Orchestra & Carlo Maria Giulini",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:18:56.602Z"
+    },
+    "vocal-pdf-v1-113-332-480": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/b09c0877e3aba4c8c900c235c3205208/1000x1000-000000-80-0-0.jpg",
+      "album": "Messa per Rossini",
+      "artist": "Riccardo Chailly",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:19:01.153Z"
+    },
+    "Vocal|113|3.87574|73.5776|Il Barbiere di Siviglia opera Chung Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/46/f3/1c46f36a-6b43-c240-f1b2-7de0bdc213eb/06UMGIM62530.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: Il barbiere di Siviglia",
+      "artist": "Claudio Abbado & London Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:19:06.337Z"
+    },
+    "Vocal|113|16.91111|73.66801|Il Barbiere di Siviglia opera Giulini Patane": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/ea/cc/b6eacc06-5e4c-b345-4056-3a61fdbbe080/00028942552029.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: Il Barbiere Di Siviglia",
+      "artist": "Leo Nucci, Cecilia Bartoli, Coro del Teatro Comunale di Bologna, Giuseppe Patanè & Orchestra del Teatro Comunale di Bologna",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:19:09.859Z"
+    },
+    "Vocal|113|53.70929|23.8012|La Cenerentola  opera Chailly L 㑄Italiana in Algeri opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/fc/4e/57fc4e2a-8d3a-8bc9-4eb3-b5cb046e1fe6/00028943690225.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: La Cenerentola",
+      "artist": "Cecilia Bartoli, Coro del Teatro Comunale di Bologna, Orchestra del Teatro Comunale di Bologna & Riccardo Chailly",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:19:23.168Z"
+    },
+    "vocal-pdf-v1-113-544-481": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/04/1d/fa/041dfa9a-c135-17bf-25e9-f5134c89ff3f/00028942733121.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: the Italian Girl in Algiers",
+      "artist": "Vienna Philharmonic & Agnes Baltsa",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:19:36.615Z"
+    },
+    "Vocal|113|66.17947|48.1855|L 㑄Italiana in Algeri opera Abbado Varviso": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/69/9a/d3/699ad379-24f8-e4e0-7820-e22130782765/00028941782823.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: L'Italiana in Algeri (2 CDs)",
+      "artist": "Teresa Berganza, Orchestra del Maggio Musicale Fiorentino, Silvio Varviso, Luigi Alva, Fernando Corena, Rolando Panerai & Coro del Maggio Musicale Fiorentino",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:19:41.132Z"
+    },
+    "Vocal|113|53.52557|73.37419|Guillaume Tell  opera Abbado Chailly": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/56/86/8c5686ca-cfe0-e7e5-4978-3df9bd608b55/00028941715425.rgb.jpg/600x600bb.jpg",
+      "album": "Rossini: Guglielmo Tell",
+      "artist": "Riccardo Chailly, Luciano Pavarotti, Mirella Freni, Sherrill Milnes, National Philharmonic Orchestra & Nicolai Ghiaurov",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:19:56.243Z"
+    },
+    "Vocal|113|83.00647|73.20847|opera Il Viaggio a Reims Abbado": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/13/5a/a3/135aa3ec-17cc-2e7a-e58d-d53f2ccbd87d/V4HttpAssetRepositoryClient-ticket.rrkkxhgm.jpg-7718443679751653058.jpg/600x600bb.jpg",
+      "album": "Rossini: Il Viaggio A Reims - Sony Opera House",
+      "artist": "Claudio Abbado",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:08.176Z"
+    },
+    "Vocal|114|4.98618|41.19076|Votto La vestale Cilea opera Adriana Lecouvreur": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/8b/12/cb8b12c7-e1f8-82eb-434b-b296a27bfa1d/00028943025621.rgb.jpg/600x600bb.jpg",
+      "album": "Cilea: Adriana Lecouvreur",
+      "artist": "Renata Tebaldi, Coro Dell'Accademia Nazionale Di Santa Cecilia, Mario del Monaco, Franco Capuana, Giulietta Simionato, Giulio Fioravanti & Orchestra dell'Accademia Nazionale di Santa Cecilia",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:18.508Z"
+    },
+    "Vocal|114|29.40358|14.62825|Ponchielli La Gioconda, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e3/eb/77/e3eb771e-ac7d-78a2-6645-6706c58180da/00028943377027.rgb.jpg/600x600bb.jpg",
+      "album": "Ponchielli: La Gioconda",
+      "artist": "Anita Cerquetti, Giulietta Simionato, Mario del Monaco, Ettore Bastianini, Coro del Maggio Musicale Fiorentino, Orchestra del Maggio Musicale Fiorentino & Gianandrea Gavazzeni",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:26.238Z"
+    },
+    "Vocal|114|29.59316|41.19076|Gavazzeni La Gioconda, opera Thomas Mignon, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7b/31/db/7b31db7d-1043-97da-08ac-f0e757a76454/V4HttpAssetRepositoryClient-ticket.xqmguimf.jpg-2267144964765773785.jpg/600x600bb.jpg",
+      "album": "Thomas: Mignon",
+      "artist": "Antonio de Almeida & Philharmonia Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:29.058Z"
+    },
+    "Vocal|114|28.94086|67.58268|Almeida Mignon, opera Catalani opera La Wally": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/ed/d2/c4/mzi.uphdnulv.jpg/600x600bb.jpg",
+      "album": "Catalini: La Wally - Gesamtaufnahme",
+      "artist": "Pinchas Steinberg, Munich Radio Orchestra & Bavarian Radio Chorus",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:33.668Z"
+    },
+    "Vocal|114|53.68162|14.62825|Bellini La Sonnambula, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3a/0f/3e/3a0f3e43-bf26-3fc3-f1ab-2697f2f641a0/00028944896626.rgb.jpg/600x600bb.jpg",
+      "album": "Bellini: La Sonnambula",
+      "artist": "Coro del Maggio Musicale Fiorentino, Dame Joan Sutherland, Orchestra del Maggio Musicale Fiorentino & Richard Bonynge",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:36.904Z"
+    },
+    "Vocal|114|54.04094|41.13884|Bonynge La Sonnambula, opera Bellini I Puritani, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ad/64/fe/ad64feeb-1a86-ee3d-3c61-1ab2b2647138/00028947865384.rgb.jpg/600x600bb.jpg",
+      "album": "Bellini: I Puritani",
+      "artist": "Luciano Pavarotti, London Symphony Orchestra, Richard Bonynge, Dame Joan Sutherland, Piero Cappuccilli & Nicolai Ghiaurov",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:40.761Z"
+    },
+    "Vocal|114|54.04094|67.32644|Bonynge I Puritani, opera Il pirata, opera Gavazzeni": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/9f/4a/32/9f4a3208-4737-a5ca-989c-cde333b33459/724356712157.jpg/600x600bb.jpg",
+      "album": "Bellini: Il Pirata",
+      "artist": "Gianandrea Gavazzeni & Coro e Orchestra della Radiotelevisione Italiana, Roma",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:43.411Z"
+    },
+    "Vocal|114|79.15726|14.80339|Bellini Norma, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/69/c4/2269c4de-00a7-2a58-0dce-b240a6c53596/00028941447623.rgb.jpg/600x600bb.jpg",
+      "album": "Bellini: Norma",
+      "artist": "Dame Joan Sutherland, Luciano Pavarotti, Montserrat Caballé, Richard Bonynge, Samuel Ramey & Welsh National Opera Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:20:46.160Z"
+    },
+    "Vocal|114|77.4474|41.2806|Bonynge Norma, opera Bellini Norma, opera": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/297b958fdd000968dbd2c68a9ed1e816/1000x1000-000000-80-0-0.jpg",
+      "album": "Bellini: Norma (Callas, Filippeschi) (1953)",
+      "artist": "Maria Callas",
+      "source": "Deezer",
+      "approvedAt": "2026-11-08T23:20:55.462Z"
+    },
+    "Vocal|114|79.13482|67.97331|Serafin Norma, opera Bellini Norma, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/c9/bc/73c9bcdb-e9a4-e1c9-4123-6fd2e1f684b3/13UMGIM43418.rgb.jpg/600x600bb.jpg",
+      "album": "Bellini: Norma",
+      "artist": "Cecilia Bartoli, Orchestra La Scintilla, Giovanni Antonini, John Osborn, Sumi Jo & Michele Pertusi",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:21:01.661Z"
+    },
+    "Vocal|115|4.69476|41.17057|Gavazzeni L 㐴amico Fritz Leoncavallo opera La Boheme, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/12/b3/00/12b30025-e2b3-4d0f-64f2-01a6aa7bf113/4011790023229.jpg/600x600bb.jpg",
+      "album": "Leoncavallo: La bohème",
+      "artist": "Lucia Popp, Franco Bonisolli, Alexandrina Milcheva, Bernd Weikl, Alan Titus, Munich Radio Orchestra & Heinz Wallberg",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:21:15.943Z"
+    },
+    "Vocal|115|4.82785|67.71289|Wallberg La Boheme, opera Giordano Siberia, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cb/35/0c/cb350ca3-306d-e3f9-22e2-4bbed0796b03/8007144079284.jpg/600x600bb.jpg",
+      "album": "Giordano: Siberia (Live)",
+      "artist": "Sonya Yoncheva, Giorgi Sturua, George Petean, Orchestra del Maggio Musicale Fiorentino & Gianandrea Noseda",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:21:19.194Z"
+    },
+    "Vocal|115|29.19008|14.49804|Mascagni opera Cavalleria Rusticana": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8b/95/21/8b9521a7-41e5-3e56-a221-dc0291c35e53/00028945776422.rgb.jpg/600x600bb.jpg",
+      "album": "Mascagni: Cavalleria Rusticana",
+      "artist": "Teatro Alla Scala Orchestra, Carlo Bergonzi, Herbert von Karajan & Fiorenza Cossotto",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:21:23.375Z"
+    },
+    "Vocal|115|29.24931|41.10547|Karajan Cavalleria Rusticana Mascagni opera Cavalleria Rusticana": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2e/99/ce/2e99ce87-936b-5049-36ca-ceb301aa5de8/00028942956827.rgb.jpg/600x600bb.jpg",
+      "album": "Mascagni: Cavalleria Rusticana",
+      "artist": "Agnes Baltsa, Philharmonia Orchestra, Chorus of the Royal Opera House, Covent Garden, Giuseppe Sinopoli, Juan Pons & Plácido Domingo",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:21:26.629Z"
+    },
+    "Vocal|115|51.46023|39.66534|Pradelli I Pagliacci, opera I Pagliacci, opera Karajan": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e3/30/58/e33058d9-eef7-268b-e6b1-b483a367ef23/00028944972726.rgb.jpg/600x600bb.jpg",
+      "album": "Leoncavallo: I Pagliacci",
+      "artist": "Carlo Bergonzi, Coro del Teatro alla Scala di Milano, Joan Carlyle, Giuseppe Taddei, Herbert von Karajan, Teatro Alla Scala Orchestra, Rolando Panerai & Ugo Benelli",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:21:47.580Z"
+    },
+    "Vocal|115|79.03171|14.62825|Giordano Andrea Chenier, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/e5/53/68e5530a-c25c-d485-604d-7f625f3a562a/00028941011725.rgb.jpg/600x600bb.jpg",
+      "album": "Giordano: Andrea Chénier",
+      "artist": "Luciano Pavarotti, Chorus of the Welsh National Opera, Leo Nucci, Montserrat Caballé, National Philharmonic Orchestra & Riccardo Chailly",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:21:55.513Z"
+    },
+    "Vocal|115|79.34696|67.71289|Capuana Adriana Lecouvreur Giordano Fedora, opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ca/c8/64/cac8645e-bb4b-0394-bcde-e7a46885fe1c/00028947831426.rgb.jpg/600x600bb.jpg",
+      "album": "Giordano: Fedora (Complete) - Zandonai: Francesca da Rimini [Highlights]",
+      "artist": "Magda Olivero, Mario del Monaco, Tito Gobbi, Choeurs National de l'Opéra de Monte-Carlo, Orchestre national de l'Opéra de Monte-Carlo & Lamberto Gardelli",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:22:05.516Z"
+    },
+    "vocal-pdf-v1-116-39-234": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/94/09/be/9409bee6-6c6b-5886-d46e-f45919029199/00028944214222.rgb.jpg/600x600bb.jpg",
+      "album": "Verdi: Requiem & Quattro Pezzi Sacri",
+      "artist": "Luba Orgonasova, Alastair Miles, Anne Sofie von Otter, John Eliot Gardiner, Luca Canonici, Monteverdi Choir & Orchestre Révolutionnaire et Romantique",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:22:09.164Z"
+    },
+    "vocal-pdf-v1-116-185-233": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6b/2f/78/6b2f780a-b574-6ee4-aaf5-81f7c2a2fd58/190295268282.jpg/600x600bb.jpg",
+      "album": "Verdi: Messa da Requiem",
+      "artist": "Carlo Maria Giulini & Philharmonia Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:22:12.914Z"
+    },
+    "Vocal|116|33.2417|23.54703|Karajan Ave Maria": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/14/24/3214248a-00d3-3507-3359-f66aa2f7ffa7/24UMGIM61401.rgb.jpg/600x600bb.jpg",
+      "album": "Verdi: Requiem",
+      "artist": "Mirella Freni, Christa Ludwig, Carlo Cossutta, Nicolai Ghiaurov, Wiener Singverein, Berlin Philharmonic Orchestra & Herbert von Karajan",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:22:21.541Z"
+    },
+    "Vocal|116|18.65788|48.00837|Quattro pezzi sacri Giulini Shaw": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bf/8d/96/bf8d96b6-2c0e-2c00-f3ae-9c381e5b6c01/22CRGIM32882.rgb.jpg/600x600bb.jpg",
+      "album": "Verdi: Quattro pezzi sacri - Stravinsky: Symphony of Psalms",
+      "artist": "Atlanta Symphony Orchestra Chorus, Atlanta Symphony Orchestra & Robert Shaw",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:22:35.211Z"
+    },
+    "Vocal|116|2.4792|71.71555|Sabata": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6b/ca/42/6bca428b-0801-68f1-9190-036108515d45/00028941051226.rgb.jpg/600x600bb.jpg",
+      "album": "Verdi: Nabucco",
+      "artist": "Orchester der Deutschen Oper Berlin & Giuseppe Sinopoli",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:22:46.902Z"
+    },
+    "Vocal|116|18.54364|73.66801|Shaw Muti": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/aa/82/9a/aa829aab-ea18-386a-4bd0-3d41b815eb0f/5099909489059.jpg/600x600bb.jpg",
+      "album": "Verdi: Nabucco",
+      "artist": "Riccardo Muti",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:22:51.016Z"
+    },
+    "vocal-pdf-v1-116-536-235": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/20/b0/8c20b0db-9320-a846-8194-cff7c7b6b0e0/00028948309429.rgb.jpg/600x600bb.jpg",
+      "album": "Verdi: Macbeth",
+      "artist": "Giuseppe Sinopoli, Orchester der Deutschen Oper Berlin, Renato Bruson, Mara Zampieri, Robert Lloyd, Neil Shicoff & Chor der Deutschen Oper Berlin",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-08T23:23:13.588Z"
+    },
+    "Vocal|133|5.2188|41.32097|Knussen Taverner, opera Maxwell Davies 8 Songs for a Mad King": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/3e/bd/bf/3ebdbf66-5726-4eb3-6ee6-91936d3fe74c/7332849149644.jpg/600x600bb.jpg",
+      "album": "Maxwell Davies: Miss Donnithorne's Maggot; Eight Songs for a Mad King",
+      "artist": "Various Artists",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T00:26:32.511Z"
+    },
+    "Vocal|133|5.42986|67.88346|Maxwell Davies 8 Songs for a Mad King Maxwell Davies Martyrdom St. Magnus": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/31/e2/f0/31e2f01b-0888-cd16-7090-329ddda00fc9/7332849149187.jpg/600x600bb.jpg",
+      "album": "Peter Maxwell Davies: The Martyrdom of St. Magnus, J. 143",
+      "artist": "Various Artists",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T00:26:36.513Z"
+    },
+    "Vocal|133|29.81194|14.41275|Weir opera A Night at the Chinese Opera": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d9/e5/6d/d9e56de3-f77d-be31-4a95-c3220f617dd1/5023363006026.png/600x600bb.jpg",
+      "album": "Judith Weir: A Night at the Chinese Opera (Live)",
+      "artist": "Gwion Thomas, Adey Grummet, Frances McCafferty, Adrian Thompson, Scottish Chamber Orchestra & Andrew Parrott",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T00:26:40.232Z"
+    },
+    "Vocal|133|29.87251|41.32097|Parrott A Night at the Chinese Opera Weir opera Blond Eckbert": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/df/c9/f7/dfc9f750-2940-a35a-35a3-e0c0c553c61b/5023363010627.png/600x600bb.jpg",
+      "album": "Blond Eckbert",
+      "artist": "Nerys Jones, Nicholas Folwell, Anne-Marie Owens, Christopher Ventris, English National Opera Orchestra & Sian Edwards",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T00:26:46.354Z"
+    },
+    "Vocal|134|5.0099|41.10547|Bernas Greek Birtwistle opera Gawain": {
+      "url": "https://cdn-images.dzcdn.net/images/cover/31baa5de2110d8caaf6345487edb3cf3/1000x1000-000000-80-0-0.jpg",
+      "album": "Harrison Birtwistle: Gawain (Live at the Royal Opera House, Covent Garden, London, 4/20/1994)",
+      "artist": "Marie Angel",
+      "source": "Deezer",
+      "approvedAt": "2026-11-09T00:27:44.629Z"
+    },
+    "Vocal|134|4.88684|14.62825|Turnage opera Greek": {
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e2/35/23/e235232d-d901-a62c-0f1e-7aee04f862e4/00028944036824.rgb.jpg/600x600bb.jpg",
+      "album": "Mark-Anthony Turnage: Greek",
+      "artist": "The Greek Ensemble, Helen Charnock, Fiona Kimm, Quentin Hayes, Richard Bernas & Richard Suart",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-09T00:27:49.646Z"
     }
   },
   "edits": {
@@ -52070,6 +54345,146 @@
       "performer": "Zagrosek",
       "searchQuery": "Ullmann opera Der Kaiser von Atlantis Zagrosek",
       "updatedAt": "2026-11-08T16:05:50.512Z"
+    },
+    "Vocal|140|4.42603|14.62825|Shaw To the Hands": {
+      "composer": "Shaw",
+      "work": "To the Hands",
+      "performer": "Crossing",
+      "searchQuery": "Shaw To the Hands Crossing",
+      "updatedAt": "2026-11-09T00:11:52.071Z"
+    },
+    "Vocal|140|4.2824|41.10547|Crossing To the Hands Lang The Little Match Girl Passion": {
+      "composer": "Lang",
+      "work": "The Little Match Girl Passion",
+      "performer": "Hillier",
+      "searchQuery": "Lang The Little Match Girl Passion Hillier",
+      "updatedAt": "2026-11-09T00:11:52.687Z"
+    },
+    "Vocal|140|4.22329|66.80142|Hillier Match Girl Passion A.Smith Requiem": {
+      "composer": "A.Smith",
+      "work": "Requiem",
+      "performer": "TrondheimSolistene",
+      "searchQuery": "Smith Requiem TrondheimSolistene",
+      "updatedAt": "2026-11-09T00:11:53.231Z"
+    },
+    "Vocal|140|28.45409|14.80337|Cooper Stabat Mater Dolorosa": {
+      "composer": "Cooper",
+      "work": "Stabat Mater Dolorosa",
+      "performer": "Spindel",
+      "searchQuery": "Cooper Stabat Mater Dolorosa Spindel",
+      "updatedAt": "2026-11-09T00:11:53.751Z"
+    },
+    "Vocal|140|28.45409|40.88996|Spindel Stabat Mater Dolorosa Lokumbe African Portraits": {
+      "composer": "Lokumbe",
+      "work": "African Portraits",
+      "performer": "Barenboim",
+      "searchQuery": "Lokumbe African Portraits Barenboim",
+      "updatedAt": "2026-11-09T00:11:54.375Z"
+    },
+    "Vocal|140|28.45409|66.80142|Barenboim African Portraits Proulx Community Mass": {
+      "composer": "Proulx",
+      "work": "Community Mass",
+      "performer": "Proulx",
+      "searchQuery": "Proulx Community Mass Proulx",
+      "updatedAt": "2026-11-09T00:11:55.559Z"
+    },
+    "Vocal|140|52.16774|14.57603|Yeston By the River": {
+      "composer": "Yeston",
+      "work": "By the River",
+      "performer": "s.Blackwell",
+      "searchQuery": "Yeston By the River Blackwell",
+      "updatedAt": "2026-11-09T00:11:56.387Z"
+    },
+    "Vocal|140|52.45871|40.84505|s.Blackwell By the River Puts opera The Hours": {
+      "composer": "Puts",
+      "work": "opera The Hours",
+      "performer": "Nezet-Seguin",
+      "searchQuery": "Puts opera The Hours Nezet Seguin",
+      "updatedAt": "2026-11-09T00:11:56.991Z"
+    },
+    "Vocal|140|52.16774|66.80142|Nezet ㎿Seguin The Hours Lauridsen Lux Aeterna": {
+      "composer": "Lauridsen",
+      "work": "Lux Aeterna",
+      "performer": "Matt",
+      "searchQuery": "Lauridsen Lux Aeterna Matt",
+      "updatedAt": "2026-11-09T00:11:57.551Z"
+    },
+    "Vocal|140|78.00294|14.62825|Bates opera The ㏙R㏚evolution of Steve Jobs": {
+      "composer": "Bates",
+      "work": "opera The (R)evolution of Steve Jobs",
+      "performer": "M.Christie",
+      "searchQuery": "Bates opera The R evolution of Steve Jobs Christie",
+      "updatedAt": "2026-11-09T00:11:58.055Z"
+    },
+    "Vocal|140|78.1006|40.84505|M.Christie The ㏙R㏚evolution of Steve Jobs Woolf A Music Storybook": {
+      "composer": "Woolf",
+      "work": "A Music Storybook",
+      "performer": "Morgan",
+      "searchQuery": "Woolf A Music Storybook Morgan",
+      "updatedAt": "2026-11-09T00:11:58.719Z"
+    },
+    "Vocal|140|78.1006|67.06184|Morgan A Music Storybook Temple Behind The Wallpaper": {
+      "composer": "Temple",
+      "work": "Behind The Wallpaper",
+      "performer": "s.Holter/Spektral QT.",
+      "searchQuery": "Temple Behind The Wallpaper Holter Spektral",
+      "updatedAt": "2026-11-09T00:11:59.375Z"
+    },
+    "Vocal|141|54.25319|14.62825|Villa ㎿Lobos Bachianas Brasileiras No.5": {
+      "composer": "Villa -Lobos",
+      "work": "Bachianas Brasileiras No.5",
+      "performer": "s.Hendricks/Batiz",
+      "searchQuery": "Lobos Bachianas Brasileiras 5 Hendricks Batiz",
+      "updatedAt": "2026-11-09T00:12:02.835Z"
+    },
+    "Vocal|141|54.25319|41.10547|s.Hendricks/Batiz Bachianas Brasileiras No.5 Villa ㎿Lobos Bachianas Brasileiras No.5": {
+      "composer": "Villa -Lobos",
+      "work": "Bachianas Brasileiras No.5",
+      "performer": "s.Sayao/Villa-Lobos",
+      "searchQuery": "Lobos Bachianas Brasileiras 5 Sayao Villa Lobos",
+      "updatedAt": "2026-11-09T00:12:03.766Z"
+    },
+    "Vocal|141|54.15554|67.58267|s.Sayao/Villa ㎿Lobos Bachianas Brasileiras No.5": {
+      "composer": "Villa -Lobos",
+      "work": "Bachianas Brasileiras No.5",
+      "performer": "s.Fleming/Thilson Tomas",
+      "searchQuery": "Lobos Bachianas Brasileiras 5 Fleming Thilson Tomas",
+      "updatedAt": "2026-11-09T00:12:04.286Z"
+    },
+    "Vocal|141|79.35085|14.60223|Villa ㎿Lobos Missa Sao Sebastiao": {
+      "composer": "Villa -Lobos",
+      "work": "Missa Sao Sebastiao",
+      "performer": "Best",
+      "searchQuery": "Lobos Missa Sao Sebastiao Best",
+      "updatedAt": "2026-11-09T00:12:04.987Z"
+    },
+    "Vocal|91|4.17554|42.57435|ms.Otter Mountain Maid Op.67 Grieg Last Spring Op.33/2": {
+      "composer": "Grieg",
+      "work": "Last Spring Op.33/2",
+      "performer": "s.Bonney",
+      "searchQuery": "Grieg Last Spring Bonney",
+      "updatedAt": "2026-11-09T00:12:46.327Z"
+    },
+    "Vocal|143|54.32079|41.11603|MusikFabrik Cantatrix Sopranica 진은숙 Le silence des Sirenes": {
+      "composer": "진은숙",
+      "work": "Le silence des Sirenes",
+      "performer": "Rattle",
+      "searchQuery": "Le silence des Sirenes Rattle",
+      "updatedAt": "2026-11-09T00:27:14.353Z"
+    },
+    "Vocal|134|5.0099|41.10547|Bernas Greek Birtwistle opera Gawain": {
+      "composer": "Birtwistle",
+      "work": "opera Gawain",
+      "performer": "Howarth",
+      "searchQuery": "Birtwistle opera Gawain Howarth",
+      "updatedAt": "2026-11-09T00:27:46.474Z"
+    },
+    "Vocal|94|18.55198|23.54328|Sinopoli": {
+      "composer": "Anton Dvorak",
+      "work": "Stabat Mater Op.58",
+      "performer": "Sinopoli",
+      "searchQuery": "Dvorak Stabat Mater Sinopoli",
+      "updatedAt": "2026-11-09T00:50:44.481Z"
     }
   },
   "favorites": {
