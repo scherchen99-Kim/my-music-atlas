@@ -953,8 +953,16 @@ function regions(g){
    const aust=name==='Deutsch / Austria';
    const needsNew=(name!==lastCountry)||(aust&&(era!==lastEra || i-segmentStart>=6));
    if(needsNew){
-     if(aust){austriaN++;vals.push({name:`Deutsch / Austria ${austriaN} · ${era||'Music'}`,i});}
-     else if(!vals.some(v=>v.name===name)){vals.push({name,i});}
+     const baroque=g==='Vocal'&&era==='Baroque';
+     let label=name;
+     if(aust){
+       austriaN++;
+       label=`Deutsch / Austria ${austriaN}${baroque?'':' · '+(era||'Music')}`;
+     }
+     if(baroque){
+       label='Baroque · '+label.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba');
+     }
+     if(!vals.some(v=>v.name===label))vals.push({name:label,i});
      segmentStart=i;
    }
    lastCountry=name;lastEra=era;
