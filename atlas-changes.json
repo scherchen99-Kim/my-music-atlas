@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-10T09:46:09.787Z",
+  "createdAt": "2026-11-10T10:05:44.684Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -71866,6 +71866,244 @@
       "performer": "Vanska",
       "searchQuery": "Aho Symphony 7 Vanska",
       "updatedAt": "2026-11-10T09:46:03.395Z"
+    },
+    "Symphonies|41|29.4332|68.2361|Kokonen 1 Kamu": {
+      "composer": "Kokonen",
+      "work": "Symphony No. 1",
+      "performer": "Kamu",
+      "searchQuery": "Kokonen Symphony 1 Kamu",
+      "updatedAt": "2026-11-10T09:46:32.728Z"
+    },
+    "Symphonies|42|4.1945|41.0903|Kraus c minor Concerto Koln": {
+      "composer": "Kraus",
+      "work": "Symphony c minor",
+      "performer": "Concerto Koln",
+      "searchQuery": "Kraus Symphony Concerto Koln",
+      "updatedAt": "2026-11-10T09:55:16.497Z"
+    },
+    "Symphonies|42|4.3796|67.9305|Kraus D Major Concerto Koln": {
+      "composer": "Kraus",
+      "work": "Symphony D Major",
+      "performer": "Concerto Koln",
+      "searchQuery": "Kraus Symphony Concerto Koln",
+      "updatedAt": "2026-11-10T09:55:17.438Z"
+    },
+    "Symphonies|42|28.9925|14.5193|Heinsius 1 Akatsu": {
+      "composer": "Heinsius",
+      "work": "Symphony No.1",
+      "performer": "Akatsu",
+      "searchQuery": "Heinsius Symphony 1 Akatsu",
+      "updatedAt": "2026-11-10T09:55:18.662Z"
+    },
+    "Symphonies|42|28.8723|41.3838|Lindblad 1 Korsten": {
+      "composer": "Lindblad",
+      "work": "Symphony No.1",
+      "performer": "Korsten",
+      "searchQuery": "Lindblad Symphony 1 Korsten",
+      "updatedAt": "2026-11-10T09:55:19.442Z"
+    },
+    "Symphonies|42|28.6567|67.9213|Eggert 2 Korsten": {
+      "composer": "Eggert",
+      "work": "Symphony No.2",
+      "performer": "Korsten",
+      "searchQuery": "Eggert Symphony 2 Korsten",
+      "updatedAt": "2026-11-10T09:55:20.430Z"
+    },
+    "Symphonies|42|53.7281|14.7775|Berwald 4 Salonen": {
+      "composer": "Berwald",
+      "work": "Symphony No.4",
+      "performer": "Salonen",
+      "searchQuery": "Berwald Symphony 4 Salonen",
+      "updatedAt": "2026-11-10T09:55:21.462Z"
+    },
+    "Symphonies|42|53.7295|41.4777|Peterson㎿Berger Jurowski": {
+      "composer": "Peterson-Berger",
+      "work": "Symphony No.2",
+      "performer": "Jurowski",
+      "searchQuery": "Berger Symphony 2 Jurowski",
+      "updatedAt": "2026-11-10T09:55:29.966Z"
+    },
+    "Symphonies|42|53.7014|67.7347|Peterson㎿Berger Jurowski": {
+      "composer": "Peterson-Berger",
+      "work": "Symphony No.3",
+      "performer": "Jurowski",
+      "searchQuery": "Berger Symphony 3 Jurowski",
+      "updatedAt": "2026-11-10T09:55:27.356Z"
+    },
+    "Symphonies|42|78.9001|14.581|Stenhammar 2 N.Jarvi": {
+      "composer": "Stenhammar",
+      "work": "Symphony No.2",
+      "performer": "N.Jarvi",
+      "searchQuery": "Stenhammar Symphony 2 Jarvi",
+      "updatedAt": "2026-11-10T09:55:34.413Z"
+    },
+    "Symphonies|42|78.8275|41.3444|Norman 3 Gustavsson": {
+      "composer": "Norman",
+      "work": "Symphony No.3",
+      "performer": "Gustavsson",
+      "searchQuery": "Norman Symphony 3 Gustavsson",
+      "updatedAt": "2026-11-10T09:55:35.359Z"
+    },
+    "Symphonies|42|78.8275|67.8672|Svendsen 1 Dausgaard": {
+      "composer": "Svendsen",
+      "work": "Symphony No.1",
+      "performer": "Dausgaard",
+      "searchQuery": "Svendsen Symphony 1 Dausgaard",
+      "updatedAt": "2026-11-10T09:55:40.060Z"
+    },
+    "Symphonies|43|4.1274|20.3|Kurt Atterberg 2 Westerberg": {
+      "composer": "Atteberg",
+      "work": "Symphony No.2",
+      "performer": "Westerberg",
+      "searchQuery": "Atterberg 2 Westerberg",
+      "updatedAt": "2026-11-10T09:57:34.426Z"
+    },
+    "Symphonies|43|18.5822|20.8692|Kurt Atterberg 3 Rasilainen": {
+      "composer": "Atteberg",
+      "work": "Symphony No.3",
+      "performer": "Rasilainen",
+      "searchQuery": "Atterberg 3 Rasilainen",
+      "updatedAt": "2026-11-10T09:57:42.740Z"
+    },
+    "Symphonies|43|32.8408|20.88|Kurt Atterberg 3 Oskamp": {
+      "composer": "Atteberg",
+      "work": "Symphony No.3",
+      "performer": "Oskamp",
+      "searchQuery": "Atterberg 3 Oskamp",
+      "updatedAt": "2026-11-10T09:57:49.102Z"
+    },
+    "Symphonies|43|4.0661|45.5731|Kurt Atterberg 4 Rasilainen": {
+      "composer": "Atteberg",
+      "work": "Symphony No.4",
+      "performer": "Rasilainen",
+      "searchQuery": "Atterberg 4 Rasilainen",
+      "updatedAt": "2026-11-10T09:57:55.381Z"
+    },
+    "Symphonies|43|18.4826|45.5425|Kurt Atterberg 5 Rasilainen": {
+      "composer": "Atteberg",
+      "work": "Symphony No.5",
+      "performer": "Rasilainen",
+      "searchQuery": "Atterberg 5 Rasilainen",
+      "updatedAt": "2026-11-10T09:58:00.902Z"
+    },
+    "Symphonies|43|32.8934|45.5731|Kurt Atterberg 5 Westerberg": {
+      "composer": "Atteberg",
+      "work": "Symphony No.5",
+      "performer": "Westerberg",
+      "searchQuery": "Atterberg 5 Westerberg",
+      "updatedAt": "2026-11-10T09:58:07.894Z"
+    },
+    "Symphonies|43|4.2729|69.9271|Kurt Atterberg Symphony 6 Hirokami": {
+      "composer": "Atteberg",
+      "work": "Symphony No.6",
+      "performer": "Hirokami",
+      "searchQuery": "Atterberg 6 Hirokami",
+      "updatedAt": "2026-11-10T09:58:17.615Z"
+    },
+    "Symphonies|43|18.7621|70.0418|Kurt Atterberg 7 N.Jarvi": {
+      "composer": "Atteberg",
+      "work": "Symphony No.7",
+      "performer": "N.Jarvi",
+      "searchQuery": "Atterberg 7 Jarvi",
+      "updatedAt": "2026-11-10T09:58:23.798Z"
+    },
+    "Symphonies|43|33.0077|70.0418|Kurt Atterberg 8 Rasilainen": {
+      "composer": "Atteberg",
+      "work": "Symphony No.8",
+      "performer": "Rasilainen",
+      "searchQuery": "Atterberg 8 Rasilainen",
+      "updatedAt": "2026-11-10T09:58:29.849Z"
+    },
+    "Symphonies|43|54.3861|14.9|Kurt Atterberg Alfven 전집 N.Jarvi": {
+      "composer": "Alfven",
+      "work": "Symphony 전집",
+      "performer": "N.Jarvi",
+      "searchQuery": "Alfven Jarvi",
+      "updatedAt": "2026-11-10T09:58:46.505Z"
+    },
+    "Symphonies|43|79.2026|14.9168|Kurt Atterberg Rangstrom 3 Furst": {
+      "composer": "Rangstrom",
+      "work": "Symphony No.3",
+      "performer": "Furst",
+      "searchQuery": "Rangstrom 3 Furst",
+      "updatedAt": "2026-11-10T09:58:51.918Z"
+    },
+    "Symphonies|43|54.3948|41.5985|Kurt Atterberg Alfven 2 Segerstam": {
+      "composer": "Alfven",
+      "work": "Symphony No.2",
+      "performer": "Segerstam",
+      "searchQuery": "Alfven 2 Segerstam",
+      "updatedAt": "2026-11-10T09:58:56.526Z"
+    },
+    "Symphonies|43|79.1193|41.5497|Kurt Atterberg Olsson c minor Liljefors": {
+      "composer": "Olsson",
+      "work": "Symphony c minor",
+      "performer": "Liljefors",
+      "searchQuery": "Olsson Symphony Liljefors",
+      "updatedAt": "2026-11-10T09:59:00.085Z"
+    },
+    "Symphonies|43|54.32|69.8584|Kurt Atterberg Alfven 4 Westerberg": {
+      "composer": "Alfven",
+      "work": "Symphony No.4",
+      "performer": "Westerberg",
+      "searchQuery": "Alfven Symphony 4 Westerberg",
+      "updatedAt": "2026-11-10T09:59:01.102Z"
+    },
+    "Symphonies|43|79.1215|70.0269|Kurt Atterberg Rosenberg 3 Venzago": {
+      "composer": "Rosenberg",
+      "work": "Symphony No.3",
+      "performer": "Venzago",
+      "searchQuery": "Rosenberg Symphony 3 Venzago",
+      "updatedAt": "2026-11-10T09:59:02.917Z"
+    },
+    "Symphonies|44|4.1274|20.777|Allan Pettersson 5 Markiz": {
+      "composer": "Pettersson",
+      "work": "Symphony No.5",
+      "performer": "Markiz",
+      "searchQuery": "Pettersson 5 Markiz",
+      "updatedAt": "2026-11-10T10:00:35.127Z"
+    },
+    "Symphonies|44|18.6049|20.8483|Allan Pettersson 5 Lindberg": {
+      "composer": "Pettersson",
+      "work": "Symphony No.5",
+      "performer": "Lindberg",
+      "searchQuery": "Pettersson 5 Lindberg",
+      "updatedAt": "2026-11-10T10:00:27.127Z"
+    },
+    "Symphonies|44|32.886|20.8474|Allan Pettersson 6 Trojahn": {
+      "composer": "Pettersson",
+      "work": "Symphony No.6",
+      "performer": "Trojahn",
+      "searchQuery": "Pettersson 6 Trojahn",
+      "updatedAt": "2026-11-10T10:00:16.193Z"
+    },
+    "Symphonies|44|3.8714|45.5114|Allan Pettersson 6 Lindberg": {
+      "composer": "Pettersson",
+      "work": "Symphony No.6",
+      "performer": "Lindberg",
+      "searchQuery": "Pettersson 6 Lindberg",
+      "updatedAt": "2026-11-10T10:00:02.342Z"
+    },
+    "Symphonies|44|18.3239|45.5731|Allan Pettersson 7 Segerstam": {
+      "composer": "Pettersson",
+      "work": "Symphony No.7",
+      "performer": "Segerstam",
+      "searchQuery": "Pettersson 7 Segerstam",
+      "updatedAt": "2026-11-10T09:59:51.246Z"
+    },
+    "Symphonies|44|32.7404|45.5731|Allan Pettersson 7 Lindberg": {
+      "composer": "Pettersson",
+      "work": "Symphony No.7",
+      "performer": "Lindberg",
+      "searchQuery": "Pettersson 7 Lindberg",
+      "updatedAt": "2026-11-10T09:59:37.953Z"
+    },
+    "Symphonies|44|3.7369|69.7989|Allan Pettersson 8 Sanderling": {
+      "composer": "Wiren",
+      "work": "3",
+      "performer": "Gamba",
+      "searchQuery": "Wiren 3 Gamba",
+      "updatedAt": "2026-11-10T09:59:27.391Z"
     }
   },
   "favorites": {
@@ -73006,6 +73244,23 @@
       "Solo|10|82.87479|73.43064|No.21 C Op.53 Piano Sonata p.Gieles",
       "Solo|10|68.10265|47.80568|p.Gulda Piano Sonata No.17 d minor Op.31/2",
       "manual-1794055197292-i9p1e"
+    ],
+    "Symphonies|44": [
+      "Symphonies|44|4.1274|20.777|Allan Pettersson 5 Markiz",
+      "Symphonies|44|18.6049|20.8483|Allan Pettersson 5 Lindberg",
+      "Symphonies|44|32.886|20.8474|Allan Pettersson 6 Trojahn",
+      "Symphonies|44|3.8714|45.5114|Allan Pettersson 6 Lindberg",
+      "Symphonies|44|18.3239|45.5731|Allan Pettersson 7 Segerstam",
+      "Symphonies|44|32.7404|45.5731|Allan Pettersson 7 Lindberg",
+      "Symphonies|44|18.3687|69.8865|Allan Pettersson 8 Segerstam",
+      "Symphonies|44|32.9863|69.9272|Allan Pettersson 9 Lindberg",
+      "Symphonies|44|54.4693|14.7084|Allan Pettersson Blomdal 3 Ahronovitch",
+      "Symphonies|44|3.7369|69.7989|Allan Pettersson 8 Sanderling",
+      "Symphonies|44|79.0253|14.719|Allan Pettersson Eliasson 3 Oramo",
+      "Symphonies|44|54.5356|41.4519|Allan Pettersson Larsson 3 Franck",
+      "Symphonies|44|79.0997|41.3405|Allan Pettersson Melchers d minor Martin",
+      "Symphonies|44|54.7145|68.1689|Allan Pettersson Wiren 3 Gamba",
+      "Symphonies|44|78.8525|68.0632|Allan Pettersson Nystroem Sinfonia del mare Konig"
     ]
   }
 }
