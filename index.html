@@ -1131,7 +1131,7 @@ function refreshEditedSelection(){
  const label=makeAlbumLabel(a.q,g,p,a);
  $('albumName').replaceChildren(label);
  $('albumName').querySelector('.album-label').classList.add('atlas-dialog-label');
- $('queryValue').value=searchTextFor(a,g,p);
+ $('queryValue').value=atlasStripOpera(searchTextFor(a,g,p));
  if(hdEligible(g,p))$('hdQuery').value=searchTextFor(a,g,p);
  if(searchMode)drawSearchPage();else if(genre===g)renderCovers();
 }
@@ -1723,18 +1723,20 @@ function selectAlbum(a,src,fromGenre=genre,fromPage=page){
  $('metadataEditor').hidden=true;
  $('newAlbumEditor').hidden=true;
  $('saveOptions').hidden=true;
- $('queryValue').value=searchTextFor(a,fromGenre,fromPage);
+ $('queryValue').value=atlasStripOpera(searchTextFor(a,fromGenre,fromPage));
  $('message').textContent='';
  $('albumModal').classList.add('open');document.body.style.overflow='hidden';
  updateModalAlbumNav();
 }
 function closeModal(){$('albumModal').classList.remove('open');document.body.style.overflow=''}
 window.addEventListener('pageshow',()=>{if(!document.getElementById('albumModal')?.classList.contains('open'))document.body.style.overflow='';});
-async function copyQ(stripOpera=false){
+function atlasStripOpera(search){
+ return search.replace(/opera/gi,' ').replace(/\s+/g,' ').trim();
+}
+async function copyQ(){
  if(!selected)return false;
  const field=$('queryValue');
- const search=selectedServiceSearch(field.value);
- const term=stripOpera?search.replace(/opera/gi,' ').replace(/\s+/g,' ').trim():search;
+ const term=atlasStripOpera(selectedServiceSearch(field.value));
  if(!term)return false;
  let ok=false;
  try{await navigator.clipboard.writeText(term);ok=true}catch(e){}
@@ -1759,20 +1761,20 @@ function atlasOpenService(url){
 }
 function openMusicPlayer(base,includeQuery=false){
  if(!selected)return;
- const term=selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p);
+ const term=atlasStripOpera(selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p));
  if(term)copyQ();
  atlasOpenService(includeQuery&&term?base+encodeURIComponent(term):base);
  $('message').textContent='검색어를 복사했어요. 음악 서비스에서 붙여넣어 주세요.';
 }
 function openMusicSearch(base){
  if(!selected)return;
- const term=selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p);
+ const term=atlasStripOpera(selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p));
  if(!term)return;
  copyQ();atlasOpenService(base+encodeURIComponent(term));
 }
 function openAppleMusic(){
  if(!selected)return;
- const term=selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p);
+ const term=atlasStripOpera(selectedServiceSearch($('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p));
  if(!term)return;
  copyQ();
  atlasOpenService('https://music.apple.com/kr/search?term='+encodeURIComponent(term));
@@ -1808,7 +1810,7 @@ let debounce;document.addEventListener('DOMContentLoaded',async()=>{
   alert.textContent='교향곡 데이터 파일을 불러오지 못했어요. index.html, albums.json, hd-covers.json, covers/ 폴더를 같은 저장소에 업로드하고 GitHub Pages HTTPS 주소로 열어주세요. '+e.message;
   document.body.append(alert);return;
  }
- renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(page-1);$('next').onclick=$('next2').onclick=()=>setPage(page+1);$('closeModal').onclick=closeModal;$('modalPrevAlbum').onclick=()=>modalBrowseAlbum(-1);$('modalNextAlbum').onclick=()=>modalBrowseAlbum(1);$('albumModal').onclick=e=>{e.stopPropagation()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('qobuz').onclick=()=>openMusicPlayer('https://play.qobuz.com/');$('tidal').onclick=()=>openMusicPlayer('https://listen.tidal.com/search?q=',true);$('copy').onclick=()=>copyQ(true);$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{const h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});const initialRoute=readHash();initialRoute?openGenre(initialRoute.g,initialRoute.p,false):showHome(false);});
+ renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(page-1);$('next').onclick=$('next2').onclick=()=>setPage(page+1);$('closeModal').onclick=closeModal;$('modalPrevAlbum').onclick=()=>modalBrowseAlbum(-1);$('modalNextAlbum').onclick=()=>modalBrowseAlbum(1);$('albumModal').onclick=e=>{e.stopPropagation()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('qobuz').onclick=()=>openMusicPlayer('https://play.qobuz.com/');$('tidal').onclick=()=>openMusicPlayer('https://listen.tidal.com/search?q=',true);$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{const h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});const initialRoute=readHash();initialRoute?openGenre(initialRoute.g,initialRoute.p,false):showHome(false);});
 
 document.addEventListener('DOMContentLoaded',()=>{
  $('editAlbumBtn').onclick=openAlbumEditor;
@@ -1942,7 +1944,7 @@ function atlasAutosaveFields(){
  if(old.composer===entry.composer&&old.work===entry.work&&old.performer===entry.performer&&(old.searchQuery||'')===entry.searchQuery)return;
  albumEdits[key]={...entry,updatedAt:new Date().toISOString()};
  try{localStorage.setItem(EDIT_STORAGE_KEY,JSON.stringify(albumEdits))}catch(e){}
- $('queryValue').value=searchTextFor(selected.a,selected.g,selected.p);
+ $('queryValue').value=atlasStripOpera(searchTextFor(selected.a,selected.g,selected.p));
  if($('hdQuery'))$('hdQuery').value=searchTextFor(selected.a,selected.g,selected.p);
  if(genre===selected.g&&page===selected.p&&!searchMode)renderCovers();
  $('atlasEditStatus').textContent='음반 정보 자동 저장됨 · 모든 작업 후 JSON만 한 번 내보내면 돼.';
