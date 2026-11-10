@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-10T01:45:39.436Z",
+  "createdAt": "2026-11-10T09:46:09.787Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -2664,11 +2664,11 @@
       "approvedAt": "2026-10-25T10:23:36.249Z"
     },
     "Symphonies|27|54.1227|14.9365|Grechaninov 1 Polyansky": {
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoAgMQWsGSsgJ9MBNpuZ5lk5OtS_9hcZQUnij5Pt0EPA&s",
+      "url": "https://m.media-amazon.com/images/I/51WYg++7GtL._UF1000,1000_QL80_.jpg",
       "album": "",
       "artist": "",
       "source": "Manual image URL",
-      "approvedAt": "2026-10-25T10:23:54.502Z"
+      "approvedAt": "2026-11-10T08:43:28.747Z"
     },
     "Symphonies|27|53.7574|42.1646|Taneyev 4 N.Jarvi": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/b5/4a/e6b54ab5-907b-ac7f-657e-9ec843a82049/5059864895333.png/600x600bb.jpg",
@@ -47070,6 +47070,13 @@
       "artist": "",
       "source": "Manual image URL",
       "approvedAt": "2026-11-10T01:44:14.649Z"
+    },
+    "Vocal|15|3.68808|23.65163|Weihnachtsoratorium BWV248 Johann Sebastian Bach Veldhoven Magnificat BWV243": {
+      "url": "https://img.hmv.co.jp/image/jacket/400/37/0/2/841.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-10T01:59:22.080Z"
     }
   },
   "edits": {
@@ -50199,15 +50206,15 @@
       "composer": "Rachmaninov",
       "work": "Symphony 전집",
       "performer": "Previn",
-      "searchQuery": "Rachmaninov Previn",
-      "updatedAt": "2026-10-28T02:37:27.871Z"
+      "searchQuery": "Rachmaninov Symphony Previn",
+      "updatedAt": "2026-11-10T08:44:18.639Z"
     },
     "Symphonies|28|18.4911|20.458|Sergei Rachmaninov 전집 Ashkenazy 1": {
       "composer": "Rachmaninov",
       "work": "Symphony 전집",
       "performer": "Ashkenazy",
-      "searchQuery": "Rachmaninov Ashkenazy",
-      "updatedAt": "2026-10-28T02:37:49.179Z"
+      "searchQuery": "Rachmaninov Symphony Ashkenazy",
+      "updatedAt": "2026-11-10T08:44:13.047Z"
     },
     "Symphonies|28|32.7656|20.786|Sergei Rachmaninov 1 Pletnev": {
       "composer": "Rachmaninov",
@@ -50220,8 +50227,8 @@
       "composer": "Rachmaninov",
       "work": "Symphony No.2",
       "performer": "I.Fischer",
-      "searchQuery": "Rachmaninov 2 I.Fischer",
-      "updatedAt": "2026-10-28T02:38:35.254Z"
+      "searchQuery": "Rachmaninov 2 Fischer",
+      "updatedAt": "2026-11-10T08:44:34.214Z"
     },
     "Symphonies|28|18.4179|44.9311|Sergei Rachmaninov 2 Svetlanov": {
       "composer": "Rachmaninov",
@@ -50288,31 +50295,31 @@
     },
     "Symphonies|28|67.469|45.0243|Alexander Scriabin 3 Sinopoli": {
       "composer": "Scriabin",
-      "work": "Symphony No.3 Sinopoli",
+      "work": "Symphony No.3",
       "performer": "Sinopoli",
       "searchQuery": "Scriabin 3 Sinopoli",
-      "updatedAt": "2026-10-28T02:43:08.712Z"
+      "updatedAt": "2026-11-10T08:44:53.593Z"
     },
     "Symphonies|28|81.5599|44.8945|Alexander Scriabin 3 Pletnev": {
       "composer": "Scriabin",
-      "work": "Symphony No.3 Pletnev",
+      "work": "Symphony No.3",
       "performer": "Pletnev",
       "searchQuery": "Scriabin 3 Pletnev",
-      "updatedAt": "2026-10-28T02:42:59.632Z"
+      "updatedAt": "2026-11-10T08:45:07.766Z"
     },
     "Symphonies|28|53.3124|71.8433|Alexander Scriabin Sverlanov r.Exton": {
       "composer": "Scriabin",
       "work": "Poème de l Extase",
       "performer": "Sverlanov r.Exton",
-      "searchQuery": "Scriabin Sverlanov",
-      "updatedAt": "2026-10-28T02:42:46.122Z"
+      "searchQuery": "Scriabin Symphony Sverlanov",
+      "updatedAt": "2026-11-10T08:45:17.534Z"
     },
     "Symphonies|28|68.6123|71.9465|Alexander Scriabin Muti": {
       "composer": "Scriabin",
       "work": "Poème de l Extase",
       "performer": "Muti",
-      "searchQuery": "Scriabin Muti",
-      "updatedAt": "2026-10-28T02:42:39.922Z"
+      "searchQuery": "Scriabin Symphony Muti",
+      "updatedAt": "2026-11-10T08:45:27.146Z"
     },
     "Symphonies|28|81.464|71.9978|Alexander Scriabin Ahronovitch r.Profil": {
       "composer": "Scriabin",
@@ -50324,23 +50331,23 @@
     "Symphonies|29|4.4954|20.8632|Dmitri Shostakovich 전집 Wigglesworth": {
       "composer": "Shostakovich",
       "work": "Symphony 전집",
-      "performer": "전집 Wigglesworth",
+      "performer": "Wigglesworth",
       "searchQuery": "Shostakovich Wigglesworth",
-      "updatedAt": "2026-10-28T02:58:49.751Z"
+      "updatedAt": "2026-11-10T08:45:56.096Z"
     },
     "Symphonies|29|18.7986|20.6891|Dmitri Shostakovich 전집 Kondrashin": {
       "composer": "Shostakovich",
       "work": "Symphony 전집",
-      "performer": "전집 Kondrashin",
+      "performer": "Kondrashin",
       "searchQuery": "Shostakovich Kondrashin",
-      "updatedAt": "2026-10-28T02:58:41.014Z"
+      "updatedAt": "2026-11-10T08:45:52.990Z"
     },
     "Symphonies|29|32.9917|20.777|Dmitri Shostakovich 전집 Kofman": {
       "composer": "Shostakovich",
       "work": "Symphony 전집",
-      "performer": "전집 Kofman",
+      "performer": "Kofman",
       "searchQuery": "Shostakovich Kofman",
-      "updatedAt": "2026-10-28T02:58:34.093Z"
+      "updatedAt": "2026-11-10T08:45:49.513Z"
     },
     "Symphonies|29|4.2907|44.8279|Dmitri Shostakovich 1 Wigglesworth": {
       "composer": "Shostakovich",
@@ -50513,16 +50520,16 @@
     "Symphonies|30|53.2107|20.786|Sergei Prokofiev 전집 N.Jarvi": {
       "composer": "Prokofiev",
       "work": "Symphony 전집",
-      "performer": "전집 N.Jarvi",
+      "performer": "N.Jarvi",
       "searchQuery": "Prokofiev Jarvi",
-      "updatedAt": "2026-10-28T02:55:35.039Z"
+      "updatedAt": "2026-11-10T08:46:43.232Z"
     },
     "Symphonies|30|67.504|20.786|Sergei Prokofiev 전집 Rozhdestvensky 1": {
       "composer": "Prokofiev",
       "work": "Symphony 전집",
-      "performer": "전집 Rozhdestvensky",
+      "performer": "Rozhdestvensky",
       "searchQuery": "Prokofiev Rozhdestvensky",
-      "updatedAt": "2026-10-28T02:55:28.656Z"
+      "updatedAt": "2026-11-10T08:46:46.766Z"
     },
     "Symphonies|30|81.6834|20.9405|Sergei Prokofiev 1 Karajan": {
       "composer": "Prokofiev",
@@ -50576,9 +50583,9 @@
     "Symphonies|31|4.2497|20.8688|Nikolai Myaskovsky 전집 Svetlanov": {
       "composer": "Myaskovsky",
       "work": "Symphony 전집",
-      "performer": "전집 Svetlanov",
+      "performer": "Svetlanov",
       "searchQuery": "Myaskovsky Svetlanov",
-      "updatedAt": "2026-10-28T02:54:07.597Z"
+      "updatedAt": "2026-11-10T08:46:57.575Z"
     },
     "Symphonies|31|18.5528|20.7826|Nikolai Myaskovsky 1 Rozhdestvensky": {
       "composer": "Myaskovsky",
@@ -50694,311 +50701,311 @@
     },
     "Symphonies|38|4.466|14.8674|Ivanovs 2 Yablonsky": {
       "composer": "Ivanovs",
-      "work": "2",
+      "work": "Symphony No.2",
       "performer": "Yablonsky",
       "searchQuery": "Ivanovs Yablonsky",
-      "updatedAt": "2026-11-04T09:05:58.058Z"
+      "updatedAt": "2026-11-10T09:38:08.824Z"
     },
     "Symphonies|38|4.537|41.27|Ivanovs 3 Villeruss": {
       "composer": "Ivanovs",
-      "work": "3",
+      "work": "Symphony No.3",
       "performer": "Villeruss",
       "searchQuery": "Ivanovs Villeruss",
-      "updatedAt": "2026-11-04T09:06:19.022Z"
+      "updatedAt": "2026-11-10T09:38:20.557Z"
     },
     "Symphonies|38|4.537|67.5107|Ivanovs 8 Sinaisky": {
       "composer": "Ivanovs",
-      "work": "8",
+      "work": "Symphony No.8",
       "performer": "Sinaisky",
       "searchQuery": "Ivanovs Sinaisky",
-      "updatedAt": "2026-11-04T09:06:43.058Z"
+      "updatedAt": "2026-11-10T09:38:27.592Z"
     },
     "Symphonies|38|29.4683|14.8341|Vasks 2 Kangas": {
       "composer": "Vasks",
-      "work": "2",
+      "work": "Symphony No.2",
       "performer": "Kangas",
       "searchQuery": "Vasks Kangas",
-      "updatedAt": "2026-11-04T09:06:49.778Z"
+      "updatedAt": "2026-11-10T09:38:31.699Z"
     },
     "Symphonies|38|29.4819|41.0183|Vasks 3 Storgards": {
       "composer": "Vasks",
-      "work": "3",
+      "work": "Symphony No.3",
       "performer": "Storgards",
       "searchQuery": "Vasks Storgards",
-      "updatedAt": "2026-11-04T09:06:58.519Z"
+      "updatedAt": "2026-11-10T09:38:36.299Z"
     },
     "Symphonies|38|29.4331|67.4724|Kenins 4 Kuzma": {
       "composer": "Kenins",
-      "work": "4",
+      "work": "Symphony No.4",
       "performer": "Kuzma",
       "searchQuery": "Kenins Kuzma",
-      "updatedAt": "2026-11-04T09:07:22.804Z"
+      "updatedAt": "2026-11-10T09:38:41.233Z"
     },
     "Symphonies|38|54.1365|14.6783|Kalnins 4 Rock Symphony Kalinis / K.Jarvi": {
       "composer": "Kalnins",
-      "work": "",
-      "performer": "4 Rock",
+      "work": "Symphony No.4 Rock",
+      "performer": "",
       "searchQuery": "Kalnins 4 Rock",
-      "updatedAt": "2026-11-04T09:08:09.563Z"
+      "updatedAt": "2026-11-10T09:39:08.788Z"
     },
     "Symphonies|38|53.6883|41.3351|Bajoras Symphony㎿Diptych Rinkeviclus": {
       "composer": "Bajoras",
-      "work": "",
-      "performer": "Symphony Diptych Rinkeviclus",
-      "searchQuery": "Bajoras Symphony Diptych Rinkeviclus",
-      "updatedAt": "2026-11-04T09:08:24.780Z"
+      "work": "Symphony - Diptych",
+      "performer": "Rinkeviclus",
+      "searchQuery": "Bajoras Symphony Rinkeviclus",
+      "updatedAt": "2026-11-10T09:39:46.832Z"
     },
     "Symphonies|38|78.39|14.8832|Balakauskas 4 Domarkas": {
       "composer": "Balakauskas",
-      "work": "4",
+      "work": "Symphony No.4",
       "performer": "Domarkas",
       "searchQuery": "Balakauskas Domarkas",
-      "updatedAt": "2026-11-04T09:09:13.714Z"
+      "updatedAt": "2026-11-10T09:40:17.732Z"
     },
     "Symphonies|38|78.2917|40.9973|Narbutaite Tres Dei Matris Symphoniae Servenikas": {
-      "composer": "Narbutaite Tres Dei",
-      "work": "",
-      "performer": "Matris Symphoniae Servenikas",
-      "searchQuery": "Narbutaite Tres Dei Matris Symphoniae Servenikas",
-      "updatedAt": "2026-11-04T09:09:17.551Z"
+      "composer": "Narbutaite",
+      "work": "Tres Dei Matris Symphoniae",
+      "performer": "Servenikas",
+      "searchQuery": "Narbutaite  Servenikas",
+      "updatedAt": "2026-11-10T09:40:52.164Z"
     },
     "Symphonies|38|78.4286|67.1092|Bacevicius 6 Staskus": {
       "composer": "Bacevicius",
-      "work": "6",
+      "work": "Symphony No.6",
       "performer": "Staskus",
       "searchQuery": "Bacevicius Staskus",
-      "updatedAt": "2026-11-04T09:09:26.350Z"
+      "updatedAt": "2026-11-10T09:41:02.912Z"
     },
     "Symphonies|39|4.2217|20.777|Jean Sibelius 전집 Vanska": {
       "composer": "Sibelius",
-      "work": "",
-      "performer": "전집 Vanska",
-      "searchQuery": "Jean Sibelius 전집 Vanska",
-      "updatedAt": "2026-11-04T09:10:29.083Z"
+      "work": "Symphony 전집",
+      "performer": "Vanska",
+      "searchQuery": "Sibelius Symphony Vanska",
+      "updatedAt": "2026-11-10T09:41:28.052Z"
     },
     "Symphonies|39|18.4531|20.7769|Jean Sibelius 전집 Bergulnd ECO": {
       "composer": "Sibelius",
-      "work": "",
-      "performer": "전집 Bergulnd ECO",
-      "searchQuery": "Jean Sibelius 전집 Bergulnd ECO",
-      "updatedAt": "2026-11-04T09:10:31.725Z"
+      "work": "Symphony 전집",
+      "performer": "Bergulnd ECO",
+      "searchQuery": "Sibelius Symphony Bergulnd",
+      "updatedAt": "2026-11-10T09:41:45.036Z"
     },
     "Symphonies|39|32.6906|20.9314|Jean Sibelius 전집 Sarasate Ondine": {
       "composer": "Sibelius",
-      "work": "",
-      "performer": "전집 Sarasate r.RCA",
-      "searchQuery": "Jean Sibelius 전집 Sarasate r.RCA",
-      "updatedAt": "2026-11-04T09:10:35.069Z"
+      "work": "Symphony 전집",
+      "performer": "Sarasate r.RCA",
+      "searchQuery": "Sibelius Symphony Sarasate",
+      "updatedAt": "2026-11-10T09:42:05.763Z"
     },
     "Symphonies|39|4.144|45.6092|Jean Sibelius 1 Rozhdestvensky": {
       "composer": "Sibelius",
-      "work": "1",
+      "work": "Symphony No.1",
       "performer": "Rozhdestvensky",
-      "searchQuery": "Jean Sibelius Rozhdestvensky",
-      "updatedAt": "2026-11-04T09:10:39.825Z"
+      "searchQuery": "Sibelius 1 Rozhdestvensky",
+      "updatedAt": "2026-11-10T09:42:14.604Z"
     },
     "Symphonies|39|18.4826|45.6091|Jean Sibelius 1 Davis LSO": {
       "composer": "Sibelius",
-      "work": "1",
+      "work": "Symphony No.1",
       "performer": "Davis LSO",
-      "searchQuery": "Jean Sibelius Davis LSO",
-      "updatedAt": "2026-11-04T09:10:42.418Z"
+      "searchQuery": "Sibelius 1 Davis",
+      "updatedAt": "2026-11-10T09:42:27.603Z"
     },
     "Symphonies|39|32.6032|45.6091|Jean Sibelius 2 Barbiroli r.chesky": {
       "composer": "Sibelius",
-      "work": "2",
+      "work": "Symphony No.2",
       "performer": "Barbiroli r.chesky",
-      "searchQuery": "Jean Sibelius Barbiroli r.chesky",
-      "updatedAt": "2026-11-04T09:10:45.753Z"
+      "searchQuery": "Sibelius 2 Barbiroli",
+      "updatedAt": "2026-11-10T09:42:38.484Z"
     },
     "Symphonies|39|4.1466|70.0934|Jean Sibelius 2 Bernstein WPO": {
       "composer": "Sibelius",
-      "work": "2",
+      "work": "Symphony No.2",
       "performer": "Bernstein WPO",
-      "searchQuery": "Jean Sibelius Bernstein WPO",
-      "updatedAt": "2026-11-04T09:10:48.734Z"
+      "searchQuery": "Sibelius 2 Bernstein",
+      "updatedAt": "2026-11-10T09:42:47.423Z"
     },
     "Symphonies|39|18.7009|70.0934|Jean Sibelius 3 Rouvali": {
       "composer": "Sibelius",
-      "work": "3",
+      "work": "Symphony No.3",
       "performer": "Rouvali",
-      "searchQuery": "Jean Sibelius Rouvali",
-      "updatedAt": "2026-11-04T09:10:51.354Z"
+      "searchQuery": "Sibelius 3 Rouvali",
+      "updatedAt": "2026-11-10T09:42:56.183Z"
     },
     "Symphonies|39|32.894|70.0934|Jean Sibelius 3 Vanska": {
       "composer": "Sibelius",
-      "work": "3",
+      "work": "Symphony No.3",
       "performer": "Vanska",
-      "searchQuery": "Jean Sibelius Vanska",
-      "updatedAt": "2026-11-04T09:10:54.717Z"
+      "searchQuery": "Sibelius 3 Vanska",
+      "updatedAt": "2026-11-10T09:43:05.140Z"
     },
     "Symphonies|39|53.461|20.8373|Jean Sibelius 4 Mekela OPO": {
       "composer": "Sibelius",
-      "work": "4",
+      "work": "Symphony No.4",
       "performer": "Mekela OPO",
-      "searchQuery": "Jean Sibelius Mekela OPO",
-      "updatedAt": "2026-11-04T09:10:57.434Z"
+      "searchQuery": "Sibelius 4 Mekela",
+      "updatedAt": "2026-11-10T09:43:14.492Z"
     },
     "Symphonies|39|67.6542|20.8373|Jean Sibelius 4 Berglund HPO": {
       "composer": "Sibelius",
-      "work": "4",
+      "work": "Symphony No.4",
       "performer": "Berglund HPO",
-      "searchQuery": "Jean Sibelius Berglund HPO",
-      "updatedAt": "2026-11-04T09:11:00.270Z"
+      "searchQuery": "Sibelius 4 Berglund",
+      "updatedAt": "2026-11-10T09:43:25.507Z"
     },
     "Symphonies|39|81.9323|20.8434|Jean Sibelius 5 Davis BSO": {
       "composer": "Sibelius",
-      "work": "5",
+      "work": "Symphony No.5",
       "performer": "Davis BSO",
-      "searchQuery": "Jean Sibelius Davis BSO",
-      "updatedAt": "2026-11-04T09:11:02.918Z"
+      "searchQuery": "Sibelius 5 Davis",
+      "updatedAt": "2026-11-10T09:43:36.036Z"
     },
     "Symphonies|39|53.4146|45.4429|Jean Sibelius 5 karajan BPO": {
       "composer": "Sibelius",
-      "work": "5",
+      "work": "Symphony No.5",
       "performer": "karajan BPO",
-      "searchQuery": "Jean Sibelius karajan BPO",
-      "updatedAt": "2026-11-04T09:11:05.558Z"
+      "searchQuery": "Sibelius 5 karajan",
+      "updatedAt": "2026-11-10T09:43:44.163Z"
     },
     "Symphonies|39|67.6346|45.4429|Jean Sibelius 6 Rouvali": {
       "composer": "Sibelius",
-      "work": "6",
+      "work": "Symphony No.6",
       "performer": "Rouvali",
-      "searchQuery": "Jean Sibelius Rouvali",
-      "updatedAt": "2026-11-04T09:11:08.518Z"
+      "searchQuery": "Sibelius 6 Rouvali",
+      "updatedAt": "2026-11-10T09:43:52.117Z"
     },
     "Symphonies|39|81.7803|45.3172|Jean Sibelius 6 Blomstedt": {
       "composer": "Sibelius",
-      "work": "6",
+      "work": "Symphony No.6",
       "performer": "Blomstedt",
-      "searchQuery": "Jean Sibelius Blomstedt",
-      "updatedAt": "2026-11-04T09:11:11.451Z"
+      "searchQuery": "Sibelius 6 Blomstedt",
+      "updatedAt": "2026-11-10T09:43:59.240Z"
     },
     "Symphonies|39|53.5363|70.0485|Jean Sibelius 7 Bernstein WPO": {
       "composer": "Sibelius",
-      "work": "7",
+      "work": "Symphony No.7",
       "performer": "Bernstein WPO",
-      "searchQuery": "Jean Sibelius Bernstein WPO",
-      "updatedAt": "2026-11-04T09:11:14.110Z"
+      "searchQuery": "Sibelius 7 Bernstein",
+      "updatedAt": "2026-11-10T09:44:10.092Z"
     },
     "Symphonies|39|67.63|69.9992|Jean Sibelius 7 Saraste r.RCA": {
       "composer": "Sibelius",
-      "work": "Kullervo",
+      "work": "Kullervo Symphony",
       "performer": "Davis LSO",
-      "searchQuery": "Kullervo Davis LSO",
-      "updatedAt": "2026-11-04T09:11:31.271Z"
+      "searchQuery": "Sibelius Kullervo Davis",
+      "updatedAt": "2026-11-10T09:44:30.125Z"
     },
     "Symphonies|39|81.9351|70.0393|Jean Sibelius Kullervo Davis LSO": {
       "composer": "Sibelius",
-      "work": "Kullervo",
+      "work": "Kullervo Symphony",
       "performer": "Berglund BSO",
-      "searchQuery": "Kullervo Berglund BSO",
-      "updatedAt": "2026-11-04T09:11:44.762Z"
+      "searchQuery": "Sibelius Kullervo Berglund",
+      "updatedAt": "2026-11-10T09:44:45.586Z"
     },
     "Symphonies|40|4.2958|15.3196|Mielck f minor Oramo": {
       "composer": "Mielck",
-      "work": "f minor",
+      "work": "Symphony f minor",
       "performer": "Oramo",
       "searchQuery": "Mielck Oramo",
-      "updatedAt": "2026-11-04T09:11:46.758Z"
+      "updatedAt": "2026-11-10T09:44:49.806Z"
     },
     "Symphonies|38|53.5296|67.4311|Balakauskas 2 Domarkas": {
       "composer": "Balakauskas",
-      "work": "2 Domarkas",
-      "performer": "",
-      "searchQuery": "Domarkas",
-      "updatedAt": "2026-11-04T09:12:12.957Z"
+      "work": "Symphony No.2",
+      "performer": "Domarkas",
+      "searchQuery": "Balakauskas Domarkas",
+      "updatedAt": "2026-11-10T09:40:11.143Z"
     },
     "Symphonies|37|78.8842|68.3597|Part 4 Salonen": {
       "composer": "Part",
-      "work": "4",
+      "work": "Symphony No.4",
       "performer": "Salonen",
       "searchQuery": "Part Salonen",
-      "updatedAt": "2026-11-04T09:12:19.275Z"
+      "updatedAt": "2026-11-10T09:37:48.508Z"
     },
     "Symphonies|37|78.8856|41.6955|Part 3 N.Jarvi": {
       "composer": "Part",
-      "work": "3",
+      "work": "Symphony No.3",
       "performer": "N.Jarvi",
-      "searchQuery": "Part N.Jarvi",
-      "updatedAt": "2026-11-04T09:12:19.907Z"
+      "searchQuery": "Part Jarvi",
+      "updatedAt": "2026-11-10T09:37:42.513Z"
     },
     "Symphonies|37|78.809|15.0937|Tuur 7 P.Jarvi": {
       "composer": "Tuur",
-      "work": "7",
+      "work": "Symphony No.7",
       "performer": "Jarvi",
       "searchQuery": "Tuur Jarvi",
-      "updatedAt": "2026-11-04T09:12:20.475Z"
+      "updatedAt": "2026-11-10T09:37:36.740Z"
     },
     "Symphonies|37|53.4603|68.383|Tubin 5 N.Jarvi": {
       "composer": "Tubin",
-      "work": "8",
+      "work": "Symphony No.8",
       "performer": "Volmer",
       "searchQuery": "Tubin Volmer",
-      "updatedAt": "2026-11-04T09:12:20.911Z"
+      "updatedAt": "2026-11-10T09:37:32.729Z"
     },
     "Symphonies|37|53.3738|41.7315|Tubin 4 N.Jarvi": {
       "composer": "Tubin",
-      "work": "4",
+      "work": "Symphony No.4",
       "performer": "N.Jarvi",
-      "searchQuery": "Tubin N.Jarvi",
-      "updatedAt": "2026-11-04T09:12:21.343Z"
+      "searchQuery": "Tubin Jarvi",
+      "updatedAt": "2026-11-10T09:37:27.735Z"
     },
     "Symphonies|37|53.5012|15.0799|Tubin 3 N.Jarvi": {
       "composer": "Tubin",
-      "work": "3",
+      "work": "Symphony No.3",
       "performer": "N.Jarvi",
-      "searchQuery": "Tubin N.Jarvi",
-      "updatedAt": "2026-11-04T09:12:21.623Z"
+      "searchQuery": "Tubin Jarvi",
+      "updatedAt": "2026-11-10T09:37:22.741Z"
     },
     "Symphonies|37|28.8319|68.3773|Sumera 6 P.Jarvi": {
       "composer": "Sumera",
-      "work": "6",
+      "work": "Symphony No.6",
       "performer": "Jarvi",
       "searchQuery": "Sumera Jarvi",
-      "updatedAt": "2026-11-04T09:12:21.920Z"
+      "updatedAt": "2026-11-10T09:37:16.113Z"
     },
     "Symphonies|37|28.4746|41.7715|Raid N.Jarvi": {
       "composer": "Raid",
-      "work": "",
+      "work": "Symphony",
       "performer": "N.Jarvi",
-      "searchQuery": "Raid N.Jarvi",
-      "updatedAt": "2026-11-04T09:12:22.203Z"
+      "searchQuery": "Raid Jarvi",
+      "updatedAt": "2026-11-10T09:37:10.124Z"
     },
     "Symphonies|37|28.8319|15.0303|N.Jarvi": {
       "composer": "Lemba",
-      "work": "N.Jarvi",
+      "work": "Symphony",
       "performer": "N.Jarvi",
-      "searchQuery": "N.Jarvi",
-      "updatedAt": "2026-11-04T09:14:26.705Z"
+      "searchQuery": "Lemba Jarvi",
+      "updatedAt": "2026-11-10T09:38:02.924Z"
     },
     "Symphonies|37|4.354|68.2753|Tamberg 1 Botschkowa": {
       "composer": "Tamberg",
-      "work": "1",
+      "work": "Symphony No.1",
       "performer": "Botschkowa",
       "searchQuery": "Tamberg Botschkowa",
-      "updatedAt": "2026-11-04T09:14:29.430Z"
+      "updatedAt": "2026-11-10T09:36:54.469Z"
     },
     "Symphonies|37|4.412|41.8574|V.Kapp 2 N.Jarvi": {
       "composer": "V.Kapp",
-      "work": "2",
+      "work": "Symphony No.2",
       "performer": "N.Jarvi",
-      "searchQuery": "V.Kapp N.Jarvi",
-      "updatedAt": "2026-11-04T09:14:33.289Z"
+      "searchQuery": "Kapp Jarvi",
+      "updatedAt": "2026-11-10T09:36:46.766Z"
     },
     "Symphonies|37|4.5207|14.9613|Eller 2 Elts": {
       "composer": "Eller",
-      "work": "2",
+      "work": "Symphony No.2",
       "performer": "Elts",
       "searchQuery": "Eller Elts",
-      "updatedAt": "2026-11-04T09:14:34.322Z"
+      "updatedAt": "2026-11-10T09:36:40.473Z"
     },
     "Symphonies|36|78.515|67.1284|Karayev 1 Yablonsky": {
       "composer": "Karayev",
-      "work": "1",
+      "work": "Symphony No.1",
       "performer": "Yablonsky",
       "searchQuery": "Karayev Yablonsky",
-      "updatedAt": "2026-11-04T09:14:35.262Z"
+      "updatedAt": "2026-11-10T09:36:32.444Z"
     },
     "Symphonies|32|4.0152|15.0338|Glazunov 전집 N.Jarvi": {
       "composer": "Glazunov",
@@ -51144,22 +51151,22 @@
       "composer": "B.Tchaikovsky",
       "work": "Symphony No.1",
       "performer": "Kondrashin",
-      "searchQuery": "B.Tchaikovsky Kondrashin",
-      "updatedAt": "2026-11-04T09:22:59.249Z"
+      "searchQuery": "Tchaikovsky Kondrashin",
+      "updatedAt": "2026-11-10T08:48:19.156Z"
     },
     "Symphonies|33|78.5656|41.2151|B.Tchaikovsky 3 Pedoseyev": {
       "composer": "B.Tchaikovsky",
       "work": "Symphony No.3",
       "performer": "Pedoseyev",
-      "searchQuery": "B.Tchaikovsky Pedoseyev",
-      "updatedAt": "2026-11-04T09:23:08.074Z"
+      "searchQuery": "Tchaikovsky Pedoseyev",
+      "updatedAt": "2026-11-10T08:48:21.220Z"
     },
     "Symphonies|33|78.5656|68.3888|B.Tchaikovsky Chamber Symphony Rudin": {
       "composer": "B.Tchaikovsky",
       "work": "Chamber Symphony",
       "performer": "Musica Viva",
-      "searchQuery": "B.Tchaikovsky Chamber",
-      "updatedAt": "2026-11-04T09:23:31.510Z"
+      "searchQuery": "Tchaikovsky Chamber",
+      "updatedAt": "2026-11-10T08:48:23.019Z"
     },
     "Symphonies|34|4.239|14.9382|Schnittke 전집 various": {
       "composer": "Schnittke",
@@ -71509,6 +71516,356 @@
       "performer": "Barmet",
       "searchQuery": "Wesley Symphony Barmet",
       "updatedAt": "2026-11-10T01:42:40.457Z"
+    },
+    "Symphonies|32|78.6985|15.0964|Stravinsky Symphony in Three Movement Tilson Tomas": {
+      "composer": "Stravinsky",
+      "work": "Symphony",
+      "performer": "in Three Movement Tilson Tomas",
+      "searchQuery": "Stravinsky Tilson Tomas",
+      "updatedAt": "2026-11-10T08:47:42.199Z"
+    },
+    "Symphonies|34|4.2314|68.5668|Schnittke 3 Jurowski": {
+      "composer": "Schnittke",
+      "work": "Symphony No.3",
+      "performer": "Jurowski",
+      "searchQuery": "Schnittke 3 Jurowski",
+      "updatedAt": "2026-11-10T08:48:39.683Z"
+    },
+    "Symphonies|34|29.58|14.96|Schnittke 7 Polyansky": {
+      "composer": "Schnittke",
+      "work": "Symphony No.7",
+      "performer": "Polyansky",
+      "searchQuery": "Schnittke 7 Polyansky",
+      "updatedAt": "2026-11-10T08:48:47.812Z"
+    },
+    "Symphonies|34|29.5072|41.5085|Tcherepnin 4 Shui": {
+      "composer": "Tcherepnin",
+      "work": "Symphony No.4",
+      "performer": "Shui",
+      "searchQuery": "Tcherepnin 4 Shui",
+      "updatedAt": "2026-11-10T08:48:56.236Z"
+    },
+    "Symphonies|34|29.4987|68.5315|Avshalomov 1 Avshalomov": {
+      "composer": "Avshalomov",
+      "work": "Symphony No.1",
+      "performer": "Avshalomov",
+      "searchQuery": "Avshalomov 1 Avshalomov",
+      "updatedAt": "2026-11-10T08:49:03.552Z"
+    },
+    "Symphonies|34|53.7936|14.7961|Silvestrov 5 Saraste": {
+      "composer": "Silvestrov",
+      "work": "Symphony No.5",
+      "performer": "Saraste",
+      "searchQuery": "Silvestrov 5 Saraste",
+      "updatedAt": "2026-11-10T08:49:23.783Z"
+    },
+    "Symphonies|34|53.6673|41.4715|Silvestrov 6 Kofman": {
+      "composer": "Silvestrov",
+      "work": "Symphony No.6",
+      "performer": "Kofman",
+      "searchQuery": "Silvestrov 6 Kofman",
+      "updatedAt": "2026-11-10T08:49:30.884Z"
+    },
+    "Symphonies|34|53.6556|67.6337|Ryabov 4 Ziva": {
+      "composer": "Ryabov",
+      "work": "Symphony No.4",
+      "performer": "Ziva",
+      "searchQuery": "Ryabov 4 Ziva",
+      "updatedAt": "2026-11-10T09:26:10.989Z"
+    },
+    "Symphonies|34|78.9669|14.6673|Denisov 1 Kawka": {
+      "composer": "Denisov",
+      "work": "Symphony No.1",
+      "performer": "Kawka",
+      "searchQuery": "Denisov 1 Kawka",
+      "updatedAt": "2026-11-10T09:26:25.177Z"
+    },
+    "Symphonies|34|78.7678|41.7019|A.Tchaikovsky 7 Vasiliev": {
+      "composer": "A.Tchaikovsky",
+      "work": "Symphony No.7",
+      "performer": "Vasiliev",
+      "searchQuery": "Tchaikovsky 7 Vasiliev",
+      "updatedAt": "2026-11-10T09:26:33.977Z"
+    },
+    "Symphonies|34|78.3717|67.8633|Shchedrin 2 Sinaisky": {
+      "composer": "Shchedrin",
+      "work": "Symphony No.2",
+      "performer": "Sinaisky",
+      "searchQuery": "Shchedrin 2 Sinaisky",
+      "updatedAt": "2026-11-10T09:26:39.082Z"
+    },
+    "Symphonies|35|4.5516|14.6895|Kancheli 3 Kakhidze": {
+      "composer": "Kancheli",
+      "work": "Symphony No.3",
+      "performer": "Kakhidze",
+      "searchQuery": "Kancheli 3 Kakhidze",
+      "updatedAt": "2026-11-10T09:26:44.541Z"
+    },
+    "Symphonies|35|4.7245|41.3756|Kancheli 4 DePreist": {
+      "composer": "Kancheli",
+      "work": "Symphony No.4",
+      "performer": "DePreist",
+      "searchQuery": "Kancheli 4 DePreist",
+      "updatedAt": "2026-11-10T09:26:49.417Z"
+    },
+    "Symphonies|35|4.7306|68.2578|Spoliansky Mann": {
+      "composer": "Spoliansky",
+      "work": "Symphony",
+      "performer": "Mann",
+      "searchQuery": "Spoliansky Mann",
+      "updatedAt": "2026-11-10T09:27:19.713Z"
+    },
+    "Symphonies|35|29.5498|14.8757|Artyomov A Symphony of Sondeckis": {
+      "composer": "Artyomov",
+      "work": "Symphony",
+      "performer": "",
+      "searchQuery": "Artyomov Symphony",
+      "updatedAt": "2026-11-10T09:27:43.109Z"
+    },
+    "Symphonies|35|29.5498|41.2523|Artyomov Ashkenazy": {
+      "composer": "Artyomov",
+      "work": "Symphony",
+      "performer": "Ashkenazy",
+      "searchQuery": "Artyomov Ashkenazy",
+      "updatedAt": "2026-11-10T09:27:50.416Z"
+    },
+    "Symphonies|35|29.518|68.28|Martynov Utopia Jurowski": {
+      "composer": "Martynov",
+      "work": "Utopia",
+      "performer": "Jurowski",
+      "searchQuery": "Martynov Utopia Jurowski",
+      "updatedAt": "2026-11-10T09:28:17.909Z"
+    },
+    "Symphonies|35|54.2162|14.9212|Eshpai 2 Ivanov": {
+      "composer": "Eshpai",
+      "work": "Symphony No.2",
+      "performer": "Ivanov",
+      "searchQuery": "Eshpai 2 Ivanov",
+      "updatedAt": "2026-11-10T09:28:22.009Z"
+    },
+    "Symphonies|35|54.2162|40.7479|Pavlova 2 Krimets": {
+      "composer": "Pavlova",
+      "work": "Symphony No.2",
+      "performer": "Krimets",
+      "searchQuery": "Pavlova 2 Krimets",
+      "updatedAt": "2026-11-10T09:28:31.360Z"
+    },
+    "Symphonies|35|53.8707|67.3989|Pavlova 3 Vedernikov": {
+      "composer": "Pavlova",
+      "work": "Symphony No.3",
+      "performer": "Vedernikov",
+      "searchQuery": "Pavlova 3 Vedernikov",
+      "updatedAt": "2026-11-10T09:28:37.417Z"
+    },
+    "Symphonies|35|78.9361|14.8644|Jurovski 5 Jurovski": {
+      "composer": "Jurovski",
+      "work": "Symphony No.5",
+      "performer": "Jurovski",
+      "searchQuery": "Jurovski 5 Jurovski",
+      "updatedAt": "2026-11-10T09:28:42.393Z"
+    },
+    "Symphonies|35|78.7038|41.3114|Ichmouratov On Ruins of an Ancient Tremblay": {
+      "composer": "Ichmouratov",
+      "work": "Symphony on the Ruins of an Ancient Fort Tremblay",
+      "performer": "Tremblay",
+      "searchQuery": "Ichmouratov Symphony",
+      "updatedAt": "2026-11-10T09:29:45.596Z"
+    },
+    "Symphonies|36|4.1361|14.3275|Lyatoshynsky 3 Karabits": {
+      "composer": "Lyatoshynsky",
+      "work": "Symphony No.3",
+      "performer": "Karabits",
+      "searchQuery": "Lyatoshynsky 3 Karabits",
+      "updatedAt": "2026-11-10T09:29:57.296Z"
+    },
+    "Symphonies|36|4.1361|41.514|Bortkiewicz 1 Brabbins": {
+      "composer": "Bortkiewicz",
+      "work": "Symphony No.1",
+      "performer": "Brabbins",
+      "searchQuery": "Bortkiewicz 1 Brabbins",
+      "updatedAt": "2026-11-10T09:30:05.433Z"
+    },
+    "Symphonies|36|4.1361|67.4185|Karamanov Let it Karamanov": {
+      "composer": "Karamanov",
+      "work": "Symphony Let it be",
+      "performer": "Karamanov",
+      "searchQuery": "Karamanov Symphony",
+      "updatedAt": "2026-11-10T09:30:32.024Z"
+    },
+    "Symphonies|36|28.7501|14.3925|Bruk 18 Kupcs": {
+      "composer": "Bruk",
+      "work": "Symphony No.18",
+      "performer": "Kupcs",
+      "searchQuery": "Bruk 18 Kupcs",
+      "updatedAt": "2026-11-10T09:31:31.413Z"
+    },
+    "Symphonies|36|28.9074|41.514|Khachaturian 2 Khachaturian": {
+      "composer": "Khachaturian",
+      "work": "Symphony No.2",
+      "performer": "Khachaturian",
+      "searchQuery": "Khachaturian 2",
+      "updatedAt": "2026-11-10T09:31:44.639Z"
+    },
+    "Symphonies|36|29.07|67.1475|Terterian 3 Kakhidze": {
+      "composer": "Terterian",
+      "work": "Symphony No.3",
+      "performer": "Kakhidze",
+      "searchQuery": "Terterian 3 Kakhidze",
+      "updatedAt": "2026-11-10T09:31:53.084Z"
+    },
+    "Symphonies|36|53.7357|14.4314|Hovhannisyan 3 Tjeknavorian": {
+      "composer": "Hovhannisyan",
+      "work": "Symphony No.3",
+      "performer": "Tjeknavorian",
+      "searchQuery": "Hovhannisyan 3 Tjeknavorian",
+      "updatedAt": "2026-11-10T09:31:59.539Z"
+    },
+    "Symphonies|36|53.558|39.7812|Yardumian 2 Shui": {
+      "composer": "Yardumian",
+      "work": "Symphony No.2",
+      "performer": "Shui",
+      "searchQuery": "Yardumian 2 Shui",
+      "updatedAt": "2026-11-10T09:32:07.514Z"
+    },
+    "Symphonies|36|53.7786|67.1475|Tjeknavorian 5 Tjeknavorian": {
+      "composer": "Tjeknavorian",
+      "work": "Symphony No.5",
+      "performer": "Tjeknavorian",
+      "searchQuery": "Tjeknavorian 5 Tjeknavorian",
+      "updatedAt": "2026-11-10T09:32:13.278Z"
+    },
+    "Symphonies|36|78.2264|14.388|Amirov Symphony Rozdestvensky": {
+      "composer": "Amirov",
+      "work": "Symphony",
+      "performer": "Rozdestvensky",
+      "searchQuery": "Amirov Symphony Rozdestvensky",
+      "updatedAt": "2026-11-10T09:32:28.713Z"
+    },
+    "Symphonies|36|78.4872|40.2994|Adigezalov Symphonic Mughams Adigezalov": {
+      "composer": "Adigezalov",
+      "work": "Symphonic Mughams Adigezalov",
+      "performer": "",
+      "searchQuery": "Adigezalov",
+      "updatedAt": "2026-11-10T09:32:47.306Z"
+    },
+    "symphonies-pdf-full-37-288-107": {
+      "composer": "Lemba",
+      "work": "Symphony No.1",
+      "performer": "N.Jarvi",
+      "searchQuery": "Lemba Symphony 1 Jarvi",
+      "updatedAt": "2026-11-10T09:37:04.213Z"
+    },
+    "Symphonies|40|4.4834|41.2241|Melartin 4 Grin": {
+      "composer": "Melartin",
+      "work": "Symphony No.4",
+      "performer": "Grin",
+      "searchQuery": "Melartin Symphony 4 Grin",
+      "updatedAt": "2026-11-10T09:45:07.634Z"
+    },
+    "Symphonies|40|4.5272|67.9098|Kaipainen 3 Lintu": {
+      "composer": "Kaipainen",
+      "work": "Symphony No.3",
+      "performer": "Lintu",
+      "searchQuery": "Kaipainen Symphony 3 Lintu",
+      "updatedAt": "2026-11-10T09:45:01.960Z"
+    },
+    "Symphonies|40|29.1395|15.0055|Klami 2 Ollila": {
+      "composer": "Klami",
+      "work": "Symphony No.2",
+      "performer": "Ollila",
+      "searchQuery": "Klami Symphony 2 Ollila",
+      "updatedAt": "2026-11-10T09:45:13.025Z"
+    },
+    "Symphonies|40|29.3368|41.2026|Klami Symphonie Enfantine Hynninen": {
+      "composer": "Klami",
+      "work": "Symphonie Enfantine",
+      "performer": "Hynninen",
+      "searchQuery": "Klami Hynninen",
+      "updatedAt": "2026-11-10T09:45:22.307Z"
+    },
+    "Symphonies|40|29.3182|67.659|Englund 2 Lilje": {
+      "composer": "Englund",
+      "work": "Symphony No.2",
+      "performer": "Lilje",
+      "searchQuery": "Englund Symphony 2 Lilje",
+      "updatedAt": "2026-11-10T09:45:25.539Z"
+    },
+    "Symphonies|40|53.9717|14.7724|Nordgren 2 Kangas": {
+      "composer": "Nordgren",
+      "work": "Symphony No.2",
+      "performer": "Kangas",
+      "searchQuery": "Nordgren Symphony 2 Kangas",
+      "updatedAt": "2026-11-10T09:45:29.308Z"
+    },
+    "Symphonies|40|53.9848|41.4655|Nordgren 3 Oramo": {
+      "composer": "Nordgren",
+      "work": "Symphony No.3",
+      "performer": "Oramo",
+      "searchQuery": "Nordgren Symphony 3 Oramo",
+      "updatedAt": "2026-11-10T09:45:31.708Z"
+    },
+    "Symphonies|40|54.0073|68.0933|Hameenniemi 1 Sarasate": {
+      "composer": "Hameenniemi",
+      "work": "Symphony No.1",
+      "performer": "Sarasate",
+      "searchQuery": "Hameenniemi Symphony 1 Sarasate",
+      "updatedAt": "2026-11-10T09:45:36.131Z"
+    },
+    "Symphonies|40|78.6706|14.8581|Rautavaara 1 Pommer": {
+      "composer": "Rautavaara",
+      "work": "Symphony No.1",
+      "performer": "Pommer",
+      "searchQuery": "Rautavaara Symphony 1 Pommer",
+      "updatedAt": "2026-11-10T09:45:39.436Z"
+    },
+    "Symphonies|40|78.6707|41.3542|Rautavaara 3 Segerstam": {
+      "composer": "Rautavaara",
+      "work": "Symphony No.3",
+      "performer": "Segerstam",
+      "searchQuery": "Rautavaara Symphony 3 Segerstam",
+      "updatedAt": "2026-11-10T09:45:42.468Z"
+    },
+    "Symphonies|40|78.7228|68.0105|Rautavaara 7 Vanska": {
+      "composer": "Rautavaara",
+      "work": "Symphony No.7",
+      "performer": "Vanska",
+      "searchQuery": "Rautavaara Symphony 7 Vanska",
+      "updatedAt": "2026-11-10T09:45:45.706Z"
+    },
+    "Symphonies|41|4.9278|15.0995|Merikanto 1 Sakari": {
+      "composer": "Merikanto",
+      "work": "Symphony No.1",
+      "performer": "Sakari",
+      "searchQuery": "Merikanto Symphony 1 Sakari",
+      "updatedAt": "2026-11-10T09:45:49.183Z"
+    },
+    "Symphonies|41|4.8351|41.521|Sallinen 4 Kamu": {
+      "composer": "Sallinen",
+      "work": "Symphony No.4",
+      "performer": "Kamu",
+      "searchQuery": "Sallinen Symphony 4 Kamu",
+      "updatedAt": "2026-11-10T09:45:51.763Z"
+    },
+    "Symphonies|41|5.1055|68.1856|Ahmas 1 Bergulnd": {
+      "composer": "Ahmas",
+      "work": "Symphony No.1",
+      "performer": "Bergulnd",
+      "searchQuery": "Ahmas Symphony 1 Bergulnd",
+      "updatedAt": "2026-11-10T09:45:53.940Z"
+    },
+    "Symphonies|41|29.3804|15.1853|Aho 1 Vanska": {
+      "composer": "Aho",
+      "work": "Symphony No.1",
+      "performer": "Vanska",
+      "searchQuery": "Aho Symphony 1 Vanska",
+      "updatedAt": "2026-11-10T09:45:58.651Z"
+    },
+    "Symphonies|41|29.4221|41.7709|Aho 7 Vanska": {
+      "composer": "Aho",
+      "work": "Symphony No.7",
+      "performer": "Vanska",
+      "searchQuery": "Aho Symphony 7 Vanska",
+      "updatedAt": "2026-11-10T09:46:03.395Z"
     }
   },
   "favorites": {
