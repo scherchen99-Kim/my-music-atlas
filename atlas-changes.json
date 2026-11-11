@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-11T10:59:22.106Z",
+  "createdAt": "2026-11-11T13:41:48.349Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -79132,25 +79132,56 @@
       "Symphonies|32|78.6985|15.0964|Stravinsky Symphony in Three Movement Tilson Tomas",
       "Symphonies|32|54.1002|67.9241|Popov 1 Bostein",
       "Symphonies|32|78.813|41.777|Stravinsky Symphony of Psalms Boulez",
-      "Symphonies|32|78.6834|68.1762|Mosolov 5 Arnold"
+      "Symphonies|32|78.6834|68.1762|Mosolov 5 Arnold",
+      "Symphonies|33|3.8454|14.7067|Nosyrev 3 Verbitsky",
+      "Symphonies|33|4.0716|41.2217|Tischenko 4 Rozhdestvensky",
+      "Symphonies|33|4.3896|67.7214|Tischenko 7 Yablonsky",
+      "Symphonies|33|29.2472|14.9251|Shcherbachov 5 Titov",
+      "Symphonies|33|29.3033|41.2701|Polovinkin 7 Titov",
+      "Symphonies|33|29.2181|68.1726|Kopylov 7 Almeida",
+      "Symphonies|33|53.1415|14.9968|Shebalin 3 Gergiev",
+      "Symphonies|33|54.059|41.4929|Salmanov 2 Mravinsky",
+      "Symphonies|33|54.059|67.9183|Khrennikov 2 Svetlanov",
+      "Symphonies|33|78.5656|14.554|B.Tchaikovsky 1 Kondrashin",
+      "Symphonies|33|78.5656|41.2151|B.Tchaikovsky 3 Pedoseyev",
+      "Symphonies|33|78.5656|68.3888|B.Tchaikovsky Chamber Symphony Rudin",
+      "Symphonies|34|4.239|14.9382|Schnittke 전집 various",
+      "Symphonies|34|4.2216|41.8321|Schnittke 1 Rozhdestvensky",
+      "Symphonies|34|4.2314|68.5668|Schnittke 3 Jurowski",
+      "Symphonies|34|29.58|14.96|Schnittke 7 Polyansky",
+      "Symphonies|34|29.5072|41.5085|Tcherepnin 4 Shui",
+      "Symphonies|34|29.4987|68.5315|Avshalomov 1 Avshalomov",
+      "Symphonies|34|53.7936|14.7961|Silvestrov 5 Saraste",
+      "Symphonies|34|53.6673|41.4715|Silvestrov 6 Kofman",
+      "Symphonies|34|53.6556|67.6337|Ryabov 4 Ziva",
+      "Symphonies|34|78.9669|14.6673|Denisov 1 Kawka",
+      "Symphonies|34|78.7678|41.7019|A.Tchaikovsky 7 Vasiliev",
+      "Symphonies|34|78.3717|67.8633|Shchedrin 2 Sinaisky",
+      "Symphonies|35|4.5516|14.6895|Kancheli 3 Kakhidze",
+      "Symphonies|35|4.7245|41.3756|Kancheli 4 DePreist",
+      "Symphonies|35|4.7306|68.2578|Spoliansky Mann",
+      "Symphonies|35|29.5498|14.8757|Artyomov A Symphony of Sondeckis",
+      "Symphonies|35|29.5498|41.2523|Artyomov Ashkenazy",
+      "Symphonies|35|29.518|68.28|Martynov Utopia Jurowski",
+      "Symphonies|35|54.2162|14.9212|Eshpai 2 Ivanov",
+      "Symphonies|35|54.2162|40.7479|Pavlova 2 Krimets",
+      "Symphonies|35|53.8707|67.3989|Pavlova 3 Vedernikov",
+      "Symphonies|35|78.9361|14.8644|Jurovski 5 Jurovski",
+      "Symphonies|35|78.7038|41.3114|Ichmouratov On Ruins of an Ancient Tremblay",
+      "Symphonies|36|4.1361|14.3275|Lyatoshynsky 3 Karabits",
+      "Symphonies|36|4.1361|41.514|Bortkiewicz 1 Brabbins",
+      "Symphonies|36|4.1361|67.4185|Karamanov Let it Karamanov",
+      "Symphonies|36|28.7501|14.3925|Bruk 18 Kupcs",
+      "Symphonies|36|28.9074|41.514|Khachaturian 2 Khachaturian",
+      "Symphonies|36|29.07|67.1475|Terterian 3 Kakhidze",
+      "Symphonies|36|53.7357|14.4314|Hovhannisyan 3 Tjeknavorian",
+      "Symphonies|36|53.558|39.7812|Yardumian 2 Shui",
+      "Symphonies|36|53.7786|67.1475|Tjeknavorian 5 Tjeknavorian",
+      "Symphonies|36|78.2264|14.388|Amirov Symphony Rozdestvensky",
+      "Symphonies|36|78.4872|40.2994|Adigezalov Symphonic Mughams Adigezalov",
+      "Symphonies|36|78.515|67.1284|Karayev 1 Yablonsky"
     ],
-    "Symphonies|44": [
-      "Symphonies|44|4.1274|20.777|Allan Pettersson 5 Markiz",
-      "Symphonies|44|18.6049|20.8483|Allan Pettersson 5 Lindberg",
-      "Symphonies|44|32.886|20.8474|Allan Pettersson 6 Trojahn",
-      "Symphonies|44|3.8714|45.5114|Allan Pettersson 6 Lindberg",
-      "Symphonies|44|18.3239|45.5731|Allan Pettersson 7 Segerstam",
-      "Symphonies|44|32.7404|45.5731|Allan Pettersson 7 Lindberg",
-      "Symphonies|44|18.3687|69.8865|Allan Pettersson 8 Segerstam",
-      "Symphonies|44|32.9863|69.9272|Allan Pettersson 9 Lindberg",
-      "Symphonies|44|54.4693|14.7084|Allan Pettersson Blomdal 3 Ahronovitch",
-      "Symphonies|44|3.7369|69.7989|Allan Pettersson 8 Sanderling",
-      "Symphonies|44|79.0253|14.719|Allan Pettersson Eliasson 3 Oramo",
-      "Symphonies|44|54.5356|41.4519|Allan Pettersson Larsson 3 Franck",
-      "Symphonies|44|79.0997|41.3405|Allan Pettersson Melchers d minor Martin",
-      "Symphonies|44|54.7145|68.1689|Allan Pettersson Wiren 3 Gamba",
-      "Symphonies|44|78.8525|68.0632|Allan Pettersson Nystroem Sinfonia del mare Konig"
-    ],
+    "Symphonies|44": [],
     "Symphonies|51": [
       "Symphonies|51|3.7204|19.1586|Franz Liszt Faust Fischer",
       "Symphonies|51|17.9445|19.0352|Franz Liszt Faust Chailly",
@@ -79173,20 +79204,7 @@
       "Symphonies|54|53.5743|14.4833|Vladigerov 1 Vladigerov",
       "Symphonies|54|53.7246|41.3889|Tabakov 1 Tabakov"
     ],
-    "Symphonies|70": [
-      "Symphonies|70|5.8094|41.5349|Walton 1 Rattle",
-      "Symphonies|70|5.7976|14.3157|Walton 1 Previn",
-      "Symphonies|70|11.206|68.2695|Haitink",
-      "Symphonies|70|29.2088|14.7065|Wallace Creation Symphony Brabbins",
-      "Symphonies|70|29.0929|42.0755|Sullivan E Major Hickox",
-      "Symphonies|70|29.2322|68.1333|Powell A Major Falletta",
-      "Symphonies|70|53.8788|14.6152|Leighton Symphony for Strings HIckox",
-      "Symphonies|70|53.6759|41.6633|Alwyn 3 Alwyn",
-      "Symphonies|70|54.1292|68.4457|Scott 1 Brabbins",
-      "Symphonies|70|78.5882|14.7467|Bax 1 Handley",
-      "Symphonies|70|78.5882|41.5672|Bax 3 Handley",
-      "Symphonies|70|78.5321|68.2937|Bax 4 Thomson"
-    ],
+    "Symphonies|70": [],
     "Symphonies|46": [
       "Symphonies|46|4.0264|20.777|Carl Nielsen 전집 Vanska",
       "Symphonies|46|18.0808|20.592|Carl Nielsen 전집 Blomstedt",
@@ -79202,27 +79220,23 @@
       "Symphonies|46|53.7997|41.1398|Carl Nielsen L.Nielsen 2 Schmidt / Cramer",
       "Symphonies|46|78.6909|41.241|Carl Nielsen Borresen 1 Schmidt",
       "Symphonies|46|78.6788|67.833|Carl Nielsen Borresen 2 Schmidt",
-      "Symphonies|46|53.6766|67.9712|Carl Nielsen Hamerik 1 Dausgaard"
+      "Symphonies|46|53.6766|67.9712|Carl Nielsen Hamerik 1 Dausgaard",
+      "Symphonies|47|4.7793|14.8654|Langgaard 1 Segerstam",
+      "manual-1794323373116-hm0nd",
+      "Symphonies|47|4.8527|41.2181|Pals 1 Goritzki",
+      "Symphonies|47|4.958|67.9992|Klenau 5 Wagner",
+      "Symphonies|47|28.9926|14.7087|Holmboe 2 Huges",
+      "manual-1794323743689-iqt1g",
+      "Symphonies|47|28.9926|41.1518|Holmboe Chamber Symphony No.3 Storgard",
+      "Symphonies|47|29.1716|67.833|L.Glass 4 Raiskin",
+      "Symphonies|47|53.987|14.6849|Abrahamsen Hansen",
+      "Symphonies|47|53.987|41.2856|Norgard 1 Segerstam",
+      "Symphonies|47|54.1134|67.833|Rasmussen 2 Storgards",
+      "Symphonies|47|79.2009|14.7038|Marthinsen Snapshot Symphony Lindberg",
+      "Symphonies|47|79.4086|41.3377|Eichberg 1 Poppen",
+      "Symphonies|47|79.8367|67.9891|Eichberg 3 Spano"
     ],
-    "Symphonies|23": [
-      "manual-1794313789195-n9bvk",
-      "manual-1794313828531-4c94n",
-      "Symphonies|23|4.4195|69.4216|Wellesz 4 Rabl",
-      "Symphonies|23|28.0207|14.4564|W.Furtwangler 1 Haimor",
-      "Symphonies|23|4.5351|14.4442|Braunfels Sinfonia brevis Op.69 Buhl",
-      "Symphonies|23|4.7043|40.6957|Hausegger Natursymphonie Rasilanen",
-      "Symphonies|23|28.0516|40.6957|Stohr 1 Hobson",
-      "manual-1794313986537-okk0g",
-      "manual-1794314030427-bxzns",
-      "manual-1794314071747-9by7m",
-      "Symphonies|23|28.1997|69.7518|Weill 2 Jansons",
-      "Symphonies|23|53.7125|14.8649|Hartmann 1 Metzmacher",
-      "Symphonies|23|53.4712|40.4727|Hartmann 4 Kubelik",
-      "Symphonies|23|54.0937|69.9231|Goldmann 1 Kegel",
-      "Symphonies|23|79.444|14.4442|B.Walter 1 Bostein",
-      "Symphonies|23|79.8678|41.823|F.Weingartner 3 Letonja",
-      "Symphonies|23|79.6888|69.3094|F.Weingartner 6 Letonja"
-    ],
+    "Symphonies|23": [],
     "Symphonies|24": [
       "Symphonies|24|4.4996|14.5907|Henze 6 Henze",
       "Symphonies|24|3.7625|43.384|Henze 7 Stenz",
@@ -79235,7 +79249,18 @@
       "Symphonies|24|53.585|42.0562|B.A.Zimmermann Sinfonie in einem Hirsch",
       "Symphonies|24|53.6168|69.3094|B.A.Zimmermann Vocal Symphony Lintu",
       "Symphonies|24|79.4384|14.6608|Rihm 1 Huber",
-      "Symphonies|24|79.5439|42.0515|Winterberg Sinfonia drammatica Kalitzke"
+      "Symphonies|24|79.5439|42.0515|Winterberg Sinfonia drammatica Kalitzke",
+      "Symphonies|25|4.1696|14.435|Einem Philhadelphia Symphony Most",
+      "Symphonies|25|4.1307|42.0654|Winbeck 2 R.Davies",
+      "Symphonies|25|4.1923|69.4354|Ruzicka Clean Symphony Ruzicka",
+      "Symphonies|25|28.329|14.7125|Schwertsik Sinfonia㎿Sinfonietta HK Gruber",
+      "Symphonies|25|28.3163|42.4815|Meij 1 The Lord of the Warble",
+      "Symphonies|25|28.3636|70.0714|Meij 4 Sinfonie der Lieder Meij",
+      "Symphonies|25|54.1141|14.6835|Killmayer 1 Killmayer",
+      "Symphonies|25|53.9351|42.3123|T.Larcher 2 Lintu",
+      "Symphonies|25|53.9766|69.9446|Schneider 6 Albrecht",
+      "Symphonies|25|79.0512|14.7189|Winbeck To Solus R.Davies",
+      "Symphonies|25|79.1548|41.3926|Doderer 2 Matiakh"
     ],
     "Symphonies|39": [
       "Symphonies|39|4.2217|20.777|Jean Sibelius 전집 Vanska",
@@ -79255,25 +79280,32 @@
       "Symphonies|39|81.7803|45.3172|Jean Sibelius 6 Blomstedt",
       "manual-1794314602455-qxpqg",
       "Symphonies|39|53.5363|70.0485|Jean Sibelius 7 Bernstein WPO",
-      "Symphonies|39|67.63|69.9992|Jean Sibelius 7 Saraste r.RCA"
+      "Symphonies|39|67.63|69.9992|Jean Sibelius 7 Saraste r.RCA",
+      "Symphonies|40|4.2958|15.3196|Mielck f minor Oramo",
+      "Symphonies|40|4.4834|41.2241|Melartin 4 Grin",
+      "Symphonies|40|4.5272|67.9098|Kaipainen 3 Lintu",
+      "Symphonies|40|29.1395|15.0055|Klami 2 Ollila",
+      "Symphonies|40|29.3368|41.2026|Klami Symphonie Enfantine Hynninen",
+      "Symphonies|40|29.3182|67.659|Englund 2 Lilje",
+      "Symphonies|40|53.9717|14.7724|Nordgren 2 Kangas",
+      "Symphonies|40|53.9848|41.4655|Nordgren 3 Oramo",
+      "Symphonies|40|54.0073|68.0933|Hameenniemi 1 Sarasate",
+      "Symphonies|40|78.6706|14.8581|Rautavaara 1 Pommer",
+      "Symphonies|40|78.6707|41.3542|Rautavaara 3 Segerstam",
+      "Symphonies|40|78.7228|68.0105|Rautavaara 7 Vanska",
+      "Symphonies|41|4.9278|15.0995|Merikanto 1 Sakari",
+      "Symphonies|41|4.8351|41.521|Sallinen 4 Kamu",
+      "Symphonies|41|5.1055|68.1856|Ahmas 1 Bergulnd",
+      "Symphonies|41|29.3804|15.1853|Aho 1 Vanska",
+      "Symphonies|41|29.4221|41.7709|Aho 7 Vanska",
+      "Symphonies|41|29.4332|68.2361|Kokonen 1 Kamu",
+      "Symphonies|41|54.1895|15.1297|Leiviska 1 Rasilainen",
+      "Symphonies|41|54.0691|41.7657|Segerstam 181 Segerstam",
+      "Symphonies|41|54.1895|68.0252|Kuusisto Op.39 Brabbins",
+      "Symphonies|41|78.9878|15.2984|Mustonen 3 Mustonen",
+      "Symphonies|41|78.9878|41.5358|Stasevska 2 Stasevska"
     ],
-    "Symphonies|78": [
-      "Symphonies|78|4.8725|14.8637|Harris 11 1967 Hobson",
-      "Symphonies|78|5.0417|41.5036|B.Lees 2 Gunzenhauser",
-      "Symphonies|78|5.0501|68.0846|W.Schuman 4 Miller",
-      "Symphonies|78|28.984|14.7238|Walker 5 Vision Dausgaard",
-      "Symphonies|78|28.8823|42.2079|Glass 4 Heroes Russell Davies",
-      "Symphonies|78|29.8434|69.7075|Glass 9 Russell Davies",
-      "Symphonies|78|54.1276|14.9851|Adams Chamber Symphony Adams",
-      "Symphonies|78|54.1276|41.9505|Adams Doctor Atomic Robertson",
-      "Symphonies|78|53.7324|69.7512|Zwilich 3 Ling",
-      "Symphonies|78|78.477|14.8818|Kubik Symphony Concertante Rose",
-      "Symphonies|78|78.656|41.7164|Gunning 5 Gunning",
-      "Symphonies|78|78.656|69.5834|Manookian Durgarian",
-      "manual-1794321234277-ptvjp",
-      "manual-1794321265278-ab7em",
-      "manual-1794321326918-q37u9"
-    ],
+    "Symphonies|78": [],
     "Symphonies|55": [
       "Symphonies|55|4.4063|15.2224|Gossec c minor Concerto Koln",
       "Symphonies|55|4.3842|41.5039|Mehul 1 Minkowski",
@@ -79287,7 +79319,43 @@
       "Symphonies|55|53.1679|43.9571|Le Balcon adaptation",
       "Symphonies|55|54.0777|67.8252|Romei et Juliette C.Davis Dutoit",
       "Symphonies|55|67.4723|67.7785|Dutoit",
-      "Symphonies|55|81.8607|67.8252|Ticciati"
+      "Symphonies|55|81.8607|67.8252|Ticciati",
+      "Symphonies|56|4.0264|20.777|Camille Saint-Saens 3 Barenboim",
+      "Symphonies|56|18.2195|20.777|Camille Saint-Saens 3 Myung Whun Chung",
+      "Symphonies|56|32.4831|20.6457|Camille Saint-Saens 3 Ormandy",
+      "Symphonies|56|4.0264|54.9379|Camille Saint-Saens B Bloch",
+      "Symphonies|56|18.0864|54.9379|Camille Saint-Saens B Dutoit",
+      "Symphonies|56|32.6235|54.9379|Camille Saint-Saens B Jordan",
+      "Symphonies|56|53.4483|20.777|Cesar Franck Ernest Chausson Olivier Messiaen d Monteux",
+      "Symphonies|56|67.6197|20.777|Cesar Franck Ernest Chausson Olivier Messiaen d Karjan PS",
+      "Symphonies|56|81.8412|20.8064|Cesar Franck Ernest Chausson Olivier Messiaen d Barenboim",
+      "Symphonies|56|53.4151|55.0019|Cesar Franck Ernest Chausson Olivier Messiaen Turangalîla Chailly",
+      "Symphonies|56|67.5976|54.9379|Cesar Franck Ernest Chausson Olivier Messiaen Turangalîla Salonen",
+      "Symphonies|56|81.8555|54.9379|Cesar Franck Ernest Chausson Olivier Messiaen Turangalîla Myung Whun Chung",
+      "Symphonies|57|4.3877|14.7759|Bizet C Major West",
+      "Symphonies|57|4.5605|41.4117|Bizet Roma Fremaux",
+      "Symphonies|57|4.2505|68.2628|Lalo g minor Butt",
+      "Symphonies|57|27.9948|14.7801|Magnard 1 Ossonce",
+      "Symphonies|57|28.0137|41.4097|Magnard 3 Ansermet",
+      "Symphonies|57|27.935|68.1677|Dukas C Major Lopez㎿Cobos",
+      "Symphonies|57|53.7838|14.7903|Guilmant 1 Tortelier",
+      "Symphonies|57|53.6048|41.3532|Ropartz 1 Lang㎿lessing",
+      "Symphonies|57|53.5801|68.1578|Emmanuel 1 Lockhart",
+      "Symphonies|57|78.9082|14.7623|Gounod 1 Leleux",
+      "Symphonies|57|79.0042|41.3909|Schmitt 2 Oramo",
+      "Symphonies|57|79.0127|68.03|Rabaud 2 Couton",
+      "Symphonies|58|4.3935|14.3378|Roussel 3 Bernstein",
+      "Symphonies|58|4.2248|41.1574|Vierne Op.24 P.Jarvi",
+      "Symphonies|58|4.7149|67.8118|Henry La Dixieme Symphonique Rophe",
+      "Symphonies|58|28.1559|14.4164|Poulenc Sinfonietta Tovey",
+      "Symphonies|58|28.1328|41.2828|Tournemire 2 Almeida",
+      "Symphonies|58|28.1559|67.9626|Francaix G Major Fischer",
+      "Symphonies|58|53.9962|14.4244|Milhaud 1 Plasson",
+      "Symphonies|58|53.7854|41.2054|Koechlin Seven Myrat",
+      "Symphonies|58|53.9962|68.1106|Dutilleux 1 P.Jarvi",
+      "Symphonies|58|78.9853|14.5909|Bacri 4 Kantorow",
+      "Symphonies|58|79.0666|41.1444|Casadesus 1 Shelley",
+      "Symphonies|58|79.0666|67.9667|Tanguy Sinfonietta Sanderling"
     ],
     "Symphonies|13": [
       "manual-1794321867990-y0taw",
@@ -79301,24 +79369,26 @@
       "Symphonies|13|53.7992|68.9566|E.Franck A Major P.Frank",
       "Symphonies|13|78.7624|15.2293|Herzogenberg 1 Beermann",
       "Symphonies|13|78.797|42.2535|Reineke 1 Moesus",
-      "Symphonies|13|78.9536|69.1479|Bargiel C Major Potosi"
+      "Symphonies|13|78.9536|69.1479|Bargiel C Major Potosi",
+      "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집",
+      "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati",
+      "Symphonies|14|32.6758|19.3019|Johannes Brahms 전집 Abbado BPO",
+      "Symphonies|14|18.4826|44.8279|Johannes Brahms 1 Giulini LAPO 1",
+      "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC",
+      "Symphonies|14|3.9449|70.0522|Johannes Brahms 1 Furtwangler 2 r.tahra,51",
+      "Symphonies|14|18.3444|70.0934|Johannes Brahms 2 Giulini LAPO",
+      "Symphonies|14|32.683|70.0934|Johannes Brahms 2 Monteux SFSO,47",
+      "Symphonies|14|53.7212|19.3451|Johannes Brahms 2 Abbado BPO",
+      "Symphonies|14|67.8797|19.3019|Johannes Brahms 3 Giulini WPO",
+      "Symphonies|14|82.1797|19.3019|Johannes Brahms 3 Harding",
+      "Symphonies|14|53.5326|44.8298|Johannes Brahms 3 Abendroth 51 4",
+      "Symphonies|14|67.5903|44.8279|Johannes Brahms 4 Giulini WPO",
+      "Symphonies|14|82.0342|44.8279|Johannes Brahms 4 C.Klieber",
+      "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner",
+      "Symphonies|14|67.5396|70.3538|Johannes Brahms 4 Sanderling BSO 4",
+      "Symphonies|14|81.9642|70.3557|Johannes Brahms 4 Abbado BPO"
     ],
-    "Symphonies|47": [
-      "Symphonies|47|4.7793|14.8654|Langgaard 1 Segerstam",
-      "manual-1794323373116-hm0nd",
-      "Symphonies|47|4.8527|41.2181|Pals 1 Goritzki",
-      "Symphonies|47|4.958|67.9992|Klenau 5 Wagner",
-      "Symphonies|47|28.9926|14.7087|Holmboe 2 Huges",
-      "manual-1794323743689-iqt1g",
-      "Symphonies|47|28.9926|41.1518|Holmboe Chamber Symphony No.3 Storgard",
-      "Symphonies|47|29.1716|67.833|L.Glass 4 Raiskin",
-      "Symphonies|47|53.987|14.6849|Abrahamsen Hansen",
-      "Symphonies|47|53.987|41.2856|Norgard 1 Segerstam",
-      "Symphonies|47|54.1134|67.833|Rasmussen 2 Storgards",
-      "Symphonies|47|79.2009|14.7038|Marthinsen Snapshot Symphony Lindberg",
-      "Symphonies|47|79.4086|41.3377|Eichberg 1 Poppen",
-      "Symphonies|47|79.8367|67.9891|Eichberg 3 Spano"
-    ],
+    "Symphonies|47": [],
     "Symphonies|69": [
       "Symphonies|69|4.8722|14.8621|Parry 1 Bamert",
       "Symphonies|69|4.8658|41.6198|Parry 2 Penny",
@@ -79333,7 +79403,30 @@
       "Symphonies|69|53.8998|68.8473|Britten Spring Symphony Gardiner",
       "Symphonies|69|78.5747|14.7264|Tovey D Major Vass",
       "Symphonies|69|78.6724|41.6396|Bantock Hebridean Handley",
-      "Symphonies|69|78.6724|68.8238|Harty An Irish Symphony Thomson"
+      "Symphonies|69|78.6724|68.8238|Harty An Irish Symphony Thomson",
+      "Symphonies|70|5.8094|41.5349|Walton 1 Rattle",
+      "Symphonies|70|5.7976|14.3157|Walton 1 Previn",
+      "Symphonies|70|11.206|68.2695|Haitink",
+      "Symphonies|70|29.2088|14.7065|Wallace Creation Symphony Brabbins",
+      "Symphonies|70|29.0929|42.0755|Sullivan E Major Hickox",
+      "Symphonies|70|29.2322|68.1333|Powell A Major Falletta",
+      "Symphonies|70|53.8788|14.6152|Leighton Symphony for Strings HIckox",
+      "Symphonies|70|53.6759|41.6633|Alwyn 3 Alwyn",
+      "Symphonies|70|54.1292|68.4457|Scott 1 Brabbins",
+      "Symphonies|70|78.5882|14.7467|Bax 1 Handley",
+      "Symphonies|70|78.5882|41.5672|Bax 3 Handley",
+      "Symphonies|70|78.5321|68.2937|Bax 4 Thomson",
+      "Symphonies|71|4.7864|14.4436|Rootham 2 Handley",
+      "Symphonies|71|4.7303|41.5728|Dyson Choral Symphony Hill",
+      "Symphonies|71|4.6653|68.4457|Bliss Color Symphony Hickox",
+      "Symphonies|71|28.9272|14.6152|Maconchy Symphony for Double Strings Handley",
+      "Symphonies|71|28.8109|41.2728|Arnold 2 Handley",
+      "Symphonies|71|28.9323|68.3692|HIckox",
+      "Symphonies|71|53.6367|14.496|Jacob 1 Wordsworth",
+      "Symphonies|71|53.728|41.4383|Josephs 5 Measham",
+      "Symphonies|71|53.7365|68.3692|Holst The Cotswold㐴s A.Davis",
+      "Symphonies|71|78.7897|14.6423|Boughton 3 Handley",
+      "Symphonies|71|78.8578|41.5956|McCabe 4 Handley"
     ],
     "Concertos|9": [
       "Concertos|9|4.62383|23.96021|C Major K.467 Piano Concerto No.21 p.Gulda/Abbado Piano Concerto No.23",
@@ -79558,6 +79651,756 @@
       "Vocal|105|79.5101|15.2306|Durufle Requiem Op.9",
       "Vocal|105|79.37603|40.61308|Best Requiem Op.9 Durufle Requiem Op.9",
       "Vocal|105|79.37603|65.99558|Ticciati Requiem Op.9 Durufle Requiem Op.9"
+    ],
+    "Symphonies|3": [],
+    "Symphonies|2": [
+      "Symphonies|2|4.1691|14.5103|Abel E Major Lea㎿Cox",
+      "Symphonies|2|4.1565|41.3002|C.P.E. Bach D Major Miller",
+      "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik",
+      "Symphonies|2|28.9685|14.2763|C.P.E. Bach c minor Hengelbrock",
+      "Symphonies|2|29.2725|41.2839|J.C. Bach D Major Halstead",
+      "Symphonies|2|29.0636|68.2405|W.F. Bach d minor Freiburg Baroque",
+      "Symphonies|2|53.6889|14.4413|Pleyel d minor Bamert",
+      "Symphonies|2|53.6668|41.1814|Vanhal C major Griffiths",
+      "Symphonies|2|53.9908|68.224|Eberl d minor Concerto Koln",
+      "Symphonies|2|78.6038|14.5041|Holzbauer d minor Gaigg",
+      "Symphonies|2|78.6038|41.164|Hofmann F Major Ward",
+      "Symphonies|3|3.8232|14.3526|Wilms 4 Griffiths",
+      "Symphonies|3|3.7743|41.3818|Wilms 6 Concerto Koln",
+      "Symphonies|3|3.9533|68.2387|Cartellieri 1 Schmalfuss",
+      "Symphonies|3|27.9499|14.6128|Schneider 16 Frank",
+      "Symphonies|3|27.9345|41.4707|Schneider 17 Kuijken",
+      "Symphonies|3|27.9725|68.2438|Schacht C Major Schmalfuss",
+      "Symphonies|3|53.5088|14.0684|Wranitzky D Major Griffiths",
+      "Symphonies|3|53.7862|41.6009|Wranitzky d minor Akademie fur Alte Musik",
+      "Symphonies|3|53.7203|68.1787|Eichnerd d minor Ehrhardt",
+      "Symphonies|3|78.566|14.5023|Eichnerd D Major Op.1-1 Moretto",
+      "Symphonies|3|78.6031|41.504|Winter 1 Moesus",
+      "Symphonies|3|78.5551|68.2088|Witt 6 Moesus"
+    ],
+    "Symphonies|5": [],
+    "Symphonies|4": [
+      "Symphonies|4|4.203|19.166|질풍노도시기 Pinnock",
+      "Symphonies|4|18.4554|19.166|파리교향곡 전집 Kuijken",
+      "Symphonies|4|32.7195|19.166|런던교향곡 전집 Szell",
+      "Symphonies|4|4.3393|44.9161|6 Vashegyi",
+      "Symphonies|4|18.51|44.9754|22 Goodman",
+      "Symphonies|4|32.7256|44.9754|26 Christophers",
+      "Symphonies|4|4.3332|70.1193|31 Ticciati",
+      "Symphonies|4|18.5263|70.1193|38 Hogwood",
+      "Symphonies|4|32.7195|70.1193|39 Antonini",
+      "Symphonies|4|53.6943|19.176|43 Weil",
+      "Symphonies|4|68.0882|19.1705|44 Antonini",
+      "Symphonies|4|82.1952|19.2803|45 Liebreich",
+      "Symphonies|4|53.6416|44.6959|45 Koopman",
+      "Symphonies|4|68.1126|44.8319|48 Goodman",
+      "Symphonies|4|82.0074|44.7875|49 Chauvin",
+      "Symphonies|4|53.7177|70.0252|53 Antonini",
+      "Symphonies|4|67.8674|70.226|59 Antonini",
+      "Symphonies|4|82.1199|70.1193|60 Harnoncourt",
+      "Symphonies|5|4.3099|19.3026|Joseph Haydn 63 Antonini",
+      "Symphonies|5|18.8208|19.1904|Joseph Haydn 73 Harnoncourt",
+      "Symphonies|5|33.0981|19.2107|Joseph Haydn 78 Dantone",
+      "Symphonies|5|4.3099|44.6878|Joseph Haydn 80 Antonini",
+      "Symphonies|5|18.6599|44.6878|Joseph Haydn 82 Chauvin",
+      "Symphonies|5|33.0445|44.9343|Joseph Haydn 83 Chauvin",
+      "Symphonies|5|4.359|69.9308|Joseph Haydn 85 Christie",
+      "Symphonies|5|23.588|70.1205|Joseph Haydn 88 Bernstein 88 Bruggen",
+      "Symphonies|5|32.9225|70.2691|Joseph Haydn 88 Bruggen",
+      "Symphonies|5|53.3662|19.1254|Joseph Haydn 90 Rattle",
+      "Symphonies|5|67.6649|19.243|Joseph Haydn 92 Jacobs",
+      "Symphonies|5|81.8773|19.243|Joseph Haydn 93 Bruggen",
+      "Symphonies|5|53.3346|44.694|Joseph Haydn 93 Szell",
+      "Symphonies|5|67.6912|44.694|Joseph Haydn 94 Norrington SWR",
+      "Symphonies|5|81.4204|44.6921|Joseph Haydn 94 Jochum",
+      "Symphonies|5|53.3374|70.3358|Joseph Haydn 95 Harnoncourt RCO",
+      "Symphonies|5|67.5447|70.274|Joseph Haydn Harnoncourt RCO 96 Hogwood 96 Kuijken",
+      "Symphonies|5|81.6845|70.136|Joseph Haydn 96 Kuijken",
+      "Symphonies|6|4.2003|19.2415|Joseph Haydn 97 Weil",
+      "Symphonies|6|18.5406|19.2702|Joseph Haydn 98 Koopman",
+      "Symphonies|6|32.7688|19.1968|Joseph Haydn 99 Gottfreid",
+      "Symphonies|6|4.0325|44.2798|Joseph Haydn 100 Harnoncourt RCO",
+      "Symphonies|6|18.3911|44.4724|Joseph Haydn 100 Walter NYP",
+      "Symphonies|6|32.4784|44.5107|Joseph Haydn 101 Bruggen",
+      "Symphonies|6|4.3045|70.4217|Joseph Haydn 101 Mackerras",
+      "Symphonies|6|18.5821|70.4217|Joseph Haydn 102 Minkowski",
+      "Symphonies|6|32.7803|70.4217|Joseph Haydn 103 Norrington SWR",
+      "Symphonies|6|53.3529|18.9917|Joseph Haydn 103 Markevitch",
+      "Symphonies|6|67.596|19.0782|Joseph Haydn 104 Bruggen",
+      "Symphonies|6|81.7169|18.9936|Joseph Haydn 104 Celibidache",
+      "Symphonies|6|53.1112|44.4683|Joseph Haydn 104 Karajan"
+    ],
+    "Symphonies|6": [],
+    "Symphonies|9": [
+      "Symphonies|9|53.6381|19.2089|Ludwig van Beethoven 전집 Krivine",
+      "Symphonies|9|66.7542|19.2089|Ludwig van Beethoven 전집 Harnoncourt",
+      "Symphonies|9|82.0597|19.1632|Ludwig van Beethoven 전집 Norrington SWR",
+      "Symphonies|9|53.6464|44.5364|Ludwig van Beethoven 1 Bruggen r.Philips",
+      "Symphonies|9|67.8396|44.5364|Ludwig van Beethoven 2 Krivine",
+      "Symphonies|9|81.9275|44.5364|Ludwig van Beethoven 2 Gardiner",
+      "Symphonies|9|53.5009|70.0271|Ludwig van Beethoven 3 Honeck",
+      "Symphonies|9|67.788|70.0271|Ludwig van Beethoven 3 Antonini 3",
+      "Symphonies|9|81.1518|70.0271|Ludwig van Beethoven 3 Svetlanov",
+      "Symphonies|10|4.3465|19.1507|Ludwig van Beethoven 4 C.Kleiber r.Orfeo",
+      "Symphonies|10|18.7179|19.1507|Ludwig van Beethoven 4 Harnoncourt r.Sony",
+      "Symphonies|10|32.911|19.1507|Ludwig van Beethoven 5 Kegel r.Altus",
+      "Symphonies|10|4.2078|44.4411|Ludwig van Beethoven 5 Maazel BPO,59",
+      "Symphonies|10|18.5866|44.4411|Ludwig van Beethoven 5 C. Kleiber",
+      "Symphonies|10|32.7797|44.4411|Ludwig van Beethoven 5 Markevitch 59",
+      "Symphonies|10|4.3873|70.0022|Ludwig van Beethoven 6 Honeck",
+      "Symphonies|10|18.5805|70.0022|Ludwig van Beethoven 6 Celibidache",
+      "Symphonies|10|32.7736|70.0022|Ludwig van Beethoven 6 Bohm 77",
+      "Symphonies|10|53.6221|18.9986|Ludwig van Beethoven 7 Kleiber BSSO 7",
+      "Symphonies|10|68.6932|19.0161|Ludwig van Beethoven Vriend",
+      "Symphonies|10|53.6761|44.4491|Ludwig van Beethoven 8 Krivine",
+      "Symphonies|10|67.7208|44.5042|Ludwig van Beethoven Symphony 8 Scherchen",
+      "Symphonies|10|81.9196|44.463|Ludwig van Beethoven 9 Gielen SWF,86",
+      "Symphonies|10|53.671|69.2918|Ludwig van Beethoven 9 Celibidache",
+      "Symphonies|10|67.7427|69.1342|Ludwig van Beethoven 9 Norrington SWR",
+      "Symphonies|10|81.4916|69.2035|Ludwig van Beethoven 9 Furtwangler Lucern,54"
+    ],
+    "Symphonies|8": [
+      "Symphonies|8|3.9823|19.0265|전집 Meckerras",
+      "Symphonies|8|18.0719|18.8884|전집 Hogwood",
+      "Symphonies|8|32.7558|18.9214|1 Ian Page",
+      "Symphonies|8|3.9743|44.743|22 A.Fischer",
+      "Symphonies|8|18.1336|44.598|25 Koopman",
+      "Symphonies|8|32.1755|44.5979|28 Norrington SWR",
+      "Symphonies|8|3.9823|70.4298|29 Rhorer",
+      "Symphonies|8|17.2799|70.4297|Wolfgang Amadeus Mozart Symphony 31 Suitner",
+      "Symphonies|8|32.3686|70.4298|32 Meckerras",
+      "Symphonies|8|53.4166|19.1161|33 C.Kleiber",
+      "Symphonies|8|67.7328|19.1162|34 Suitner",
+      "Symphonies|8|81.8403|19.0753|35 A.Fischer",
+      "Symphonies|8|53.5636|44.758|35 Bruggen",
+      "Symphonies|8|67.7567|44.5942|36 Bruggen",
+      "Symphonies|8|81.9499|44.5942|36 Meckerras",
+      "Symphonies|8|53.6153|70.3498|38 Jacobs",
+      "Symphonies|8|67.954|70.3498|38 Bruggen",
+      "Symphonies|8|82.1471|70.3498|38 Meckerras",
+      "Symphonies|9|4.2781|19.2476|Wolfgang Amadeus Mozart 39 Herzog",
+      "Symphonies|9|18.6167|19.2476|Wolfgang Amadeus Mozart 39 Meckerras",
+      "Symphonies|9|32.7443|19.2476|Wolfgang Amadeus Mozart 39 Harnoncourt RCO",
+      "Symphonies|9|18.5207|44.586|Wolfgang Amadeus Mozart 40 Walter WPO,52 40 Levine",
+      "Symphonies|9|32.3684|44.3143|Wolfgang Amadeus Mozart Levine",
+      "Symphonies|9|4.4361|70.1144|Wolfgang Amadeus Mozart 41 Herzog",
+      "Symphonies|9|18.6651|70.1144|Wolfgang Amadeus Mozart 41 Harnoncourt RCO 41",
+      "Symphonies|9|32.9679|70.1144|Wolfgang Amadeus Mozart Minasi"
+    ],
+    "Symphonies|10": [],
+    "Symphonies|18": [],
+    "Symphonies|17": [
+      "Symphonies|17|4.2895|19.3019|Anton Bruckner 전집 Celibidache",
+      "Symphonies|17|18.6133|19.3019|Anton Bruckner 전집 Asahina r.Canyon 전집",
+      "Symphonies|17|32.7217|19.3019|Anton Bruckner 전집 Jochum r.Tahra",
+      "Symphonies|17|4.144|44.8279|Anton Bruckner f Schaller PFO",
+      "Symphonies|17|18.4826|44.8279|Anton Bruckner f Skrowaczewski",
+      "Symphonies|17|32.6758|44.8279|Anton Bruckner 0 Young PHO",
+      "Symphonies|17|4.3622|70.0934|Anton Bruckner 0 Skrowaczewski",
+      "Symphonies|17|18.5974|69.9553|Anton Bruckner 1 Neumann 1",
+      "Symphonies|17|32.894|70.0934|Anton Bruckner 1 Abbado WPO",
+      "Symphonies|17|53.506|19.4381|Anton Bruckner Symphony 2 Giulini WSO",
+      "Symphonies|17|67.6991|19.4381|Anton Bruckner 2 Muti WPO",
+      "Symphonies|17|80.9193|19.5682|Anton Bruckner 2 Eichhorn",
+      "Symphonies|17|53.506|44.8376|Anton Bruckner 3 Sinopoli",
+      "Symphonies|17|67.6991|44.8376|Anton Bruckner 3 Tennstedt BR",
+      "Symphonies|17|81.8923|44.8376|Anton Bruckner 3 Celibidache",
+      "Symphonies|17|53.3605|70.1031|Anton Bruckner 4 Blomstedt SKD",
+      "Symphonies|17|67.6991|70.1031|Anton Bruckner 4 Celibidache",
+      "Symphonies|17|81.8923|70.1031|Anton Bruckner 4 Roth",
+      "Symphonies|18|4.3158|19.1988|Anton Bruckner 5 Blomstedt LGO 5",
+      "Symphonies|18|18.509|19.1988|Anton Bruckner 5 Wand BPO",
+      "Symphonies|18|32.7021|19.1988|Anton Bruckner 5 Celibidache r.Altus",
+      "Symphonies|18|4.2895|44.7958|Anton Bruckner 6 Celibidache",
+      "Symphonies|18|18.4826|44.7958|Anton Bruckner 6 Klemperer",
+      "Symphonies|18|32.4687|44.5196|Anton Bruckner 6 Wand NDR",
+      "Symphonies|18|4.144|69.987|Anton Bruckner 7 Matacici CZPO",
+      "Symphonies|18|18.4057|69.987|Anton Bruckner 7 Blomstedt SKD",
+      "Symphonies|18|32.6758|69.9869|Anton Bruckner 7 Celibidache BPO",
+      "Symphonies|18|53.5189|19.2818|Anton Bruckner 8 Celibidache r.AUDIOR,85",
+      "Symphonies|18|67.8575|19.2818|Anton Bruckner 8 Karajan WPO,88 8",
+      "Symphonies|18|82.4413|19.2818|Anton Bruckner 8 Maazel BPO",
+      "Symphonies|18|53.4008|44.7911|Anton Bruckner 9 Giulini WPO",
+      "Symphonies|18|67.6991|44.7911|Anton Bruckner 9 Celibidache 9",
+      "Symphonies|18|81.8923|44.7911|Anton Bruckner 9 Wand SWR"
+    ],
+    "Symphonies|20": [],
+    "Symphonies|19": [
+      "Symphonies|19|4.2895|19.3019|Gustav Mahler 전집 Bernstein r.DG",
+      "Symphonies|19|18.4826|19.3019|Gustav Mahler 전집 Bertinini",
+      "Symphonies|19|32.0793|19.3019|Gustav Mahler 전집 Abbado",
+      "Symphonies|19|4.144|44.8279|Gustav Mahler 1 Abbado BPO",
+      "Symphonies|19|18.4826|44.8279|Gustav Mahler 1 Tennstedt NDR",
+      "Symphonies|19|32.6295|44.7661|Gustav Mahler 1 Jansons RCO",
+      "Symphonies|19|4.1669|70.0934|Gustav Mahler 2 Rattle BCSO",
+      "Symphonies|19|18.1954|70.0934|Gustav Mahler 2 Mehta WPO",
+      "Symphonies|19|32.5046|70.0934|Gustav Mahler 2 Haitink BPO",
+      "Symphonies|19|53.4684|19.3019|Gustav Mahler 3 Chailly",
+      "Symphonies|19|67.8446|19.3019|Gustav Mahler 3 Honeck",
+      "Symphonies|19|81.8529|19.3019|Gustav Mahler 3 Nott",
+      "Symphonies|19|53.3136|44.8279|Gustav Mahler 4 Maazel WPO",
+      "Symphonies|19|67.6991|44.8279|Gustav Mahler 4 Fischer",
+      "Symphonies|19|53.4467|70.0934|Gustav Mahler 5 Chailly",
+      "Symphonies|19|68.2771|70.0933|Gustav Mahler 5 Stentz 5",
+      "Symphonies|19|81.8923|70.0934|Gustav Mahler 5 Sinopoli",
+      "Symphonies|20|4.2895|19.3019|Gustav Mahler 6 Tennstedt LPO",
+      "Symphonies|20|18.4237|19.3019|Gustav Mahler 6 Bernstein WPO",
+      "Symphonies|20|32.6758|19.3019|Gustav Mahler 6 Vanska",
+      "Symphonies|20|4.144|44.8279|Gustav Mahler 7 Bloch",
+      "Symphonies|20|18.3692|44.7842|Gustav Mahler 7 Tilson㎿Tomas LSO",
+      "Symphonies|20|32.6758|44.8279|Gustav Mahler 7 Gielen",
+      "Symphonies|20|4.0693|70.0934|Gustav Mahler 8 Chailly",
+      "Symphonies|20|18.3687|70.0934|Gustav Mahler 8 Tennstedt LPO",
+      "Symphonies|20|32.6011|70.0934|Gustav Mahler 8 Nagano",
+      "Symphonies|20|53.3512|19.3019|Gustav Mahler 9 Abbado BPO",
+      "Symphonies|20|67.675|19.3019|Gustav Mahler 9 Bernstein RCO",
+      "Symphonies|20|81.8923|19.3019|Gustav Mahler 9 Karajan BPO",
+      "Symphonies|20|53.3313|44.8279|Gustav Mahler 10 Sanderling",
+      "Symphonies|20|67.6809|44.8279|Gustav Mahler 10 Inbal TMSO",
+      "Symphonies|20|81.8923|44.8279|Gustav Mahler 10 Gielen",
+      "Symphonies|20|53.3705|69.6876|Gustav Mahler Das Lied von der Klemperer",
+      "Symphonies|20|67.5149|70.0935|Gustav Mahler Erde Boulez",
+      "Symphonies|20|81.5775|70.0934|Gustav Mahler Bernstein WPO"
+    ],
+    "Symphonies|22": [
+      "Symphonies|22|4.4275|14.6475|Weigl 5 Sanderling",
+      "Symphonies|22|4.3582|41.1637|Schoenberg Chamber Symphony arr. Gulda/Hagen",
+      "Symphonies|22|4.2031|67.6755|Webern Op.21 Boulez",
+      "Symphonies|22|27.7139|14.7005|Schreker Chamber Symphony Gielen",
+      "Symphonies|22|27.7954|41.0677|Schreker a minor Westphal",
+      "Symphonies|22|27.9872|67.8122|Ben㎿Haim 1 Shani",
+      "Symphonies|22|53.5425|14.7476|Hindemith Mathis der Maler Abbado",
+      "Symphonies|22|53.5339|41.1404|Hindemith Die Harmonie der Kegel",
+      "Symphonies|22|53.415|67.7936|Korngold F# Major Wilson",
+      "Symphonies|22|78.614|14.8413|Eisler Deutsche Zagrosek",
+      "Symphonies|22|78.6363|41.2139|Pfitzner C# minor Thielemann",
+      "Symphonies|22|78.6447|67.5349|Graener d minor Albert",
+      "manual-1794313789195-n9bvk",
+      "manual-1794313828531-4c94n",
+      "Symphonies|23|4.4195|69.4216|Wellesz 4 Rabl",
+      "Symphonies|23|28.0207|14.4564|W.Furtwangler 1 Haimor",
+      "Symphonies|23|4.5351|14.4442|Braunfels Sinfonia brevis Op.69 Buhl",
+      "Symphonies|23|4.7043|40.6957|Hausegger Natursymphonie Rasilanen",
+      "Symphonies|23|28.0516|40.6957|Stohr 1 Hobson",
+      "manual-1794313986537-okk0g",
+      "manual-1794314030427-bxzns",
+      "manual-1794314071747-9by7m",
+      "Symphonies|23|28.1997|69.7518|Weill 2 Jansons",
+      "Symphonies|23|53.7125|14.8649|Hartmann 1 Metzmacher",
+      "Symphonies|23|53.4712|40.4727|Hartmann 4 Kubelik",
+      "Symphonies|23|54.0937|69.9231|Goldmann 1 Kegel",
+      "Symphonies|23|79.444|14.4442|B.Walter 1 Bostein",
+      "Symphonies|23|79.8678|41.823|F.Weingartner 3 Letonja",
+      "Symphonies|23|79.6888|69.3094|F.Weingartner 6 Letonja"
+    ],
+    "Symphonies|25": [],
+    "Symphonies|30": [],
+    "Symphonies|29": [
+      "Symphonies|29|4.4954|20.8632|Dmitri Shostakovich 전집 Wigglesworth",
+      "Symphonies|29|18.7986|20.6891|Dmitri Shostakovich 전집 Kondrashin",
+      "Symphonies|29|32.9917|20.777|Dmitri Shostakovich 전집 Kofman",
+      "Symphonies|29|4.2907|44.8279|Dmitri Shostakovich 1 Wigglesworth",
+      "Symphonies|29|18.4278|44.8279|Dmitri Shostakovich 4 Myung Whun Chung",
+      "Symphonies|29|32.9688|45.0883|Dmitri Shostakovich 4 Kondrashin r.Profil",
+      "Symphonies|29|4.3622|70.0934|Dmitri Shostakovich 4 Rozhdestvensky",
+      "Symphonies|29|18.7009|70.0934|Dmitri Shostakovich 5 Wigglesworth",
+      "Symphonies|29|32.7854|70.0934|Dmitri Shostakovich 5 Kondrashin",
+      "Symphonies|29|53.461|20.8373|Dmitri Shostakovich 5 Svetlanov",
+      "Symphonies|29|67.6542|20.8373|Dmitri Shostakovich 6 P.Jarvi",
+      "Symphonies|29|81.8668|20.8434|Dmitri Shostakovich 7 Kegel",
+      "Symphonies|29|53.417|44.8143|Dmitri Shostakovich 7 Herbig",
+      "Symphonies|29|67.6054|44.8143|Dmitri Shostakovich 7 Bernstein",
+      "Symphonies|29|81.9488|44.3158|Dmitri Shostakovich 8 N.Jarvi",
+      "Symphonies|29|53.5146|69.681|Dmitri Shostakovich 8 Mravinsky",
+      "Symphonies|29|67.6504|70.1387|Dmitri Shostakovich 8 Berglund",
+      "Symphonies|29|82.0464|70.1387|Dmitri Shostakovich 9 Kofman",
+      "Symphonies|30|4.1141|20.777|Dmitri Shostakovich 10 Karajan",
+      "Symphonies|30|18.4599|20.777|Dmitri Shostakovich 10 Sanderling",
+      "Symphonies|30|32.7852|20.786|Dmitri Shostakovich 10 Nelsons",
+      "Symphonies|30|4.123|44.8279|Dmitri Shostakovich 11 Pletnev RNO",
+      "Symphonies|30|18.3259|44.9311|Dmitri Shostakovich 11 Bychkov",
+      "Symphonies|30|32.6469|44.9824|Dmitri Shostakovich 11 Rostropovich",
+      "Symphonies|30|4.1588|68.8788|Dmitri Shostakovich 12 Mravinsky",
+      "Symphonies|30|18.4975|68.8788|Dmitri Shostakovich 13 Kondrashin 15",
+      "Symphonies|30|32.6906|68.8788|Dmitri Shostakovich 15 Barshai",
+      "Symphonies|30|53.2107|20.786|Sergei Prokofiev 전집 N.Jarvi",
+      "Symphonies|30|67.504|20.786|Sergei Prokofiev 전집 Rozhdestvensky 1",
+      "Symphonies|30|81.6834|20.9405|Sergei Prokofiev 1 Karajan",
+      "Symphonies|30|53.1881|44.7932|Sergei Prokofiev 3 Abbado",
+      "Symphonies|30|67.5267|44.8369|Sergei Prokofiev 4 Alsop",
+      "Symphonies|30|81.7199|44.8369|Sergei Prokofiev 5 Jansons",
+      "Symphonies|30|53.1907|68.8153|Sergei Prokofiev 5 Rozhdestvensky",
+      "Symphonies|30|67.5294|68.8153|Sergei Prokofiev 6 Gaffigan",
+      "Symphonies|30|81.9007|68.809|Sergei Prokofiev 7 Previn",
+      "Symphonies|31|4.2497|20.8688|Nikolai Myaskovsky 전집 Svetlanov",
+      "Symphonies|31|18.5528|20.7826|Nikolai Myaskovsky 1 Rozhdestvensky",
+      "Symphonies|31|32.5199|20.5227|Nikolai Myaskovsky 2 Rabl",
+      "Symphonies|31|4.3474|44.8335|Nikolai Myaskovsky 4 Svetlanov",
+      "Symphonies|31|18.5107|44.846|Nikolai Myaskovsky 6 N.Jarvi",
+      "Symphonies|31|32.5753|44.8358|Nikolai Myaskovsky 21 Petrenko",
+      "Symphonies|31|4.2318|67.8393|Nikolai Myaskovsky 24 Yablonsky",
+      "Symphonies|31|18.5792|67.8906|Nikolai Myaskovsky 26 Svetlanov",
+      "Symphonies|31|32.6467|67.9404|Nikolai Myaskovsky 27 Polyansky",
+      "Symphonies|31|53.3124|20.7386|Mieczyslaw Weinberg 2 Grazinyte㎿Tyla",
+      "Symphonies|31|67.5655|20.6614|Mieczyslaw Weinberg 3 Svedlund",
+      "Symphonies|31|81.6686|20.6524|Mieczyslaw Weinberg 3 Grazinyte㎿Tyla",
+      "Symphonies|31|53.4651|44.6774|Mieczyslaw Weinberg 6 Fedoseyev",
+      "Symphonies|31|67.6284|44.7033|Mieczyslaw Weinberg 7 Grossmann",
+      "Symphonies|31|81.7228|44.8066|Mieczyslaw Weinberg 12 Storgards",
+      "Symphonies|31|53.3124|67.6183|Mieczyslaw Weinberg 17 Lande",
+      "Symphonies|31|67.4185|67.6445|Mieczyslaw Weinberg Chamber symphony Kremer"
+    ],
+    "Symphonies|31": [],
+    "Symphonies|33": [],
+    "Symphonies|35": [],
+    "Symphonies|34": [],
+    "Symphonies|36": [],
+    "Symphonies|40": [],
+    "Symphonies|41": [],
+    "Symphonies|43": [],
+    "Symphonies|42": [
+      "Symphonies|42|4.3848|14.5086|Agrell A Major Helsinki Baroque",
+      "Symphonies|42|4.1945|41.0903|Kraus c minor Concerto Koln",
+      "Symphonies|42|4.3796|67.9305|Kraus D Major Concerto Koln",
+      "Symphonies|42|28.9925|14.5193|Heinsius 1 Akatsu",
+      "Symphonies|42|28.8723|41.3838|Lindblad 1 Korsten",
+      "Symphonies|42|28.6567|67.9213|Eggert 2 Korsten",
+      "Symphonies|42|53.7281|14.7775|Berwald 4 Salonen",
+      "Symphonies|42|53.7295|41.4777|Peterson㎿Berger Jurowski",
+      "Symphonies|42|53.7014|67.7347|Peterson㎿Berger Jurowski",
+      "Symphonies|42|78.9001|14.581|Stenhammar 2 N.Jarvi",
+      "Symphonies|42|78.8275|41.3444|Norman 3 Gustavsson",
+      "Symphonies|42|78.8275|67.8672|Svendsen 1 Dausgaard",
+      "Symphonies|43|4.1274|20.3|Kurt Atterberg 2 Westerberg",
+      "Symphonies|43|18.5822|20.8692|Kurt Atterberg 3 Rasilainen",
+      "Symphonies|43|32.8408|20.88|Kurt Atterberg 3 Oskamp",
+      "Symphonies|43|4.0661|45.5731|Kurt Atterberg 4 Rasilainen",
+      "Symphonies|43|18.4826|45.5425|Kurt Atterberg 5 Rasilainen",
+      "Symphonies|43|32.8934|45.5731|Kurt Atterberg 5 Westerberg",
+      "Symphonies|43|4.2729|69.9271|Kurt Atterberg Symphony 6 Hirokami",
+      "Symphonies|43|18.7621|70.0418|Kurt Atterberg 7 N.Jarvi",
+      "Symphonies|43|33.0077|70.0418|Kurt Atterberg 8 Rasilainen",
+      "Symphonies|43|54.3861|14.9|Kurt Atterberg Alfven 전집 N.Jarvi",
+      "Symphonies|43|79.2026|14.9168|Kurt Atterberg Rangstrom 3 Furst",
+      "Symphonies|43|54.3948|41.5985|Kurt Atterberg Alfven 2 Segerstam",
+      "Symphonies|43|79.1193|41.5497|Kurt Atterberg Olsson c minor Liljefors",
+      "Symphonies|43|54.32|69.8584|Kurt Atterberg Alfven 4 Westerberg",
+      "Symphonies|43|79.1215|70.0269|Kurt Atterberg Rosenberg 3 Venzago",
+      "Symphonies|44|4.1274|20.777|Allan Pettersson 5 Markiz",
+      "Symphonies|44|18.6049|20.8483|Allan Pettersson 5 Lindberg",
+      "Symphonies|44|32.886|20.8474|Allan Pettersson 6 Trojahn",
+      "Symphonies|44|3.8714|45.5114|Allan Pettersson 6 Lindberg",
+      "Symphonies|44|18.3239|45.5731|Allan Pettersson 7 Segerstam",
+      "Symphonies|44|32.7404|45.5731|Allan Pettersson 7 Lindberg",
+      "Symphonies|44|18.3687|69.8865|Allan Pettersson 8 Segerstam",
+      "Symphonies|44|32.9863|69.9272|Allan Pettersson 9 Lindberg",
+      "Symphonies|44|54.4693|14.7084|Allan Pettersson Blomdal 3 Ahronovitch",
+      "Symphonies|44|3.7369|69.7989|Allan Pettersson 8 Sanderling",
+      "Symphonies|44|79.0253|14.719|Allan Pettersson Eliasson 3 Oramo",
+      "Symphonies|44|54.5356|41.4519|Allan Pettersson Larsson 3 Franck",
+      "Symphonies|44|79.0997|41.3405|Allan Pettersson Melchers d minor Martin",
+      "Symphonies|44|54.7145|68.1689|Allan Pettersson Wiren 3 Gamba",
+      "Symphonies|44|78.8525|68.0632|Allan Pettersson Nystroem Sinfonia del mare Konig"
+    ],
+    "Symphonies|53": [],
+    "Symphonies|52": [
+      "Symphonies|52|4.6265|14.6763|Karlowicz Rebirth Noseda",
+      "Symphonies|52|4.5091|41.2815|Noskowski 2 Borowicz",
+      "Symphonies|52|4.4803|68.0793|Noskowski 3 Borowicz",
+      "Symphonies|52|28.111|14.5756|Paderewski b minor Maksymiuk",
+      "Symphonies|52|28.3097|41.3844|Panufnik 2 Borowicz",
+      "Symphonies|52|28.3455|67.9712|Panufnik Sinfonia Borowicz",
+      "Symphonies|52|54.0744|14.5777|Szymanowski 4 Rattle",
+      "Symphonies|52|54.0046|41.3359|Stojowski Wit",
+      "Symphonies|52|53.8457|67.8532|Fitelberg e minor Borowicz",
+      "Symphonies|52|79.0458|14.475|Bacewicz 3 Oramo",
+      "Symphonies|52|78.9673|41.1203|Bacewicz String Symphony Smolij",
+      "Symphonies|52|78.7553|68.1217|Maliszewski 1 Neumann",
+      "Symphonies|53|4.6548|14.5747|Gorecki 1 Bader",
+      "Symphonies|53|4.8338|41.2815|Gorecki 3 Zinman",
+      "Symphonies|53|4.4432|68.2667|Gorecki 3 Kilanowicz",
+      "Symphonies|53|28.4849|14.5153|Lutoslawski 1 Lutoslawski",
+      "Symphonies|53|28.306|41.3359|Lutoslawski 3 Lutoslawski",
+      "Symphonies|53|28.306|68.1844|Lutoslawski 4 Urbanski",
+      "Symphonies|53|54.8114|14.2141|Pendercki 3 Wit",
+      "Symphonies|53|54.962|41.2814|Pendercki 5 Pendercki",
+      "Symphonies|53|54.9191|68.1217|Pendercki 7 Kord",
+      "Symphonies|53|78.8636|14.576|P.Kletzki 3 Bezaly"
+    ],
+    "Symphonies|50": [],
+    "Symphonies|49": [],
+    "Symphonies|48": [
+      "Symphonies|48|4.543|14.6388|Kozeluh g minor Hlavacek",
+      "Symphonies|48|4.5345|41.1855|Kalliwoda 3 Moesus",
+      "Symphonies|48|4.4854|68.03|Kalliwoda 5 Spering",
+      "Symphonies|48|28.3355|14.5978|Krommer 4",
+      "Symphonies|48|28.3355|41.2138|Myslivecek 3 Prague Chamber",
+      "Symphonies|48|28.495|68.0386|Rosetti g minor Compagnia di Punto",
+      "Symphonies|48|53.6476|14.4518|Pichl D Major Prague Chamber",
+      "Symphonies|48|53.4686|41.1588|Hakkainen",
+      "Symphonies|48|53.291|67.8243|Dovrzynski 2 Borowicz",
+      "Symphonies|48|78.4971|14.6329|Benda 7 Benda",
+      "Symphonies|48|78.364|41.0851|Vorisek D Major Krajny",
+      "Symphonies|48|78.6375|67.6435|A.Zimmermann e minor Ehrhardt",
+      "Symphonies|49|3.804|19.1195|Antonin Dvorak 전집 Kubelik r.DG",
+      "Symphonies|49|18.1956|19.3019|Antonin Dvorak 1 Kubelik",
+      "Symphonies|49|32.21|19.3019|Antonin Dvorak 5 N.Jarvi",
+      "Symphonies|49|3.8569|44.8279|Antonin Dvorak 7 Myung Whun Chung",
+      "Symphonies|49|18.1956|44.8279|Antonin Dvorak 7 Talich CZPO,38",
+      "Symphonies|49|32.3887|44.8279|Antonin Dvorak 8 Neumann CZPO,72",
+      "Symphonies|49|4.0752|70.0934|Antonin Dvorak 8 Karajan WPO",
+      "Symphonies|49|18.4138|70.0934|Antonin Dvorak 9 Kertesz WPO 9",
+      "Symphonies|49|32.607|70.0934|Antonin Dvorak 9 Bernstein r.DG",
+      "Symphonies|49|53.6998|14.8451|Foerster 4 Baumer",
+      "Symphonies|49|79.4777|14.8384|Janacek Sinfonietta Meckerras",
+      "Symphonies|49|53.7083|41.5277|Smetana Festive Symphony Senja",
+      "Symphonies|49|79.4777|41.3974|Janacek Sinfonietta Abbado",
+      "Symphonies|49|53.8564|68.0887|Suchon Symfonietta Rustica N.Jarvi",
+      "Symphonies|49|79.4777|67.9704|Janacek Sinfonietta Kubelik",
+      "Symphonies|50|4.1871|14.8199|Fibich 3 N.Jarvi",
+      "Symphonies|50|4.1388|41.5348|Martinu 1 Neumann",
+      "Symphonies|50|4.3814|68.1684|Martinu 4 Hursa",
+      "Symphonies|50|28.0147|14.5379|Suk Asrael Belohlavek",
+      "Symphonies|50|28.0016|40.9114|Suk 1 Belohlavek",
+      "Symphonies|50|28.2196|68.0258|Vajda Sinfonietta Kollar",
+      "Symphonies|50|53.9506|14.6942|Schulhoff 2 Kluttig",
+      "Symphonies|50|54.0684|41.3498|Ostrcil Sinfonietta Belohlavek",
+      "Symphonies|50|53.6382|67.9668|Moyzes 8 Slovak",
+      "Symphonies|50|78.7803|14.6567|Svoboda 2 DePreist",
+      "Symphonies|50|78.996|41.3498|Zelezny Symphony for Small Orchestra Konvalinka",
+      "Symphonies|50|79.2401|68.1033|Kalabis 2 Kosler"
+    ],
+    "Symphonies|58": [],
+    "Symphonies|57": [],
+    "Symphonies|56": [],
+    "Symphonies|63": [],
+    "Symphonies|62": [
+      "Symphonies|62|4.0616|14.6786|Gabrieli Sacrae symphoniae I : C.185 McCreesh",
+      "Symphonies|62|4.4292|42.7042|Scarlatti a minor Biondi",
+      "Symphonies|62|4.4386|69.3017|Sammartini c minor Gini",
+      "Symphonies|62|28.8606|14.653|Corelli Sinfonia Beyer",
+      "Symphonies|62|28.6328|42.056|Salieri Sinfonia Pesko",
+      "Symphonies|62|28.6317|68.94|Boccherini D Major Biondi",
+      "Symphonies|62|53.3742|14.6961|Caldara C Major Serenissima",
+      "Symphonies|62|53.2763|41.8514|Brescianello No.4 Chandler",
+      "Symphonies|62|53.3892|68.9646|Cherubini D Major Griffiths",
+      "Symphonies|62|77.9302|14.6764|Clementi C Major Bolton",
+      "Symphonies|62|78.2858|41.994|Luchesi D Major Plano",
+      "Symphonies|62|78.2271|68.874|Locatelli Sinfonia f minor Alessandrini",
+      "Symphonies|63|4.3478|14.4924|Sgambati 2 Rudner",
+      "Symphonies|63|4.1649|41.4859|Pizzetti A Major Iorio",
+      "Symphonies|63|4.3312|67.9152|Respighi Sinfonia Drammatica Downes",
+      "Symphonies|63|29.0346|14.8312|Casella 1 Noseda",
+      "Symphonies|63|28.9937|41.3274|Casella 2 Noseda",
+      "Symphonies|63|29.2071|67.8746|Martucci 1 Bakles",
+      "Symphonies|63|53.7094|14.793|Malipiero Symphony of Heroes Closel",
+      "Symphonies|63|53.9668|41.3274|Bosso 1 Bosso",
+      "Symphonies|63|53.9305|68.2639|Rota 3 Noseda",
+      "Symphonies|63|78.5039|14.5173|Berio Sinfonia Chailly",
+      "Symphonies|63|78.5955|41.1959|Berio Sinfonia Boulez",
+      "Symphonies|63|78.5828|68.0767|Berio Sinfonia Berio"
+    ],
+    "Symphonies|65": [],
+    "Symphonies|64": [
+      "Symphonies|64|4.3866|14.9377|Ariaga D Major Mackerras",
+      "Symphonies|64|4.3242|41.9598|Baguer G Major Bamert",
+      "Symphonies|64|4.693|67.9521|Brunetti 22 Concerto Koln",
+      "Symphonies|64|29.3773|14.9328|Turina Sinfonia sevillana Leaper",
+      "Symphonies|64|29.5838|41.8045|Guridi Pyrenean Symphony Mena",
+      "Symphonies|64|29.6362|68.0691|Chapi d minor Encinar",
+      "Symphonies|64|53.8111|14.72|Halffter Sinfonietta Asensio",
+      "Symphonies|64|54.0182|41.6517|Halffter Sinfonietta Tang",
+      "Symphonies|64|54.0267|68.291|Halffter Sinfonietta Leaper",
+      "Symphonies|64|78.9256|14.8921|Jose Sinfonia cantellana",
+      "Symphonies|64|78.9172|41.8045|G.Martinez Sinfonia Martinez",
+      "Symphonies|65|5.1603|15.0119|Montsalvatge Sinfonia da requiem Mena",
+      "Symphonies|65|29.2203|15.2748|Gerhard 4 Bamert",
+      "Symphonies|65|4.7631|41.9785|Palomo Sinfonia Cordoba Valdes",
+      "Symphonies|65|4.8146|68.9613|Rodo 2 Leaper"
+    ],
+    "Symphonies|68": [],
+    "Symphonies|67": [
+      "Symphonies|67|3.9812|14.8449|Boyce 5 Hogwood",
+      "Symphonies|67|28.8287|14.3796|Potter 1 Griffiths",
+      "Symphonies|67|4.079|41.5933|Boyce 8 Pinnock",
+      "Symphonies|67|28.7064|41.5072|Wesley D Major Barmet",
+      "symphonies-pdf-full-67-42-680",
+      "Symphonies|67|28.9099|68.144|Marsh 6 Barmet",
+      "Symphonies|67|53.3088|19.0718|1 Previn",
+      "Symphonies|67|67.6567|19.3019|1 Sinopoli",
+      "Symphonies|67|81.8648|19.3019|1 Barbirolli r.BBC",
+      "Symphonies|67|53.5132|44.0652|2 Previn",
+      "Symphonies|67|67.7857|44.0466|2 Barbirolli",
+      "Symphonies|67|81.9587|43.9922|2 Boult",
+      "Symphonies|67|53.6013|68.1178|3 Hickox",
+      "Symphonies|67|67.7066|68.1815|3 Payne",
+      "Symphonies|68|3.9667|19.3019|Ralph Vaughan Williams 전집 Haitink",
+      "Symphonies|68|18.1101|19.3558|Ralph Vaughan Williams 전집 Previn",
+      "Symphonies|68|32.2083|19.3019|Ralph Vaughan Williams Sea Haitink",
+      "Symphonies|68|3.8212|44.4159|Ralph Vaughan Williams 2 HicKox",
+      "Symphonies|68|18.1599|44.4159|Ralph Vaughan Williams 4 Manze",
+      "Symphonies|68|32.3341|44.4399|Ralph Vaughan Williams 5 Handley",
+      "Symphonies|68|3.8057|69.033|Ralph Vaughan Williams 5 Haitink",
+      "Symphonies|68|18.1444|69.033|Ralph Vaughan Williams 6 Barbirolli",
+      "Symphonies|68|32.1672|68.8742|Ralph Vaughan Williams Sinfonia Antartica Haitink",
+      "Symphonies|68|54.0085|14.8657|Ralph Vaughan Williams Bennett g minor Braithwaite",
+      "Symphonies|68|78.6388|14.884|Ralph Vaughan Williams Stanford 3 Handley",
+      "Symphonies|68|54.0885|41.8617|Ralph Vaughan Williams Dieren 1 Boughton",
+      "Symphonies|68|78.5394|41.7862|Ralph Vaughan Williams Moeran g minor Handley",
+      "Symphonies|68|54.1205|68.9488|Ralph Vaughan Williams M.Smith a minor Shelley",
+      "Symphonies|68|78.6225|68.9801|Ralph Vaughan Williams Holbrooke 3 Griffiths"
+    ],
+    "Symphonies|71": [],
+    "Symphonies|74": [],
+    "Symphonies|73": [],
+    "Symphonies|72": [
+      "Symphonies|72|4.7065|14.6616|Fricker 3 Thomson",
+      "Symphonies|72|4.8813|41.4962|D.Jones 2 Thomson",
+      "Symphonies|72|4.9583|68.2384|Butterworth 4 Barbirolli",
+      "Symphonies|72|29.6537|14.5994|Simpson 3 Horenstein",
+      "Symphonies|72|29.479|41.1732|Simpson 9 Handley",
+      "Symphonies|72|29.4582|67.9865|Lipkin 3 Sun Leaper",
+      "Symphonies|72|53.8993|14.6008|R.Berry 4 Kuchar",
+      "Symphonies|72|53.9997|41.31|M.Tippett 2 Lindberg",
+      "Symphonies|72|53.9266|68.2113|J.Lloyd 4 Brabbins",
+      "Symphonies|72|78.7379|14.8589|Wordsworth 5 Robertson",
+      "Symphonies|72|78.5578|41.2724|Hutchinson Carol Symphony Rose",
+      "Symphonies|72|78.5559|68.1894|Runswick 2 Runswick",
+      "Symphonies|73|4.6155|14.8815|G.Lloyd 5 Downes",
+      "Symphonies|73|4.7917|41.7545|G.Lloyd 6 Downes",
+      "Symphonies|73|4.6155|68.1741|G.Lloyd 8 Downes",
+      "Symphonies|73|29.3583|14.995|Newton 1 Mann",
+      "Symphonies|73|29.9402|41.7379|Watkins Knussen",
+      "Symphonies|73|29.9402|68.6027|B.Scott 2 Mann",
+      "Symphonies|73|53.951|14.8626|Maxwell Davis 10 Pappano",
+      "Symphonies|73|53.9347|41.5642|Macmillan Vigil Vanska",
+      "Symphonies|73|53.8832|68.1894|Macmillan 5 Vanska",
+      "Symphonies|73|78.8072|14.803|Pickard 4 Gaia Symphony Hanson",
+      "Symphonies|73|78.828|41.7379|Elcock 5 Vasiliev",
+      "Symphonies|73|78.828|68.2297|Elcock 7 Vasiliev",
+      "Symphonies|74|4.6493|15.0071|Spratley Sinfonietta Spratley",
+      "Symphonies|74|4.6493|41.7417|H.Wood A.Davis",
+      "Symphonies|74|4.6104|68.2192|Hawes The Great War Symphony Hawes",
+      "Symphonies|74|29.2155|15.0142|Nyman 2 Vincent",
+      "Symphonies|74|29.0771|41.6612|Knussen 3 Knussen",
+      "Symphonies|74|29.1623|68.5886|Hyde Peterson",
+      "Symphonies|74|53.8449|15.0444|G.Prokofiev A Fidelio Symphony Segal",
+      "Symphonies|74|53.8951|41.6495|Chamber Symphony Ades",
+      "Symphonies|74|78.9146|14.8487|Leifs 1 Vanska",
+      "Symphonies|74|78.9046|41.527|Mazzoli Sinfonia Bjarnason"
+    ],
+    "Symphonies|76": [],
+    "Symphonies|75": [
+      "Symphonies|75|4.399|14.9856|Paine 1 Mehta",
+      "Symphonies|75|4.4545|41.3274|Beach e minor N.Jarvi",
+      "Symphonies|75|4.578|67.4263|Price 1 Nezrt㎿Seguin",
+      "Symphonies|75|28.9533|14.9367|Price 4 Nezrt㎿Seguin",
+      "Symphonies|75|28.9621|41.104|Ives 1 Dudamel",
+      "Symphonies|75|28.9448|67.6907|Ives 2 Bernstein",
+      "Symphonies|75|53.8472|14.7444|Ives 3 Marriner",
+      "Symphonies|75|53.5605|41.1188|Ives Holyday Symphony Tilson Thomas",
+      "Symphonies|75|53.5708|67.6907|Diamond 3 Schwarz",
+      "Symphonies|75|78.1896|14.9424|Barber 1 Stern",
+      "Symphonies|75|78.0444|41.1494|Dawson Negro Folk Symphony N.Jarvi",
+      "Symphonies|75|78.2251|67.7388|Gottschalk 1 Rosenberg",
+      "Symphonies|76|4.4543|14.9851|Antheil 5 Wolff / Storgards",
+      "Symphonies|76|4.4611|41.9372|Antheil A Jazz Symphony Tilson Tomas",
+      "Symphonies|76|4.572|68.1188|Still 2 N.Jarvi / Jeter",
+      "Symphonies|76|28.6453|14.9851|Copland 3 Bernstein / Slatkin / Wilson Dorati / Copland / Levi",
+      "Symphonies|76|28.5371|42.1917|Bernstein 2 Rattle / Bernstein",
+      "Symphonies|76|28.489|67.9674|Cater A Symphony Three Orchestra Boulez",
+      "Symphonies|76|53.7364|14.9009|Blada Steel Symphony Maazel",
+      "Symphonies|76|53.853|41.7714|Thompson 2 N.Jarvi",
+      "Symphonies|76|53.5034|68.1034|M.Gould 2 Miller",
+      "Symphonies|76|79.2679|14.7964|Gillis X The Big Hobson",
+      "Symphonies|76|78.8406|41.6612|Chadwick 3 N.Jarvi",
+      "Symphonies|76|78.782|67.991|H.Fry Niagara Bodtein"
+    ],
+    "Symphonies|80": [],
+    "Symphonies|79": [
+      "Symphonies|79|4.1891|14.8301|E.Carter Symphonia BRSO",
+      "Symphonies|79|4.3391|69.75|Bazelon 6 Farberman",
+      "Symphonies|79|29.1063|14.8506|Rouse 2 Gilbert",
+      "Symphonies|79|28.9512|41.6026|Rouse 4 Gilbert",
+      "Symphonies|79|28.8944|69.7419|Mennin 5 Miller",
+      "Symphonies|79|53.654|14.8246|Jackson 1 Jackson",
+      "Symphonies|79|54.1091|41.6412|W.Hill Beethoven 7.1 Golan",
+      "Symphonies|79|53.9943|69.7453|Addler 5 Addler",
+      "Symphonies|79|78.5606|14.9211|Simon A Folklore Symphony Noseda",
+      "Symphonies|79|78.3143|41.5988|Liebermann 2 Litton",
+      "Symphonies|79|78.4933|68.363|Matthews 4 Nabarro",
+      "Symphonies|79|4.4109|41.6234|Wolff",
+      "Symphonies|80|5.3196|14.929|Locklair 2 Rohac",
+      "Symphonies|80|5.2115|41.5993|Kramer Symphony B-A-C-H Petrodlik",
+      "Symphonies|80|5.1791|68.3757|Corigliano 1 Barenboim",
+      "Symphonies|80|29.4127|14.9161|Leshnoff 2 Spano",
+      "Symphonies|80|29.4291|41.7761|Leshnoff 3 Stern",
+      "Symphonies|80|29.4291|68.4783|Leshnoff 4 Guerrero",
+      "Symphonies|80|54.1927|15.0167|Puts 2 Alsop",
+      "Symphonies|80|54.2856|41.5993|Theofanidis 1 Spano",
+      "Symphonies|80|53.9797|68.0621|Drew 1 Skender",
+      "Symphonies|80|79.1314|14.8669|Brahms㎿Swensen Sinfonia in B Swensen",
+      "Symphonies|80|79.1585|41.5146|Bellido 2 Bellido"
+    ],
+    "Symphonies|77": [
+      "Symphonies|77|4.2963|15.1247|Hanson 2 Slatkin",
+      "Symphonies|77|4.2431|40.8467|Hanson 2 Hanson",
+      "Symphonies|77|4.2246|68.3568|Hovhaness 2 Schwarz",
+      "Symphonies|77|29.0961|15.1289|Hovhaness 6 Werthen",
+      "Symphonies|77|29.1179|40.8312|Hovhaness 46 Jordania",
+      "Symphonies|77|29.1265|68.1073|Hovhaness 50 Schwarz",
+      "Symphonies|77|54.1319|15.1507|Piston 6 Schwarz",
+      "Symphonies|77|54.1111|42.3411|Shapero Symphony Classical Orchestra Bernstein",
+      "Symphonies|77|53.9321|68.266|Persichtti 6 Corporno",
+      "Symphonies|77|78.516|14.9851|Baley 1 Baley",
+      "Symphonies|77|78.531|42.1771|Creston 4 Miller",
+      "Symphonies|77|78.8798|68.1809|Herrmann Sinfonietta Schonwandt",
+      "Symphonies|78|4.8725|14.8637|Harris 11 1967 Hobson",
+      "Symphonies|78|5.0417|41.5036|B.Lees 2 Gunzenhauser",
+      "Symphonies|78|5.0501|68.0846|W.Schuman 4 Miller",
+      "Symphonies|78|28.984|14.7238|Walker 5 Vision Dausgaard",
+      "Symphonies|78|28.8823|42.2079|Glass 4 Heroes Russell Davies",
+      "Symphonies|78|29.8434|69.7075|Glass 9 Russell Davies",
+      "Symphonies|78|54.1276|14.9851|Adams Chamber Symphony Adams",
+      "Symphonies|78|54.1276|41.9505|Adams Doctor Atomic Robertson",
+      "Symphonies|78|53.7324|69.7512|Zwilich 3 Ling",
+      "Symphonies|78|78.477|14.8818|Kubik Symphony Concertante Rose",
+      "Symphonies|78|78.656|41.7164|Gunning 5 Gunning",
+      "Symphonies|78|78.656|69.5834|Manookian Durgarian",
+      "manual-1794321234277-ptvjp",
+      "manual-1794321265278-ab7em",
+      "manual-1794321326918-q37u9"
+    ],
+    "Symphonies|11": [],
+    "Symphonies|12": [
+      "Symphonies|11|4.3329|18.8978|Franz Schubert 3 C.Kleiber",
+      "Symphonies|11|18.5261|18.8978|Franz Schubert 4 Giulini",
+      "Symphonies|11|32.7192|18.8978|Franz Schubert 5 Norrington SWR",
+      "Symphonies|11|4.1992|44.4385|Franz Schubert 8 Wand MPO",
+      "Symphonies|11|18.5261|44.4384|Franz Schubert 8 C.Kleiber",
+      "Symphonies|11|32.8467|44.6553|Franz Schubert 8 Venzago",
+      "Symphonies|11|4.4156|70.409|Franz Schubert 9 Wand BPO",
+      "Symphonies|11|18.6104|70.409|Franz Schubert 9 Abbado OM",
+      "Symphonies|11|32.7114|70.2728|Franz Schubert 9 Krips",
+      "Symphonies|11|53.5752|15.1716|Franz Schubert Weber 1 Sawallisch",
+      "Symphonies|11|53.4699|42.0987|Franz Schubert Spohr 6 Rickenbacher",
+      "Symphonies|11|53.6185|68.9566|Franz Schubert Spohr 9 Griffiths",
+      "Symphonies|11|78.2985|15.0303|Franz Schubert Brandl Op.12 Griffiths",
+      "Symphonies|11|78.2985|41.8861|Franz Schubert Lachner 6 Schmalfuss",
+      "Symphonies|11|78.2791|68.9566|Franz Schubert Dietrich d Konig",
+      "Symphonies|12|4.2895|19.3019|Robert Schumann 전집 Ticciati",
+      "Symphonies|12|18.3791|19.1639|Robert Schumann 전집 Sawallisch SKD 1",
+      "Symphonies|12|31.882|19.3019|Robert Schumann Gardiner",
+      "Symphonies|12|4.144|44.8104|Robert Schumann Symphony 1 Bernstein",
+      "Symphonies|12|18.7709|44.8279|Robert Schumann 2 Celibidache 2",
+      "Symphonies|12|32.6758|44.8279|Robert Schumann 2 Chailly",
+      "Symphonies|12|4.3622|70.0934|Robert Schumann 3 Giulini",
+      "Symphonies|12|18.5542|70.0934|Robert Schumann 4 Kegel",
+      "Symphonies|12|32.894|70.0934|Robert Schumann 4 Frutwangler BPO",
+      "Symphonies|12|53.2569|19.3019|Felix Mendelssohn 전집 Abbado",
+      "Symphonies|12|67.6925|19.3057|Felix Mendelssohn 1 Casado",
+      "Symphonies|12|81.8923|19.3019|Felix Mendelssohn 2 Manacorda",
+      "Symphonies|12|53.3605|44.8279|Felix Mendelssohn 3 Maag",
+      "Symphonies|12|67.6991|44.8134|Felix Mendelssohn 3 Abbado",
+      "Symphonies|12|81.8923|44.8279|Felix Mendelssohn 3 Konwitschny",
+      "Symphonies|12|53.3398|70.0934|Felix Mendelssohn 4 Levine BPO",
+      "Symphonies|12|67.5495|69.8633|Felix Mendelssohn 4 Kondrashin",
+      "Symphonies|12|81.9152|70.0789|Felix Mendelssohn 5 Maazel"
+    ],
+    "Symphonies|14": [],
+    "Symphonies|15": [],
+    "Symphonies|16": [
+      "Symphonies|15|4.1222|14.5379|Goetz F Major Albert",
+      "Symphonies|15|4.3226|40.949|Draescke 3 Weigle",
+      "Symphonies|15|4.4425|68.3674|Kaun 3 Stockhammer",
+      "Symphonies|15|27.8606|14.7745|Raff 3 Stadlmair",
+      "Symphonies|15|27.8541|41.6225|Raff 5 N.Jarvi",
+      "Symphonies|15|27.4863|68.3674|Raff 10 Travis",
+      "Symphonies|15|54.0799|14.7646|Klughardt 3 Berg",
+      "Symphonies|15|54.0269|41.4179|Bruch 2 Masur",
+      "Symphonies|15|54.0269|68.1384|Rudorff 3 Beermann",
+      "Symphonies|15|78.9894|14.6529|Woyrsch 1 Dorsch",
+      "Symphonies|15|79.0358|41.4992|G.Schumann b Gedschold",
+      "Symphonies|15|79.0358|68.203|Jadassohn 1 Griffiths",
+      "Symphonies|16|51.7204|21.9856|Alpensinfonie Thielemann",
+      "Symphonies|16|65.9034|21.5513|Alpensinfonie Karajan",
+      "Symphonies|16|80.2736|21.9856|Alpensinfonie Sinopoli",
+      "Symphonies|16|51.942|48.0134|Symphonia Domestica Karajan",
+      "Symphonies|16|66.8683|47.9974|2 Weigle 2",
+      "Symphonies|16|80.1929|47.9974|2 Baumer",
+      "Symphonies|16|4.1975|41.5732|R.Wagner C Major Wakasugi",
+      "Symphonies|16|28.4215|14.7868|Bittner 1 Vasiliev",
+      "Symphonies|16|28.35|41.488|Marx Eine Herbstsymphonie Wildner",
+      "Symphonies|16|28.37|67.9538|Scharwenka c minor Fifield"
+    ],
+    "Symphonies|27": [],
+    "Symphonies|26": [
+      "Symphonies|26|3.6357|20.777|Pyotr Ilyich Tchaikovsky 전집 Svetlanov r.Canyon",
+      "Symphonies|26|18.4118|20.7962|Pyotr Ilyich Tchaikovsky 전집 Jansons OPO",
+      "Symphonies|26|32.5377|20.777|Pyotr Ilyich Tchaikovsky 전집 Karajan BPO",
+      "Symphonies|26|4.0206|45.5163|Pyotr Ilyich Tchaikovsky 1 Svetlanov",
+      "Symphonies|26|18.1841|45.3854|Pyotr Ilyich Tchaikovsky 1 Pletnev",
+      "Symphonies|26|32.5553|45.2323|Pyotr Ilyich Tchaikovsky 2 Karajan",
+      "Symphonies|26|3.8825|69.9235|Pyotr Ilyich Tchaikovsky 3 Muti",
+      "Symphonies|26|17.8647|70.1067|Pyotr Ilyich Tchaikovsky 4 Svetlanov",
+      "Symphonies|26|32.5378|70.1067|Pyotr Ilyich Tchaikovsky 4 Mravinsky",
+      "Symphonies|26|53.5798|20.9132|Pyotr Ilyich Tchaikovsky 4 Szell LSO",
+      "Symphonies|26|67.6822|20.9177|Pyotr Ilyich Tchaikovsky 5 Jasons 5",
+      "Symphonies|26|53.5798|44.9852|Pyotr Ilyich Tchaikovsky 5 Gergiev WPO",
+      "Symphonies|26|67.9186|44.7282|Pyotr Ilyich Tchaikovsky 6 Markevitch BPO",
+      "Symphonies|26|82.1117|44.7282|Pyotr Ilyich Tchaikovsky 6 Bernstein NYPO",
+      "Symphonies|26|53.358|70.3264|Pyotr Ilyich Tchaikovsky 6 Currentzis",
+      "Symphonies|26|67.7233|70.2378|Pyotr Ilyich Tchaikovsky Manfred Pletnev r.DG",
+      "Symphonies|26|81.9164|70.2378|Pyotr Ilyich Tchaikovsky Manfred Jansons OPO",
+      "Symphonies|27|4.3554|14.8784|Bortniansky Chamber Symphony Rudin",
+      "Symphonies|27|4.1555|41.6667|Glinka Sinaisky",
+      "Symphonies|27|4.4565|68.0674|Balakirev 1 Sinaisky",
+      "Symphonies|27|28.2123|14.8218|Rimsky㎿Korskov Svetlanov",
+      "Symphonies|27|28.401|41.9128|Borodin 2 Rozhdestvensky",
+      "Symphonies|27|28.4646|68.458|Arensky 1 Polyansky",
+      "Symphonies|27|54.1227|14.9365|Grechaninov 1 Polyansky",
+      "Symphonies|27|53.7574|42.1646|Taneyev 4 N.Jarvi",
+      "Symphonies|27|53.6725|67.9492|Gliere 2 Downes",
+      "Symphonies|27|78.8278|14.9264|Gliere 3 Downes",
+      "Symphonies|27|78.5672|42.2688|Kalinnikov 1 Svetlanov",
+      "Symphonies|27|78.8325|67.9445|Kalinnikov 2 N.Jarvi",
+      "Symphonies|28|4.4954|20.8632|Sergei Rachmaninov 전집 Previn",
+      "Symphonies|28|18.4911|20.458|Sergei Rachmaninov 전집 Ashkenazy 1",
+      "Symphonies|28|32.7656|20.786|Sergei Rachmaninov 1 Pletnev",
+      "Symphonies|28|4.123|44.8279|Sergei Rachmaninov 2 I.Fischer",
+      "Symphonies|28|18.4179|44.9311|Sergei Rachmaninov 2 Svetlanov",
+      "Symphonies|28|32.6469|44.8283|Sergei Rachmaninov 2 Petrenko",
+      "Symphonies|28|4.1458|68.8788|Sergei Rachmaninov 3 Jansons",
+      "Symphonies|28|18.5021|69.1365|Sergei Rachmaninov 3 Pletnev",
+      "Symphonies|28|32.7656|69.1365|Sergei Rachmaninov 3 Nezet㎿Seguin",
+      "Symphonies|28|53.3124|20.8688|Alexander Scriabin 전집 Svetlanov",
+      "Symphonies|28|67.6156|20.7826|Alexander Scriabin 1 Muti",
+      "Symphonies|28|81.4675|20.7917|Alexander Scriabin 2 Pletnev",
+      "Symphonies|28|53.3218|44.8948|Alexander Scriabin 3 Ashkenazy Poème de l㑄Extase",
+      "Symphonies|28|67.469|45.0243|Alexander Scriabin 3 Sinopoli",
+      "Symphonies|28|81.5599|44.8945|Alexander Scriabin 3 Pletnev",
+      "Symphonies|28|53.3124|71.8433|Alexander Scriabin Sverlanov r.Exton",
+      "Symphonies|28|68.6123|71.9465|Alexander Scriabin Muti",
+      "Symphonies|28|81.464|71.9978|Alexander Scriabin Ahronovitch r.Profil"
+    ],
+    "Symphonies|28": [],
+    "Symphonies|61": [],
+    "Symphonies|60": [
+      "Symphonies|60|4.5085|14.8583|Dopper 2 Bamert",
+      "Symphonies|60|4.4452|41.2242|Rontgen 3 Porcelijn",
+      "Symphonies|60|4.4628|67.5301|Rontgen 15 Porcelijn",
+      "Symphonies|60|29.2999|14.8143|Zweers 2 Fournet",
+      "Symphonies|60|29.4788|41.1954|Hol 2 Bamert",
+      "Symphonies|60|29.4071|67.4299|Jongen Symphonie Concertante de Waart",
+      "Symphonies|60|54.2356|14.7735|Gilse 3 Asszonyi",
+      "Symphonies|60|54.2272|41.0297|Baddings 10 Porcelijn",
+      "Symphonies|60|54.2328|67.3682|Vermeulen 7 Rozhdestvensky",
+      "Symphonies|60|78.8036|14.8379|Andriessen 3 Porcelijn",
+      "Symphonies|61|4.5538|14.6608|V.Hoof 2 Equilbey",
+      "Symphonies|61|29.1474|14.5842|Poot 6 Andre",
+      "Symphonies|61|4.5019|42.3698|De Boeck G Major Bollon",
+      "Symphonies|61|29.1852|42.3698|Devreese",
+      "Symphonies|61|4.3378|67.9965|Meulemans 2 Devreese"
     ]
   },
   "moved": {
@@ -79565,6 +80408,2726 @@
       "g": "Concertos",
       "from": 41,
       "to": 40
+    },
+    "Symphonies|3|3.8232|14.3526|Wilms 4 Griffiths": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|3.7743|41.3818|Wilms 6 Concerto Koln": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|3.9533|68.2387|Cartellieri 1 Schmalfuss": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|27.9499|14.6128|Schneider 16 Frank": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|27.9345|41.4707|Schneider 17 Kuijken": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|27.9725|68.2438|Schacht C Major Schmalfuss": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|53.5088|14.0684|Wranitzky D Major Griffiths": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|53.7862|41.6009|Wranitzky d minor Akademie fur Alte Musik": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|53.7203|68.1787|Eichnerd d minor Ehrhardt": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|78.566|14.5023|Eichnerd D Major Op.1-1 Moretto": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|78.6031|41.504|Winter 1 Moesus": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|3|78.5551|68.2088|Witt 6 Moesus": {
+      "g": "Symphonies",
+      "from": 3,
+      "to": 2
+    },
+    "Symphonies|5|4.3099|19.3026|Joseph Haydn 63 Antonini": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|18.8208|19.1904|Joseph Haydn 73 Harnoncourt": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|33.0981|19.2107|Joseph Haydn 78 Dantone": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|4.3099|44.6878|Joseph Haydn 80 Antonini": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|18.6599|44.6878|Joseph Haydn 82 Chauvin": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|33.0445|44.9343|Joseph Haydn 83 Chauvin": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|4.359|69.9308|Joseph Haydn 85 Christie": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|23.588|70.1205|Joseph Haydn 88 Bernstein 88 Bruggen": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|32.9225|70.2691|Joseph Haydn 88 Bruggen": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|53.3662|19.1254|Joseph Haydn 90 Rattle": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|67.6649|19.243|Joseph Haydn 92 Jacobs": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|81.8773|19.243|Joseph Haydn 93 Bruggen": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|53.3346|44.694|Joseph Haydn 93 Szell": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|67.6912|44.694|Joseph Haydn 94 Norrington SWR": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|81.4204|44.6921|Joseph Haydn 94 Jochum": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|53.3374|70.3358|Joseph Haydn 95 Harnoncourt RCO": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|67.5447|70.274|Joseph Haydn Harnoncourt RCO 96 Hogwood 96 Kuijken": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|5|81.6845|70.136|Joseph Haydn 96 Kuijken": {
+      "g": "Symphonies",
+      "from": 5,
+      "to": 4
+    },
+    "Symphonies|6|4.2003|19.2415|Joseph Haydn 97 Weil": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|18.5406|19.2702|Joseph Haydn 98 Koopman": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|32.7688|19.1968|Joseph Haydn 99 Gottfreid": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|4.0325|44.2798|Joseph Haydn 100 Harnoncourt RCO": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|18.3911|44.4724|Joseph Haydn 100 Walter NYP": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|32.4784|44.5107|Joseph Haydn 101 Bruggen": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|4.3045|70.4217|Joseph Haydn 101 Mackerras": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|18.5821|70.4217|Joseph Haydn 102 Minkowski": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|32.7803|70.4217|Joseph Haydn 103 Norrington SWR": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|53.3529|18.9917|Joseph Haydn 103 Markevitch": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|67.596|19.0782|Joseph Haydn 104 Bruggen": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|81.7169|18.9936|Joseph Haydn 104 Celibidache": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|6|53.1112|44.4683|Joseph Haydn 104 Karajan": {
+      "g": "Symphonies",
+      "from": 6,
+      "to": 4
+    },
+    "Symphonies|9|4.2781|19.2476|Wolfgang Amadeus Mozart 39 Herzog": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|9|18.6167|19.2476|Wolfgang Amadeus Mozart 39 Meckerras": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|9|32.7443|19.2476|Wolfgang Amadeus Mozart 39 Harnoncourt RCO": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|9|18.5207|44.586|Wolfgang Amadeus Mozart 40 Walter WPO,52 40 Levine": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|9|32.3684|44.3143|Wolfgang Amadeus Mozart Levine": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|9|4.4361|70.1144|Wolfgang Amadeus Mozart 41 Herzog": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|9|18.6651|70.1144|Wolfgang Amadeus Mozart 41 Harnoncourt RCO 41": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|9|32.9679|70.1144|Wolfgang Amadeus Mozart Minasi": {
+      "g": "Symphonies",
+      "from": 9,
+      "to": 8
+    },
+    "Symphonies|10|4.3465|19.1507|Ludwig van Beethoven 4 C.Kleiber r.Orfeo": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|18.7179|19.1507|Ludwig van Beethoven 4 Harnoncourt r.Sony": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|32.911|19.1507|Ludwig van Beethoven 5 Kegel r.Altus": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|4.2078|44.4411|Ludwig van Beethoven 5 Maazel BPO,59": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|18.5866|44.4411|Ludwig van Beethoven 5 C. Kleiber": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|32.7797|44.4411|Ludwig van Beethoven 5 Markevitch 59": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|4.3873|70.0022|Ludwig van Beethoven 6 Honeck": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|18.5805|70.0022|Ludwig van Beethoven 6 Celibidache": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|32.7736|70.0022|Ludwig van Beethoven 6 Bohm 77": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|53.6221|18.9986|Ludwig van Beethoven 7 Kleiber BSSO 7": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|68.6932|19.0161|Ludwig van Beethoven Vriend": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|53.6761|44.4491|Ludwig van Beethoven 8 Krivine": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|67.7208|44.5042|Ludwig van Beethoven Symphony 8 Scherchen": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|81.9196|44.463|Ludwig van Beethoven 9 Gielen SWF,86": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|53.671|69.2918|Ludwig van Beethoven 9 Celibidache": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|67.7427|69.1342|Ludwig van Beethoven 9 Norrington SWR": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|10|81.4916|69.2035|Ludwig van Beethoven 9 Furtwangler Lucern,54": {
+      "g": "Symphonies",
+      "from": 10,
+      "to": 9
+    },
+    "Symphonies|18|4.3158|19.1988|Anton Bruckner 5 Blomstedt LGO 5": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|18.509|19.1988|Anton Bruckner 5 Wand BPO": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|32.7021|19.1988|Anton Bruckner 5 Celibidache r.Altus": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|4.2895|44.7958|Anton Bruckner 6 Celibidache": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|18.4826|44.7958|Anton Bruckner 6 Klemperer": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|32.4687|44.5196|Anton Bruckner 6 Wand NDR": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|4.144|69.987|Anton Bruckner 7 Matacici CZPO": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|18.4057|69.987|Anton Bruckner 7 Blomstedt SKD": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|32.6758|69.9869|Anton Bruckner 7 Celibidache BPO": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|53.5189|19.2818|Anton Bruckner 8 Celibidache r.AUDIOR,85": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|67.8575|19.2818|Anton Bruckner 8 Karajan WPO,88 8": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|82.4413|19.2818|Anton Bruckner 8 Maazel BPO": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|53.4008|44.7911|Anton Bruckner 9 Giulini WPO": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|67.6991|44.7911|Anton Bruckner 9 Celibidache 9": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|18|81.8923|44.7911|Anton Bruckner 9 Wand SWR": {
+      "g": "Symphonies",
+      "from": 18,
+      "to": 17
+    },
+    "Symphonies|20|4.2895|19.3019|Gustav Mahler 6 Tennstedt LPO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|18.4237|19.3019|Gustav Mahler 6 Bernstein WPO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|32.6758|19.3019|Gustav Mahler 6 Vanska": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|4.144|44.8279|Gustav Mahler 7 Bloch": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|18.3692|44.7842|Gustav Mahler 7 Tilson㎿Tomas LSO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|32.6758|44.8279|Gustav Mahler 7 Gielen": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|4.0693|70.0934|Gustav Mahler 8 Chailly": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|18.3687|70.0934|Gustav Mahler 8 Tennstedt LPO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|32.6011|70.0934|Gustav Mahler 8 Nagano": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|53.3512|19.3019|Gustav Mahler 9 Abbado BPO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|67.675|19.3019|Gustav Mahler 9 Bernstein RCO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|81.8923|19.3019|Gustav Mahler 9 Karajan BPO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|53.3313|44.8279|Gustav Mahler 10 Sanderling": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|67.6809|44.8279|Gustav Mahler 10 Inbal TMSO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|81.8923|44.8279|Gustav Mahler 10 Gielen": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|53.3705|69.6876|Gustav Mahler Das Lied von der Klemperer": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|67.5149|70.0935|Gustav Mahler Erde Boulez": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "Symphonies|20|81.5775|70.0934|Gustav Mahler Bernstein WPO": {
+      "g": "Symphonies",
+      "from": 20,
+      "to": 19
+    },
+    "manual-1794313789195-n9bvk": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "manual-1794313828531-4c94n": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|4.4195|69.4216|Wellesz 4 Rabl": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|28.0207|14.4564|W.Furtwangler 1 Haimor": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|4.5351|14.4442|Braunfels Sinfonia brevis Op.69 Buhl": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|4.7043|40.6957|Hausegger Natursymphonie Rasilanen": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|28.0516|40.6957|Stohr 1 Hobson": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "manual-1794313986537-okk0g": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "manual-1794314030427-bxzns": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "manual-1794314071747-9by7m": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|28.1997|69.7518|Weill 2 Jansons": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|53.7125|14.8649|Hartmann 1 Metzmacher": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|53.4712|40.4727|Hartmann 4 Kubelik": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|54.0937|69.9231|Goldmann 1 Kegel": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|79.444|14.4442|B.Walter 1 Bostein": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|79.8678|41.823|F.Weingartner 3 Letonja": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|23|79.6888|69.3094|F.Weingartner 6 Letonja": {
+      "g": "Symphonies",
+      "from": 23,
+      "to": 22
+    },
+    "Symphonies|25|4.1696|14.435|Einem Philhadelphia Symphony Most": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|4.1307|42.0654|Winbeck 2 R.Davies": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|4.1923|69.4354|Ruzicka Clean Symphony Ruzicka": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|28.329|14.7125|Schwertsik Sinfonia㎿Sinfonietta HK Gruber": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|28.3163|42.4815|Meij 1 The Lord of the Warble": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|28.3636|70.0714|Meij 4 Sinfonie der Lieder Meij": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|54.1141|14.6835|Killmayer 1 Killmayer": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|53.9351|42.3123|T.Larcher 2 Lintu": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|53.9766|69.9446|Schneider 6 Albrecht": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|79.0512|14.7189|Winbeck To Solus R.Davies": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|25|79.1548|41.3926|Doderer 2 Matiakh": {
+      "g": "Symphonies",
+      "from": 25,
+      "to": 24
+    },
+    "Symphonies|30|4.1141|20.777|Dmitri Shostakovich 10 Karajan": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|18.4599|20.777|Dmitri Shostakovich 10 Sanderling": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|32.7852|20.786|Dmitri Shostakovich 10 Nelsons": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|4.123|44.8279|Dmitri Shostakovich 11 Pletnev RNO": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|18.3259|44.9311|Dmitri Shostakovich 11 Bychkov": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|32.6469|44.9824|Dmitri Shostakovich 11 Rostropovich": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|4.1588|68.8788|Dmitri Shostakovich 12 Mravinsky": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|18.4975|68.8788|Dmitri Shostakovich 13 Kondrashin 15": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|32.6906|68.8788|Dmitri Shostakovich 15 Barshai": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|31|4.2497|20.8688|Nikolai Myaskovsky 전집 Svetlanov": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|18.5528|20.7826|Nikolai Myaskovsky 1 Rozhdestvensky": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|32.5199|20.5227|Nikolai Myaskovsky 2 Rabl": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|4.3474|44.8335|Nikolai Myaskovsky 4 Svetlanov": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|18.5107|44.846|Nikolai Myaskovsky 6 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|32.5753|44.8358|Nikolai Myaskovsky 21 Petrenko": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|4.2318|67.8393|Nikolai Myaskovsky 24 Yablonsky": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|18.5792|67.8906|Nikolai Myaskovsky 26 Svetlanov": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|32.6467|67.9404|Nikolai Myaskovsky 27 Polyansky": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|53.3124|20.7386|Mieczyslaw Weinberg 2 Grazinyte㎿Tyla": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|67.5655|20.6614|Mieczyslaw Weinberg 3 Svedlund": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|81.6686|20.6524|Mieczyslaw Weinberg 3 Grazinyte㎿Tyla": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|53.4651|44.6774|Mieczyslaw Weinberg 6 Fedoseyev": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|67.6284|44.7033|Mieczyslaw Weinberg 7 Grossmann": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|81.7228|44.8066|Mieczyslaw Weinberg 12 Storgards": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|53.3124|67.6183|Mieczyslaw Weinberg 17 Lande": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|31|67.4185|67.6445|Mieczyslaw Weinberg Chamber symphony Kremer": {
+      "g": "Symphonies",
+      "from": 31,
+      "to": 29
+    },
+    "Symphonies|33|3.8454|14.7067|Nosyrev 3 Verbitsky": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|4.0716|41.2217|Tischenko 4 Rozhdestvensky": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|4.3896|67.7214|Tischenko 7 Yablonsky": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|29.2472|14.9251|Shcherbachov 5 Titov": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|29.3033|41.2701|Polovinkin 7 Titov": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|29.2181|68.1726|Kopylov 7 Almeida": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|53.1415|14.9968|Shebalin 3 Gergiev": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|54.059|41.4929|Salmanov 2 Mravinsky": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|54.059|67.9183|Khrennikov 2 Svetlanov": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|78.5656|14.554|B.Tchaikovsky 1 Kondrashin": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|78.5656|41.2151|B.Tchaikovsky 3 Pedoseyev": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|33|78.5656|68.3888|B.Tchaikovsky Chamber Symphony Rudin": {
+      "g": "Symphonies",
+      "from": 33,
+      "to": 32
+    },
+    "Symphonies|35|4.5516|14.6895|Kancheli 3 Kakhidze": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|4.7245|41.3756|Kancheli 4 DePreist": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|4.7306|68.2578|Spoliansky Mann": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|29.5498|14.8757|Artyomov A Symphony of Sondeckis": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|29.5498|41.2523|Artyomov Ashkenazy": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|29.518|68.28|Martynov Utopia Jurowski": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|54.2162|14.9212|Eshpai 2 Ivanov": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|54.2162|40.7479|Pavlova 2 Krimets": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|53.8707|67.3989|Pavlova 3 Vedernikov": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|78.9361|14.8644|Jurovski 5 Jurovski": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|35|78.7038|41.3114|Ichmouratov On Ruins of an Ancient Tremblay": {
+      "g": "Symphonies",
+      "from": 35,
+      "to": 32
+    },
+    "Symphonies|36|4.1361|14.3275|Lyatoshynsky 3 Karabits": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|4.1361|41.514|Bortkiewicz 1 Brabbins": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|4.1361|67.4185|Karamanov Let it Karamanov": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|28.7501|14.3925|Bruk 18 Kupcs": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|28.9074|41.514|Khachaturian 2 Khachaturian": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|29.07|67.1475|Terterian 3 Kakhidze": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|53.7357|14.4314|Hovhannisyan 3 Tjeknavorian": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|53.558|39.7812|Yardumian 2 Shui": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|53.7786|67.1475|Tjeknavorian 5 Tjeknavorian": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|78.2264|14.388|Amirov Symphony Rozdestvensky": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|78.4872|40.2994|Adigezalov Symphonic Mughams Adigezalov": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|36|78.515|67.1284|Karayev 1 Yablonsky": {
+      "g": "Symphonies",
+      "from": 36,
+      "to": 32
+    },
+    "Symphonies|40|4.2958|15.3196|Mielck f minor Oramo": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|4.4834|41.2241|Melartin 4 Grin": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|4.5272|67.9098|Kaipainen 3 Lintu": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|29.1395|15.0055|Klami 2 Ollila": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|29.3368|41.2026|Klami Symphonie Enfantine Hynninen": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|29.3182|67.659|Englund 2 Lilje": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|53.9717|14.7724|Nordgren 2 Kangas": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|53.9848|41.4655|Nordgren 3 Oramo": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|54.0073|68.0933|Hameenniemi 1 Sarasate": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|78.6706|14.8581|Rautavaara 1 Pommer": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|78.6707|41.3542|Rautavaara 3 Segerstam": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|40|78.7228|68.0105|Rautavaara 7 Vanska": {
+      "g": "Symphonies",
+      "from": 40,
+      "to": 39
+    },
+    "Symphonies|47|4.7793|14.8654|Langgaard 1 Segerstam": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "manual-1794323373116-hm0nd": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|4.8527|41.2181|Pals 1 Goritzki": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|4.958|67.9992|Klenau 5 Wagner": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|28.9926|14.7087|Holmboe 2 Huges": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "manual-1794323743689-iqt1g": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|28.9926|41.1518|Holmboe Chamber Symphony No.3 Storgard": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|29.1716|67.833|L.Glass 4 Raiskin": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|53.987|14.6849|Abrahamsen Hansen": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|53.987|41.2856|Norgard 1 Segerstam": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|54.1134|67.833|Rasmussen 2 Storgards": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|79.2009|14.7038|Marthinsen Snapshot Symphony Lindberg": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|79.4086|41.3377|Eichberg 1 Poppen": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|47|79.8367|67.9891|Eichberg 3 Spano": {
+      "g": "Symphonies",
+      "from": 47,
+      "to": 46
+    },
+    "Symphonies|43|4.1274|20.3|Kurt Atterberg 2 Westerberg": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|18.5822|20.8692|Kurt Atterberg 3 Rasilainen": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|32.8408|20.88|Kurt Atterberg 3 Oskamp": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|4.0661|45.5731|Kurt Atterberg 4 Rasilainen": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|18.4826|45.5425|Kurt Atterberg 5 Rasilainen": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|32.8934|45.5731|Kurt Atterberg 5 Westerberg": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|4.2729|69.9271|Kurt Atterberg Symphony 6 Hirokami": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|18.7621|70.0418|Kurt Atterberg 7 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|33.0077|70.0418|Kurt Atterberg 8 Rasilainen": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|54.3861|14.9|Kurt Atterberg Alfven 전집 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|79.2026|14.9168|Kurt Atterberg Rangstrom 3 Furst": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|54.3948|41.5985|Kurt Atterberg Alfven 2 Segerstam": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|79.1193|41.5497|Kurt Atterberg Olsson c minor Liljefors": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|54.32|69.8584|Kurt Atterberg Alfven 4 Westerberg": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|43|79.1215|70.0269|Kurt Atterberg Rosenberg 3 Venzago": {
+      "g": "Symphonies",
+      "from": 43,
+      "to": 42
+    },
+    "Symphonies|44|4.1274|20.777|Allan Pettersson 5 Markiz": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|18.6049|20.8483|Allan Pettersson 5 Lindberg": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|32.886|20.8474|Allan Pettersson 6 Trojahn": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|3.8714|45.5114|Allan Pettersson 6 Lindberg": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|18.3239|45.5731|Allan Pettersson 7 Segerstam": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|32.7404|45.5731|Allan Pettersson 7 Lindberg": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|18.3687|69.8865|Allan Pettersson 8 Segerstam": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|32.9863|69.9272|Allan Pettersson 9 Lindberg": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|54.4693|14.7084|Allan Pettersson Blomdal 3 Ahronovitch": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|3.7369|69.7989|Allan Pettersson 8 Sanderling": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|79.0253|14.719|Allan Pettersson Eliasson 3 Oramo": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|54.5356|41.4519|Allan Pettersson Larsson 3 Franck": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|79.0997|41.3405|Allan Pettersson Melchers d minor Martin": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|54.7145|68.1689|Allan Pettersson Wiren 3 Gamba": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|44|78.8525|68.0632|Allan Pettersson Nystroem Sinfonia del mare Konig": {
+      "g": "Symphonies",
+      "from": 44,
+      "to": 42
+    },
+    "Symphonies|53|4.6548|14.5747|Gorecki 1 Bader": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|4.8338|41.2815|Gorecki 3 Zinman": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|4.4432|68.2667|Gorecki 3 Kilanowicz": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|28.4849|14.5153|Lutoslawski 1 Lutoslawski": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|28.306|41.3359|Lutoslawski 3 Lutoslawski": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|28.306|68.1844|Lutoslawski 4 Urbanski": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|54.8114|14.2141|Pendercki 3 Wit": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|54.962|41.2814|Pendercki 5 Pendercki": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|54.9191|68.1217|Pendercki 7 Kord": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|53|78.8636|14.576|P.Kletzki 3 Bezaly": {
+      "g": "Symphonies",
+      "from": 53,
+      "to": 52
+    },
+    "Symphonies|50|4.1871|14.8199|Fibich 3 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|4.1388|41.5348|Martinu 1 Neumann": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|4.3814|68.1684|Martinu 4 Hursa": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|28.0147|14.5379|Suk Asrael Belohlavek": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|28.0016|40.9114|Suk 1 Belohlavek": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|28.2196|68.0258|Vajda Sinfonietta Kollar": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|53.9506|14.6942|Schulhoff 2 Kluttig": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|54.0684|41.3498|Ostrcil Sinfonietta Belohlavek": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|53.6382|67.9668|Moyzes 8 Slovak": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|78.7803|14.6567|Svoboda 2 DePreist": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|78.996|41.3498|Zelezny Symphony for Small Orchestra Konvalinka": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|50|79.2401|68.1033|Kalabis 2 Kosler": {
+      "g": "Symphonies",
+      "from": 50,
+      "to": 48
+    },
+    "Symphonies|49|3.804|19.1195|Antonin Dvorak 전집 Kubelik r.DG": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|18.1956|19.3019|Antonin Dvorak 1 Kubelik": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|32.21|19.3019|Antonin Dvorak 5 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|3.8569|44.8279|Antonin Dvorak 7 Myung Whun Chung": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|18.1956|44.8279|Antonin Dvorak 7 Talich CZPO,38": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|32.3887|44.8279|Antonin Dvorak 8 Neumann CZPO,72": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|4.0752|70.0934|Antonin Dvorak 8 Karajan WPO": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|18.4138|70.0934|Antonin Dvorak 9 Kertesz WPO 9": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|32.607|70.0934|Antonin Dvorak 9 Bernstein r.DG": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|53.6998|14.8451|Foerster 4 Baumer": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|79.4777|14.8384|Janacek Sinfonietta Meckerras": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|53.7083|41.5277|Smetana Festive Symphony Senja": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|79.4777|41.3974|Janacek Sinfonietta Abbado": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|53.8564|68.0887|Suchon Symfonietta Rustica N.Jarvi": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|49|79.4777|67.9704|Janacek Sinfonietta Kubelik": {
+      "g": "Symphonies",
+      "from": 49,
+      "to": 48
+    },
+    "Symphonies|58|4.3935|14.3378|Roussel 3 Bernstein": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|4.2248|41.1574|Vierne Op.24 P.Jarvi": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|4.7149|67.8118|Henry La Dixieme Symphonique Rophe": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|28.1559|14.4164|Poulenc Sinfonietta Tovey": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|28.1328|41.2828|Tournemire 2 Almeida": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|28.1559|67.9626|Francaix G Major Fischer": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|53.9962|14.4244|Milhaud 1 Plasson": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|53.7854|41.2054|Koechlin Seven Myrat": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|53.9962|68.1106|Dutilleux 1 P.Jarvi": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|78.9853|14.5909|Bacri 4 Kantorow": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|79.0666|41.1444|Casadesus 1 Shelley": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|58|79.0666|67.9667|Tanguy Sinfonietta Sanderling": {
+      "g": "Symphonies",
+      "from": 58,
+      "to": 55
+    },
+    "Symphonies|56|4.0264|20.777|Camille Saint-Saens 3 Barenboim": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|18.2195|20.777|Camille Saint-Saens 3 Myung Whun Chung": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|32.4831|20.6457|Camille Saint-Saens 3 Ormandy": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|4.0264|54.9379|Camille Saint-Saens B Bloch": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|18.0864|54.9379|Camille Saint-Saens B Dutoit": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|32.6235|54.9379|Camille Saint-Saens B Jordan": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|53.4483|20.777|Cesar Franck Ernest Chausson Olivier Messiaen d Monteux": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|67.6197|20.777|Cesar Franck Ernest Chausson Olivier Messiaen d Karjan PS": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|81.8412|20.8064|Cesar Franck Ernest Chausson Olivier Messiaen d Barenboim": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|53.4151|55.0019|Cesar Franck Ernest Chausson Olivier Messiaen Turangalîla Chailly": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|67.5976|54.9379|Cesar Franck Ernest Chausson Olivier Messiaen Turangalîla Salonen": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|56|81.8555|54.9379|Cesar Franck Ernest Chausson Olivier Messiaen Turangalîla Myung Whun Chung": {
+      "g": "Symphonies",
+      "from": 56,
+      "to": 55
+    },
+    "Symphonies|63|4.3478|14.4924|Sgambati 2 Rudner": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|4.1649|41.4859|Pizzetti A Major Iorio": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|4.3312|67.9152|Respighi Sinfonia Drammatica Downes": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|29.0346|14.8312|Casella 1 Noseda": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|28.9937|41.3274|Casella 2 Noseda": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|29.2071|67.8746|Martucci 1 Bakles": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|53.7094|14.793|Malipiero Symphony of Heroes Closel": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|53.9668|41.3274|Bosso 1 Bosso": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|53.9305|68.2639|Rota 3 Noseda": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|78.5039|14.5173|Berio Sinfonia Chailly": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|78.5955|41.1959|Berio Sinfonia Boulez": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|63|78.5828|68.0767|Berio Sinfonia Berio": {
+      "g": "Symphonies",
+      "from": 63,
+      "to": 62
+    },
+    "Symphonies|65|5.1603|15.0119|Montsalvatge Sinfonia da requiem Mena": {
+      "g": "Symphonies",
+      "from": 65,
+      "to": 64
+    },
+    "Symphonies|65|29.2203|15.2748|Gerhard 4 Bamert": {
+      "g": "Symphonies",
+      "from": 65,
+      "to": 64
+    },
+    "Symphonies|65|4.7631|41.9785|Palomo Sinfonia Cordoba Valdes": {
+      "g": "Symphonies",
+      "from": 65,
+      "to": 64
+    },
+    "Symphonies|65|4.8146|68.9613|Rodo 2 Leaper": {
+      "g": "Symphonies",
+      "from": 65,
+      "to": 64
+    },
+    "Symphonies|68|3.9667|19.3019|Ralph Vaughan Williams 전집 Haitink": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|18.1101|19.3558|Ralph Vaughan Williams 전집 Previn": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|32.2083|19.3019|Ralph Vaughan Williams Sea Haitink": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|3.8212|44.4159|Ralph Vaughan Williams 2 HicKox": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|18.1599|44.4159|Ralph Vaughan Williams 4 Manze": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|32.3341|44.4399|Ralph Vaughan Williams 5 Handley": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|3.8057|69.033|Ralph Vaughan Williams 5 Haitink": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|18.1444|69.033|Ralph Vaughan Williams 6 Barbirolli": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|32.1672|68.8742|Ralph Vaughan Williams Sinfonia Antartica Haitink": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|54.0085|14.8657|Ralph Vaughan Williams Bennett g minor Braithwaite": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|78.6388|14.884|Ralph Vaughan Williams Stanford 3 Handley": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|54.0885|41.8617|Ralph Vaughan Williams Dieren 1 Boughton": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|78.5394|41.7862|Ralph Vaughan Williams Moeran g minor Handley": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|54.1205|68.9488|Ralph Vaughan Williams M.Smith a minor Shelley": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|68|78.6225|68.9801|Ralph Vaughan Williams Holbrooke 3 Griffiths": {
+      "g": "Symphonies",
+      "from": 68,
+      "to": 67
+    },
+    "Symphonies|70|5.8094|41.5349|Walton 1 Rattle": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|5.7976|14.3157|Walton 1 Previn": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|11.206|68.2695|Haitink": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|29.2088|14.7065|Wallace Creation Symphony Brabbins": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|29.0929|42.0755|Sullivan E Major Hickox": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|29.2322|68.1333|Powell A Major Falletta": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|53.8788|14.6152|Leighton Symphony for Strings HIckox": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|53.6759|41.6633|Alwyn 3 Alwyn": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|54.1292|68.4457|Scott 1 Brabbins": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|78.5882|14.7467|Bax 1 Handley": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|78.5882|41.5672|Bax 3 Handley": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|70|78.5321|68.2937|Bax 4 Thomson": {
+      "g": "Symphonies",
+      "from": 70,
+      "to": 69
+    },
+    "Symphonies|71|4.7864|14.4436|Rootham 2 Handley": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|4.7303|41.5728|Dyson Choral Symphony Hill": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|4.6653|68.4457|Bliss Color Symphony Hickox": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|28.9272|14.6152|Maconchy Symphony for Double Strings Handley": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|28.8109|41.2728|Arnold 2 Handley": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|28.9323|68.3692|HIckox": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|53.6367|14.496|Jacob 1 Wordsworth": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|53.728|41.4383|Josephs 5 Measham": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|53.7365|68.3692|Holst The Cotswold㐴s A.Davis": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|78.7897|14.6423|Boughton 3 Handley": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|71|78.8578|41.5956|McCabe 4 Handley": {
+      "g": "Symphonies",
+      "from": 71,
+      "to": 69
+    },
+    "Symphonies|74|4.6493|15.0071|Spratley Sinfonietta Spratley": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|4.6493|41.7417|H.Wood A.Davis": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|4.6104|68.2192|Hawes The Great War Symphony Hawes": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|29.2155|15.0142|Nyman 2 Vincent": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|29.0771|41.6612|Knussen 3 Knussen": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|29.1623|68.5886|Hyde Peterson": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|53.8449|15.0444|G.Prokofiev A Fidelio Symphony Segal": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|53.8951|41.6495|Chamber Symphony Ades": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|78.9146|14.8487|Leifs 1 Vanska": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|74|78.9046|41.527|Mazzoli Sinfonia Bjarnason": {
+      "g": "Symphonies",
+      "from": 74,
+      "to": 72
+    },
+    "Symphonies|73|4.6155|14.8815|G.Lloyd 5 Downes": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|4.7917|41.7545|G.Lloyd 6 Downes": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|4.6155|68.1741|G.Lloyd 8 Downes": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|29.3583|14.995|Newton 1 Mann": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|29.9402|41.7379|Watkins Knussen": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|29.9402|68.6027|B.Scott 2 Mann": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|53.951|14.8626|Maxwell Davis 10 Pappano": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|53.9347|41.5642|Macmillan Vigil Vanska": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|53.8832|68.1894|Macmillan 5 Vanska": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|78.8072|14.803|Pickard 4 Gaia Symphony Hanson": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|78.828|41.7379|Elcock 5 Vasiliev": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|73|78.828|68.2297|Elcock 7 Vasiliev": {
+      "g": "Symphonies",
+      "from": 73,
+      "to": 72
+    },
+    "Symphonies|76|4.4543|14.9851|Antheil 5 Wolff / Storgards": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|4.4611|41.9372|Antheil A Jazz Symphony Tilson Tomas": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|4.572|68.1188|Still 2 N.Jarvi / Jeter": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|28.6453|14.9851|Copland 3 Bernstein / Slatkin / Wilson Dorati / Copland / Levi": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|28.5371|42.1917|Bernstein 2 Rattle / Bernstein": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|28.489|67.9674|Cater A Symphony Three Orchestra Boulez": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|53.7364|14.9009|Blada Steel Symphony Maazel": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|53.853|41.7714|Thompson 2 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|53.5034|68.1034|M.Gould 2 Miller": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|79.2679|14.7964|Gillis X The Big Hobson": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|78.8406|41.6612|Chadwick 3 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|76|78.782|67.991|H.Fry Niagara Bodtein": {
+      "g": "Symphonies",
+      "from": 76,
+      "to": 75
+    },
+    "Symphonies|80|5.3196|14.929|Locklair 2 Rohac": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|5.2115|41.5993|Kramer Symphony B-A-C-H Petrodlik": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|5.1791|68.3757|Corigliano 1 Barenboim": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|29.4127|14.9161|Leshnoff 2 Spano": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|29.4291|41.7761|Leshnoff 3 Stern": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|29.4291|68.4783|Leshnoff 4 Guerrero": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|54.1927|15.0167|Puts 2 Alsop": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|54.2856|41.5993|Theofanidis 1 Spano": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|53.9797|68.0621|Drew 1 Skender": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|79.1314|14.8669|Brahms㎿Swensen Sinfonia in B Swensen": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|80|79.1585|41.5146|Bellido 2 Bellido": {
+      "g": "Symphonies",
+      "from": 80,
+      "to": 79
+    },
+    "Symphonies|78|4.8725|14.8637|Harris 11 1967 Hobson": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|5.0417|41.5036|B.Lees 2 Gunzenhauser": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|5.0501|68.0846|W.Schuman 4 Miller": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|28.984|14.7238|Walker 5 Vision Dausgaard": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|28.8823|42.2079|Glass 4 Heroes Russell Davies": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|29.8434|69.7075|Glass 9 Russell Davies": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|54.1276|14.9851|Adams Chamber Symphony Adams": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|54.1276|41.9505|Adams Doctor Atomic Robertson": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|53.7324|69.7512|Zwilich 3 Ling": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|78.477|14.8818|Kubik Symphony Concertante Rose": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|78.656|41.7164|Gunning 5 Gunning": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|78|78.656|69.5834|Manookian Durgarian": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "manual-1794321234277-ptvjp": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "manual-1794321265278-ab7em": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "manual-1794321326918-q37u9": {
+      "g": "Symphonies",
+      "from": 78,
+      "to": 77
+    },
+    "Symphonies|11|4.3329|18.8978|Franz Schubert 3 C.Kleiber": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|18.5261|18.8978|Franz Schubert 4 Giulini": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|32.7192|18.8978|Franz Schubert 5 Norrington SWR": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|4.1992|44.4385|Franz Schubert 8 Wand MPO": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|18.5261|44.4384|Franz Schubert 8 C.Kleiber": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|32.8467|44.6553|Franz Schubert 8 Venzago": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|4.4156|70.409|Franz Schubert 9 Wand BPO": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|18.6104|70.409|Franz Schubert 9 Abbado OM": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|32.7114|70.2728|Franz Schubert 9 Krips": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|53.5752|15.1716|Franz Schubert Weber 1 Sawallisch": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|53.4699|42.0987|Franz Schubert Spohr 6 Rickenbacher": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|53.6185|68.9566|Franz Schubert Spohr 9 Griffiths": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|78.2985|15.0303|Franz Schubert Brandl Op.12 Griffiths": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|78.2985|41.8861|Franz Schubert Lachner 6 Schmalfuss": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|11|78.2791|68.9566|Franz Schubert Dietrich d Konig": {
+      "g": "Symphonies",
+      "from": 11,
+      "to": 12
+    },
+    "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|32.6758|19.3019|Johannes Brahms 전집 Abbado BPO": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|18.4826|44.8279|Johannes Brahms 1 Giulini LAPO 1": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|3.9449|70.0522|Johannes Brahms 1 Furtwangler 2 r.tahra,51": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|18.3444|70.0934|Johannes Brahms 2 Giulini LAPO": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|32.683|70.0934|Johannes Brahms 2 Monteux SFSO,47": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|53.7212|19.3451|Johannes Brahms 2 Abbado BPO": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|67.8797|19.3019|Johannes Brahms 3 Giulini WPO": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|82.1797|19.3019|Johannes Brahms 3 Harding": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|53.5326|44.8298|Johannes Brahms 3 Abendroth 51 4": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|67.5903|44.8279|Johannes Brahms 4 Giulini WPO": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|82.0342|44.8279|Johannes Brahms 4 C.Klieber": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|67.5396|70.3538|Johannes Brahms 4 Sanderling BSO 4": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|14|81.9642|70.3557|Johannes Brahms 4 Abbado BPO": {
+      "g": "Symphonies",
+      "from": 14,
+      "to": 13
+    },
+    "Symphonies|15|4.1222|14.5379|Goetz F Major Albert": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|4.3226|40.949|Draescke 3 Weigle": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|4.4425|68.3674|Kaun 3 Stockhammer": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|27.8606|14.7745|Raff 3 Stadlmair": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|27.8541|41.6225|Raff 5 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|27.4863|68.3674|Raff 10 Travis": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|54.0799|14.7646|Klughardt 3 Berg": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|54.0269|41.4179|Bruch 2 Masur": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|54.0269|68.1384|Rudorff 3 Beermann": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|78.9894|14.6529|Woyrsch 1 Dorsch": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|79.0358|41.4992|G.Schumann b Gedschold": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|15|79.0358|68.203|Jadassohn 1 Griffiths": {
+      "g": "Symphonies",
+      "from": 15,
+      "to": 16
+    },
+    "Symphonies|27|4.3554|14.8784|Bortniansky Chamber Symphony Rudin": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|4.1555|41.6667|Glinka Sinaisky": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|4.4565|68.0674|Balakirev 1 Sinaisky": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|28.2123|14.8218|Rimsky㎿Korskov Svetlanov": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|28.401|41.9128|Borodin 2 Rozhdestvensky": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|28.4646|68.458|Arensky 1 Polyansky": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|54.1227|14.9365|Grechaninov 1 Polyansky": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|53.7574|42.1646|Taneyev 4 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|53.6725|67.9492|Gliere 2 Downes": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|78.8278|14.9264|Gliere 3 Downes": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|78.5672|42.2688|Kalinnikov 1 Svetlanov": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|27|78.8325|67.9445|Kalinnikov 2 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 27,
+      "to": 26
+    },
+    "Symphonies|28|4.4954|20.8632|Sergei Rachmaninov 전집 Previn": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|18.4911|20.458|Sergei Rachmaninov 전집 Ashkenazy 1": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|32.7656|20.786|Sergei Rachmaninov 1 Pletnev": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|4.123|44.8279|Sergei Rachmaninov 2 I.Fischer": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|18.4179|44.9311|Sergei Rachmaninov 2 Svetlanov": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|32.6469|44.8283|Sergei Rachmaninov 2 Petrenko": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|4.1458|68.8788|Sergei Rachmaninov 3 Jansons": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|18.5021|69.1365|Sergei Rachmaninov 3 Pletnev": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|32.7656|69.1365|Sergei Rachmaninov 3 Nezet㎿Seguin": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|53.3124|20.8688|Alexander Scriabin 전집 Svetlanov": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|67.6156|20.7826|Alexander Scriabin 1 Muti": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|81.4675|20.7917|Alexander Scriabin 2 Pletnev": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|53.3218|44.8948|Alexander Scriabin 3 Ashkenazy Poème de l㑄Extase": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|67.469|45.0243|Alexander Scriabin 3 Sinopoli": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|81.5599|44.8945|Alexander Scriabin 3 Pletnev": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|53.3124|71.8433|Alexander Scriabin Sverlanov r.Exton": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|68.6123|71.9465|Alexander Scriabin Muti": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|28|81.464|71.9978|Alexander Scriabin Ahronovitch r.Profil": {
+      "g": "Symphonies",
+      "from": 28,
+      "to": 26
+    },
+    "Symphonies|30|53.2107|20.786|Sergei Prokofiev 전집 N.Jarvi": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|67.504|20.786|Sergei Prokofiev 전집 Rozhdestvensky 1": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|81.6834|20.9405|Sergei Prokofiev 1 Karajan": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|53.1881|44.7932|Sergei Prokofiev 3 Abbado": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|67.5267|44.8369|Sergei Prokofiev 4 Alsop": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|81.7199|44.8369|Sergei Prokofiev 5 Jansons": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|53.1907|68.8153|Sergei Prokofiev 5 Rozhdestvensky": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|67.5294|68.8153|Sergei Prokofiev 6 Gaffigan": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|30|81.9007|68.809|Sergei Prokofiev 7 Previn": {
+      "g": "Symphonies",
+      "from": 30,
+      "to": 29
+    },
+    "Symphonies|34|4.239|14.9382|Schnittke 전집 various": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|4.2216|41.8321|Schnittke 1 Rozhdestvensky": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|4.2314|68.5668|Schnittke 3 Jurowski": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|29.58|14.96|Schnittke 7 Polyansky": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|29.5072|41.5085|Tcherepnin 4 Shui": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|29.4987|68.5315|Avshalomov 1 Avshalomov": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|53.7936|14.7961|Silvestrov 5 Saraste": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|53.6673|41.4715|Silvestrov 6 Kofman": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|53.6556|67.6337|Ryabov 4 Ziva": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|78.9669|14.6673|Denisov 1 Kawka": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|78.7678|41.7019|A.Tchaikovsky 7 Vasiliev": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|34|78.3717|67.8633|Shchedrin 2 Sinaisky": {
+      "g": "Symphonies",
+      "from": 34,
+      "to": 32
+    },
+    "Symphonies|41|4.9278|15.0995|Merikanto 1 Sakari": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|4.8351|41.521|Sallinen 4 Kamu": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|5.1055|68.1856|Ahmas 1 Bergulnd": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|29.3804|15.1853|Aho 1 Vanska": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|29.4221|41.7709|Aho 7 Vanska": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|29.4332|68.2361|Kokonen 1 Kamu": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|54.1895|15.1297|Leiviska 1 Rasilainen": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|54.0691|41.7657|Segerstam 181 Segerstam": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|54.1895|68.0252|Kuusisto Op.39 Brabbins": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|78.9878|15.2984|Mustonen 3 Mustonen": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|41|78.9878|41.5358|Stasevska 2 Stasevska": {
+      "g": "Symphonies",
+      "from": 41,
+      "to": 39
+    },
+    "Symphonies|57|4.3877|14.7759|Bizet C Major West": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|4.5605|41.4117|Bizet Roma Fremaux": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|4.2505|68.2628|Lalo g minor Butt": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|27.9948|14.7801|Magnard 1 Ossonce": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|28.0137|41.4097|Magnard 3 Ansermet": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|27.935|68.1677|Dukas C Major Lopez㎿Cobos": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|53.7838|14.7903|Guilmant 1 Tortelier": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|53.6048|41.3532|Ropartz 1 Lang㎿lessing": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|53.5801|68.1578|Emmanuel 1 Lockhart": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|78.9082|14.7623|Gounod 1 Leleux": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|79.0042|41.3909|Schmitt 2 Oramo": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|57|79.0127|68.03|Rabaud 2 Couton": {
+      "g": "Symphonies",
+      "from": 57,
+      "to": 55
+    },
+    "Symphonies|61|4.5538|14.6608|V.Hoof 2 Equilbey": {
+      "g": "Symphonies",
+      "from": 61,
+      "to": 60
+    },
+    "Symphonies|61|29.1474|14.5842|Poot 6 Andre": {
+      "g": "Symphonies",
+      "from": 61,
+      "to": 60
+    },
+    "Symphonies|61|4.5019|42.3698|De Boeck G Major Bollon": {
+      "g": "Symphonies",
+      "from": 61,
+      "to": 60
+    },
+    "Symphonies|61|29.1852|42.3698|Devreese": {
+      "g": "Symphonies",
+      "from": 61,
+      "to": 60
+    },
+    "Symphonies|61|4.3378|67.9965|Meulemans 2 Devreese": {
+      "g": "Symphonies",
+      "from": 61,
+      "to": 60
     }
   },
   "extraPages": {
