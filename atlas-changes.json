@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-12T06:11:39.021Z",
+  "createdAt": "2026-11-12T08:40:57.560Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -77686,7 +77686,7 @@
     "Symphonies|14|67.5396|70.3538|Johannes Brahms 4 Sanderling BSO 4": false,
     "Symphonies|14|81.9642|70.3557|Johannes Brahms 4 Abbado BPO": false,
     "Symphonies|15|4.1222|14.5379|Goetz F Major Albert": true,
-    "Symphonies|15|4.3226|40.949|Draescke 3 Weigle": false,
+    "Symphonies|15|4.3226|40.949|Draescke 3 Weigle": true,
     "Symphonies|15|4.4425|68.3674|Kaun 3 Stockhammer": false,
     "Symphonies|15|27.8606|14.7745|Raff 3 Stadlmair": false,
     "Symphonies|15|27.8541|41.6225|Raff 5 N.Jarvi": false,
