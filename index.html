@@ -1200,7 +1200,21 @@ function atlasMergedRegionNames(g,visible,sequence){
 }
 function atlasPageName(g,p){
  const name=collectionEdits.pageNames?.[pageKey(g,p)];
- return typeof name==='string'?name.trim():'';
+ const title=typeof name==='string'?name.trim():'';
+ const originalEra=String(atlasPageData(g,p)?.era||'').trim();
+ for(const era of [atlasPageEra(g,p),originalEra]){
+  if(era&&title.toLowerCase().endsWith(' '+era.toLowerCase())){
+   return title.slice(0,-era.length).replace(/[ ·–—-]+$/,'');
+  }
+ }
+ return title;
+}
+function atlasPageEra(g,p){
+ const name=collectionEdits.pageEras?.[pageKey(g,p)];
+ if(typeof name==='string'&&name.trim())return name.trim();
+ const data=atlasPageData(g,p);
+ const era=String(data?.era||'').replace(/[㚕㏙㏚㐴㑄㎿]/g,'').trim();
+ return data?.region==='Deutsch / Austria'||(g==='Vocal'&&era==='Baroque')?era:'';
 }
 function regions(g,visible,mergedNames){
  const vals=[];
@@ -1261,7 +1275,7 @@ function renderGenre(){
  const index=visible.indexOf(page);
  const position=index+1;
  const total=visible.length;
- const baroque=genre==='Vocal'&&(p.era||'').trim()==='Baroque';const customName=atlasPageName(genre,page);const country=(customName||mergedNames.get(page)||getRegion(p)).replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');$('locationTitle').textContent=customName||(baroque?country.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba'):country);$('eraTitle').textContent=customName?'':(baroque||p.region==='Deutsch / Austria')?(p.era||'').trim():'';const s=$('region');s.replaceChildren();let regs=regions(genre,visible,mergedNames);for(let r of regs){let o=document.createElement('option');o.value=r.i;o.textContent=r.name.replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');s.append(o)}const activeRegion=regs.filter(x=>visible.indexOf(x.i)<=index).at(-1);if(activeRegion)s.value=activeRegion.i;s.onchange=()=>{setPage(+s.value);requestAnimationFrame(()=>s.blur())};
+ const baroque=genre==='Vocal'&&(p.era||'').trim()==='Baroque';const customName=atlasPageName(genre,page);const country=(customName||mergedNames.get(page)||getRegion(p)).replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');$('locationTitle').textContent=customName||(baroque?country.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba'):country);$('eraTitle').textContent=atlasPageEra(genre,page);const s=$('region');s.replaceChildren();let regs=regions(genre,visible,mergedNames);for(let r of regs){let o=document.createElement('option');o.value=r.i;o.textContent=r.name.replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');s.append(o)}const activeRegion=regs.filter(x=>visible.indexOf(x.i)<=index).at(-1);if(activeRegion)s.value=activeRegion.i;s.onchange=()=>{setPage(+s.value);requestAnimationFrame(()=>s.blur())};
 const psel=$('page');psel.replaceChildren();for(const [i,id] of visible.entries()){let opt=document.createElement('option');opt.value=id;opt.textContent=i+1;psel.append(opt)}psel.value=page;psel.onchange=()=>{setPage(+psel.value);requestAnimationFrame(()=>psel.blur())};$('pageTotal').textContent='/ '+total;
  $('pageInfo').textContent=position+' / '+total+' pages';
  $('mobilePageInfo').textContent=$('pageInfo').textContent;
@@ -1438,7 +1452,7 @@ function exportAlbumEdits(){
 
 const COLLECTION_STORAGE_KEY='my-music-atlas-collection-edits-v1';
 let collectionEdits={added:{},removed:{},order:{},moved:{},extraPages:{}};
-try{const v=JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY)||'{}');if(v&&typeof v==='object'){collectionEdits={added:v.added||{},removed:v.removed||{},order:v.order||{},moved:v.moved||{},extraPages:v.extraPages||{},pageNames:v.pageNames||{}}}}catch(e){}
+try{const v=JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY)||'{}');if(v&&typeof v==='object'){collectionEdits={added:v.added||{},removed:v.removed||{},order:v.order||{},moved:v.moved||{},extraPages:v.extraPages||{},pageNames:v.pageNames||{},pageEras:v.pageEras||{}}}}catch(e){}
 
 function collectionStore(){try{localStorage.setItem(COLLECTION_STORAGE_KEY,JSON.stringify(collectionEdits))}catch(e){}}
 function pageKey(g,p){return [g,p].join('|')}
@@ -1523,7 +1537,7 @@ function pageLinks(g,p){
    return x-y||u.i-v.i;
  }).map(x=>x.a);
 }
-function mergeCollectionEdits(data){if(!data||typeof data!=='object')return;collectionEdits={added:{...(data.added||{}),...collectionEdits.added},removed:{...(data.removed||{}),...collectionEdits.removed},order:{...(data.order||{}),...collectionEdits.order},moved:{...(data.moved||{}),...collectionEdits.moved},extraPages:atlasMergeExtraPages(data.extraPages,collectionEdits.extraPages),pageNames:{...(data.pageNames||{}),...collectionEdits.pageNames}};collectionStore()}
+function mergeCollectionEdits(data){if(!data||typeof data!=='object')return;collectionEdits={added:{...(data.added||{}),...collectionEdits.added},removed:{...(data.removed||{}),...collectionEdits.removed},order:{...(data.order||{}),...collectionEdits.order},moved:{...(data.moved||{}),...collectionEdits.moved},extraPages:atlasMergeExtraPages(data.extraPages,collectionEdits.extraPages),pageNames:{...(data.pageNames||{}),...collectionEdits.pageNames},pageEras:{...(data.pageEras||{}),...collectionEdits.pageEras}};collectionStore()}
 function exportCollectionEdits(){const body=JSON.stringify({format:'MY MUSIC ATLAS collection edits',version:1,createdAt:new Date().toISOString(),added:collectionEdits.added,removed:collectionEdits.removed,order:collectionEdits.order},null,2);const a=document.createElement('a');const url=URL.createObjectURL(new Blob([body],{type:'application/json'}));a.href=url;a.download='collection-edits.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)}
 function moveSelectedAlbumTo(position){
  if(!selected)return false;
@@ -2444,6 +2458,7 @@ async function atlasImportUnified(){
   order:{...collectionEdits.order,...(data.order||{})},
   moved:data.moved||{},
   pageNames:data.pageNames||{},
+  pageEras:data.pageEras||{},
   extraPages:data.extraPages||{}
  };
  collectionStore();
