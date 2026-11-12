@@ -940,6 +940,16 @@ document.addEventListener('keydown',event=>{
  display:block;width:auto;height:14px;max-width:20px;object-fit:contain;flex:none;
 }
 .album .art .atlas-recommendation-marks .atlas-personal-mark{height:13px;flex:none}
+@media(min-width:901px){
+ .album .art.atlas-art-with-marks{overflow:visible}
+ .album .art.atlas-art-with-marks>img{border-radius:inherit}
+ .album .art .atlas-recommendation-marks{
+  left:auto;right:0;bottom:auto;top:calc(100% + 9px);max-width:none;
+ }
+ .album .album-label.atlas-label-with-marks{
+  box-sizing:border-box;padding-right:var(--atlas-desktop-mark-space);
+ }
+}
 .atlas-personal-mark{display:block;width:auto;height:clamp(9px,.78em,11px);aspect-ratio:645/700}
 .atlas-personal-mark svg{display:block;width:100%;height:100%}
 .atlas-recommendation-entry-icon{width:auto;height:1em;margin-inline-end:.45em;vertical-align:-.1em}
@@ -1987,7 +1997,7 @@ function atlasRecommendationsFor(album,genre){
   genre==='Orchestral'?ATLAS_ORCHESTRAL_RECOMMENDATIONS:null;
  return catalogue?.get(album.q.trim().replace(/\s+/g,' '))||[];
 }
-function atlasAddRecordingMarks(art,album,genre,page){
+function atlasAddRecordingMarks(art,label,album,genre,page){
  const recommendations=atlasRecommendationsFor(album,genre);
  const favorite=atlasIsFavorite(album,genre,page);
  if(!favorite&&!recommendations.length)return;
@@ -2008,6 +2018,8 @@ function atlasAddRecordingMarks(art,album,genre,page){
   note.innerHTML=ATLAS_PERSONAL_NOTE;
   marks.append(note);
  }
+ label.classList.add('atlas-label-with-marks');
+ label.style.setProperty('--atlas-desktop-mark-space',(marks.childElementCount*24+4)+'px');
  art.classList.add('atlas-art-with-marks');
  art.append(marks);
 }
@@ -2046,7 +2058,7 @@ function renderCovers(){
    };
    im.classList.toggle('hd-applied',!!hd);
    im.alt=a.q;f.append(im);
-   let t=makeAlbumLabel(a.q,targetGenre,targetPage,a);atlasEnableNameLinks(t,a,targetGenre,targetPage);atlasAddRecordingMarks(f,a,targetGenre,targetPage);btn.append(f,t);
+   let t=makeAlbumLabel(a.q,targetGenre,targetPage,a);atlasEnableNameLinks(t,a,targetGenre,targetPage);atlasAddRecordingMarks(f,t,a,targetGenre,targetPage);btn.append(f,t);
    btn.onclick=()=>selectAlbum(a,src,targetGenre,targetPage);
    fragment.append(btn);
   }
@@ -2225,7 +2237,7 @@ function drawSearchPage(){
   btn.setAttribute('aria-label',h.a.q+' 상세 정보');
   let art=document.createElement('div');art.className='art';let img=document.createElement('img');img.alt=h.a.q;img.loading='lazy';art.append(img);
   let label=makeAlbumLabel(h.a.q,h.g,h.i,h.a);atlasEnableNameLinks(label,h.a,h.g,h.i,h.a);
-  atlasAddRecordingMarks(art,h.a,h.g,h.i);btn.append(art,label);root.append(btn);
+  atlasAddRecordingMarks(art,label,h.a,h.g,h.i);btn.append(art,label);root.append(btn);
   // Search results must use the same cover priority as the genre grid:
   // HD replacement (when enabled) -> album coverUrl -> cropped PDF cover.
   const hdCover=hdEnabled&&hdEligible(h.g,h.i)?hdGet(h.a,h.g,h.i)?.url:null;
