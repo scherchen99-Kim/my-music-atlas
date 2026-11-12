@@ -2009,11 +2009,44 @@ const ATLAS_CONCERTO_RECOMMENDATIONS=new Map([
  ["Violin Concerto Op.14 vn.Shaham/Previn Cello Concerto Op.22", [["rosette", "Penguin Guide · Rosette · Gil Shaham / London Symphony Orchestra / André Previn · DG 4398862"]]],
  ["J.Williams Violin Concerto No.2", [["presto", "Presto Recordings of the Year · Winner (2022) · Anne-Sophie Mutter / Boston Symphony Orchestra / John Williams"]]]
 ]);
+const ATLAS_CHAMBER_RECOMMENDATIONS=new Map([
+ ["Violin Sonatas 전집 No.1~10 Ludwig van Beethoven vn.Faust/ pf. Melnikov Violin Sonata",[["gramophone","Gramophone Awards · Chamber Winner (2010) · Isabelle Faust / Alexander Melnikov"],["bbc","BBC Radio 3 · Building a Library First Choice (2010) · Isabelle Faust / Alexander Melnikov"]]],
+ ["String Quartet No.9 C Major Op.59/3 Artemis Quartet Takacs Quartet",[["gramophone","Gramophone Awards · Chamber Winner (2002) · Takács Quartet"]]],
+ ["B flat Op.133 Grosse Fugue Takacs Quartet Octet E flat Op.103",[["gramophone","Gramophone Awards · Chamber Winner (2005) · Takács Quartet"]]],
+ ["Piano Quartet Op.47 Faust/Tamestit/ Queyras/Melnikov",[["gramophone","Gramophone Awards · Chamber Winner (2024) · Isabelle Faust / Antoine Tamestit / Jean-Guihen Queyras / Alexander Melnikov"]]],
+ ["Doric Quartett Faust//Schreiber/Tamestit/ Queyras/Melnikov",[["gramophone","Gramophone Awards · Chamber Winner (2024) · Isabelle Faust / Antoine Tamestit / Jean-Guihen Queyras / Alexander Melnikov / Anne Katharina Schreiber"]]],
+ ["No.2 a minor Op.13 String Quartet Quatuor Ebene Octet E flat Op.20",[["bbcMagazine","BBC Music Magazine Awards · Chamber Winner (2014) · Quatuor Ébène"]]],
+ ["No.6 f minor Op.80 String Quartet Quatuor Ebene",[["bbcMagazine","BBC Music Magazine Awards · Chamber Winner (2014) · Quatuor Ébène"]]],
+ ["String Quartet 전집 Takacs Quartet String Quartet No.1",[["gramophone","Gramophone Awards · Chamber Winner (1998) · Takács Quartet"],["bbc","BBC Radio 3 · Building a Library First Choice (2002) · Takács Quartet"]]],
+ ["String Quartet F Major M.35 Quatuor Ebene Introduction et",[["gramophone","Gramophone Awards · Recording of the Year & Chamber Winner (2009) · Quatuor Ébène"]]],
+ ["Piano Quintet a minor Op.84 vn.Vengerov p.Ohlsson/Takacs QT. Salut d 㐴amour Op.12",[["gramophone","Gramophone Awards · Chamber Winner (2021) · Garrick Ohlsson / Takács Quartet"],["presto","Presto Recordings of the Year · Winner (2020) · Garrick Ohlsson / Takács Quartet"]]]
+]);
+const ATLAS_SOLO_RECOMMENDATIONS=new Map([
+ ["Wolfgang Amadeus Mozart Piano Sonata No.17 B flat K.570 p.Uchida",[["rosette","Penguin Guide · Rosette · Mitsuko Uchida · Philips Mozart Piano Sonatas"]]],
+ ["p.Hamelin 44 Variations Godowsky Studies Chopin Etudes",[["gramophone","Gramophone Awards · Instrumental Winner (2000) · Marc-André Hamelin"],["rosette","Penguin Guide · Rosette · Marc-André Hamelin"]]],
+ ["12 Etudes Op.10 㖈 Op.25 p.Sokolov p.Pollini 4 Ballades",[["bbc","BBC Radio 3 · Building a Library First Choice (2006) · Maurizio Pollini · DG · 1972 release"]]],
+ ["Piano Sonata b minor S.178 Franz Liszt p.Zimerman 12 Transcendental Etude S.139",[["bbc","BBC Radio 3 · Building a Library First Choice (2005) · Krystian Zimerman"]]],
+ ["Claude Debussy p.Zimerman",[["gramophone","Gramophone Awards · Recording of the Year (1994) · Krystian Zimerman"]]],
+ ["p.Uchida",[["rosette","Penguin Guide · Rosette · Mitsuko Uchida · Debussy Études"]]],
+ ["p.Pogorelich",[["rosette","Penguin Guide · Rosette · Ivo Pogorelich · DG · Ravel Gaspard de la nuit"]]],
+ ["p.Hamelin United Will Never Be Defeated Rzewski T he People United Will Never Be Defeated",[["gramophone","Gramophone Awards · Recording of the Year & Instrumental Winner (2016) · Igor Levit"],["presto","Presto Recordings of the Year · Winner (2015) · Igor Levit"]]]
+]);
+const ATLAS_VOCAL_RECOMMENDATIONS=new Map([
+ ["Die Jahreszeiten H.21/3 Jacobs Stabat Mater",[["gramophone","Gramophone Awards · Choral Winner (2005) · RIAS Kammerchor / Freiburger Barockorchester / René Jacobs"],["bbc","BBC Radio 3 · Building a Library First Choice (2008) · RIAS Kammerchor / Freiburger Barockorchester / René Jacobs"]]],
+ ["Le nozze di Figaro opera, K492 Wolfgang Amadeus Mozart Jacobs Don Giovanni opera, K527",[["gramophone","Gramophone Awards · Recording of the Year & Opera Winner (2004) · Concerto Köln / René Jacobs"]]],
+ ["opera,K621 La Clemenza di Tito Jacobs Idomeneo opera, K366",[["bbc","BBC Radio 3 · Building a Library First Choice (2006) · René Jacobs"]]],
+ ["Missa Solemnis D Major Op.123 Ludwig van Beethoven Gardiner",[["gramophone","Gramophone Awards · Choral Winner (1991) · Monteverdi Choir / English Baroque Soloists / John Eliot Gardiner · Archiv"]]],
+ ["Weber opera Der Freischutz Op.77",[["bbc","BBC Radio 3 · Building a Library First Choice (2026) · Staatskapelle Dresden / Carlos Kleiber"]]],
+ ["La Traviata opera Giuseppe Verdi Kleiber Un ballo in maschera opera",[["bbc","BBC Radio 3 · Building a Library First Choice (2007) · Ileana Cotrubaș / Plácido Domingo / Bavarian State Orchestra / Carlos Kleiber"]]]
+]);
 const ATLAS_PERSONAL_NOTE='<svg viewBox="0 0 645 700" aria-hidden="true" focusable="false"><use href="#atlasDiscoveryNote" width="645" height="700"/></svg>';
 function atlasRecommendationsFor(album,genre){
  const catalogue=genre==='Symphonies'?ATLAS_SYMPHONY_RECOMMENDATIONS:
   genre==='Orchestral'?ATLAS_ORCHESTRAL_RECOMMENDATIONS:
-  genre==='Concertos'?ATLAS_CONCERTO_RECOMMENDATIONS:null;
+  genre==='Concertos'?ATLAS_CONCERTO_RECOMMENDATIONS:
+  genre==='Chamber'?ATLAS_CHAMBER_RECOMMENDATIONS:
+  genre==='Solo'?ATLAS_SOLO_RECOMMENDATIONS:
+  genre==='Vocal'?ATLAS_VOCAL_RECOMMENDATIONS:null;
  return catalogue?.get(album.q.trim().replace(/\s+/g,' '))||[];
 }
 function atlasAddRecordingMarks(art,label,album,genre,page){
