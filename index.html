@@ -1198,13 +1198,18 @@ function atlasMergedRegionNames(g,visible,sequence){
  }
  return new Map([...names].map(([id,countries])=>[id,[...countries].join(' · ')]));
 }
+function atlasPageName(g,p){
+ const name=collectionEdits.pageNames?.[pageKey(g,p)];
+ return typeof name==='string'?name.trim():'';
+}
 function regions(g,visible,mergedNames){
  const vals=[];
  let lastCountry='',lastEra='',segmentStart=-1,austriaN=0;
  for(const [index,i] of visible.entries()){
    const pageData=atlasPageData(g,i);
-   const name=mergedNames.get(i)||getRegion(pageData),era=(pageData.era||'').replace(/[㚕㏙㏚㐴㑄㎿]/g,'').trim();
-   const aust=name==='Deutsch / Austria';
+   const customName=atlasPageName(g,i);
+   const name=customName||mergedNames.get(i)||getRegion(pageData),era=(pageData.era||'').replace(/[㚕㏙㏚㐴㑄㎿]/g,'').trim();
+   const aust=!customName&&name==='Deutsch / Austria';
    // After the opening Mannheim page, keep the remaining Classical symphonies together.
    const splitLongRun=!(g==='Symphonies'&&era==='Classicism')&&index-segmentStart>=6;
    const needsNew=(name!==lastCountry)||(aust&&(era!==lastEra || splitLongRun));
@@ -1215,10 +1220,10 @@ function regions(g,visible,mergedNames){
        austriaN++;
        label=`Deutsch / Austria ${austriaN}${baroque?'':' · '+(era||'Music')}`;
      }
-     if(baroque){
+     if(baroque&&!customName){
        label='Baroque · '+label.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba');
      }
-     if(!vals.some(v=>v.name===label))vals.push({name:label,i});
+     vals.push({name:label,i});
      segmentStart=index;
    }
    lastCountry=name;lastEra=era;
@@ -1256,7 +1261,7 @@ function renderGenre(){
  const index=visible.indexOf(page);
  const position=index+1;
  const total=visible.length;
- const baroque=genre==='Vocal'&&(p.era||'').trim()==='Baroque';const country=(mergedNames.get(page)||getRegion(p)).replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');$('locationTitle').textContent=baroque?country.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba'):country;$('eraTitle').textContent=(baroque||p.region==='Deutsch / Austria')?(p.era||'').trim():'';const s=$('region');s.replaceChildren();let regs=regions(genre,visible,mergedNames);for(let r of regs){let o=document.createElement('option');o.value=r.i;o.textContent=r.name.replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');s.append(o)}const activeRegion=regs.filter(x=>visible.indexOf(x.i)<=index).at(-1);if(activeRegion)s.value=activeRegion.i;s.onchange=()=>{setPage(+s.value);requestAnimationFrame(()=>s.blur())};
+ const baroque=genre==='Vocal'&&(p.era||'').trim()==='Baroque';const customName=atlasPageName(genre,page);const country=(customName||mergedNames.get(page)||getRegion(p)).replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');$('locationTitle').textContent=customName||(baroque?country.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba'):country);$('eraTitle').textContent=customName?'':(baroque||p.region==='Deutsch / Austria')?(p.era||'').trim():'';const s=$('region');s.replaceChildren();let regs=regions(genre,visible,mergedNames);for(let r of regs){let o=document.createElement('option');o.value=r.i;o.textContent=r.name.replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');s.append(o)}const activeRegion=regs.filter(x=>visible.indexOf(x.i)<=index).at(-1);if(activeRegion)s.value=activeRegion.i;s.onchange=()=>{setPage(+s.value);requestAnimationFrame(()=>s.blur())};
 const psel=$('page');psel.replaceChildren();for(const [i,id] of visible.entries()){let opt=document.createElement('option');opt.value=id;opt.textContent=i+1;psel.append(opt)}psel.value=page;psel.onchange=()=>{setPage(+psel.value);requestAnimationFrame(()=>psel.blur())};$('pageTotal').textContent='/ '+total;
  $('pageInfo').textContent=position+' / '+total+' pages';
  $('mobilePageInfo').textContent=$('pageInfo').textContent;
@@ -1433,7 +1438,7 @@ function exportAlbumEdits(){
 
 const COLLECTION_STORAGE_KEY='my-music-atlas-collection-edits-v1';
 let collectionEdits={added:{},removed:{},order:{},moved:{},extraPages:{}};
-try{const v=JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY)||'{}');if(v&&typeof v==='object'){collectionEdits={added:v.added||{},removed:v.removed||{},order:v.order||{},moved:v.moved||{},extraPages:v.extraPages||{}}}}catch(e){}
+try{const v=JSON.parse(localStorage.getItem(COLLECTION_STORAGE_KEY)||'{}');if(v&&typeof v==='object'){collectionEdits={added:v.added||{},removed:v.removed||{},order:v.order||{},moved:v.moved||{},extraPages:v.extraPages||{},pageNames:v.pageNames||{}}}}catch(e){}
 
 function collectionStore(){try{localStorage.setItem(COLLECTION_STORAGE_KEY,JSON.stringify(collectionEdits))}catch(e){}}
 function pageKey(g,p){return [g,p].join('|')}
@@ -1518,7 +1523,7 @@ function pageLinks(g,p){
    return x-y||u.i-v.i;
  }).map(x=>x.a);
 }
-function mergeCollectionEdits(data){if(!data||typeof data!=='object')return;collectionEdits={added:{...(data.added||{}),...collectionEdits.added},removed:{...(data.removed||{}),...collectionEdits.removed},order:{...(data.order||{}),...collectionEdits.order},moved:{...(data.moved||{}),...collectionEdits.moved},extraPages:atlasMergeExtraPages(data.extraPages,collectionEdits.extraPages)};collectionStore()}
+function mergeCollectionEdits(data){if(!data||typeof data!=='object')return;collectionEdits={added:{...(data.added||{}),...collectionEdits.added},removed:{...(data.removed||{}),...collectionEdits.removed},order:{...(data.order||{}),...collectionEdits.order},moved:{...(data.moved||{}),...collectionEdits.moved},extraPages:atlasMergeExtraPages(data.extraPages,collectionEdits.extraPages),pageNames:{...(data.pageNames||{}),...collectionEdits.pageNames}};collectionStore()}
 function exportCollectionEdits(){const body=JSON.stringify({format:'MY MUSIC ATLAS collection edits',version:1,createdAt:new Date().toISOString(),added:collectionEdits.added,removed:collectionEdits.removed,order:collectionEdits.order},null,2);const a=document.createElement('a');const url=URL.createObjectURL(new Blob([body],{type:'application/json'}));a.href=url;a.download='collection-edits.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)}
 function moveSelectedAlbumTo(position){
  if(!selected)return false;
@@ -1960,15 +1965,16 @@ function drawSearchPage(){
   searchHits=selectedGenre?all.filter(hit=>hit.g===selectedGenre):all;
  }
  const total=searchHits.length;
- const start=discovery?0:searchOffset;
- const end=discovery?total:Math.min(total,start+SEARCH_PAGE_SIZE);
- $('searchPager').classList.toggle('hidden',discovery||total<=SEARCH_PAGE_SIZE);
+ const lastOffset=Math.max(0,(Math.ceil(total/SEARCH_PAGE_SIZE)-1)*SEARCH_PAGE_SIZE);
+ const start=searchOffset=Math.min(searchOffset,lastOffset);
+ const end=Math.min(total,start+SEARCH_PAGE_SIZE);
+ $('searchPager').classList.toggle('hidden',total<=SEARCH_PAGE_SIZE);
  $('searchPrev').disabled=start===0;$('searchNext').disabled=end>=total;
  $('searchPageLabel').textContent=`${total?Math.floor(start/SEARCH_PAGE_SIZE)+1:0} / ${Math.ceil(total/SEARCH_PAGE_SIZE)}`;
  if(!total){const el=document.createElement('p');el.className='empty';el.textContent=discovery?'하트로 표시한 음반이 아직 없어요.':'일치하는 음반이 없습니다. 다른 검색어로 시도해 보세요.';root.append(el);return}
  const cache=new Map();
  const pageNumbers=new Map();
- function getPageImage(g,i){let key=g+'|'+i;if(!cache.has(key)){cache.set(key,new Promise(resolve=>{let im=new Image();if(location.protocol==='file:')im.crossOrigin='anonymous';im.onload=()=>resolve(im);im.onerror=()=>resolve(null);im.src=atlasGuestAsset(DATA[g].images[i])}))}return cache.get(key)}
+ function getPageImage(g,i){if(!DATA[g]?.images?.[i])return Promise.resolve(null);let key=g+'|'+i;if(!cache.has(key)){cache.set(key,new Promise(resolve=>{let im=new Image();if(location.protocol==='file:')im.crossOrigin='anonymous';im.onload=()=>resolve(im);im.onerror=()=>resolve(null);im.src=atlasGuestAsset(DATA[g].images[i])}))}return cache.get(key)}
  for(let n=start;n<end;n++){
   const h=searchHits[n],btn=document.createElement('button');btn.className='album search-hit';
   btn.setAttribute('aria-label',h.a.q+' 상세 정보');
@@ -1986,16 +1992,23 @@ function drawSearchPage(){
    src=original||'';
    const display=hdCover||src;
    if(!display){if(!discovery)btn.remove();return;}
-   img.onerror=()=>{img.onerror=null;if(src&&img.src!==src)img.src=src};
+   img.onerror=async()=>{
+    img.onerror=null;
+    if(!hdCover)return;
+    const im=src?null:await getPageImage(h.g,h.a.sourcePage??h.i);
+    if(token!==searchToken)return;
+    src=src||(im?crop(im,h.a):'');
+    if(src&&src!==display)img.src=src;
+   };
    img.src=display;
    img.classList.toggle('hd-applied',!!hdCover);
   };
   btn.onclick=async()=>{
-   if(!src){if(h.a.coverUrl)src=h.a.coverUrl;else{const im=await getPageImage(h.g,h.a.sourcePage??h.i);if(im)src=crop(im,h.a)}}
+   if(!src&&!hdCover){const im=await getPageImage(h.g,h.a.sourcePage??h.i);if(im)src=crop(im,h.a);}
    if(discovery||src||hdCover)selectAlbum(h.a,src||hdCover||'',h.g,h.i);
   };
   if(src)setSearchCover(src);
-  else if(hdCover){setSearchCover('');getPageImage(h.g,h.a.sourcePage??h.i).then(im=>{if(token!==searchToken||!im)return;src=crop(im,h.a)||''})}
+  else if(hdCover)setSearchCover('');
   else getPageImage(h.g,h.a.sourcePage??h.i).then(im=>{if(token!==searchToken||!im)return;setSearchCover(crop(im,h.a))});
  }
 }
@@ -2121,7 +2134,7 @@ async function modalBrowseAlbum(step){
  }
  if(mode==='search'){
   const idxAll=searchHits.findIndex(h=>albumIdentity(h.a,h.g,h.i)===albumIdentity(target.a,target.g,target.p));
-  if(idxAll>=0&&location.hash!==ATLAS_DISCOVERY_ROUTE){const newOffset=Math.floor(idxAll/SEARCH_PAGE_SIZE)*SEARCH_PAGE_SIZE;if(newOffset!==searchOffset){searchOffset=newOffset;drawSearchPage();}}
+  if(idxAll>=0){const newOffset=Math.floor(idxAll/SEARCH_PAGE_SIZE)*SEARCH_PAGE_SIZE;if(newOffset!==searchOffset){searchOffset=newOffset;drawSearchPage();}}
  }
  if(src||location.hash===ATLAS_DISCOVERY_ROUTE)selectAlbum(target.a,src||'',target.g,target.p);
 }
@@ -2264,7 +2277,7 @@ let debounce;document.addEventListener('DOMContentLoaded',async()=>{
   alert.textContent='교향곡 데이터 파일을 불러오지 못했어요. index.html, albums.json, hd-covers.json, covers/ 폴더를 같은 저장소에 업로드하고 GitHub Pages HTTPS 주소로 열어주세요. '+e.message;
   document.body.append(alert);return;
  }
- $('atlasDiscoveryGenre').onchange=()=>drawSearchPage();$('menuDiscovery').onclick=()=>openDiscovery();$('atlasDiscoveryOpen').onclick=()=>openDiscovery();$('atlasDiscoveryHome').onclick=()=>showHome();renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(atlasNeighborPage(genre,page,-1));$('next').onclick=$('next2').onclick=()=>setPage(atlasNeighborPage(genre,page,1));$('closeModal').onclick=closeModal;$('modalPrevAlbum').onclick=()=>modalBrowseAlbum(-1);$('modalNextAlbum').onclick=()=>modalBrowseAlbum(1);$('albumModal').onclick=e=>{e.stopPropagation()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('qobuz').onclick=()=>openMusicPlayer('https://play.qobuz.com/');$('tidal').onclick=()=>openMusicPlayer('https://listen.tidal.com/search?q=',true);$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{if(location.hash===ATLAS_DISCOVERY_ROUTE)return openDiscovery(false);const h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});if(location.hash===ATLAS_DISCOVERY_ROUTE)return openDiscovery(false);const initialRoute=readHash();initialRoute?openGenre(initialRoute.g,initialRoute.p,false):showHome(false);});
+ $('atlasDiscoveryGenre').onchange=()=>{searchOffset=0;drawSearchPage();};$('menuDiscovery').onclick=()=>openDiscovery();$('atlasDiscoveryOpen').onclick=()=>openDiscovery();$('atlasDiscoveryHome').onclick=()=>showHome();renderNav();$('menuBtn').onclick=()=>document.body.classList.contains('menu-open')?closeMenu():showMenu();$('scrim').onclick=closeMenu;$('sideClose').onclick=()=>{closeMenu();$('menuBtn').focus()};$('homeBrand').onclick=showHome;$('menuHome').onclick=showHome;$('sideBrand').onclick=showHome;$('prev').onclick=$('prev2').onclick=()=>setPage(atlasNeighborPage(genre,page,-1));$('next').onclick=$('next2').onclick=()=>setPage(atlasNeighborPage(genre,page,1));$('closeModal').onclick=closeModal;$('modalPrevAlbum').onclick=()=>modalBrowseAlbum(-1);$('modalNextAlbum').onclick=()=>modalBrowseAlbum(1);$('albumModal').onclick=e=>{e.stopPropagation()};$('roon').onclick=openRoon;$('apple').onclick=openAppleMusic;$('qobuz').onclick=()=>openMusicPlayer('https://play.qobuz.com/');$('tidal').onclick=()=>openMusicPlayer('https://listen.tidal.com/search?q=',true);$('copy').onclick=copyQ;$('queryValue').onclick=e=>e.target.select();$('search').oninput=()=>{clearTimeout(debounce);debounce=setTimeout(()=>runGlobalSearch($('search').value),260)};$('searchPrev').onclick=()=>{searchOffset=Math.max(0,searchOffset-SEARCH_PAGE_SIZE);drawSearchPage();window.scrollTo(0,0)};$('searchNext').onclick=()=>{searchOffset+=SEARCH_PAGE_SIZE;drawSearchPage();window.scrollTo(0,0)};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeModal()}});window.addEventListener('popstate',()=>{if(location.hash===ATLAS_DISCOVERY_ROUTE)return openDiscovery(false);const h=readHash();h?openGenre(h.g,h.p,false):showHome(false)});if(location.hash===ATLAS_DISCOVERY_ROUTE)return openDiscovery(false);const initialRoute=readHash();initialRoute?openGenre(initialRoute.g,initialRoute.p,false):showHome(false);});
 
 document.addEventListener('DOMContentLoaded',()=>{
  $('editAlbumBtn').onclick=openAlbumEditor;
@@ -2430,6 +2443,7 @@ async function atlasImportUnified(){
   removed:{...collectionEdits.removed,...(data.removed||{})},
   order:{...collectionEdits.order,...(data.order||{})},
   moved:data.moved||{},
+  pageNames:data.pageNames||{},
   extraPages:data.extraPages||{}
  };
  collectionStore();
