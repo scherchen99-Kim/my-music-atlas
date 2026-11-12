@@ -25,8 +25,8 @@
 .workspace:has(#home.hidden) .atlas-footer{display:none}
 
 /* 전체 장르 통합 검색 */
-.search-results{padding:34px 0 18px}.search-results h1{font:400 clamp(31px,4.5vw,54px) Georgia,serif;margin:0 0 12px}.search-summary{font-size:13px;color:#86868e;margin-bottom:24px}.search-results .hit-source{display:block;font-size:11px;color:#8c8c96;margin:5px 0 0;line-height:1.3}.search-pager{display:flex;gap:12px;align-items:center;justify-content:center;margin:35px 0}.search-pager button{border:1px solid #dddde4;background:#fafafa;border-radius:9px;padding:10px 16px}.search-pager span{font-size:13px;color:#85858e}.search-hit .art{background:#f5f5f7}
-@media(max-width:600px){.search-results{padding-top:24px}.search-results .hit-source{font-size:9px}.search-results h1{font-size:34px}}
+.search-results{padding:34px 0 18px}.search-results h1{font:400 clamp(31px,4.5vw,54px) Georgia,serif;margin:0 0 12px}.search-summary{font-size:13px;color:#86868e;margin-bottom:24px}.search-pager{display:flex;gap:12px;align-items:center;justify-content:center;margin:35px 0}.search-pager button{border:1px solid #dddde4;background:#fafafa;border-radius:9px;padding:10px 16px}.search-pager span{font-size:13px;color:#85858e}.search-hit .art{background:#f5f5f7}
+@media(max-width:600px){.search-results{padding-top:24px}.search-results h1{font-size:34px}}
 
 /* Album labels: emphasize composer, keep work and performer visually quieter. */
 .album .album-label{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;overflow-wrap:anywhere;margin:8px 0 0;font-size:13px;line-height:1.36;font-weight:400;color:#34343a}
@@ -39,7 +39,7 @@
 .albums .album{display:flex;flex-direction:column;align-self:start;min-width:0}
 .albums .album .art{flex:0 0 auto;aspect-ratio:1 / 1;width:100%}
 .albums .album .album-label{height:calc(2 * 1.36em);min-height:calc(2 * 1.36em);max-height:calc(2 * 1.36em)}
-.search-results .hit-source{height:calc(2 * 1.3em);min-height:calc(2 * 1.3em);max-height:calc(2 * 1.3em);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+
 @media(max-width:600px){.albums .album .album-label{height:calc(2 * 1.32em);min-height:calc(2 * 1.32em);max-height:calc(2 * 1.32em)}}
 
 /* MY MUSIC ATLAS: mobile genre cards — centered captions and stable ink color.
@@ -2023,16 +2023,13 @@ function drawSearchPage(){
  $('searchPageLabel').textContent=`${total?Math.floor(start/SEARCH_PAGE_SIZE)+1:0} / ${Math.ceil(total/SEARCH_PAGE_SIZE)}`;
  if(!total){const el=document.createElement('p');el.className='empty';el.textContent=discovery?(preferred?'보라색 하트로 표시한 음반이 아직 없어요.':'분홍색 하트로 표시한 음반이 아직 없어요.'):'일치하는 음반이 없습니다. 다른 검색어로 시도해 보세요.';root.append(el);return}
  const cache=new Map();
- const pageNumbers=new Map();
  function getPageImage(g,i){if(!DATA[g]?.images?.[i])return Promise.resolve(null);let key=g+'|'+i;if(!cache.has(key)){cache.set(key,new Promise(resolve=>{let im=new Image();if(location.protocol==='file:')im.crossOrigin='anonymous';im.onload=()=>resolve(im);im.onerror=()=>resolve(null);im.src=atlasGuestAsset(DATA[g].images[i])}))}return cache.get(key)}
  for(let n=start;n<end;n++){
   const h=searchHits[n],btn=document.createElement('button');btn.className='album search-hit';
   btn.setAttribute('aria-label',h.a.q+' 상세 정보');
   let art=document.createElement('div');art.className='art';let img=document.createElement('img');img.alt=h.a.q;img.loading='lazy';art.append(img);
   let label=makeAlbumLabel(h.a.q,h.g,h.i,h.a);atlasFavoriteMark(h.a,h.g,h.i,label);atlasEnableNameLinks(label,h.a,h.g,h.i,h.a);
-  if(!pageNumbers.has(h.g))pageNumbers.set(h.g,new Map(atlasVisiblePages(h.g).map((p,index)=>[p,index+1])));
-  let meta=document.createElement('small');meta.className='hit-source';meta.textContent=`${h.g} · ${h.region} · p.${pageNumbers.get(h.g).get(h.i)??h.i}`;
-  btn.append(art,label,meta);root.append(btn);
+  btn.append(art,label);root.append(btn);
   // Search results must use the same cover priority as the genre grid:
   // HD replacement (when enabled) -> album coverUrl -> cropped PDF cover.
   const hdCover=hdEnabled&&hdEligible(h.g,h.i)?hdGet(h.a,h.g,h.i)?.url:null;
