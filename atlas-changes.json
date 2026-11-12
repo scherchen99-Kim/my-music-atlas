@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-11T15:53:44.134Z",
+  "createdAt": "2026-11-12T06:11:39.021Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -319,11 +319,11 @@
       "approvedAt": "2026-10-25T06:49:06.678Z"
     },
     "Symphonies|4|82.0074|44.7875|49 Chauvin": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/15/59/2b/15592bfc-37c6-145e-2cf0-375635e9946e/3760014197840.png/600x600bb.jpg",
-      "album": "Pergolesi: Stabat Mater",
-      "artist": "Jodie Devos, Adèle Charvet & Julien Chauvin",
-      "source": "Apple iTunes Search API",
-      "approvedAt": "2026-10-25T06:49:18.226Z"
+      "url": "https://i.discogs.com/UAn0cDgF4jb_P_dI3QySCTAOI3VP-LKmRl-EMKZTqG4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTQy/OTQxLTE2MDA2Mjkz/MjItNTg0OC5qcGVn.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-12T05:51:56.240Z"
     },
     "Symphonies|4|53.7177|70.0252|53 Antonini": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/28/95/0b2895f4-8cf4-51a3-8ad8-cace99b1f13a/3760014196942.png/600x600bb.jpg",
@@ -550,11 +550,11 @@
       "approvedAt": "2026-10-25T06:59:35.917Z"
     },
     "Symphonies|6|53.1112|44.4683|Joseph Haydn 104 Karajan": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/4a/1b/714a1bbd-6f26-c4e1-1452-f5c81fba73bf/00028946308325.rgb.jpg/600x600bb.jpg",
-      "album": "Haydn: Symphonies No. 94 \"Surprise\", No. 96 \"The Miracle\", No. 104",
-      "artist": "Berlin Philharmonic Orchestra & Herbert von Karajan",
-      "source": "Apple iTunes Search API",
-      "approvedAt": "2026-10-25T07:00:19.000Z"
+      "url": "https://m.media-amazon.com/images/I/71R51WI-02L._UF894,1000_QL80_.jpg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-12T05:53:23.294Z"
     },
     "Symphonies|7|4.3466|14.3413|Joseph Haydn M.Haydn 21 D Major Goritzki": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/0f/f3/f8/mzi.yksvbuvc.jpg/600x600bb.jpg",
@@ -1012,11 +1012,11 @@
       "approvedAt": "2026-10-25T08:01:13.300Z"
     },
     "Symphonies|12|4.144|44.8104|Robert Schumann Symphony 1 Bernstein": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e3/19/6f/e3196f42-7ea9-4621-02dc-005651164d71/00028945304922.rgb.jpg/600x600bb.jpg",
-      "album": "Schumann: The Symphonies",
-      "artist": "Vienna Philharmonic & Leonard Bernstein",
-      "source": "Apple iTunes Search API",
-      "approvedAt": "2026-10-25T08:01:23.262Z"
+      "url": "https://image.yes24.com/goods/89379610/XL",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-12T06:02:13.146Z"
     },
     "Symphonies|12|18.7709|44.8279|Robert Schumann 2 Celibidache 2": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/80/5c/3e/805c3ec3-9b42-8722-1fa1-f9d2b914bfe0/5054197271380.jpg/600x600bb.jpg",
@@ -47973,15 +47973,15 @@
       "composer": "M.Haydn",
       "work": "Symphony No.21 D Major",
       "performer": "Goritzki",
-      "searchQuery": "M.Haydn 21 Goritzki",
-      "updatedAt": "2026-10-27T09:49:23.907Z"
+      "searchQuery": "Haydn 21 Goritzki",
+      "updatedAt": "2026-11-12T05:53:15.076Z"
     },
     "Symphonies|7|4.3466|41.15|Joseph Haydn M.Haydn 28 C Major Warchal": {
       "composer": "M.Haydn",
       "work": "Symphony No.28 C Major",
       "performer": "Warchal",
-      "searchQuery": "M.Haydn 28 Warchal",
-      "updatedAt": "2026-10-27T09:49:31.077Z"
+      "searchQuery": "Haydn 28 Warchal",
+      "updatedAt": "2026-11-12T05:53:26.663Z"
     },
     "Symphonies|7|3.8319|67.9356|Joseph Haydn M.Haydn 29 d minor Beermann": {
       "composer": "M.Haydn",
@@ -47994,22 +47994,22 @@
       "composer": "M.Haydn",
       "work": "Symphony No.39 C Major",
       "performer": "Goritzki",
-      "searchQuery": "M.Haydn 39 Goritzki",
-      "updatedAt": "2026-10-27T09:49:46.629Z"
+      "searchQuery": "Haydn 39 Goritzki",
+      "updatedAt": "2026-11-12T05:53:28.008Z"
     },
     "Symphonies|7|28.3146|41.2837|Joseph Haydn L.Mozart G Major Jagd㎿Sinfonie Caigg": {
       "composer": "L.Mozart",
       "work": "Jagd Sinfonie",
       "performer": "Caigg",
-      "searchQuery": "L.Mozart Jagd Caigg",
-      "updatedAt": "2026-10-27T09:50:17.148Z"
+      "searchQuery": "Mozart Jagd Caigg",
+      "updatedAt": "2026-11-12T05:54:25.428Z"
     },
     "Symphonies|7|28.3877|67.9719|Joseph Haydn L.Mozart Toy Symphony Koopman": {
       "composer": "L.Mozart",
       "work": "Toy Symphony",
       "performer": "Koopman",
-      "searchQuery": "L.Mozart Koopman",
-      "updatedAt": "2026-10-27T09:51:14.178Z"
+      "searchQuery": "Mozart Koopman",
+      "updatedAt": "2026-11-12T05:54:27.327Z"
     },
     "Symphonies|7|53.9856|14.6531|Joseph Haydn Ries 1 Nisonen": {
       "composer": "Ries",
@@ -48120,8 +48120,8 @@
       "composer": "Mozart",
       "work": "Symphony No.33",
       "performer": "C.Kleiber",
-      "searchQuery": "Mozart 33 C.Kleiber",
-      "updatedAt": "2026-10-27T10:15:27.502Z"
+      "searchQuery": "Mozart 33 Kleiber",
+      "updatedAt": "2026-11-12T05:53:48.446Z"
     },
     "Symphonies|8|67.7328|19.1162|34 Suitner": {
       "composer": "Mozart",
@@ -48960,22 +48960,22 @@
       "composer": "R.Strauss",
       "work": "Symphony No.2",
       "performer": "Weigle",
-      "searchQuery": "Richard Strauss Weigle",
-      "updatedAt": "2026-10-27T10:47:17.348Z"
+      "searchQuery": "Strauss Weigle",
+      "updatedAt": "2026-11-12T06:03:46.967Z"
     },
     "Symphonies|16|80.1929|47.9974|2 Baumer": {
       "composer": "R.Strauss",
       "work": "Symphony No.2",
       "performer": "Baumer",
-      "searchQuery": "Richard Strauss Baumer",
-      "updatedAt": "2026-10-27T10:47:13.590Z"
+      "searchQuery": "Strauss Baumer",
+      "updatedAt": "2026-11-12T06:03:47.935Z"
     },
     "Symphonies|16|4.1975|41.5732|R.Wagner C Major Wakasugi": {
       "composer": "R.Wagner",
       "work": "C Major",
       "performer": "Wakasugi",
-      "searchQuery": "R.Wagner Wakasugi",
-      "updatedAt": "2026-10-27T10:47:08.796Z"
+      "searchQuery": "Wagner Wakasugi",
+      "updatedAt": "2026-11-12T06:03:49.075Z"
     },
     "Symphonies|16|28.4215|14.7868|Bittner 1 Vasiliev": {
       "composer": "Bittner",
@@ -65415,17 +65415,17 @@
     },
     "Vocal|65|3.90784|48.10336|Mass No.2  e minor  WAB27 Jochum Herreweghe Psalm 112  WAB35": {
       "composer": "Anton Bruckner",
-      "work": "Mass No.2e minorWAB27",
+      "work": "Mass No.2 e minor WAB27",
       "performer": "Herreweghe",
       "searchQuery": "Bruckner Mass 2e minorWAB27 Herreweghe",
-      "updatedAt": "2026-11-09T13:00:33.088Z"
+      "updatedAt": "2026-11-12T02:12:38.981Z"
     },
     "Vocal|65|18.42381|48.1979|Mass No.2  e minor  WAB27 Celibidache Jochum Locus iste WBA23": {
       "composer": "Anton Bruckner",
-      "work": "Mass No.2e minorWAB27",
+      "work": "Mass No.2 e minor WAB27",
       "performer": "Jochum",
       "searchQuery": "Bruckner Mass 2e minorWAB27 Jochum",
-      "updatedAt": "2026-11-09T13:00:33.721Z"
+      "updatedAt": "2026-11-12T02:12:37.001Z"
     },
     "Vocal|65|33.1792|48.1979|f minor WAB28 Mass No.3 Celibidache Ave Maria WBA6": {
       "composer": "Anton Bruckner",
@@ -68088,11 +68088,11 @@
       "updatedAt": "2026-11-09T15:24:45.767Z"
     },
     "Vocal|124|4.73228|14.62825|Gilbert 㖈 sullivan HMS Pinafore, operetta": {
-      "composer": "Gilbert 㖈 sullivan",
+      "composer": "Gilbert & sullivan",
       "work": "HMS Pinafore, operetta",
       "performer": "Egarr",
       "searchQuery": "sullivan HMS Pinafore operetta Egarr",
-      "updatedAt": "2026-11-09T15:24:47.771Z"
+      "updatedAt": "2026-11-12T02:17:15.419Z"
     },
     "Vocal|123|83.34465|74.22557|opera The Turn of the Screw Glassberg": {
       "composer": "Benjamin Britten",
@@ -77466,6 +77466,13 @@
       "performer": "Jacobs",
       "searchQuery": "Bach Weihnachtsoratorium BWV248 Jacobs",
       "updatedAt": "2026-11-11T10:49:26.527Z"
+    },
+    "manual-1794321867990-y0taw": {
+      "composer": "Volkmann",
+      "work": "Symphony No.1",
+      "performer": "Albert",
+      "searchQuery": "Volkmann Symphony 1 Albert",
+      "updatedAt": "2026-11-12T06:03:14.640Z"
     }
   },
   "favorites": {
@@ -77505,20 +77512,20 @@
     "Symphonies|3|78.6031|41.504|Winter 1 Moesus": false,
     "Symphonies|3|78.5551|68.2088|Witt 6 Moesus": false,
     "Symphonies|4|4.203|19.166|질풍노도시기 Pinnock": false,
-    "Symphonies|4|18.4554|19.166|파리교향곡 전집 Kuijken": false,
+    "Symphonies|4|18.4554|19.166|파리교향곡 전집 Kuijken": true,
     "Symphonies|4|32.7195|19.166|런던교향곡 전집 Szell": false,
     "Symphonies|4|4.3393|44.9161|6 Vashegyi": false,
     "Symphonies|4|18.51|44.9754|22 Goodman": false,
     "Symphonies|4|32.7256|44.9754|26 Christophers": false,
-    "Symphonies|4|4.3332|70.1193|31 Ticciati": false,
+    "Symphonies|4|4.3332|70.1193|31 Ticciati": true,
     "Symphonies|4|18.5263|70.1193|38 Hogwood": false,
     "Symphonies|4|32.7195|70.1193|39 Antonini": false,
     "Symphonies|4|53.6943|19.176|43 Weil": false,
-    "Symphonies|4|68.0882|19.1705|44 Antonini": false,
+    "Symphonies|4|68.0882|19.1705|44 Antonini": true,
     "Symphonies|4|82.1952|19.2803|45 Liebreich": false,
     "Symphonies|4|53.6416|44.6959|45 Koopman": false,
     "Symphonies|4|68.1126|44.8319|48 Goodman": false,
-    "Symphonies|4|82.0074|44.7875|49 Chauvin": false,
+    "Symphonies|4|82.0074|44.7875|49 Chauvin": true,
     "Symphonies|4|53.7177|70.0252|53 Antonini": false,
     "Symphonies|4|67.8674|70.226|59 Antonini": false,
     "Symphonies|4|82.1199|70.1193|60 Harnoncourt": false,
@@ -77526,12 +77533,12 @@
     "Symphonies|5|18.8208|19.1904|Joseph Haydn 73 Harnoncourt": false,
     "Symphonies|5|33.0981|19.2107|Joseph Haydn 78 Dantone": false,
     "Symphonies|5|4.3099|44.6878|Joseph Haydn 80 Antonini": false,
-    "Symphonies|5|18.6599|44.6878|Joseph Haydn 82 Chauvin": false,
-    "Symphonies|5|33.0445|44.9343|Joseph Haydn 83 Chauvin": false,
+    "Symphonies|5|18.6599|44.6878|Joseph Haydn 82 Chauvin": true,
+    "Symphonies|5|33.0445|44.9343|Joseph Haydn 83 Chauvin": true,
     "Symphonies|5|4.359|69.9308|Joseph Haydn 85 Christie": false,
     "Symphonies|5|23.588|70.1205|Joseph Haydn 88 Bernstein 88 Bruggen": false,
     "Symphonies|5|32.9225|70.2691|Joseph Haydn 88 Bruggen": false,
-    "Symphonies|5|53.3662|19.1254|Joseph Haydn 90 Rattle": false,
+    "Symphonies|5|53.3662|19.1254|Joseph Haydn 90 Rattle": true,
     "Symphonies|5|67.6649|19.243|Joseph Haydn 92 Jacobs": false,
     "Symphonies|5|81.8773|19.243|Joseph Haydn 93 Bruggen": false,
     "Symphonies|5|53.3346|44.694|Joseph Haydn 93 Szell": false,
@@ -77539,16 +77546,16 @@
     "Symphonies|5|81.4204|44.6921|Joseph Haydn 94 Jochum": false,
     "Symphonies|5|53.3374|70.3358|Joseph Haydn 95 Harnoncourt RCO": false,
     "Symphonies|5|67.5447|70.274|Joseph Haydn Harnoncourt RCO 96 Hogwood 96 Kuijken": false,
-    "Symphonies|5|81.6845|70.136|Joseph Haydn 96 Kuijken": false,
+    "Symphonies|5|81.6845|70.136|Joseph Haydn 96 Kuijken": true,
     "Symphonies|6|4.2003|19.2415|Joseph Haydn 97 Weil": false,
     "Symphonies|6|18.5406|19.2702|Joseph Haydn 98 Koopman": false,
     "Symphonies|6|32.7688|19.1968|Joseph Haydn 99 Gottfreid": false,
-    "Symphonies|6|4.0325|44.2798|Joseph Haydn 100 Harnoncourt RCO": false,
+    "Symphonies|6|4.0325|44.2798|Joseph Haydn 100 Harnoncourt RCO": true,
     "Symphonies|6|18.3911|44.4724|Joseph Haydn 100 Walter NYP": false,
     "Symphonies|6|32.4784|44.5107|Joseph Haydn 101 Bruggen": false,
     "Symphonies|6|4.3045|70.4217|Joseph Haydn 101 Mackerras": false,
     "Symphonies|6|18.5821|70.4217|Joseph Haydn 102 Minkowski": false,
-    "Symphonies|6|32.7803|70.4217|Joseph Haydn 103 Norrington SWR": false,
+    "Symphonies|6|32.7803|70.4217|Joseph Haydn 103 Norrington SWR": true,
     "Symphonies|6|53.3529|18.9917|Joseph Haydn 103 Markevitch": false,
     "Symphonies|6|67.596|19.0782|Joseph Haydn 104 Bruggen": false,
     "Symphonies|6|81.7169|18.9936|Joseph Haydn 104 Celibidache": false,
@@ -77571,8 +77578,8 @@
     "Symphonies|8|3.9743|44.743|22 A.Fischer": false,
     "Symphonies|8|18.1336|44.598|25 Koopman": false,
     "Symphonies|8|32.1755|44.5979|28 Norrington SWR": false,
-    "Symphonies|8|3.9823|70.4298|29 Rhorer": false,
-    "Symphonies|8|17.2799|70.4297|Wolfgang Amadeus Mozart Symphony 31 Suitner": false,
+    "Symphonies|8|3.9823|70.4298|29 Rhorer": true,
+    "Symphonies|8|17.2799|70.4297|Wolfgang Amadeus Mozart Symphony 31 Suitner": true,
     "Symphonies|8|32.3686|70.4298|32 Meckerras": false,
     "Symphonies|8|53.4166|19.1161|33 C.Kleiber": false,
     "Symphonies|8|67.7328|19.1162|34 Suitner": false,
@@ -77581,38 +77588,38 @@
     "Symphonies|8|67.7567|44.5942|36 Bruggen": false,
     "Symphonies|8|81.9499|44.5942|36 Meckerras": false,
     "Symphonies|8|53.6153|70.3498|38 Jacobs": false,
-    "Symphonies|8|67.954|70.3498|38 Bruggen": false,
+    "Symphonies|8|67.954|70.3498|38 Bruggen": true,
     "Symphonies|8|82.1471|70.3498|38 Meckerras": false,
     "Symphonies|9|4.2781|19.2476|Wolfgang Amadeus Mozart 39 Herzog": false,
     "Symphonies|9|18.6167|19.2476|Wolfgang Amadeus Mozart 39 Meckerras": false,
     "Symphonies|9|32.7443|19.2476|Wolfgang Amadeus Mozart 39 Harnoncourt RCO": false,
     "Symphonies|9|18.5207|44.586|Wolfgang Amadeus Mozart 40 Walter WPO,52 40 Levine": false,
-    "Symphonies|9|32.3684|44.3143|Wolfgang Amadeus Mozart Levine": false,
+    "Symphonies|9|32.3684|44.3143|Wolfgang Amadeus Mozart Levine": true,
     "Symphonies|9|4.4361|70.1144|Wolfgang Amadeus Mozart 41 Herzog": false,
-    "Symphonies|9|18.6651|70.1144|Wolfgang Amadeus Mozart 41 Harnoncourt RCO 41": false,
+    "Symphonies|9|18.6651|70.1144|Wolfgang Amadeus Mozart 41 Harnoncourt RCO 41": true,
     "Symphonies|9|32.9679|70.1144|Wolfgang Amadeus Mozart Minasi": false,
     "Symphonies|9|53.6381|19.2089|Ludwig van Beethoven 전집 Krivine": false,
     "Symphonies|9|66.7542|19.2089|Ludwig van Beethoven 전집 Harnoncourt": false,
-    "Symphonies|9|82.0597|19.1632|Ludwig van Beethoven 전집 Norrington SWR": false,
+    "Symphonies|9|82.0597|19.1632|Ludwig van Beethoven 전집 Norrington SWR": true,
     "Symphonies|9|53.6464|44.5364|Ludwig van Beethoven 1 Bruggen r.Philips": false,
-    "Symphonies|9|67.8396|44.5364|Ludwig van Beethoven 2 Krivine": false,
+    "Symphonies|9|67.8396|44.5364|Ludwig van Beethoven 2 Krivine": true,
     "Symphonies|9|81.9275|44.5364|Ludwig van Beethoven 2 Gardiner": false,
     "Symphonies|9|53.5009|70.0271|Ludwig van Beethoven 3 Honeck": false,
-    "Symphonies|9|67.788|70.0271|Ludwig van Beethoven 3 Antonini 3": false,
+    "Symphonies|9|67.788|70.0271|Ludwig van Beethoven 3 Antonini 3": true,
     "Symphonies|9|81.1518|70.0271|Ludwig van Beethoven 3 Svetlanov": false,
     "Symphonies|10|4.3465|19.1507|Ludwig van Beethoven 4 C.Kleiber r.Orfeo": false,
-    "Symphonies|10|18.7179|19.1507|Ludwig van Beethoven 4 Harnoncourt r.Sony": false,
+    "Symphonies|10|18.7179|19.1507|Ludwig van Beethoven 4 Harnoncourt r.Sony": true,
     "Symphonies|10|32.911|19.1507|Ludwig van Beethoven 5 Kegel r.Altus": false,
     "Symphonies|10|4.2078|44.4411|Ludwig van Beethoven 5 Maazel BPO,59": false,
-    "Symphonies|10|18.5866|44.4411|Ludwig van Beethoven 5 C. Kleiber": false,
+    "Symphonies|10|18.5866|44.4411|Ludwig van Beethoven 5 C. Kleiber": true,
     "Symphonies|10|32.7797|44.4411|Ludwig van Beethoven 5 Markevitch 59": false,
     "Symphonies|10|4.3873|70.0022|Ludwig van Beethoven 6 Honeck": false,
     "Symphonies|10|18.5805|70.0022|Ludwig van Beethoven 6 Celibidache": false,
     "Symphonies|10|32.7736|70.0022|Ludwig van Beethoven 6 Bohm 77": false,
     "Symphonies|10|53.6221|18.9986|Ludwig van Beethoven 7 Kleiber BSSO 7": false,
-    "Symphonies|10|68.6932|19.0161|Ludwig van Beethoven Vriend": false,
+    "Symphonies|10|68.6932|19.0161|Ludwig van Beethoven Vriend": true,
     "Symphonies|10|53.6761|44.4491|Ludwig van Beethoven 8 Krivine": false,
-    "Symphonies|10|67.7208|44.5042|Ludwig van Beethoven Symphony 8 Scherchen": false,
+    "Symphonies|10|67.7208|44.5042|Ludwig van Beethoven Symphony 8 Scherchen": true,
     "Symphonies|10|81.9196|44.463|Ludwig van Beethoven 9 Gielen SWF,86": false,
     "Symphonies|10|53.671|69.2918|Ludwig van Beethoven 9 Celibidache": false,
     "Symphonies|10|67.7427|69.1342|Ludwig van Beethoven 9 Norrington SWR": false,
@@ -77622,7 +77629,7 @@
     "Symphonies|11|32.7192|18.8978|Franz Schubert 5 Norrington SWR": false,
     "Symphonies|11|4.1992|44.4385|Franz Schubert 8 Wand MPO": false,
     "Symphonies|11|18.5261|44.4384|Franz Schubert 8 C.Kleiber": false,
-    "Symphonies|11|32.8467|44.6553|Franz Schubert 8 Venzago": false,
+    "Symphonies|11|32.8467|44.6553|Franz Schubert 8 Venzago": true,
     "Symphonies|11|4.4156|70.409|Franz Schubert 9 Wand BPO": false,
     "Symphonies|11|18.6104|70.409|Franz Schubert 9 Abbado OM": false,
     "Symphonies|11|32.7114|70.2728|Franz Schubert 9 Krips": false,
@@ -77634,19 +77641,19 @@
     "Symphonies|11|78.2791|68.9566|Franz Schubert Dietrich d Konig": false,
     "Symphonies|12|4.2895|19.3019|Robert Schumann 전집 Ticciati": false,
     "Symphonies|12|18.3791|19.1639|Robert Schumann 전집 Sawallisch SKD 1": false,
-    "Symphonies|12|31.882|19.3019|Robert Schumann Gardiner": false,
+    "Symphonies|12|31.882|19.3019|Robert Schumann Gardiner": true,
     "Symphonies|12|4.144|44.8104|Robert Schumann Symphony 1 Bernstein": false,
     "Symphonies|12|18.7709|44.8279|Robert Schumann 2 Celibidache 2": false,
     "Symphonies|12|32.6758|44.8279|Robert Schumann 2 Chailly": false,
     "Symphonies|12|4.3622|70.0934|Robert Schumann 3 Giulini": false,
-    "Symphonies|12|18.5542|70.0934|Robert Schumann 4 Kegel": false,
+    "Symphonies|12|18.5542|70.0934|Robert Schumann 4 Kegel": true,
     "Symphonies|12|32.894|70.0934|Robert Schumann 4 Frutwangler BPO": false,
     "Symphonies|12|53.2569|19.3019|Felix Mendelssohn 전집 Abbado": false,
     "Symphonies|12|67.6925|19.3057|Felix Mendelssohn 1 Casado": false,
     "Symphonies|12|81.8923|19.3019|Felix Mendelssohn 2 Manacorda": false,
     "Symphonies|12|53.3605|44.8279|Felix Mendelssohn 3 Maag": false,
     "Symphonies|12|67.6991|44.8134|Felix Mendelssohn 3 Abbado": false,
-    "Symphonies|12|81.8923|44.8279|Felix Mendelssohn 3 Konwitschny": false,
+    "Symphonies|12|81.8923|44.8279|Felix Mendelssohn 3 Konwitschny": true,
     "Symphonies|12|53.3398|70.0934|Felix Mendelssohn 4 Levine BPO": false,
     "Symphonies|12|67.5495|69.8633|Felix Mendelssohn 4 Kondrashin": false,
     "Symphonies|12|81.9152|70.0789|Felix Mendelssohn 5 Maazel": false,
@@ -77661,11 +77668,11 @@
     "Symphonies|13|78.7624|15.2293|Herzogenberg 1 Beermann": false,
     "Symphonies|13|78.797|42.2535|Reineke 1 Moesus": true,
     "Symphonies|13|78.9536|69.1479|Bargiel C Major Potosi": false,
-    "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집": false,
-    "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati": false,
+    "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집": true,
+    "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati": true,
     "Symphonies|14|32.6758|19.3019|Johannes Brahms 전집 Abbado BPO": false,
     "Symphonies|14|18.4826|44.8279|Johannes Brahms 1 Giulini LAPO 1": false,
-    "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC": false,
+    "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC": true,
     "Symphonies|14|3.9449|70.0522|Johannes Brahms 1 Furtwangler 2 r.tahra,51": false,
     "Symphonies|14|18.3444|70.0934|Johannes Brahms 2 Giulini LAPO": false,
     "Symphonies|14|32.683|70.0934|Johannes Brahms 2 Monteux SFSO,47": false,
@@ -77675,7 +77682,7 @@
     "Symphonies|14|53.5326|44.8298|Johannes Brahms 3 Abendroth 51 4": false,
     "Symphonies|14|67.5903|44.8279|Johannes Brahms 4 Giulini WPO": false,
     "Symphonies|14|82.0342|44.8279|Johannes Brahms 4 C.Klieber": false,
-    "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner": false,
+    "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner": true,
     "Symphonies|14|67.5396|70.3538|Johannes Brahms 4 Sanderling BSO 4": false,
     "Symphonies|14|81.9642|70.3557|Johannes Brahms 4 Abbado BPO": false,
     "Symphonies|15|4.1222|14.5379|Goetz F Major Albert": true,
@@ -77694,7 +77701,7 @@
     "Symphonies|16|65.9034|21.5513|Alpensinfonie Karajan": false,
     "Symphonies|16|80.2736|21.9856|Alpensinfonie Sinopoli": false,
     "Symphonies|16|51.942|48.0134|Symphonia Domestica Karajan": false,
-    "Symphonies|16|66.8683|47.9974|2 Weigle 2": false,
+    "Symphonies|16|66.8683|47.9974|2 Weigle 2": true,
     "Symphonies|16|80.1929|47.9974|2 Baumer": false,
     "Symphonies|16|4.1975|41.5732|R.Wagner C Major Wakasugi": false,
     "Symphonies|16|28.4215|14.7868|Bittner 1 Vasiliev": true,
@@ -78500,7 +78507,77 @@
     "Concertos|75|4.13986|23.70327|Air for Violin Aaron Jay Kernis vn.Bell/Zinman Colored Field": true,
     "Vocal|16|4.04894|23.40493|ZWV57 Miserere c minor Max Missa Dei Filii": true,
     "Vocal|16|4.0381|48.81075|ZWV20 Missa Dei Filii Bernius Missa Omnium": true,
-    "Vocal|36|4.56064|14.58792|Victoria Requiem": true
+    "Vocal|36|4.56064|14.58792|Victoria Requiem": true,
+    "manual-1794321867990-y0taw": true
+  },
+  "preferredAlbums": {
+    "Symphonies|11|18.5261|18.8978|Franz Schubert 4 Giulini": true,
+    "Symphonies|4|32.7195|19.166|런던교향곡 전집 Szell": true,
+    "Symphonies|9|18.5207|44.586|Wolfgang Amadeus Mozart 40 Walter WPO,52 40 Levine": true,
+    "Symphonies|4|53.6416|44.6959|45 Koopman": true,
+    "Symphonies|4|82.1199|70.1193|60 Harnoncourt": true,
+    "Symphonies|5|23.588|70.1205|Joseph Haydn 88 Bernstein 88 Bruggen": true,
+    "Symphonies|5|81.4204|44.6921|Joseph Haydn 94 Jochum": false,
+    "Symphonies|5|81.6845|70.136|Joseph Haydn 96 Kuijken": false,
+    "Symphonies|6|18.3911|44.4724|Joseph Haydn 100 Walter NYP": true,
+    "Symphonies|6|53.3529|18.9917|Joseph Haydn 103 Markevitch": true,
+    "Symphonies|6|53.1112|44.4683|Joseph Haydn 104 Karajan": true,
+    "Symphonies|8|53.6153|70.3498|38 Jacobs": true,
+    "Symphonies|9|32.9679|70.1144|Wolfgang Amadeus Mozart Minasi": false,
+    "Symphonies|8|53.5636|44.758|35 Bruggen": false,
+    "Symphonies|9|18.6651|70.1144|Wolfgang Amadeus Mozart 41 Harnoncourt RCO 41": false,
+    "Symphonies|9|66.7542|19.2089|Ludwig van Beethoven 전집 Harnoncourt": true,
+    "Symphonies|10|4.3465|19.1507|Ludwig van Beethoven 4 C.Kleiber r.Orfeo": true,
+    "Symphonies|10|32.911|19.1507|Ludwig van Beethoven 5 Kegel r.Altus": true,
+    "Symphonies|10|4.2078|44.4411|Ludwig van Beethoven 5 Maazel BPO,59": true,
+    "Symphonies|10|18.5805|70.0022|Ludwig van Beethoven 6 Celibidache": true,
+    "Symphonies|10|68.6932|19.0161|Ludwig van Beethoven Vriend": false,
+    "Symphonies|10|81.9196|44.463|Ludwig van Beethoven 9 Gielen SWF,86": true,
+    "Symphonies|10|81.4916|69.2035|Ludwig van Beethoven 9 Furtwangler Lucern,54": true,
+    "Symphonies|11|18.5261|44.4384|Franz Schubert 8 C.Kleiber": true,
+    "Symphonies|11|32.7114|70.2728|Franz Schubert 9 Krips": true,
+    "Symphonies|12|32.6758|44.8279|Robert Schumann 2 Chailly": false,
+    "Symphonies|12|18.7709|44.8279|Robert Schumann 2 Celibidache 2": true,
+    "Symphonies|12|4.3622|70.0934|Robert Schumann 3 Giulini": true,
+    "Symphonies|12|53.2569|19.3019|Felix Mendelssohn 전집 Abbado": true,
+    "Symphonies|12|53.3605|44.8279|Felix Mendelssohn 3 Maag": true,
+    "Symphonies|12|53.3398|70.0934|Felix Mendelssohn 4 Levine BPO": true,
+    "Symphonies|14|4.2894|19.3019|Johannes Brahms 전집 Giulini WPO 전집": true,
+    "Symphonies|14|18.4826|19.3019|Johannes Brahms 전집 Ticciati": true,
+    "Symphonies|14|18.4826|44.8279|Johannes Brahms 1 Giulini LAPO 1": true,
+    "Symphonies|14|32.6758|44.8279|Johannes Brahms 1 Markevitch NBC": false,
+    "Symphonies|14|18.3444|70.0934|Johannes Brahms 2 Giulini LAPO": true,
+    "Symphonies|14|67.8797|19.3019|Johannes Brahms 3 Giulini WPO": true,
+    "Symphonies|14|67.5903|44.8279|Johannes Brahms 4 Giulini WPO": true,
+    "Symphonies|4|68.0882|19.1705|44 Antonini": false,
+    "Symphonies|5|18.6599|44.6878|Joseph Haydn 82 Chauvin": false,
+    "Symphonies|5|67.6912|44.694|Joseph Haydn 94 Norrington SWR": true,
+    "Symphonies|6|32.4784|44.5107|Joseph Haydn 101 Bruggen": true,
+    "Symphonies|8|18.1336|44.598|25 Koopman": true,
+    "Symphonies|8|32.3686|70.4298|32 Meckerras": true,
+    "Symphonies|8|81.8403|19.0753|35 A.Fischer": true,
+    "Symphonies|8|67.7567|44.5942|36 Bruggen": true,
+    "Symphonies|9|4.2781|19.2476|Wolfgang Amadeus Mozart 39 Herzog": true,
+    "Symphonies|9|4.4361|70.1144|Wolfgang Amadeus Mozart 41 Herzog": true,
+    "Symphonies|9|53.6381|19.2089|Ludwig van Beethoven 전집 Krivine": true,
+    "Symphonies|9|53.5009|70.0271|Ludwig van Beethoven 3 Honeck": true,
+    "Symphonies|10|4.3873|70.0022|Ludwig van Beethoven 6 Honeck": true,
+    "Symphonies|10|53.6221|18.9986|Ludwig van Beethoven 7 Kleiber BSSO 7": true,
+    "Symphonies|10|53.671|69.2918|Ludwig van Beethoven 9 Celibidache": true,
+    "Symphonies|11|4.1992|44.4385|Franz Schubert 8 Wand MPO": true,
+    "Symphonies|11|4.4156|70.409|Franz Schubert 9 Wand BPO": true,
+    "Symphonies|12|4.2895|19.3019|Robert Schumann 전집 Ticciati": true,
+    "Symphonies|12|4.144|44.8104|Robert Schumann Symphony 1 Bernstein": true,
+    "Symphonies|12|18.5542|70.0934|Robert Schumann 4 Kegel": false,
+    "Symphonies|12|81.9152|70.0789|Felix Mendelssohn 5 Maazel": true,
+    "Symphonies|14|82.0342|44.8279|Johannes Brahms 4 C.Klieber": true,
+    "Symphonies|14|53.5154|70.3538|Johannes Brahms 4 Suitner": false,
+    "Symphonies|16|51.7204|21.9856|Alpensinfonie Thielemann": true,
+    "Symphonies|16|65.9034|21.5513|Alpensinfonie Karajan": true,
+    "Symphonies|5|67.5447|70.274|Joseph Haydn Harnoncourt RCO 96 Hogwood 96 Kuijken": true,
+    "Symphonies|8|53.4166|19.1161|33 C.Kleiber": true,
+    "Symphonies|10|18.5866|44.4411|Ludwig van Beethoven 5 C. Kleiber": true,
+    "Symphonies|12|32.894|70.0934|Robert Schumann 4 Frutwangler BPO": true
   },
   "added": {
     "Solo|10": [
@@ -80527,9 +80604,7 @@
       "Orchestral|4|55.12496|66.57187|Dausgaard Rosamunde  D.797 Schubert German Dances  D.97",
       "Orchestral|2|78.64823|14.91106|Schneider Sinfonia Concertante Op.19",
       "Orchestral|2|78.47419|40.91629|Brown Concertante Op.19 Eberl La Folia si Spagna",
-      "Orchestral|2|78.45473|66.46436|Goebel La Folia si Spagna Reicha Sinfonia Concertante G Major",
-      "Orchestral|4|79.28921|40.50444|C.Kleiber Der Freischutz : Overture Weber Oberon : Overture",
-      "Orchestral|4|79.27001|66.55276|Eschenbach Oberon : Overture Weber Invitation A La Valse"
+      "Orchestral|2|78.45473|66.46436|Goebel La Folia si Spagna Reicha Sinfonia Concertante G Major"
     ],
     "Orchestral|2": [],
     "Orchestral|7": [],
@@ -83841,9 +83916,7 @@
       "Solo|22|54.45453|66.68073|p.Tropp Elegie Kabalevsky Piano Sonata No.3 F Op.46",
       "Solo|22|79.19365|14.83166|Mussorgsky Pictures at an Exhibition",
       "Solo|22|79.19254|40.36081|p.Pogorelich Pictures at an Exhibition Mussorgsky Pictures at an Exhibition",
-      "Solo|22|79.19366|66.58692|p.Richter Pictures at an Exhibition Mussorgsky Pictures at an Exhibition"
-    ],
-    "Solo|24": [
+      "Solo|22|79.19366|66.58692|p.Richter Pictures at an Exhibition Mussorgsky Pictures at an Exhibition",
       "Solo|23|4.19129|23.11359|Piano Sonata No.1 d minor Op.28 Sergei Rachmaninov p.Lugansky Piano Sonata No.2 b flat minor Op.36",
       "Solo|23|18.66024|23.12361|Piano Sonata No.1 d minor Op.28 Sergei Rachmaninov p.Ashkenazy Piano Sonata No.2 b flat minor Op.36",
       "Solo|23|4.09989|46.38653|p.Lugansky p.Horowitz 24 Preludes Op.23 㖈 32",
@@ -83877,6 +83950,7 @@
       "Solo|24|53.99265|67.7872|p.Blumina Piano Sonata No.1 Godowsky Piano Sonata e minor",
       "Solo|24|78.95897|67.72775|p.Hamelin Chopin Etudes Suite No.2 d minor p.Papadopoulos"
     ],
+    "Solo|24": [],
     "Solo|30": [],
     "Solo|29": [
       "Solo|29|4.83125|14.77487|Kapustin Suite Old Style Op.28",
@@ -83920,18 +83994,7 @@
       "Solo|32|78.98682|15.20403|Werner 12 Tango Studies"
     ],
     "Solo|35": [],
-    "Solo|34": [
-      "Solo|35|54.51985|15.76145|Leschetizky Aria, Op.36, No.1",
-      "Solo|35|54.51985|41.13392|p.Ritzen Aria, Op.36, No.1 Paderewski Miscellanea Op.16",
-      "Solo|35|54.51985|66.42758|p.Lisiecki Miscellanea Op.16 Paderewski Humoresques Op.14",
-      "Solo|36|4.40669|15.69138|Szymanowski 9 Preludes Op.1",
-      "Solo|36|29.23977|15.7433|Lutoslawski Sacher Variation",
-      "Solo|36|79.43372|15.4241|Zebeljan 7 Balkan Dances",
-      "Solo|36|4.32811|41.13392|p.Zimerman 9 Preludes Op.1 Szymanowski 3 Masques Op.34",
-      "Solo|36|29.30989|41.14206|vc.T.Demenga Sacher Variation Pendercki Cadenza",
-      "Solo|36|4.38839|66.51453|p.Anderszewski 3 Masques Op.34 Lutoslawski Variations Paganini",
-      "Solo|36|29.28502|66.51453|vn.Zemtsov Cadenza Fitelberg Cello Sonata"
-    ],
+    "Solo|34": [],
     "Solo|33": [
       "Solo|33|4.27691|23.66631|Piano Sonata No.1 d minor Op.28 Frederic Chopin p.Andsnes Piano Sonata No.2 b flat minor Op.35",
       "solo-pdf-full-33-188-237",
@@ -83969,24 +84032,21 @@
       "Solo|35|4.80635|23.57302|Op.49 Fantasia f minor p.Pedorova Barcarolle F sharp",
       "Solo|35|4.80635|48.43813|Op.60 Barcarolle F sharp p.Zimerman",
       "Solo|35|19.35877|23.54698|Frederic Chopin pf.Melnikov",
-      "Solo|35|33.9071|23.50178|Op.16 Rondo E flat p.Davidovich Works for Piano"
+      "Solo|35|33.9071|23.50178|Op.16 Rondo E flat p.Davidovich Works for Piano",
+      "Solo|35|54.51985|15.76145|Leschetizky Aria, Op.36, No.1",
+      "Solo|35|54.51985|41.13392|p.Ritzen Aria, Op.36, No.1 Paderewski Miscellanea Op.16",
+      "Solo|35|54.51985|66.42758|p.Lisiecki Miscellanea Op.16 Paderewski Humoresques Op.14",
+      "Solo|36|4.40669|15.69138|Szymanowski 9 Preludes Op.1",
+      "Solo|36|29.23977|15.7433|Lutoslawski Sacher Variation",
+      "Solo|36|79.43372|15.4241|Zebeljan 7 Balkan Dances",
+      "Solo|36|4.32811|41.13392|p.Zimerman 9 Preludes Op.1 Szymanowski 3 Masques Op.34",
+      "Solo|36|29.30989|41.14206|vc.T.Demenga Sacher Variation Pendercki Cadenza",
+      "Solo|36|4.38839|66.51453|p.Anderszewski 3 Masques Op.34 Lutoslawski Variations Paganini",
+      "Solo|36|29.28502|66.51453|vn.Zemtsov Cadenza Fitelberg Cello Sonata"
     ],
     "Solo|36": [],
     "Solo|40": [],
-    "Solo|39": [
-      "Solo|40|4.01436|15.76145|Kodaly Sonata for Solo Cello Op.8",
-      "Solo|40|4.01436|41.33738|vc.Starker for Solo Cello Op.8 Kodaly Sonata for Solo Cello Op.8",
-      "Solo|40|4.01436|66.91331|vc.Wispelwey for Solo Cello Op.8 Kodaly Sonata for Solo Cello Op.8",
-      "Solo|40|27.84571|15.66586|Kodaly Duo for Violin 㖈 Cello Op.7",
-      "Solo|40|27.85419|41.31127|Sol 㖈 Pet Violin 㖈 Cello Op.7 Kodaly Cello Sonata",
-      "Solo|40|27.85792|67.50742|vc.Perenyi Cello Sonata Bartok 14 Bagatelles Sz.38",
-      "Solo|40|54.01088|15.57057|Bartok Piano Sonata Sz.80",
-      "Solo|40|54.01976|41.33737|p.Kocsis Piano Sonata Sz.80 Bartok Mukorokosmos",
-      "Solo|40|54.11608|67.43415|p.Jando Mukorokosmos Bartok Mukorokosmos",
-      "Solo|40|79.13243|15.76145|Ligeti Etudes Book1~3",
-      "Solo|40|79.20256|41.46759|p.Aimard Etudes Book1~3 Ligeti Sonata for Viola",
-      "Solo|40|79.21103|67.19949|va.Tamestit Sonata for Viola Ligeti Volumina"
-    ],
+    "Solo|39": [],
     "Solo|38": [
       "Solo|38|4.64501|23.57302|Piano Sonata b minor S.178 Franz Liszt p.Zimerman 12 Transcendental Etude S.139",
       "Solo|38|19.37606|23.50179|Piano Sonata b minor S.178 12 Transcendental Etude S.139",
@@ -84023,7 +84083,19 @@
       "Solo|39|82.46485|48.39625|S.162 Mephisto Waltz No.1 p.Kissin Weinen,Klagen,Sorgen,",
       "Solo|39|53.84525|72.77358|B-A-C-H S.529/1 Prelude 㖈 Fugue org.Trotter",
       "Solo|39|68.33932|72.77358|S.259 Fantasie 㖈 Fugue org.Baltrusch",
-      "Solo|39|82.55808|72.77358|Zagen ㎿ Variations S.179 Weinen,Klagen,Sorgen, org.Trotter"
+      "Solo|39|82.55808|72.77358|Zagen ㎿ Variations S.179 Weinen,Klagen,Sorgen, org.Trotter",
+      "Solo|40|4.01436|15.76145|Kodaly Sonata for Solo Cello Op.8",
+      "Solo|40|4.01436|41.33738|vc.Starker for Solo Cello Op.8 Kodaly Sonata for Solo Cello Op.8",
+      "Solo|40|4.01436|66.91331|vc.Wispelwey for Solo Cello Op.8 Kodaly Sonata for Solo Cello Op.8",
+      "Solo|40|27.84571|15.66586|Kodaly Duo for Violin 㖈 Cello Op.7",
+      "Solo|40|27.85419|41.31127|Sol 㖈 Pet Violin 㖈 Cello Op.7 Kodaly Cello Sonata",
+      "Solo|40|27.85792|67.50742|vc.Perenyi Cello Sonata Bartok 14 Bagatelles Sz.38",
+      "Solo|40|54.01088|15.57057|Bartok Piano Sonata Sz.80",
+      "Solo|40|54.01976|41.33737|p.Kocsis Piano Sonata Sz.80 Bartok Mukorokosmos",
+      "Solo|40|54.11608|67.43415|p.Jando Mukorokosmos Bartok Mukorokosmos",
+      "Solo|40|79.13243|15.76145|Ligeti Etudes Book1~3",
+      "Solo|40|79.20256|41.46759|p.Aimard Etudes Book1~3 Ligeti Sonata for Viola",
+      "Solo|40|79.21103|67.19949|va.Tamestit Sonata for Viola Ligeti Volumina"
     ],
     "Solo|48": [],
     "Solo|47": [
@@ -84128,7 +84200,22 @@
       "Solo|45|54.0688|67.14427|org.Chorzempa Grand choeur dialogue Boellmann Suite gothique",
       "Solo|45|78.66123|14.89074|Pierne Prelude g minor",
       "Solo|45|78.62139|41.14206|org.Isoir Prelude g minor Tournemire Choral ㎿ Improvisation…",
-      "Solo|45|78.78128|67.05352|org.Sakari Improvisation… Tournemire L 㐴Orgue Mystique Op.55"
+      "Solo|45|78.78128|67.05352|org.Sakari Improvisation… Tournemire L 㐴Orgue Mystique Op.55",
+      "Solo|46|3.99961|22.7521|3 Gymnopedies Erik Satie 6 Gnossiennes",
+      "Solo|46|18.54708|23.00822|p.Tharaud",
+      "Solo|46|33.12854|23.01833|p.Clidat",
+      "Solo|46|3.90114|46.5617|6 Gnossiennes p.de Leeuw Nocturne No.4",
+      "Solo|46|18.55018|46.89572|p.Tharaud p.Tharaud Je te veux",
+      "Solo|46|33.12854|46.88546|p.Clidat p.Ciccolini Embryons",
+      "Solo|46|4.01432|71.27202|Nocturne No.4 p.de Leeuw p.Roge",
+      "Solo|46|18.48313|71.51338|Je te veux p.Tharaud p.Thibaudet",
+      "Solo|46|32.96863|71.29473|Embryons p.Ciccolini p.Queffelec",
+      "Solo|46|54.14548|14.61157|c minor Op.39/4-7 p.Hamelin",
+      "Solo|46|78.49349|14.49061|Alkan 12 Etudes Op.39",
+      "Solo|46|54.21561|40.61156|p.Hamelin c minor Op.39/4-7 Alkan Symphonie c minor Op.39/8-10",
+      "Solo|46|78.42336|41.14206|p.Liu 12 Etudes Op.39 Hahn Le rossignol eperdu : No.52 Hivernale",
+      "Solo|46|54.21561|66.51882|p.Wee c minor Op.39/8-10 Alkan Grandes Etudes Op.76",
+      "Solo|46|78.43843|66.43315|p.Liu eperdu : No.52 Hivernale Chabrier Bourree fantasque"
     ],
     "Solo|43": [],
     "Solo|42": [
@@ -85012,7 +85099,9 @@
       "Vocal|47|29.54388|40.99154|Paz Hebdomade Sanctae Salas Salve Regina III"
     ],
     "Vocal|49": [],
-    "Vocal|48": [
+    "Vocal|48": [],
+    "Vocal|51": [],
+    "Vocal|50": [
       "Vocal|48|4.25028|15.20473|C.P.E.Bach Die Auferstehung und Himmelfahrt Jesu H.777",
       "Vocal|48|4.19214|41.13392|Reyn und Himmelfahrt Jesu H.777 C.P.E.Bach Magnificat H.772",
       "Vocal|48|4.21271|67.03724|Rademann Magnificat H.772 C.P.E.Bach Helig H778",
@@ -85042,10 +85131,7 @@
       "Vocal|49|83.11154|48.51467|H.28/7 II Mondo della luna Dorati Armida",
       "Vocal|49|53.82081|73.05577|opera,H.28/9 L 㑄isola disabitata Forck",
       "Vocal|49|67.73025|72.04929|Orlando Paladino Hickox",
-      "Vocal|49|82.82164|72.60103|Armida Dorati"
-    ],
-    "Vocal|51": [],
-    "Vocal|50": [
+      "Vocal|49|82.82164|72.60103|Armida Dorati",
       "Vocal|50|4.60375|15.20473|Gluck opera Orfeo ed Euridice",
       "Vocal|50|28.19546|15.2306|Gluck Alceste, opera",
       "Vocal|50|54.10293|15.26725|M.Haydn Requiem",
@@ -85199,12 +85285,24 @@
       "Vocal|60|55.11129|41.13392|s.Piau/p.Manoff : Ach neige, du Schmer… Loewe Erlkonig No.3/1",
       "Vocal|60|78.72442|41.13392|Temple Gartenlieder Op.3 C.Schumann 12 Songs from Ruckert 㐴s",
       "Vocal|60|55.11129|67.0291|t.Pregardien/p.Gees Erlkonig No.3/1 Tom der Reimer Op.135a br.Krimmel/p.Tchakarova",
-      "Vocal|60|78.72442|67.0291|t.Steffani/p.Huber 12 Songs from Ruckert 㐴s C.Schumann Lieder Op.12 : Lorelei"
+      "Vocal|60|78.72442|67.0291|t.Steffani/p.Huber 12 Songs from Ruckert 㐴s C.Schumann Lieder Op.12 : Lorelei",
+      "Vocal|61|3.93122|23.50961|Dichterliebe  Op.48 Robert Schumann t.Wunderlich/p.Giesen",
+      "Vocal|61|32.91405|23.50961|s.Bonney/p.Pappano",
+      "Vocal|61|3.54248|47.8923|t.Wunderlich/p.Giesen Frauenliebe und ㎿leben Op.42",
+      "Vocal|61|18.62124|47.86734|Liederkreis Op.39 t.Souzay/p.Baldwin t.Gura/p.Schultsz Frauenliebe und ㎿leben Op.42",
+      "Vocal|61|33.11243|47.86734|s.Bonney/p.Pappano br.Dieskau/p.Brendel",
+      "Vocal|61|3.93122|73.31161|Frauenliebe und ㎿leben Op.42 Uri Caine Ensemble ms.von Otter/p.Forsberg",
+      "Vocal|61|18.58797|73.15415|Frauenliebe und ㎿leben Op.42 t.Gura/p.Schultsz ms.Fassbaender/p.Gage",
+      "Vocal|61|33.0388|73.37671|Liederkreis Op.24 br.Dieskau/p.Brendel t.Bostridge/p.Drake",
+      "Vocal|61|54.06106|23.50927|No.1 Widmung Myrthen Op.25 s.Bonney/p.Ashkenazy Belsatzar Op.57",
+      "Vocal|61|68.58575|23.40355|No.3 Der Nussbaum Myrthen Op.25 ms.Fink/p.Vignoles Genoveva Op.81 opera",
+      "Vocal|61|83.15505|23.40355|Grenadiere Op.49/1 Die beiden br.Hasselhorn",
+      "Vocal|61|53.88405|47.47279|Belsatzar Op.57 s.Bonney/p.Ashkenazy br.Gerhaher/p.Huber Das Paradies und",
+      "Vocal|61|68.55045|47.22004|Genoveva Op.81 opera ms.Fink/p.Vignoles Scenes from Goethe 㐴s Faust WoO3",
+      "Vocal|61|54.12277|73.16572|die Peri Op.50 Das Paradies und Gardiner",
+      "Vocal|61|83.22514|73.16572|Op.98b Requiem fur Mignon Abbado"
     ],
     "Vocal|63": [
-      "Vocal|63|3.6986|23.5615|Wesendonck Lieder WWV91 Richard Wagner s.Studer/Sinopoli Der fliegende Holänder opera,WWV63",
-      "vocal-pdf-v1-63-186-234",
-      "vocal-pdf-full-63-334-234",
       "vocal-pdf-v1-63-38-482",
       "Vocal|63|17.54374|48.19209|Der fliegende Holänder opera,WWV63 s.Davidsen Keilberth Tannhäuser  opera,WWV70",
       "Vocal|63|33.4035|48.19209|s.Varadi/Dieskau Sinopoli",
@@ -85228,7 +85326,10 @@
       "vocal-pdf-v1-64-332-454",
       "Vocal|64|0.6806|72.93125|Parsifal  opera,WWV75 Janowski Karajan",
       "Vocal|64|18.64693|73.37419|Goodall Knappertsbusch",
-      "manual-1794393483079-8khaf"
+      "manual-1794393483079-8khaf",
+      "Vocal|63|3.6986|23.5615|Wesendonck Lieder WWV91 Richard Wagner s.Studer/Sinopoli Der fliegende Holänder opera,WWV63",
+      "vocal-pdf-v1-63-186-234",
+      "vocal-pdf-full-63-334-234"
     ],
     "Vocal|62": [
       "Vocal|62|4.0647|23.4525|Ein deutsches Requiem Op.45 Johannes Brahms Karajan Ein deutsches Requiem",
@@ -85258,14 +85359,6 @@
     ],
     "Vocal|67": [],
     "Vocal|66": [
-      "Vocal|66|3.85575|23.4525|Vier letzte Lieder Op.150 Richard Strauss s.Janowitz/Karajan Zueignung",
-      "Vocal|66|18.64646|23.54703|Richard Strauss s.Popp/Tilson Tomas Allerseelen",
-      "Vocal|66|33.29385|23.54703|s.Schwarzkopf/Szell Ruhe, meine Seele!",
-      "Vocal|66|3.95719|48.46487|Op.10 No.1 Zueignung s.Bonney/p.Martineau Morgen",
-      "Vocal|66|18.62552|48.1979|Op.10 No.8 Allerseelen s.Bonney/p.Martineau Wigenlied",
-      "Vocal|66|33.27444|48.10336|Op.27 No.1 Ruhe, meine Seele! s.Lott/N.Jarvi",
-      "Vocal|66|3.89123|73.38269|Op.27 No.4 Morgen s.Devieilhe/p.Pordoy",
-      "vocal-pdf-v1-66-185-733",
       "Vocal|66|53.67585|23.48648|Salome  opera,Op.54 Sinopoli Elektra  opera,Op.58",
       "Vocal|66|68.29205|23.48648|Bohm",
       "Vocal|66|81.66745|23.39021|Solti",
@@ -85289,7 +85382,15 @@
       "Vocal|67|52.16923|40.6971|C.Kleiber Die Loreley Op.16 Odysseus Op.41 Karajan",
       "Vocal|67|78.49146|41.13392|Steen Das Lied von der Glocke Mass a minor Op.197 Grun",
       "Vocal|67|54.36969|66.93247|Karajan Odysseus Op.41 Bruch Christkindelieder Op.92",
-      "Vocal|67|78.49146|66.77683|Grun Mass a minor Op.197 Der Stern von Bethlehem Froschauer"
+      "Vocal|67|78.49146|66.77683|Grun Mass a minor Op.197 Der Stern von Bethlehem Froschauer",
+      "Vocal|66|3.85575|23.4525|Vier letzte Lieder Op.150 Richard Strauss s.Janowitz/Karajan Zueignung",
+      "Vocal|66|18.64646|23.54703|Richard Strauss s.Popp/Tilson Tomas Allerseelen",
+      "Vocal|66|33.29385|23.54703|s.Schwarzkopf/Szell Ruhe, meine Seele!",
+      "Vocal|66|3.95719|48.46487|Op.10 No.1 Zueignung s.Bonney/p.Martineau Morgen",
+      "Vocal|66|18.62552|48.1979|Op.10 No.8 Allerseelen s.Bonney/p.Martineau Wigenlied",
+      "Vocal|66|33.27444|48.10336|Op.27 No.1 Ruhe, meine Seele! s.Lott/N.Jarvi",
+      "Vocal|66|3.89123|73.38269|Op.27 No.4 Morgen s.Devieilhe/p.Pordoy",
+      "vocal-pdf-v1-66-185-733"
     ],
     "Vocal|69": [],
     "Vocal|68": [
@@ -85488,7 +85589,9 @@
       "Vocal|86|4.991|67.03724|Hilliard Ensemble Abii ne viderem Kancheli Styx"
     ],
     "Vocal|84": [],
-    "Vocal|83": [
+    "Vocal|83": [],
+    "Vocal|82": [],
+    "Vocal|81": [
       "Vocal|83|4.63678|15.2306|Shostakovich opera Lady Macbeth of the Mts…",
       "vocal-pdf-v1-83-46-410",
       "Vocal|83|4.66817|67.17559|Rozhdestvensky Moskva,Cheremushki Shostakovich cantata Stepan Razin Op.119",
@@ -85509,28 +85612,7 @@
       "Vocal|84|54.0029|15.2306|Schnittke Choir Concerto",
       "Vocal|84|53.84959|41.13392|Putnins Choir Concerto Schnittke Requiem",
       "Vocal|84|53.92864|68.87643|Kamu Requiem Schnittke Faust Cantata",
-      "vocal-pdf-v1-84-791-146"
-    ],
-    "Vocal|82": [],
-    "Vocal|81": [
-      "Vocal|81|3.87173|23.54328|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Levine Pique Dame ,",
-      "Vocal|81|18.54822|23.66535|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Khaikine Iolanta ,",
-      "Vocal|81|33.19677|23.54328|Solti The Snow Maiden ,",
-      "Vocal|81|4.04259|48.92315|opera  Op.68 Pique Dame , Rostropovich Liturgy of St.John",
-      "Vocal|81|18.79284|48.94096|opera  Op.69 Iolanta , Villaume 9 Sacred pieces",
-      "vocal-pdf-v1-81-333-457",
-      "Vocal|81|4.03809|74.16831|Chrysostom Op.41 Liturgy of St.John Kalva",
-      "Vocal|81|18.6896|74.2537|No.8. Da ispravitsya 9 Sacred pieces Korniev",
-      "Vocal|81|33.11768|74.15516|Op.6 No.6 None But the Lonely ms.Borodina",
-      "Vocal|81|53.96938|23.54328|The Bells Op.35 Sergei Rachmaninov Jansons Vespers Op.37",
-      "Vocal|81|68.40422|23.53514|Sergei Rachmaninov Pletnev",
-      "Vocal|81|83.16611|23.54328|Aleko  opera N.Jarvi Liturgy of St.John",
-      "Vocal|81|54.14025|48.9491|Vespers Op.37 Jansons Best 6 Songs Op.4",
-      "Vocal|81|68.65319|48.89327|Pletnev Hillier Twilight Op.21 No.3",
-      "Vocal|81|83.21276|48.81834|Chrysostom Op.31 Liturgy of St.John Best",
-      "vocal-pdf-v1-81-540-741",
-      "vocal-pdf-v1-81-684-740",
-      "vocal-pdf-v1-81-827-740",
+      "vocal-pdf-v1-84-791-146",
       "Vocal|82|4.79569|15.2306|Grechaninov Strastnaya Sed 㐴mista Op.58",
       "Vocal|82|4.79569|41.13392|Bruffy Strastnaya Sed 㐴mista Op.58 Grechaninov All ㎿Night Vigil Op.59",
       "Vocal|82|4.79569|66.95028|Layton All ㎿Night Vigil Op.59 Grechaninov Praise the Lord",
@@ -85784,7 +85866,24 @@
       "Vocal|112|54.11785|41.2438|t.Tommaso Marechiare Tosti Ideale",
       "Vocal|112|53.77686|67.59081|t.Bjorling Ideale di Capua O Solemio",
       "Vocal|112|78.58823|14.88867|de Curtis Torna a Surriento",
-      "Vocal|112|78.69436|41.08945|t.di Stefano Torna a Surriento Falvo Dicitencello vuje!"
+      "Vocal|112|78.69436|41.08945|t.di Stefano Torna a Surriento Falvo Dicitencello vuje!",
+      "Vocal|113|3.96991|23.46323|Petite Messe Solennelle Gioachino Rossini Immerseel Stabat mater",
+      "Vocal|113|18.57337|23.40001|Gioachino Rossini Creed",
+      "Vocal|113|33.18312|23.53602|Messa di gloria Marriner Messe per Rossini",
+      "Vocal|113|3.79699|48.06044|Stabat mater Immerseel Chung",
+      "Vocal|113|17.16977|47.0748|Creed Il Barbiere di Siviglia opera",
+      "vocal-pdf-v1-113-332-480",
+      "Vocal|113|3.87574|73.5776|Il Barbiere di Siviglia opera Chung Abbado",
+      "Vocal|113|16.91111|73.66801|Il Barbiere di Siviglia opera Giulini Patane",
+      "Vocal|113|33.13939|73.5316|Semiramide opera Chailly Edler",
+      "Vocal|113|53.70929|23.8012|La Cenerentola  opera Chailly L 㑄Italiana in Algeri opera",
+      "vocal-pdf-full-113-681-231",
+      "vocal-pdf-v1-113-544-481",
+      "Vocal|113|66.17947|48.1855|L 㑄Italiana in Algeri opera Abbado Varviso",
+      "Vocal|113|83.08458|48.15016|Armida opera Weikert Firenze Il Viaggio a Reims",
+      "Vocal|113|53.52557|73.37419|Guillaume Tell  opera Abbado Chailly",
+      "Vocal|113|67.48706|73.37419|Varviso Gardelli",
+      "Vocal|113|83.00647|73.20847|opera Il Viaggio a Reims Abbado"
     ],
     "Vocal|115": [],
     "Vocal|114": [
@@ -86133,6 +86232,95 @@
       "Vocal|142|55.18|41.10547|Calmus Ensemble La Peregrinacion Piazzolla operetta Maria de Buenos Aires",
       "Vocal|142|4.77754|67.62253|s.Upshaw/Spano 3 Songs Golijov La Pasion segun San Marco",
       "Vocal|142|29.28007|67.58267|Eguez Misa Criolla Ramirez Misa Criolla"
+    ],
+    "Vocal|100": [],
+    "Vocal|104": [
+      "Vocal|100|4.03102|23.70673|Requiem Op.5 Hector Berlioz McCreesh Te Deum Op.22",
+      "Vocal|100|18.32949|23.39865|Levine",
+      "Vocal|100|4.02051|48.3278|Te Deum Op.22 McCreesh Abbado L 㐴Enfance du Christ Op.25",
+      "Vocal|100|18.70066|48.37043|Levine C.Davis L 㐴Enfance du Christ Op.25",
+      "Vocal|100|33.10452|48.37043|Messe solennelle H.20a C.Davis Niquet",
+      "Vocal|100|18.53004|72.48001|L 㐴Enfance du Christ Op.25 C.Davis Ticciati",
+      "Vocal|100|33.09865|72.47066|Niquet Herreweghe",
+      "Vocal|100|53.71875|23.59485|Les Nuits d 㐴ete Op.7 s.Piau/Chauvin La Mort de Cleopatre",
+      "Vocal|100|68.27631|23.59485|br.Spyres/Nelson Herminie Op.29",
+      "Vocal|100|82.75367|23.55221|ms.Balleys/Herreweghe",
+      "Vocal|100|53.72455|48.29737|H.36 La Mort de Cleopatre s.Gens/Langree Les Troyens",
+      "Vocal|100|68.36949|48.25008|Herminie Op.29 br.Spyres/Nelson s.Larsson La Damnation de",
+      "Vocal|100|53.48277|71.91183|Les Troyens s.Gens/Langree",
+      "Vocal|100|68.38167|72.36695|Faust opera Op.24 La Damnation de C.Davis",
+      "Vocal|100|82.51769|72.04867|opera Op.23 Benvenuto Cellini C.Davis",
+      "Vocal|104|4.7396|15.2306|Franck Redemption",
+      "Vocal|104|4.7396|41.00371|Plasson Redemption Franck Les Beatitudes",
+      "Vocal|104|4.63957|66.91517|Jordan Les Beatitudes Franck Messe Solennelle",
+      "Vocal|104|30.09538|15.30195|Franck The Seven Last Words",
+      "vocal-pdf-v1-104-300-410",
+      "Vocal|104|30.09585|68.12949|O 㐴Donnell Panis angelicus Chausson opera Le Roi Arthus",
+      "Vocal|104|53.77328|15.2306|Chausson  Poeme de l 㐴amour et de la mar Op.20",
+      "Vocal|104|53.81352|41.53268|s.Gens/Bloch l 㐴amour et de la mar Op.20 Chausson La tempete Op.18",
+      "Vocal|104|53.85257|67.9531|Pancrazi/Pingeot La tempete Op.18 Chausson Le temps des Iilas",
+      "Vocal|104|79.45739|15.31009|Hahn Etudes latines : Neere",
+      "Vocal|104|79.31665|41.66289|br.Varcoe / p.Johnson Etudes latines : Neere Hahn Etudes latines : Neere",
+      "Vocal|104|79.31664|68.08331|br.Cutting / p.Hyland Etudes latines : Neere Hahn A Chloris"
+    ],
+    "Vocal|61": [],
+    "Vocal|80": [
+      "Vocal|80|4.50568|15.20465|Glinka opera Ruslan and Lyudmila",
+      "Vocal|80|29.24524|15.32669|Rimsky ㎿Korsakov The Golden Cockerel, opera",
+      "Vocal|80|4.15269|41.13392|Gergiev Ruslan and Lyudmila Borodin Prince Igor, opera",
+      "Vocal|80|29.26381|41.37645|Manolov The Golden Cockerel, opera Rimsky ㎿Korsakov Sadko, opera",
+      "Vocal|80|4.59147|67.48435|Gergiev Prince Igor, opera Borodin  For the Shores of Thy Far Native Land",
+      "Vocal|80|29.21143|67.48435|Gergiev Sadko, opera Rimsky ㎿Korsakov Mozart and Salieri, opera",
+      "Vocal|80|53.09048|23.54328|Boris Godunov , opera Modest Mussorgsky Karajan Khovanshchina , opera",
+      "Vocal|80|67.558|23.54328|Modest Mussorgsky Fedoseyev",
+      "Vocal|80|82.47655|23.48307|Abbado",
+      "Vocal|80|53.08985|48.80714|Khovanshchina , opera Karajan Gergiev",
+      "Vocal|80|67.78401|48.7689|Sorochinsky Fair , opera Fedoseyev Cherkasov",
+      "Vocal|80|82.49955|48.72988|Song of the flea Abbado br.Ghristoff/p.Labinsky",
+      "vocal-pdf-v1-80-532-742",
+      "Vocal|80|67.87194|74.26508|Cherkasov br.Kipnis/p.Moore",
+      "Vocal|80|82.34436|73.76299|The Nursery br.Ghristoff/p.Labinsky",
+      "Vocal|81|3.87173|23.54328|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Levine Pique Dame ,",
+      "Vocal|81|18.54822|23.66535|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Khaikine Iolanta ,",
+      "Vocal|81|33.19677|23.54328|Solti The Snow Maiden ,",
+      "Vocal|81|4.04259|48.92315|opera  Op.68 Pique Dame , Rostropovich Liturgy of St.John",
+      "Vocal|81|18.79284|48.94096|opera  Op.69 Iolanta , Villaume 9 Sacred pieces",
+      "vocal-pdf-v1-81-333-457",
+      "Vocal|81|4.03809|74.16831|Chrysostom Op.41 Liturgy of St.John Kalva",
+      "Vocal|81|18.6896|74.2537|No.8. Da ispravitsya 9 Sacred pieces Korniev",
+      "Vocal|81|33.11768|74.15516|Op.6 No.6 None But the Lonely ms.Borodina",
+      "Vocal|81|53.96938|23.54328|The Bells Op.35 Sergei Rachmaninov Jansons Vespers Op.37",
+      "Vocal|81|68.40422|23.53514|Sergei Rachmaninov Pletnev",
+      "Vocal|81|83.16611|23.54328|Aleko  opera N.Jarvi Liturgy of St.John",
+      "Vocal|81|54.14025|48.9491|Vespers Op.37 Jansons Best 6 Songs Op.4",
+      "Vocal|81|68.65319|48.89327|Pletnev Hillier Twilight Op.21 No.3",
+      "Vocal|81|83.21276|48.81834|Chrysostom Op.31 Liturgy of St.John Best",
+      "vocal-pdf-v1-81-540-741",
+      "vocal-pdf-v1-81-684-740",
+      "vocal-pdf-v1-81-827-740"
+    ],
+    "Vocal|113": [],
+    "Solo|46": [],
+    "Orchestral|5": [
+      "Orchestral|4|79.28921|40.50444|C.Kleiber Der Freischutz : Overture Weber Oberon : Overture",
+      "Orchestral|4|79.27001|66.55276|Eschenbach Oberon : Overture Weber Invitation A La Valse",
+      "Orchestral|5|4.05296|23.7126|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Abbado ㏙BPO㏚ Die Hebriden Overture  Op.26",
+      "Orchestral|5|18.42492|23.79592|A Midsummer Night 㐴s Dream Op.61 Felix Mendelssohn Ozawa ㏙BSO㏚ Die Hebriden Overture  Op.26",
+      "Orchestral|5|32.7457|23.79592|Herreweghe",
+      "Orchestral|5|3.99373|47.99074|Die Hebriden Overture  Op.26 Abbado ㏙BPO㏚ Abbado Die schone Melusine",
+      "Orchestral|5|17.30056|47.90743|Die Hebriden Overture  Op.26 Ozawa ㏙BSO㏚ Casado Ruy Blas",
+      "Orchestral|5|32.68907|47.99076|Herreweghe Kossenko",
+      "Orchestral|5|3.99373|72.35618|Overture  Op.32 Die schone Melusine Abbado",
+      "Orchestral|5|18.2823|72.34024|Overture  Op.95 Ruy Blas Gardner",
+      "Orchestral|5|54.41601|23.71826|D Major Op.11 Serenade No.1 Vriend 21 Hungarian Dances",
+      "Orchestral|5|68.84906|23.80157|Johannes Brahms Boston Chamber",
+      "Orchestral|5|83.11061|23.80157|A Major Op.16 Serenade No.2 Chailly",
+      "Orchestral|5|54.47033|47.80802|21 Hungarian Dances Vriend Fischer Variation on a Theme",
+      "Orchestral|5|68.76068|47.61076|Boston Chamber Abbado Academic Festival",
+      "Orchestral|5|79.36313|47.67471|Chailly vn. Shaham ㏙arr.Joachim㏚ Tragic",
+      "Orchestral|5|54.40365|72.47647|of Haydn Op.56a Variation on a Theme Abbado",
+      "Orchestral|5|68.83089|72.4361|Overture Op.80 Academic Festival Bernstein ㏙r.Sony㏚",
+      "Orchestral|5|83.04228|72.49131|Overture Op.81 Tragic Bolton"
     ]
   },
   "moved": {
@@ -89349,7 +89537,7 @@
     "Orchestral|4|79.28921|40.50444|C.Kleiber Der Freischutz : Overture Weber Oberon : Overture": {
       "g": "Orchestral",
       "from": 4,
-      "to": 3
+      "to": 5
     },
     "Orchestral|4|55.12496|66.57187|Dausgaard Rosamunde  D.797 Schubert German Dances  D.97": {
       "g": "Orchestral",
@@ -89359,7 +89547,7 @@
     "Orchestral|4|79.27001|66.55276|Eschenbach Oberon : Overture Weber Invitation A La Valse": {
       "g": "Orchestral",
       "from": 4,
-      "to": 3
+      "to": 5
     },
     "orchestral-pdf-full-2-46-150": {
       "g": "Orchestral",
@@ -98849,87 +99037,87 @@
     "Solo|23|4.19129|23.11359|Piano Sonata No.1 d minor Op.28 Sergei Rachmaninov p.Lugansky Piano Sonata No.2 b flat minor Op.36": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|18.66024|23.12361|Piano Sonata No.1 d minor Op.28 Sergei Rachmaninov p.Ashkenazy Piano Sonata No.2 b flat minor Op.36": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|4.09989|46.38653|p.Lugansky p.Horowitz 24 Preludes Op.23 㖈 32": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|18.61603|46.84429|Piano Sonata No.2 b flat minor Op.36 p.Ashkenazy p.Pogorelich": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|33.06916|46.85117|p.Sultanov": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|4.22838|70.44727|24 Preludes Op.23 㖈 32 p.Horowitz p.Lugansky": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|18.61974|70.72509|p.Pogorelich p.Lifschitz": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|32.89928|70.74057|p.Sultanov p.Lymapany": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|53.95441|23.38005|Etude ㎿tableaux Op.33 㖈 39 p.Lugansky Moments musicaux Op.16": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|68.48286|23.47187|Etude ㎿tableaux Op.33 㖈 39 p.Giltburg ㏙op.39㏚ Moments musicaux Op.16": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|82.93415|23.5824|p.Richter": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|53.98045|46.78316|Moments musicaux Op.16 p.Lugansky p.Giltburg Corelli Variations Op.42": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|68.35469|46.90294|Moments musicaux Op.16 p.Giltburg ㏙op.39㏚ p.Ashkenazy": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|82.84042|46.77274|p.Richter p.Shelley": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|54.05624|70.63004|Corelli Variations Op.42 p.Giltburg p.Wild": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|68.44729|70.59443|p.Ashkenazy": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|23|82.91766|70.53822|p.Shelley p.Beak": {
       "g": "Solo",
       "from": 23,
-      "to": 24
+      "to": 22
     },
     "Solo|30|5.07934|14.80069|Eller 7 Preludes Book1": {
       "g": "Solo",
@@ -99049,17 +99237,17 @@
     "Solo|35|54.51985|15.76145|Leschetizky Aria, Op.36, No.1": {
       "g": "Solo",
       "from": 35,
-      "to": 34
+      "to": 33
     },
     "Solo|35|54.51985|41.13392|p.Ritzen Aria, Op.36, No.1 Paderewski Miscellanea Op.16": {
       "g": "Solo",
       "from": 35,
-      "to": 34
+      "to": 33
     },
     "Solo|35|54.51985|66.42758|p.Lisiecki Miscellanea Op.16 Paderewski Humoresques Op.14": {
       "g": "Solo",
       "from": 35,
-      "to": 34
+      "to": 33
     },
     "Solo|34|5.13499|23.48106|21 Nocturnes Frederic Chopin p.Chaplin 17 Waltzes": {
       "g": "Solo",
@@ -99149,97 +99337,97 @@
     "Solo|36|4.40669|15.69138|Szymanowski 9 Preludes Op.1": {
       "g": "Solo",
       "from": 36,
-      "to": 34
+      "to": 33
     },
     "Solo|36|29.23977|15.7433|Lutoslawski Sacher Variation": {
       "g": "Solo",
       "from": 36,
-      "to": 34
+      "to": 33
     },
     "Solo|36|79.43372|15.4241|Zebeljan 7 Balkan Dances": {
       "g": "Solo",
       "from": 36,
-      "to": 34
+      "to": 33
     },
     "Solo|36|4.32811|41.13392|p.Zimerman 9 Preludes Op.1 Szymanowski 3 Masques Op.34": {
       "g": "Solo",
       "from": 36,
-      "to": 34
+      "to": 33
     },
     "Solo|36|29.30989|41.14206|vc.T.Demenga Sacher Variation Pendercki Cadenza": {
       "g": "Solo",
       "from": 36,
-      "to": 34
+      "to": 33
     },
     "Solo|36|4.38839|66.51453|p.Anderszewski 3 Masques Op.34 Lutoslawski Variations Paganini": {
       "g": "Solo",
       "from": 36,
-      "to": 34
+      "to": 33
     },
     "Solo|36|29.28502|66.51453|vn.Zemtsov Cadenza Fitelberg Cello Sonata": {
       "g": "Solo",
       "from": 36,
-      "to": 34
+      "to": 33
     },
     "Solo|40|4.01436|15.76145|Kodaly Sonata for Solo Cello Op.8": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|4.01436|41.33738|vc.Starker for Solo Cello Op.8 Kodaly Sonata for Solo Cello Op.8": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|4.01436|66.91331|vc.Wispelwey for Solo Cello Op.8 Kodaly Sonata for Solo Cello Op.8": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|27.84571|15.66586|Kodaly Duo for Violin 㖈 Cello Op.7": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|27.85419|41.31127|Sol 㖈 Pet Violin 㖈 Cello Op.7 Kodaly Cello Sonata": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|27.85792|67.50742|vc.Perenyi Cello Sonata Bartok 14 Bagatelles Sz.38": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|54.01088|15.57057|Bartok Piano Sonata Sz.80": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|54.01976|41.33737|p.Kocsis Piano Sonata Sz.80 Bartok Mukorokosmos": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|54.11608|67.43415|p.Jando Mukorokosmos Bartok Mukorokosmos": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|79.13243|15.76145|Ligeti Etudes Book1~3": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|79.20256|41.46759|p.Aimard Etudes Book1~3 Ligeti Sonata for Viola": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "Solo|40|79.21103|67.19949|va.Tamestit Sonata for Viola Ligeti Volumina": {
       "g": "Solo",
       "from": 40,
-      "to": 39
+      "to": 38
     },
     "solo-pdf-full-39-46-235": {
       "g": "Solo",
@@ -101964,92 +102152,92 @@
     "Vocal|49|3.97033|23.81401|Nelsonmesse  H.22/11 Franz Joseph Haydn Pinnock Nikolaimesse": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|18.63472|23.747|Franz Joseph Haydn Hickox Theresienmesse": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|33.31619|23.79908|C.Davis Harmoniemesse": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|3.87818|48.32684|H.22/6 Nikolaimesse Preston Die Schopfung H21/2": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|18.52725|48.1643|H.22/12 Theresienmesse Pinnock": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|33.36486|48.21901|H.22/14 Harmoniemesse Kuijken": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|3.91171|72.97162|Die Schopfung H21/2 Preston Antonini": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|18.62452|72.97976|Pinnock Weil": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|33.37563|72.97976|Kuijken Karajan": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|53.80407|23.78184|Die Jahreszeiten  H.21/3 Jacobs Stabat Mater": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|68.37883|23.64884|Bohm Te Deum": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|82.98732|23.75206|Worte … H.20/2 Die Sieben letzten Sperling II Mondo della luna": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|53.57583|48.39121|H.20bis Stabat Mater Pinnock L 㑄isola disabitata": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|68.3371|48.52956|Hob.XXIIIc:2 Te Deum Hickox Orlando Paladino": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|83.11154|48.51467|H.28/7 II Mondo della luna Dorati Armida": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|53.82081|73.05577|opera,H.28/9 L 㑄isola disabitata Forck": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|67.73025|72.04929|Orlando Paladino Hickox": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|49|82.82164|72.60103|Armida Dorati": {
       "g": "Vocal",
       "from": 49,
-      "to": 48
+      "to": 50
     },
     "Vocal|51|5.08889|15.48288|Neukomm Requiem": {
       "g": "Vocal",
@@ -103084,52 +103272,52 @@
     "Vocal|84|4.46253|15.2306|Stravinsky opera Oedipus Rex": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|84|4.41693|41.13392|Salonen Oedipus Rex Stravinsky opera The Lake 㐴s Progress": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|84|4.5002|67.03724|Gardiner The Lake 㐴s Progress Stravinsky opera Le Rossignal": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "vocal-pdf-v1-84-299-151": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|84|29.8854|41.13392|Dutoit The Soldier 㐴s Tale Stravinsky Messe": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|84|29.73708|67.03724|Reuss Messe Weinberg opera The Passenger": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|84|54.0029|15.2306|Schnittke Choir Concerto": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|84|53.84959|41.13392|Putnins Choir Concerto Schnittke Requiem": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|84|53.92864|68.87643|Kamu Requiem Schnittke Faust Cantata": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "vocal-pdf-v1-84-791-146": {
       "g": "Vocal",
       "from": 84,
-      "to": 83
+      "to": 81
     },
     "Vocal|82|4.79569|15.2306|Grechaninov Strastnaya Sed 㐴mista Op.58": {
       "g": "Vocal",
@@ -104610,6 +104798,596 @@
       "g": "Vocal",
       "from": 142,
       "to": 141
+    },
+    "Vocal|48|4.25028|15.20473|C.P.E.Bach Die Auferstehung und Himmelfahrt Jesu H.777": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|4.19214|41.13392|Reyn und Himmelfahrt Jesu H.777 C.P.E.Bach Magnificat H.772": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|4.21271|67.03724|Rademann Magnificat H.772 C.P.E.Bach Helig H778": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|28.27449|15.17837|C.P.E.Bach Matthaus Passion": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|28.27449|41.13392|Beringer Matthaus Passion C.P.E.Bach Markus Passion": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|28.33259|67.03724|Daus Markus Passion J.C.F.Bach Wachet auf, ruft uns die Stimme": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|54.12331|15.15296|J.Ch.Bach Lamento. Ach,dass ich…": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|54.12331|41.13392|c ㎿t.Charvet Lamento. Ach,dass ich… J.Ch.Bach Furchte dich nicht": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|54.08647|67.03724|Junghanel Furchte dich nicht J.C.Bach Salve Regina CW E24": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|79.06779|15.2306|W.F.Bach O Wunder, we kann dieses fassen?": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|78.67608|41.26413|Otto we kann dieses fassen? W.F.Bach Lasset uns ablegen F80": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|48|79.44928|67.03724|Max ablegen F80 H.Bach Ich danke dir Gott": {
+      "g": "Vocal",
+      "from": 48,
+      "to": 50
+    },
+    "Vocal|100|4.03102|23.70673|Requiem Op.5 Hector Berlioz McCreesh Te Deum Op.22": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|18.32949|23.39865|Levine": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|4.02051|48.3278|Te Deum Op.22 McCreesh Abbado L 㐴Enfance du Christ Op.25": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|18.70066|48.37043|Levine C.Davis L 㐴Enfance du Christ Op.25": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|33.10452|48.37043|Messe solennelle H.20a C.Davis Niquet": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|18.53004|72.48001|L 㐴Enfance du Christ Op.25 C.Davis Ticciati": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|33.09865|72.47066|Niquet Herreweghe": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|53.71875|23.59485|Les Nuits d 㐴ete Op.7 s.Piau/Chauvin La Mort de Cleopatre": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|68.27631|23.59485|br.Spyres/Nelson Herminie Op.29": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|82.75367|23.55221|ms.Balleys/Herreweghe": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|53.72455|48.29737|H.36 La Mort de Cleopatre s.Gens/Langree Les Troyens": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|68.36949|48.25008|Herminie Op.29 br.Spyres/Nelson s.Larsson La Damnation de": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|53.48277|71.91183|Les Troyens s.Gens/Langree": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|68.38167|72.36695|Faust opera Op.24 La Damnation de C.Davis": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|100|82.51769|72.04867|opera Op.23 Benvenuto Cellini C.Davis": {
+      "g": "Vocal",
+      "from": 100,
+      "to": 104
+    },
+    "Vocal|61|3.93122|23.50961|Dichterliebe  Op.48 Robert Schumann t.Wunderlich/p.Giesen": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|32.91405|23.50961|s.Bonney/p.Pappano": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|3.54248|47.8923|t.Wunderlich/p.Giesen Frauenliebe und ㎿leben Op.42": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|18.62124|47.86734|Liederkreis Op.39 t.Souzay/p.Baldwin t.Gura/p.Schultsz Frauenliebe und ㎿leben Op.42": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|33.11243|47.86734|s.Bonney/p.Pappano br.Dieskau/p.Brendel": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|3.93122|73.31161|Frauenliebe und ㎿leben Op.42 Uri Caine Ensemble ms.von Otter/p.Forsberg": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|18.58797|73.15415|Frauenliebe und ㎿leben Op.42 t.Gura/p.Schultsz ms.Fassbaender/p.Gage": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|33.0388|73.37671|Liederkreis Op.24 br.Dieskau/p.Brendel t.Bostridge/p.Drake": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|54.06106|23.50927|No.1 Widmung Myrthen Op.25 s.Bonney/p.Ashkenazy Belsatzar Op.57": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|68.58575|23.40355|No.3 Der Nussbaum Myrthen Op.25 ms.Fink/p.Vignoles Genoveva Op.81 opera": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|83.15505|23.40355|Grenadiere Op.49/1 Die beiden br.Hasselhorn": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|53.88405|47.47279|Belsatzar Op.57 s.Bonney/p.Ashkenazy br.Gerhaher/p.Huber Das Paradies und": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|68.55045|47.22004|Genoveva Op.81 opera ms.Fink/p.Vignoles Scenes from Goethe 㐴s Faust WoO3": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|54.12277|73.16572|die Peri Op.50 Das Paradies und Gardiner": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|61|83.22514|73.16572|Op.98b Requiem fur Mignon Abbado": {
+      "g": "Vocal",
+      "from": 61,
+      "to": 59
+    },
+    "Vocal|81|3.87173|23.54328|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Levine Pique Dame ,": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|18.54822|23.66535|Eugene Onegin , opera  Op.24 Pyotr Ilyich Tchaikovsky Khaikine Iolanta ,": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|33.19677|23.54328|Solti The Snow Maiden ,": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|4.04259|48.92315|opera  Op.68 Pique Dame , Rostropovich Liturgy of St.John": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|18.79284|48.94096|opera  Op.69 Iolanta , Villaume 9 Sacred pieces": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "vocal-pdf-v1-81-333-457": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|4.03809|74.16831|Chrysostom Op.41 Liturgy of St.John Kalva": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|18.6896|74.2537|No.8. Da ispravitsya 9 Sacred pieces Korniev": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|33.11768|74.15516|Op.6 No.6 None But the Lonely ms.Borodina": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|53.96938|23.54328|The Bells Op.35 Sergei Rachmaninov Jansons Vespers Op.37": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|68.40422|23.53514|Sergei Rachmaninov Pletnev": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|83.16611|23.54328|Aleko  opera N.Jarvi Liturgy of St.John": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|54.14025|48.9491|Vespers Op.37 Jansons Best 6 Songs Op.4": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|68.65319|48.89327|Pletnev Hillier Twilight Op.21 No.3": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|81|83.21276|48.81834|Chrysostom Op.31 Liturgy of St.John Best": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "vocal-pdf-v1-81-540-741": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "vocal-pdf-v1-81-684-740": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "vocal-pdf-v1-81-827-740": {
+      "g": "Vocal",
+      "from": 81,
+      "to": 80
+    },
+    "Vocal|83|4.63678|15.2306|Shostakovich opera Lady Macbeth of the Mts…": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "vocal-pdf-v1-83-46-410": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|4.66817|67.17559|Rozhdestvensky Moskva,Cheremushki Shostakovich cantata Stepan Razin Op.119": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|29.35496|15.2306|Shostakovich opera The Nose": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|29.35496|41.13392|Rozhdestvensky The Nose Shostakovich opera The Gambler": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|54.06144|15.2306|Prokofiev cantata Alexander Nevsky Op.78": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|54.1786|41.13392|Abbado Alexander Nevsky Op.78 Prokofiev Ivan yhe Terrible Op.116": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|53.7983|67.09189|Polyansky Ivan yhe Terrible Op.116 Prokofiev opera Gambler": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|78.76473|15.2306|Prokofiev opera War and Peace": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|79.51292|41.13392|Gergiev War and Peace Prokofiev opera The Love for 3 Oranges": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|83|78.52221|67.09189|Nagano The Love for 3 Oranges Prokofiev opera The Fiery Angel": {
+      "g": "Vocal",
+      "from": 83,
+      "to": 81
+    },
+    "Vocal|113|3.96991|23.46323|Petite Messe Solennelle Gioachino Rossini Immerseel Stabat mater": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|18.57337|23.40001|Gioachino Rossini Creed": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|33.18312|23.53602|Messa di gloria Marriner Messe per Rossini": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|3.79699|48.06044|Stabat mater Immerseel Chung": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|17.16977|47.0748|Creed Il Barbiere di Siviglia opera": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "vocal-pdf-v1-113-332-480": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|3.87574|73.5776|Il Barbiere di Siviglia opera Chung Abbado": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|16.91111|73.66801|Il Barbiere di Siviglia opera Giulini Patane": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|33.13939|73.5316|Semiramide opera Chailly Edler": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|53.70929|23.8012|La Cenerentola  opera Chailly L 㑄Italiana in Algeri opera": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "vocal-pdf-full-113-681-231": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "vocal-pdf-v1-113-544-481": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|66.17947|48.1855|L 㑄Italiana in Algeri opera Abbado Varviso": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|83.08458|48.15016|Armida opera Weikert Firenze Il Viaggio a Reims": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|53.52557|73.37419|Guillaume Tell  opera Abbado Chailly": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|67.48706|73.37419|Varviso Gardelli": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Vocal|113|83.00647|73.20847|opera Il Viaggio a Reims Abbado": {
+      "g": "Vocal",
+      "from": 113,
+      "to": 111
+    },
+    "Solo|24|4.23449|23.42063|Chopin Variations Op.22 Sergei Rachmaninov p.Sunwoo Suite for 2 Pianos No.1 㖈 2": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|18.69256|23.20895|Sergei Rachmaninov p.Sudbin Suite for 2 Pianos No.1 㖈 2": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|33.06455|23.2002|Transcriptions p.Ashkenazy Morceaux de": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|4.23449|46.80187|Suite for 2 Pianos No.1 㖈 2 p.Sunwoo p.Mercier/Lortie Symphonic Dances Op.45": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|18.68237|46.84429|Suite for 2 Pianos No.1 㖈 2 p.Sudbin p.Shelley/Macnamara Symphonic Dances Op.45": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|33.00798|46.93198|Morceaux de p.Ashkenazy p.Tropp": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|4.21508|70.63004|Symphonic Dances Op.45 p.Mercier/Lortie p.Babayan/Trifonov": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|18.60338|70.67937|Symphonic Dances Op.45 p.Shelley/Macnamara p.Barnatan/Kocsis": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|33.20031|70.57781|p.Tropp p.Argerich/Rabinovitch": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|54.04769|14.58789|Weinberg Children 㐴s Notebook": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|78.8187|14.48919|Godowsky Passacaglia. 44 Variations": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|53.97961|41.14206|p.Sheludyakov Children 㐴s Notebook Weinberg Piano Sonata No.1": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|78.8187|41.04336|p.Hamelin 44 Variations Godowsky Studies Chopin Etudes": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|53.99265|67.7872|p.Blumina Piano Sonata No.1 Godowsky Piano Sonata e minor": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|24|78.95897|67.72775|p.Hamelin Chopin Etudes Suite No.2 d minor p.Papadopoulos": {
+      "g": "Solo",
+      "from": 24,
+      "to": 22
+    },
+    "Solo|46|3.99961|22.7521|3 Gymnopedies Erik Satie 6 Gnossiennes": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|18.54708|23.00822|p.Tharaud": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|33.12854|23.01833|p.Clidat": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|3.90114|46.5617|6 Gnossiennes p.de Leeuw Nocturne No.4": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|18.55018|46.89572|p.Tharaud p.Tharaud Je te veux": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|33.12854|46.88546|p.Clidat p.Ciccolini Embryons": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|4.01432|71.27202|Nocturne No.4 p.de Leeuw p.Roge": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|18.48313|71.51338|Je te veux p.Tharaud p.Thibaudet": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|32.96863|71.29473|Embryons p.Ciccolini p.Queffelec": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|54.14548|14.61157|c minor Op.39/4-7 p.Hamelin": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|78.49349|14.49061|Alkan 12 Etudes Op.39": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|54.21561|40.61156|p.Hamelin c minor Op.39/4-7 Alkan Symphonie c minor Op.39/8-10": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|78.42336|41.14206|p.Liu 12 Etudes Op.39 Hahn Le rossignol eperdu : No.52 Hivernale": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|54.21561|66.51882|p.Wee c minor Op.39/8-10 Alkan Grandes Etudes Op.76": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
+    },
+    "Solo|46|78.43843|66.43315|p.Liu eperdu : No.52 Hivernale Chabrier Bourree fantasque": {
+      "g": "Solo",
+      "from": 46,
+      "to": 44
     }
   },
   "extraPages": {
@@ -104635,5 +105413,21 @@
       }
     },
     "Vocal": {}
+  },
+  "pageNames": {
+    "Vocal|48": "Deutsch/Austria",
+    "Vocal|85": "Russia · Ukrainia · Azerbaijan",
+    "Vocal|46": "Mexico · Bolivie · Peru",
+    "Vocal|23": "Netherlands · Belgium",
+    "Orchestral|85": "Turkye · Middle/South America",
+    "Concertos|78": "Turkye · Middle/South America",
+    "Vocal|134": "England · Iceland",
+    "Solo|38": "Hungary",
+    "Solo|66": "Middle/South America · Australia",
+    "Concertos|42": "Poland · Bulgaria · Rumania",
+    "Concertos|75": "America"
+  },
+  "pageEras": {
+    "Vocal|48": "Classicism"
   }
 }
