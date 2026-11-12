@@ -1222,20 +1222,22 @@ function regions(g,visible,mergedNames){
  for(const [index,i] of visible.entries()){
    const pageData=atlasPageData(g,i);
    const customName=atlasPageName(g,i);
-   const name=customName||mergedNames.get(i)||getRegion(pageData),era=(pageData.era||'').replace(/[㚕㏙㏚㐴㑄㎿]/g,'').trim();
+   const name=customName||mergedNames.get(i)||getRegion(pageData),era=atlasPageEra(g,i);
    const aust=!customName&&name==='Deutsch / Austria';
    // After the opening Mannheim page, keep the remaining Classical symphonies together.
    const splitLongRun=!(g==='Symphonies'&&era==='Classicism')&&index-segmentStart>=6;
-   const needsNew=(name!==lastCountry)||(aust&&(era!==lastEra || splitLongRun));
+   const needsNew=name!==lastCountry||era!==lastEra||(aust&&splitLongRun);
    if(needsNew){
      const baroque=g==='Vocal'&&era==='Baroque';
      let label=name;
      if(aust){
        austriaN++;
-       label=`Deutsch / Austria ${austriaN}${baroque?'':' · '+(era||'Music')}`;
+       label=`Deutsch / Austria ${austriaN}`;
      }
-     if(baroque&&!customName){
+     if(baroque&&!customName&&!aust){
        label='Baroque · '+label.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba');
+     }else if(era||aust){
+       label+=' · '+(era||'Music');
      }
      vals.push({name:label,i});
      segmentStart=index;
@@ -1902,6 +1904,7 @@ function atlasEnableNameLinks(label,a,g,p){
 }
 const ATLAS_DISCOVERY_ROUTE='#/discovery';
 function openDiscovery(push=true){
+ if(push)$('atlasDiscoveryGenre').value='';
  if(push&&location.hash!==ATLAS_DISCOVERY_ROUTE)history.pushState(null,'',ATLAS_DISCOVERY_ROUTE);
  clearTimeout(debounce);
  searchMode=true;
