@@ -1229,13 +1229,12 @@ function regions(g,visible,mergedNames){
    const splitLongRun=!(g==='Symphonies'&&era==='Classicism')&&index-segmentStart>=6;
    const needsNew=name!==lastCountry||era!==lastEra||(aust&&splitLongRun);
    if(needsNew){
-     const baroque=g==='Vocal'&&era==='Baroque';
      let label=name;
-     if(baroque&&!customName&&!aust){
-       label='Baroque · '+label.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba');
-     }else if(era||aust){
-       label+=' · '+(era||'Music');
+     if(era==='Baroque'){
+       label=label.split(' · ').map(part=>part.replace(/^\(Baroque\)\s*/i,'').trim())
+        .filter(part=>part&&!/^Baroque$/i.test(part)).join(' · ').replace(/\bPeru Cuba\b/g,'Peru · Cuba')||name;
      }
+     if(era||aust)label+=' · '+(era||'Music');
      vals.push({name:label,i});
      segmentStart=index;
    }
