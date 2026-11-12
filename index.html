@@ -930,11 +930,16 @@ document.addEventListener('keydown',event=>{
 #albumModal .atlas-favorite-editor .atlas-favorite-mark.atlas-preferred-mark{color:#bda5e5}
 </style>
 <style id="atlas-recommendation-pilot-style">
-.atlas-recording-caption{display:flex;align-items:flex-start;gap:4px;width:100%;min-width:0}
-.album .atlas-recording-caption .album-label{flex:1 1 0;min-width:0}
-.atlas-recommendation-marks{display:inline-flex;flex:0 0 auto;align-items:center;gap:3px;margin-top:9px;white-space:nowrap;font-size:12px;line-height:1}
-@media(max-width:600px){.atlas-recommendation-marks{font-size:10px;gap:2px;margin-top:7px}}
-.atlas-recommendation-marks img{display:block;width:auto;height:clamp(11px,1em,14px);object-fit:contain}
+.album .art.atlas-art-with-marks{position:relative}
+.album .art .atlas-recommendation-marks{
+ position:absolute;right:4px;bottom:4px;display:flex;align-items:center;gap:4px;
+ max-width:calc(100% - 8px);box-sizing:border-box;padding:3px 4px;
+ border-radius:4px;background:rgba(255,255,255,.94);line-height:1;pointer-events:none;
+}
+.album .art .atlas-recommendation-marks img{
+ display:block;width:auto;height:14px;max-width:20px;object-fit:contain;flex:none;
+}
+.album .art .atlas-recommendation-marks .atlas-personal-mark{height:13px;flex:none}
 .atlas-personal-mark{display:block;width:auto;height:clamp(9px,.78em,11px);aspect-ratio:645/700}
 .atlas-personal-mark svg{display:block;width:100%;height:100%}
 .atlas-recommendation-entry-icon{width:auto;height:1em;margin-inline-end:.45em;vertical-align:-.1em}
@@ -1935,10 +1940,10 @@ function atlasRecommendationsFor(album,genre){
  if(genre!=='Symphonies')return [];
  return ATLAS_SYMPHONY_RECOMMENDATIONS.get(album.q.trim().replace(/\s+/g,' '))||[];
 }
-function atlasAddRecordingMarks(label,album,genre,page){
+function atlasAddRecordingMarks(art,album,genre,page){
  const recommendations=atlasRecommendationsFor(album,genre);
  const favorite=atlasIsFavorite(album,genre,page);
- if(!favorite&&!recommendations.length)return label;
+ if(!favorite&&!recommendations.length)return;
  const marks=document.createElement('span');
  marks.className='atlas-recommendation-marks';
  for(const [icon,description] of recommendations){
@@ -1956,10 +1961,8 @@ function atlasAddRecordingMarks(label,album,genre,page){
   note.innerHTML=ATLAS_PERSONAL_NOTE;
   marks.append(note);
  }
- const caption=document.createElement('div');
- caption.className='atlas-recording-caption';
- caption.append(label,marks);
- return caption;
+ art.classList.add('atlas-art-with-marks');
+ art.append(marks);
 }
 function renderCovers(){
  let stamp=++renderId;
@@ -1996,7 +1999,7 @@ function renderCovers(){
    };
    im.classList.toggle('hd-applied',!!hd);
    im.alt=a.q;f.append(im);
-   let t=makeAlbumLabel(a.q,targetGenre,targetPage,a);atlasEnableNameLinks(t,a,targetGenre,targetPage);btn.append(f,atlasAddRecordingMarks(t,a,targetGenre,targetPage));
+   let t=makeAlbumLabel(a.q,targetGenre,targetPage,a);atlasEnableNameLinks(t,a,targetGenre,targetPage);atlasAddRecordingMarks(f,a,targetGenre,targetPage);btn.append(f,t);
    btn.onclick=()=>selectAlbum(a,src,targetGenre,targetPage);
    fragment.append(btn);
   }
@@ -2175,7 +2178,7 @@ function drawSearchPage(){
   btn.setAttribute('aria-label',h.a.q+' 상세 정보');
   let art=document.createElement('div');art.className='art';let img=document.createElement('img');img.alt=h.a.q;img.loading='lazy';art.append(img);
   let label=makeAlbumLabel(h.a.q,h.g,h.i,h.a);atlasEnableNameLinks(label,h.a,h.g,h.i,h.a);
-  btn.append(art,atlasAddRecordingMarks(label,h.a,h.g,h.i));root.append(btn);
+  atlasAddRecordingMarks(art,h.a,h.g,h.i);btn.append(art,label);root.append(btn);
   // Search results must use the same cover priority as the genre grid:
   // HD replacement (when enabled) -> album coverUrl -> cropped PDF cover.
   const hdCover=hdEnabled&&hdEligible(h.g,h.i)?hdGet(h.a,h.g,h.i)?.url:null;
