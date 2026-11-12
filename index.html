@@ -1991,10 +1991,29 @@ const ATLAS_ORCHESTRAL_RECOMMENDATIONS=new Map([
  ["by Tomas Tallis Fantasy on a Theme Wilson The Wasps Overture", [["bbcMagazine", "BBC Music Magazine Awards · Recording of the Year & Orchestral Winner (2024) · John Wilson / Sinfonia of London · Music for Strings (CHSA5291)"], ["presto", "Presto Recordings of the Year · Winner (2023) · John Wilson / Sinfonia of London · Music for Strings (CHSA5291)"]]],
  ["Aldeburgh Strings Tenor, Horn and Strings Britten The Young Person 㐴s Guide Orchestra", [["bbc", "BBC Radio 3 · Building a Library First Choice (2011) · Benjamin Britten / London Symphony Orchestra · Decca 4256592"]]]
 ]);
+const ATLAS_CONCERTO_RECOMMENDATIONS=new Map([
+ ["Violin Concerto No.1~5 p.Gieles/Bohm vn.Faust/Antonini", [["gramophone", "Gramophone Awards · Recording of the Year & Concerto Winner (2017) · Isabelle Faust / Il Giardino Armonico / Giovanni Antonini"]]],
+ ["tp.Helseth Concerto E flat Major Hummel Piano Concerto a minor Op.85", [["gramophone", "Gramophone Awards · Concerto Winner (1987) · Stephen Hough / English Chamber Orchestra / Bryden Thomson · CHAN8507"]]],
+ ["Sauer Piano Concerto No.1 in e minor", [["gramophone", "Gramophone Awards · Concerto Winner (1996) · Stephen Hough / City of Birmingham Symphony Orchestra / Lawrence Foster · Hyperion CDA66790"]]],
+ ["p.Markovich/N.Jarvi Concerto No.1 B flat Op.32 Scharwenka Piano Concerto No.4 f minor Op.82", [["gramophone", "Gramophone Awards · Concerto Winner (1996) · Stephen Hough / City of Birmingham Symphony Orchestra / Lawrence Foster · Hyperion CDA66790"]]],
+ ["vn.Little/Collins Concerto D Major Op.35 Korngold Violin Concerto D Major Op.35", [["rosette", "Penguin Guide · Rosette · Gil Shaham / London Symphony Orchestra / André Previn · DG 4398862"], ["bbc", "BBC Radio 3 · Building a Library First Choice (2012) · Gil Shaham / London Symphony Orchestra / André Previn · DG 4398862"]]],
+ ["Berg Violin Concerto", [["bbc", "BBC Radio 3 · Building a Library First Choice (2015) · Isabelle Faust / Orchestra Mozart / Claudio Abbado · HMC902105"], ["gramophone", "Gramophone Awards · Concerto Winner (2012) · Isabelle Faust / Orchestra Mozart / Claudio Abbado · HMC902105"]]],
+ ["No.1 a minor Op.99 Violin Concerto vn.Vengerov/Rostropovich Cello Concerto", [["gramophone", "Gramophone Awards · Concerto Winner (1995) · Maxim Vengerov / London Symphony Orchestra / Mstislav Rostropovich"]]],
+ ["p.Michelangeli/Burgos Concerto a minor Op.16 Greig Piano Concerto a minor Op.16", [["rosette", "Penguin Guide · Rosette · Leif Ove Andsnes / Berliner Philharmoniker / Mariss Jansons"], ["gramophone", "Gramophone Awards · Concerto Winner (2004) · Leif Ove Andsnes / Berliner Philharmoniker / Mariss Jansons"]]],
+ ["12 Concertos Op.3 㐱Estro Armonico㐲 vn.Rowland ㏙ Reco. M.Richter ㏚ Biondi", [["bbc", "BBC Radio 3 · Building a Library First Choice (1999) · Fabio Biondi / Europa Galante · Erato 5453152"]]],
+ ["Cello Concerto e minor Op.85 vc.Weilerstein/Barenboim Violin Concerto b minor Op.61", [["bbcMagazine", "BBC Music Magazine Awards · Recording of the Year & Concerto Winner (2014) · Alisa Weilerstein / Staatskapelle Berlin / Daniel Barenboim"]]],
+ ["vc.DuPre/Barbiroli", [["bbc", "BBC Radio 3 · Building a Library First Choice (2004) · Jacqueline du Pré / London Symphony Orchestra / John Barbirolli · 1965년 녹음"]]],
+ ["Violin Concerto b minor Op.61 vc.Gabetta/Venzago vn.Kennedy/Handley", [["gramophone", "Gramophone Awards · Concerto Winner (1985) · Nigel Kennedy / London Philharmonic Orchestra / Vernon Handley"]]],
+ ["p.Shelley/Gardner Concerto D Major Op.13 Britten Violin Concerto d minor Op.15", [["gramophone", "Gramophone Awards · Concerto Winner (2024) · Isabelle Faust / Symphonieorchester des Bayerischen Rundfunks / Jakub Hrůša · HMM902668"]]],
+ ["Tevener The Protecting Veil", [["gramophone", "Gramophone Awards · Contemporary Winner (1992) · Steven Isserlis / London Symphony Orchestra / Gennady Rozhdestvensky"]]],
+ ["Violin Concerto Op.14 vn.Shaham/Previn Cello Concerto Op.22", [["rosette", "Penguin Guide · Rosette · Gil Shaham / London Symphony Orchestra / André Previn · DG 4398862"]]],
+ ["J.Williams Violin Concerto No.2", [["presto", "Presto Recordings of the Year · Winner (2022) · Anne-Sophie Mutter / Boston Symphony Orchestra / John Williams"]]]
+]);
 const ATLAS_PERSONAL_NOTE='<svg viewBox="0 0 645 700" aria-hidden="true" focusable="false"><use href="#atlasDiscoveryNote" width="645" height="700"/></svg>';
 function atlasRecommendationsFor(album,genre){
  const catalogue=genre==='Symphonies'?ATLAS_SYMPHONY_RECOMMENDATIONS:
-  genre==='Orchestral'?ATLAS_ORCHESTRAL_RECOMMENDATIONS:null;
+  genre==='Orchestral'?ATLAS_ORCHESTRAL_RECOMMENDATIONS:
+  genre==='Concertos'?ATLAS_CONCERTO_RECOMMENDATIONS:null;
  return catalogue?.get(album.q.trim().replace(/\s+/g,' '))||[];
 }
 function atlasAddRecordingMarks(art,label,album,genre,page){
