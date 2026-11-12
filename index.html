@@ -930,8 +930,10 @@ document.addEventListener('keydown',event=>{
 #albumModal .atlas-favorite-editor .atlas-favorite-mark.atlas-preferred-mark{color:#bda5e5}
 </style>
 <style id="atlas-recommendation-pilot-style">
-.album .album-label.atlas-has-recommendations{position:relative;padding-inline-end:var(--atlas-mark-space)}
-.atlas-recommendation-marks{position:absolute;inset-block-start:0;inset-inline-end:0;display:inline-flex;align-items:center;gap:.22em;white-space:nowrap;font-size:.93em;line-height:1.25}
+.atlas-recording-caption{display:flex;align-items:flex-start;gap:4px;width:100%;min-width:0}
+.album .atlas-recording-caption .album-label{flex:1 1 0;min-width:0}
+.atlas-recommendation-marks{display:inline-flex;flex:0 0 auto;align-items:center;gap:3px;margin-top:9px;white-space:nowrap;font-size:12px;line-height:1}
+@media(max-width:600px){.atlas-recommendation-marks{font-size:10px;gap:2px;margin-top:7px}}
 .atlas-recommendation-marks img{display:block;width:auto;height:clamp(11px,1em,14px);object-fit:contain}
 .atlas-personal-mark{display:block;width:auto;height:clamp(9px,.78em,11px);aspect-ratio:645/700}
 .atlas-personal-mark svg{display:block;width:100%;height:100%}
@@ -1936,7 +1938,7 @@ function atlasRecommendationsFor(album,genre){
 function atlasAddRecordingMarks(label,album,genre,page){
  const recommendations=atlasRecommendationsFor(album,genre);
  const favorite=atlasIsFavorite(album,genre,page);
- if(!favorite&&!recommendations.length)return;
+ if(!favorite&&!recommendations.length)return label;
  const marks=document.createElement('span');
  marks.className='atlas-recommendation-marks';
  for(const [icon,description] of recommendations){
@@ -1954,9 +1956,10 @@ function atlasAddRecordingMarks(label,album,genre,page){
   note.innerHTML=ATLAS_PERSONAL_NOTE;
   marks.append(note);
  }
- label.classList.add('atlas-has-recommendations');
- label.style.setProperty('--atlas-mark-space',(marks.childElementCount*1.18+.22)+'em');
- label.prepend(marks);
+ const caption=document.createElement('div');
+ caption.className='atlas-recording-caption';
+ caption.append(label,marks);
+ return caption;
 }
 function renderCovers(){
  let stamp=++renderId;
@@ -1993,7 +1996,7 @@ function renderCovers(){
    };
    im.classList.toggle('hd-applied',!!hd);
    im.alt=a.q;f.append(im);
-   let t=makeAlbumLabel(a.q,targetGenre,targetPage,a);atlasAddRecordingMarks(t,a,targetGenre,targetPage);atlasEnableNameLinks(t,a,targetGenre,targetPage);btn.append(f,t);
+   let t=makeAlbumLabel(a.q,targetGenre,targetPage,a);atlasEnableNameLinks(t,a,targetGenre,targetPage);btn.append(f,atlasAddRecordingMarks(t,a,targetGenre,targetPage));
    btn.onclick=()=>selectAlbum(a,src,targetGenre,targetPage);
    fragment.append(btn);
   }
@@ -2171,8 +2174,8 @@ function drawSearchPage(){
   const h=searchHits[n],btn=document.createElement('button');btn.className='album search-hit';
   btn.setAttribute('aria-label',h.a.q+' 상세 정보');
   let art=document.createElement('div');art.className='art';let img=document.createElement('img');img.alt=h.a.q;img.loading='lazy';art.append(img);
-  let label=makeAlbumLabel(h.a.q,h.g,h.i,h.a);atlasAddRecordingMarks(label,h.a,h.g,h.i);atlasEnableNameLinks(label,h.a,h.g,h.i,h.a);
-  btn.append(art,label);root.append(btn);
+  let label=makeAlbumLabel(h.a.q,h.g,h.i,h.a);atlasEnableNameLinks(label,h.a,h.g,h.i,h.a);
+  btn.append(art,atlasAddRecordingMarks(label,h.a,h.g,h.i));root.append(btn);
   // Search results must use the same cover priority as the genre grid:
   // HD replacement (when enabled) -> album coverUrl -> cropped PDF cover.
   const hdCover=hdEnabled&&hdEligible(h.g,h.i)?hdGet(h.a,h.g,h.i)?.url:null;
