@@ -1971,10 +1971,21 @@ const ATLAS_SYMPHONY_RECOMMENDATIONS=new Map([
  ["Bax 4 Thomson", [["gramophone", "Gramophone Awards · Winner - Engineering (1984) · Bryden Thomson / Ulster Orchestra · CHAN 8312"]]],
  ["Simpson 9 Handley", [["rosette", "Penguin Guide · Rosette · Bournemouth Symphony Orchestra, Vernon Handley"], ["gramophone", "Gramophone Awards · Winner - Contemporary (1989) · Vernon Handley / Bournemouth Symphony Orchestra"]]]
 ]);
+const ATLAS_ORCHESTRAL_RECOMMENDATIONS=new Map([
+ ["Op.108 The Noon Witch Harnoncourt Carnival", [["rosette", "Penguin Guide · Rosette · Nikolaus Harnoncourt / Royal Concertgebouw Orchestra · Dvořák 교향시집"]]],
+ ["Jeux Roth La boite joujoux", [["presto", "Presto Recordings of the Year · Winner (2018) · François-Xavier Roth / Les Siècles · Debussy 관현악집 (HMM905291)"]]],
+ ["Daphnis et Chloe M57 Roth", [["gramophone", "Gramophone Awards · Winner - Orchestral (2018) · François-Xavier Roth / Les Siècles · Daphnis et Chloé (HMM905280)"]]],
+ ["Romano ㏙arr.㏚ Dutoit", [["rosette", "Penguin Guide · Rosette · Charles Dutoit / Orchestre symphonique de Montréal · Ravel 관현악집 (Decca 4602142)"]]],
+ ["infante defunte M19 Pavane pour une Dutoit Menuet antique M7", [["rosette", "Penguin Guide · Rosette · Charles Dutoit / Orchestre symphonique de Montréal · Ravel 관현악집 (Decca 4602142)"]]],
+ ["Allegro Op.47 Introduction and Wilson In the South", [["bbcMagazine", "BBC Music Magazine Awards · Recording of the Year & Orchestral Winner (2024) · John Wilson / Sinfonia of London · Music for Strings (CHSA5291)"], ["presto", "Presto Recordings of the Year · Winner (2023) · John Wilson / Sinfonia of London · Music for Strings (CHSA5291)"]]],
+ ["by Tomas Tallis Fantasy on a Theme Wilson The Wasps Overture", [["bbcMagazine", "BBC Music Magazine Awards · Recording of the Year & Orchestral Winner (2024) · John Wilson / Sinfonia of London · Music for Strings (CHSA5291)"], ["presto", "Presto Recordings of the Year · Winner (2023) · John Wilson / Sinfonia of London · Music for Strings (CHSA5291)"]]],
+ ["Aldeburgh Strings Tenor, Horn and Strings Britten The Young Person 㐴s Guide Orchestra", [["bbc", "BBC Radio 3 · Building a Library First Choice (2011) · Benjamin Britten / London Symphony Orchestra · Decca 4256592"]]]
+]);
 const ATLAS_PERSONAL_NOTE='<svg viewBox="0 0 645 700" aria-hidden="true" focusable="false"><use href="#atlasDiscoveryNote" width="645" height="700"/></svg>';
 function atlasRecommendationsFor(album,genre){
- if(genre!=='Symphonies')return [];
- return ATLAS_SYMPHONY_RECOMMENDATIONS.get(album.q.trim().replace(/\s+/g,' '))||[];
+ const catalogue=genre==='Symphonies'?ATLAS_SYMPHONY_RECOMMENDATIONS:
+  genre==='Orchestral'?ATLAS_ORCHESTRAL_RECOMMENDATIONS:null;
+ return catalogue?.get(album.q.trim().replace(/\s+/g,' '))||[];
 }
 function atlasAddRecordingMarks(art,album,genre,page){
  const recommendations=atlasRecommendationsFor(album,genre);
