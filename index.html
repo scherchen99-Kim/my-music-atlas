@@ -1200,14 +1200,15 @@ function atlasMergedRegionNames(g,visible,sequence){
 }
 function atlasPageName(g,p){
  const name=collectionEdits.pageNames?.[pageKey(g,p)];
- const title=typeof name==='string'?name.trim():'';
+ let title=typeof name==='string'?name.trim():'';
  const originalEra=String(atlasPageData(g,p)?.era||'').trim();
  for(const era of [atlasPageEra(g,p),originalEra]){
   if(era&&title.toLowerCase().endsWith(' '+era.toLowerCase())){
-   return title.slice(0,-era.length).replace(/[ ·–—-]+$/,'');
+   title=title.slice(0,-era.length).replace(/[ ·–—-]+$/,'');
+   break;
   }
  }
- return title;
+ return title.replace(/^(Deutsch\s*\/\s*Austria)\s+\d+$/i,'$1');
 }
 function atlasPageEra(g,p){
  const name=collectionEdits.pageEras?.[pageKey(g,p)];
@@ -1218,7 +1219,7 @@ function atlasPageEra(g,p){
 }
 function regions(g,visible,mergedNames){
  const vals=[];
- let lastCountry='',lastEra='',segmentStart=-1,austriaN=0;
+ let lastCountry='',lastEra='',segmentStart=-1;
  for(const [index,i] of visible.entries()){
    const pageData=atlasPageData(g,i);
    const customName=atlasPageName(g,i);
@@ -1230,10 +1231,6 @@ function regions(g,visible,mergedNames){
    if(needsNew){
      const baroque=g==='Vocal'&&era==='Baroque';
      let label=name;
-     if(aust){
-       austriaN++;
-       label=`Deutsch / Austria ${austriaN}`;
-     }
      if(baroque&&!customName&&!aust){
        label='Baroque · '+label.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba');
      }else if(era||aust){
