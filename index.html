@@ -1018,12 +1018,11 @@ document.addEventListener('keydown',event=>{
 #searchResults[data-list-intro] .atlas-award-intro{
  display:flex;align-items:center;gap:12px;margin:0 0 14px;
 }
-.atlas-award-intro :is(img,svg){flex:none;width:42px;height:42px;object-fit:contain}
-.atlas-award-intro #atlasAwardIcon.atlas-wide-award-logo{width:clamp(82px,18vw,128px);max-width:30%;object-fit:contain}
+.atlas-award-intro :is(img,svg){flex:none;width:96px;height:64px;object-fit:contain}
+.atlas-award-intro #atlasDiscoveryIntroIcon svg{display:block;box-sizing:border-box;padding:12px 0;width:44px;height:64px}
 .atlas-award-intro p{max-width:68ch;margin:0;color:#63636d;font-size:13px;line-height:1.55;word-break:keep-all;overflow-wrap:anywhere}
 @media(max-width:650px){
  #searchResults[data-list-intro] .atlas-award-intro{gap:10px;margin-bottom:12px}
- .atlas-award-intro :is(img,svg){width:35px;height:35px}
  .atlas-award-intro p{font-size:12px}
 }
 </style>
@@ -2673,7 +2672,6 @@ function drawSearchPage(){
  if(recommendation){
   const awardIcon=$('atlasAwardIcon');
   awardIcon.src=ATLAS_HOME_GUIDE_LOGOS[recommendation.icon];
-  awardIcon.classList.toggle('atlas-wide-award-logo',['bbcMagazine','presto'].includes(recommendation.icon));
  }
  $('atlasAwardDescription').textContent=discoveryIntro
   ?'Discovery Atlas는 널리 알려지지 않은 작품 가운데 한 번쯤 들어볼 만한 녹음을 모은 곳입니다. 처음부터 전곡을 듣기에는 낯설게 느껴지는 작품도 있지만, 어느 한 악장이나 짧은 대목에서 보석처럼 빛나는 순간을 만날 수 있습니다. 마음에 남는 대목부터 들어보며 나만의 감상 레퍼토리를 넓혀보세요.'
