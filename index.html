@@ -1020,7 +1020,7 @@ document.addEventListener('keydown',event=>{
 }
 .atlas-award-intro :is(img,svg){flex:none;width:42px;height:42px;object-fit:contain}
 .atlas-award-intro #atlasAwardIcon.atlas-wide-award-logo{width:clamp(82px,18vw,128px);max-width:30%;object-fit:contain}
-.atlas-award-intro p{max-width:48ch;margin:0;color:#63636d;font-size:13px;line-height:1.55;word-break:keep-all;overflow-wrap:anywhere}
+.atlas-award-intro p{max-width:68ch;margin:0;color:#63636d;font-size:13px;line-height:1.55;word-break:keep-all;overflow-wrap:anywhere}
 @media(max-width:650px){
  #searchResults[data-list-intro] .atlas-award-intro{gap:10px;margin-bottom:12px}
  .atlas-award-intro :is(img,svg){width:35px;height:35px}
@@ -2585,11 +2585,11 @@ function atlasEnableNameLinks(label,a,g,p){
 const ATLAS_DISCOVERY_ROUTE='#/discovery';
 const ATLAS_FAVORITE_ROUTE='#/favorite';
 const ATLAS_RECOMMENDATION_ROUTES=new Map([
- ['#/penguin-rosette',{title:'Penguin Rosette',icon:'rosette',description:"영국 클래식 음반 가이드 《펭귄 가이드》의 평론가가 특별한 해석이나 녹음의 완성도를 인정해 붙인 표식이에요.",menu:'menuRosette'}],
- ['#/bbc-first-choice',{title:'BBC First Choice',icon:'bbc',description:"BBC Radio 3의 〈Building a Library〉에서 전문가가 같은 작품의 여러 녹음을 비교해 고른 첫 번째 추천이에요.",menu:'menuBbc'}],
- ['#/gramophone-awards',{title:'Gramophone Awards',icon:'gramophone',description:"영국 클래식 전문지 《Gramophone》이 1977년부터 음반 평론가들의 심사를 거쳐 부문별 우수 녹음에 수여하는 상이에요.",menu:'menuGramophone'}],
- ['#/bbc-music-magazine-awards',{title:'BBC Music Magazine Awards',icon:'bbcMagazine',description:"《BBC Music Magazine》의 평론가들이 후보를 고르고, 주요 부문의 수상작은 공개 투표로 결정해요.",menu:'menuBbcMagazine'}],
- ['#/presto-recordings-of-the-year',{title:'Presto Recordings of the Year',icon:'presto',description:"클래식 음반 전문점 Presto Music의 편집진이 그해 발매된 음반을 듣고 고른 연간 추천이에요.",menu:'menuPresto'}]
+ ['#/penguin-rosette',{title:'Penguin Rosette',icon:'rosette',description:"1960년 《Stereo Record Guide》에서 출발해 1975년 펭귄북스가 이어 펴낸 영국의 클래식 음반 안내서입니다. 이반 마치, 에드워드 그린필드, 로버트 레이턴 등이 LP 시대부터 CD·SACD 시대까지 같은 작품의 여러 녹음을 비교했습니다. 로제트는 일반 별점과 별도로, 해석에서 작품의 새로운 면을 발견했거나 제작이 각별히 뛰어나다고 느낀 평론가가 붙인 특별 표식입니다.",menu:'menuRosette'}],
+ ['#/bbc-first-choice',{title:'BBC First Choice',icon:'bbc',description:"BBC Radio 3의 음반 비평 프로그램 《Record Review》에 속한 〈Building a Library〉의 최우선 추천입니다. 회차마다 한 작품을 정해 여러 녹음의 같은 대목을 들려주고, 템포·프레이징·악기와 음향의 차이가 해석을 어떻게 바꾸는지 짚습니다. First Choice는 그 비교를 거쳐 해당 방송의 평론가가 첫 선택으로 권한 녹음입니다.",menu:'menuBbc'}],
+ ['#/gramophone-awards',{title:'Gramophone Awards',icon:'gramophone',description:"영국 클래식 음반 전문지 《Gramophone》이 1977년부터 시상해 온 연례 음반상입니다. 평론가들이 관현악·협주곡·실내악·오페라 등 부문별로 그해 주목할 녹음을 심사합니다. 부문별 수상작 가운데 한 장에 최고상인 Recording of the Year를 수여합니다.",menu:'menuGramophone'}],
+ ['#/bbc-music-magazine-awards',{title:'BBC Music Magazine Awards',icon:'bbcMagazine',description:"영국 클래식 전문지 《BBC Music Magazine》이 한 해의 뛰어난 신보를 뽑는 연례 음반상입니다. 잡지 평론가로 구성된 심사단이 부문별 후보를 추리고, 주요 녹음 부문은 독자와 청취자의 공개 투표로 수상작을 정합니다. 예를 들어 2026년 시상에서는 9개 부문에 각각 3장씩, 모두 27장이 후보에 올랐습니다.",menu:'menuBbcMagazine'}],
+ ['#/presto-recordings-of-the-year',{title:'Presto Recordings of the Year',icon:'presto',description:"클래식 음반 전문 유통사 Presto Music의 편집진이 한 해 동안 나온 음반을 직접 듣고 토론해 선정합니다. 먼저 최종 후보 100장을 공개하고, 그중 올해의 음반 10장을 발표합니다. 100선은 편집진의 폭넓은 추천 목록이고, 10선은 그해 최종 수상작입니다.",menu:'menuPresto'}]
 ]);
 function atlasCuratedTitle(){
  return ATLAS_RECOMMENDATION_ROUTES.get(location.hash)?.title||(location.hash===ATLAS_FAVORITE_ROUTE?'Essential Recordings':'Discovery Atlas');
@@ -2676,7 +2676,7 @@ function drawSearchPage(){
   awardIcon.classList.toggle('atlas-wide-award-logo',['bbcMagazine','presto'].includes(recommendation.icon));
  }
  $('atlasAwardDescription').textContent=discoveryIntro
-  ?'잘 알려지지 않은 작품을 탐험하며, 새로운 음악을 만나고 나만의 감상 레퍼토리를 넓혀가는 공간입니다.'
+  ?'Discovery Atlas는 널리 알려지지 않은 작품 가운데 한 번쯤 들어볼 만한 녹음을 모은 곳입니다. 처음부터 전곡을 듣기에는 낯설게 느껴지는 작품도 있지만, 어느 한 악장이나 짧은 대목에서 보석처럼 빛나는 순간을 만날 수 있습니다. 마음에 남는 대목부터 들어보며 나만의 감상 레퍼토리를 넓혀보세요.'
   :recommendation?.description||'';
  $('atlasSearchTitle').textContent=discovery?atlasCuratedTitle():'Search Results';
  $('searchSummary').classList.toggle('hidden',discovery);
