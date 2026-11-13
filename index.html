@@ -974,6 +974,7 @@ document.addEventListener('keydown',event=>{
 #home .atlas-discovery-entry .atlas-home-recommendation .atlas-recommendation-entry-icon{
  width:96px;max-width:100%;height:64px;object-fit:contain;transform:none;margin:0;
 }
+#home #atlasDiscoveryOpen .atlas-discovery-note{box-sizing:border-box;padding:12px 0;width:44px;height:64px}
 #home .atlas-home-recommendation .atlas-home-recommendation-arrow{display:none}
 @media(max-width:950px){#home .atlas-discovery-links{grid-template-columns:repeat(3,minmax(0,145px))}}
 @media(max-width:480px){#home .atlas-discovery-links{grid-template-columns:repeat(2,minmax(0,145px))}}
@@ -2668,7 +2669,7 @@ function drawSearchPage(){
  $('searchResults').toggleAttribute('data-list-intro',awardList||discoveryIntro);
  $('atlasAwardIcon').hidden=!awardList;
  $('atlasDiscoveryIntroIcon').hidden=!discoveryIntro;
- if(recommendation)$('atlasAwardIcon').src=ATLAS_RECOMMENDATION_ICONS[recommendation.icon];
+ if(recommendation)$('atlasAwardIcon').src=ATLAS_HOME_GUIDE_LOGOS[recommendation.icon];
  $('atlasAwardDescription').textContent=discoveryIntro
   ?'잘 알려지지 않은 작품을 탐험하며, 새로운 음악을 만나고 나만의 감상 레퍼토리를 넓혀가는 공간입니다.'
   :recommendation?.description||'';
