@@ -6621,9 +6621,9 @@ async function atlasImportUnified(){
  }
  if(!data||data.format!=='MY MUSIC ATLAS unified edits')return;
  // Use published records as fallbacks for the current Owner edits.
- hdChanges={...atlasNormalizePublishedCovers(data.covers||{}),...atlasNormalizePublishedCovers(hdChanges)};
+ hdChanges={...atlasNormalizePublishedCovers(hdChanges),...atlasNormalizePublishedCovers(data.covers||{})};
  atlasSharedRestorePending();
- albumEdits={...(data.edits||{}),...albumEdits};
+ albumEdits={...albumEdits,...(data.edits||{})};
  // Favorites are personal: don't overwrite this device's latest heart marks.
  atlasFavorites={...(data.favorites||{}),...atlasFavorites};
  atlasPreferred={...(data.preferredAlbums||{}),...atlasPreferred};
