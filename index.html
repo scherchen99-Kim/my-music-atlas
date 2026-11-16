@@ -10032,6 +10032,12 @@ html.atlas-desk .atlas-nav-tools #atlasRenamePage,html.atlas-desk .atlas-nav-too
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
 </script>
+<style id="atlas-nas-cover-fill">
+/* NAS 표지: 정사각형이 아닌 그림도 칸을 꽉 채움(가운데 기준으로 넘치는 부분만 잘림) — 흰 여백 없음 */
+html body #archiveAlbums img,html body #archiveAlbums .m1-card img{object-fit:cover!important;background:transparent!important}
+html body #albumModal .detail.atlas-nas-mode #modalArt{object-fit:cover!important;aspect-ratio:1/1!important;background:transparent!important}
+html body #atlasNasWorkspace .nw-prev img{object-fit:cover!important}
+</style>
 <style id="atlas-public-locked-v2">
 /* 공개용: 둘러보기만. 편집·NAS·재생 제어·관리자 기능은 화면에 없음 */
 .atlas-edit-toggle,.atlas-workspace,.atlas-editor-top,#metadataEditor,#newAlbumEditor,#hdFloat,#hdPanel,#saveOptions,
@@ -10041,6 +10047,10 @@ html.atlas-desk .atlas-nav-tools #atlasRenamePage,html.atlas-desk .atlas-nav-too
 #atlasRoonCtl,#atlasMini,#atlasRoonZones,.atlas-grid-order-toolbar,.atlas-grid-order-controls,.atlas-grid-order-check,.atlas-album-trash,
 #atlas-now-playing-shortcut,.atlas-nas-player,#atlasNasWorkspace,.atlas-nas-tags{display:none!important}
 html body #albumModal .detail .atlas-edit-toggle.atlas-edit-toggle,html body #albumModal #modalPrevAlbum#modalPrevAlbum,html body #albumModal #modalNextAlbum#modalNextAlbum{display:none!important}
+/* 상세창 제목: 앞뒤 화살표 칸 없이 한 칸 전체 폭 (로컬 detail-v4와 같게) */
+html body #albumModal .detail>.atlas-modal-titlebar>.atlas-modal-arrow.atlas-modal-arrow{display:none!important}
+html body #albumModal .detail:not(.atlas-editing)>.atlas-modal-titlebar.atlas-modal-titlebar{grid-template-columns:minmax(0,1fr)!important}
+html body #albumModal .detail:not(.atlas-editing)>.atlas-modal-titlebar.atlas-modal-titlebar>h2{grid-column:1/-1!important;width:100%!important}
 </style>
 <script id="atlas-public-locked-v2">
 window.ATLAS_PUBLIC_BUILD=true;
