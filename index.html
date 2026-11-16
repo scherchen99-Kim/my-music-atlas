@@ -10102,12 +10102,12 @@ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-a
 
 <style id="atlas-availability-css">
 /* 상세창 표지 바로 아래: 아이콘 3개(Qobuz · Apple Music · 없음) — 해당되는 것만 진하게, 나머지는 아주 흐리게. 글자 없음 */
-#albumModal .atlas-avail{display:flex;justify-content:center;align-items:center;gap:16px;margin:8px auto 2px;min-height:18px;color:#3d3b45;line-height:1}
+#albumModal .atlas-avail{display:flex;justify-content:center;align-items:center;gap:26px;margin:16px auto 10px;min-height:24px;color:#3d3b45;line-height:1}
 #albumModal .atlas-avail[hidden]{display:none!important}
-#albumModal .atlas-avail span{display:inline-flex;align-items:center;opacity:.16;transition:opacity .2s}
+#albumModal .atlas-avail span{display:inline-flex;align-items:center;opacity:.18;transition:opacity .2s}
 #albumModal .atlas-avail span.on{opacity:1}
-#albumModal .atlas-avail svg{height:17px;width:auto;display:block;fill:currentColor}
-#albumModal .atlas-avail .av-none svg{fill:none;stroke:currentColor;stroke-width:1.7;height:16px}
+#albumModal .atlas-avail svg{height:23px;width:auto;display:block;fill:currentColor}
+#albumModal .atlas-avail .av-none svg{fill:none;stroke:currentColor;stroke-width:1.6;height:22px}
 html.atlas-glass #albumModal .atlas-avail{color:#fff!important}
 #albumModal .detail.atlas-editing .atlas-avail,#albumModal .detail.atlas-nas-mode .atlas-avail{display:none!important}
 </style>
@@ -10136,7 +10136,7 @@ html.atlas-glass #albumModal .atlas-avail{color:#fff!important}
   for(const u of tries){try{const d=await fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null);if(d&&d.m){M=d.m;paint();return}}catch(e){}}
  }
  function setup(){
-  load();
+  load(); window.atlasAvailReload=load;
   const modal=document.getElementById('albumModal'), name=document.getElementById('albumName');
   if(modal)new MutationObserver(()=>{if(modal.classList.contains('open'))setTimeout(paint,30)}).observe(modal,{attributes:true,attributeFilter:['class']});
   if(name)new MutationObserver(()=>setTimeout(paint,30)).observe(name,{childList:true,subtree:true,characterData:true});
@@ -10145,6 +10145,13 @@ html.atlas-glass #albumModal .atlas-avail{color:#fff!important}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
 </script>
+<script id="atlas-google-in-deezer-slot">
+/* 표지 찾기 줄: Deezer 자리에 Google 이미지 검색 (검색어로 바로 열림) */
+(function(){function f(){const g=document.getElementById('atlasGoogle'),d=document.getElementById('atlasDeezer');if(!g||!d||g.dataset.moved)return false;d.parentNode.insertBefore(g,d);g.dataset.moved='1';g.textContent='Google 이미지 ↗';return true}
+ if(!f()){const t=setInterval(()=>{if(f())clearInterval(t)},500);setTimeout(()=>clearInterval(t),15000)}})();
+</script>
+
+
 <style id="atlas-public-locked-v2">
 /* 공개용: 둘러보기만. 편집·NAS·재생 제어·관리자 기능은 화면에 없음 */
 .atlas-edit-toggle,.atlas-workspace,.atlas-editor-top,#metadataEditor,#newAlbumEditor,#hdFloat,#hdPanel,#saveOptions,

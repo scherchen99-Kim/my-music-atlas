@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-16T12:07:32.845Z",
+  "createdAt": "2026-11-16T16:04:27.761Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -1418,11 +1418,11 @@
       "approvedAt": "2026-10-25T08:18:36.837Z"
     },
     "Symphonies|17|18.5974|69.9553|Anton Bruckner 1 Neumann 1": {
-      "url": "https://i.discogs.com/39_ULokqbWv-ATmfaYlELFxTQC4nXOzJrHGLdPzposY/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Mjk3/NTMtMTMwMzk1MDg4/Ni5qcGVn.jpeg",
+      "url": "https://image.yes24.com/momo/TopCate1166/MidCate006/116559485.jpg",
       "album": "",
       "artist": "",
       "source": "Manual image URL",
-      "approvedAt": "2026-10-25T09:32:35.163Z"
+      "approvedAt": "2026-11-16T14:35:58.437Z"
     },
     "Symphonies|17|32.894|70.0934|Anton Bruckner 1 Abbado WPO": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/82/cd/5f82cd14-49b4-abf8-b39f-4c8bb9f7305e/00028945341521.rgb.jpg/600x600bb.jpg",
@@ -47606,11 +47606,11 @@
       "updatedAt": "2026-10-27T09:29:54.694Z"
     },
     "Symphonies|3|78.566|14.5023|Eichnerd D Major Op.1-1 Moretto": {
-      "composer": "Eichnerd",
+      "composer": "Eichner",
       "work": "Symphony D Major",
       "performer": "Moretto",
       "searchQuery": "Eichnerd",
-      "updatedAt": "2026-10-27T09:30:34.354Z"
+      "updatedAt": "2026-11-16T12:47:34.916Z"
     },
     "Symphonies|3|78.6031|41.504|Winter 1 Moesus": {
       "composer": "Winter",
@@ -78981,6 +78981,9 @@
     "Vocal|14|4.25557|48.04883|St. Matthew Passion BWV244 Veldhoven Herreweghe St. John Passion BWV245": true,
     "Symphonies|39|81.9351|70.0393|Jean Sibelius Kullervo Davis LSO": {
       "position": 17
+    },
+    "Symphonies|3|53.7203|68.1787|Eichnerd d minor Ehrhardt": {
+      "position": 19
     }
   },
   "order": {
