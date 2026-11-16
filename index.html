@@ -10101,24 +10101,23 @@ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-a
 
 
 <style id="atlas-availability-css">
-/* 상세창 표지 바로 아래: 이 음반을 들을 수 있는 곳 (Qobuz · Apple Music) — 둘 다 없으면 '없음' */
-#albumModal .atlas-avail{display:flex;justify-content:center;align-items:center;gap:14px;margin:8px auto 2px;min-height:16px;font-size:11px;color:#6e6a78;line-height:1}
+/* 상세창 표지 바로 아래: 아이콘 3개(Qobuz · Apple Music · 없음) — 해당되는 것만 진하게, 나머지는 아주 흐리게. 글자 없음 */
+#albumModal .atlas-avail{display:flex;justify-content:center;align-items:center;gap:16px;margin:8px auto 2px;min-height:18px;color:#3d3b45;line-height:1}
 #albumModal .atlas-avail[hidden]{display:none!important}
-#albumModal .atlas-avail span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
-#albumModal .atlas-avail svg{height:14px;width:auto;display:block}
-#albumModal .atlas-avail .av-q svg,#albumModal .atlas-avail .av-a svg{fill:currentColor}
-#albumModal .atlas-avail .av-off{opacity:.45}
-html.atlas-glass #albumModal .atlas-avail{color:rgba(255,255,255,.72)!important}
+#albumModal .atlas-avail span{display:inline-flex;align-items:center;opacity:.16;transition:opacity .2s}
+#albumModal .atlas-avail span.on{opacity:1}
+#albumModal .atlas-avail svg{height:17px;width:auto;display:block;fill:currentColor}
+#albumModal .atlas-avail .av-none svg{fill:none;stroke:currentColor;stroke-width:1.7;height:16px}
+html.atlas-glass #albumModal .atlas-avail{color:#fff!important}
 #albumModal .detail.atlas-editing .atlas-avail,#albumModal .detail.atlas-nas-mode .atlas-avail{display:none!important}
 </style>
 <script id="atlas-availability">
 (function(){
  let M=null;
  const local=/^(localhost|127\.0\.0\.1|192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.)/.test(location.hostname)&&location.protocol==='http:';
- function logo(id,cls,label,title){
-  try{const L=ATLAS_SERVICE_LOGOS[id];return '<span class="'+cls+'" title="'+title+'"><svg viewBox="'+L[0]+'" aria-hidden="true">'+L[1]+'</svg>'+label+'</span>'}catch(e){return ''}
+ function logo(id,cls,title){
+  try{const L=ATLAS_SERVICE_LOGOS[id];return '<span class="'+cls+'" title="'+title+'" aria-label="'+title+'"><svg viewBox="'+L[0]+'" aria-hidden="true">'+L[1]+'</svg></span>'}catch(e){return ''}
  }
- const NONE='<span class="av-none" title="지금은 Qobuz·Apple Music에서 찾지 못했어요 (스트리밍 사정에 따라 바뀔 수 있어요)"><svg viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.6"/><path d="M2.8 9.2 9.2 2.8"/></svg>스트리밍에 없음</span>';
  function paint(){
   const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt'); if(!modal||!art)return;
   let box=modal.querySelector('.atlas-avail');
@@ -10126,12 +10125,11 @@ html.atlas-glass #albumModal .atlas-avail{color:rgba(255,255,255,.72)!important}
   if(box.previousElementSibling!==art)art.after(box);
   let key=null; try{key=typeof atlasSharedCurrentKey==='function'?atlasSharedCurrentKey():null}catch(e){}
   if(!M||!key){box.hidden=true;box.innerHTML='';return}
-  // 항상 두 곳 다 표시: 들을 수 있으면 또렷하게, 없거나 아직 확인 못 했으면 흐리게 + 줄
-  const code=M[key]||'', known=Object.prototype.hasOwnProperty.call(M,key);
-  const q=code.includes('Q'), a=code.includes('A');
-  const off=known?'에서 찾지 못했어요 (스트리밍 사정에 따라 바뀔 수 있어요)':' 확인 전이에요';
+  const code=M[key]||'', q=code.includes('Q'), a=code.includes('A'), none=code==='-';
   box.hidden=false;
-  box.innerHTML=logo('qobuz','av-q'+(q?'':' av-off'),q?'Qobuz':'Not available',q?'Qobuz에서 들을 수 있어요':'Qobuz'+off)+logo('apple','av-a'+(a?'':' av-off'),a?'Apple Music':'Not available',a?'Apple Music에서 들을 수 있어요':'Apple Music'+off);
+  box.innerHTML=logo('qobuz','av-q'+(q?' on':''),q?'Qobuz에서 들을 수 있어요':'Qobuz')
+   +logo('apple','av-a'+(a?' on':''),a?'Apple Music에서 들을 수 있어요':'Apple Music')
+   +'<span class="av-none'+(none?' on':'')+'" title="'+(none?'지금은 Qobuz·Apple Music에서 찾지 못했어요':'스트리밍에 없음')+'"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M3.6 12.4 12.4 3.6"/></svg></span>';
  }
  async function load(){
   const tries=local?['http://'+location.hostname+':8794/availability','availability.json']:['availability.json'];
