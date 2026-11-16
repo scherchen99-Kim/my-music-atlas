@@ -10038,6 +10038,64 @@ html body #archiveAlbums img,html body #archiveAlbums .m1-card img{object-fit:co
 html body #albumModal .detail.atlas-nas-mode #modalArt{object-fit:cover!important;aspect-ratio:1/1!important;background:transparent!important}
 html body #atlasNasWorkspace .nw-prev img{object-fit:cover!important}
 </style>
+<style id="atlas-bottom-align">
+/* 아래쪽 작은 재생창과 TOP(맨 위로) 버튼을 같은 높이(가운데선)로 — 아이폰 홈 막대 여백 포함 */
+html body #atlasMini#atlasMini{bottom:calc(18px + env(safe-area-inset-bottom,0px))!important}
+html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-area-inset-bottom,0px))!important}
+@media(max-width:650px){
+ html body #atlasMini#atlasMini{bottom:calc(12px + env(safe-area-inset-bottom,0px))!important}
+ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(13px + env(safe-area-inset-bottom,0px))!important}
+}
+</style>
+<script id="atlas-detail-swipe-anim">
+/* 상세창 표지를 옆으로 밀어 다음/이전 음반: 손가락을 따라 움직이고, 넘어갈 땐 밀려 나가고 새 음반이 반대쪽에서 들어옴 (공개용·아이폰) */
+(function(){
+ function setup(){
+  const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt');
+  if(!modal||!art)return;
+  const parts=()=>[art, modal.querySelector('.atlas-modal-titlebar')].filter(Boolean);
+  const set=(x,o,t)=>parts().forEach(el=>{el.style.transition=t||'none';el.style.transform=x?'translate3d('+x+'px,0,0)':'';el.style.opacity=o==null?'':String(o)});
+  let g=null, pending=0, oldSrc='';
+  art.addEventListener('touchstart',e=>{
+   g=null; if(!modal.classList.contains('open')||art.closest('.atlas-editing')||e.touches.length!==1)return;
+   const t=e.touches[0]; g={x:t.clientX,y:t.clientY,axis:null};
+  },{passive:true});
+  art.addEventListener('touchmove',e=>{
+   if(!g||e.touches.length!==1)return;
+   const t=e.touches[0],dx=t.clientX-g.x,dy=t.clientY-g.y;
+   if(!g.axis&&Math.max(Math.abs(dx),Math.abs(dy))>=10)g.axis=Math.abs(dx)>Math.abs(dy)*1.4?'x':'y';
+   if(g.axis!=='x')return;
+   const btn=document.getElementById(dx<0?'modalNextAlbum':'modalPrevAlbum');
+   const d=btn&&!btn.disabled?dx*0.9:dx*0.25;
+   set(d,Math.max(.4,1-Math.abs(d)/(innerWidth*1.2)));
+  },{passive:true});
+  const end=e=>{
+   const gg=g; g=null; if(!gg||gg.axis!=='x')return;
+   const t=e.changedTouches&&e.changedTouches[0]; const dx=t?t.clientX-gg.x:0, dy=t?t.clientY-gg.y:0;
+   const btn=document.getElementById(dx<0?'modalNextAlbum':'modalPrevAlbum');
+   const go=e.type==='touchend'&&Math.abs(dx)>=40&&Math.abs(dx)>=Math.abs(dy)*1.4&&btn&&!btn.disabled;
+   if(!go){set(0,null,'transform .25s cubic-bezier(.2,.8,.2,1),opacity .25s');return;}
+   const dir=dx<0?1:-1; pending=dir; oldSrc=art.currentSrc||art.src;
+   set(-dir*innerWidth*0.6,0,'transform .16s cubic-bezier(.4,0,.8,.6),opacity .16s');
+   // 새 음반이 안 오면(마지막 음반 등) 제자리로
+   setTimeout(()=>{if(pending===dir&&(art.currentSrc||art.src)===oldSrc){pending=0;set(0,null,'transform .25s,opacity .25s')}},1500);
+  };
+  art.addEventListener('touchend',end,{passive:true});
+  art.addEventListener('touchcancel',end,{passive:true});
+  // 새 표지가 들어오면 반대쪽에서 미끄러져 들어옴 (그림이 준비된 뒤, 최대 0.3초 기다림)
+  new MutationObserver(()=>{
+   if(!pending)return; const dir=pending; pending=0;
+   set(dir*innerWidth*0.35,0);
+   const go=()=>requestAnimationFrame(()=>set(0,1,'transform .3s cubic-bezier(.2,.8,.25,1),opacity .3s'));
+   let done=false; const once=()=>{if(done)return;done=true;go()};
+   if(art.complete)once(); else {art.addEventListener('load',once,{once:true});art.addEventListener('error',once,{once:true});setTimeout(once,300);}
+  }).observe(art,{attributes:true,attributeFilter:['src']});
+  // 상세창이 닫히면 원위치
+  new MutationObserver(()=>{if(!modal.classList.contains('open')){pending=0;set(0,null)}}).observe(modal,{attributes:true,attributeFilter:['class']});
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
+})();
+</script>
 <style id="atlas-public-locked-v2">
 /* 공개용: 둘러보기만. 편집·NAS·재생 제어·관리자 기능은 화면에 없음 */
 .atlas-edit-toggle,.atlas-workspace,.atlas-editor-top,#metadataEditor,#newAlbumEditor,#hdFloat,#hdPanel,#saveOptions,
