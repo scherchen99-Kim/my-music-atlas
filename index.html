@@ -10048,7 +10048,8 @@ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-a
 }
 </style>
 <script id="atlas-detail-swipe-anim">
-/* 상세창 표지를 옆으로 밀어 다음/이전 음반: 손가락을 따라 움직이고, 넘어갈 땐 밀려 나가고 새 음반이 반대쪽에서 들어옴 (공개용·아이폰) */
+/* 상세창 표지를 옆으로 밀어 다음/이전 음반 (공개용·아이폰): 손가락을 따라 살짝 움직이고, 넘길 땐 짧게 바뀜.
+   화면이 비거나 깜깜해지지 않도록 새 표지가 다 받아질 때까지 이전 표지를 그대로 보여 줌. */
 (function(){
  function setup(){
   const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt');
@@ -10066,32 +10067,31 @@ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-a
    if(!g.axis&&Math.max(Math.abs(dx),Math.abs(dy))>=10)g.axis=Math.abs(dx)>Math.abs(dy)*1.4?'x':'y';
    if(g.axis!=='x')return;
    const btn=document.getElementById(dx<0?'modalNextAlbum':'modalPrevAlbum');
-   const d=btn&&!btn.disabled?dx*0.9:dx*0.25;
-   set(d,Math.max(.4,1-Math.abs(d)/(innerWidth*1.2)));
+   const d=(btn&&!btn.disabled?0.45:0.18)*dx;   // 손가락보다 덜 따라오게(살짝만)
+   set(d);
   },{passive:true});
   const end=e=>{
    const gg=g; g=null; if(!gg||gg.axis!=='x')return;
    const t=e.changedTouches&&e.changedTouches[0]; const dx=t?t.clientX-gg.x:0, dy=t?t.clientY-gg.y:0;
    const btn=document.getElementById(dx<0?'modalNextAlbum':'modalPrevAlbum');
    const go=e.type==='touchend'&&Math.abs(dx)>=40&&Math.abs(dx)>=Math.abs(dy)*1.4&&btn&&!btn.disabled;
-   if(!go){set(0,null,'transform .25s cubic-bezier(.2,.8,.2,1),opacity .25s');return;}
-   const dir=dx<0?1:-1; pending=dir; oldSrc=art.currentSrc||art.src;
-   set(-dir*innerWidth*0.6,0,'transform .16s cubic-bezier(.4,0,.8,.6),opacity .16s');
-   // 새 음반이 안 오면(마지막 음반 등) 제자리로
-   setTimeout(()=>{if(pending===dir&&(art.currentSrc||art.src)===oldSrc){pending=0;set(0,null,'transform .25s,opacity .25s')}},1500);
+   if(!go){set(0,null,'transform .2s ease-out');return;}
+   pending=dx<0?1:-1; oldSrc=art.currentSrc||art.src;
+   // 새 표지가 받아질 때까지 이전 표지를 배경으로 깔아 둠 → 빈 화면 없음
+   if(oldSrc){art.style.backgroundImage='url("'+oldSrc.replace(/"/g,'%22')+'")';art.style.backgroundSize='contain';art.style.backgroundPosition='center';art.style.backgroundRepeat='no-repeat';}
+   set(0,null,'transform .15s ease-out');
+   setTimeout(()=>{if(pending){pending=0;art.style.backgroundImage='';}},2500);
   };
   art.addEventListener('touchend',end,{passive:true});
   art.addEventListener('touchcancel',end,{passive:true});
-  // 새 표지가 들어오면 반대쪽에서 미끄러져 들어옴 (그림이 준비된 뒤, 최대 0.3초 기다림)
+  // 새 표지: 반대쪽에서 살짝(28px) 들어오며 0.22초 만에 자리 잡음
   new MutationObserver(()=>{
    if(!pending)return; const dir=pending; pending=0;
-   set(dir*innerWidth*0.35,0);
-   const go=()=>requestAnimationFrame(()=>set(0,1,'transform .3s cubic-bezier(.2,.8,.25,1),opacity .3s'));
-   let done=false; const once=()=>{if(done)return;done=true;go()};
-   if(art.complete)once(); else {art.addEventListener('load',once,{once:true});art.addEventListener('error',once,{once:true});setTimeout(once,300);}
+   const show=()=>{art.style.backgroundImage=''; set(dir*28,.75); requestAnimationFrame(()=>requestAnimationFrame(()=>set(0,1,'transform .22s ease-out,opacity .22s ease-out')));};
+   if(art.complete&&art.naturalWidth)show();
+   else{let done=false;const once=()=>{if(done)return;done=true;show()};art.addEventListener('load',once,{once:true});art.addEventListener('error',once,{once:true});setTimeout(once,2000);}
   }).observe(art,{attributes:true,attributeFilter:['src']});
-  // 상세창이 닫히면 원위치
-  new MutationObserver(()=>{if(!modal.classList.contains('open')){pending=0;set(0,null)}}).observe(modal,{attributes:true,attributeFilter:['class']});
+  new MutationObserver(()=>{if(!modal.classList.contains('open')){pending=0;art.style.backgroundImage='';set(0,null)}}).observe(modal,{attributes:true,attributeFilter:['class']});
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
