@@ -10101,44 +10101,44 @@ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-a
 
 
 <style id="atlas-availability-css">
-/* 앨범 아래: 이 음반을 들을 수 있는 곳 (Qobuz · Apple Music) — 둘 다 없으면 '없음' 표시 */
-.album .atlas-avail{display:flex;align-items:center;gap:6px;margin-top:4px;height:13px;line-height:1}
-.album .atlas-avail svg{height:12px;width:auto;display:block}
-.album .atlas-avail .av-q svg{fill:#232326}
-.album .atlas-avail .av-a svg{fill:#fa243c}
-.album .atlas-avail .av-none{font-size:10px;color:#a3a0ab;letter-spacing:.02em;display:flex;align-items:center;gap:3px}
-.album .atlas-avail .av-none svg{height:10px;fill:none;stroke:#a3a0ab;stroke-width:2}
-html.atlas-dark .album .atlas-avail .av-a svg{filter:invert(1) hue-rotate(180deg)}
-html.atlas-glass .album .atlas-avail .av-q svg{fill:#fff!important}
-html.atlas-glass .album .atlas-avail .av-none{color:rgba(255,255,255,.6)!important}
+/* 상세창 표지 바로 아래: 이 음반을 들을 수 있는 곳 (Qobuz · Apple Music) — 둘 다 없으면 '없음' */
+#albumModal .atlas-avail{display:flex;justify-content:center;align-items:center;gap:14px;margin:8px auto 2px;min-height:16px;font-size:11px;color:#6e6a78;line-height:1}
+#albumModal .atlas-avail[hidden]{display:none!important}
+#albumModal .atlas-avail span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+#albumModal .atlas-avail svg{height:14px;width:auto;display:block}
+#albumModal .atlas-avail .av-q svg,#albumModal .atlas-avail .av-a svg{fill:currentColor}
+#albumModal .atlas-avail .av-none svg{height:12px;fill:none;stroke:#a3a0ab;stroke-width:1.6}
+html.atlas-glass #albumModal .atlas-avail{color:rgba(255,255,255,.72)!important}
+#albumModal .detail.atlas-editing .atlas-avail,#albumModal .detail.atlas-nas-mode .atlas-avail{display:none!important}
 </style>
 <script id="atlas-availability">
 (function(){
  let M=null;
  const local=/^(localhost|127\.0\.0\.1|192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.)/.test(location.hostname)&&location.protocol==='http:';
- function logo(id,cls,title){
-  try{const L=ATLAS_SERVICE_LOGOS[id];return '<span class="'+cls+'" title="'+title+'" aria-label="'+title+'"><svg viewBox="'+L[0]+'" aria-hidden="true">'+L[1]+'</svg></span>'}catch(e){return ''}
+ function logo(id,cls,label,title){
+  try{const L=ATLAS_SERVICE_LOGOS[id];return '<span class="'+cls+'" title="'+title+'"><svg viewBox="'+L[0]+'" aria-hidden="true">'+L[1]+'</svg>'+label+'</span>'}catch(e){return ''}
  }
- const NONE='<span class="av-none" title="Qobuz·Apple Music에 없음 (스트리밍 사정에 따라 바뀔 수 있음)"><svg viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.6"/><path d="M2.8 9.2 9.2 2.8"/></svg>없음</span>';
- function deco(card){
-  const key=card.dataset.albumId; const btn=card.querySelector('button.album')||card; if(!btn)return;
-  let box=btn.querySelector(':scope>.atlas-avail'); const code=M&&key?M[key]:null;
-  if(!code){if(box)box.remove();return}
-  if(box&&box.dataset.c===code)return;
-  if(!box){box=document.createElement('div');box.className='atlas-avail';btn.append(box)}
-  box.dataset.c=code;
-  box.innerHTML=code==='-'?NONE:((code.includes('Q')?logo('qobuz','av-q','Qobuz에서 들을 수 있어요'):'')+(code.includes('A')?logo('apple','av-a','Apple Music에서 들을 수 있어요'):''));
+ const NONE='<span class="av-none" title="지금은 Qobuz·Apple Music에서 찾지 못했어요 (스트리밍 사정에 따라 바뀔 수 있어요)"><svg viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.6"/><path d="M2.8 9.2 9.2 2.8"/></svg>스트리밍에 없음</span>';
+ function paint(){
+  const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt'); if(!modal||!art)return;
+  let box=modal.querySelector('.atlas-avail');
+  if(!box){box=document.createElement('div');box.className='atlas-avail';art.after(box)}
+  if(box.previousElementSibling!==art)art.after(box);
+  let key=null; try{key=typeof atlasSharedCurrentKey==='function'?atlasSharedCurrentKey():null}catch(e){}
+  const code=M&&key?M[key]:null;
+  if(!code){box.hidden=true;box.innerHTML='';return}
+  box.hidden=false;
+  box.innerHTML=code==='-'?NONE:((code.includes('Q')?logo('qobuz','av-q','Qobuz','Qobuz에서 들을 수 있어요'):'')+(code.includes('A')?logo('apple','av-a','Apple Music','Apple Music에서 들을 수 있어요'):''));
  }
- function all(){document.querySelectorAll('#albums [data-album-id],#searchAlbums [data-album-id]').forEach(deco)}
  async function load(){
   const tries=local?['http://'+location.hostname+':8794/availability','availability.json']:['availability.json'];
-  for(const u of tries){try{const d=await fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null);if(d&&d.m){M=d.m;all();return}}catch(e){}}
+  for(const u of tries){try{const d=await fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null);if(d&&d.m){M=d.m;paint();return}}catch(e){}}
  }
  function setup(){
   load();
-  const mo=new MutationObserver(()=>{if(M)all()});
-  ['albums','searchAlbums'].forEach(id=>{const el=document.getElementById(id);if(el)mo.observe(el,{childList:true,subtree:false})});
-  // 연결을 고치면 바로 반영
+  const modal=document.getElementById('albumModal'), name=document.getElementById('albumName');
+  if(modal)new MutationObserver(()=>{if(modal.classList.contains('open'))setTimeout(paint,30)}).observe(modal,{attributes:true,attributeFilter:['class']});
+  if(name)new MutationObserver(()=>setTimeout(paint,30)).observe(name,{childList:true,subtree:true,characterData:true});
   if(local)setInterval(()=>{if(document.visibilityState==='visible')load()},60000);
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
