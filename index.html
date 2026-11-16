@@ -10107,7 +10107,7 @@ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-a
 #albumModal .atlas-avail span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
 #albumModal .atlas-avail svg{height:14px;width:auto;display:block}
 #albumModal .atlas-avail .av-q svg,#albumModal .atlas-avail .av-a svg{fill:currentColor}
-#albumModal .atlas-avail .av-none svg{height:12px;fill:none;stroke:#a3a0ab;stroke-width:1.6}
+#albumModal .atlas-avail .av-off{opacity:.45}
 html.atlas-glass #albumModal .atlas-avail{color:rgba(255,255,255,.72)!important}
 #albumModal .detail.atlas-editing .atlas-avail,#albumModal .detail.atlas-nas-mode .atlas-avail{display:none!important}
 </style>
@@ -10125,10 +10125,13 @@ html.atlas-glass #albumModal .atlas-avail{color:rgba(255,255,255,.72)!important}
   if(!box){box=document.createElement('div');box.className='atlas-avail';art.after(box)}
   if(box.previousElementSibling!==art)art.after(box);
   let key=null; try{key=typeof atlasSharedCurrentKey==='function'?atlasSharedCurrentKey():null}catch(e){}
-  const code=M&&key?M[key]:null;
-  if(!code){box.hidden=true;box.innerHTML='';return}
+  if(!M||!key){box.hidden=true;box.innerHTML='';return}
+  // 항상 두 곳 다 표시: 들을 수 있으면 또렷하게, 없거나 아직 확인 못 했으면 흐리게 + 줄
+  const code=M[key]||'', known=Object.prototype.hasOwnProperty.call(M,key);
+  const q=code.includes('Q'), a=code.includes('A');
+  const off=known?'에서 찾지 못했어요 (스트리밍 사정에 따라 바뀔 수 있어요)':' 확인 전이에요';
   box.hidden=false;
-  box.innerHTML=code==='-'?NONE:((code.includes('Q')?logo('qobuz','av-q','Qobuz','Qobuz에서 들을 수 있어요'):'')+(code.includes('A')?logo('apple','av-a','Apple Music','Apple Music에서 들을 수 있어요'):''));
+  box.innerHTML=logo('qobuz','av-q'+(q?'':' av-off'),q?'Qobuz':'Not available',q?'Qobuz에서 들을 수 있어요':'Qobuz'+off)+logo('apple','av-a'+(a?'':' av-off'),a?'Apple Music':'Not available',a?'Apple Music에서 들을 수 있어요':'Apple Music'+off);
  }
  async function load(){
   const tries=local?['http://'+location.hostname+':8794/availability','availability.json']:['availability.json'];
