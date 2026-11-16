@@ -10096,8 +10096,58 @@ html body #atlas-top-shortcut#atlas-top-shortcut{bottom:calc(20.5px + env(safe-a
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
 </script>
-
-
+<style id="atlas-detail-side-arrows-css">
+/* 로컬 상세창: 표지 가운데 높이 양옆에 이전/다음 음반 버튼 */
+#albumModal .atlas-side-arrow{position:absolute;z-index:6;display:grid;place-items:center;width:36px;height:36px;margin:0;padding:0;border:1px solid rgba(128,128,140,.28);border-radius:50%;background:rgba(255,255,255,.72);color:#4b4856;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:opacity .15s,background .15s;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+#albumModal .atlas-side-arrow svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+#albumModal .atlas-side-arrow:hover:not(:disabled){background:#fff}
+#albumModal .atlas-side-arrow:disabled{opacity:.25;cursor:default}
+#albumModal .atlas-side-arrow[hidden],#albumModal .detail.atlas-editing .atlas-side-arrow,#albumModal .detail.atlas-nas-editing .atlas-side-arrow{display:none!important}
+html.atlas-glass #albumModal .atlas-side-arrow{background:rgba(255,255,255,.16)!important;color:#fff!important;border-color:rgba(255,255,255,.3)!important}
+</style>
+<script id="atlas-detail-side-arrows">
+(function(){
+ function setup(){
+  const modal=document.getElementById('albumModal'); if(!modal)return;
+  const detail=modal.querySelector('.detail'), art=document.getElementById('modalArt'); if(!detail||!art)return;
+  const mk=(dir)=>{const b=document.createElement('button');b.type='button';b.className='atlas-side-arrow';b.dataset.dir=dir;
+   b.setAttribute('aria-label',dir<0?'이전 음반':'다음 음반');b.title=dir<0?'이전 음반':'다음 음반';
+   b.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="'+(dir<0?'m14.5 5-7 7 7 7':'m9.5 5 7 7-7 7')+'"/></svg>';
+   b.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();go(dir)});detail.append(b);return b;};
+  const P=mk(-1),N=mk(1);
+  if(getComputedStyle(detail).position==='static')detail.style.position='relative';
+  const nas=()=>detail.classList.contains('atlas-nas-mode');
+  function go(dir){
+   if(nas()){const cur=window.atlasNasCurrent, n=cur&&window.atlasNasNeighbor&&atlasNasNeighbor(cur,dir); if(n&&window.atlasNasOpenDetail)atlasNasOpenDetail(n); setTimeout(place,60); return;}
+   if(typeof modalBrowseAlbum==='function')modalBrowseAlbum(dir);
+  }
+  function state(){
+   if(nas()){const cur=window.atlasNasCurrent; P.disabled=!(cur&&window.atlasNasNeighbor&&atlasNasNeighbor(cur,-1)); N.disabled=!(cur&&window.atlasNasNeighbor&&atlasNasNeighbor(cur,1)); return;}
+   const p=document.getElementById('modalPrevAlbum'), n=document.getElementById('modalNextAlbum');
+   P.disabled=!!(p&&p.disabled); N.disabled=!!(n&&n.disabled);
+  }
+  function place(){
+   if(!modal.classList.contains('open'))return;
+   const dr=detail.getBoundingClientRect(), ar=art.getBoundingClientRect();
+   if(!ar.width||!ar.height){P.hidden=N.hidden=true;return}
+   P.hidden=N.hidden=false;
+   const y=ar.top-dr.top+ar.height/2-18+detail.scrollTop;
+   const gapL=ar.left-dr.left, gapR=dr.right-ar.right;
+   // 표지 바깥 여백 가운데, 여백이 좁으면 표지 가장자리에 살짝 걸치게
+   const lx=gapL>=44?gapL/2-18:Math.max(2,gapL-26), rx=gapR>=44?gapR/2-18:Math.max(2,gapR-26);
+   P.style.top=N.style.top=y+'px'; P.style.left=lx+'px'; N.style.right=rx+'px'; N.style.left='auto';
+   state();
+  }
+  new MutationObserver(()=>setTimeout(place,30)).observe(modal,{attributes:true,attributeFilter:['class']});
+  new MutationObserver(()=>setTimeout(place,30)).observe(art,{attributes:true,attributeFilter:['src','style']});
+  new MutationObserver(()=>setTimeout(place,30)).observe(detail,{attributes:true,attributeFilter:['class']});
+  art.addEventListener('load',place);
+  if(window.ResizeObserver)new ResizeObserver(place).observe(art);
+  addEventListener('resize',place);
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
+})();
+</script>
 
 
 <style id="atlas-availability-css">
@@ -10178,4 +10228,5 @@ function atlasPublicRoon(){try{if(!selected)return;copyQ();window.location.href=
 try{atlasRoonPlay=atlasPublicRoon}catch(e){}
 document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('roon');if(b)b.onclick=atlasPublicRoon});
 </script>
+<style id="atlas-public-side-arrows">@media (hover:none),(pointer:coarse){#albumModal .atlas-side-arrow{display:none!important}}</style>
 </body></html>
