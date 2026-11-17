@@ -10250,6 +10250,49 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
 </script>
 
 
+<style id="atlas-roon-helper-css">
+/* 3단계(준비 중): 방문자 Roon 연결 프로그램 — ?roonhelper=1 일 때만 보임 */
+#atlasHelperNote{display:block;margin:6px auto 0;max-width:420px;text-align:center;font-size:12.5px;line-height:1.45;opacity:.85}
+#atlasHelperNote a{color:inherit;font-weight:700;text-decoration:underline;text-underline-offset:2px}
+#atlasHelperFoot{display:block;text-align:center;margin:28px auto 34px;font-size:12.5px;opacity:.7}
+#atlasHelperFoot a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+#albumModal .detail.atlas-editing #atlasHelperNote,#albumModal .detail.atlas-nas-mode #atlasHelperNote{display:none!important}
+</style>
+<script id="atlas-roon-helper">
+(function(){
+ const qs=new URLSearchParams(location.search);
+ try{if(qs.get('roonhelper')==='1')localStorage.setItem('atlasHelperPreview','1');if(qs.get('roonhelper')==='0')localStorage.removeItem('atlasHelperPreview')}catch(e){}
+ let on=false; try{on=localStorage.getItem('atlasHelperPreview')==='1'}catch(e){}
+ if(!on||location.port==='8792')return;            // 숨김 상태 · 로컬용(8792)은 집 서버를 씀
+ const H='http://127.0.0.1:8795', GUIDE='roon-helper.html';
+ let st=null, titles=null;
+ async function hello(){try{const c=new AbortController();setTimeout(()=>c.abort(),1500);st=await fetch(H+'/hello',{signal:c.signal,cache:'no-store'}).then(r=>r.json())}catch(e){st=null}return st}
+ async function title(key){if(!titles){try{titles=(await fetch('roon-titles.json',{cache:'no-store'}).then(r=>r.json())).m||{}}catch(e){titles={}}}const t=titles[key];return t?{title:t[0],subtitle:t[1]}:null}
+ function note(html){const m=document.getElementById('message');let n=document.getElementById('atlasHelperNote');if(!n){n=document.createElement('div');n.id='atlasHelperNote';(m&&m.parentElement||document.querySelector('#albumModal .detail')).append(n)}n.innerHTML=html;clearTimeout(n._t);n._t=setTimeout(()=>{n.innerHTML=''},9000)}
+ const say=t=>{const m=document.getElementById('message');if(m)m.textContent=t};
+ document.addEventListener('click',async e=>{
+  const btn=e.target&&e.target.closest&&e.target.closest('#albumModal #roon'); if(!btn)return;
+  // 미리 확인해 둔 상태로 바로 결정 (기다린 뒤에는 원래 동작을 막을 수 없음)
+  if(!st){setTimeout(()=>note('이 컴퓨터의 Roon으로 바로 들으려면 연결 프로그램이 필요해요 · <a href="'+GUIDE+'" target="_blank" rel="noopener">받으러 가기 ↗</a>'),60);hello();return} // 검색어 복사는 원래대로
+  e.preventDefault(); e.stopImmediatePropagation();
+  await hello(); if(!st){say('연결 프로그램이 꺼졌어요. 다시 켜 주세요.');return}
+  if(!st.connected){say('Roon 설정 → 확장(Extensions)에서 MY MUSIC ATLAS를 허용해 주세요.');return}
+  let key=null,q=''; try{key=atlasSharedCurrentKey()}catch(x){}
+  try{q=atlasStripOpera(atlasSelectedSearch(document.getElementById('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p))}catch(x){}
+  if(!q){say('검색어가 없어요.');return}
+  say('Roon에서 찾는 중…');
+  try{
+   const r=await fetch(H+'/play',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query:q,prefer:key?await title(key):null})}).then(r=>r.json());
+   say(r.ok?('▶ '+r.zone+' · '+r.album.title):(r.error||'재생하지 못했어요.'));
+  }catch(x){say('연결 프로그램과 통신하지 못했어요.')}
+ },true);
+ // 메인 화면 맨 아래 조용한 한 줄
+ function foot(){if(document.getElementById('atlasHelperFoot'))return;const host=document.querySelector('.atlas-discovery-links')||document.querySelector('main')||document.body;const d=document.createElement('div');d.id='atlasHelperFoot';d.innerHTML='Roon을 쓰신다면 — <a href="'+GUIDE+'" target="_blank" rel="noopener">이 컴퓨터의 Roon에서 바로 재생하기</a>';host.after?host.after(d):document.body.append(d)}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',foot);else foot();
+ hello(); setInterval(()=>{if(document.visibilityState==='visible')hello()},15000);
+ addEventListener('focus',hello);
+})();
+</script>
 <style id="atlas-public-locked-v2">
 /* 공개용: 둘러보기만. 편집·NAS·재생 제어·관리자 기능은 화면에 없음 */
 .atlas-edit-toggle,.atlas-workspace,.atlas-editor-top,#metadataEditor,#newAlbumEditor,#hdFloat,#hdPanel,#saveOptions,

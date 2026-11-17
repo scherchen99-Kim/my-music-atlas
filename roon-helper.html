@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roon에서 바로 재생 · MY MUSIC ATLAS</title>
+<style>
+:root{--bg:#0e0f1c;--card:#181a2e;--ink:#ecebf5;--sub:#9d9ab8;--acc:#c9b8ff;--line:#2a2c4a}
+@media (prefers-color-scheme:light){:root{--bg:#f6f5fa;--card:#fff;--ink:#1d1b2a;--sub:#6b6880;--acc:#5b45c9;--line:#e3e0ee}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 -apple-system,"Helvetica Neue",Arial,sans-serif}
+main{max-width:640px;margin:0 auto;padding:40px 16px 60px}
+.brand{font-size:12px;letter-spacing:.18em;color:var(--sub);text-transform:uppercase}
+h1{font-size:26px;line-height:1.25;margin:8px 0 10px;font-weight:700}
+.lead{color:var(--sub);margin:0 0 28px}
+ol{list-style:none;padding:0;margin:0;display:grid;gap:12px;counter-reset:s}
+li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px 16px 58px;position:relative;counter-increment:s}
+li::before{content:counter(s);position:absolute;left:16px;top:15px;width:28px;height:28px;border-radius:50%;background:var(--acc);color:var(--bg);font-weight:700;display:grid;place-items:center;font-size:14px}
+li b{display:block;font-size:16px;margin-bottom:2px}
+li span{color:var(--sub);font-size:14px}
+.dl{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 4px}
+.dl a{display:inline-block;padding:10px 16px;border-radius:10px;background:var(--acc);color:var(--bg);font-weight:700;text-decoration:none;font-size:14px}
+.dl a.off{opacity:.45;pointer-events:none}
+.faq{margin-top:30px;color:var(--sub);font-size:13.5px}
+.faq b{color:var(--ink)}
+.back{display:inline-block;margin-top:26px;color:var(--acc)}
+</style>
+</head>
+<body>
+<main>
+ <div class="brand">MY MUSIC ATLAS</div>
+ <h1>이 컴퓨터의 Roon에서 바로 재생하기</h1>
+ <p class="lead">작은 연결 프로그램을 켜 두면, 사이트에서 Roon 버튼을 누르는 순간 내 Roon과 내 DAC로 그 음반이 재생됩니다.</p>
+ <ol>
+  <li><b>연결 프로그램 받기</b><span>Roon이 있는 네트워크의 컴퓨터(맥·윈도우)에 받아 둡니다.</span>
+   <div class="dl"><a class="off" href="#">macOS용 (준비 중)</a><a class="off" href="#">Windows용 (준비 중)</a></div></li>
+  <li><b>실행하기</b><span>더블클릭으로 켭니다. 켜 두는 동안만 동작하고, 창을 닫으면 꺼집니다.</span></li>
+  <li><b>Roon에서 한 번 허용하기</b><span>Roon → 설정 → 확장(Extensions)에서 <b style="display:inline">MY MUSIC ATLAS</b> 옆의 '허용(Enable)'을 누릅니다.</span></li>
+ </ol>
+ <div class="faq">
+  <p><b>무엇을 하나요?</b> 사이트가 알려 준 음반을 내 Roon에서 찾아 재생하는 것만 합니다. 다른 정보는 저장하거나 보내지 않습니다.</p>
+  <p><b>휴대폰에서도 되나요?</b> 연결 프로그램은 컴퓨터에서 켜 둡니다. 같은 컴퓨터의 브라우저에서 사이트를 열어 주세요.</p>
+  <p><b>Chrome에서 '로컬 네트워크 접근' 허락을 물어요.</b> 허용을 누르면 사이트가 이 컴퓨터의 연결 프로그램과 이야기할 수 있습니다.</p>
+ </div>
+ <a class="back" href="./">← MY MUSIC ATLAS로 돌아가기</a>
+</main>
+</body>
+</html>
