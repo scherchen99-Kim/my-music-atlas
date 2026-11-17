@@ -10159,14 +10159,24 @@ html.atlas-glass #albumModal .atlas-side-arrow{background:rgba(255,255,255,.16)!
 html.atlas-glass body #albumModal #albumModal-avail-x, html.atlas-glass body #albumModal div.atlas-avail>span[class]{background:rgba(255,255,255,.16)!important;color:rgba(255,255,255,.62)!important}
 html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba(255,255,255,.92)!important;color:#3a3550!important}
 #albumModal .detail.atlas-editing .atlas-avail,#albumModal .detail.atlas-nas-mode .atlas-avail{display:none!important}
-/* 한 줄로 합침: 표지 아래 글자칸은 숨기고, 아래 Qobuz·Apple·Tidal 아이콘이 '있음(진하게)·없음(흐리게)'을 보여 줌 */
+/* 한 줄로 합침: 표지 아래 글자칸은 숨김. 아이콘은 그대로, '우리 창에서 들을 수 있음'은 점으로만 */
 html body #albumModal .atlas-avail{display:none!important}
-html body #albumModal .service #qobuz.atlas-svc-dim,html body #albumModal .service #apple.atlas-svc-dim,html body #albumModal .service #tidal.atlas-svc-dim{opacity:.28!important}
 /* 점 = 바로 열림·재생 (Qobuz·Apple·Tidal: 미리듣기+앱에서 앨범 / Roon: 형이 확인한 정확한 앨범으로 재생, 로컬) — 은은하게 */
 html body #albumModal .service #roon,html body #albumModal .service #qobuz,html body #albumModal .service #apple,html body #albumModal .service #tidal{position:relative}
 html body #albumModal .service .atlas-dot::after{content:"";position:absolute;top:3px;left:calc(50% + 14px);width:5px;height:5px;border-radius:50%;background:#9d93d6;opacity:.75}
 html.atlas-dark body #albumModal .service .atlas-dot::after{background:#626c29;opacity:.8}
 html.atlas-glass body #albumModal .service .atlas-dot::after{background:#f5d0fe;opacity:.8}
+/* 미리듣기 창 (상세창 위에 덮는 같은 크기 창) */
+#albumModal .atlas-avail-embed{position:absolute;inset:0;z-index:30;display:flex;flex-direction:column;border-radius:inherit;overflow:hidden}
+#albumModal .atlas-avail-embed .ae-top{display:flex;align-items:center;gap:10px;padding:14px 14px 10px 20px;flex:none}
+#albumModal .atlas-avail-embed .ae-name{flex:1;min-width:0;font:600 14px/1.3 -apple-system,"Helvetica Neue",Arial,sans-serif;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#albumModal .atlas-avail-embed .ae-full{flex:none;border:1px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:8px 12px;font:700 12.5px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;cursor:pointer;opacity:.9;white-space:nowrap}
+#albumModal .atlas-avail-embed .ae-x{flex:none;width:44px;height:44px;border-radius:50%;border:1px solid currentColor;background:transparent;color:inherit;opacity:.75;cursor:pointer;display:grid;place-items:center;padding:0}
+#albumModal .atlas-avail-embed .ae-x svg{width:18px;height:18px;stroke:currentColor;stroke-width:1.6;fill:none}
+#albumModal .atlas-avail-embed iframe{flex:1;display:block;width:100%;min-height:0;border:0;background:transparent}
+#albumModal .atlas-avail-embed .ae-clip{flex:none;margin:auto 12px;width:calc(100% - 24px);height:min(450px,calc(100% - 70px));overflow:hidden;border-radius:14px}
+#albumModal .atlas-avail-embed .ae-clip iframe.ae-apple{display:block;width:100%;height:450px;margin-top:0;border:0}
+#albumModal .detail.atlas-editing .atlas-avail-embed,#albumModal .detail.atlas-nas-mode .atlas-avail-embed{display:none!important}
 </style>
 <script id="atlas-availability">
 (function(){
