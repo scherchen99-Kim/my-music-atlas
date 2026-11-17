@@ -9932,7 +9932,7 @@ html.atlas-glass body .m1-modal-backdrop .m1-player .m1-volume-panel:not([hidden
 <script id="atlas-glass">
 (()=>{
  const root=document.documentElement, on=()=>root.classList.contains('atlas-glass');
- const SKIP='#atlasHowTo [style*="translate("],#sidebar,#sidebar *,#atlasRoonCtl .rc-pop,#atlasRoonCtl .rc-pop *,#atlasRoonCtl button.rc-b,#atlasRoonCtl button.rc-b *,dialog,.atlas-nas-tags button,.m1-modal-backdrop,.m1-modal,#atlas-nas-focus-panel,.m1-volume-panel,.m1-output-panel,.m1-output-choice,.m1-output-choice *,#atlasAdminLinks .al-c,#atlasAdminLinks .al-c *,#atlasAdminLinks button.al-b,#atlasAdminLinks em,#atlasHowTo,.ah-body,.ah-steps li,.atlas-home-recommendation,.atlas-radio-station,.atlas-daily-card,.genre-card .genre-poster,#albumModal>.detail,.atlas-daily-services>a,#albumModal .service>button,#qobuz svg,#qobuz svg *,a[data-daily="qobuz"] svg,a[data-daily="qobuz"] svg *,#atlasGlassBg,#atlasGlassBg *,canvas,img,video,#albumModal.modal,#scrim';
+ const SKIP='.atlas-avail,.atlas-avail *,#atlasHowTo [style*="translate("],#sidebar,#sidebar *,#atlasRoonCtl .rc-pop,#atlasRoonCtl .rc-pop *,#atlasRoonCtl button.rc-b,#atlasRoonCtl button.rc-b *,dialog,.atlas-nas-tags button,.m1-modal-backdrop,.m1-modal,#atlas-nas-focus-panel,.m1-volume-panel,.m1-output-panel,.m1-output-choice,.m1-output-choice *,#atlasAdminLinks .al-c,#atlasAdminLinks .al-c *,#atlasAdminLinks button.al-b,#atlasAdminLinks em,#atlasHowTo,.ah-body,.ah-steps li,.atlas-home-recommendation,.atlas-radio-station,.atlas-daily-card,.genre-card .genre-poster,#albumModal>.detail,.atlas-daily-services>a,#albumModal .service>button,#qobuz svg,#qobuz svg *,a[data-daily="qobuz"] svg,a[data-daily="qobuz"] svg *,#atlasGlassBg,#atlasGlassBg *,canvas,img,video,#albumModal.modal,#scrim';
  const parse=v=>{const m=String(v).match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?/); return m?[+m[1]/255,+m[2]/255,+m[3]/255,m[4]===undefined?1:+m[4]]:null;};
  const hsl=([r,g,b])=>{const mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2;let h=0,s=0;if(mx!==mn){const d=mx-mn;s=l>.5?d/(2-mx-mn):d/(mx+mn);h=mx===r?(g-b)/d+(g<b?6:0):mx===g?(b-r)/d+2:(r-g)/d+4;h/=6;}return [h,s,l];};
  const purple=([h,s])=>s>.12&&h>215/360&&h<290/360;
@@ -9957,13 +9957,13 @@ html.atlas-glass body .m1-modal-backdrop .m1-player .m1-volume-panel:not([hidden
    if(float)el.classList.add('atlas-gl-float');
    el.dataset[k]=el.style.getPropertyValue(css)+'|'+el.style.getPropertyPriority(css); el.style.setProperty(css,out,'important'); touched.add(el);});}
  function scan(n){if(!on()||!n||n.nodeType!==1)return; paint(n); n.querySelectorAll('*').forEach(paint);}
- function unpaint(el){el.classList.remove('atlas-gl-float'); P.forEach(([js,css])=>{const k='gl_'+js; if(el.dataset[k]===undefined)return; const [v,pr]=el.dataset[k].split('|'); if(v)el.style.setProperty(css,v,pr); else el.style.removeProperty(css); delete el.dataset[k];});}
+ function unpaint(el){if(el.classList.contains('atlas-gl-float'))el.classList.remove('atlas-gl-float'); P.forEach(([js,css])=>{const k='gl_'+js; if(el.dataset[k]===undefined)return; const [v,pr]=el.dataset[k].split('|'); if(v)el.style.setProperty(css,v,pr); else el.style.removeProperty(css); delete el.dataset[k];});}
  function redo(el){if(!el.isConnected||!on())return; const all=[el,...el.querySelectorAll('*')]; if(all.length>800){scan(el);return;} all.forEach(unpaint); all.forEach(paint);}
  function cool(){hot.forEach(el=>{if(!el.isConnected){hot.delete(el);return;} if(!el.matches(HOT)){hot.delete(el); setTimeout(()=>redo(el),320);}});}
  ['pointerup','pointerout','touchend','scroll'].forEach(ev=>addEventListener(ev,()=>{if(on())setTimeout(cool,60);},{passive:true,capture:true}));
  let cq=new Set(),ctm=0;
  new MutationObserver(ms=>{if(!on())return; ms.forEach(m=>{const t=m.target; if(t!==root&&t!==document.body&&!t.closest('#atlasGlassBg,canvas'))cq.add(t);}); clearTimeout(ctm); ctm=setTimeout(()=>{const ns=[...cq]; cq.clear(); ns.forEach(redo);},50);}).observe(document.documentElement,{attributes:true,attributeFilter:['class','aria-pressed','aria-expanded','hidden'],subtree:true});
- function clear(){touched.forEach(el=>{el.classList.remove('atlas-gl-float'); P.forEach(([js,css])=>{const k='gl_'+js; if(el.dataset[k]===undefined)return; const [v,pr]=el.dataset[k].split('|'); if(v)el.style.setProperty(css,v,pr); else el.style.removeProperty(css); delete el.dataset[k];});}); touched.clear();}
+ function clear(){touched.forEach(el=>{if(el.classList.contains('atlas-gl-float'))el.classList.remove('atlas-gl-float'); P.forEach(([js,css])=>{const k='gl_'+js; if(el.dataset[k]===undefined)return; const [v,pr]=el.dataset[k].split('|'); if(v)el.style.setProperty(css,v,pr); else el.style.removeProperty(css); delete el.dataset[k];});}); touched.clear();}
  function bg(){if(!document.getElementById('atlasGlassBg')){const d=document.createElement('div'); d.id='atlasGlassBg'; d.setAttribute('aria-hidden','true'); d.innerHTML='<i></i><i></i><i></i><i></i>'; document.body.prepend(d);}}
  let pend=new Set(),t=0;
  new MutationObserver(ms=>{if(!on())return; ms.forEach(m=>m.addedNodes.forEach(n=>{if(n.nodeType===1)pend.add(n);})); clearTimeout(t); t=setTimeout(()=>{const ns=[...pend]; pend.clear(); ns.forEach(n=>n.isConnected&&scan(n));},120);}).observe(document.documentElement,{childList:true,subtree:true});
@@ -10151,14 +10151,13 @@ html.atlas-glass #albumModal .atlas-side-arrow{background:rgba(255,255,255,.16)!
 
 
 <style id="atlas-availability-css">
-/* 상세창 표지 바로 아래: 아이콘 3개(Qobuz · Apple Music · 없음) — 해당되는 것만 진하게, 나머지는 아주 흐리게. 글자 없음 */
-#albumModal .atlas-avail{display:flex;justify-content:center;align-items:center;gap:26px;margin:16px auto 10px;min-height:24px;color:#3d3b45;line-height:1}
+/* 상세창 표지 아래: 작은 글자 칸 3개(Qobuz · Apple · None) — 있는 곳만 진하게 */
+#albumModal .atlas-avail{display:flex;justify-content:center;align-items:center;gap:6px;margin:14px auto 8px;line-height:1}
 #albumModal .atlas-avail[hidden]{display:none!important}
-#albumModal .atlas-avail span{display:inline-flex;align-items:center;opacity:.18;transition:opacity .2s}
-#albumModal .atlas-avail span.on{opacity:1}
-#albumModal .atlas-avail svg{height:23px;width:auto;display:block;fill:currentColor}
-#albumModal .atlas-avail .av-none svg{fill:none;stroke:currentColor;stroke-width:1.6;height:22px}
-html.atlas-glass #albumModal .atlas-avail{color:#fff!important}
+#albumModal .atlas-avail span{display:inline-block;padding:4px 8px 4px;border-radius:5px;font:700 11.5px/1.15 -apple-system,"Helvetica Neue",Arial,sans-serif;letter-spacing:.01em;color:#fff;background:#cfcfd3}
+#albumModal .atlas-avail span.on{background:#58585c}
+html.atlas-glass body #albumModal #albumModal-avail-x, html.atlas-glass body #albumModal div.atlas-avail>span[class]{background:rgba(255,255,255,.16)!important;color:rgba(255,255,255,.62)!important}
+html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba(255,255,255,.92)!important;color:#3a3550!important}
 #albumModal .detail.atlas-editing .atlas-avail,#albumModal .detail.atlas-nas-mode .atlas-avail{display:none!important}
 </style>
 <script id="atlas-availability">
@@ -10174,12 +10173,13 @@ html.atlas-glass #albumModal .atlas-avail{color:#fff!important}
   if(!box){box=document.createElement('div');box.className='atlas-avail';art.after(box)}
   if(box.previousElementSibling!==art)art.after(box);
   let key=null; try{key=typeof atlasSharedCurrentKey==='function'?atlasSharedCurrentKey():null}catch(e){}
-  if(!M||!key){box.hidden=true;box.innerHTML='';return}
+  if(!M||!key){box.hidden=true;box.innerHTML='';box.dataset.k='';return}
   const code=M[key]||'', q=code.includes('Q'), a=code.includes('A'), none=code==='-';
   box.hidden=false;
-  box.innerHTML=logo('qobuz','av-q'+(q?' on':''),q?'Qobuz에서 들을 수 있어요':'Qobuz')
-   +logo('apple','av-a'+(a?' on':''),a?'Apple Music에서 들을 수 있어요':'Apple Music')
-   +'<span class="av-none'+(none?' on':'')+'" title="'+(none?'지금은 Qobuz·Apple Music에서 찾지 못했어요':'스트리밍에 없음')+'"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M3.6 12.4 12.4 3.6"/></svg></span>';
+  const html='<span class="av-q'+(q?' on':'')+'" title="'+(q?'Qobuz에서 들을 수 있어요':'Qobuz')+'">Qobuz</span>'
+   +'<span class="av-a'+(a?' on':'')+'" title="'+(a?'Apple Music에서 들을 수 있어요':'Apple Music')+'">Apple</span>'
+   +'<span class="av-none'+(none?' on':'')+'" title="'+(none?'지금은 Qobuz·Apple Music에서 찾지 못했어요':'스트리밍에 없음')+'">None</span>';
+  if(box.dataset.k!==key+'|'+code){box.dataset.k=key+'|'+code;box.innerHTML=html}
  }
  async function load(){
   const tries=local?['http://'+location.hostname+':8794/availability','availability.json']:['availability.json'];
