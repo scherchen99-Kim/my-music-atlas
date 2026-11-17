@@ -10347,6 +10347,22 @@ html.atlas-glass body #albumModal .service .atlas-dot::after{background:#f5d0fe;
  window.atlasAvailRepaint=()=>paint();
  window.atlasAvailData=()=>({M,AID,TID,Q:window.atlasQobuzIds||{}});
  window.atlasOpenAlbum=(svc,id)=>openAlbum(svc,id);
+ // 안내 페이지 등을 상세창 크기 창 안에 띄움 (새 창 X)
+ window.atlasOpenPageSheet=(title,src)=>{
+  const box=document.querySelector('#albumModal .atlas-avail'); closeEmbed(box);
+  const detail=document.querySelector('#albumModal .detail'); if(!detail)return;
+  const R=document.documentElement.classList, darkUI=R.contains('atlas-dark')||R.contains('atlas-navy')||R.contains('atlas-glass');
+  const wrap=document.createElement('div'); wrap.className='atlas-avail-embed';
+  let bg=getComputedStyle(detail).backgroundColor; const mm=bg.match(/rgba?\(([^)]+)\)/), al=mm?(mm[1].split(',')[3]===undefined?1:+mm[1].split(',')[3]):1;
+  if(!mm||al<.6)bg='#fff'; if(R.contains('atlas-glass'))bg='rgba(28,16,64,.98)';
+  wrap.style.background=bg; wrap.style.color=R.contains('atlas-glass')?'#fff':'';
+  wrap.innerHTML='<div class="ae-top"><div class="ae-name"></div><button type="button" class="ae-x" aria-label="닫고 상세창으로" title="닫기"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>';
+  wrap.querySelector('.ae-name').textContent=title;
+  wrap.querySelector('.ae-x').addEventListener('click',e=>{e.stopPropagation();closeEmbed(box)});
+  const f=document.createElement('iframe'); f.title=title; f.src=src+(src.includes('?')?'&':'?')+'embed=1'+(darkUI?'&dark=1':''); f.style.colorScheme=darkUI?'dark':'light';
+  wrap.append(f); detail.dataset.aeOv=detail.style.overflow||''; detail.style.overflow='hidden'; detail.append(wrap);
+  wrap.style.top=detail.scrollTop+'px'; wrap.style.bottom='auto'; wrap.style.height=detail.clientHeight+'px';
+ };
  window.atlasOpenSheet=svc=>{const box=document.querySelector('#albumModal .atlas-avail');if(!box)return;const sp=document.createElement('span');sp.dataset.svc=svc;toggleEmbed(box,sp)};
  function paint(){
   const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt'); if(!modal||!art)return;
@@ -10485,17 +10501,16 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
 })();
 </script>
 <style id="atlas-preview-guide-css">
-/* 공개용 맨 아래 안내 줄: 상황 안내(길면 흐름) + 로그인 버튼 */
-#message .pv-g{display:flex;align-items:center;justify-content:center;gap:8px;max-width:100%;min-width:0}
-#message .pv-mq{display:block;min-width:0;overflow:hidden;white-space:nowrap}
-#message .pv-mq>span{display:inline-block;white-space:nowrap}
-#message .pv-mq.run{-webkit-mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 12px),transparent);mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 12px),transparent)}
-#message .pv-mq.run>span{animation:pvMq linear infinite}
-@keyframes pvMq{0%,14%{transform:translateX(0)}86%,100%{transform:translateX(var(--x,0))}}
-#message .pv-link{flex:none;color:inherit;font-weight:700;text-decoration:underline;text-underline-offset:2px;white-space:nowrap}
+/* 공개용 맨 아래 안내 줄: 상황 안내(흐르지 않고 최대 두 줄로) + 버튼 — 위아래 잘림 없게 */
+#albumModal #message{height:auto!important;min-height:36px!important;max-height:none!important;overflow:visible!important;line-height:1.35!important;padding:3px 2px!important;margin-top:8px!important;font-size:12px!important;display:flex!important;align-items:center;justify-content:center}
+#message .pv-g{display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;gap:10px;max-width:100%;text-align:center}
+#message .pv-g:has(.pv-login,.pv-link){text-align:left}
+#message .pv-g:has(.pv-login,.pv-link) .pv-mq{flex:1 1 auto}
+#message .pv-mq{min-width:0;max-width:100%;white-space:normal;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}
+#message .pv-mq>span{white-space:normal}
+#message .pv-login,#message .pv-link{flex:none;border:1px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:5px 11px;font:700 11.5px/1.2 -apple-system,"Helvetica Neue",Arial,sans-serif;cursor:pointer;white-space:nowrap;text-decoration:none}
 #message .pv-in{animation:pvIn .35s ease-out}
 @keyframes pvIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
-#message .pv-login{flex:none;border:1px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:5px 10px;font:700 11.5px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;cursor:pointer;white-space:nowrap}
 </style>
 <script id="atlas-preview-player">
 /* 공개용 재생바: 로컬 Roon 재생바와 같은 모양. 위에 보이는 음반의 Apple Music 30초 미리듣기를 우리 창 안에서 재생.
@@ -10569,20 +10584,20 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   new MutationObserver(()=>{if(own)return;if(m.textContent.trim()&&!m.querySelector('.pv-g'))hold=Date.now()+4500;else{hold=0;setTimeout(()=>guide(true),30)}}).observe(m,{childList:true,subtree:true,characterData:true})})();
  // 상황마다 안내 문구 여러 개를 차례로 (문구마다 6초, 길면 다 흐른 뒤 다음)
  const LOGIN='<button type="button" class="pv-login">로그인하고 전곡 듣기 ›</button>';
- const HELP='<a class="pv-link" href="roon-helper.html" target="_blank" rel="noopener">안내 ›</a>';
+ const HELP='<button type="button" class="pv-link">안내 보기 ›</button>';
  function guideList(){
   const key=shownKey(), d=data(), mine=!!cur&&cur.key===key, playing=!!cur&&!audio.paused;
   let aid=d.AID&&d.AID[key]; if(aid&&String(aid).startsWith('us:'))aid=null;
-  const roon=['Roon에서 Qobuz·TIDAL을 쓰신다면 연결 프로그램을 깔아 이 사이트에서 내 DAC로 바로 들어 보세요',HELP];
-  const copy=['복사를 누르면 검색어가 복사돼요 · 어느 음악 앱에서든 붙여 넣어 찾을 수 있어요',''];
-  const dot=['점이 있는 아이콘은 이 창 안에서 바로 미리 들을 수 있어요',''];
-  if(mine&&playing)return [['지금 Apple Music 30초 미리듣기 중이에요 · 전곡은 아래 앱 아이콘으로 감상하세요',''],['Apple Music을 구독 중이면 로그인하고 전곡을 들을 수 있어요',LOGIN],dot,roon];
-  if(mine&&!playing)return [['멈춤 · ▶ 로 이어 듣기',''],['Apple Music을 구독 중이면 로그인하고 전곡을 들을 수 있어요',LOGIN],roon];
-  if(cur&&playing)return [['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로 바꿔 들려 드려요',''],['재생 정보 줄(↗)을 누르면 지금 듣는 음반으로 돌아가요',''],dot];
-  if(aid)return [['▶ 를 누르면 이 음반을 Apple Music 30초 미리듣기로 들려 드려요',''],dot,copy,roon];
+  const roon=['Roon 사용자라면 연결 프로그램으로 내 DAC에서 바로 재생',HELP];
+  const copy=['복사를 누르면 검색어 복사 · 어느 음악 앱에서든 붙여 넣어 찾기',''];
+  const dot=['점 있는 아이콘은 이 창에서 바로 미리듣기',''];
+  if(mine&&playing)return [['Apple Music 30초 미리듣기 중 · 전곡은 아래 아이콘으로',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],dot,roon];
+  if(mine&&!playing)return [['멈춤 · ▶ 로 이어 듣기',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],roon];
+  if(cur&&playing)return [['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로',''],['↗ 줄을 누르면 지금 듣는 음반으로',''],dot];
+  if(aid)return [['▶ 를 누르면 Apple Music 30초 미리듣기',''],dot,copy,roon];
   if(d.TID&&d.TID[key])return [['▶ 를 누르면 TIDAL 미리듣기 창이 열려요',''],dot,copy,roon];
   if(d.Q&&d.Q[key])return [['▶ 를 누르면 Qobuz 미리듣기 창이 열려요',''],dot,copy,roon];
-  return [['이 음반은 미리듣기가 없어요 · 복사해서 원하는 곳에서 찾아 들어 주세요',''],roon];
+  return [['미리듣기가 없는 음반 · 복사해서 원하는 곳에서 찾기',''],roon];
  }
  let gSig='', gIdx=0, gUntil=0;
  function guide(force){
@@ -10593,10 +10608,8 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   if(!force&&m.querySelector('.pv-g'))return;
   const [txt,btn]=list[gIdx];
   own=true; m.innerHTML='<span class="pv-g pv-in"><span class="pv-mq"><span>'+esc(txt)+'</span></span>'+btn+'</span>';
-  const mq=m.querySelector('.pv-mq'), sp=mq.firstChild; let dur=6500;
-  const over=sp.scrollWidth-mq.clientWidth;
-  if(over>2){const t=Math.max(6,over/28+4);mq.classList.add('run');sp.style.setProperty('--x',(-over-16)+'px');sp.style.animationDuration=t+'s';dur=Math.max(dur,t*1000+800)}
-  gUntil=Date.now()+dur;
+  gUntil=Date.now()+Math.max(6500,txt.length*95);
+  const lk=m.querySelector('.pv-link'); if(lk)lk.onclick=e=>{e.preventDefault();e.stopPropagation();if(window.atlasOpenPageSheet)atlasOpenPageSheet('Roon에서 바로 재생하기 · 안내','roon-helper.html');else window.open('roon-helper.html','_blank')};
   const b=m.querySelector('.pv-login'); if(b)b.onclick=e=>{e.preventDefault();e.stopPropagation();loginFull()};
   setTimeout(()=>{own=false},0);
  }
@@ -10634,6 +10647,8 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
  html body #albumModal .detail:not(.atlas-editing){height:calc(100dvh - 24px)!important;max-height:calc(100dvh - 24px)!important;overflow-y:auto!important;overscroll-behavior:contain}
  html body #albumModal .detail:not(.atlas-editing)>#modalArt#modalArt{margin-top:-34px!important}
  html body #albumModal .detail:not(.atlas-editing) #albumName .album-label>span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+ html body #albumModal #atlasRoonCtl#atlasRoonCtl{margin-bottom:2px!important}
+ html body #albumModal .detail:not(.atlas-editing) .service.atlas-iconized.atlas-iconized{padding-top:8px!important;margin-top:0!important}
 }
 </style>
 <style id="atlas-public-locked-v2">

@@ -24,7 +24,12 @@ li span{color:var(--sub);font-size:14px}
 .faq{margin-top:30px;color:var(--sub);font-size:13.5px}
 .faq b{color:var(--ink)}
 .back{display:inline-block;margin-top:26px;color:var(--acc)}
+html.embed main{padding:8px 16px 24px}
+html.embed .back{display:none}
+html.embed h1{font-size:20px}
+html.embed.dark{--bg:#0e0f1c;--card:#181a2e;--ink:#ecebf5;--sub:#9d9ab8;--acc:#c9b8ff;--line:#2a2c4a}
 </style>
+<script>(function(){var q=location.search;if(/[?&]embed=1/.test(q))document.documentElement.classList.add('embed');if(/[?&]dark=1/.test(q))document.documentElement.classList.add('dark')})();</script>
 </head>
 <body>
 <main>
