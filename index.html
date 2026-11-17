@@ -10609,7 +10609,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   let aid=d.AID&&d.AID[key]; if(aid&&String(aid).startsWith('us:'))aid=null;
   const roon=['Roon 사용자라면 확장파일만 설치하면 나만의 재생앱이 되어요',HELP];
   const copy=['복사를 누르면 검색어 복사 · 어느 음악 앱에서든 붙여 넣어 찾기',''];
-  const dot=['점은 지금 스트리밍으로 들을 수 있는 서비스예요',''];
+  const dot=['앱 아이콘 위의 점은 현재 스트리밍에 연동되어 있는 곡이라는 뜻이에요',''];
   if(mine&&playing)return [['Apple Music 30초 미리듣기 중 · 전곡은 아래 아이콘으로',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],dot,roon];
   if(mine&&!playing)return [['멈춤 · ▶ 로 이어 듣기',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],roon];
   if(cur&&playing)return [['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로',''],['지금 듣는 곡은 상세창을 닫으면 아래에 보여요',''],dot];
