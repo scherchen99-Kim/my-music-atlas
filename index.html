@@ -10176,14 +10176,23 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
 <script id="atlas-availability">
 (function(){
  let M=null,AID={},TID={};
+ // 아이폰·아이패드: 웹 말고 로그인된 앱을 바로 연다 (앱이 없으면 잠시 뒤 웹으로)
+ function openAlbum(svc,id){
+  const web=svc==='apple'?'https://music.apple.com/kr/album/'+id:'https://tidal.com/album/'+id;
+  const touch=matchMedia('(pointer:coarse)').matches||/iPhone|iPad|iPod/.test(navigator.userAgent);
+  if(!touch){try{atlasOpenService(web)}catch(x){window.open(web,'_blank','noopener')}return}
+  const app=svc==='apple'?'music://music.apple.com/kr/album/'+id:'tidal://album/'+id;
+  let left=false; const mark=()=>{left=true}; document.addEventListener('visibilitychange',mark,{once:true}); addEventListener('pagehide',mark,{once:true});
+  location.href=app;
+  setTimeout(()=>{if(!left&&!document.hidden){try{atlasOpenService(web)}catch(x){window.open(web,'_blank','noopener')}}},1400);
+ }
  // 아래 Apple·Tidal 버튼: 맞춰 둔 앨범이 있으면 검색 대신 그 앨범을 바로 연다
  document.addEventListener('click',e=>{
   const b=e.target&&e.target.closest&&e.target.closest('#albumModal #apple,#albumModal #tidal'); if(!b)return;
   let key=null; try{key=atlasSharedCurrentKey()}catch(x){}
   const id=key&&(b.id==='apple'?AID[key]:TID[key]); if(!id)return;
   e.preventDefault(); e.stopImmediatePropagation();
-  const url=b.id==='apple'?'https://music.apple.com/kr/album/'+id:'https://tidal.com/album/'+id;
-  try{atlasOpenService(url)}catch(x){window.open(url,'_blank','noopener')}
+  openAlbum(b.id,id);
   const m=document.getElementById('message'); if(m)m.textContent=(b.id==='apple'?'Apple Music':'TIDAL')+'에서 이 앨범을 열었어요.';
  },true);
  const local=/^(localhost|127\.0\.0\.1|192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.)/.test(location.hostname)&&location.protocol==='http:';
@@ -10207,7 +10216,7 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
   wrap.innerHTML='<div class="ae-top"><div class="ae-name"></div><button type="button" class="ae-full" title="미리듣기는 30초 · 전곡은 로그인된 앱에서">앱에서 전곡 ↗</button><button type="button" class="ae-x" aria-label="닫고 상세창으로" title="닫기"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>';
   wrap.querySelector('.ae-name').textContent=name;
   wrap.querySelector('.ae-x').addEventListener('click',e=>{e.stopPropagation();closeEmbed(box)});
-  wrap.querySelector('.ae-full').addEventListener('click',e=>{e.stopPropagation();const u=svc==='apple'?'https://music.apple.com/kr/album/'+id:'https://tidal.com/album/'+id;try{atlasOpenService(u)}catch(x){window.open(u,'_blank','noopener')}});
+  wrap.querySelector('.ae-full').addEventListener('click',e=>{e.stopPropagation();closeEmbed(box);openAlbum(svc,id)});
   const f=document.createElement('iframe'); f.title=svc==='apple'?'Apple Music 플레이어':'TIDAL 플레이어'; f.style.colorScheme=darkUI?'dark':'light';
   if(svc==='apple'){f.className='ae-apple';f.src='https://embed.music.apple.com/kr/album/'+id+'?theme='+(darkUI?'dark':'light');f.setAttribute('allow','autoplay *; encrypted-media *; fullscreen *; clipboard-write');f.setAttribute('sandbox','allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation')}
   else{f.src='https://embed.tidal.com/albums/'+id;f.setAttribute('allow','encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share');f.setAttribute('sandbox','allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox')}
