@@ -10260,6 +10260,8 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
   wrap.style.top=detail.scrollTop+'px'; wrap.style.bottom='auto'; wrap.style.height=detail.clientHeight+'px';
  }
  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.querySelector('#albumModal .atlas-avail-embed')){e.preventDefault();e.stopImmediatePropagation();closeEmbed(document.querySelector('#albumModal .atlas-avail'))}},true);
+ const keyOf=()=>{try{return atlasSharedCurrentKey()}catch(e){return null}};
+ window.atlasAvailRepaint=()=>paint();
  function paint(){
   const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt'); if(!modal||!art)return;
   let box=modal.querySelector('.atlas-avail');
@@ -10269,12 +10271,13 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
   if(!M||!key){box.hidden=true;box.innerHTML='';box.dataset.k='';closeEmbed(box);return}
   const code=M[key]||'', q=code.includes('Q'), usOnly=String(AID[key]||'').startsWith('us:'), a=code.includes('A')&&!usOnly, t=code.includes('T'), none=code==='-'||(!q&&!a&&!t&&usOnly);
   box.hidden=false;
-  const html='<span class="av-q'+(q?' on':'')+'" title="'+(q?'Qobuz에서 들을 수 있어요':'Qobuz')+'">Qobuz</span>'
+  const qid=(window.atlasQobuzIds||{})[key]||'';
+  const html='<span class="av-q'+(q?' on':'')+(q&&qid?' av-play':'')+'" data-svc="qobuz" title="'+(q?(qid?'눌러서 Qobuz 앱으로 열기':'Qobuz에서 들을 수 있어요'):'Qobuz')+'">Qobuz</span>'
    +'<span class="av-a'+(a?' on':'')+(a&&AID[key]?' av-play':'')+'" data-svc="apple" title="'+(a?(AID[key]?'눌러서 여기서 듣기 (Apple Music)':'Apple Music에서 들을 수 있어요'):(usOnly?'한국 Apple Music에는 없어요 (미국에만 있음)':'Apple Music'))+'">Apple</span>'
    +'<span class="av-t'+(t?' on':'')+(t&&TID[key]?' av-play':'')+'" data-svc="tidal" title="'+(t?'눌러서 여기서 듣기 (TIDAL)':'TIDAL')+'">Tidal</span>'
    +'<span class="av-none'+(none?' on':'')+'" title="'+(none?'지금은 Qobuz·Apple Music에서 찾지 못했어요':'스트리밍에 없음')+'">None</span>';
-  if(box.dataset.k!==key+'|'+code){box.dataset.k=key+'|'+code;box.innerHTML=html;closeEmbed(box)}
-  if(!box.dataset.wired){box.dataset.wired='1';box.addEventListener('click',e=>{const sp=e.target.closest('span.av-play');if(sp)toggleEmbed(box,sp)})}
+  if(box.dataset.k!==key+'|'+code+'|'+(qid?1:0)){box.dataset.k=key+'|'+code+'|'+(qid?1:0);box.innerHTML=html;closeEmbed(box)}
+  if(!box.dataset.wired){box.dataset.wired='1';box.addEventListener('click',e=>{const sp=e.target.closest('span.av-play');if(!sp)return;if(sp.dataset.svc==='qobuz'){const id=(window.atlasQobuzIds||{})[keyOf()];if(id&&window.atlasOpenQobuz)window.atlasOpenQobuz(id);return}toggleEmbed(box,sp)})}
  }
  async function load(){
   const tries=local?['http://'+location.hostname+':8794/availability','availability.json']:['availability.json'];
@@ -10389,22 +10392,9 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   location.href='qobuzapp://album/'+id;                      // 1) 앱
   setTimeout(()=>{if(!left&&!document.hidden)location.href=web},1500); // 2) 안 열리면 웹(아이폰은 웹 링크도 앱으로 열림)
  }
- function paint(){
-  const art=document.getElementById('modalArt'); if(!art)return;
-  let b=document.getElementById('atlasQobuzApp');
-  if(!b){b=document.createElement('button');b.type='button';b.id='atlasQobuzApp';b.textContent='Qobuz 앱으로 열기';
-   b.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();const id=QOBUZ_IDS[keyNow()];if(id)openQobuz(id)});}
-  const anchor=document.querySelector('#albumModal .atlas-avail')||art;
-  if(b.previousElementSibling!==anchor)anchor.after(b);
-  b.hidden=!QOBUZ_IDS[keyNow()];
- }
- function setup(){
-  const m=document.getElementById('albumModal'), n=document.getElementById('albumName');
-  if(m)new MutationObserver(()=>setTimeout(paint,60)).observe(m,{attributes:true,attributeFilter:['class']});
-  if(n)new MutationObserver(()=>setTimeout(paint,60)).observe(n,{childList:true,subtree:true,characterData:true});
-  paint();
- }
- if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
+ // 글자칸 'Qobuz ▶'이 이 번호와 여는 방법을 씀 (atlas-availability)
+ window.atlasQobuzIds=QOBUZ_IDS; window.atlasOpenQobuz=openQobuz;
+ try{window.atlasAvailRepaint&&window.atlasAvailRepaint()}catch(e){}
 })();
 </script>
 <style id="atlas-public-locked-v2">
