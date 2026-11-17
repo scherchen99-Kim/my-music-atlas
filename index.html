@@ -9477,7 +9477,26 @@ setInterval(cycle,14650);
 
 
 
-
+<style id="atlas-mini-player-v1-css">
+/* atlas-mini-player-v1: 로컬용 · 화면 왼쪽 아래 따라다니는 작은 Roon 재생창 */
+#atlasMini{position:fixed;left:18px;bottom:18px;z-index:900;display:none;align-items:center;gap:10px;max-width:380px;min-width:220px;padding:7px 8px 7px 14px;border-radius:24px;background:rgba(255,255,255,.96);box-shadow:0 6px 24px rgba(30,25,50,.16),0 0 0 1px rgba(0,0,0,.05);backdrop-filter:blur(10px);font-family:"Helvetica Neue",Arial,sans-serif;color:#232326}
+#atlasMini.on{display:flex}
+#atlasMini .mp-txt{all:unset;flex:1 1 auto;min-width:0;cursor:pointer;line-height:1.25}
+#atlasMini .mp-txt b{display:block;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#atlasMini .mp-txt span{display:block;font-size:10.5px;color:#8f8a9c;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#atlasMini .mp-txt span i{font-style:normal;color:#8e86b0}
+#atlasMini .mp-txt.nolink{cursor:default}
+#atlasMini .mp-pp{all:unset;flex:0 0 auto;width:34px;height:34px;border-radius:50%;background:#232326;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#atlasMini .mp-pp svg{width:16px;height:16px;fill:currentColor}
+#atlasMini .mp-bar{position:absolute;left:16px;right:52px;bottom:4px;height:2px;border-radius:1px;background:#eeedf2;overflow:hidden}
+#atlasMini .mp-bar u{display:block;height:100%;width:0;background:#8e86b0}
+@media(max-width:600px){#atlasMini{left:12px;right:72px;bottom:12px;max-width:none;min-width:0}}
+/* 오늘의 추천 음반 · Roon 버튼 (맨 앞) */
+.atlas-daily-services a[data-daily="roon"]{color:#232326!important;cursor:pointer}
+.atlas-daily-services a[data-daily="roon"] svg{width:24px;height:24px;fill:#232326}
+.atlas-daily-services a[data-daily="apple"]{color:#d90037}
+.atlas-daily-roon-msg{margin-top:6px;font-size:11.5px;color:#7d72a8;min-height:15px}
+</style>
 
 
 <style id="atlas-detail-tidy-v1-css">
@@ -10593,7 +10612,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   const dot=['점 있는 아이콘은 이 창에서 바로 미리듣기',''];
   if(mine&&playing)return [['Apple Music 30초 미리듣기 중 · 전곡은 아래 아이콘으로',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],dot,roon];
   if(mine&&!playing)return [['멈춤 · ▶ 로 이어 듣기',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],roon];
-  if(cur&&playing)return [['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로',''],['↗ 줄을 누르면 지금 듣는 음반으로',''],dot];
+  if(cur&&playing)return [['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로',''],['지금 듣는 곡은 상세창을 닫으면 아래에 보여요',''],dot];
   if(aid)return [['▶ 를 누르면 Apple Music 30초 미리듣기',''],dot,copy,roon];
   if(d.TID&&d.TID[key])return [['▶ 를 누르면 TIDAL 미리듣기 창이 열려요',''],dot,copy,roon];
   if(d.Q&&d.Q[key])return [['▶ 를 누르면 Qobuz 미리듣기 창이 열려요',''],dot,copy,roon];
@@ -10628,13 +10647,29 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   const pp=box.querySelector('.rc-pp'); pp.innerHTML=(mine&&playing)?I.pause:I.play; pp.title=mine?'재생/멈춤':'이 음반 미리듣기';
   box.querySelector('.rc-head em').textContent=cur?(playing?'PREVIEW':'PAUSED'):'PREVIEW';
   const t=box.querySelector('.rc-title'), al=box.querySelector('.rc-album');
-  if(cur){t.textContent=cur.tracks[cur.i].name; al.textContent=(mine?'':'↗ ')+[cur.album,cur.artist].filter(Boolean).join(' · '); al.classList.toggle('link',!mine)}
+  if(cur&&mine){t.textContent=cur.tracks[cur.i].name; al.textContent=[cur.album,cur.artist].filter(Boolean).join(' · '); al.classList.remove('link')}
+  else if(cur){t.textContent='▶ 를 누르면 이 음반을 미리 들려 드려요'; al.textContent=''; box.querySelector('.rc-head em').textContent='READY'}
   else{t.textContent='▶ 를 누르면 위 음반을 30초씩 들려 드려요'; al.textContent=''}
   guide();
 
  }
- setInterval(()=>{if(!box)return;const d=audio.duration||30,c=audio.currentTime||0,pct=cur?Math.min(100,c/d*100):0;
-  box.querySelector('.rc-bar u').style.width=pct+'%';box.querySelector('.rc-knob').style.left=pct+'%';box.querySelector('.rc-t0').textContent=fmt(cur?c:0);box.querySelector('.rc-t1').textContent=fmt(cur?d:30)},300);
+ setInterval(()=>{paintMini();if(!box)return;const mineNow=!!cur&&cur.key===shownKey();const d=audio.duration||30,c=mineNow?(audio.currentTime||0):0,pct=mineNow?Math.min(100,c/d*100):0;
+  box.querySelector('.rc-bar u').style.width=pct+'%';box.querySelector('.rc-knob').style.left=pct+'%';box.querySelector('.rc-t0').textContent=fmt(c);box.querySelector('.rc-t1').textContent=fmt(mineNow?d:30)},300);
+ // 상세창을 닫으면 아래 작은 재생창에 지금 듣는 곡 (로컬 작은 재생창과 같은 모양)
+ let mini=null;
+ function paintMini(){
+  if(!mini){mini=document.createElement('div');mini.id='atlasMini';mini.className='atlas-preview-mini';mini.setAttribute('role','region');mini.setAttribute('aria-label','지금 미리듣기 중');
+   mini.innerHTML='<button type="button" class="mp-txt" title="눌러서 이 음반 상세 보기"><b></b><span></span></button><button type="button" class="mp-pp" aria-label="재생/멈춤"></button><div class="mp-bar"><u></u></div>';
+   document.body.append(mini);
+   mini.querySelector('.mp-pp').onclick=()=>{if(!cur)return;if(audio.paused)audio.play().catch(()=>{});else audio.pause();paintMini()};
+   mini.querySelector('.mp-txt').onclick=()=>{if(cur)openByKey(cur.key)};}
+  const mo=document.getElementById('albumModal'), open=!!(mo&&mo.classList.contains('open'));
+  const show=!!cur&&!open&&(!audio.paused||audio.currentTime>0); mini.classList.toggle('on',show); if(!show)return;
+  mini.querySelector('.mp-txt b').textContent=cur.tracks[cur.i].name;
+  mini.querySelector('.mp-txt span').innerHTML='<i>'+(audio.paused?'❙❙ ':'▶ ')+'미리듣기 · </i>'+esc(cur.album);
+  mini.querySelector('.mp-pp').innerHTML=audio.paused?'<svg viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z"/></svg>':'<svg viewBox="0 0 24 24"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>';
+  const pct=Math.min(100,(audio.currentTime||0)/(audio.duration||30)*100); mini.querySelector('.mp-bar u').style.width=pct+'%';
+ }
  function setup(){const m=document.getElementById('albumModal'),n=document.getElementById('albumName');
   if(m)new MutationObserver(()=>{if(m.classList.contains('open'))setTimeout(paint,60)}).observe(m,{attributes:true,attributeFilter:['class']});
   if(n)new MutationObserver(()=>setTimeout(paint,60)).observe(n,{childList:true,subtree:true,characterData:true});}
@@ -10657,7 +10692,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
 #atlasAdd,#atlasRemove,#atlasMoveGo,#atlasMovePrev,#atlasMoveNext,#atlasExport,#atlasSave,#atlasLoadShared,#atlasCoverTransfer,#atlasMobileCoverBackup,
 #atlasSearchSources,#archiveNav,#archiveView,.atlas-archive-home,.atlas-nas-home,.atlas-nas-section,.atlas-nas-side-title,.atlas-nas-sidebar-sep,
 #atlasBrowsePrev,#atlasBrowseNext,.atlas-nav-tools,.atlas-title-edit-buttons,#atlas-batch-cover-toggle,.atlas-cover-toggle,#atlasAdminLinks,
-#atlasRoonCtl:not(.atlas-preview-bar),#atlasMini,#atlasRoonZones,.atlas-grid-order-toolbar,.atlas-grid-order-controls,.atlas-grid-order-check,.atlas-album-trash,
+#atlasRoonCtl:not(.atlas-preview-bar),#atlasMini:not(.atlas-preview-mini),#atlasRoonZones,.atlas-grid-order-toolbar,.atlas-grid-order-controls,.atlas-grid-order-check,.atlas-album-trash,
 #atlas-now-playing-shortcut,.atlas-nas-player,#atlasNasWorkspace,.atlas-nas-tags{display:none!important}
 html body #albumModal .detail .atlas-edit-toggle.atlas-edit-toggle,html body #albumModal #modalPrevAlbum#modalPrevAlbum,html body #albumModal #modalNextAlbum#modalNextAlbum{display:none!important}
 /* 상세창 제목: 앞뒤 화살표 칸 없이 한 칸 전체 폭 (로컬 detail-v4와 같게) */
