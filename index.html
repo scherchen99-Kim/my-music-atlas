@@ -10564,7 +10564,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
    +'<div class="rc-row"><button type="button" class="rc-b rc-side rc-dac" aria-label="출력 장치(DAC)" title="Roon 연결 프로그램을 켜면 내 DAC로 들을 수 있어요" style="opacity:.3">'+I.dac+'</button>'
    +'<div class="rc-btns"><button type="button" class="rc-b rc-prev" aria-label="이전 곡">'+I.prev+'</button><button type="button" class="rc-b rc-pp" aria-label="이 음반 미리듣기">'+I.play+'</button><button type="button" class="rc-b rc-next" aria-label="다음 곡">'+I.next+'</button></div>'
    +'<button type="button" class="rc-b rc-side rc-volb" aria-label="볼륨" title="볼륨">'+I.vol+'</button></div>'
-   +'<div class="rc-info"><span class="rc-sp"></span><div class="rc-txt"><div class="rc-head"><em>PREVIEW</em><span class="rc-zone">  ·  Apple Music 30초</span></div><div class="rc-title">▶ 를 누르면 위 음반을 30초씩 들려 드려요</div><button type="button" class="rc-album"></button></div><button type="button" class="rc-b rc-queue" aria-label="곡 목록" title="곡 목록">'+I.queue+'</button></div>'
+   +'<div class="rc-info"><span class="rc-sp"></span><div class="rc-txt"><div class="rc-head"><em>PREVIEW</em><span class="rc-zone">  ·  Apple Music 30초</span></div><div class="rc-title">재생버튼을 누르면 30초씩 미리 들어보실 수 있습니다.</div><button type="button" class="rc-album"></button></div><button type="button" class="rc-b rc-queue" aria-label="곡 목록" title="곡 목록">'+I.queue+'</button></div>'
    +'<div class="rc-pop" hidden></div>';
   box.querySelector('.rc-pp').onclick=onPlay;
   box.querySelector('.rc-prev').onclick=()=>{if(!cur)return; if(audio.currentTime>3||cur.i===0){audio.currentTime=0;return} playIdx(cur.i-1)};
@@ -10607,7 +10607,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
  function guideList(){
   const key=shownKey(), d=data(), mine=!!cur&&cur.key===key, playing=!!cur&&!audio.paused;
   let aid=d.AID&&d.AID[key]; if(aid&&String(aid).startsWith('us:'))aid=null;
-  const roon=['Roon 사용자라면 내 Roon과 연동해 전곡 감상 · 확장만 설치하면 나만의 재생 프로그램',HELP];
+  const roon=['Roon 사용자라면 확장파일만 설치하면 나만의 재생앱이 되어요',HELP];
   const copy=['복사를 누르면 검색어 복사 · 어느 음악 앱에서든 붙여 넣어 찾기',''];
   const dot=['점은 지금 스트리밍으로 들을 수 있는 서비스예요',''];
   if(mine&&playing)return [['Apple Music 30초 미리듣기 중 · 전곡은 아래 아이콘으로',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],dot,roon];
@@ -10616,7 +10616,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   if(aid)return [['▶ 를 누르면 Apple Music 30초 미리듣기',''],dot,copy,roon];
   if(d.TID&&d.TID[key])return [['▶ 를 누르면 TIDAL 미리듣기 창이 열려요',''],dot,copy,roon];
   if(d.Q&&d.Q[key])return [['▶ 를 누르면 Qobuz 미리듣기 창이 열려요',''],dot,copy,roon];
-  return [['미리듣기가 없는 음반 · 복사해서 원하는 곳에서 찾기',''],roon];
+  return [['복사를 클릭한 후 앱 아이콘을 눌러서 검색창에 붙여넣기 하세요',''],roon];
  }
  let gSig='', gIdx=0, gUntil=0;
  function guide(force){
@@ -10649,7 +10649,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   const t=box.querySelector('.rc-title'), al=box.querySelector('.rc-album');
   if(cur&&mine){t.textContent=cur.tracks[cur.i].name; al.textContent=[cur.album,cur.artist].filter(Boolean).join(' · '); al.classList.remove('link')}
   else if(cur){t.textContent='▶ 를 누르면 이 음반을 미리 들려 드려요'; al.textContent=''; box.querySelector('.rc-head em').textContent='READY'}
-  else{t.textContent='▶ 를 누르면 위 음반을 30초씩 들려 드려요'; al.textContent=''}
+  else{t.textContent='재생버튼을 누르면 30초씩 미리 들어보실 수 있습니다.'; al.textContent=''}
   guide();
 
  }
