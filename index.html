@@ -9932,7 +9932,7 @@ html.atlas-glass body .m1-modal-backdrop .m1-player .m1-volume-panel:not([hidden
 <script id="atlas-glass">
 (()=>{
  const root=document.documentElement, on=()=>root.classList.contains('atlas-glass');
- const SKIP='.atlas-avail,.atlas-avail *,#atlasHowTo [style*="translate("],#sidebar,#sidebar *,#atlasRoonCtl .rc-pop,#atlasRoonCtl .rc-pop *,#atlasRoonCtl button.rc-b,#atlasRoonCtl button.rc-b *,dialog,.atlas-nas-tags button,.m1-modal-backdrop,.m1-modal,#atlas-nas-focus-panel,.m1-volume-panel,.m1-output-panel,.m1-output-choice,.m1-output-choice *,#atlasAdminLinks .al-c,#atlasAdminLinks .al-c *,#atlasAdminLinks button.al-b,#atlasAdminLinks em,#atlasHowTo,.ah-body,.ah-steps li,.atlas-home-recommendation,.atlas-radio-station,.atlas-daily-card,.genre-card .genre-poster,#albumModal>.detail,.atlas-daily-services>a,#albumModal .service>button,#qobuz svg,#qobuz svg *,a[data-daily="qobuz"] svg,a[data-daily="qobuz"] svg *,#atlasGlassBg,#atlasGlassBg *,canvas,img,video,#albumModal.modal,#scrim';
+ const SKIP='.atlas-avail,.atlas-avail *,.atlas-avail-embed,.atlas-avail-embed *,#atlasHowTo [style*="translate("],#sidebar,#sidebar *,#atlasRoonCtl .rc-pop,#atlasRoonCtl .rc-pop *,#atlasRoonCtl button.rc-b,#atlasRoonCtl button.rc-b *,dialog,.atlas-nas-tags button,.m1-modal-backdrop,.m1-modal,#atlas-nas-focus-panel,.m1-volume-panel,.m1-output-panel,.m1-output-choice,.m1-output-choice *,#atlasAdminLinks .al-c,#atlasAdminLinks .al-c *,#atlasAdminLinks button.al-b,#atlasAdminLinks em,#atlasHowTo,.ah-body,.ah-steps li,.atlas-home-recommendation,.atlas-radio-station,.atlas-daily-card,.genre-card .genre-poster,#albumModal>.detail,.atlas-daily-services>a,#albumModal .service>button,#qobuz svg,#qobuz svg *,a[data-daily="qobuz"] svg,a[data-daily="qobuz"] svg *,#atlasGlassBg,#atlasGlassBg *,canvas,img,video,#albumModal.modal,#scrim';
  const parse=v=>{const m=String(v).match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?/); return m?[+m[1]/255,+m[2]/255,+m[3]/255,m[4]===undefined?1:+m[4]]:null;};
  const hsl=([r,g,b])=>{const mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2;let h=0,s=0;if(mx!==mn){const d=mx-mn;s=l>.5?d/(2-mx-mn):d/(mx+mn);h=mx===r?(g-b)/d+(g<b?6:0):mx===g?(b-r)/d+2:(r-g)/d+4;h/=6;}return [h,s,l];};
  const purple=([h,s])=>s>.12&&h>215/360&&h<290/360;
@@ -10159,6 +10159,14 @@ html.atlas-glass #albumModal .atlas-side-arrow{background:rgba(255,255,255,.16)!
 html.atlas-glass body #albumModal #albumModal-avail-x, html.atlas-glass body #albumModal div.atlas-avail>span[class]{background:rgba(255,255,255,.16)!important;color:rgba(255,255,255,.62)!important}
 html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba(255,255,255,.92)!important;color:#3a3550!important}
 #albumModal .detail.atlas-editing .atlas-avail,#albumModal .detail.atlas-nas-mode .atlas-avail{display:none!important}
+/* 2단계: 진한 Apple·Tidal 칸을 누르면 상세창 안에서 듣기 (공식 미리듣기/구독자는 전곡) */
+#albumModal .atlas-avail span.av-play{cursor:pointer}
+#albumModal .atlas-avail span.av-play::after{content:" \25B6";font-size:8.5px;vertical-align:1px;opacity:.85}
+#albumModal .atlas-avail span.av-play.open::after{content:" \2715"}
+#albumModal .atlas-avail-embed{width:min(100%,560px);margin:2px auto 12px;border-radius:12px;overflow:hidden}
+#albumModal .atlas-avail-embed[hidden]{display:none!important}
+#albumModal .atlas-avail-embed iframe{display:block;width:100%;border:0;border-radius:12px;background:transparent}
+#albumModal .detail.atlas-editing .atlas-avail-embed,#albumModal .detail.atlas-nas-mode .atlas-avail-embed{display:none!important}
 </style>
 <script id="atlas-availability">
 (function(){
@@ -10177,20 +10185,33 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
  function logo(id,cls,title){
   try{const L=ATLAS_SERVICE_LOGOS[id];return '<span class="'+cls+'" title="'+title+'" aria-label="'+title+'"><svg viewBox="'+L[0]+'" aria-hidden="true">'+L[1]+'</svg></span>'}catch(e){return ''}
  }
+ function closeEmbed(box){const p=box&&box.nextElementSibling;if(p&&p.classList.contains('atlas-avail-embed'))p.remove();box&&box.querySelectorAll('.av-play.open').forEach(x=>x.classList.remove('open'))}
+ function toggleEmbed(box,sp){
+  const was=sp.classList.contains('open'); closeEmbed(box); if(was)return;
+  let key=null; try{key=atlasSharedCurrentKey()}catch(x){} if(!key)return;
+  const svc=sp.dataset.svc, id=svc==='apple'?AID[key]:TID[key]; if(!id)return;
+  const wrap=document.createElement('div'); wrap.className='atlas-avail-embed';
+  const f=document.createElement('iframe'); f.loading='lazy'; f.title=svc==='apple'?'Apple Music 플레이어':'TIDAL 플레이어';
+  if(svc==='apple'){f.src='https://embed.music.apple.com/kr/album/'+id+'?theme=auto';f.height='450';f.setAttribute('allow','autoplay *; encrypted-media *; fullscreen *; clipboard-write');f.setAttribute('sandbox','allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation')}
+  else{f.src='https://embed.tidal.com/albums/'+id;f.height='360';f.setAttribute('allow','encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share');f.setAttribute('sandbox','allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox')}
+  wrap.append(f); box.after(wrap); sp.classList.add('open');
+  setTimeout(()=>{try{wrap.scrollIntoView({block:'nearest',behavior:'smooth'})}catch(x){}},120);
+ }
  function paint(){
   const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt'); if(!modal||!art)return;
   let box=modal.querySelector('.atlas-avail');
   if(!box){box=document.createElement('div');box.className='atlas-avail';art.after(box)}
   if(box.previousElementSibling!==art)art.after(box);
   let key=null; try{key=typeof atlasSharedCurrentKey==='function'?atlasSharedCurrentKey():null}catch(e){}
-  if(!M||!key){box.hidden=true;box.innerHTML='';box.dataset.k='';return}
+  if(!M||!key){box.hidden=true;box.innerHTML='';box.dataset.k='';closeEmbed(box);return}
   const code=M[key]||'', q=code.includes('Q'), a=code.includes('A'), t=code.includes('T'), none=code==='-';
   box.hidden=false;
   const html='<span class="av-q'+(q?' on':'')+'" title="'+(q?'Qobuz에서 들을 수 있어요':'Qobuz')+'">Qobuz</span>'
-   +'<span class="av-a'+(a?' on':'')+'" title="'+(a?'Apple Music에서 들을 수 있어요':'Apple Music')+'">Apple</span>'
-   +'<span class="av-t'+(t?' on':'')+'" title="'+(t?'TIDAL에서 들을 수 있어요':'TIDAL')+'">Tidal</span>'
+   +'<span class="av-a'+(a?' on':'')+(a&&AID[key]?' av-play':'')+'" data-svc="apple" title="'+(a?(AID[key]?'눌러서 여기서 듣기 (Apple Music)':'Apple Music에서 들을 수 있어요'):'Apple Music')+'">Apple</span>'
+   +'<span class="av-t'+(t?' on':'')+(t&&TID[key]?' av-play':'')+'" data-svc="tidal" title="'+(t?'눌러서 여기서 듣기 (TIDAL)':'TIDAL')+'">Tidal</span>'
    +'<span class="av-none'+(none?' on':'')+'" title="'+(none?'지금은 Qobuz·Apple Music에서 찾지 못했어요':'스트리밍에 없음')+'">None</span>';
-  if(box.dataset.k!==key+'|'+code){box.dataset.k=key+'|'+code;box.innerHTML=html}
+  if(box.dataset.k!==key+'|'+code){box.dataset.k=key+'|'+code;box.innerHTML=html;closeEmbed(box)}
+  if(!box.dataset.wired){box.dataset.wired='1';box.addEventListener('click',e=>{const sp=e.target.closest('span.av-play');if(sp)toggleEmbed(box,sp)})}
  }
  async function load(){
   const tries=local?['http://'+location.hostname+':8794/availability','availability.json']:['availability.json'];
