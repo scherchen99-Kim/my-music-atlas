@@ -10191,13 +10191,44 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
   setTimeout(()=>{if(!left&&!document.hidden){try{atlasOpenService(web)}catch(x){window.open(web,'_blank','noopener')}}},1400);
  }
  // 아래 Apple·Tidal 버튼: 맞춰 둔 앨범이 있으면 검색 대신 그 앨범을 바로 연다
+ // 아래 Qobuz·Apple·Tidal 버튼 — 데스크탑은 '앱으로/웹으로'를 서비스마다 처음 한 번만 묻고 기억
+ const SVCN={qobuz:'Qobuz',apple:'Apple Music',tidal:'TIDAL'};
+ const isTouch=()=>matchMedia('(pointer:coarse)').matches||/iPhone|iPad|iPod/.test(navigator.userAgent);
+ const prefGet=s=>{try{return localStorage.getItem('atlasOpen_'+s)||''}catch(x){return ''}};
+ const prefSet=(s,v)=>{try{v?localStorage.setItem('atlasOpen_'+s,v):localStorage.removeItem('atlasOpen_'+s)}catch(x){}};
+ const msg=h=>{const m=document.getElementById('message');if(m)m.innerHTML=h};
+ function termNow(){try{return atlasStripOpera(atlasSelectedSearch(document.getElementById('queryValue').value)||searchTextFor(selected.a,selected.g,selected.p))}catch(x){return ''}}
+ function openApp(svc,id){
+  const t=termNow(); try{copyQ()}catch(x){}
+  let u;
+  if(svc==='apple')u=id?'music://music.apple.com/'+appleSF(id)+'/album/'+appleID(id):'music://music.apple.com/kr/search?term='+encodeURIComponent(t);
+  else if(svc==='tidal')u=id?'tidal://album/'+id:'tidal://';
+  else u='qobuzapp://';
+  location.href=u;
+  msg(SVCN[svc]+' 앱을 열었어요'+(id?'.':' · 검색어를 복사했어요.')+' <a href="javascript:void 0" data-chg="'+svc+'" style="color:inherit;text-decoration:underline">열기 방식 바꾸기</a>');
+ }
+ function ask(svc,run){
+  msg(SVCN[svc]+' 버튼은 앞으로 어떻게 열까요? <a href="javascript:void 0" data-pick="app" style="color:inherit;font-weight:700;text-decoration:underline;margin:0 6px">앱으로</a><a href="javascript:void 0" data-pick="web" style="color:inherit;font-weight:700;text-decoration:underline">웹으로</a>');
+  const m=document.getElementById('message'); if(!m)return;
+  m.querySelectorAll('[data-pick]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();prefSet(svc,a.dataset.pick);run()},{once:true,capture:true}));
+ }
  document.addEventListener('click',e=>{
-  const b=e.target&&e.target.closest&&e.target.closest('#albumModal #apple,#albumModal #tidal'); if(!b)return;
-  let key=null; try{key=atlasSharedCurrentKey()}catch(x){}
-  const id=key&&(b.id==='apple'?AID[key]:TID[key]); if(!id||String(id).startsWith('us:'))return;
-  e.preventDefault(); e.stopImmediatePropagation();
-  openAlbum(b.id,id);
-  const m=document.getElementById('message'); if(m)m.textContent=(b.id==='apple'?'Apple Music':'TIDAL')+'에서 이 앨범을 열었어요.';
+  const c=e.target&&e.target.closest&&e.target.closest('#message [data-chg]');
+  if(c){e.preventDefault();e.stopImmediatePropagation();const sv=c.dataset.chg;prefSet(sv,'');ask(sv,()=>{const b=document.getElementById(sv);if(b)b.click()});}
+ },true);
+ document.addEventListener('click',e=>{
+  const b=e.target&&e.target.closest&&e.target.closest('#albumModal #apple,#albumModal #tidal,#albumModal #qobuz'); if(!b)return;
+  const svc=b.id; let key=null; try{key=atlasSharedCurrentKey()}catch(x){}
+  let id=key&&(svc==='apple'?AID[key]:svc==='tidal'?TID[key]:null); if(id&&String(id).startsWith('us:'))id=null;
+  if(isTouch()){ // 아이폰: 맞춘 앨범은 앱으로 바로(없으면 웹), 나머지는 원래대로
+   if(!id)return; e.preventDefault(); e.stopImmediatePropagation(); openAlbum(svc,id); msg(SVCN[svc]+'에서 이 앨범을 열었어요.'); return;
+  }
+  const pref=prefGet(svc);
+  if(!pref){e.preventDefault();e.stopImmediatePropagation();ask(svc,()=>b.click());return}
+  if(pref==='app'){e.preventDefault();e.stopImmediatePropagation();openApp(svc,id);return}
+  if(!id)return; // 웹 + 못 맞춘 앨범 = 원래 검색
+  e.preventDefault(); e.stopImmediatePropagation(); openAlbum(svc,id);
+  msg(SVCN[svc]+'에서 이 앨범을 열었어요. <a href="javascript:void 0" data-chg="'+svc+'" style="color:inherit;text-decoration:underline">열기 방식 바꾸기</a>');
  },true);
  const local=/^(localhost|127\.0\.0\.1|192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[01])\.)/.test(location.hostname)&&location.protocol==='http:';
  function logo(id,cls,title){
