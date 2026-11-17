@@ -10349,6 +10349,24 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
 html.atlas-glass .atlas-wm{filter:invert(1)}
 @media(max-width:600px){.atlas-wm-bar{height:15px}}
 </style>
+<style id="atlas-detail-tidy-css">
+/* 상세창 정리: 표지 둘레 사각 테두리 없앰 · 아래 아이콘 줄은 표지 폭에 맞춤 */
+html body #albumModal #modalArt{outline:none!important;border:0!important;box-shadow:none!important}
+html body #albumModal .detail:not(.atlas-editing) .service.atlas-iconized.atlas-iconized{width:auto!important;max-width:min(100%,calc(var(--atlas-art-w,520px) + 40px))!important;margin-left:auto!important;margin-right:auto!important;justify-content:space-between!important}
+html body #albumModal .detail:not(.atlas-editing) .service.atlas-iconized.atlas-iconized>.atlas-svc-split{margin-left:6px!important;margin-right:6px!important}
+</style>
+<script id="atlas-detail-tidy">
+(function(){
+ function fit(){
+  const art=document.getElementById('modalArt'), d=art&&art.closest('.detail'); if(!art||!d)return;
+  const r=art.getBoundingClientRect(); if(!r.width)return;
+  let w=r.width; if(art.naturalWidth&&art.naturalHeight){const ratio=art.naturalWidth/art.naturalHeight; w=Math.min(r.width,r.height*ratio)}
+  d.style.setProperty('--atlas-art-w',Math.round(w)+'px');
+ }
+ function setup(){const art=document.getElementById('modalArt');if(!art)return;art.addEventListener('load',fit);if(window.ResizeObserver)new ResizeObserver(fit).observe(art);const m=document.getElementById('albumModal');if(m)new MutationObserver(()=>setTimeout(fit,40)).observe(m,{attributes:true,attributeFilter:['class']});fit()}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
+})();
+</script>
 <style id="atlas-public-locked-v2">
 /* 공개용: 둘러보기만. 편집·NAS·재생 제어·관리자 기능은 화면에 없음 */
 .atlas-edit-toggle,.atlas-workspace,.atlas-editor-top,#metadataEditor,#newAlbumEditor,#hdFloat,#hdPanel,#saveOptions,
@@ -10375,5 +10393,6 @@ function atlasPublicRoon(){try{if(!selected)return;copyQ();window.location.href=
 try{atlasRoonPlay=atlasPublicRoon}catch(e){}
 document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('roon');if(b)b.onclick=atlasPublicRoon});
 </script>
+<style id="atlas-public-one-split">#albumModal #atlasCopySplit{display:none!important}</style>
 <style id="atlas-public-side-arrows">@media (hover:none),(pointer:coarse){#albumModal .atlas-side-arrow{display:none!important}}</style>
 </body></html>
