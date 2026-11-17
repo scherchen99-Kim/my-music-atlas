@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-17T12:33:47.985Z",
+  "createdAt": "2026-11-17T15:02:49.239Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -3637,11 +3637,11 @@
       "approvedAt": "2026-10-25T11:18:23.751Z"
     },
     "Symphonies|37|28.8319|15.0303|N.Jarvi": {
-      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/bc/50/6bbc50d9-eef0-0d05-f613-677f5ab70368/5059864865633.png/600x600bb.jpg",
-      "album": "Music From Estonia, Vol. 2",
-      "artist": "Neeme Järvi & Royal Scottish National Orchestra",
-      "source": "Apple iTunes Search API",
-      "approvedAt": "2026-10-25T11:18:47.792Z"
+      "url": "https://i.discogs.com/BClYnbvMFxw8Cmx-n24-QIWLErTgJy1RupXuKpHdLdk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNzc2/NjQtMTUwNzA4MDEy/My04ODkyLmpwZWc.jpeg",
+      "album": "",
+      "artist": "",
+      "source": "Manual image URL",
+      "approvedAt": "2026-11-17T13:12:20.842Z"
     },
     "Symphonies|37|28.4746|41.7715|Raid N.Jarvi": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/21/d0/0b21d0e7-3687-de59-48ee-cfc7cd969ef5/5059864852534.png/600x600bb.jpg",
@@ -3714,11 +3714,11 @@
       "approvedAt": "2026-10-25T12:01:30.695Z"
     },
     "Symphonies|39|32.6906|20.9314|Jean Sibelius 전집 Sarasate Ondine": {
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZuM3PTwHNmTvwO4S_jZEb2wGNgQsMUEhkPWFK-DShUSm8UcDr-xN9d0&s=10",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5eqVLm5cKOGqyM3XQOvqjhJITeu4XhvAqSe0JYUsHa8XteOzg9516v1I&s=10",
       "album": "",
       "artist": "",
       "source": "Manual image URL",
-      "approvedAt": "2026-10-25T12:01:50.819Z"
+      "approvedAt": "2026-11-17T13:21:33.034Z"
     },
     "Symphonies|39|4.144|45.6092|Jean Sibelius 1 Rozhdestvensky": {
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcclZ6rI4XslzUGzScrPdls0bhZxjeh53of7rnQwpFdy-z2eVHpKNb0eU&s=10",
@@ -7935,11 +7935,11 @@
       "approvedAt": "2026-11-04T09:06:16.490Z"
     },
     "Symphonies|38|4.537|67.5107|Ivanovs 8 Sinaisky": {
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8VrWf8vFq9T71UzOVr3jggrGnGL2VX9VhBskXsEOrw7s5LCxiYWxk_Xz&s=10",
-      "album": "",
-      "artist": "",
-      "source": "Manual image URL",
-      "approvedAt": "2026-11-04T09:06:41.238Z"
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m11/d13/h17/s05.snsittid.jpg/600x600bb.jpg",
+      "album": "Ivanovs: Symphonies Nos. 8 & 20",
+      "artist": "Dmitry Yablonsky & Moscow Symphony Orchestra",
+      "source": "Apple iTunes Search API",
+      "approvedAt": "2026-11-17T13:16:49.623Z"
     },
     "Symphonies|38|29.4683|14.8341|Vasks 2 Kangas": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/7d/37/46/mzi.nsrljnej.jpg/600x600bb.jpg",
@@ -51017,9 +51017,9 @@
     "Symphonies|38|4.537|67.5107|Ivanovs 8 Sinaisky": {
       "composer": "Ivanovs",
       "work": "Symphony No.8",
-      "performer": "Sinaisky",
-      "searchQuery": "Ivanovs Sinaisky",
-      "updatedAt": "2026-11-10T09:38:27.592Z"
+      "performer": "Yablonsky",
+      "searchQuery": "Ivanovs Yablonsky",
+      "updatedAt": "2026-11-17T13:16:44.762Z"
     },
     "Symphonies|38|29.4683|14.8341|Vasks 2 Kangas": {
       "composer": "Vasks",
@@ -51094,9 +51094,9 @@
     "Symphonies|39|32.6906|20.9314|Jean Sibelius 전집 Sarasate Ondine": {
       "composer": "Sibelius",
       "work": "Symphony 전집",
-      "performer": "Sarasate r.RCA",
+      "performer": "Sarasate",
       "searchQuery": "Sibelius Symphony Sarasate",
-      "updatedAt": "2026-11-10T09:42:05.763Z"
+      "updatedAt": "2026-11-17T13:21:13.657Z"
     },
     "Symphonies|39|4.144|45.6092|Jean Sibelius 1 Rozhdestvensky": {
       "composer": "Sibelius",
@@ -51274,11 +51274,11 @@
       "updatedAt": "2026-11-10T09:37:10.124Z"
     },
     "Symphonies|37|28.8319|15.0303|N.Jarvi": {
-      "composer": "Lemba",
+      "composer": "Raid",
       "work": "Symphony",
       "performer": "N.Jarvi",
-      "searchQuery": "Lemba Jarvi",
-      "updatedAt": "2026-11-10T09:38:02.924Z"
+      "searchQuery": "Raid Jarvi",
+      "updatedAt": "2026-11-17T13:11:57.458Z"
     },
     "Symphonies|37|4.354|68.2753|Tamberg 1 Botschkowa": {
       "composer": "Tamberg",
@@ -78984,6 +78984,9 @@
     },
     "Symphonies|3|53.7203|68.1787|Eichnerd d minor Ehrhardt": {
       "position": 19
+    },
+    "Symphonies|37|28.8319|15.0303|N.Jarvi": {
+      "position": 12
     }
   },
   "order": {
