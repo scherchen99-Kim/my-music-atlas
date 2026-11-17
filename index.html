@@ -10613,6 +10613,14 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
 })();
 </script>
+<style id="atlas-unified-mobile-detail">
+/* 통일(아이폰): 상세창을 실제 보이는 화면 높이에 고정 → 아래 줄이 안 잘리고, 음반을 넘겨도 아이콘 위치가 그대로 */
+@media(max-width:799px){
+ html body #albumModal .detail:not(.atlas-editing){height:calc(100dvh - 24px)!important;max-height:calc(100dvh - 24px)!important;overflow-y:auto!important;overscroll-behavior:contain}
+ html body #albumModal .detail:not(.atlas-editing)>#modalArt#modalArt{margin-top:-34px!important}
+ html body #albumModal .detail:not(.atlas-editing) #albumName .album-label>span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+}
+</style>
 <style id="atlas-public-locked-v2">
 /* 공개용: 둘러보기만. 편집·NAS·재생 제어·관리자 기능은 화면에 없음 */
 .atlas-edit-toggle,.atlas-workspace,.atlas-editor-top,#metadataEditor,#newAlbumEditor,#hdFloat,#hdPanel,#saveOptions,
