@@ -10346,6 +10346,7 @@ html.atlas-glass body #albumModal .service .atlas-dot::after{background:#f5d0fe;
  },true);
  window.atlasAvailRepaint=()=>paint();
  window.atlasAvailData=()=>({M,AID,TID,Q:window.atlasQobuzIds||{}});
+ window.atlasOpenAlbum=(svc,id)=>openAlbum(svc,id);
  window.atlasOpenSheet=svc=>{const box=document.querySelector('#albumModal .atlas-avail');if(!box)return;const sp=document.createElement('span');sp.dataset.svc=svc;toggleEmbed(box,sp)};
  function paint(){
   const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt'); if(!modal||!art)return;
@@ -10483,6 +10484,16 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
  try{window.atlasAvailRepaint&&window.atlasAvailRepaint()}catch(e){}
 })();
 </script>
+<style id="atlas-preview-guide-css">
+/* 공개용 맨 아래 안내 줄: 상황 안내(길면 흐름) + 로그인 버튼 */
+#message .pv-g{display:flex;align-items:center;justify-content:center;gap:8px;max-width:100%;min-width:0}
+#message .pv-mq{display:block;min-width:0;overflow:hidden;white-space:nowrap}
+#message .pv-mq>span{display:inline-block;white-space:nowrap}
+#message .pv-mq.run{-webkit-mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 12px),transparent);mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 12px),transparent)}
+#message .pv-mq.run>span{animation:pvMq linear infinite}
+@keyframes pvMq{0%,14%{transform:translateX(0)}86%,100%{transform:translateX(var(--x,0))}}
+#message .pv-login{flex:none;border:1px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:5px 10px;font:700 11.5px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;cursor:pointer;white-space:nowrap}
+</style>
 <script id="atlas-preview-player">
 /* 공개용 재생바: 로컬 Roon 재생바와 같은 모양. 위에 보이는 음반의 Apple Music 30초 미리듣기를 우리 창 안에서 재생.
    로컬(Roon 재생바가 있는 곳)에서는 아무것도 안 함. DAC 버튼은 흐리게(Roon 연결 프로그램용). */
@@ -10549,6 +10560,38 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
    cur={key,tracks:r.tracks,i:0,album:r.album,artist:r.artist}; say(''); playIdx(0);
   }catch(e){say('미리듣기를 불러오지 못했어요.')}finally{loading=false}
  }
+ // 맨 아래 안내 줄: 상황마다 맞는 안내 (길면 흐르는 글자), 미리듣기 중엔 '로그인하고 전곡 듣기'
+ let own=false, hold=0, lastG='';
+ (function watch(){const m=document.getElementById('message');if(!m){setTimeout(watch,800);return}
+  new MutationObserver(()=>{if(own)return;if(m.textContent.trim()&&!m.querySelector('.pv-g'))hold=Date.now()+4500;else{hold=0;lastG='';setTimeout(guide,30)}}).observe(m,{childList:true,subtree:true,characterData:true})})();
+ function guideHTML(){
+  const key=shownKey(), d=data(), mine=!!cur&&cur.key===key, playing=!!cur&&!audio.paused;
+  let aid=d.AID&&d.AID[key]; if(aid&&String(aid).startsWith('us:'))aid=null;
+  const btn='<button type="button" class="pv-login">로그인하고 전곡 듣기 ›</button>';
+  if(mine&&playing)return ['Apple Music 30초 미리듣기 중이에요 · 전곡은 Apple Music 구독 후 로그인하면 들을 수 있어요',btn];
+  if(mine&&!playing)return ['멈춤 · ▶ 로 이어 듣기 · 전곡은 Apple Music 구독 후 로그인',btn];
+  if(cur&&playing)return ['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로 바꿔 들려 드려요',''];
+  if(aid)return ['▶ 를 누르면 이 음반을 Apple Music 30초 미리듣기로 들려 드려요',''];
+  if(d.TID&&d.TID[key])return ['▶ 를 누르면 TIDAL 미리듣기 창이 열려요',''];
+  if(d.Q&&d.Q[key])return ['▶ 를 누르면 Qobuz 미리듣기 창이 열려요',''];
+  return ['이 음반은 미리듣기가 없어요 · 복사해서 원하는 곳에서 찾아 들어 주세요',''];
+ }
+ function guide(){
+  const m=document.getElementById('message'); if(!m||Date.now()<hold)return;
+  const [txt,btn]=guideHTML(); const sig=txt+btn; if(sig===lastG&&m.querySelector('.pv-g'))return; lastG=sig;
+  own=true; m.innerHTML='<span class="pv-g"><span class="pv-mq"><span>'+esc(txt)+'</span></span>'+btn+'</span>';
+  const mq=m.querySelector('.pv-mq'), sp=mq.firstChild;
+  requestAnimationFrame(()=>{const over=sp.scrollWidth-mq.clientWidth; if(over>2){mq.classList.add('run');sp.style.setProperty('--x',(-over-16)+'px');sp.style.animationDuration=Math.max(6,over/28+4)+'s'}});
+  const b=m.querySelector('.pv-login'); if(b)b.onclick=e=>{e.preventDefault();e.stopPropagation();loginFull()};
+  setTimeout(()=>{own=false},0);
+ }
+ function loginFull(){
+  const key=shownKey(), d=data(); let aid=cur&&cur.key===key?(d.AID&&d.AID[key]):(d.AID&&d.AID[key]); if(!aid)return;
+  audio.pause();
+  const touch=matchMedia('(pointer:coarse)').matches||/iPhone|iPad|iPod/.test(navigator.userAgent);
+  if(touch&&window.atlasOpenAlbum)atlasOpenAlbum('apple',aid); else if(window.atlasOpenSheet)atlasOpenSheet('apple');
+ }
+ setInterval(()=>{const mo=document.getElementById('albumModal');if(mo&&mo.classList.contains('open'))guide()},1000);
  audio.addEventListener('ended',()=>{if(cur&&cur.i<cur.tracks.length-1)playIdx(cur.i+1);else paint()});
  ['play','pause','loadedmetadata'].forEach(ev=>audio.addEventListener(ev,()=>paint()));
  function paint(){
@@ -10559,6 +10602,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   const t=box.querySelector('.rc-title'), al=box.querySelector('.rc-album');
   if(cur){t.textContent=cur.tracks[cur.i].name; al.textContent=(mine?'':'↗ ')+[cur.album,cur.artist].filter(Boolean).join(' · '); al.classList.toggle('link',!mine)}
   else{t.textContent='▶ 를 누르면 위 음반을 30초씩 들려 드려요'; al.textContent=''}
+  guide();
 
  }
  setInterval(()=>{if(!box)return;const d=audio.duration||30,c=audio.currentTime||0,pct=cur?Math.min(100,c/d*100):0;
