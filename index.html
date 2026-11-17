@@ -10492,6 +10492,9 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
 #message .pv-mq.run{-webkit-mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 12px),transparent);mask-image:linear-gradient(90deg,transparent,#000 12px,#000 calc(100% - 12px),transparent)}
 #message .pv-mq.run>span{animation:pvMq linear infinite}
 @keyframes pvMq{0%,14%{transform:translateX(0)}86%,100%{transform:translateX(var(--x,0))}}
+#message .pv-link{flex:none;color:inherit;font-weight:700;text-decoration:underline;text-underline-offset:2px;white-space:nowrap}
+#message .pv-in{animation:pvIn .35s ease-out}
+@keyframes pvIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
 #message .pv-login{flex:none;border:1px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:5px 10px;font:700 11.5px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;cursor:pointer;white-space:nowrap}
 </style>
 <script id="atlas-preview-player">
@@ -10561,27 +10564,39 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   }catch(e){say('미리듣기를 불러오지 못했어요.')}finally{loading=false}
  }
  // 맨 아래 안내 줄: 상황마다 맞는 안내 (길면 흐르는 글자), 미리듣기 중엔 '로그인하고 전곡 듣기'
- let own=false, hold=0, lastG='';
+ let own=false, hold=0;
  (function watch(){const m=document.getElementById('message');if(!m){setTimeout(watch,800);return}
-  new MutationObserver(()=>{if(own)return;if(m.textContent.trim()&&!m.querySelector('.pv-g'))hold=Date.now()+4500;else{hold=0;lastG='';setTimeout(guide,30)}}).observe(m,{childList:true,subtree:true,characterData:true})})();
- function guideHTML(){
+  new MutationObserver(()=>{if(own)return;if(m.textContent.trim()&&!m.querySelector('.pv-g'))hold=Date.now()+4500;else{hold=0;setTimeout(()=>guide(true),30)}}).observe(m,{childList:true,subtree:true,characterData:true})})();
+ // 상황마다 안내 문구 여러 개를 차례로 (문구마다 6초, 길면 다 흐른 뒤 다음)
+ const LOGIN='<button type="button" class="pv-login">로그인하고 전곡 듣기 ›</button>';
+ const HELP='<a class="pv-link" href="roon-helper.html" target="_blank" rel="noopener">안내 ›</a>';
+ function guideList(){
   const key=shownKey(), d=data(), mine=!!cur&&cur.key===key, playing=!!cur&&!audio.paused;
   let aid=d.AID&&d.AID[key]; if(aid&&String(aid).startsWith('us:'))aid=null;
-  const btn='<button type="button" class="pv-login">로그인하고 전곡 듣기 ›</button>';
-  if(mine&&playing)return ['Apple Music 30초 미리듣기 중이에요 · 전곡은 Apple Music 구독 후 로그인하면 들을 수 있어요',btn];
-  if(mine&&!playing)return ['멈춤 · ▶ 로 이어 듣기 · 전곡은 Apple Music 구독 후 로그인',btn];
-  if(cur&&playing)return ['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로 바꿔 들려 드려요',''];
-  if(aid)return ['▶ 를 누르면 이 음반을 Apple Music 30초 미리듣기로 들려 드려요',''];
-  if(d.TID&&d.TID[key])return ['▶ 를 누르면 TIDAL 미리듣기 창이 열려요',''];
-  if(d.Q&&d.Q[key])return ['▶ 를 누르면 Qobuz 미리듣기 창이 열려요',''];
-  return ['이 음반은 미리듣기가 없어요 · 복사해서 원하는 곳에서 찾아 들어 주세요',''];
+  const roon=['Roon에서 Qobuz·TIDAL을 쓰신다면 연결 프로그램을 깔아 이 사이트에서 내 DAC로 바로 들어 보세요',HELP];
+  const copy=['복사를 누르면 검색어가 복사돼요 · 어느 음악 앱에서든 붙여 넣어 찾을 수 있어요',''];
+  const dot=['점이 있는 아이콘은 이 창 안에서 바로 미리 들을 수 있어요',''];
+  if(mine&&playing)return [['지금 Apple Music 30초 미리듣기 중이에요 · 전곡은 아래 앱 아이콘으로 감상하세요',''],['Apple Music을 구독 중이면 로그인하고 전곡을 들을 수 있어요',LOGIN],dot,roon];
+  if(mine&&!playing)return [['멈춤 · ▶ 로 이어 듣기',''],['Apple Music을 구독 중이면 로그인하고 전곡을 들을 수 있어요',LOGIN],roon];
+  if(cur&&playing)return [['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로 바꿔 들려 드려요',''],['재생 정보 줄(↗)을 누르면 지금 듣는 음반으로 돌아가요',''],dot];
+  if(aid)return [['▶ 를 누르면 이 음반을 Apple Music 30초 미리듣기로 들려 드려요',''],dot,copy,roon];
+  if(d.TID&&d.TID[key])return [['▶ 를 누르면 TIDAL 미리듣기 창이 열려요',''],dot,copy,roon];
+  if(d.Q&&d.Q[key])return [['▶ 를 누르면 Qobuz 미리듣기 창이 열려요',''],dot,copy,roon];
+  return [['이 음반은 미리듣기가 없어요 · 복사해서 원하는 곳에서 찾아 들어 주세요',''],roon];
  }
- function guide(){
+ let gSig='', gIdx=0, gUntil=0;
+ function guide(force){
   const m=document.getElementById('message'); if(!m||Date.now()<hold)return;
-  const [txt,btn]=guideHTML(); const sig=txt+btn; if(sig===lastG&&m.querySelector('.pv-g'))return; lastG=sig;
-  own=true; m.innerHTML='<span class="pv-g"><span class="pv-mq"><span>'+esc(txt)+'</span></span>'+btn+'</span>';
-  const mq=m.querySelector('.pv-mq'), sp=mq.firstChild;
-  requestAnimationFrame(()=>{const over=sp.scrollWidth-mq.clientWidth; if(over>2){mq.classList.add('run');sp.style.setProperty('--x',(-over-16)+'px');sp.style.animationDuration=Math.max(6,over/28+4)+'s'}});
+  const list=guideList(), sig=list.map(x=>x[0]).join('|');
+  if(sig!==gSig){gSig=sig;gIdx=0;gUntil=0;force=true}
+  else if(Date.now()>=gUntil&&list.length>1){gIdx=(gIdx+1)%list.length;force=true}
+  if(!force&&m.querySelector('.pv-g'))return;
+  const [txt,btn]=list[gIdx];
+  own=true; m.innerHTML='<span class="pv-g pv-in"><span class="pv-mq"><span>'+esc(txt)+'</span></span>'+btn+'</span>';
+  const mq=m.querySelector('.pv-mq'), sp=mq.firstChild; let dur=6500;
+  const over=sp.scrollWidth-mq.clientWidth;
+  if(over>2){const t=Math.max(6,over/28+4);mq.classList.add('run');sp.style.setProperty('--x',(-over-16)+'px');sp.style.animationDuration=t+'s';dur=Math.max(dur,t*1000+800)}
+  gUntil=Date.now()+dur;
   const b=m.querySelector('.pv-login'); if(b)b.onclick=e=>{e.preventDefault();e.stopPropagation();loginFull()};
   setTimeout(()=>{own=false},0);
  }
