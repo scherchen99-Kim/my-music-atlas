@@ -9406,7 +9406,74 @@ setInterval(cycle,14650);
 })();
 </script>
 
+<style id="atlas-roon-ctl-v1-css">
+/* atlas-roon-ctl-v2: 로컬용 상세창 · Roon 재생 줄 — 높이 고정, 가운데 정렬, NOW PLAYING 표시 */
+#atlasRoonCtl{display:none;flex-direction:column;align-items:center;gap:0;margin:6px auto 0;padding:8px 0 0;border-top:1px dashed #ececf0;height:104px;box-sizing:border-box;text-align:center;width:100%}
+#atlasRoonCtl.on{display:flex}
+#atlasRoonCtl .rc-head{font-size:9.5px;letter-spacing:.14em;color:#a7a3b3;line-height:12px;height:12px}
+#atlasRoonCtl .rc-head em{font-style:normal;font-weight:600;color:#7d72a8}
+#atlasRoonCtl .rc-title{max-width:100%;margin-top:4px;font-size:12.5px;font-weight:500;color:#2f2f35;line-height:17px;height:17px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#atlasRoonCtl .rc-album{all:unset;max-width:100%;font-size:10.5px;color:#9a9aa2;line-height:15px;height:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-webkit-tap-highlight-color:transparent}
+#atlasRoonCtl .rc-album.link{cursor:pointer;color:#7d72a8}
+#atlasRoonCtl .rc-album.link:hover{text-decoration:underline}
+#atlasRoonCtl .rc-line{display:flex;align-items:center;gap:8px;width:100%;margin-top:4px}
+#atlasRoonCtl .rc-t{flex:0 0 34px;font-size:10px;color:#a7a3b3;font-variant-numeric:tabular-nums}
+#atlasRoonCtl .rc-t0{text-align:right}#atlasRoonCtl .rc-t1{text-align:left}
+#atlasRoonCtl .rc-seek{position:relative;flex:1 1 auto;height:14px;cursor:pointer;touch-action:none;-webkit-tap-highlight-color:transparent}
+#atlasRoonCtl .rc-bar{position:absolute;left:0;right:0;top:6px;height:2px;background:#eeedf2;border-radius:1px;overflow:hidden;transition:height .12s,top .12s}
+#atlasRoonCtl .rc-bar u{display:block;height:100%;width:0;background:#8e86b0}
+#atlasRoonCtl .rc-knob{position:absolute;top:3px;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:#8e86b0;opacity:0;transition:opacity .12s}
+#atlasRoonCtl .rc-seek:hover .rc-bar,#atlasRoonCtl .rc-seek.drag .rc-bar{top:5px;height:4px}
+#atlasRoonCtl .rc-seek:hover .rc-knob,#atlasRoonCtl .rc-seek.drag .rc-knob{opacity:1}
+#atlasRoonCtl .rc-seek.off{cursor:default}
+#atlasRoonCtl .rc-row{display:flex;align-items:center;justify-content:center;gap:30px;height:34px}
+#atlasRoonCtl .rc-btns,#atlasRoonCtl .rc-vol{display:flex;align-items:center;gap:4px}
+#atlasRoonCtl button.rc-b{all:unset;box-sizing:border-box;width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#55555b;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#atlasRoonCtl button.rc-b:disabled{opacity:.3;cursor:default}
+#atlasRoonCtl button.rc-b svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
+#atlasRoonCtl .rc-pp svg{width:24px;height:24px}
+#atlasRoonCtl .rc-vol button.rc-b{width:26px}
+#atlasRoonCtl .rc-vol button.rc-b svg{width:15px;height:15px}
+#atlasRoonCtl .rc-vv{min-width:40px;text-align:center;font-size:10.5px;color:#77737f;font-variant-numeric:tabular-nums}
+#atlasRoonCtl.idle .rc-title{color:#b9b6c2;font-weight:400}
+#atlasRoonCtl.idle .rc-line,#atlasRoonCtl.idle .rc-row{opacity:.35;pointer-events:none}
+@media(hover:hover){#atlasRoonCtl button.rc-b:not(:disabled):hover{background:#f4f2f8;color:#232326}}
+#atlasRoonCtl button.rc-b:active{background:#efeef3}
+@media(max-width:420px){#atlasRoonCtl .rc-row{gap:16px}#atlasRoonCtl button.rc-b{width:30px}}
+#albumModal .detail.atlas-editing #atlasRoonCtl{display:none!important}
 
+/* 곡 목록 판 */
+#atlasTrackSheet{position:absolute;left:0;right:0;bottom:0;top:22%;z-index:30;display:none;flex-direction:column;background:#fff;border-radius:18px 18px 14px 14px;box-shadow:0 -10px 30px rgba(30,25,50,.12),0 0 0 1px #ecebf0;transform:translateY(105%);opacity:0;transition:transform .32s cubic-bezier(.2,.8,.2,1),opacity .2s;pointer-events:none}
+#atlasTrackSheet.shown{display:flex}
+#atlasTrackSheet.open{transform:none;opacity:1;pointer-events:auto}
+#atlasTrackSheet .ts-head{display:flex;align-items:center;gap:10px;padding:16px 16px 10px 22px;border-bottom:1px solid #f0eff3}
+#atlasTrackSheet .ts-t{flex:1;min-width:0;line-height:1.3}
+#atlasTrackSheet .ts-t em{display:block;font-style:normal;font-size:9.5px;letter-spacing:.14em;font-weight:600;color:#7d72a8}
+#atlasTrackSheet .ts-t b{font-size:13.5px;font-weight:600;color:#232326;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:inline-block;max-width:70%;vertical-align:bottom}
+#atlasTrackSheet .ts-t span{font-size:11px;color:#a7a3b3}
+#atlasTrackSheet .ts-close{all:unset;width:38px;height:38px;border-radius:50%;border:1px solid #e6e5eb;display:flex;align-items:center;justify-content:center;color:#7d7a86;cursor:pointer}
+#atlasTrackSheet .ts-close svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+#atlasTrackSheet .ts-list{list-style:none;margin:0;padding:6px 10px 14px;overflow-y:auto;overflow-x:hidden;flex:1 1 auto;min-height:0;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y}
+#atlasTrackSheet{overscroll-behavior:contain}
+#atlasTrackSheet .ts-list li button{all:unset;box-sizing:border-box;display:grid;grid-template-columns:34px 1fr 18px;align-items:center;gap:6px;width:100%;padding:10px 12px;border-radius:10px;cursor:pointer;font-size:13px;line-height:1.4;color:#45434c;-webkit-tap-highlight-color:transparent}
+#atlasTrackSheet .ts-list li button i{font-style:normal;font-size:11.5px;color:#aaa3c2;font-variant-numeric:tabular-nums}
+#atlasTrackSheet .ts-list li+li button{border-top:1px solid #f4f3f6}
+@media(hover:hover){#atlasTrackSheet .ts-list li button:hover{background:#f7f6fa}}
+#atlasTrackSheet .ts-list li.cur button{background:#f1eef9;color:#232326;font-weight:500}
+#atlasTrackSheet .ts-list li.cur button i{color:#7d72a8}
+#atlasTrackSheet .ts-list li.wait button{opacity:.5}
+#atlasTrackSheet .ts-eq{display:none;align-items:flex-end;gap:1.5px;height:11px;text-decoration:none}
+#atlasTrackSheet .ts-list li.cur .ts-eq{display:flex}
+#atlasTrackSheet .ts-eq s{display:block;width:2.5px;height:30%;background:#7d72a8;border-radius:1px;text-decoration:none}
+#atlasTrackSheet.playing .ts-eq s{animation:atlasEq 1s ease-in-out infinite}
+#atlasTrackSheet.playing .ts-eq s:nth-child(2){animation-delay:-.35s}
+#atlasTrackSheet.playing .ts-eq s:nth-child(3){animation-delay:-.7s}
+#atlasTrackSheet .ts-msg{padding:0 22px 14px;font-size:12px;color:#8f8a9c;text-align:center}
+#atlasTrackSheet .ts-msg:empty{display:none}
+@media(max-width:600px){#atlasTrackSheet{top:14%}#atlasTrackSheet .ts-list li button{font-size:12.5px;padding:11px 10px}}
+#atlasRoonCtl .rc-queue svg{width:20px;height:20px}
+
+</style>
 
 
 
@@ -10278,6 +10345,8 @@ html.atlas-glass body #albumModal .service .atlas-dot::after{background:#f5d0fe;
   const sp=document.createElement('span'); sp.dataset.svc=b.id; toggleEmbed(box,sp);
  },true);
  window.atlasAvailRepaint=()=>paint();
+ window.atlasAvailData=()=>({M,AID,TID,Q:window.atlasQobuzIds||{}});
+ window.atlasOpenSheet=svc=>{const box=document.querySelector('#albumModal .atlas-avail');if(!box)return;const sp=document.createElement('span');sp.dataset.svc=svc;toggleEmbed(box,sp)};
  function paint(){
   const modal=document.getElementById('albumModal'), art=document.getElementById('modalArt'); if(!modal||!art)return;
   let box=modal.querySelector('.atlas-avail');
@@ -10414,13 +10483,99 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
  try{window.atlasAvailRepaint&&window.atlasAvailRepaint()}catch(e){}
 })();
 </script>
+<script id="atlas-preview-player">
+/* 공개용 재생바: 로컬 Roon 재생바와 같은 모양. 위에 보이는 음반의 Apple Music 30초 미리듣기를 우리 창 안에서 재생.
+   로컬(Roon 재생바가 있는 곳)에서는 아무것도 안 함. DAC 버튼은 흐리게(Roon 연결 프로그램용). */
+(function(){
+ if(document.getElementById('atlas-roon-ctl-v1'))return;
+ const I={prev:'<svg viewBox="0 0 24 24"><path d="M7 6v12"/><path d="M18 6.5v11L9.5 12z"/></svg>',play:'<svg viewBox="0 0 24 24"><path d="M8.5 6.5v11l9-5.5z"/></svg>',pause:'<svg viewBox="0 0 24 24"><path d="M9 6.5v11M15 6.5v11"/></svg>',next:'<svg viewBox="0 0 24 24"><path d="M17 6v12"/><path d="M6 6.5v11l8.5-5.5z"/></svg>',dac:'<svg viewBox="0 0 24 24"><rect x="5.5" y="2.5" width="13" height="19" rx="2"/><circle cx="12" cy="8.5" r="1.6"/><circle cx="12" cy="15.5" r="2.6"/></svg>',vol:'<svg viewBox="0 0 24 24"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z"/><path d="M15.5 9.5a3.5 3.5 0 0 1 0 5M18 7a7 7 0 0 1 0 10"/></svg>',queue:'<svg viewBox="0 0 24 24"><path d="M3.5 7.5v7l5.5-3.5z" fill="currentColor" stroke="none"/><path d="M12 8h9M12 12h9M12 16h9"/></svg>'};
+ const audio=new Audio(); audio.preload='none';
+ let box=null, cur=null, loading=false; // cur={key,tracks,i,album,artist}
+ const fmt=s=>{s=Math.max(0,Math.round(s||0));return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')};
+ const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const shownKey=()=>{try{return atlasSharedCurrentKey()}catch(e){return null}};
+ const say=t=>{const m=document.getElementById('message');if(m)m.textContent=t};
+ const data=()=>{try{return window.atlasAvailData?atlasAvailData():{}}catch(e){return {}}};
+ function openByKey(key){
+  if(!key||typeof selectAlbum!=='function'||typeof atlasPageData!=='function'||typeof albumIdentity!=='function')return;
+  const p=key.split('|'), g=p[0], pg=Number(p[1]); const pd=atlasPageData(g,pg); const a=((pd&&pd.links)||[]).find(x=>albumIdentity(x,g,pg)===key); if(a)try{selectAlbum(a,'',g,pg)}catch(e){}
+ }
+ async function tracksFor(appleId){
+  let res=[];
+  for(const cc of ['kr','us']){ // 한국 목록에 곡이 안 나오는 경우가 많아 미국 목록으로 한 번 더
+   try{const r=await fetch('https://itunes.apple.com/lookup?id='+encodeURIComponent(appleId)+'&entity=song&country='+cc+'&limit=200').then(r=>r.json()); res=r.results||[];}catch(e){res=[]}
+   if(res.some(x=>x.wrapperType==='track'&&x.previewUrl))break;
+  }
+  const col=res.find(x=>x.wrapperType==='collection')||{};
+  const t=res.filter(x=>x.wrapperType==='track'&&x.previewUrl).sort((a,b)=>(a.discNumber-b.discNumber)||(a.trackNumber-b.trackNumber));
+  return {album:col.collectionName||'',artist:col.artistName||'',tracks:t.map(x=>({name:x.trackName,url:x.previewUrl}))};
+ }
+ function build(){
+  box=document.createElement('div');box.id='atlasRoonCtl';box.className='atlas-preview-bar on';box.setAttribute('aria-label','미리듣기 재생');
+  box.innerHTML='<div class="rc-line"><span class="rc-t rc-t0">0:00</span><div class="rc-seek" title="눌러서 재생 위치 이동"><div class="rc-bar"><u></u></div><i class="rc-knob"></i></div><span class="rc-t rc-t1">0:30</span></div>'
+   +'<div class="rc-row"><button type="button" class="rc-b rc-side rc-dac" aria-label="출력 장치(DAC)" title="Roon 연결 프로그램을 켜면 내 DAC로 들을 수 있어요" style="opacity:.3">'+I.dac+'</button>'
+   +'<div class="rc-btns"><button type="button" class="rc-b rc-prev" aria-label="이전 곡">'+I.prev+'</button><button type="button" class="rc-b rc-pp" aria-label="이 음반 미리듣기">'+I.play+'</button><button type="button" class="rc-b rc-next" aria-label="다음 곡">'+I.next+'</button></div>'
+   +'<button type="button" class="rc-b rc-side rc-volb" aria-label="볼륨" title="볼륨">'+I.vol+'</button></div>'
+   +'<div class="rc-info"><span class="rc-sp"></span><div class="rc-txt"><div class="rc-head"><em>PREVIEW</em><span class="rc-zone">  ·  Apple Music 30초</span></div><div class="rc-title">▶ 를 누르면 위 음반을 30초씩 들려 드려요</div><button type="button" class="rc-album"></button></div><button type="button" class="rc-b rc-queue" aria-label="곡 목록" title="곡 목록">'+I.queue+'</button></div>'
+   +'<div class="rc-pop" hidden></div>';
+  box.querySelector('.rc-pp').onclick=onPlay;
+  box.querySelector('.rc-prev').onclick=()=>{if(!cur)return; if(audio.currentTime>3||cur.i===0){audio.currentTime=0;return} playIdx(cur.i-1)};
+  box.querySelector('.rc-next').onclick=()=>{if(cur&&cur.i<cur.tracks.length-1)playIdx(cur.i+1)};
+  box.querySelector('.rc-dac').onclick=()=>say('Roon 연결 프로그램을 켜면 내 Roon·DAC로 바로 들을 수 있어요.');
+  box.querySelector('.rc-album').onclick=()=>{if(cur&&cur.key!==shownKey())openByKey(cur.key)};
+  box.querySelector('.rc-seek').onclick=e=>{if(!audio.duration)return;const r=e.currentTarget.getBoundingClientRect();audio.currentTime=Math.max(0,Math.min(1,(e.clientX-r.left)/r.width))*audio.duration};
+  const pop=box.querySelector('.rc-pop');
+  box.querySelector('.rc-volb').onclick=()=>{if(!pop.hidden&&pop.dataset.k==='vol'){pop.hidden=true;return}pop.dataset.k='vol';pop.hidden=false;
+   pop.innerHTML='<div class="rp-h">VOLUME<span>미리듣기 소리 크기</span></div><input type="range" min="0" max="100" value="'+Math.round(audio.volume*100)+'" style="width:100%">';
+   pop.querySelector('input').oninput=e=>{audio.volume=e.target.value/100}};
+  box.querySelector('.rc-queue').onclick=()=>{if(!pop.hidden&&pop.dataset.k==='q'){pop.hidden=true;return}if(!cur){say('먼저 ▶ 를 눌러 주세요.');return}pop.dataset.k='q';pop.hidden=false;
+   pop.innerHTML='<div class="rp-h">TRACKS<span>'+esc(cur.album)+'</span></div>'+cur.tracks.map((t,i)=>'<button type="button" class="rp-z'+(i===cur.i?' on':'')+'" data-i="'+i+'"><span>'+(i+1)+'. '+esc(t.name)+'</span></button>').join('');
+   pop.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>{playIdx(+b.dataset.i);pop.hidden=true})};
+  document.addEventListener('click',e=>{if(!pop.hidden&&!(e.target.closest&&e.target.closest('#atlasRoonCtl .rc-pop,#atlasRoonCtl .rc-volb,#atlasRoonCtl .rc-queue')))pop.hidden=true},true);
+ }
+ function mount(){const r=document.getElementById('roon');const service=r&&r.parentNode;if(!service)return false;if(!box)build();if(service.previousElementSibling!==box)service.before(box);return true}
+ function playIdx(i){if(!cur||!cur.tracks[i])return;cur.i=i;audio.src=cur.tracks[i].url;audio.play().catch(()=>{});paint()}
+ async function onPlay(){
+  const key=shownKey();
+  if(cur&&cur.key===key){if(audio.paused)audio.play().catch(()=>{});else audio.pause();return}
+  const d=data(); let aid=d.AID&&d.AID[key]; if(aid&&String(aid).startsWith('us:'))aid=null;
+  if(!aid){
+   if(d.TID&&d.TID[key]&&window.atlasOpenSheet){atlasOpenSheet('tidal');return}
+   if(d.Q&&d.Q[key]&&window.atlasOpenSheet){atlasOpenSheet('qobuz');return}
+   say('이 음반은 미리듣기가 없어요. 아래 아이콘이나 복사로 찾아 들어 주세요.');return;
+  }
+  if(loading)return; loading=true; say('미리듣기를 불러오는 중…');
+  try{const r=await tracksFor(aid); if(!r.tracks.length){say('미리듣기 곡이 없어요.');return}
+   cur={key,tracks:r.tracks,i:0,album:r.album,artist:r.artist}; say(''); playIdx(0);
+  }catch(e){say('미리듣기를 불러오지 못했어요.')}finally{loading=false}
+ }
+ audio.addEventListener('ended',()=>{if(cur&&cur.i<cur.tracks.length-1)playIdx(cur.i+1);else paint()});
+ ['play','pause','loadedmetadata'].forEach(ev=>audio.addEventListener(ev,()=>paint()));
+ function paint(){
+  if(!mount())return;
+  const key=shownKey(), mine=!!cur&&cur.key===key, playing=!audio.paused&&!!cur;
+  const pp=box.querySelector('.rc-pp'); pp.innerHTML=(mine&&playing)?I.pause:I.play; pp.title=mine?'재생/멈춤':'이 음반 미리듣기';
+  box.querySelector('.rc-head em').textContent=cur?(playing?'PREVIEW':'PAUSED'):'PREVIEW';
+  const t=box.querySelector('.rc-title'), al=box.querySelector('.rc-album');
+  if(cur){t.textContent=cur.tracks[cur.i].name; al.textContent=(mine?'':'↗ ')+[cur.album,cur.artist].filter(Boolean).join(' · '); al.classList.toggle('link',!mine)}
+  else{t.textContent='▶ 를 누르면 위 음반을 30초씩 들려 드려요'; al.textContent=''}
+
+ }
+ setInterval(()=>{if(!box)return;const d=audio.duration||30,c=audio.currentTime||0,pct=cur?Math.min(100,c/d*100):0;
+  box.querySelector('.rc-bar u').style.width=pct+'%';box.querySelector('.rc-knob').style.left=pct+'%';box.querySelector('.rc-t0').textContent=fmt(cur?c:0);box.querySelector('.rc-t1').textContent=fmt(cur?d:30)},300);
+ function setup(){const m=document.getElementById('albumModal'),n=document.getElementById('albumName');
+  if(m)new MutationObserver(()=>{if(m.classList.contains('open'))setTimeout(paint,60)}).observe(m,{attributes:true,attributeFilter:['class']});
+  if(n)new MutationObserver(()=>setTimeout(paint,60)).observe(n,{childList:true,subtree:true,characterData:true});}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',setup);else setup();
+})();
+</script>
 <style id="atlas-public-locked-v2">
 /* 공개용: 둘러보기만. 편집·NAS·재생 제어·관리자 기능은 화면에 없음 */
 .atlas-edit-toggle,.atlas-workspace,.atlas-editor-top,#metadataEditor,#newAlbumEditor,#hdFloat,#hdPanel,#saveOptions,
 #atlasAdd,#atlasRemove,#atlasMoveGo,#atlasMovePrev,#atlasMoveNext,#atlasExport,#atlasSave,#atlasLoadShared,#atlasCoverTransfer,#atlasMobileCoverBackup,
 #atlasSearchSources,#archiveNav,#archiveView,.atlas-archive-home,.atlas-nas-home,.atlas-nas-section,.atlas-nas-side-title,.atlas-nas-sidebar-sep,
 #atlasBrowsePrev,#atlasBrowseNext,.atlas-nav-tools,.atlas-title-edit-buttons,#atlas-batch-cover-toggle,.atlas-cover-toggle,#atlasAdminLinks,
-#atlasRoonCtl,#atlasMini,#atlasRoonZones,.atlas-grid-order-toolbar,.atlas-grid-order-controls,.atlas-grid-order-check,.atlas-album-trash,
+#atlasRoonCtl:not(.atlas-preview-bar),#atlasMini,#atlasRoonZones,.atlas-grid-order-toolbar,.atlas-grid-order-controls,.atlas-grid-order-check,.atlas-album-trash,
 #atlas-now-playing-shortcut,.atlas-nas-player,#atlasNasWorkspace,.atlas-nas-tags{display:none!important}
 html body #albumModal .detail .atlas-edit-toggle.atlas-edit-toggle,html body #albumModal #modalPrevAlbum#modalPrevAlbum,html body #albumModal #modalNextAlbum#modalNextAlbum{display:none!important}
 /* 상세창 제목: 앞뒤 화살표 칸 없이 한 칸 전체 폭 (로컬 detail-v4와 같게) */
@@ -10440,6 +10595,61 @@ function atlasPublicRoon(){try{if(!selected)return;copyQ();window.location.href=
 try{atlasRoonPlay=atlasPublicRoon}catch(e){}
 document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('roon');if(b)b.onclick=atlasPublicRoon});
 </script>
+<style id="atlas-public-player-look">#atlasRoonCtl .rc-seek{touch-action:none!important}
+html body #albumModal #atlasRoonCtl#atlasRoonCtl{height:164px;margin:2px auto 14px;padding:0;border:0;justify-content:flex-start;position:relative}
+#atlasRoonCtl .rc-line{margin-top:6px}
+#atlasRoonCtl .rc-t{font-size:11px}
+#atlasRoonCtl .rc-row{display:flex;align-items:center;justify-content:space-between;width:100%;max-width:340px;height:56px;margin-top:4px;gap:0}
+#atlasRoonCtl .rc-btns{display:flex;align-items:center;gap:18px}
+#atlasRoonCtl button.rc-b{width:44px;height:44px;border-radius:12px}
+#atlasRoonCtl button.rc-b svg{width:24px;height:24px}
+#atlasRoonCtl button.rc-pp{width:54px;height:54px;border-radius:50%;background:#232326;color:#fff}
+#atlasRoonCtl button.rc-pp svg{width:26px;height:26px;stroke-width:1.7}
+#atlasRoonCtl button.rc-pp:disabled{opacity:.25}
+@media(hover:hover){#atlasRoonCtl button.rc-pp:not(:disabled):hover{background:#3a3942;color:#fff}}
+#atlasRoonCtl button.rc-side{color:#8d8a96;position:relative}
+#atlasRoonCtl button.rc-side svg{width:22px;height:22px}
+#atlasRoonCtl button.rc-side.act{background:#f1eef9;color:#5d548a}
+#atlasRoonCtl button.rc-dac.sounding::after{content:"";position:absolute;top:9px;right:9px;width:5px;height:5px;border-radius:50%;background:#7d72a8}
+#atlasRoonCtl .rc-info{display:grid;grid-template-columns:40px minmax(0,1fr) 40px;align-items:center;width:100%;margin-top:16px}
+#atlasRoonCtl .rc-txt{min-width:0;display:flex;flex-direction:column;align-items:center}
+#atlasRoonCtl .rc-head{font-size:9px;line-height:12px;height:12px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#atlasRoonCtl .rc-title{width:100%;margin-top:2px;font-size:13px;line-height:18px;height:18px;text-overflow:clip}
+#atlasRoonCtl .rc-album{max-width:100%;font-size:11px;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;height:auto;max-height:30px;line-height:15px;margin-top:1px;overflow:hidden;text-overflow:ellipsis;word-break:keep-all}
+#atlasRoonCtl button.rc-queue{width:40px;height:40px;color:#8d8a96}
+#atlasRoonCtl button.rc-queue svg{width:21px;height:21px}
+#atlasRoonCtl.idle .rc-info .rc-queue{opacity:.35}
+#atlasRoonCtl.idle .rc-row .rc-side{pointer-events:auto}
+#atlasRoonCtl .rc-pop{position:absolute;bottom:96px;z-index:20;min-width:200px;max-width:calc(100% - 8px);padding:8px;border-radius:14px;background:#fff;box-shadow:0 10px 30px rgba(30,25,50,.16),0 0 0 1px #ecebf0;text-align:left}
+#atlasRoonCtl .rc-pop[hidden]{display:none}
+#atlasRoonCtl .rc-pop-dac{left:0}
+#atlasRoonCtl .rc-pop-vol{right:0}
+#atlasRoonCtl .rp-h{display:flex;justify-content:space-between;gap:12px;padding:4px 8px 6px;font-size:9.5px;letter-spacing:.14em;font-weight:600;color:#7d72a8}
+#atlasRoonCtl .rp-h span{letter-spacing:0;font-weight:400;color:#a7a3b3;font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#atlasRoonCtl .rp-msg{padding:8px;font-size:12px;color:#8f8a9c}
+#atlasRoonCtl .rp-z{all:unset;box-sizing:border-box;display:grid;grid-template-columns:24px 1fr 14px 16px;align-items:center;gap:10px;width:100%;min-height:44px;padding:8px 10px;border-radius:10px;font-size:13px;color:#55555b;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#atlasRoonCtl .rp-z svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+#atlasRoonCtl .rp-z span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#atlasRoonCtl .rp-z i{font-style:normal;color:#7d72a8;font-weight:600}
+#atlasRoonCtl .rp-z.on{background:#f4f2f9;color:#232326}
+@media(hover:hover){#atlasRoonCtl .rp-z:not(.on):hover{background:#f7f6fa}}
+#atlasRoonCtl .rp-eq{display:flex;align-items:flex-end;gap:1.5px;height:11px;text-decoration:none}
+#atlasRoonCtl .rp-eq s{display:block;width:2.5px;height:30%;background:#7d72a8;border-radius:1px;animation:atlasEq 1s ease-in-out infinite}
+#atlasRoonCtl .rp-eq s:nth-child(2){animation-delay:-.35s}#atlasRoonCtl .rp-eq s:nth-child(3){animation-delay:-.7s}
+#atlasRoonCtl .rp-vol{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:2px 2px 4px}
+#atlasRoonCtl .rp-vol button.rc-b{width:48px;height:48px;border-radius:50%;border:1px solid #e6e5eb;color:#55555b}
+#atlasRoonCtl .rp-vol button.rc-b svg{width:20px;height:20px}
+#atlasRoonCtl .rp-vol button.rc-b{touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+#atlasRoonCtl .rp-range{display:block;width:100%;margin:8px 0 2px;accent-color:#1d1d1f;height:28px;touch-action:none}
+#atlasRoonCtl .rp-vv{flex:1;text-align:center;font-size:15px;font-weight:500;color:#2f2f35;font-variant-numeric:tabular-nums}
+@media(max-width:420px){#atlasRoonCtl .rc-btns{gap:12px}}
+#atlasRoonCtl .rp-auto{all:unset;box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;margin-top:6px;padding:12px 10px 6px;border-top:1px solid #f0eff3;font-size:12px;color:#77737f;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#atlasRoonCtl .rp-auto i{flex:0 0 34px;height:20px;border-radius:10px;background:#e3e2e8;position:relative;transition:background .2s}
+#atlasRoonCtl .rp-auto i::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:left .2s}
+#atlasRoonCtl .rp-auto.on i{background:#7d72a8}
+#atlasRoonCtl .rp-auto.on i::after{left:16px}
+#atlasRoonCtl .rp-auto.on span{color:#45434c}
+#atlasRoonCtl.atlas-preview-bar .rc-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}</style>
 <style id="atlas-public-one-split">#albumModal #atlasCopySplit{display:none!important}</style>
 <style id="atlas-public-side-arrows">@media (hover:none),(pointer:coarse){#albumModal .atlas-side-arrow{display:none!important}}</style>
 </body></html>
