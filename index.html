@@ -10238,7 +10238,7 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
  function toggleEmbed(box,sp){
   const was=sp.classList.contains('open'); closeEmbed(box); if(was)return;
   let key=null; try{key=atlasSharedCurrentKey()}catch(x){} if(!key)return;
-  const svc=sp.dataset.svc, id=svc==='apple'?AID[key]:TID[key]; if(!id)return;
+  const svc=sp.dataset.svc, id=svc==='apple'?AID[key]:svc==='qobuz'?(window.atlasQobuzIds||{})[key]:TID[key]; if(!id)return;
   const detail=document.querySelector('#albumModal .detail'); if(!detail)return;
   const R=document.documentElement.classList, darkUI=R.contains('atlas-dark')||R.contains('atlas-navy')||R.contains('atlas-glass');
   const wrap=document.createElement('div'); wrap.className='atlas-avail-embed';
@@ -10247,13 +10247,14 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
   if(!m||al<.6)bg=R.contains('atlas-glass')?'rgba(22,14,52,.97)':(darkUI&&!R.contains('atlas-dark')&&!R.contains('atlas-navy')?'#111':'#fff');
   if(R.contains('atlas-glass'))bg='rgba(28,16,64,.98)';
   wrap.style.background=bg; wrap.style.color=R.contains('atlas-glass')?'#fff':'';
-  const nm=document.getElementById('albumName'); const name=(svc==='apple'?'Apple Music':'TIDAL')+(nm?' · '+nm.innerText.replace(/\s*\n\s*/g,' · '):'');
+  const nm=document.getElementById('albumName'); const name=(svc==='apple'?'Apple Music':svc==='qobuz'?'Qobuz':'TIDAL')+(nm?' · '+nm.innerText.replace(/\s*\n\s*/g,' · '):'');
   wrap.innerHTML='<div class="ae-top"><div class="ae-name"></div><button type="button" class="ae-full" title="미리듣기는 30초 · 전곡은 로그인된 앱에서">앱에서 전곡 ↗</button><button type="button" class="ae-x" aria-label="닫고 상세창으로" title="닫기"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>';
   wrap.querySelector('.ae-name').textContent=name;
   wrap.querySelector('.ae-x').addEventListener('click',e=>{e.stopPropagation();closeEmbed(box)});
-  wrap.querySelector('.ae-full').addEventListener('click',e=>{e.stopPropagation();closeEmbed(box);openAlbum(svc,id)});
-  const f=document.createElement('iframe'); f.title=svc==='apple'?'Apple Music 플레이어':'TIDAL 플레이어'; f.style.colorScheme=darkUI?'dark':'light';
+  wrap.querySelector('.ae-full').addEventListener('click',e=>{e.stopPropagation();closeEmbed(box);if(svc==='qobuz'){window.atlasOpenQobuz&&window.atlasOpenQobuz(id)}else openAlbum(svc,id)});
+  const f=document.createElement('iframe'); f.title=svc==='apple'?'Apple Music 플레이어':svc==='qobuz'?'Qobuz 플레이어':'TIDAL 플레이어'; f.style.colorScheme=darkUI?'dark':'light';
   if(svc==='apple'){f.className='ae-apple';f.src='https://embed.music.apple.com/'+appleSF(id)+'/album/'+appleID(id)+'?theme='+(darkUI?'dark':'light');f.setAttribute('allow','autoplay *; encrypted-media *; fullscreen *; clipboard-write');f.setAttribute('sandbox','allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation')}
+  else if(svc==='qobuz'){f.src='https://widget.qobuz.com/album/'+encodeURIComponent(id)+'?zone=US-en';f.setAttribute('allow','autoplay; encrypted-media; clipboard-write')}
   else{f.src='https://embed.tidal.com/albums/'+id;f.setAttribute('allow','encrypted-media; fullscreen; clipboard-write https://embed.tidal.com; web-share');f.setAttribute('sandbox','allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox')}
   if(svc==='apple'){const c=document.createElement('div');c.className='ae-clip';c.append(f);wrap.append(c)}else wrap.append(f);
   detail.dataset.aeOv=detail.style.overflow||''; detail.style.overflow='hidden'; detail.append(wrap); sp.classList.add('open');
@@ -10272,12 +10273,12 @@ html.atlas-glass body #albumModal div.atlas-avail>span[class].on{background:rgba
   const code=M[key]||'', q=code.includes('Q'), usOnly=String(AID[key]||'').startsWith('us:'), a=code.includes('A')&&!usOnly, t=code.includes('T'), none=code==='-'||(!q&&!a&&!t&&usOnly);
   box.hidden=false;
   const qid=(window.atlasQobuzIds||{})[key]||'';
-  const html='<span class="av-q'+(q?' on':'')+(q&&qid?' av-play':'')+'" data-svc="qobuz" title="'+(q?(qid?'눌러서 Qobuz 앱으로 열기':'Qobuz에서 들을 수 있어요'):'Qobuz')+'">Qobuz</span>'
+  const html='<span class="av-q'+(q?' on':'')+(q&&qid?' av-play':'')+'" data-svc="qobuz" title="'+(q?(qid?'눌러서 여기서 듣기 (Qobuz)':'Qobuz에서 들을 수 있어요'):'Qobuz')+'">Qobuz</span>'
    +'<span class="av-a'+(a?' on':'')+(a&&AID[key]?' av-play':'')+'" data-svc="apple" title="'+(a?(AID[key]?'눌러서 여기서 듣기 (Apple Music)':'Apple Music에서 들을 수 있어요'):(usOnly?'한국 Apple Music에는 없어요 (미국에만 있음)':'Apple Music'))+'">Apple</span>'
    +'<span class="av-t'+(t?' on':'')+(t&&TID[key]?' av-play':'')+'" data-svc="tidal" title="'+(t?'눌러서 여기서 듣기 (TIDAL)':'TIDAL')+'">Tidal</span>'
    +'<span class="av-none'+(none?' on':'')+'" title="'+(none?'지금은 Qobuz·Apple Music에서 찾지 못했어요':'스트리밍에 없음')+'">None</span>';
   if(box.dataset.k!==key+'|'+code+'|'+(qid?1:0)){box.dataset.k=key+'|'+code+'|'+(qid?1:0);box.innerHTML=html;closeEmbed(box)}
-  if(!box.dataset.wired){box.dataset.wired='1';box.addEventListener('click',e=>{const sp=e.target.closest('span.av-play');if(!sp)return;if(sp.dataset.svc==='qobuz'){const id=(window.atlasQobuzIds||{})[keyOf()];if(id&&window.atlasOpenQobuz)window.atlasOpenQobuz(id);return}toggleEmbed(box,sp)})}
+  if(!box.dataset.wired){box.dataset.wired='1';box.addEventListener('click',e=>{const sp=e.target.closest('span.av-play');if(!sp)return;toggleEmbed(box,sp)})}
  }
  async function load(){
   const tries=local?['http://'+location.hostname+':8794/availability','availability.json']:['availability.json'];
