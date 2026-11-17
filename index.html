@@ -10603,13 +10603,13 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   new MutationObserver(()=>{if(own)return;if(m.textContent.trim()&&!m.querySelector('.pv-g'))hold=Date.now()+4500;else{hold=0;setTimeout(()=>guide(true),30)}}).observe(m,{childList:true,subtree:true,characterData:true})})();
  // 상황마다 안내 문구 여러 개를 차례로 (문구마다 6초, 길면 다 흐른 뒤 다음)
  const LOGIN='<button type="button" class="pv-login">로그인하고 전곡 듣기 ›</button>';
- const HELP='<button type="button" class="pv-link">안내 보기 ›</button>';
+ const HELP='<button type="button" class="pv-link">설치 안내 ›</button>';
  function guideList(){
   const key=shownKey(), d=data(), mine=!!cur&&cur.key===key, playing=!!cur&&!audio.paused;
   let aid=d.AID&&d.AID[key]; if(aid&&String(aid).startsWith('us:'))aid=null;
-  const roon=['Roon 사용자라면 연결 프로그램으로 내 DAC에서 바로 재생',HELP];
+  const roon=['Roon 사용자라면 내 Roon과 연동해 전곡 감상 · 확장만 설치하면 나만의 재생 프로그램',HELP];
   const copy=['복사를 누르면 검색어 복사 · 어느 음악 앱에서든 붙여 넣어 찾기',''];
-  const dot=['점 있는 아이콘은 이 창에서 바로 미리듣기',''];
+  const dot=['점은 지금 스트리밍으로 들을 수 있는 서비스예요',''];
   if(mine&&playing)return [['Apple Music 30초 미리듣기 중 · 전곡은 아래 아이콘으로',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],dot,roon];
   if(mine&&!playing)return [['멈춤 · ▶ 로 이어 듣기',''],['Apple Music 구독 중이면 전곡 감상',LOGIN],roon];
   if(cur&&playing)return [['다른 음반 미리듣기 중 · ▶ 를 누르면 이 음반으로',''],['지금 듣는 곡은 상세창을 닫으면 아래에 보여요',''],dot];
@@ -10628,7 +10628,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
   const [txt,btn]=list[gIdx];
   own=true; m.innerHTML='<span class="pv-g pv-in"><span class="pv-mq"><span>'+esc(txt)+'</span></span>'+btn+'</span>';
   gUntil=Date.now()+Math.max(6500,txt.length*95);
-  const lk=m.querySelector('.pv-link'); if(lk)lk.onclick=e=>{e.preventDefault();e.stopPropagation();if(window.atlasOpenPageSheet)atlasOpenPageSheet('Roon에서 바로 재생하기 · 안내','roon-helper.html');else window.open('roon-helper.html','_blank')};
+  const lk=m.querySelector('.pv-link'); if(lk)lk.onclick=e=>{e.preventDefault();e.stopPropagation();if(window.atlasOpenPageSheet)atlasOpenPageSheet('내 Roon으로 전곡 감상 · 안내','roon-helper.html');else window.open('roon-helper.html','_blank')};
   const b=m.querySelector('.pv-login'); if(b)b.onclick=e=>{e.preventDefault();e.stopPropagation();loginFull()};
   setTimeout(()=>{own=false},0);
  }
