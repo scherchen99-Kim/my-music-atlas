@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-21T02:14:37.110Z",
+  "createdAt": "2026-11-21T02:22:30.052Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -837,11 +837,11 @@
       "approvedAt": "2026-10-25T07:54:52.355Z"
     },
     "Symphonies|10|18.5866|44.4411|Ludwig van Beethoven 5 C. Kleiber": {
-      "url": "https://cdn11.bigcommerce.com/s-rdecee92oy/products/15360/images/6616445/23dglp93188-large__55565.1778487062.500.750.jpg?c=2",
-      "album": "",
-      "artist": "",
-      "source": "Manual image URL",
-      "approvedAt": "2026-10-25T09:18:08.157Z"
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/b0/a5/b7b0a5d5-e487-4dcb-f0b5-04d16c78f693/22UMGIM89320.rgb.jpg/600x600bb.jpg",
+      "album": "Beethoven: Symphonies Nos. 5 & 7",
+      "artist": "Vienna Philharmonic & Carlos Kleiber",
+      "source": "Apple Music (Claude, 원래 주소 끊김)",
+      "approvedAt": "2026-11-21T02:22:24.739Z"
     },
     "Symphonies|10|32.7797|44.4411|Ludwig van Beethoven 5 Markevitch 59": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/c1/ac/cac1ace4-cb63-3fe2-3445-b21447512ebd/21UMGIM66568.rgb.jpg/600x600bb.jpg",
@@ -29775,11 +29775,11 @@
       "approvedAt": "2026-11-07T07:32:05.638Z"
     },
     "Chamber|10|3.06377|48.04177|String Quartets 전집 Afanassiev Talich Quartet String Quartet": {
-      "url": "https://www.ladolcevolta.com/wp-content/uploads/2025/06/Quatuor-Talich-Mozart-La-Dolce-Volta.jpg",
-      "album": "",
-      "artist": "",
-      "source": "Manual image URL",
-      "approvedAt": "2026-11-07T07:33:30.436Z"
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/cb/a7/4bcba779-9e50-a1ca-d3e3-b079efe7b057/3770001903217.png/600x600bb.jpg",
+      "album": "Mozart: The Complete String Quartets",
+      "artist": "Talich Quartet",
+      "source": "Apple Music (Claude, 원래 주소 끊김)",
+      "approvedAt": "2026-11-21T02:22:24.739Z"
     },
     "Chamber|10|33.26249|48.45034|Beaux Arts Trio Amadeus Quartet String Quartet No.15 d minor K.421": {
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ueY_v2bNPsfamg3YIhCj4Cw4ea-tcQ4LUerH1om_qg&s=10",
@@ -30524,11 +30524,11 @@
       "approvedAt": "2026-11-07T09:48:01.538Z"
     },
     "Concertos|69|5.15907|65.92155|vn.Little/A.Davis Concerto g Op.80 Delius Cello Concerto": {
-      "url": "https://cdn11.bigcommerce.com/s-rdecee92oy/products/53410/images/6614952/5wclp243395__28231.1778481789.500.750.jpg?c=2",
-      "album": "",
-      "artist": "",
-      "source": "Manual image URL",
-      "approvedAt": "2026-11-07T09:48:26.558Z"
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/be/17/89/be17897c-f658-e722-b723-0ac4ca8d4149/5099946374653_1417x1417_300dpi.jpg/600x600bb.jpg",
+      "album": "Delius: Cello Concerto & Song of Farewell",
+      "artist": "Jacqueline du Pré & Sir Malcolm Sargent",
+      "source": "Apple Music (Claude, 원래 주소 끊김)",
+      "approvedAt": "2026-11-21T02:22:24.739Z"
     },
     "Concertos|69|29.38664|14.69285|Arnold Concerto for 2 Pinos 3 Hands Op.104": {
       "url": "https://i.ebayimg.com/images/g/cJEAAOSw98RdK4DU/s-l400.jpg",
