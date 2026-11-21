@@ -72,5 +72,9 @@ html.embed.dark{--bg:#0e0f1c;--card:#181a2e;--ink:#ecebf5;--sub:#9d9ab8;--acc:#c
  </div>
  <a class="back" href="./">← The Classical Atlas로 돌아가기</a>
 </main>
+<script>
+/* 확장파일을 받은 사람만 사이트가 내 컴퓨터의 연결 프로그램을 찾게 함 (모든 방문자에게 '로컬 네트워크 허용' 창이 뜨지 않도록) — 형 2026-11-21 */
+document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('a[href*="ClassicalAtlas-Roon-"]'); if(a){try{localStorage.setItem('atlasHelperPreview','1')}catch(x){}}},true);
+</script>
 </body>
 </html>
