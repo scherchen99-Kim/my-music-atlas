@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-22T00:14:10.377Z",
+  "createdAt": "2026-11-22T01:47:14.373Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -77473,6 +77473,27 @@
       "performer": "Albert",
       "searchQuery": "Volkmann Symphony 1 Albert",
       "updatedAt": "2026-11-12T06:03:14.640Z"
+    },
+    "Concertos|50|4.96315|14.54297|Wassenaer Concerto Armonico No.1": {
+      "composer": "Wassenaer",
+      "work": "Concerto Armonico No.1",
+      "performer": "Koopman",
+      "searchQuery": "Wassenaer Concerto Armonico 1 Koopman",
+      "updatedAt": "2026-11-22T01:23:29.389Z"
+    },
+    "Concertos|50|5.04164|40.38956|Koopman Concerto Armonico No.1 Wassenaer Concerto Armonico No.5": {
+      "composer": "Wassenaer",
+      "work": "Concerto Armonico No.5",
+      "performer": "Koopman",
+      "searchQuery": "Wassenaer Concerto Armonico 5 Koopman",
+      "updatedAt": "2026-11-22T01:23:30.011Z"
+    },
+    "Concertos|50|5.10903|66.24818|Koopman Concerto Armonico No.5 Wassenaer Concerto Armonico ㎿ Slow Movt.": {
+      "composer": "Wassenaer",
+      "work": "Concerto Armonico - Slow Movt.",
+      "performer": "Turovsky",
+      "searchQuery": "Wassenaer Concerto Armonico Slow Turovsky",
+      "updatedAt": "2026-11-22T01:23:31.306Z"
     }
   },
   "favorites": {
