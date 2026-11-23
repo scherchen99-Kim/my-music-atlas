@@ -79,6 +79,15 @@ html.embed li b.path{font-size:14.5px!important;padding:6px 10px;margin:6px 0!im
 html.embed .dl a.os{font-size:13px;padding:8px 12px}
 html.embed .soon{font-size:11.5px;margin-top:8px}
 html.embed .faq{font-size:11.5px;margin-top:16px;line-height:1.5}
+/* 실행 단계: Mac 보안 허용 안내 (형 2026-11-23) */
+li span.st{display:block;margin-top:6px}
+li span.st em{font-style:normal;font-weight:700;margin-right:8px}
+li span.st u{text-decoration:none;font-weight:700}
+li span.st.sm{font-size:12.5px!important;opacity:.6;margin-top:10px}
+.mac-ban{display:flex;align-items:center;gap:12px;justify-content:space-between;margin:8px 0 4px;padding:10px 12px;border-radius:12px;background:var(--bg);border:1px solid var(--line);font-size:13px;line-height:1.4}
+.mac-ban span{color:var(--ink)!important;font-size:13px!important}
+.mac-ban i{font-style:normal;flex:0 0 auto;padding:5px 12px;border-radius:7px;border:1px solid var(--line);background:var(--card);font-size:13px;white-space:nowrap}
+html.embed li span.st{font-size:14.5px}
 </style>
 <script>(function(){var q=location.search;if(/[?&]embed=1/.test(q))document.documentElement.classList.add('embed');if(/[?&]dark=1/.test(q))document.documentElement.classList.add('dark');var o=(q.match(/[?&]os=(mac|win)/)||[])[1];if(o)document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.dl a.os[data-os="'+o+'"]').forEach(function(a){a.classList.add('pick')})})})();</script>
 </head>
@@ -89,8 +98,14 @@ html.embed .faq{font-size:11.5px;margin-top:16px;line-height:1.5}
  <p class="lead">확장파일을 켜 두면 ▶를 누를 때 내 Roon·DAC로 바로 재생돼요.</p>
  <ol>
   <li><b>받기</b>
-   <div class="dl"><a class="os" data-os="mac" href="https://github.com/scherchen99-Kim/my-music-atlas/releases/latest/download/ClassicalAtlas-Roon-Mac-AppleSilicon.zip" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.2 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z" fill="currentColor"/></svg>Mac용<span class="lg"> Roon 확장파일 설치</span></a><a class="os" data-os="mac" href="https://github.com/scherchen99-Kim/my-music-atlas/releases/latest/download/ClassicalAtlas-Roon-Mac-Intel.zip" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.2 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z" fill="currentColor"/></svg>인텔 Mac용<span class="lg"> Roon 확장파일 설치</span></a><a class="os" data-os="win" href="https://github.com/scherchen99-Kim/my-music-atlas/releases/latest/download/ClassicalAtlas-Roon-Windows.exe" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5l7.4-1v7.1H3zM11.3 4.4 21 3v8.6h-9.7zM3 12.4h7.4v7.1L3 18.5zM11.3 12.4H21V21l-9.7-1.4z" fill="currentColor"/></svg>Windows용<span class="lg"> Roon 확장파일 설치</span></a></div><div class="soon">보안 경고가 떠도 괜찮아요. Mac: 우클릭 → 열기 · Windows: 추가 정보 → 실행</div></li>
-  <li><b>실행</b><span>더블클릭. 켜 둔 동안만 작동해요.</span></li>
+   <div class="dl"><a class="os" data-os="mac" href="https://github.com/scherchen99-Kim/my-music-atlas/releases/latest/download/ClassicalAtlas-Roon-Mac-AppleSilicon.zip" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.2 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z" fill="currentColor"/></svg>Mac용<span class="lg"> Roon 확장파일 설치</span></a><a class="os" data-os="mac" href="https://github.com/scherchen99-Kim/my-music-atlas/releases/latest/download/ClassicalAtlas-Roon-Mac-Intel.zip" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.9-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.2 5.8c.6-.8 1.1-1.8 1-2.8-.9 0-2 .6-2.7 1.4-.6.7-1.1 1.7-1 2.7 1 .1 2-.5 2.7-1.3z" fill="currentColor"/></svg>인텔 Mac용<span class="lg"> Roon 확장파일 설치</span></a><a class="os" data-os="win" href="https://github.com/scherchen99-Kim/my-music-atlas/releases/latest/download/ClassicalAtlas-Roon-Windows.exe" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5l7.4-1v7.1H3zM11.3 4.4 21 3v8.6h-9.7zM3 12.4h7.4v7.1L3 18.5zM11.3 12.4H21V21l-9.7-1.4z" fill="currentColor"/></svg>Windows용<span class="lg"> Roon 확장파일 설치</span></a></div><div class="soon">받은 압축파일을 더블클릭하면 풀려요</div></li>
+  <li><b>실행 · 처음 한 번만 허용</b>
+   <span class="st"><em>Mac</em>압축을 풀고 나온 <u>The Classical Atlas Roon</u> 앱을 더블클릭 → '열 수 없음' 창이 뜨면 <u>완료</u></span>
+   <span class="st"><b class="path">시스템 설정 → 개인정보 보호 및 보안</b>맨 아래에 이 줄이 보여요</span>
+   <div class="mac-ban" aria-hidden="true"><span>Mac을 보호하기 위해 'The Classical Atlas Roon'을(를) 차단했습니다.</span><i>그래도 열기</i></div>
+   <span class="st"><u>그래도 열기</u> → 다시 더블클릭 → <u>열기</u> (암호를 물으면 맥 암호) → '켜졌어요' 창이 뜨면 끝</span>
+   <span class="st"><em>Windows</em>더블클릭 → 경고가 뜨면 <u>추가 정보</u> → <u>실행</u> → '켜졌어요' 창이 뜨면 끝</span>
+   <span class="st sm">창 없이 뒤에서 작동하고, 컴퓨터를 켤 때마다 저절로 켜져요. 끄려면 앱을 다시 열어 '끄기'</span></li>
   <li><b>Roon에서 허용</b><span><b class="path">Roon → 설정(Settings) → 확장(Extensions)</b>The Classical Atlas 옆 '허용(Enable)'</span></li>
  </ol>
  <div class="faq">재생과 Qobuz 하트 앨범 목록에만 쓰고, 정보를 밖으로 보내지 않아요 · 확장파일을 켠 컴퓨터의 브라우저에서 열어 주세요 · Chrome이 '로컬 네트워크 접근'을 물으면 허용</div>
