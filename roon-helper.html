@@ -82,6 +82,20 @@ html.embed .faq{font-size:11.5px;margin-top:16px;line-height:1.5}
 /* 안내 창 안에 다 보이게: 고른 OS 안내만 보여 줌, '이미 설치했어요'는 받기 칸 안에 (형 2026-11-23) */
 html[data-os="win"] .os-mac{display:none!important}
 html[data-os="mac"] .os-win{display:none!important}
+/* 안내 창(Mac): 간격만 줄여서 3단계까지 한 화면에 (형 2026-11-23) */
+html.embed main{padding-top:2px}
+html.embed h1{margin:0 0 4px}
+html.embed .lead{margin:0 0 10px}
+html.embed ol{gap:8px}
+html.embed li{padding:10px 14px 10px 50px}
+html.embed li::before{top:10px}
+html.embed li span.st{margin-top:3px;line-height:1.45}
+html.embed li b.path{margin:4px 0!important;padding:4px 10px}
+html.embed .mac-ban{margin:5px 0 3px;padding:7px 10px}
+html.embed li span.st.sm{margin-top:6px}
+html.embed .dl{margin-top:6px}
+html.embed .soon{margin-top:5px}
+html.embed .faq{margin-top:10px}
 /* 이미 설치한 사람: 이 브라우저에서 연결 프로그램을 찾게 함 (형 2026-11-23) */
 .have{display:block;margin:10px 0 0;padding:10px 16px;border-radius:8px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);font:700 14px/1.2 inherit;font-family:inherit;cursor:pointer}
 .have:hover{background:var(--card)}
