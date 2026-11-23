@@ -1,0 +1,39 @@
+# Roon 연결 프로그램 윈도우 실행 시험 (수동 실행 전용, 사이트와 무관)
+name: helper-win-test
+on: workflow_dispatch
+jobs:
+  win:
+    runs-on: windows-latest
+    steps:
+      - name: Download latest Windows file
+        shell: pwsh
+        run: |
+          Invoke-WebRequest -Uri https://github.com/scherchen99-Kim/my-music-atlas/releases/latest/download/ClassicalAtlas-Roon-Windows.exe -OutFile helper.exe
+          Get-Item helper.exe | Select-Object Length
+      - name: Defender status
+        shell: pwsh
+        continue-on-error: true
+        run: Get-MpComputerStatus | Select-Object AMServiceEnabled,RealTimeProtectionEnabled,AntivirusSignatureVersion
+      - name: Run background mode (--agent)
+        shell: pwsh
+        run: |
+          $p = Start-Process -FilePath .\helper.exe -ArgumentList '--agent' -PassThru
+          Start-Sleep -Seconds 12
+          "running: " + (-not $p.HasExited) + "  exit: " + $(if ($p.HasExited) { $p.ExitCode } else { '-' })
+          try { (Invoke-WebRequest -UseBasicParsing http://127.0.0.1:8795/hello -Headers @{Origin='https://classicalatlas.me'}).Content } catch { "hello failed: $_" }
+          Get-Content "$env:APPDATA\MyMusicAtlasRoon\helper.log" -ErrorAction SilentlyContinue
+          if (-not $p.HasExited) { Invoke-WebRequest -UseBasicParsing -Method Post http://127.0.0.1:8795/quit | Out-Null }
+          Start-Sleep -Seconds 2
+      - name: Run like a double-click (launcher)
+        shell: pwsh
+        env:
+          ATLAS_HELPER_DIALOG_TEST: ""
+        run: |
+          $p = Start-Process -FilePath .\helper.exe -PassThru
+          Start-Sleep -Seconds 20
+          "launcher exited: " + $p.HasExited + "  exit: " + $(if ($p.HasExited) { $p.ExitCode } else { '-' })
+          try { (Invoke-WebRequest -UseBasicParsing http://127.0.0.1:8795/hello).Content } catch { "hello failed: $_" }
+          reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v ClassicalAtlasRoon
+          Get-Process | Where-Object { $_.Path -like '*helper.exe' } | Select-Object Id,Path
+          Get-Content "$env:APPDATA\MyMusicAtlasRoon\helper.log" -ErrorAction SilentlyContinue
+          exit 0
