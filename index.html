@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:27"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:50"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -3965,7 +3965,7 @@ function renderGenre(){
  const index=visible.indexOf(page);
  const position=index+1;
  const total=visible.length;
- const baroque=genre==='Vocal'&&(p.era||'').trim()==='Baroque';const customName=atlasPageName(genre,page);const country=(customName||mergedNames.get(page)||getRegion(p)).replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');$('locationTitle').textContent=customName||(baroque?country.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba'):country);$('eraTitle').textContent=atlasPageEra(genre,page);const s=$('region');s.replaceChildren();let regs=regions(genre,visible,mergedNames);for(let r of regs){let o=document.createElement('option');o.value=r.i;o.textContent=r.name.replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');s.append(o)}const activeRegion=regs.filter(x=>visible.indexOf(x.i)<=index).at(-1);if(activeRegion)s.value=activeRegion.i;s.onchange=()=>{setPage(+s.value);requestAnimationFrame(()=>s.blur())};
+ const baroque=genre==='Vocal'&&(p.era||'').trim()==='Baroque';const customName=atlasPageName(genre,page);const country=(customName||mergedNames.get(page)||getRegion(p)).replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');$('locationTitle').textContent=customName||(baroque?country.replace(/^\(Baroque\)(?:\s*·)?\s*/i,'').replace(/^Peru Cuba$/,'Peru · Cuba'):country);$('eraTitle').textContent=atlasPageEra(genre,page);const s=$('region');s.replaceChildren();{const oa=document.createElement('option');oa.value='all';oa.textContent='All';s.append(oa);s.append(document.createElement('hr'));const sep=document.createElement('option');sep.disabled=true;sep.textContent='──────────';sep.className='atlas-sep';s.append(sep);} /* 맨 위 All + 선 (형 2026-11-24) */let regs=regions(genre,visible,mergedNames);for(let r of regs){let o=document.createElement('option');o.value=r.i;o.textContent=r.name.replace(/Deutsch\s*\/\s*Austria/g,'Deutsch/Austria');s.append(o)}const activeRegion=regs.filter(x=>visible.indexOf(x.i)<=index).at(-1);if(activeRegion)s.value=activeRegion.i;s.onchange=()=>{setPage(s.value==='all'?'all':+s.value);requestAnimationFrame(()=>s.blur())};
 const psel=$('page');psel.replaceChildren();for(const [i,id] of visible.entries()){let opt=document.createElement('option');opt.value=id;opt.textContent=i+1;psel.append(opt)}psel.value=page;psel.onchange=()=>{setPage(psel.value==='all'?'all':+psel.value);requestAnimationFrame(()=>psel.blur())};$('pageTotal').textContent='/ '+total;
  $('pageInfo').textContent=position+' / '+total+' pages';
  $('mobilePageInfo').textContent=$('pageInfo').textContent;
@@ -13733,7 +13733,7 @@ html.atlas-view-list #atlasAll .atlas-recommendation-marks{display:none!importan
  const ON=g=>GENRES.includes(g); // 6개 카테고리 모두 (형 2026-11-23)
  const $$=id=>document.getElementById(id);
  let cur=null, flat=[], built=0, buildTimer=0, token=0, head=null, secNames=[];
- function paintHead(){if(!head)return; $$('locationTitle').textContent=head.t; $$('eraTitle').textContent=head.e; $$('mobilePageInfo').textContent=$$('pageInfo').textContent=head.i; const ps=$$('page'); if(ps){if(!ps.querySelector('option[value="all"]')){const o=document.createElement('option'); o.value='all'; o.textContent='All'; ps.prepend(o);} ps.value='all';}}
+ function paintHead(){if(!head)return; $$('locationTitle').textContent=head.t; $$('eraTitle').textContent=head.e; $$('mobilePageInfo').textContent=$$('pageInfo').textContent=head.i; const ps=$$('page'); if(ps){if(!ps.querySelector('option[value="all"]')){const o=document.createElement('option'); o.value='all'; o.textContent='All'; ps.prepend(o);}  ps.value='all';} const rs=$$('region'); if(rs&&rs.querySelector('option[value="all"]'))rs.value='all';}
  window.atlasAllActive=false;
  const sk=g=>'atlas-all-y-'+g;
  function anchor(){const cs=box().querySelectorAll('.atlas-grid-card'); let lo=0,hi=cs.length-1,k=0; while(lo<=hi){const m=(lo+hi)>>1; if(cs[m].getBoundingClientRect().bottom<=90){lo=m+1}else{k=m;hi=m-1}} const c=cs[k]; return c?(c.dataset.i+':'+Math.round(c.getBoundingClientRect().top)):'';}
@@ -14042,6 +14042,14 @@ html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-needle{bac
 html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-play,html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{background:radial-gradient(circle at 50% 40%,#2d4a86 0,#13234c 62%,#08112a 100%)!important;color:#eaf2ff!important;border:1px solid rgba(169,200,255,.5)!important}
 html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{color:#c4e9ff!important}
 </style>
+<style id="atlas-pop-tone">
+/* 떠 있는 작은 창 바탕을 스킨 톤으로 (형 2026-11-24): Jazz 붉은 갈색, Hall 와인, Sky 남색, Lights·Analog 짙은 회색 */
+html.atlas-jazz body #atlasRoonCtl .rc-pop{background:#f3ddd3!important}
+html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlasRoonCtl .rc-pop{background:#ffe3eb!important}
+html.atlas-night body #atlasRoonCtl .rc-pop{background:#e1e9ff!important}
+html.atlas-lights body #atlasRoonCtl .rc-pop{background:#ececf2!important}
+html.atlas-analog body #atlasRoonCtl .rc-pop{background:#dfdfdf!important}
+</style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
 #atlasQobuzRecent .qr-lan:hover{opacity:1}
@@ -14111,17 +14119,18 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
    if(lum!==null){ const vis=flips(e)?1-lum:lum; const r=vis>.55; bgm.set(e,r); return r; } e=e.parentElement; }
   return !R.classList.contains('atlas-dark')&&!R.classList.contains('atlas-glass'); }
  function hasText(el){ for(const n of el.childNodes)if(n.nodeType===3&&n.textContent.trim())return true; return false; }
- function paint(el){ if(el.matches(SKIP)||!hasText(el))return; if(el.dataset.monoOrig===undefined){ el.dataset.monoOrig=el.style.getPropertyValue('color')+'|'+el.style.getPropertyPriority('color'); } else { const [v,pr]=el.dataset.monoOrig.split('|'); if(v)el.style.setProperty('color',v,pr); else el.style.removeProperty('color'); el.style.removeProperty('-webkit-text-fill-color'); }
+ function paint(el){ if(el.matches(SKIP)||!hasText(el))return; const tr=el.style.getPropertyValue('transition'), trp=el.style.getPropertyPriority('transition'); el.style.setProperty('transition','none','important'); try{ paint0(el); } finally { if(tr)el.style.setProperty('transition',tr,trp); else el.style.removeProperty('transition'); } }
+ function paint0(el){ if(el.dataset.monoOrig===undefined){ el.dataset.monoOrig=el.style.getPropertyValue('color')+'|'+el.style.getPropertyPriority('color'); } else { const [v,pr]=el.dataset.monoOrig.split('|'); if(v)el.style.setProperty('color',v,pr); else el.style.removeProperty('color'); el.style.removeProperty('-webkit-text-fill-color'); }
   const cs=getComputedStyle(el), c=P(cs.color); if(!c||c[3]===0)return; const fl=flips(el), vis=fl?1-L(c):L(c), light=bgLight(el);
   // 바탕과 원래 글자의 밝기 차이 → 투명도 (원래 흐린 글자는 흐리게, 진한 글자는 진하게)
   const diff=Math.abs(vis-(light?.96:.06)); const a=Math.max(.5,Math.min(1,.28+diff*.85))*c[3];
   const wantWhite=!light, raw=(wantWhite!==!!fl)?'255,255,255':'0,0,0'; const col='rgba('+raw+','+a.toFixed(2)+')';
   el.style.setProperty('color',col,'important'); el.style.setProperty('-webkit-text-fill-color',col,'important'); }
  // 색 채운 입력칸·선택칸·작은 버튼 → 속은 투명, 가는 선만 (형 2026-11-24). 고른 상태(on)·둥근 재생 버튼·스킨 버튼은 그대로
- const BOX='input[type=search],input[type=text],input:not([type]),select,button,a[role=button]';
- const BOXSKIP='.atlas-skin *,.st-skins *,#atlasSettings .st-sk,.st-seg *,.st-sw,#atlasPanelRadio *,#atlasRoonCtl .rc-pp,.pr-play,.rc-pp,.mp-pp,.genre-card,button.album,.rv-card,.nr-item,.atlas-radio-station,.atlas-home-recommendation,[aria-pressed=true],[aria-selected=true],.on,.active,dialog *,#albumModal .detail .service *,#sidebar *';
- function line(el){ if(!el.matches(BOX)||el.matches(BOXSKIP))return; if(el.tagName!=='INPUT'&&el.tagName!=='SELECT'&&!(el.innerText||'').trim())return; // 글자 없는 아이콘 버튼(메뉴·소리 등)은 그대로 const r=el.getBoundingClientRect(); if(!r.width||r.height>64||r.width>700)return;
-  if(el.dataset.monoBox===undefined){ const cs=getComputedStyle(el), c=P(cs.backgroundColor); if(!c||c[3]<.5)return; if(cs.borderRadius==='50%'&&r.width<70)return; el.dataset.monoBox='1'; }
+ const BOX='input[type=search],input[type=text],input[type=url],input:not([type]),select,button,a[role=button]';
+ const BOXSKIP='#atlasRoonCtl .rc-b:not(.rc-side),.rc-pop *,.atlas-skin *,.st-skins *,#atlasSettings .st-sk,.st-seg *,.st-sw,#atlasPanelRadio *,#atlasRoonCtl .rc-pp,.pr-play,.rc-pp,.mp-pp,.genre-card,button.album,.rv-card,.nr-item,.atlas-radio-station,.atlas-home-recommendation,[aria-pressed=true],[aria-selected=true],.on,.active,dialog *,#albumModal .detail .service *,#sidebar *';
+ function line(el){ if(!el.matches(BOX)||el.matches(BOXSKIP))return; if(el.closest('.top,header,#sidebar,.atlas-mini,#atlasMini'))return; // 위 메뉴줄·사이드·작은 재생창 아이콘은 테두리 없이 그대로 (형 2026-11-24) const r=el.getBoundingClientRect(); if(!r.width||r.height>90||r.width>700)return;
+  if(el.dataset.monoBox===undefined){ const cs=getComputedStyle(el), c=P(cs.backgroundColor); if(!c||c[3]<.5)return; el.dataset.monoBox='1'; }
   const fl=flips(el), light=bgLight(el.parentElement||el), raw=((!light)!==!!fl)?'255,255,255':'0,0,0';
   el.style.setProperty('background','transparent','important'); el.style.setProperty('border','1px solid rgba('+raw+','+(light?.3:.4)+')','important'); el.style.setProperty('box-shadow','none','important'); }
  function scan(root){ if(!root||root.nodeType!==1)return; inv=new WeakMap(); bgm=new WeakMap(); [root,...root.querySelectorAll(BOX)].forEach(e=>{try{line(e)}catch(x){}}); bgm=new WeakMap(); if(!root.matches(SKIP))paint(root); root.querySelectorAll('*').forEach(e=>{ if(!e.closest(SKIP))paint(e); }); }
@@ -14133,6 +14142,7 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
  const go=()=>{ later(document.body,700); setTimeout(()=>later(document.body,10),2500); };
  document.readyState==='loading'?document.addEventListener('DOMContentLoaded',go):go();
  window.atlasMonoText=()=>scan(document.body);
+ setInterval(()=>{ if(document.hidden)return; document.querySelectorAll(BOX).forEach(e=>{ if(e.dataset.monoBox===undefined&&e.offsetParent){ try{line(e)}catch(x){} } }); },1500); // 나중에 보이게 된 칸도 선으로 (형 2026-11-24)
 })();
 </script>
 <style id="atlas-public-roon-soon">#sidebar #roonNav button.atlas-roon-off::after{content:none!important;display:none!important}#sidebar .atlas-roon-side-title .atlas-soon{margin-left:2px;padding:1px 6px;border:1px solid currentColor;border-radius:8px;font-size:10px;line-height:15px;letter-spacing:0}</style>
