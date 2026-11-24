@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-24T10:20:23.169Z",
+  "createdAt": "2026-11-24T10:29:35.373Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -77494,6 +77494,20 @@
       "performer": "Turovsky",
       "searchQuery": "Wassenaer Concerto Armonico Slow Turovsky",
       "updatedAt": "2026-11-22T01:23:31.306Z"
+    },
+    "Orchestral|58|4.06788|65.79552|Chailly Im Grossen Schweigen Diepenbrock Im Grossen Schweigen": {
+      "composer": "Diepenbrock",
+      "work": "Im Grossen Schweigen",
+      "performer": "Vonk",
+      "searchQuery": "Diepenbrock Im Grossen Schweigen Vonk",
+      "updatedAt": "2026-11-24T10:29:00.843Z"
+    },
+    "Orchestral|58|28.7507|15.03215|Wagenaar Levenszomer Op.21": {
+      "composer": "Wagenaar",
+      "work": "Levenszomer Op.21",
+      "performer": "Hermus",
+      "searchQuery": "Wagenaar Levenszomer Hermus",
+      "updatedAt": "2026-11-24T10:29:01.386Z"
     }
   },
   "favorites": {
