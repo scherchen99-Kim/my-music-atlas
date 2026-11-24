@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 10:44"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 10:48"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -10561,8 +10561,11 @@ html.atlas-glass body #albumModal .service.atlas-iconized>button.atlas-dot::afte
  const MOBILE=/iPhone|iPad|iPod|Android/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
  window.atlasRoonWake=msg=>{
   if(!MOBILE){note(String(msg||'').replace(/[&<>]/g,''));return}
-  note('Roon 앱이 열리면 재생돼요. 소리가 나면 이 화면으로 돌아오세요 · <a href="roon://">Roon 앱 열기 ↗</a>');
-  setTimeout(()=>{try{location.href='roon://'}catch(e){}},150);
+  note('Roon 앱이 열리면 재생돼요. 소리가 나면 이 화면으로 돌아오세요 · <a href="roon://" onclick="this.href=\'roon://activate?name=The%20Classical%20Atlas&backurl=\'+encodeURIComponent(location.href)+\'&idle_timeout_return=6000\'">Roon 앱 열기 ↗</a>');
+  // Roon 앱에 '돌아갈 주소'와 '가만히 있으면 돌아가기(ms)'를 같이 넘김 → 재생이 시작되면 저절로 이 화면으로 (Roon 게시판에 나온 형식, 형 2026-11-24)
+  const back=location.href.replace(/#.*$/,'')+location.hash;
+  const url='roon://activate?name='+encodeURIComponent('The Classical Atlas')+'&backurl='+encodeURIComponent(back)+'&idle_timeout_return=6000';
+  setTimeout(()=>{try{location.href=url}catch(e){}},150);
  };
  window.atlasHelperFav=()=>!!(st&&st.connected&&(st.features||[]).includes('fav')); // 연결 프로그램 0.3.0+: Qobuz 하트 목록 (형 2026-11-23)
  let favSaid=false; const favTell=()=>{if(!favSaid&&window.atlasHelperFav()){favSaid=true;document.dispatchEvent(new Event('atlas-helper-fav'));}};
