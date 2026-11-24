@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-24T11:02:48.536Z",
+  "createdAt": "2026-11-24T11:11:32.936Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -77585,6 +77585,48 @@
       "performer": "vn.Mutter/Lutoslawski",
       "searchQuery": "Lutoslawski Partita Mutter Lutoslawski",
       "updatedAt": "2026-11-24T10:59:45.965Z"
+    },
+    "Orchestral|46|54.79764|40.68499|Bour Ligeti Atmospheres Ligeti Lontano Nott": {
+      "composer": "Ligeti",
+      "work": "Lontano",
+      "performer": "Nott",
+      "searchQuery": "Ligeti Lontano Nott",
+      "updatedAt": "2026-11-24T11:05:20.251Z"
+    },
+    "Orchestral|46|54.79764|67.54635|Nott Ligeti Lontano Ligeti Apparitions Nott": {
+      "composer": "Ligeti",
+      "work": "Apparitions",
+      "performer": "Nott",
+      "searchQuery": "Ligeti Apparitions Nott",
+      "updatedAt": "2026-11-24T11:05:34.252Z"
+    },
+    "Orchestral|46|77.32067|40.57958|Gielen Kurtag Stele Op.33 Kurtag ...concertante... Kurtag": {
+      "composer": "Kurtag",
+      "work": "...concertante...",
+      "performer": "Kurtag",
+      "searchQuery": "Kurtag Kurtag",
+      "updatedAt": "2026-11-24T11:05:34.829Z"
+    },
+    "Orchestral|46|78.22703|15.17501|Kurtag Stele Op.33 Gielen": {
+      "composer": "Kurtag",
+      "work": "Stele Op.33",
+      "performer": "Gielen",
+      "searchQuery": "Kurtag Stele Gielen",
+      "updatedAt": "2026-11-24T11:05:35.429Z"
+    },
+    "Orchestral|46|78.01713|67.54635|Kurtag Kurtag ...concertante... Eotvos Zero Point Kurtag": {
+      "composer": "Eotvos",
+      "work": "Zero Point",
+      "performer": "Kurtag",
+      "searchQuery": "Eotvos Zero Point Kurtag",
+      "updatedAt": "2026-11-24T11:05:44.447Z"
+    },
+    "Orchestral|47|4.37101|15.10778|Chopin  ㎿ Glazunov Les sylphides": {
+      "composer": "Chopin",
+      "work": "- Glazunov Les sylphides",
+      "performer": "Karajan",
+      "searchQuery": "Chopin Glazunov Les sylphides Karajan",
+      "updatedAt": "2026-11-24T11:05:44.953Z"
     }
   },
   "favorites": {
@@ -78629,7 +78671,8 @@
     "Vocal|60|18.86634|48.11874|Herreweghe Bernius Psalm115  Op.31": false,
     "Solo|5|4.47862|23.74161|Partitas BWV 825~830 Johann Sebastian Bach p.Levit The Well ㎿Temperered Clavier Book 1 BWV 846~869": true,
     "Roon|0|||Marx: Eine Herbstsymphonie Grazer Philharmoniker, Johannes Wildner": false,
-    "Orchestral|49|4.77335|66.865|Currentzis galantes Suite Rameau Les Boreades Suite": true
+    "Orchestral|49|4.77335|66.865|Currentzis galantes Suite Rameau Les Boreades Suite": true,
+    "Orchestral|47|79.13811|14.87072|Lutoslawski Concerto for Orchestra": true
   },
   "preferredAlbums": {
     "Symphonies|11|18.5261|18.8978|Franz Schubert 4 Giulini": true,
