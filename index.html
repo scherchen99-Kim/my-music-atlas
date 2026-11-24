@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:14"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:17"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -13815,6 +13815,10 @@ html.atlas-view-list #atlasAll .atlas-recommendation-marks{display:none!importan
 })();
 </script>
 <style id="atlas-curated-jump-css">
+/* Discovery Atlas는 전부 좋아요 음반이라 하트 표시를 뺌 (수상 목록은 그대로) (형 2026-11-24) */
+#searchResults[data-discovery]:not([data-award-list]) .atlas-personal-mark{display:none!important}
+#searchResults[data-discovery]:not([data-award-list]) .album:not(:has(.atlas-recommendation-marks>:not(.atlas-personal-mark))) .atlas-label-with-marks{padding-right:0!important}
+
 /* 왼쪽 점 막대가 생기며 폭이 줄어 장르 고르기 칸이 찌그러지던 것 (형 2026-11-24) */
 html body #atlasDiscoveryGenre{min-width:150px!important;flex:none!important}
 </style>
