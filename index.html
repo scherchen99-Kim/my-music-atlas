@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 16:48"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 16:53"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -13543,11 +13543,14 @@ html.atlas-dark:not(.atlas-navy):not(.atlas-analog):not(.atlas-hall) body #atlas
  const PLAY='<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>', PAUSE='<svg viewBox="0 0 24 24"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>';
  let box=null, idx=0;
  const R=()=>window.atlasRadioAPI;
- function keys(){return R()?R().keys():[];}
- const SHORT={'swiss-classic':'SWISS','mpr':'MPR','wqxr':'WQXR','wcrb':'CRB','kbs':'KBS','king':'KING'};
+ const SETS=['kr','classic','world']; let set='classic'; try{const v=localStorage.getItem('atlas-dial-set'); if(SETS.includes(v))set=v;}catch(e){}
+ const setKeys=w=>{ if(!R())return []; if(w==='classic')return R().keys(); return [...document.querySelectorAll('#home .atlas-radio-music .amr-set[data-set="'+w+'"] .atlas-radio-station')].map(c=>c.dataset.radioStation); };
+ function keys(){return setKeys(set);}
+ const PAD=26; // 다이얼 양 끝 ‹ › 자리
+ const SHORT={'swiss-classic':'SWISS','mpr':'MPR','wqxr':'WQXR','wcrb':'CRB','kbs':'KBS','king':'KING','kbs2fm':'COOL','kbshappy':'HAPPY','sbspower':'POWER','sbslove':'LOVE','cbsmusic':'CBS','gugak':'국악','fipjazz':'JAZZ','fiprock':'ROCK','fipmonde':'MONDE','kexp':'KEXP','fipelectro':'ELEC','fipgroove':'GROOVE'};
  const short=k=>SHORT[k]||((R().info(k)||{}).name||k).split(/\s+/)[0].toUpperCase().slice(0,6);
  const pos=(i,n)=>((i+0.5)/n*100).toFixed(2);
- function needleAt(pct){ const band=box.querySelector('.pr-band'), nd=box.querySelector('.pr-needle'); const w=band.clientWidth-20; nd.style.left=(10+w*pct/100)+'px'; }
+ function needleAt(pct){ const band=box.querySelector('.pr-band'), nd=box.querySelector('.pr-needle'); const w=band.clientWidth-2*PAD; nd.style.left=(PAD+w*pct/100)+'px'; }
  function paint(){
   if(!box||!R())return; const ks=keys(); if(!ks.length)return;
   const cur=R().current(); if(cur&&ks.includes(cur))idx=ks.indexOf(cur);
@@ -13579,12 +13582,22 @@ html.atlas-dark:not(.atlas-navy):not(.atlas-analog):not(.atlas-hall) body #atlas
   if(i===idx&&R().current()===ks[i]){paint();return;}
   idx=i; R().select(ks[i]); if(was){box.classList.add('busy'); R().play(); setTimeout(()=>box.classList.remove('busy'),1500);} paint();
  }
+ // 눈금: 방송국마다 긴 눈금 하나(이름 바로 위), 사이에 짧은 눈금 3개 (형 2026-11-24)
+ function labels(){
+  const ks0=keys(), n=ks0.length||1, lab=box.querySelector('.pr-labels'), tk=box.querySelector('.pr-ticks');
+  lab.innerHTML=ks0.map((k,i)=>'<button type="button" data-i="'+i+'" style="left:'+pos(i,ks0.length)+'%" title="'+((R().info(k)||{}).name||k)+'">'+short(k)+'</button>').join('');
+  let t=''; for(let j=0;j<=n*4;j++){ t+='<i class="'+(j%4===2?'l':'')+'" style="left:'+(j/(n*4)*100).toFixed(3)+'%"></i>'; } tk.innerHTML=t;
+  const l=box.querySelector('.pr-set-l'), r=box.querySelector('.pr-set-r'); if(l)l.disabled=set==='kr'; if(r)r.disabled=set==='world';
+  box.dataset.set=set;
+ }
+ function setTo(w){ if(!SETS.includes(w)||w===set)return; set=w; try{localStorage.setItem('atlas-dial-set',w)}catch(e){} const ks=keys(), cur=R().current(); idx=cur&&ks.includes(cur)?ks.indexOf(cur):0; labels(); paint(); }
  function build(){
   if(box||!R())return !!box;
+  { const cur=R().current(); if(cur&&!setKeys(set).includes(cur)){ for(const w of SETS){ if(setKeys(w).includes(cur)){set=w;break;} } } }
   box=document.createElement('div'); box.id='atlasPanelRadio';
   box.innerHTML='<div class="pr-top"><img class="pr-logo atlas-keep-color" alt=""><div class="pr-txt"><span class="pr-live"><i>●</i> LIVE RADIO</span><b></b><span class="pr-song"></span></div><button type="button" class="pr-link" title="방송국 곡목표 열기" aria-label="방송국 곡목표 열기"><svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></button><button type="button" class="pr-play" aria-label="방송 듣기"></button><label class="pr-vol" title="라디오 소리 크기 (방송국마다 따로 기억)"><svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/></svg><input type="range" min="0" max="1" step="0.02" aria-label="라디오 소리 크기"></label></div><div class="pr-band" tabindex="0" role="slider" aria-label="방송국 다이얼 (끌거나 이름을 눌러 맞춤)"><div class="pr-ticks"></div><div class="pr-labels"></div><i class="pr-needle"></i></div>';
-  const ks0=keys(), lab=box.querySelector('.pr-labels');
-  lab.innerHTML=ks0.map((k,i)=>'<button type="button" data-i="'+i+'" style="left:'+pos(i,ks0.length)+'%" title="'+((R().info(k)||{}).name||k)+'">'+short(k)+'</button>').join('');
+  box.querySelector('.pr-band').insertAdjacentHTML('beforeend','<button type="button" class="pr-set pr-set-l" aria-label="한국 방송">‹</button><button type="button" class="pr-set pr-set-r" aria-label="세계 음악 방송">›</button>');
+  labels();
   document.body.appendChild(box);
   box.querySelectorAll('.pr-band,.pr-play,.pr-live i').forEach(e=>e.classList.add('atlas-true')); // 진짜 색으로
   const vin=box.querySelector('.pr-vol input'); vin.addEventListener('input',()=>{ const k=R().current()||keys()[idx]; try{localStorage.setItem(volKey(k),vin.value);}catch(e){} if(R().audio)R().audio.volume=+vin.value*(window.atlasHearCap?atlasHearCap('radio'):1); });
@@ -13592,9 +13605,9 @@ html.atlas-dark:not(.atlas-navy):not(.atlas-analog):not(.atlas-hall) body #atlas
   if(R().audio)['pause','playing','emptied'].forEach(t=>R().audio.addEventListener(t,()=>setTimeout(paint,50)));
   // 다이얼 돌리기: 바늘을 끌면 놓은 자리에서 가장 가까운 방송국으로, 휠·화살표 키로도
   const band=box.querySelector('.pr-band'); let drag=null;
-  const pctOf=x=>{const r=band.getBoundingClientRect(); return Math.max(0,Math.min(100,(x-r.left-10)/(r.width-20)*100));};
+  const pctOf=x=>{const r=band.getBoundingClientRect(); return Math.max(0,Math.min(100,(x-r.left-PAD)/(r.width-2*PAD)*100));};
   const nearest=pct=>{const n=keys().length; return Math.max(0,Math.min(n-1,Math.round(pct/100*n-0.5)));};
-  band.addEventListener('pointerdown',e=>{ if(e.target.closest('.pr-labels button'))return; drag={x:e.clientX}; band.classList.add('drag'); band.setPointerCapture(e.pointerId); needleAt(pctOf(e.clientX)); });
+  band.addEventListener('pointerdown',e=>{ if(e.target.closest('.pr-labels button,.pr-set'))return; drag={x:e.clientX}; band.classList.add('drag'); band.setPointerCapture(e.pointerId); needleAt(pctOf(e.clientX)); });
   band.addEventListener('pointermove',e=>{ if(!drag)return; const pc=pctOf(e.clientX); needleAt(pc); const ni=nearest(pc); box.querySelectorAll('.pr-labels button').forEach(b=>b.classList.toggle('on',+b.dataset.i===ni)); });
   const end=e=>{ if(!drag)return; drag=null; band.classList.remove('drag'); tune(nearest(pctOf(e.clientX))); };
   band.addEventListener('pointerup',end); band.addEventListener('pointercancel',()=>{drag=null;band.classList.remove('drag');paint();});
@@ -13603,6 +13616,7 @@ html.atlas-dark:not(.atlas-navy):not(.atlas-analog):not(.atlas-hall) body #atlas
   box.addEventListener('click',async e=>{
    const p=e.target.closest('.pr-play'); const ks=keys(); if(!ks.length)return;
    if(e.target.closest('.pr-link,.pr-song-link')){ const st=R().station&&R().station(ks[idx]); if(st&&st.playlist)window.open(st.playlist,'_blank','noopener'); return; }
+   const sb=e.target.closest('.pr-set'); if(sb){ setTo(SETS[SETS.indexOf(set)+(sb.classList.contains('pr-set-l')?-1:1)]); return; }
    const lb=e.target.closest('.pr-labels button'); if(lb){ tune(+lb.dataset.i); return; }
    if(p){ const k=ks[idx]; if(R().playing()&&R().current()===k){R().stop();} else { if(R().current()!==k)R().select(k); await pauseAlbum(); box.classList.add('busy'); R().play(); setTimeout(()=>box.classList.remove('busy'),1500); } paint(); }
   });
@@ -13954,6 +13968,19 @@ html body #sidebar .atlas-skin button.ln.ln{background:radial-gradient(ellipse 6
  let w='kr'; try{w=localStorage.getItem('atlas-music-radio')==='world'?'world':'kr'}catch(e){} show(w);
 })();
 </script>
+<style id="atlas-dial3-css">
+/* 다이얼: 긴 눈금 아래 방송국 이름, 양 끝 ‹ › 로 한국·클래식·세계 3세트 (형 2026-11-24) */
+html body #atlasPanelRadio .pr-ticks{left:26px!important;right:26px!important;background:none!important}
+html body #atlasPanelRadio .pr-ticks i{position:absolute;top:0;width:1px;height:45%;margin-left:-.5px;background:currentColor}
+html body #atlasPanelRadio .pr-ticks i.l{height:100%;width:1.5px;margin-left:-.75px}
+html body #atlasPanelRadio .pr-labels{left:26px!important;right:26px!important}
+html body #atlasPanelRadio .pr-set{position:absolute;top:50%;transform:translateY(-50%);width:20px;height:24px;padding:0 0 2px;border:0;background:none;color:inherit;font-size:17px;line-height:1;cursor:pointer;opacity:.75;z-index:2}
+html:is(.atlas-analog,.atlas-hall) body #atlasPanelRadio .pr-set{color:var(--rd-ink)}
+html body #atlasPanelRadio .pr-set:hover{opacity:1}
+html body #atlasPanelRadio .pr-set:disabled{opacity:.18;cursor:default}
+html body #atlasPanelRadio .pr-set-l{left:3px}
+html body #atlasPanelRadio .pr-set-r{right:3px}
+</style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
 #atlasQobuzRecent .qr-lan:hover{opacity:1}
