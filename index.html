@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 21:46"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 21:53"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14225,6 +14225,24 @@ html.atlas-is-local.atlas-show-guide #atlasFootGrid{display:block!important}
 #atlasBento .bx-t b em{white-space:nowrap;font-style:normal;font-weight:500;font-size:11px;padding:1px 8px;border:1px solid currentColor;border-radius:9px;opacity:.55}
 #atlasBento .bx-t p{margin:0;font-size:13.5px;line-height:1.62;opacity:.65}
 #atlasBento .bx-more{margin:10px 14px 0 0;padding:0;border:0;background:none;font:inherit;font-size:12.5px;text-decoration:underline;text-underline-offset:3px;cursor:pointer;opacity:.7}
+/* 3칸씩 2줄 (형 2026-11-24) */
+#atlasBento .bx.big,#atlasBento .bx.wide{grid-column:span 2}
+#atlasBento .bx.wide{flex-direction:column}
+#atlasBento .bx.wide .bx-v{flex:none;border-right:0;border-bottom:1px solid rgba(0,0,0,.08)}
+#atlasBento .bx.wide .bx-t{align-self:auto}
+/* 칸이 좁을 때(데스크탑 3칸) 그림 안 부품을 줄임 */
+#atlasBento .bx-v{container-type:inline-size}
+@container (max-width:260px){
+ #atlasBento#atlasBento .p-steps .st{width:52px;font-size:11px}
+ #atlasBento#atlasBento .p-steps .st i{width:36px;height:36px;font-size:13px}
+ #atlasBento#atlasBento .p-steps .ln{width:12px}
+ #atlasBento#atlasBento .p-search{width:86%;padding:8px 12px;font-size:12px;bottom:26px}
+ #atlasBento#atlasBento .p-cat{width:62%;top:16px;gap:6px;grid-template-columns:repeat(3,1fr)}
+ #atlasBento#atlasBento .p-search{bottom:18px}
+ #atlasBento#atlasBento .p-info{width:88%;padding:12px;grid-template-columns:60px 1fr;gap:10px}
+ #atlasBento#atlasBento .p-info img.cv{width:60px;height:60px}
+ #atlasBento#atlasBento .p-tabs{gap:10px;font-size:10.5px}
+}
 #atlasBento .bx-note{grid-column:1/-1;margin:2px 4px 0;font-size:12px;line-height:1.6;opacity:.5;text-align:center}
 /* 그림 안 공용 부품 (밝은 스킨 기준 색 — 어두운 스킨은 화면이 뒤집혀 자동으로 어둡게) */
 #atlasBento .pane{position:absolute;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
@@ -14321,7 +14339,7 @@ html.atlas-is-local.atlas-show-guide #atlasFootGrid{display:block!important}
 #atlasBento .p-apps span:after{content:"";position:absolute;top:-4px;right:-4px;width:9px;height:9px;border-radius:50%;background:rgba(0,0,0,.8)}
 #atlasBento .p-apps-l{position:absolute;left:0;right:0;bottom:18px;padding:0 12px;text-align:center;font-size:11px;letter-spacing:.06em;opacity:.55}
 @keyframes bxApp{0%,20%,100%{transform:none;box-shadow:none}6%,14%{transform:translateY(-6px);box-shadow:0 8px 20px rgba(0,0,0,.14)}}
-@media(max-width:900px){#atlasBento{grid-template-columns:1fr 1fr;gap:12px}#atlasBento .bx,#atlasBento .bx.big{grid-column:span 1}#atlasBento .bx.big{grid-column:1/-1}}
+@media(max-width:900px){#atlasBento{grid-template-columns:1fr 1fr;gap:12px}#atlasBento .bx,#atlasBento .bx.big{grid-column:span 1}#atlasBento .bx.wide{grid-column:span 1}}
 @media(max-width:600px){#atlasBento{grid-template-columns:1fr}#atlasBento .bx,#atlasBento .bx.big{grid-column:1/-1}#atlasBento .bx.wide{flex-direction:column}#atlasBento .bx.wide .bx-v{flex:none;border-right:0;border-bottom:1px solid rgba(0,0,0,.08)}#atlasBento .bx-v{height:190px}#atlasBento .p-play{transform:translate(-50%,-64%);padding:10px}#atlasBento .p-play img.cv{width:70px;height:70px}#atlasBento .p-svc{bottom:12px}#atlasBento .p-fav{width:min(160px,60%);top:16px}#atlasBento .p-info{top:16px}#atlasBento .bx-t{padding:16px 18px 18px}#atlasBento .bx-t b{font-size:17px}}
 @media(prefers-reduced-motion:reduce){#atlasBento *{animation:none!important}#atlasBento .p-fav img.cv,#atlasBento .p-list{opacity:1}#atlasBento .p-search .ty{width:8ch}}
 </style>
