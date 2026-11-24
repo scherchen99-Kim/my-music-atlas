@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:29"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:39"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14115,6 +14115,10 @@ html.atlas-analog:not(.atlas-panel-dock) body #atlasMini#atlasMini,html.atlas-an
 html.atlas-dark input::placeholder,html.atlas-dark textarea::placeholder{color:rgba(0,0,0,.5)!important;-webkit-text-fill-color:rgba(0,0,0,.5)!important}
 html:not(.atlas-dark) input::placeholder,html:not(.atlas-dark) textarea::placeholder{color:rgba(0,0,0,.45)!important;-webkit-text-fill-color:rgba(0,0,0,.45)!important}
 select option{color:#111;background:#fff} /* 선택칸 속이 투명해져도 펼친 목록은 읽히게 */
+/* TOP 버튼: 흰 바탕·검은 바탕 경계에 걸려도 보이게 검은 원 + 흰 화살표 (형 2026-11-24). 어두운 스킨은 화면이 뒤집혀 흰색=검정 */
+html body #atlas-top-shortcut#atlas-top-shortcut{background:rgba(0,0,0,.78)!important;color:#fff!important;border:1px solid rgba(255,255,255,.35)!important}
+html.atlas-dark body #atlas-top-shortcut#atlas-top-shortcut{background:rgba(255,255,255,.78)!important;color:#000!important;border-color:rgba(0,0,0,.35)!important}
+html body #atlas-top-shortcut#atlas-top-shortcut svg{color:inherit!important;stroke:currentColor!important}
 /* 작은 음표 표시(인상 깊은 음반): 주황 그라데이션 대신 흰색/검정 (형 2026-11-24). Discovery Atlas 로고는 그대로 */
 html body svg:has(use[href="#atlasDiscoveryNote"]):not(.atlas-home-recommendation svg):not(#sidebar svg){filter:grayscale(1) brightness(0) opacity(.85)!important}
 html.atlas-glass body svg:has(use[href="#atlasDiscoveryNote"]):not(.atlas-home-recommendation svg):not(#sidebar svg){filter:grayscale(1) brightness(0) invert(1) opacity(.85)!important}
@@ -14152,7 +14156,7 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
   el.style.setProperty('color',col,'important'); el.style.setProperty('-webkit-text-fill-color',col,'important'); }
  // 색 채운 입력칸·선택칸·작은 버튼 → 속은 투명, 가는 선만 (형 2026-11-24). 고른 상태(on)·둥근 재생 버튼·스킨 버튼은 그대로
  const BOX='input[type=search],input[type=text],input[type=url],input:not([type]),select,button,a[role=button]';
- const BOXSKIP='#atlasRoonCtl .rc-b,.rc-pop *,.atlas-skin *,.st-skins *,#atlasSettings .st-sk,.st-seg *,.st-sw,#atlasPanelRadio *,#atlasRoonCtl .rc-pp,.pr-play,.rc-pp,.mp-pp,.genre-card,button.album,.rv-card,.nr-item,.atlas-radio-station,.atlas-home-recommendation,[aria-pressed=true],[aria-selected=true],.on,.active,dialog *,#albumModal .detail .service *,#sidebar *';
+ const BOXSKIP='#atlas-top-shortcut,#atlasRoonCtl .rc-b,.rc-pop *,.atlas-skin *,.st-skins *,#atlasSettings .st-sk,.st-seg *,.st-sw,#atlasPanelRadio *,#atlasRoonCtl .rc-pp,.pr-play,.rc-pp,.mp-pp,.genre-card,button.album,.rv-card,.nr-item,.atlas-radio-station,.atlas-home-recommendation,[aria-pressed=true],[aria-selected=true],.on,.active,dialog *,#albumModal .detail .service *,#sidebar *';
  function line(el){ if(!el.matches(BOX)||el.matches(BOXSKIP))return; if(el.tagName!=='INPUT'&&el.closest('.top,header,#sidebar,.atlas-mini,#atlasMini'))return; // 위 메뉴줄·사이드·작은 재생창 아이콘은 테두리 없이 그대로 (형 2026-11-24) const r=el.getBoundingClientRect(); if(!r.width||r.height>90||r.width>700)return;
   if(el.dataset.monoBox===undefined){ const cs=getComputedStyle(el), c=P(cs.backgroundColor); if(!c||c[3]<.5)return; el.dataset.monoBox='1'; }
   const fl=flips(el), light=bgLight(el.parentElement||el), raw=((!light)!==!!fl)?'255,255,255':'0,0,0';
