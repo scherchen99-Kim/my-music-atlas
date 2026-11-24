@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-24T10:58:24.299Z",
+  "createdAt": "2026-11-24T11:02:48.536Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -77564,6 +77564,27 @@
       "performer": "Griffiths",
       "searchQuery": "Mihajlovic Memento Griffiths",
       "updatedAt": "2026-11-24T10:47:37.534Z"
+    },
+    "Orchestral|47|79.13811|14.87072|Lutoslawski Concerto for Orchestra": {
+      "composer": "Lutoslawski",
+      "work": "Concerto for Orchestra",
+      "performer": "Skroaczwski",
+      "searchQuery": "Lutoslawski Concerto for Orchestra Skroaczwski",
+      "updatedAt": "2026-11-24T10:59:44.831Z"
+    },
+    "Orchestral|47|79.16268|40.95858|Skroaczwski for Orchestra Lutoslawski Musique funebre": {
+      "composer": "Lutoslawski",
+      "work": "Musique funebre",
+      "performer": "R.Davies",
+      "searchQuery": "Lutoslawski Musique funebre Davies",
+      "updatedAt": "2026-11-24T10:59:45.430Z"
+    },
+    "Orchestral|47|79.2133|66.03431|R.Davies Musique funebre Lutoslawski Partita": {
+      "composer": "Lutoslawski",
+      "work": "Partita",
+      "performer": "vn.Mutter/Lutoslawski",
+      "searchQuery": "Lutoslawski Partita Mutter Lutoslawski",
+      "updatedAt": "2026-11-24T10:59:45.965Z"
     }
   },
   "favorites": {

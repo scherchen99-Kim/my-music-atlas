@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:58"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 20:02"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14075,6 +14075,12 @@ html.atlas-analog:not(.atlas-panel-dock) body #atlasMini#atlasMini,html.atlas-an
 /* 상세창 하트는 옆 연필·링크 아이콘과 같은 색 (형 2026-11-24) */
 html body #albumModal#albumModal .atlas-top-tools .at-heart.at-heart.at-heart{color:#6d6879!important}
 html body #albumModal#albumModal .atlas-top-tools .at-heart.at-heart svg.x,html body #albumModal#albumModal .atlas-top-tools .at-heart.at-heart svg{filter:none!important;color:inherit!important;opacity:.6!important}
+</style>
+<style id="atlas-fit-like-panels">
+/* 표지 편집 창도 다른 창(연결 고치기·음반 정보)처럼: 모서리·테두리 없이, 내용은 위에서부터 차례로 (형 2026-11-24) */
+html body #atlasFitBox#atlasFitBox.atlas-fit-same{border-radius:0!important;box-shadow:none!important;border:0!important}
+html body #atlasFitBox#atlasFitBox.atlas-fit-same>#atlasFitStage{margin-top:6px!important}
+html body #atlasFitBox#atlasFitBox.atlas-fit-same>.atlas-fit-row{margin-top:22px!important}
 </style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
