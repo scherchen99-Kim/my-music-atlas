@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 10:06"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 10:30"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -10723,8 +10723,8 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
    // 내 Roon으로 듣는 중이면 Roon 재생 목록 (연결 프로그램 0.5.2+) (형 2026-11-24)
    if(roonMode()&&roonState().mine){pop.dataset.k='q';pop.className='rc-pop';pop.hidden=false;pop.innerHTML='<div class="rp-h">TRACKS</div><div class="rp-msg">불러오는 중…</div>';
     fetch(H+'/queue',{cache:'no-store'}).then(r=>r.json()).then(q=>{ if(pop.dataset.k!=='q'||pop.hidden)return; const it=(q&&q.items)||[];
-     if(!it.length){pop.innerHTML='<div class="rp-h">TRACKS</div><div class="rp-msg">'+(q&&q.ok===undefined?'연결 프로그램을 새 버전으로 바꾸면 곡 목록이 보여요.':'곡 목록이 없어요.')+'</div>';return}
-     pop.innerHTML='<div class="rp-h">TRACKS<span>'+esc(it[0].album||'')+'</span></div>'+it.map((t,i)=>'<button type="button" class="rp-z'+(i===0?' on':'')+'" data-q="'+t.id+'"><span>'+esc(t.title)+'</span></button>').join('');
+     if(!it.length){pop.innerHTML='<div class="rp-h">TRACKS</div><div class="rp-msg">'+(q&&q.ok===undefined?'연결 프로그램을 새 버전으로 바꾸면 곡 목록이 보여요.':(q&&q.off?esc(q.zone)+'이(가) 꺼져 있어요. Roon 앱을 열면 보여요.':'곡 목록이 없어요.'))+'</div>';return}
+     pop.innerHTML='<div class="rp-h">TRACKS<span>'+esc(it[0].album||'')+'</span></div>'+it.map((t,i)=>'<button type="button" class="rp-z'+(i===0?' on':'')+'" style="grid-template-columns:1fr auto" data-q="'+t.id+'"><span>'+esc(t.title)+'</span><small style="opacity:.55">'+(t.length?Math.floor(t.length/60)+':'+String(t.length%60).padStart(2,'0'):'')+'</small></button>').join('');
      pop.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{fetch(H+'/queue/play',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:+b.dataset.q})}).catch(()=>{});pop.hidden=true;});
     }).catch(()=>{pop.innerHTML='<div class="rp-h">TRACKS</div><div class="rp-msg">연결 프로그램을 새 버전으로 바꾸면 곡 목록이 보여요.</div>'});
     return}
