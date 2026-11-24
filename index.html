@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 09:39"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 09:50"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -10581,7 +10581,7 @@ html.atlas-glass body #albumModal .service.atlas-iconized>button.atlas-dot::afte
    if(r.ok){ // Roon에서 재생 시작 → 이 페이지에서 나던 소리(미리듣기·Apple/TIDAL 창·라디오)는 멈춤
     try{window.atlasPreviewStop&&atlasPreviewStop()}catch(x){} try{window.atlasCloseEmbed&&atlasCloseEmbed()}catch(x){}
     try{const ra=document.getElementById('atlasRadioAudio'); if(ra&&!ra.paused)ra.pause()}catch(x){} }
-   say(r.ok?('▶ '+r.zone+' · '+r.album.title):(r.error||'재생하지 못했어요.'));
+   say(r.ok?('▶ '+r.zone+' · '+r.album.title):(r.error||'재생하지 못했어요.')); if(r.waiting)note(String(r.error||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))); // 고른 출력이 꺼져 있음 → 켜지면 재생 (0.5.3+)
    if(r.ok){setTimeout(pollNow,400);setTimeout(pollNow,1500)}
   }catch(x){say('연결 프로그램과 통신하지 못했어요.')}
  },true);
@@ -10738,8 +10738,8 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
    let d=null; try{const ac=new AbortController(); setTimeout(()=>ac.abort(),2500); d=await fetch(H+'/hello',{cache:'no-store',signal:ac.signal}).then(r=>r.json());}catch(e){}
    if(pop.dataset.k!=='dac'||pop.hidden)return;
    if(!d||!d.connected){pop.innerHTML='<div class="rp-h">OUTPUT</div><div class="rp-msg">Roon에 연결되지 않았어요.</div>';return}
-   const zs=d.zones||[], me=selfOut(), touch=matchMedia('(pointer:coarse)').matches||/iPhone|iPad|Android/.test(navigator.userAgent), meName=touch?'이 휴대폰':'이 컴퓨터';
-   pop.innerHTML='<div class="rp-h">OUTPUT<span>재생할 장치</span></div>'+(zs.length?zs.map((z,i)=>'<button type="button" class="rp-z'+(!me&&z.name===d.zone?' on':'')+'" data-i="'+i+'">'+zoneIcon(z.name)+'<span>'+esc(z.name)+'</span>'+(z.state==='playing'?'<u class="rp-eq" title="지금 소리 나는 곳"><s></s><s></s><s></s></u>':'<u></u>')+'<i>'+(!me&&z.name===d.zone?'✓':'')+'</i></button>').join(''):'<div class="rp-msg">Roon 출력 장치가 없어요.</div>')+'<button type="button" class="rp-z'+(me?' on':'')+'" data-me="1">'+zoneIcon(touch?'phone':'computer')+'<span>'+meName+' <small style="opacity:.6">· 미리듣기 30초</small></span><u></u><i>'+(me?'✓':'')+'</i></button>';
+   const zs=(d.zones||[]).concat(d.zoneMissing&&d.zone?[{name:d.zone,state:'off'}]:[]), me=selfOut(), touch=matchMedia('(pointer:coarse)').matches||/iPhone|iPad|Android/.test(navigator.userAgent), meName=touch?'이 휴대폰':'이 컴퓨터';
+   pop.innerHTML='<div class="rp-h">OUTPUT<span>재생할 장치</span></div>'+(zs.length?zs.map((z,i)=>'<button type="button" class="rp-z'+(!me&&z.name===d.zone?' on':'')+'" data-i="'+i+'">'+zoneIcon(z.name)+'<span>'+esc(z.name)+(z.state==='off'?' <small style="opacity:.6">· 꺼짐</small>':'')+'</span>'+(z.state==='playing'?'<u class="rp-eq" title="지금 소리 나는 곳"><s></s><s></s><s></s></u>':'<u></u>')+'<i>'+(!me&&z.name===d.zone?'✓':'')+'</i></button>').join(''):'<div class="rp-msg">Roon 출력 장치가 없어요.</div>');
    const me1=pop.querySelector('[data-me]'); const mark=b=>{pop.querySelectorAll('.rp-z').forEach(x=>{x.classList.toggle('on',x===b);const i=x.querySelector('i');if(i)i.textContent=x===b?'✓':''});};
    if(me1)me1.onclick=()=>{mark(me1);try{localStorage.setItem('atlasOutSelf','1')}catch(e){} try{window.atlasHelperPause&&atlasHelperPause()}catch(e){} say('출력: '+meName+' · 다음 ▶ 부터 여기서 나와요'); paint(); dacPop();};
    pop.querySelectorAll('[data-i]').forEach(b=>b.onclick=async()=>{const z=zs[+b.dataset.i]; mark(b); try{localStorage.removeItem('atlasOutSelf')}catch(e){} try{await fetch(H+'/zone',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:z.name})});}catch(e){} say('출력: '+z.name+' · 다음 ▶ 부터 여기로 나와요'); try{audio.pause()}catch(e){} paint(); dacPop();});
@@ -10752,7 +10752,7 @@ html.atlas-glass #atlasQobuzApp{color:#fff!important;border-color:rgba(255,255,2
  // Roon 확장이 연결돼 있으면 재생줄은 내 Roon 상태를 보여줌 (미리듣기가 소리 내는 중일 때만 미리듣기)
  const hon=()=>!!(window.atlasHelperOn&&atlasHelperOn());
  // 출력 '이 기기'를 고르면 ▶ 는 Roon 대신 이 기기에서 (미리듣기 · Apple Music) (형 2026-11-24)
- const selfOut=()=>{try{return localStorage.getItem('atlasOutSelf')==='1'}catch(e){return false}};
+ try{localStorage.removeItem('atlasOutSelf')}catch(e){} const selfOut=()=>false; // '이 휴대폰(30초)'은 뺌 — 형 2026-11-24: 30초는 의미 없음
  const roonMode=()=>hon()&&!selfOut()&&!(cur&&!audio.paused);
  function roonState(){const n=window.atlasHelperNow?atlasHelperNow():null, key=shownKey(), t=window.atlasHelperTitleSync?atlasHelperTitleSync(key):'';
   const active=!!(n&&n.line1&&(n.state==='playing'||n.state==='paused'));
@@ -12030,7 +12030,7 @@ html.atlas-glass body #albumModal .atlas-info-sheet .ai-x{color:#fff!important;b
   if(!b||!selected||!selected.a||!selected.a.roonFav)return;
   e.preventDefault();e.stopImmediatePropagation();
   const f=selected.a.roonFav,msg=$('message');msg.textContent='Sending to Roon…';
-  try{const r=await fetch(API()+'/library/favorites/play',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({n:f.n,title:f.title})}).then(r=>r.json());msg.textContent=r.ok?(HOME?'':'▶ '+(r.zone||'Roon')+' · '+f.title):(r.error||'');
+  try{const r=await fetch(API()+'/library/favorites/play',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({n:f.n,title:f.title})}).then(r=>r.json());msg.textContent=r.ok?(HOME?'':'▶ '+(r.zone||'Roon')+' · '+f.title):(r.error||''); if(r.waiting){const n=document.getElementById('atlasHelperNote'); if(n)n.textContent=r.error;}
    if(r.ok&&!HOME){try{window.atlasPreviewStop&&atlasPreviewStop()}catch(x){} try{window.atlasCloseEmbed&&atlasCloseEmbed()}catch(x){}}}
   catch(er){msg.textContent=HOME?'Cannot reach Roon link (8794).':'연결 프로그램과 통신하지 못했어요.';}
  },true);
