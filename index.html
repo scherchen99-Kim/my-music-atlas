@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:35"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:41"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14136,8 +14136,10 @@ html body #home section.atlas-radio.atlas-radio-music{display:none!important}
 /* 라디오 칸: 네모 테두리·바탕·후광 없이 로고만 (형 2026-11-24) */
 html body #home section.atlas-radio .atlas-radio-station.atlas-radio-station{border-color:transparent!important;background:transparent!important;box-shadow:none!important;outline:0}
 html body #home section.atlas-radio .atlas-radio-station img{transform-origin:50% 50%;transition:none}
-/* 라디오 로고 투명도 60% — 흰색(White) 스킨만 그대로 (형 2026-11-24) */
-html body #home section.atlas-radio .atlas-radio-station img{opacity:.6!important}
+/* 라디오 로고 투명도 40% — 흰색(White) 스킨만 그대로 (형 2026-11-24) */
+html body #home section.atlas-radio .atlas-radio-station img{opacity:.4!important}
+/* 방송 이름 글자 80% (어두운 스킨은 화면이 뒤집혀 흰색 80%) */
+html body #home section.atlas-radio .atlas-radio-name{color:rgba(0,0,0,.8)!important;-webkit-text-fill-color:rgba(0,0,0,.8)!important;opacity:1!important}
 html:not(.atlas-dark):not(.atlas-navy) body #home section.atlas-radio .atlas-radio-station img{opacity:1!important}
 @keyframes amqMove{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--amq-w,0px)))}}
 @media(max-width:700px){#home section.atlas-radio .atlas-radio-stations.amq>.atlas-radio-station{flex-basis:100px!important;width:100px!important}}
@@ -14190,7 +14192,7 @@ html:not(.atlas-dark):not(.atlas-navy) body #home section.atlas-radio .atlas-rad
   const T=2500, s=Math.min(Math.sqrt(T/(cw*ch)),104/cw,50/ch,2.6);
   const ox=((a+c)/2-nw/2)*r, oy=((b+d)/2-nh/2)*r;
   img.style.setProperty('transform','scale('+s.toFixed(3)+') translate('+(-ox).toFixed(1)+'px,'+(-oy).toFixed(1)+'px)','important'); img.dataset.fitK=k; }
- function all(){document.querySelectorAll('#home section.atlas-radio .atlas-radio-stations').forEach(setup); document.querySelectorAll('#home section.atlas-radio .atlas-radio-station img').forEach(fit);}
+ function all(){document.querySelectorAll('#home section.atlas-radio .atlas-radio-name[style]').forEach(n=>n.removeAttribute('style')); document.querySelectorAll('#home section.atlas-radio .atlas-radio-stations').forEach(setup); document.querySelectorAll('#home section.atlas-radio .atlas-radio-station img').forEach(fit);}
  setInterval(all,1500); addEventListener('resize',()=>setTimeout(all,200));
  document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('.amr-tabs'))setTimeout(all,60);},true);
 })();
@@ -14272,7 +14274,7 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
 // 모든 글자를 바탕 밝기에 따라 흰색/검정 + 투명도로 (형 2026-11-24 절대원칙). 다른 칠하기 장치보다 나중에 돌아서 마지막 색을 정함
 (function(){
  const R=document.documentElement;
- const SKIP='script,style,svg,svg *,canvas,img,video,audio,input,select,option,textarea,iframe,noscript,.atlas-skin,.atlas-skin *,.st-skins,.st-skins *';
+ const SKIP='script,style,svg,svg *,canvas,img,video,audio,input,select,option,textarea,iframe,noscript,.atlas-skin,.atlas-skin *,.st-skins,.st-skins *,#home section.atlas-radio .atlas-radio-name';
  const P=v=>{const m=String(v).match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?/); return m?[+m[1]/255,+m[2]/255,+m[3]/255,m[4]===undefined?1:+m[4]]:null;};
  const L=c=>.2126*c[0]+.7152*c[1]+.0722*c[2];
  let inv=new WeakMap(), bgm=new WeakMap();
