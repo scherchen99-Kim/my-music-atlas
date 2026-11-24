@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 17:18"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 17:27"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -9826,7 +9826,7 @@ html.atlas-dark:not(.atlas-navy) .genre-card:active .genre-poster,html.atlas-dar
   const hr=document.createElement('hr'); hr.className='atlas-discovery-menu-divider';
   const h=document.createElement('div'); h.className='side-hint'; h.textContent='SKIN';
   const box=document.createElement('div'); box.className='atlas-skin'; box.setAttribute('role','group'); box.setAttribute('aria-label','화면 색');
-  box.innerHTML='<button type="button" class="w" data-skin="light">White</button><button type="button" class="b" data-skin="dark">Black</button><button type="button" class="r" data-skin="navy">Navy</button><button type="button" class="g" data-skin="glass">Glass</button><button type="button" class="a atlas-true" data-skin="analog">Analog</button><button type="button" class="h atlas-true" data-skin="hall">Hall</button><button type="button" class="j atlas-true" data-skin="jazz">Jazz</button><button type="button" class="l atlas-true" data-skin="lights">Lights</button><button type="button" class="nt atlas-true" data-skin="night">Night</button>';
+  box.innerHTML='<button type="button" class="w" data-skin="light">White</button><button type="button" class="b" data-skin="dark">Black</button><button type="button" class="r" data-skin="navy">Navy</button><button type="button" class="g" data-skin="glass">Glass</button><button type="button" class="a atlas-true" data-skin="analog">Analog</button><button type="button" class="h atlas-true" data-skin="hall">Hall</button><button type="button" class="j atlas-true" data-skin="jazz">Jazz</button><button type="button" class="l atlas-true" data-skin="lights">Lights</button><button type="button" class="nt atlas-true" data-skin="night">Sky</button>';
   box.addEventListener('click',e=>{const b=e.target.closest('button[data-skin]'); if(!b)return; try{localStorage.setItem(KEY,b.dataset.skin);}catch(_){} apply(b.dataset.skin);});
   if(!document.getElementById('atlasNavyTint')){const d=document.createElement('div'); d.id='atlasNavyTint'; d.setAttribute('aria-hidden','true'); document.body.appendChild(d);}
   const last=[...sb.children].pop(); sb.insertBefore(hr,last); sb.insertBefore(h,last); sb.insertBefore(box,last);
@@ -13294,7 +13294,7 @@ html:not(.atlas-m-sidefull) body #sidebar :is(#atlas-side-guide-heading,#atlas-s
  }
  applyStored();
  window.atlasSetView=v=>{LS('atlas-set-view',(v==='covers'||v==='list')?v:null); applyStored(); window.atlasViewIcons&&atlasViewIcons(); if(box)paint();};
- const SKINS=[['light','White','#fff','#222'],['dark','Black','#111','#fff'],['navy','Navy','#0b1035','#f3e3a0'],['glass','Glass','linear-gradient(135deg,#c026d3,#6d28d9 55%,#0891b2)','#fff'],['analog','Analog','radial-gradient(circle,rgba(255,255,255,.08) 1px,transparent 1.6px) 0 0/5px 5px,linear-gradient(180deg,#3b3b3b,#161616)','#ffb24a'],['hall','Hall','repeating-linear-gradient(90deg,rgba(0,0,0,.28) 0,rgba(255,255,255,.05) 6px,rgba(0,0,0,.28) 12px),#7a1428','#e7c372'],['jazz','Jazz','repeating-linear-gradient(90deg,rgba(0,0,0,.25) 0,rgba(255,220,170,.05) 9px,rgba(0,0,0,.25) 18px),#4a2a16','#e9c27a'],['lights','Lights','radial-gradient(circle at 25% 35%,rgba(255,196,110,.9) 0 2px,transparent 3px),radial-gradient(circle at 70% 60%,rgba(120,200,210,.85) 0 2.5px,transparent 3.5px),radial-gradient(circle at 50% 20%,rgba(150,210,140,.8) 0 1.5px,transparent 2.5px),#08080b','#f2ead8'],['night','Night','radial-gradient(circle at 22% 30%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 70% 22%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 48% 62%,rgba(255,255,255,.8) 0 .8px,transparent 1.4px),linear-gradient(160deg,#0a1230,#1a2d5a 60%,#2b6a6a)','#e8eefc']];
+ const SKINS=[['light','White','#fff','#222'],['dark','Black','#111','#fff'],['navy','Navy','#0b1035','#f3e3a0'],['glass','Glass','linear-gradient(135deg,#c026d3,#6d28d9 55%,#0891b2)','#fff'],['analog','Analog','radial-gradient(circle,rgba(255,255,255,.08) 1px,transparent 1.6px) 0 0/5px 5px,linear-gradient(180deg,#3b3b3b,#161616)','#ffb24a'],['hall','Hall','repeating-linear-gradient(90deg,rgba(0,0,0,.28) 0,rgba(255,255,255,.05) 6px,rgba(0,0,0,.28) 12px),#7a1428','#e7c372'],['jazz','Jazz','repeating-linear-gradient(90deg,rgba(0,0,0,.25) 0,rgba(255,220,170,.05) 9px,rgba(0,0,0,.25) 18px),#4a2a16','#e9c27a'],['lights','Lights','radial-gradient(circle at 25% 35%,rgba(255,196,110,.9) 0 2px,transparent 3px),radial-gradient(circle at 70% 60%,rgba(120,200,210,.85) 0 2.5px,transparent 3.5px),radial-gradient(circle at 50% 20%,rgba(150,210,140,.8) 0 1.5px,transparent 2.5px),#08080b','#f2ead8'],['night','Sky','linear-gradient(180deg,#0a1230 0%,#2a2f62 45%,#e0744a 100%)','#fff3e6']];
  const curSkin=()=>{const c=H.classList; return c.contains('atlas-analog')?'analog':c.contains('atlas-jazz')?'jazz':c.contains('atlas-lights')?'lights':c.contains('atlas-night')?'night':c.contains('atlas-hall')?'hall':c.contains('atlas-glass')?'glass':c.contains('atlas-navy')?'navy':c.contains('atlas-dark')?'dark':'light';};
  const detailMode=()=>LS('atlas-detail-mode')||'panel';
  const side=()=>LS('atlas-panel-side')||'r';
@@ -13900,7 +13900,8 @@ html body #sidebar .atlas-skin button.l.l{background:radial-gradient(circle at 2
    if(p.L===2){gr.addColorStop(0,'rgba('+p.c+','+a+')');gr.addColorStop(.7,'rgba('+p.c+','+(a*.6)+')');gr.addColorStop(1,'rgba('+p.c+',0)');}
    else{gr.addColorStop(0,'rgba('+p.c+','+a+')');gr.addColorStop(.38,'rgba('+p.c+','+(a*.85)+')');gr.addColorStop(1,'rgba('+p.c+',0)');}
    g.fillStyle=gr;g.beginPath();g.arc(x,p.y,R,0,6.2832);g.fill();}}
- function step(now){raf=0;if(!on()||document.hidden)return;const dt=Math.min(.1,(now-(last||now))/1000);
+ let off=0; const pin=()=>{ if(!cv)return; const r=cv.getBoundingClientRect(); if(Math.abs(r.top)>.5){ off-=r.top; cv.style.transform='translateY('+off+'px)'; } }; addEventListener('scroll',pin,{passive:true});
+ function step(now){raf=0;if(!on()||document.hidden)return;pin();const dt=Math.min(.1,(now-(last||now))/1000);
   if(now-last<33&&last){raf=requestAnimationFrame(step);return}last=now;
   for(let i=0;i<P.length;i++){const p=P[i];p.y+=p.vy*dt;if(p.y-p.r*3>Hh){P[i]=make(-p.r*3-rnd(0,60));}}
   draw(now/1000);raf=requestAnimationFrame(step);}
@@ -13970,36 +13971,45 @@ html.atlas-hall.atlas-night.atlas-night:not(.atlas-panel-dock) body #albumModal 
 html.atlas-hall.atlas-night.atlas-night:not(.atlas-panel-dock) body #albumModal#albumModal.open::before{background:rgba(0,0,0,.35)!important}
 #atlasNightCanvas{position:fixed;inset:0;width:100vw;height:100vh;z-index:-1;pointer-events:none;display:none;filter:invert(1) hue-rotate(180deg)}
 html.atlas-night #atlasNightCanvas{display:block}
-html body #sidebar .atlas-skin button.nt.nt{background:radial-gradient(circle at 22% 30%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 70% 22%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 48% 62%,rgba(255,255,255,.8) 0 .8px,transparent 1.4px),linear-gradient(160deg,#0a1230,#1a2d5a 60%,#2b6a6a)!important;color:#e8eefc!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)!important}
+html body #sidebar .atlas-skin button.nt.nt{background:linear-gradient(180deg,#0a1230 0%,#2a2f62 45%,#e0744a 100%)!important;color:#e8eefc!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)!important}
 </style>
 <script id="atlas-night">
-// 밤하늘: 별(깜빡임) + 가끔 유성 + 옅은 오로라 띠. 요란하지 않게 (형 2026-11-24)
+// Sky 스킨 (형 2026-11-24): 저녁놀 → 깊은 밤(별·유성) → 새벽 → 낮(해) → 다시 저녁, 하루를 4분에 한 바퀴. 유성은 오른쪽 위에서 왼쪽 아래로
 (function(){
- const H=document.documentElement, reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
- let cv,g,W=0,Hh=0,dpr=1,stars=[],met=null,nextMet=0,raf=0,last=0;
+ const H=document.documentElement, reduce=matchMedia('(prefers-reduced-motion: reduce)').matches, DAY=240; // 하루 = 240초
+ let cv,g,W=0,Hh=0,dpr=1,stars=[],met=null,nextMet=0,raf=0,last=0,off=0,t0=0;
  const rnd=(a,b)=>a+Math.random()*(b-a), on=()=>H.classList.contains('atlas-night');
+ // 시간별 하늘색 [시, 위, 아래]
+ const K=[[0,'#03050d','#0a1228'],[4,'#04071a','#0d1630'],[5,'#141c3e','#5a3a5e'],[6,'#2e4a82','#e8956a'],[7,'#2d5f9e','#b9b8c2'],[9,'#22558f','#6f9ccc'],[15,'#22558f','#6f9ccc'],[17,'#2c5088','#d49a72'],[18,'#2a2f62','#e0744a'],[19,'#16193c','#7a3f5a'],[20,'#080b1e','#1a1d3a'],[22,'#03050d','#0a1228'],[24,'#03050d','#0a1228']];
+ const hx=c=>[parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16)];
+ const mix=(a,b,f)=>{const A=hx(a),B=hx(b);return 'rgb('+A.map((v,i)=>Math.round(v+(B[i]-v)*f)).join(',')+')';};
+ function sky(h){ for(let i=0;i<K.length-1;i++){ if(h>=K[i][0]&&h<=K[i+1][0]){ const f=(h-K[i][0])/(K[i+1][0]-K[i][0]||1); return [mix(K[i][1],K[i+1][1],f),mix(K[i][2],K[i+1][2],f)]; } } return [K[0][1],K[0][2]]; }
+ const night=h=>{ if(h>=20.5||h<4)return 1; if(h<6)return 1-(h-4)/2; if(h>18.5)return (h-18.5)/2; return 0; };
  function size(){const oldW=W; dpr=Math.min(2,devicePixelRatio||1); W=innerWidth; Hh=innerHeight; cv.style.width=W+'px'; cv.style.height=Hh+'px'; cv.width=Math.round(W*dpr); cv.height=Math.round(Hh*dpr); g.setTransform(dpr,0,0,dpr,0,0);
   if(oldW===W&&stars.length)return;
-  const n=Math.round(Math.min(260,Math.max(90,W*Hh/7000))); stars=[];
-  for(let i=0;i<n;i++){const big=Math.random()<.08; stars.push({x:rnd(0,W),y:rnd(0,Hh)*(Math.random()<.7?.75:1),r:big?rnd(1.1,1.7):rnd(.35,1),a:big?rnd(.6,.95):rnd(.25,.7),tw:rnd(.6,2.2),ph:rnd(0,6.28),c:Math.random()<.15?'200,215,255':Math.random()<.1?'255,230,200':'255,255,255'});}}
- function aurora(t){ // 위쪽 옅은 오로라 두 줄기
-  const bands=[[ '90,230,180',.13,.17,.0009,0],[ '120,170,255',.09,.25,.0007,2.1]];
-  for(const [c,a,yy,sp,ph] of bands){ const base=Hh*yy; g.beginPath(); g.moveTo(0,0);
-   for(let x=0;x<=W;x+=24){ const y=base+Math.sin(x*.004+t*sp*60+ph)*Hh*.05+Math.sin(x*.011-t*sp*40)*Hh*.02; g.lineTo(x,y); }
-   g.lineTo(W,0); g.closePath(); const gr=g.createLinearGradient(0,0,0,base+Hh*.12); gr.addColorStop(0,'rgba('+c+',0)'); gr.addColorStop(.55,'rgba('+c+','+a+')'); gr.addColorStop(1,'rgba('+c+',0)'); g.fillStyle=gr; g.fill(); }
- }
+  const n=Math.round(Math.min(320,Math.max(110,W*Hh/6000))); stars=[];
+  for(let i=0;i<n;i++){const big=Math.random()<.1; stars.push({x:rnd(0,W),y:Math.pow(Math.random(),1.4)*Hh*.85,r:big?rnd(1.2,2):rnd(.5,1.2),a:big?rnd(.75,1):rnd(.4,.85),tw:rnd(.8,2.6),ph:rnd(0,6.28),c:Math.random()<.18?'205,220,255':Math.random()<.1?'255,232,205':'255,255,255'});}}
+ function glow(x,y,r,c,a){const gr=g.createRadialGradient(x,y,0,x,y,r); gr.addColorStop(0,'rgba('+c+','+a+')'); gr.addColorStop(1,'rgba('+c+',0)'); g.fillStyle=gr; g.beginPath(); g.arc(x,y,r,0,6.2832); g.fill();}
  function draw(t){
-  const bg=g.createLinearGradient(0,0,0,Hh); bg.addColorStop(0,'#04060f'); bg.addColorStop(.6,'#070b1a'); bg.addColorStop(1,'#0c1428'); g.fillStyle=bg; g.fillRect(0,0,W,Hh);
-  aurora(t);
-  for(const s of stars){ const a=s.a*(.55+.45*Math.sin(t*s.tw+s.ph)); g.fillStyle='rgba('+s.c+','+a.toFixed(3)+')'; g.beginPath(); g.arc(s.x,s.y,s.r,0,6.2832); g.fill(); if(s.r>1.1){ g.fillStyle='rgba('+s.c+','+(a*.15).toFixed(3)+')'; g.beginPath(); g.arc(s.x,s.y,s.r*3.2,0,6.2832); g.fill(); } }
-  if(met){ const p=(t-met.t0)/met.dur; if(p>=1)met=null; else { const x=met.x+met.dx*p, y=met.y+met.dy*p, tl=Math.min(1,p*3)*met.len, ang=Math.atan2(met.dy,met.dx), fade=p<.75?1:(1-p)/.25;
-    const gr=g.createLinearGradient(x,y,x-Math.cos(ang)*tl,y-Math.sin(ang)*tl); gr.addColorStop(0,'rgba(255,255,255,'+(.85*fade)+')'); gr.addColorStop(1,'rgba(255,255,255,0)');
-    g.strokeStyle=gr; g.lineWidth=1.3; g.lineCap='round'; g.beginPath(); g.moveTo(x,y); g.lineTo(x-Math.cos(ang)*tl,y-Math.sin(ang)*tl); g.stroke(); } }
-  if(!met&&t>nextMet){ const fromLeft=Math.random()<.5, len=rnd(120,240), d=rnd(260,520), ang=rnd(.35,.6); met={x:fromLeft?rnd(W*.05,W*.5):rnd(W*.5,W*.95), y:rnd(Hh*.03,Hh*.35), dx:(fromLeft?1:-1)*Math.cos(ang)*d, dy:Math.sin(ang)*d, len, t0:t, dur:rnd(.8,1.3)}; nextMet=t+rnd(7,16); }
+  const h=(19+t/DAY*24)%24, [top,bot]=sky(h), n=night(h);
+  const bg=g.createLinearGradient(0,0,0,Hh); bg.addColorStop(0,top); bg.addColorStop(1,bot); g.fillStyle=bg; g.fillRect(0,0,W,Hh);
+  // 해: 6시 왼쪽 아래 → 12시 위 → 18시 오른쪽 아래
+  if(h>5.4&&h<18.6){ const p=(h-6)/12, x=W*(.08+.84*p), y=Hh*(.92-Math.sin(Math.PI*Math.min(1,Math.max(0,p)))*.72), low=1-Math.min(1,Math.sin(Math.PI*Math.max(0,Math.min(1,p)))*2.2), c=low>0?'255,'+Math.round(200-70*low)+','+Math.round(140-90*low):'255,236,190';
+   glow(x,y,Math.min(W,Hh)*.45,c,.22+.15*low); glow(x,y,46,'255,245,220',.55); g.fillStyle='rgba(255,'+Math.round(246-40*low)+','+Math.round(225-90*low)+',.95)'; g.beginPath(); g.arc(x,y,18,0,6.2832); g.fill(); }
+  // 별
+  if(n>0.02){ for(const s of stars){ const a=s.a*n*(.6+.4*Math.sin(t*s.tw+s.ph)); g.fillStyle='rgba('+s.c+','+a.toFixed(3)+')'; g.beginPath(); g.arc(s.x,s.y,s.r,0,6.2832); g.fill(); if(s.r>1.2)glow(s.x,s.y,s.r*5,s.c,(a*.22).toFixed(3)); } }
+  // 달: 밤에 오른쪽 위에서 천천히
+  if(n>0.05){ const p=((h+5)%24)/10, x=W*(.85-.6*Math.min(1,p)), y=Hh*(.14+.08*Math.sin(p*3.14)); glow(x,y,90,'200,215,255',.16*n); g.fillStyle='rgba(236,240,255,'+(.9*n).toFixed(3)+')'; g.beginPath(); g.arc(x,y,13,0,6.2832); g.fill(); g.fillStyle=top; g.globalAlpha=.85*n; g.beginPath(); g.arc(x+5,y-3,11.5,0,6.2832); g.fill(); g.globalAlpha=1; }
+  // 유성: 깊은 밤에만, 오른쪽 위 → 왼쪽 아래
+  if(met){ const q=(t-met.t0)/met.dur; if(q>=1)met=null; else { const x=met.x+met.dx*q, y=met.y+met.dy*q, tl=Math.min(1,q*3)*met.len, ang=Math.atan2(met.dy,met.dx), fade=q<.7?1:(1-q)/.3;
+    const gr=g.createLinearGradient(x,y,x-Math.cos(ang)*tl,y-Math.sin(ang)*tl); gr.addColorStop(0,'rgba(255,255,255,'+(.95*fade)+')'); gr.addColorStop(1,'rgba(255,255,255,0)');
+    g.strokeStyle=gr; g.lineWidth=1.6; g.lineCap='round'; g.beginPath(); g.moveTo(x,y); g.lineTo(x-Math.cos(ang)*tl,y-Math.sin(ang)*tl); g.stroke(); glow(x,y,6,'255,255,255',.8*fade); } }
+  if(!met&&n>.75&&t>nextMet){ const d=rnd(320,620), ang=Math.PI-rnd(.45,.75); met={x:rnd(W*.45,W*.98), y:rnd(-10,Hh*.18), dx:Math.cos(ang)*d, dy:Math.sin(ang)*d, len:rnd(140,260), t0:t, dur:rnd(.9,1.4)}; nextMet=t+rnd(4,9); }
  }
- function step(now){raf=0; if(!on()||document.hidden)return; if(last&&now-last<33){raf=requestAnimationFrame(step);return} last=now; draw(now/1000); raf=requestAnimationFrame(step);}
- function start(){ if(!on())return; if(!cv){cv=document.createElement('canvas'); cv.id='atlasNightCanvas'; cv.setAttribute('aria-hidden','true'); document.body.prepend(cv); g=cv.getContext('2d'); size(); nextMet=performance.now()/1000+rnd(3,6); addEventListener('resize',()=>{if(cv){size(); if(reduce)draw(0);}});}
-  if(reduce){draw(0);return} if(!raf){last=0;raf=requestAnimationFrame(step);} }
+ function pin(){ if(!cv)return; const r=cv.getBoundingClientRect(); if(Math.abs(r.top)>.5){ off-=r.top; cv.style.transform='translateY('+off+'px)'; } } // 사파리: 화면을 내려도 하늘이 따라오게
+ function step(now){raf=0; if(!on()||document.hidden)return; pin(); if(last&&now-last<33){raf=requestAnimationFrame(step);return} last=now; draw(now/1000-t0+(window.__atlasSkyShift||0)); raf=requestAnimationFrame(step);}
+ function start(){ if(!on())return; if(!cv){cv=document.createElement('canvas'); cv.id='atlasNightCanvas'; cv.setAttribute('aria-hidden','true'); document.body.prepend(cv); g=cv.getContext('2d'); size(); t0=performance.now()/1000; nextMet=3; addEventListener('resize',()=>{if(cv){size(); if(reduce)draw(DAY*.25);}}); addEventListener('scroll',pin,{passive:true});}
+  if(reduce){draw(DAY*.25);return} if(!raf){last=0;raf=requestAnimationFrame(step);} }
  new MutationObserver(()=>{on()?start():(raf&&cancelAnimationFrame(raf),raf=0)}).observe(H,{attributes:true,attributeFilter:['class']});
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)start()});
  document.readyState==='loading'?document.addEventListener('DOMContentLoaded',start):start();
