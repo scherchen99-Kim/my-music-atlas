@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:17"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:19"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14244,6 +14244,12 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
 <style id="atlas-bento-css">
 /* How to Use: 설치부터 듣기까지 순서 + 기능 요약을 한눈에 (형 2026-11-24, magicpatterns 방식) */
 #atlasFootGrid:has(#atlasBento) :is(#atlasFeatures,.ah-guide){display:none!important}
+#atlasBento:not(.open){display:none!important}
+body:has(#atlasBentoBtn) #atlasFootTitle{display:none!important}
+#atlasBentoBtn{display:flex;align-items:center;gap:8px;margin:8px auto 22px;padding:10px 20px;border-radius:22px;border:1px solid rgba(0,0,0,.25);background:transparent;color:inherit;font:600 14px/1 -apple-system,"Helvetica Neue",Arial,sans-serif;letter-spacing:.04em;cursor:pointer}
+#atlasBentoBtn svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .25s}
+#atlasBentoBtn[aria-expanded="true"] svg{transform:rotate(180deg)}
+html.atlas-hide-features #atlasBentoBtn{display:none!important}
 html.atlas-is-local.atlas-show-guide:not(.atlas-hide-features) #atlasFootTitle{display:block!important}
 html.atlas-is-local.atlas-show-guide:not(.atlas-hide-features) #atlasFootGrid{display:block!important}
 #atlasBento{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px;margin:6px 0 18px;text-align:left}
@@ -14467,6 +14473,12 @@ html.atlas-is-local.atlas-show-guide:not(.atlas-hide-features) #atlasFootGrid{di
   if(!g||!f||!document.querySelector('#genreGrid .genre-card img'))return false;
   let b=document.getElementById('atlasBento'); if(!b)b=build();
   if(b.nextElementSibling!==f)f.before(b);
+  // 기본은 접어 두고, 버튼을 눌러야 펼침 (형 2026-11-24)
+  let k=document.getElementById('atlasBentoBtn');
+  if(!k){k=document.createElement('button'); k.type='button'; k.id='atlasBentoBtn'; k.setAttribute('aria-expanded','false'); k.setAttribute('aria-controls','atlasBento');
+   k.innerHTML='<span>How to Use</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
+   k.onclick=()=>{const o=!b.classList.contains('open'); b.classList.toggle('open',o); k.setAttribute('aria-expanded',String(o)); if(o)requestAnimationFrame(()=>window.scrollTo({top:k.getBoundingClientRect().top+scrollY-80,behavior:'smooth'}));};}
+  if(k.nextElementSibling!==b)b.before(k);
   const t=document.getElementById('atlasFootTitle'); if(t&&t.textContent!=='How to Use')t.textContent='How to Use';
   return true;
  }
