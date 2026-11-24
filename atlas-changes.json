@@ -1,7 +1,7 @@
 {
   "format": "MY MUSIC ATLAS unified edits",
   "version": 1,
-  "createdAt": "2026-11-24T10:43:26.664Z",
+  "createdAt": "2026-11-24T10:48:05.131Z",
   "covers": {
     "Symphonies|2|4.161|68.2405|C.P.E. Bach e minor Akademie fur Alte Musik": {
       "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/fb/45/b2fb4509-24a5-d309-a1f9-1e38b6e226dd/3149020950463_cover.jpg/600x600bb.jpg",
@@ -77508,6 +77508,62 @@
       "performer": "Hermus",
       "searchQuery": "Wagenaar Levenszomer Hermus",
       "updatedAt": "2026-11-24T10:29:01.386Z"
+    },
+    "Orchestral|48|4.55|14.87072|Penderecki  Threnody to the Victims of Hiroshima": {
+      "composer": "Penderecki",
+      "work": "Threnody to the Victims of Hiroshima",
+      "performer": "Czepiel",
+      "searchQuery": "Penderecki Threnody to the Victims of Hiroshima Czepiel",
+      "updatedAt": "2026-11-24T10:44:48.202Z"
+    },
+    "Orchestral|48|4.59393|40.87507|Czepiel to the Victims of Hiroshima Kilar  Exodus Wit": {
+      "composer": "Kilar",
+      "work": "Exodus",
+      "performer": "Wit",
+      "searchQuery": "Kilar Exodus Wit",
+      "updatedAt": "2026-11-24T10:44:48.912Z"
+    },
+    "Orchestral|48|4.56935|65.97641|Wit Kilar  Exodus Panufnik Uwertura tragiczna": {
+      "composer": "Panufnik",
+      "work": "Uwertura tragiczna",
+      "performer": "Boroeicz",
+      "searchQuery": "Panufnik Uwertura tragiczna Boroeicz",
+      "updatedAt": "2026-11-24T10:44:49.565Z"
+    },
+    "Orchestral|48|28.35045|15.18174|Bergson  Concerto Symphonique": {
+      "composer": "Bergson",
+      "work": "Concerto Symphonique",
+      "performer": "Borowicz",
+      "searchQuery": "Bergson Concerto Symphonique Borowicz",
+      "updatedAt": "2026-11-24T10:44:56.687Z"
+    },
+    "Orchestral|48|54.25434|15.03613|Ivanovici Waves of the Danube": {
+      "composer": "Ivanovici",
+      "work": "Waves of the Danube",
+      "performer": "Lancu",
+      "searchQuery": "Ivanovici Waves of the Danube Lancu",
+      "updatedAt": "2026-11-24T10:44:57.405Z"
+    },
+    "Orchestral|48|54.17178|40.90814|Lancu the Danube Enescu Romanian Rhapsody No.1": {
+      "composer": "Enescu",
+      "work": "Romanian Rhapsody No.1",
+      "performer": "Rozhdestvensky",
+      "searchQuery": "Enescu Romanian Rhapsody 1 Rozhdestvensky",
+      "updatedAt": "2026-11-24T10:44:58.054Z"
+    },
+    "Orchestral|48|54.25434|66.72781|Rozhdestvensky Rhapsody No.1 Enescu Romanian Poem Op.1": {
+      "composer": "Enescu",
+      "work": "Romanian Poem Op.1",
+      "performer": "Andeeescu",
+      "searchQuery": "Enescu Romanian Poem Andeeescu",
+      "updatedAt": "2026-11-24T10:45:18.599Z"
+    },
+    "Orchestral|48|79.35352|14.95632|Mihajlovic Memento": {
+      "composer": "Mihajlovic",
+      "work": "Memento",
+      "performer": "Griffiths",
+      "searchQuery": "Mihajlovic Memento Griffiths",
+      "updatedAt": "2026-11-24T10:47:37.534Z"
     }
   },
   "favorites": {
