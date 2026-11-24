@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:02"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:11"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -9834,7 +9834,9 @@ html.atlas-dark:not(.atlas-navy) .genre-card:active .genre-poster,html.atlas-dar
  // ---- 수상·방송국 로고를 흰색 실루엣으로 (배경색은 지우고 로고만 흰색) — 펭귄·음표는 원래 색 ----
  const LOGO_SEL='.atlas-side-guide img,.atlas-side-radio img,.atlas-discovery-entry img,.atlas-radio-stations img,.atlas-award-intro img,dialog[open] img';
  const done=new Map(); // 원래 src → 흰색 src (실패 시 '')
+ const outs=new Set(); // 이미 흰색으로 바꾼 그림 (방송 창이 카드의 흰 로고를 그대로 가져와 또 바꾸면 투명해지던 것, 형 2026-11-24)
  function whiten(src){
+  if(outs.has(src))return Promise.resolve(src);
   if(done.has(src))return Promise.resolve(done.get(src));
   return new Promise(res=>{const im=new Image(); if(!/^data:/.test(src))im.crossOrigin='anonymous';
    im.onload=()=>{try{const W=im.naturalWidth,H=im.naturalHeight,c=document.createElement('canvas'); c.width=W;c.height=H; const g=c.getContext('2d'); g.drawImage(im,0,0);
@@ -9849,7 +9851,7 @@ html.atlas-dark:not(.atlas-navy) .genre-card:active .genre-poster,html.atlas-dar
       if(colored){a=Math.max(0,Math.min(1,(Math.min(p[i],p[i+1],p[i+2])-floor-45)/70));}
       else{const dist=Math.hypot(p[i]-bg[0],p[i+1]-bg[1],p[i+2]-bg[2])/441; a=Math.max(0,Math.min(1,(dist-.07)/.2));}
       p[i]=p[i+1]=p[i+2]=255; p[i+3]=a*p[i+3];}
-     g.putImageData(d,0,0); const out=c.toDataURL('image/png'); done.set(src,out); res(out);}catch(e){done.set(src,'');res('');}};
+     g.putImageData(d,0,0); const out=c.toDataURL('image/png'); done.set(src,out); outs.add(out); res(out);}catch(e){done.set(src,'');res('');}};
    im.onerror=()=>{done.set(src,'');res('');}; im.src=src;});
  }
  function isKeep(img){const t=((img.closest('button,a')||{}).innerText||'')+' '+(img.closest('button,a')||{}).getAttribute?.('aria-label'); return /penguin|discovery/i.test(t)||img.dataset.atlasKeep==='1';}
@@ -14019,6 +14021,27 @@ html.atlas-dark body :is(.album-label .label-performer,#atlasQobuzRecent .nr-ite
 html.atlas-no-shadow.atlas-no-shadow body #albumModal #modalArt#modalArt,
 html.atlas-no-shadow.atlas-no-shadow body :is(button.album .art,button.album .art img,#roonView .rv-cv,#roonView .rv-cv img,#roonAlbums .rv-cv img,#atlasQobuzRecent .qr-track img,#atlasQobuzRecent .nr-item img,.genre-poster,.genre-poster img,.atlas-home-recommendation img,.atlas-daily-card img){box-shadow:none!important}
 </style>
+<style id="atlas-radio-palette">
+/* 라디오 다이얼·재생 버튼 색을 스킨에 맞게 (형 2026-11-24). 글자색은 글자 원칙 장치가 바탕 밝기 따라 흰/검정으로 */
+html.atlas-hall.atlas-jazz body #atlasPanelRadio#atlasPanelRadio{--rd-glass1:#2a190d;--rd-glass2:#3c2515;--rd-edge:rgba(0,0,0,.6);--rd-tick:rgba(255,226,184,.42)}
+html.atlas-hall.atlas-jazz body #atlasPanelRadio#atlasPanelRadio .pr-band{box-shadow:inset 0 2px 6px rgba(0,0,0,.6),inset 0 0 0 1px rgba(255,255,255,.08),0 0 0 2px rgba(0,0,0,.55),0 0 0 3px rgba(255,255,255,.06)!important}
+html.atlas-hall.atlas-jazz body #atlasPanelRadio#atlasPanelRadio .pr-band::after{background:radial-gradient(ellipse at 50% 120%,rgba(255,170,80,.22),rgba(0,0,0,0) 70%)!important}
+html.atlas-hall.atlas-jazz body #atlasPanelRadio#atlasPanelRadio .pr-needle{background:#e3a456!important;box-shadow:0 0 6px rgba(227,164,86,.75),0 0 14px rgba(227,164,86,.75)!important}
+html.atlas-hall.atlas-jazz body #atlasPanelRadio#atlasPanelRadio .pr-play,html.atlas-hall.atlas-jazz body #atlasPanelRadio#atlasPanelRadio.on .pr-play{background:radial-gradient(circle at 50% 40%,#6e4728 0,#3a2312 62%,#1c1008 100%)!important;color:#f5e3c2!important;border:1px solid rgba(227,164,86,.55)!important}
+html.atlas-hall.atlas-jazz body #atlasPanelRadio#atlasPanelRadio.on .pr-play{color:#ffd08a!important}
+html.atlas-hall.atlas-lights body #atlasPanelRadio#atlasPanelRadio{--rd-glass1:#131318;--rd-glass2:#22222b;--rd-edge:rgba(0,0,0,.6);--rd-tick:rgba(255,255,255,.32)}
+html.atlas-hall.atlas-lights body #atlasPanelRadio#atlasPanelRadio .pr-band{box-shadow:inset 0 2px 6px rgba(0,0,0,.6),inset 0 0 0 1px rgba(255,255,255,.08),0 0 0 2px rgba(0,0,0,.55),0 0 0 3px rgba(255,255,255,.06)!important}
+html.atlas-hall.atlas-lights body #atlasPanelRadio#atlasPanelRadio .pr-band::after{background:radial-gradient(ellipse at 50% 120%,rgba(255,190,110,.18),rgba(0,0,0,0) 70%)!important}
+html.atlas-hall.atlas-lights body #atlasPanelRadio#atlasPanelRadio .pr-needle{background:#ffb357!important;box-shadow:0 0 6px rgba(255,179,87,.75),0 0 14px rgba(255,179,87,.75)!important}
+html.atlas-hall.atlas-lights body #atlasPanelRadio#atlasPanelRadio .pr-play,html.atlas-hall.atlas-lights body #atlasPanelRadio#atlasPanelRadio.on .pr-play{background:radial-gradient(circle at 50% 40%,#3a3a46 0,#18181e 62%,#0b0b0f 100%)!important;color:#ffffff!important;border:1px solid rgba(255,255,255,.28)!important}
+html.atlas-hall.atlas-lights body #atlasPanelRadio#atlasPanelRadio.on .pr-play{color:#ffd28f!important}
+html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio{--rd-glass1:#0a1330;--rd-glass2:#17264f;--rd-edge:rgba(0,0,0,.6);--rd-tick:rgba(190,212,255,.42)}
+html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-band{box-shadow:inset 0 2px 6px rgba(0,0,0,.6),inset 0 0 0 1px rgba(255,255,255,.08),0 0 0 2px rgba(0,0,0,.55),0 0 0 3px rgba(255,255,255,.06)!important}
+html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-band::after{background:radial-gradient(ellipse at 50% 120%,rgba(120,170,255,.22),rgba(0,0,0,0) 70%)!important}
+html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-needle{background:#a9dcff!important;box-shadow:0 0 6px rgba(169,220,255,.75),0 0 14px rgba(169,220,255,.75)!important}
+html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-play,html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{background:radial-gradient(circle at 50% 40%,#2d4a86 0,#13234c 62%,#08112a 100%)!important;color:#eaf2ff!important;border:1px solid rgba(169,200,255,.5)!important}
+html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{color:#c4e9ff!important}
+</style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
 #atlasQobuzRecent .qr-lan:hover{opacity:1}
@@ -14095,7 +14118,7 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
  // 색 채운 입력칸·선택칸·작은 버튼 → 속은 투명, 가는 선만 (형 2026-11-24). 고른 상태(on)·둥근 재생 버튼·스킨 버튼은 그대로
  const BOX='input[type=search],input[type=text],input:not([type]),select,button,a[role=button]';
  const BOXSKIP='.atlas-skin *,.st-seg *,.st-sw,#atlasPanelRadio *,#atlasRoonCtl .rc-pp,.pr-play,.rc-pp,.mp-pp,.genre-card,button.album,.rv-card,.nr-item,.atlas-radio-station,.atlas-home-recommendation,[aria-pressed=true],[aria-selected=true],.on,.active,dialog *,#albumModal .detail .service *,#sidebar *';
- function line(el){ if(!el.matches(BOX)||el.matches(BOXSKIP))return; const r=el.getBoundingClientRect(); if(!r.width||r.height>64||r.width>700)return;
+ function line(el){ if(!el.matches(BOX)||el.matches(BOXSKIP))return; if(el.tagName!=='INPUT'&&el.tagName!=='SELECT'&&!(el.innerText||'').trim())return; // 글자 없는 아이콘 버튼(메뉴·소리 등)은 그대로 const r=el.getBoundingClientRect(); if(!r.width||r.height>64||r.width>700)return;
   if(el.dataset.monoBox===undefined){ const cs=getComputedStyle(el), c=P(cs.backgroundColor); if(!c||c[3]<.5)return; if(cs.borderRadius==='50%'&&r.width<70)return; el.dataset.monoBox='1'; }
   const fl=flips(el), light=bgLight(el.parentElement||el), raw=((!light)!==!!fl)?'255,255,255':'0,0,0';
   el.style.setProperty('background','transparent','important'); el.style.setProperty('border','1px solid rgba('+raw+','+(light?.3:.4)+')','important'); el.style.setProperty('box-shadow','none','important'); }
