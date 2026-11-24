@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:09"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:14"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -5741,14 +5741,15 @@ function drawSearchPage(){
  }
  const total=searchHits.length;
  const lastOffset=Math.max(0,(Math.ceil(total/SEARCH_PAGE_SIZE)-1)*SEARCH_PAGE_SIZE);
- const start=searchOffset=awardList?0:Math.min(searchOffset,lastOffset);
- const end=awardList?total:Math.min(total,start+SEARCH_PAGE_SIZE);
- $('searchPager').classList.toggle('hidden',awardList||total<=SEARCH_PAGE_SIZE);
+ const showAll=awardList||discovery; // Discovery Atlas도 수상 목록처럼 한 번에 전부 + 왼쪽 빠른 이동 (형 2026-11-24)
+ const start=searchOffset=showAll?0:Math.min(searchOffset,lastOffset);
+ const end=showAll?total:Math.min(total,start+SEARCH_PAGE_SIZE);
+ $('searchPager').classList.toggle('hidden',showAll||total<=SEARCH_PAGE_SIZE);
  $('searchPrev').disabled=start===0;$('searchNext').disabled=end>=total;
  $('searchPageLabel').textContent=`${total?Math.floor(start/SEARCH_PAGE_SIZE)+1:0} / ${Math.ceil(total/SEARCH_PAGE_SIZE)}`;
  if(!total){const el=document.createElement('p');el.className='empty';el.textContent=discovery?(recommendation?'이 장르에는 아직 대조한 추천 음반이 없어요.':'Discovery Atlas에 표시한 음반이 아직 없어요.'):'일치하는 음반이 없습니다. 다른 검색어로 시도해 보세요.';root.append(el);return}
  for(let n=start;n<end;n++){
-  const h=searchHits[n],btn=document.createElement('button');btn.className='album search-hit';
+  const h=searchHits[n],btn=document.createElement('button');btn.className='album search-hit';btn.dataset.si=n;
   btn.setAttribute('aria-label',h.a.q+' 상세 정보');
   let art=document.createElement('div');art.className='art';let img=document.createElement('img');img.alt=h.a.q;img.loading='lazy';art.append(img);
   let label=makeAlbumLabel(h.a.q,h.g,h.i,h.a);atlasEnableNameLinks(label,h.a,h.g,h.i,h.a);
@@ -13811,6 +13812,35 @@ html.atlas-view-list #atlasAll .atlas-recommendation-marks{display:none!importan
   bar.hidden=!on||groups.length<2; if(bar.hidden){bub.hidden=true;return;}
   const cards=box().querySelectorAll('.atlas-grid-card'); let k=0,lo=0,hi=cards.length-1; const yy=innerHeight*.35; while(lo<=hi){const mid=(lo+hi)>>1; if(cards[mid].getBoundingClientRect().top<=yy){k=mid;lo=mid+1}else hi=mid-1}
   const idx=cards[k]?+cards[k].dataset.i||0:0; let near=0; groups.forEach((g,i)=>{if(g.start<=idx)near=i;}); bar.querySelectorAll('span').forEach((d,i)=>d.classList.toggle('here',i===near)); },400);
+})();
+</script>
+<style id="atlas-curated-jump-css">
+/* 왼쪽 점 막대가 생기며 폭이 줄어 장르 고르기 칸이 찌그러지던 것 (형 2026-11-24) */
+html body #atlasDiscoveryGenre{min-width:150px!important;flex:none!important}
+</style>
+<script id="atlas-curated-jump">
+/* Discovery Atlas·수상 목록: 장르 화면과 같은 왼쪽 점 막대로 빠른 이동 (전체=장르별, 장르 고르면 나라별) (형 2026-11-24) */
+(function(){
+ let bar=null,groups=[],sig='';
+ const box=()=>document.getElementById('searchAlbums');
+ function on(){const r=document.getElementById('searchResults'); return r&&!r.classList.contains('hidden')&&r.hasAttribute('data-discovery')&&typeof searchHits!=='undefined'&&searchHits.length>=40;}
+ function make(){const sel=document.getElementById('atlasDiscoveryGenre'); const byG=!(sel&&sel.value); const out=[]; let last=null;
+  searchHits.forEach((h,n)=>{const nm=byG?h.g:(h.region||''); if(nm&&nm!==last){out.push({name:nm,start:n}); last=nm;}}); return out;}
+ function build(){bar=document.createElement('div'); bar.className='atlas-roon-jump atlas-all-jump atlas-curated-jump'; bar.hidden=true; bar.setAttribute('aria-label','목록에서 위치로 이동'); document.body.append(bar);
+  let active=false,last=-1,t=0;
+  const pick=e=>{const sp=[...bar.querySelectorAll('span')]; let best=0,bd=1e9; sp.forEach((d,k)=>{const r=d.getBoundingClientRect(); const dd=Math.abs(e.clientY-(r.top+r.height/2)); if(dd<bd){bd=dd;best=k;}}); return best;};
+  const hot=i=>bar.querySelectorAll('span').forEach((d,k)=>d.classList.toggle('hot',k===i));
+  const go=i=>{if(i===last)return; last=i; clearTimeout(t); t=setTimeout(()=>{const g=groups[i]; if(!g)return; const el=box()&&box().querySelector('[data-si="'+g.start+'"]'); if(el){const fix=()=>window.scrollTo(0,Math.max(0,el.getBoundingClientRect().top+scrollY-90)); fix(); requestAnimationFrame(fix);}},60);};
+  bar.addEventListener('pointerdown',e=>{if(!groups.length)return; active=true; last=-1; bar.setPointerCapture(e.pointerId); const i=pick(e); hot(i); go(i); e.preventDefault();});
+  bar.addEventListener('pointermove',e=>{if(!groups.length)return; const i=pick(e); hot(i); if(active)go(i);});
+  const end=()=>{active=false;}; bar.addEventListener('pointerup',end); bar.addEventListener('pointercancel',end); bar.addEventListener('pointerleave',()=>{if(!active)bar.querySelectorAll('span.hot').forEach(d=>d.classList.remove('hot'));});
+ }
+ setInterval(()=>{ if(!bar)build(); const ok=on();
+  if(ok){const sel=document.getElementById('atlasDiscoveryGenre'); const ns=location.hash+'|'+(sel?sel.value:'')+'|'+searchHits.length; if(ns!==sig){sig=ns; groups=make(); bar.innerHTML=groups.map((g,i)=>'<span data-i="'+i+'"><i></i><em></em></span>').join(''); bar.querySelectorAll('em').forEach((e,i)=>e.textContent=groups[i].name);}
+   bar.classList.toggle('aa-named',matchMedia('(min-width:901px)').matches);}
+  bar.hidden=!ok||groups.length<2; if(bar.hidden)return;
+  const cards=box().querySelectorAll('[data-si]'); let k=0,lo=0,hi=cards.length-1; const yy=innerHeight*.35; while(lo<=hi){const mid=(lo+hi)>>1; if(cards[mid].getBoundingClientRect().top<=yy){k=mid;lo=mid+1}else hi=mid-1}
+  const idx=cards[k]?+cards[k].dataset.si||0:0; let near=0; groups.forEach((g,i)=>{if(g.start<=idx)near=i;}); bar.querySelectorAll('span').forEach((d,i)=>d.classList.toggle('here',i===near)); },400);
 })();
 </script>
 <style id="atlas-top-public-css">
