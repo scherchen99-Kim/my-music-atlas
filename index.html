@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:32"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:35"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14136,6 +14136,9 @@ html body #home section.atlas-radio.atlas-radio-music{display:none!important}
 /* 라디오 칸: 네모 테두리·바탕·후광 없이 로고만 (형 2026-11-24) */
 html body #home section.atlas-radio .atlas-radio-station.atlas-radio-station{border-color:transparent!important;background:transparent!important;box-shadow:none!important;outline:0}
 html body #home section.atlas-radio .atlas-radio-station img{transform-origin:50% 50%;transition:none}
+/* 라디오 로고 투명도 60% — 흰색(White) 스킨만 그대로 (형 2026-11-24) */
+html body #home section.atlas-radio .atlas-radio-station img{opacity:.6!important}
+html:not(.atlas-dark):not(.atlas-navy) body #home section.atlas-radio .atlas-radio-station img{opacity:1!important}
 @keyframes amqMove{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--amq-w,0px)))}}
 @media(max-width:700px){#home section.atlas-radio .atlas-radio-stations.amq>.atlas-radio-station{flex-basis:100px!important;width:100px!important}}
 @media(prefers-reduced-motion:reduce){#home section.atlas-radio .atlas-radio-stations.amq{animation:none}}
