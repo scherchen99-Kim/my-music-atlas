@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:39"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:43"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14119,6 +14119,13 @@ select option{color:#111;background:#fff} /* 선택칸 속이 투명해져도 �
 html body #atlas-top-shortcut#atlas-top-shortcut{background:rgba(0,0,0,.78)!important;color:#fff!important;border:1px solid rgba(255,255,255,.35)!important}
 html.atlas-dark body #atlas-top-shortcut#atlas-top-shortcut{background:rgba(255,255,255,.78)!important;color:#000!important;border-color:rgba(0,0,0,.35)!important}
 html body #atlas-top-shortcut#atlas-top-shortcut svg{color:inherit!important;stroke:currentColor!important}
+/* 겹치는 버튼은 스킨 톤으로 채움 (형 원칙 2026-11-24) */
+html:not(.atlas-dark):not(.atlas-glass) body #atlas-top-shortcut#atlas-top-shortcut{background:rgba(255,255,255,.92)!important;color:#000!important;border-color:rgba(0,0,0,.25)!important}
+html.atlas-jazz body #atlas-top-shortcut#atlas-top-shortcut{background:#f3ddd3!important}
+html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlas-top-shortcut#atlas-top-shortcut{background:#ffe3eb!important}
+html.atlas-night body #atlas-top-shortcut#atlas-top-shortcut{background:#f0f4ff!important}
+html.atlas-lights body #atlas-top-shortcut#atlas-top-shortcut{background:#f7f7fa!important}
+html.atlas-analog body #atlas-top-shortcut#atlas-top-shortcut{background:#dfdfdf!important}
 /* 작은 음표 표시(인상 깊은 음반): 주황 그라데이션 대신 흰색/검정 (형 2026-11-24). Discovery Atlas 로고는 그대로 */
 html body svg:has(use[href="#atlasDiscoveryNote"]):not(.atlas-home-recommendation svg):not(#sidebar svg){filter:grayscale(1) brightness(0) opacity(.85)!important}
 html.atlas-glass body svg:has(use[href="#atlasDiscoveryNote"]):not(.atlas-home-recommendation svg):not(#sidebar svg){filter:grayscale(1) brightness(0) invert(1) opacity(.85)!important}
