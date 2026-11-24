@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 23:01"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 23:03"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12516,7 +12516,7 @@ html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
  const hide=f=>{const h=hidden(); h.add(fk(f)); try{localStorage.setItem(HK,JSON.stringify([...h]))}catch(e){}};
  const img=f=>f.image_key?API()+'/img?key='+encodeURIComponent(f.image_key)+'&s=300':'';
  const XS='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg>';
- function nextFree(){const on=new Set(favs.map(fk)); const c=pool.filter(f=>!on.has(fk(f))); return c.length?c[Math.floor(Math.random()*c.length)]:null;}
+ function nextFree(){const on=new Set(favs.map(fk)); return pool.find(f=>!on.has(fk(f)))||null;}
  function swap(b,f){ if(!f)return; const i=+b.dataset.i; favs[i]=f; b.classList.add('qr-fade');
   setTimeout(()=>{const s=split(f.title); const im=b.querySelector('img'); const done=()=>{b.querySelector('b').textContent=s.c||s.w; b.querySelector('small').textContent=s.c?s.w:(f.artist||''); b.classList.remove('qr-fade');};
    const pre=new Image(); pre.onload=pre.onerror=()=>{im.src=pre.src; done();}; pre.src=img(f);},450); }
@@ -12551,11 +12551,14 @@ html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
  let tries=0; (function wait(){ if(!mount()&&tries++<40)setTimeout(wait,500); })();
  load();
  window.atlasHomeQobuz={reload:n=>{if(n)N=n;load();}};
- // 몇 초마다 보이는 칸 하나를 다른 즐겨찾기로 (마우스가 올라가 있거나 화면이 안 보이면 쉼)
- let over=false; setInterval(()=>{const box=document.getElementById('atlasQobuzRecent'); if(!box||!favs||!pool.length||document.hidden)return;
+ // 10초마다 보이는 한 줄 전체를 최신 순서의 다음 묶음으로 (하나씩 바뀌는 건 아래 6개 카테고리와 같아서) (형 2026-11-24)
+ let off=null; setInterval(()=>{const box=document.getElementById('atlasQobuzRecent'); if(!box||!favs||!pool.length||document.hidden)return;
   if(box.matches(':hover'))return; const tr=box.querySelector('.qr-track'), r=tr.getBoundingClientRect(); if(r.bottom<0||r.top>innerHeight)return;
-  const vis=[...tr.querySelectorAll('.nr-item:not(.qr-fade)')].filter(b=>{const q=b.getBoundingClientRect(); return q.left>=r.left-2&&q.right<=r.right+2;});
-  if(!vis.length)return; swap(vis[Math.floor(Math.random()*vis.length)],nextFree());},6000);
+  const vis=[...tr.querySelectorAll('.nr-item')].filter(b=>{const q=b.getBoundingClientRect(); return q.left>=r.left-2&&q.right<=r.right+2;});
+  if(!vis.length||pool.length<=vis.length)return;
+  if(off===null){const f0=favs[+vis[0].dataset.i]; const i0=pool.findIndex(x=>fk(x)===fk(f0)); off=(i0<0?0:i0)+vis.length;}
+  vis.forEach((b,k)=>swap(b,pool[(off+k)%pool.length])); off=(off+vis.length)%pool.length;},10000);
+ document.addEventListener('scroll',()=>{},{passive:true});
  // 메인으로 돌아올 때 새 하트 반영
  document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('#menuHome,#sideBrand,.brand-button,.atlas-title-intro'))setTimeout(load,80);},true);
 })();
