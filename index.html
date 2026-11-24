@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:59"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:04"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14049,6 +14049,12 @@ html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atla
 html.atlas-night body #atlasRoonCtl .rc-pop{background:#e1e9ff!important}
 html.atlas-lights body #atlasRoonCtl .rc-pop{background:#ececf2!important}
 html.atlas-analog body #atlasRoonCtl .rc-pop{background:#dfdfdf!important}
+/* 연결 고치기 창·표지 편집 창도 같은 톤 (형 2026-11-24 '색상이 제각기') */
+html.atlas-jazz body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#f3ddd3!important;background-image:none!important}
+html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#ffe3eb!important;background-image:none!important}
+html.atlas-night body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#e1e9ff!important;background-image:none!important}
+html.atlas-lights body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#ececf2!important;background-image:none!important}
+html.atlas-analog body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#dfdfdf!important;background-image:none!important}
 /* 작은 재생창(왼쪽 아래·팝업 아래)도 같은 톤 (형 2026-11-24) */
 html.atlas-jazz body #atlasMini#atlasMini:not(.docked){background:#f3ddd3!important;background-image:none!important}
 html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlasMini#atlasMini:not(.docked){background:#ffe3eb!important;background-image:none!important}
@@ -14134,7 +14140,7 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
  function paint0(el){ if(el.dataset.monoOrig===undefined){ el.dataset.monoOrig=el.style.getPropertyValue('color')+'|'+el.style.getPropertyPriority('color'); } else { const [v,pr]=el.dataset.monoOrig.split('|'); if(v)el.style.setProperty('color',v,pr); else el.style.removeProperty('color'); el.style.removeProperty('-webkit-text-fill-color'); }
   const cs=getComputedStyle(el), c=P(cs.color); if(!c||c[3]===0)return; const fl=flips(el), vis=fl?1-L(c):L(c), light=bgLight(el);
   // 바탕과 원래 글자의 밝기 차이 → 투명도 (원래 흐린 글자는 흐리게, 진한 글자는 진하게)
-  const diff=Math.abs(vis-(light?.96:.06)); const a=Math.max(.5,Math.min(1,.28+diff*.85))*c[3];
+  const diff=Math.abs(vis-(light?.96:.06)); let a=Math.max(.5,Math.min(1,.28+diff*.85))*c[3]; if(el.closest('button,[role=button]')&&el.closest('button,[role=button]').dataset.monoBox)a=Math.max(a,.88); // 선만 남긴 버튼 글자는 또렷하게
   const wantWhite=!light, raw=(wantWhite!==!!fl)?'255,255,255':'0,0,0'; const col='rgba('+raw+','+a.toFixed(2)+')';
   el.style.setProperty('color',col,'important'); el.style.setProperty('-webkit-text-fill-color',col,'important'); }
  // 색 채운 입력칸·선택칸·작은 버튼 → 속은 투명, 가는 선만 (형 2026-11-24). 고른 상태(on)·둥근 재생 버튼·스킨 버튼은 그대로
@@ -14143,7 +14149,7 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
  function line(el){ if(!el.matches(BOX)||el.matches(BOXSKIP))return; if(el.closest('.top,header,#sidebar,.atlas-mini,#atlasMini'))return; // 위 메뉴줄·사이드·작은 재생창 아이콘은 테두리 없이 그대로 (형 2026-11-24) const r=el.getBoundingClientRect(); if(!r.width||r.height>90||r.width>700)return;
   if(el.dataset.monoBox===undefined){ const cs=getComputedStyle(el), c=P(cs.backgroundColor); if(!c||c[3]<.5)return; el.dataset.monoBox='1'; }
   const fl=flips(el), light=bgLight(el.parentElement||el), raw=((!light)!==!!fl)?'255,255,255':'0,0,0';
-  el.style.setProperty('background','transparent','important'); el.style.setProperty('border','1px solid rgba('+raw+','+(light?.3:.4)+')','important'); el.style.setProperty('box-shadow','none','important'); el.style.setProperty('color','rgba('+raw+',.85)','important'); el.querySelectorAll('svg').forEach(v=>v.style.setProperty('color','rgba('+raw+',.85)','important')); } // 아이콘도 글자와 같은 색 (형 2026-11-24)
+  el.style.setProperty('background','transparent','important'); el.style.setProperty('border','1px solid rgba('+raw+','+(light?.3:.4)+')','important'); el.style.setProperty('box-shadow','none','important'); el.style.setProperty('color','rgba('+raw+',.85)','important'); el.querySelectorAll('svg').forEach(v=>v.style.setProperty('color','rgba('+raw+',.85)','important')); bgm=new WeakMap(); [el,...el.querySelectorAll('*')].forEach(e=>{ if(!e.closest(SKIP))paint(e); }); } // 바탕을 비운 뒤 글자색 다시 (✓ 이게 맞아요 글자 안 보이던 것) // 아이콘도 글자와 같은 색 (형 2026-11-24)
  function scan(root){ if(!root||root.nodeType!==1)return; inv=new WeakMap(); bgm=new WeakMap(); [root,...root.querySelectorAll(BOX)].forEach(e=>{try{line(e)}catch(x){}}); bgm=new WeakMap(); if(!root.matches(SKIP))paint(root); root.querySelectorAll('*').forEach(e=>{ if(!e.closest(SKIP))paint(e); }); }
  let pend=new Set(), tm=0; const later=(n,ms)=>{ pend.add(n); if(tm)return; tm=setTimeout(()=>{ tm=0; const ns=[...pend]; pend.clear(); if(ns.includes(document.body)){scan(document.body);return;} ns.forEach(x=>x.isConnected&&scan(x)); },ms); };
  new MutationObserver(ms=>{ ms.forEach(m=>{ if(m.type==='childList')m.addedNodes.forEach(n=>{ if(n.nodeType===1){ if(n.querySelectorAll('*').length<300){ try{ inv=new WeakMap(); bgm=new WeakMap(); if(!n.closest(SKIP))paint(n); n.querySelectorAll('*').forEach(e=>{ if(!e.closest(SKIP))paint(e); }); }catch(x){} } else later(n,250); } /* 새로 생긴 글자는 그 자리에서 바로 칠함 → 깜빡임 없음 (형 2026-11-24) */ else if(n.nodeType===3&&n.parentElement)later(n.parentElement,250); }); else if(m.target!==R&&m.target.nodeType===1&&!m.target.closest('canvas'))later(m.target,250); if(m.type==='characterData'&&m.target.parentElement)later(m.target.parentElement,250); }); }).observe(document.body||R,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['class','hidden','aria-pressed','aria-selected']});
