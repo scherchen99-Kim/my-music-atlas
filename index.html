@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:24"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:27"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14091,6 +14091,7 @@ html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{co
 html.atlas-dark input::placeholder,html.atlas-dark textarea::placeholder{color:rgba(0,0,0,.5)!important;-webkit-text-fill-color:rgba(0,0,0,.5)!important}
 html:not(.atlas-dark) input::placeholder,html:not(.atlas-dark) textarea::placeholder{color:rgba(0,0,0,.45)!important;-webkit-text-fill-color:rgba(0,0,0,.45)!important}
 select option{color:#111;background:#fff} /* 선택칸 속이 투명해져도 펼친 목록은 읽히게 */
+html:not(.atlas-glass) body .side button:not(.atlas-skin button):not(#sideClose):is(:hover,.active,:focus){background:rgba(128,128,128,.12)!important;color:inherit!important} /* 사이드 메뉴 고른 칸: 남색 칸 대신 바탕과 같은 톤의 옅은 칸 (형 2026-11-24) */
 #collection .pager{display:none!important} /* 아래 ← 1/6 → 버튼은 뺌: 길게 내려 보기 + 오른쪽 아래 TOP + 왼쪽 빠른 이동 점 (형 2026-11-24) */
 html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color:rgba(255,255,255,.55)!important;-webkit-text-fill-color:rgba(255,255,255,.55)!important}
 </style>
