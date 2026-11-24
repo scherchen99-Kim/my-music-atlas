@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 20:11"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 20:15"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -13920,8 +13920,10 @@ html body #sidebar .atlas-skin button.l.l{background:radial-gradient(circle at 2
 <style id="atlas-genre-row-css">
 /* 6개 카테고리: 데스크탑 한 줄 6개, 휴대폰 3개씩 두 줄, 카드(후광)·모션그래픽은 정사각형 (형 2026-11-24) */
 #home #genreGrid.genre-grid{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:24px 16px!important}
-#home #genreGrid .genre-poster{aspect-ratio:1/1!important;padding:0!important}
-#home #genreGrid .genre-poster img{width:100%!important;height:100%!important;max-width:none!important;object-fit:cover;box-shadow:none}
+#home #genreGrid .genre-poster{aspect-ratio:1/1!important;padding:14px!important;border-radius:14px!important}
+/* 장르는 앨범보다 상위 — 표지를 카드 안에 넣고 그림자·손대면 후광 (형 2026-11-24) */
+#home #genreGrid .genre-poster img{width:100%!important;height:100%!important;max-width:none!important;object-fit:cover;box-shadow:0 3px 12px #00000024}
+@media(max-width:900px){#home #genreGrid .genre-poster{padding:9px!important}}
 #home #genreGrid .genre-name{text-align:center}
 #home #genreGrid .genre-count{text-align:center}
 @media(max-width:900px){#home #genreGrid.genre-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px 12px!important}}
@@ -14021,7 +14023,7 @@ html.atlas-dark body :is(.album-label .label-performer,#atlasQobuzRecent .nr-ite
 <style id="atlas-no-shadow-fix">
 /* 그림자 빼기가 모든 스킨·모든 표지에 확실히 (형 2026-11-24: 상세창 표지에 안 빠지던 것) */
 html.atlas-no-shadow.atlas-no-shadow body #albumModal #modalArt#modalArt,
-html.atlas-no-shadow.atlas-no-shadow body :is(button.album .art,button.album .art img,#roonView .rv-cv,#roonView .rv-cv img,#roonAlbums .rv-cv img,#atlasQobuzRecent .qr-track img,#atlasQobuzRecent .nr-item img,.genre-poster,.genre-poster img,.atlas-home-recommendation img,.atlas-daily-card img){box-shadow:none!important}
+html.atlas-no-shadow.atlas-no-shadow body :is(button.album .art,button.album .art img,#roonView .rv-cv,#roonView .rv-cv img,#roonAlbums .rv-cv img,#atlasQobuzRecent .qr-track img,#atlasQobuzRecent .nr-item img,.genre-poster img,.atlas-home-recommendation img,.atlas-daily-card img){box-shadow:none!important}
 </style>
 <style id="atlas-radio-palette">
 /* 라디오 다이얼·재생 버튼 색을 스킨에 맞게 (형 2026-11-24). 글자색은 글자 원칙 장치가 바탕 밝기 따라 흰/검정으로 */
