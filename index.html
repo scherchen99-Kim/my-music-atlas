@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:54"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 18:59"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14049,6 +14049,12 @@ html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atla
 html.atlas-night body #atlasRoonCtl .rc-pop{background:#e1e9ff!important}
 html.atlas-lights body #atlasRoonCtl .rc-pop{background:#ececf2!important}
 html.atlas-analog body #atlasRoonCtl .rc-pop{background:#dfdfdf!important}
+/* 작은 재생창(왼쪽 아래·팝업 아래)도 같은 톤 (형 2026-11-24) */
+html.atlas-jazz body #atlasMini#atlasMini:not(.docked){background:#f3ddd3!important;background-image:none!important}
+html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlasMini#atlasMini:not(.docked){background:#ffe3eb!important;background-image:none!important}
+html.atlas-night body #atlasMini#atlasMini:not(.docked){background:#e1e9ff!important;background-image:none!important}
+html.atlas-lights body #atlasMini#atlasMini:not(.docked){background:#ececf2!important;background-image:none!important}
+html.atlas-analog body #atlasMini#atlasMini:not(.docked){background:#dfdfdf!important;background-image:none!important}
 </style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
