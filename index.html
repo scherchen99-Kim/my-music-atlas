@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 23:19"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 23:30"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -11996,10 +11996,14 @@ html.atlas-glass body #albumModal .atlas-info-sheet .ai-x{color:#fff!important;b
    if(window.IntersectionObserver){const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)&&m.isConnected){io.disconnect();SHOW+=240;draw();}},{rootMargin:'1200px 0px'});io.observe(m);}}
  }
  async function load(refresh){
-  try{if(!HOME&&!(window.atlasHelperFav&&atlasHelperFav()))throw new Error('no helper');const r=await fetch(API()+'/library/favorites'+(refresh?'?refresh=1':''),{cache:'no-store'}).then(r=>r.json());if(!r.ok)throw new Error(r.error||'');DATA=r;classify();chips();draw();if(r.building)setTimeout(()=>load(false),8000);
+  try{if(!HOME&&!(window.atlasHelperFav&&atlasHelperFav()))throw new Error('no helper');const r=await fetch(API()+'/library/favorites'+(refresh?'?refresh=1':''),{cache:'no-store'}).then(r=>r.json());if(!r.ok)throw new Error(r.error||'');DATA=r;dropHidden();classify();chips();draw();if(r.building)setTimeout(()=>load(false),8000);
    if(!HOME&&!DATA.total)$('roonAlbums').innerHTML='<p>'+(DATA.noQobuz?'이 Roon에 Qobuz가 연결돼 있지 않아요.':(r.building?'Qobuz 하트 앨범을 정리하는 중이에요. 처음 한 번은 몇 분 걸려요.':'Qobuz 하트 앨범이 없어요.'))+'</p>';}
   catch(e){$('roonAlbums').innerHTML=HOME?'<p>Could not read from Roon link (8794). '+esc(e.message)+'</p>':'<p>Roon 연결 프로그램을 켜면 여기에 내 Qobuz 하트 앨범이 나와요 · <a href="roon-helper.html" target="_blank" rel="noopener">받는 법 ↗</a></p>';}
  }
+ // 메인 Qobuz 줄에서 꾸욱 눌러 숨긴 음반은 전체 목록에서도 빠짐 (형 2026-11-24)
+ function dropHidden(){ if(!DATA||!DATA.favorites)return; let H; try{H=new Set(JSON.parse(localStorage.getItem('atlas-qobuz-hidden-v1')||'[]'))}catch(e){H=new Set()} if(!H.size)return;
+  DATA.favorites=DATA.favorites.filter(f=>!H.has((f.title||'')+'\u241f'+(f.artist||''))); DATA.total=DATA.favorites.length; }
+ window.atlasRoonRefilter=()=>{ if(!DATA)return; dropHidden(); classify(); chips(); draw(); };
  function hideRoon(){const v=$('roonView');if(v)v.classList.add('hidden');}
  // 사이트 밖에서 튼 음반도 아래 재생칸을 누르면 상세창으로: Qobuz 하트에서 같은 제목을 찾고, 없으면 Roon이 알려 준 정보로 (형 2026-11-22)
  window.atlasOpenRoonNow=async function(title,artist,image){
@@ -12513,7 +12517,7 @@ html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
  // 사이트에서만 숨기기 (Roon 즐겨찾기는 그대로) · 시간이 지나면 같은 자리에서 다른 즐겨찾기로 바뀜 (형 2026-11-24)
  const HK='atlas-qobuz-hidden-v1', fk=f=>(f.title||'')+'\u241f'+(f.artist||'');
  const hidden=()=>{try{return new Set(JSON.parse(localStorage.getItem(HK)||'[]'))}catch(e){return new Set()}};
- const hide=f=>{const h=hidden(); h.add(fk(f)); try{localStorage.setItem(HK,JSON.stringify([...h]))}catch(e){}};
+ const hide=f=>{const h=hidden(); h.add(fk(f)); try{localStorage.setItem(HK,JSON.stringify([...h]))}catch(e){} if(window.atlasRoonRefilter)atlasRoonRefilter();};
  const img=f=>f.image_key?API()+'/img?key='+encodeURIComponent(f.image_key)+'&s=300':'';
  const XS='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7L7 17"/></svg>';
  function nextFree(){const on=new Set(favs.map(fk)); return pool.find(f=>!on.has(fk(f)))||null;}
@@ -12525,8 +12529,18 @@ html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
   const tr=box.querySelector('.qr-track');
   if(!favs){tr.innerHTML='<div class="qr-msg">Loading…</div>';return;}
   if(!favs.length){tr.innerHTML='<div class="qr-msg">No favorites</div>';return;}
-  tr.innerHTML=favs.map((f,i)=>{const s=split(f.title);return '<button type="button" class="nr-item" data-i="'+i+'"><img loading="lazy" alt="" src="'+img(f)+'"><span class="qr-hide" role="button" tabindex="-1" title="여기서 숨기기" aria-label="여기서 숨기기">'+XS+'</span><b>'+E(s.c||s.w)+'</b><small>'+E(s.c?s.w:(f.artist||''))+'</small></button>';}).join('');
-  tr.querySelectorAll('.nr-item').forEach(b=>b.onclick=e=>{const f=favs[+b.dataset.i]; if(e.target.closest('.qr-hide')){e.preventDefault(); e.stopPropagation(); if(!f)return; hide(f); pool=pool.filter(x=>fk(x)!==fk(f)); const n=nextFree(); if(n)swap(b,n); else b.remove(); return;} if(f&&window.atlasOpenRoonFavByKey)atlasOpenRoonFavByKey('roonfav:'+f.title);});
+  tr.innerHTML=favs.map((f,i)=>{const s=split(f.title);return '<button type="button" class="nr-item" data-i="'+i+'"><img loading="lazy" alt="" src="'+img(f)+'"><b>'+E(s.c||s.w)+'</b><small>'+E(s.c?s.w:(f.artist||''))+'</small></button>';}).join('');
+  tr.querySelectorAll('.nr-item').forEach(b=>{
+   // 꾸욱(0.7초) 누르면 사이트에서만 숨김 — 컴퓨터·휴대폰 같음 (형 2026-11-24)
+   let t=0,sx=0,sy=0,fired=false;
+   const cancel=()=>{clearTimeout(t); b.classList.remove('qr-press');};
+   b.addEventListener('pointerdown',e=>{if(e.button>0)return; fired=false; sx=e.clientX; sy=e.clientY; b.classList.add('qr-press');
+    t=setTimeout(()=>{fired=true; b.classList.remove('qr-press'); const f=favs[+b.dataset.i]; if(!f)return; hide(f); pool=pool.filter(x=>fk(x)!==fk(f)); const n=nextFree(); if(n)swap(b,n); else b.remove(); if(navigator.vibrate)navigator.vibrate(15);},700);});
+   b.addEventListener('pointermove',e=>{if(Math.abs(e.clientX-sx)+Math.abs(e.clientY-sy)>10)cancel();});
+   ['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,cancel));
+   b.addEventListener('contextmenu',e=>e.preventDefault());
+   b.onclick=e=>{if(fired){e.preventDefault(); e.stopPropagation(); fired=false; return;} const f=favs[+b.dataset.i]; if(f&&window.atlasOpenRoonFavByKey)atlasOpenRoonFavByKey('roonfav:'+f.title);};
+  });
   navState(box);
  }
  function navState(box){const tr=box.querySelector('.qr-track'),[p,n]=box.querySelectorAll('.qr-nav button');if(!p)return;p.disabled=tr.scrollLeft<=2;n.disabled=tr.scrollLeft+tr.clientWidth>=tr.scrollWidth-2;}
@@ -14230,7 +14244,11 @@ html body #atlasQobuzRecent .qr-track>.nr-item.nr-item{position:relative!importa
 #atlasQobuzRecent .nr-item.qr-fade img,#atlasQobuzRecent .nr-item.qr-fade b,#atlasQobuzRecent .nr-item.qr-fade small{opacity:0}
 html body #atlasQobuzRecent .qr-track>.nr-item>.qr-hide{position:absolute!important;top:5px!important;right:5px!important;left:auto!important;margin:0!important;width:22px;height:22px;border-radius:50%;background:rgba(255,255,255,.92);box-shadow:0 1px 4px rgba(0,0,0,.25);display:grid;place-items:center;opacity:0;transition:opacity .15s;cursor:pointer;z-index:2}
 #atlasQobuzRecent .qr-hide svg{width:12px;height:12px;fill:none;stroke:rgba(0,0,0,.75);stroke-width:2.2;stroke-linecap:round}
-@media(hover:hover){#atlasQobuzRecent .nr-item:hover .qr-hide{opacity:1}}
+/* 꾸욱 누르는 동안 표지가 살짝 작아지며 흐려짐 → 0.7초 뒤 숨김 */
+#atlasQobuzRecent .nr-item img{transition:opacity .45s ease,transform .7s ease,filter .7s ease}
+#atlasQobuzRecent .nr-item.qr-press img{transform:scale(.9);filter:grayscale(1) opacity(.5)}
+html body #atlasQobuzRecent .qr-track>.nr-item.nr-item{-webkit-touch-callout:none!important;-webkit-user-select:none!important;user-select:none!important}
+#atlasQobuzRecent .nr-item img{-webkit-user-drag:none;-webkit-touch-callout:none}
 </style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
