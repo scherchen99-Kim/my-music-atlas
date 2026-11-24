@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 17:03"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 17:12"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -13870,6 +13870,10 @@ html.atlas-hall.atlas-lights.atlas-touch:not(.atlas-no-oled) body::after{backgro
 html.atlas-hall.atlas-lights.atlas-touch:not(.atlas-panel-dock) body #albumModal .detail::before{background:radial-gradient(ellipse 120% 80% at 50% 40%,rgba(0,0,0,0) 50%,rgba(0,0,0,.4) 100%),linear-gradient(rgba(0,0,0,.22),rgba(0,0,0,.22)),#0d0d11 !important}
 html.atlas-hall.atlas-lights #atlasSettings::before{background:linear-gradient(rgba(0,0,0,.22),rgba(0,0,0,.22)),#0d0d11 }
 html.atlas-hall.atlas-lights body::after{background:transparent!important}
+/* 상세창에도 빛망울이 이어지게: 상세창 바탕을 반투명으로 (형 2026-11-24) */
+html.atlas-hall.atlas-lights.atlas-lights.atlas-panel-dock body::before{background:rgba(8,8,11,.42)!important;box-shadow:inset 1px 0 0 rgba(255,255,255,.08)!important}
+html.atlas-hall.atlas-lights.atlas-lights:not(.atlas-panel-dock) body #albumModal .detail::before{background:rgba(8,8,11,.5)!important}
+html.atlas-hall.atlas-lights.atlas-lights:not(.atlas-panel-dock) body #albumModal#albumModal.open::before{background:rgba(0,0,0,.35)!important}
 #atlasLightsCanvas{position:fixed;inset:0;width:100vw;height:100vh;z-index:-1;pointer-events:none;display:none;filter:invert(1) hue-rotate(180deg)}
 html.atlas-lights #atlasLightsCanvas{display:block}
 html body #sidebar .atlas-skin button.l.l{background:radial-gradient(circle at 25% 35%,rgba(255,196,110,.9) 0 2px,transparent 3px),radial-gradient(circle at 70% 60%,rgba(120,200,210,.85) 0 2.5px,transparent 3.5px),radial-gradient(circle at 50% 20%,rgba(150,210,140,.8) 0 1.5px,transparent 2.5px),#08080b!important;color:#f2ead8!important;box-shadow:inset 0 0 0 1px rgba(255,255,255,.25)!important}
@@ -13886,7 +13890,9 @@ html body #sidebar .atlas-skin button.l.l{background:radial-gradient(circle at 2
   return {x:rnd(0,W),y:y0===undefined?rnd(-40,Hh):y0,r:size,c:PAL[Math.floor(Math.random()*PAL.length)],
    a:layer===0?rnd(.5,.9):layer===1?rnd(.32,.6):rnd(.1,.2),vy:(layer===0?rnd(5,11):layer===1?rnd(9,18):rnd(14,26)),
    sw:rnd(6,22),sp:rnd(.15,.45),ph:rnd(0,6.28),tw:rnd(.4,1.2),L:layer};}
- function size(){dpr=Math.min(2,window.devicePixelRatio||1);W=innerWidth;Hh=innerHeight;cv.width=Math.round(W*dpr);cv.height=Math.round(Hh*dpr);g.setTransform(dpr,0,0,dpr,0,0);
+ // 아이폰: 100vh와 실제 화면 높이가 달라 원이 세로로 늘어나던 것 → 캔버스 크기를 실제 화면 크기로 맞춤, 주소창이 숨었다 나타나도 빛망울은 그대로 (형 2026-11-24)
+ function size(){const oldW=W; dpr=Math.min(2,window.devicePixelRatio||1);W=innerWidth;Hh=innerHeight;cv.style.width=W+'px';cv.style.height=Hh+'px';cv.width=Math.round(W*dpr);cv.height=Math.round(Hh*dpr);g.setTransform(dpr,0,0,dpr,0,0);
+  if(oldW===W&&P.length){P.forEach(p=>{if(p.y>Hh+40)p.y=rnd(0,Hh)});return}
   const n=Math.round(Math.min(120,Math.max(40,W*Hh/15000)));P=[];for(let i=0;i<n;i++)P.push(make());}
  function draw(t){g.fillStyle='#000';g.fillRect(0,0,W,Hh);
   for(const p of P){const x=p.x+Math.sin(t*p.sp+p.ph)*p.sw, a=p.a*(.75+.25*Math.sin(t*p.tw+p.ph)), R=p.r*(p.L===2?1:2.6);
@@ -13923,19 +13929,19 @@ html body #sidebar .atlas-skin button.ln.ln{background:radial-gradient(ellipse 6
  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
  let cv,g,ink,ig,W=0,Hh=0,dpr=1,raf=0,last=0,fig=null,ri=Math.floor(Math.random()*RATIOS.length);
  const rnd=(a,b)=>a+Math.random()*(b-a), on=()=>H.classList.contains('atlas-line');
- function area(){let pw=0;if(H.classList.contains('atlas-panel-dock')){pw=parseFloat(getComputedStyle(H).getPropertyValue('--atlas-panel-w'))||468;}
-  const left=H.classList.contains('atlas-panel-l');return {cx:(left?pw:0)+(W-pw)/2,cy:Hh*.5,R:Math.min(W-pw,Hh)*.40};}
+ function area(){return {cx:W/2,cy:Hh*.5,R:W*.47,Ry:Hh*.43};} // 화면 전체 가운데: 상세창까지 선이 이어짐 (형 2026-11-24)
  function newFig(){const [a,b]=RATIOS[ri++%RATIOS.length], A=area(), f=1.3;
   fig={a:A, f1:a*f+rnd(-.006,.006), f2:b*f+rnd(-.006,.006), f3:a*f+rnd(-.006,.006), f4:b*f+rnd(-.006,.006),
-   p1:rnd(0,6.28),p2:rnd(0,6.28),p3:rnd(0,6.28),p4:rnd(0,6.28), d:rnd(.003,.0042), t:0, T:Math.round(650*Math.min(1,Math.max(.55,A.R/320))), k:Math.min(1,A.R/380), fade:0, prev:null, gold:Math.random()<.35};
+   p1:rnd(0,6.28),p2:rnd(0,6.28),p3:rnd(0,6.28),p4:rnd(0,6.28), d:rnd(.003,.0042), t:0, T:Math.round(650*Math.min(1,Math.max(.55,Math.min(A.R,A.Ry||A.R)/320))), k:Math.min(1,Math.min(A.R,A.Ry||A.R)/380), fade:0, prev:null, gold:Math.random()<.35};
   ig.clearRect(0,0,W,Hh);}
- function pt(F,t){const e=Math.exp(-F.d*t), R=F.a.R;
-  return [F.a.cx+R*e*(.62*Math.sin(F.f1*t+F.p1)+.38*Math.sin(F.f3*t*1.002+F.p3)), F.a.cy+R*e*(.62*Math.sin(F.f2*t+F.p2)+.38*Math.sin(F.f4*t*.998+F.p4))];}
- function size(){dpr=Math.min(2,devicePixelRatio||1);W=innerWidth;Hh=innerHeight;
+ function pt(F,t){const e=Math.exp(-F.d*t), R=F.a.R, Ry=F.a.Ry||R;
+  return [F.a.cx+R*e*(.62*Math.sin(F.f1*t+F.p1)+.38*Math.sin(F.f3*t*1.002+F.p3)), F.a.cy+Ry*e*(.62*Math.sin(F.f2*t+F.p2)+.38*Math.sin(F.f4*t*.998+F.p4))];}
+ function size(){const oldW=W,oldH=Hh; dpr=Math.min(2,devicePixelRatio||1);W=innerWidth;Hh=innerHeight; cv.style.width=W+'px'; cv.style.height=Hh+'px'; // 아이폰 100vh 늘어남 방지 (형 2026-11-24)
+  if(oldW===W&&fig&&Math.abs(oldH-Hh)<160){ const keep=document.createElement('canvas'); keep.width=ink.width; keep.height=ink.height; keep.getContext('2d').drawImage(ink,0,0); for(const [c,x] of [[cv,g],[ink,ig]]){c.width=Math.round(W*dpr);c.height=Math.round(Hh*dpr);x.setTransform(dpr,0,0,dpr,0,0);} ig.setTransform(1,0,0,1,0,0); ig.drawImage(keep,0,0); ig.setTransform(dpr,0,0,dpr,0,0); return; }
   for(const [c,x] of [[cv,g],[ink,ig]]){c.width=Math.round(W*dpr);c.height=Math.round(Hh*dpr);x.setTransform(dpr,0,0,dpr,0,0);} newFig();}
  function stroke(n){const F=fig; ig.lineWidth=.9; ig.lineCap='round';
   for(let i=0;i<n&&F.t<F.T;i++){const p=F.prev||pt(F,F.t); F.t+=.035; const q=pt(F,F.t); const k=1-F.t/F.T;
-   ig.strokeStyle='rgba('+(F.gold?GOLD:INK)+','+((.07+.24*k)*F.k)+')'; ig.beginPath(); ig.moveTo(p[0],p[1]); ig.lineTo(q[0],q[1]); ig.stroke(); F.prev=q;}}
+   ig.strokeStyle='rgba('+(F.gold?GOLD:INK)+','+((.04+.13*k)*F.k)+')'; ig.beginPath(); ig.moveTo(p[0],p[1]); ig.lineTo(q[0],q[1]); ig.stroke(); F.prev=q;}}
  function paint(){g.globalAlpha=1;g.fillStyle=PAPER;g.fillRect(0,0,W,Hh);g.globalAlpha=1-fig.fade;g.drawImage(ink,0,0,W,Hh);g.globalAlpha=1;}
  function step(now){raf=0;if(!on()||document.hidden)return;if(last&&now-last<33){raf=requestAnimationFrame(step);return}last=now;
   if(fig.t<fig.T)stroke(14); else {fig.fade+=1/150; if(fig.fade>=1)newFig();}
