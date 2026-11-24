@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:04"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 19:15"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -10660,6 +10660,7 @@ html body #albumModal .detail:not(.atlas-editing) .service.atlas-iconized.atlas-
 (function(){
  function fit(){
   const art=document.getElementById('modalArt'), d=art&&art.closest('.detail'); if(!art||!d)return;
+  if(d.classList.contains('atlas-editing')){ d.style.removeProperty('--atlas-art-w'); return; } // 편집 중엔 큰 표지 폭을 남기지 않음 → 앞뒤로 넘길 때 창이 넓어지던 것 (형 2026-11-24)
   const r=art.getBoundingClientRect(); if(!r.width)return;
   let w=r.width; if(art.naturalWidth&&art.naturalHeight){const ratio=art.naturalWidth/art.naturalHeight; w=Math.min(r.width,r.height*ratio)}
   d.style.setProperty('--atlas-art-w',Math.round(w)+'px');
@@ -14046,21 +14047,24 @@ html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{co
 /* 떠 있는 작은 창 바탕을 스킨 톤으로 (형 2026-11-24): Jazz 붉은 갈색, Hall 와인, Sky 남색, Lights·Analog 짙은 회색 */
 html.atlas-jazz body #atlasRoonCtl .rc-pop{background:#f3ddd3!important}
 html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlasRoonCtl .rc-pop{background:#ffe3eb!important}
-html.atlas-night body #atlasRoonCtl .rc-pop{background:#e1e9ff!important}
-html.atlas-lights body #atlasRoonCtl .rc-pop{background:#ececf2!important}
+html.atlas-night body #atlasRoonCtl .rc-pop{background:#f0f4ff!important}
+html.atlas-lights body #atlasRoonCtl .rc-pop{background:#f7f7fa!important}
 html.atlas-analog body #atlasRoonCtl .rc-pop{background:#dfdfdf!important}
 /* 연결 고치기 창·표지 편집 창도 같은 톤 (형 2026-11-24 '색상이 제각기') */
-html.atlas-jazz body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#f3ddd3!important;background-image:none!important}
-html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#ffe3eb!important;background-image:none!important}
-html.atlas-night body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#e1e9ff!important;background-image:none!important}
-html.atlas-lights body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#ececf2!important;background-image:none!important}
-html.atlas-analog body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox){background:#dfdfdf!important;background-image:none!important}
+html.atlas-jazz body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox,#albumModal .atlas-info-sheet.atlas-info-sheet){background:#f3ddd3!important;background-image:none!important}
+html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox,#albumModal .atlas-info-sheet.atlas-info-sheet){background:#ffe3eb!important;background-image:none!important}
+html.atlas-night body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox,#albumModal .atlas-info-sheet.atlas-info-sheet){background:#f0f4ff!important;background-image:none!important}
+html.atlas-lights body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox,#albumModal .atlas-info-sheet.atlas-info-sheet){background:#f7f7fa!important;background-image:none!important}
+html.atlas-analog body :is(#atlasFixSheet#atlasFixSheet,#atlasFitBox#atlasFitBox,#albumModal .atlas-info-sheet.atlas-info-sheet){background:#dfdfdf!important;background-image:none!important}
+/* 표지 편집 슬라이더: 파랑 대신 흰색(어두운 바탕)/검정(밝은 바탕) (형 2026-11-24). 어두운 스킨은 화면이 뒤집혀 검정=흰색 */
+#atlasFitBox input[type=range]{accent-color:#000}
+html.atlas-glass #atlasFitBox input[type=range]{accent-color:#fff}
 /* 작은 재생창(왼쪽 아래·팝업 아래)도 같은 톤 (형 2026-11-24) */
-html.atlas-jazz body #atlasMini#atlasMini:not(.docked){background:#f3ddd3!important;background-image:none!important}
-html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlasMini#atlasMini:not(.docked){background:#ffe3eb!important;background-image:none!important}
-html.atlas-night body #atlasMini#atlasMini:not(.docked){background:#e1e9ff!important;background-image:none!important}
-html.atlas-lights body #atlasMini#atlasMini:not(.docked){background:#ececf2!important;background-image:none!important}
-html.atlas-analog body #atlasMini#atlasMini:not(.docked){background:#dfdfdf!important;background-image:none!important}
+html.atlas-jazz:not(.atlas-panel-dock) body #atlasMini#atlasMini,html.atlas-jazz body #atlasMini#atlasMini:not(.docked){background:#f3ddd3!important;background-image:none!important}
+html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night):not(.atlas-panel-dock) body #atlasMini#atlasMini,html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlasMini#atlasMini:not(.docked){background:#ffe3eb!important;background-image:none!important}
+html.atlas-night:not(.atlas-panel-dock) body #atlasMini#atlasMini,html.atlas-night body #atlasMini#atlasMini:not(.docked){background:#f0f4ff!important;background-image:none!important}
+html.atlas-lights:not(.atlas-panel-dock) body #atlasMini#atlasMini,html.atlas-lights body #atlasMini#atlasMini:not(.docked){background:#f7f7fa!important;background-image:none!important}
+html.atlas-analog:not(.atlas-panel-dock) body #atlasMini#atlasMini,html.atlas-analog body #atlasMini#atlasMini:not(.docked){background:#dfdfdf!important;background-image:none!important}
 </style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
@@ -14111,6 +14115,9 @@ html.atlas-analog body #atlasMini#atlasMini:not(.docked){background:#dfdfdf!impo
 html.atlas-dark input::placeholder,html.atlas-dark textarea::placeholder{color:rgba(0,0,0,.5)!important;-webkit-text-fill-color:rgba(0,0,0,.5)!important}
 html:not(.atlas-dark) input::placeholder,html:not(.atlas-dark) textarea::placeholder{color:rgba(0,0,0,.45)!important;-webkit-text-fill-color:rgba(0,0,0,.45)!important}
 select option{color:#111;background:#fff} /* 선택칸 속이 투명해져도 펼친 목록은 읽히게 */
+/* 작은 음표 표시(인상 깊은 음반): 주황 그라데이션 대신 흰색/검정 (형 2026-11-24). Discovery Atlas 로고는 그대로 */
+html body svg:has(use[href="#atlasDiscoveryNote"]):not(.atlas-home-recommendation svg):not(#sidebar svg){filter:grayscale(1) brightness(0) opacity(.85)!important}
+html.atlas-glass body svg:has(use[href="#atlasDiscoveryNote"]):not(.atlas-home-recommendation svg):not(#sidebar svg){filter:grayscale(1) brightness(0) invert(1) opacity(.85)!important}
 /* 체크칸: 검은 네모 대신 가는 선, 체크하면 안쪽만 채움 (형 2026-11-24). 어두운 스킨은 화면이 뒤집혀 검정=흰색 */
 html body input[type=checkbox]:not(.st-sw){-webkit-appearance:none;appearance:none;width:16px;height:16px;margin:0 4px 0 0;border:1.5px solid rgba(0,0,0,.45);border-radius:4px;background:transparent!important;vertical-align:-3px;cursor:pointer;flex:0 0 auto}
 html body input[type=checkbox]:not(.st-sw):checked{box-shadow:inset 0 0 0 3px transparent,inset 0 0 0 9px rgba(0,0,0,.8);background-clip:content-box!important}
@@ -14150,7 +14157,15 @@ html.atlas-glass input::placeholder,html.atlas-glass textarea::placeholder{color
   if(el.dataset.monoBox===undefined){ const cs=getComputedStyle(el), c=P(cs.backgroundColor); if(!c||c[3]<.5)return; el.dataset.monoBox='1'; }
   const fl=flips(el), light=bgLight(el.parentElement||el), raw=((!light)!==!!fl)?'255,255,255':'0,0,0';
   el.style.setProperty('background','transparent','important'); el.style.setProperty('border','1px solid rgba('+raw+','+(light?.3:.4)+')','important'); el.style.setProperty('box-shadow','none','important'); el.style.setProperty('color','rgba('+raw+',.85)','important'); el.querySelectorAll('svg').forEach(v=>v.style.setProperty('color','rgba('+raw+',.85)','important')); bgm=new WeakMap(); [el,...el.querySelectorAll('*')].forEach(e=>{ if(!e.closest(SKIP))paint(e); }); } // 바탕을 비운 뒤 글자색 다시 (✓ 이게 맞아요 글자 안 보이던 것) // 아이콘도 글자와 같은 색 (형 2026-11-24)
- function scan(root){ if(!root||root.nodeType!==1)return; inv=new WeakMap(); bgm=new WeakMap(); [root,...root.querySelectorAll(BOX)].forEach(e=>{try{line(e)}catch(x){}}); bgm=new WeakMap(); if(!root.matches(SKIP))paint(root); root.querySelectorAll('*').forEach(e=>{ if(!e.closest(SKIP))paint(e); }); }
+ // 색 들어간 작은 아이콘(금색 보기 아이콘·음표 등) → 흰색/검정 (형 2026-11-24). 브랜드 로고·서비스 아이콘·그라데이션은 그대로
+ const ICOSKIP='.service *,.atlas-svc-split,.atlas-radio-station *,.atlas-home-recommendation *,#atlasPanelRadio *,.rc-pp *,.pr-play *,.atlas-skin *,canvas,img,[class*=logo] *';
+ const sat=v=>{const c=P(v); if(!c||c[3]<.2)return false; const mx=Math.max(c[0],c[1],c[2]),mn=Math.min(c[0],c[1],c[2]); return mx-mn>.18;};
+ function icon(svg){ if(svg.closest(ICOSKIP))return; const r=svg.getBoundingClientRect(); if(!r.width||r.width>48)return;
+  const parts=[svg,...svg.querySelectorAll('path,circle,rect,line,polyline,polygon,ellipse')]; if(parts.some(e=>/url\(/.test(getComputedStyle(e).fill+getComputedStyle(e).stroke)))return;
+  if(!parts.some(e=>{const cs=getComputedStyle(e); return (cs.fill!=='none'&&sat(cs.fill))||(cs.stroke!=='none'&&sat(cs.stroke));}))return;
+  const fl=flips(svg), light=bgLight(svg.parentElement), raw=((!light)!==!!fl)?'255,255,255':'0,0,0', col='rgba('+raw+',.9)';
+  parts.forEach(e=>{const cs=getComputedStyle(e); if(cs.fill!=='none'&&sat(cs.fill))e.style.setProperty('fill',col,'important'); if(cs.stroke!=='none'&&sat(cs.stroke))e.style.setProperty('stroke',col,'important');}); }
+ function scan(root){ if(!root||root.nodeType!==1)return; inv=new WeakMap(); bgm=new WeakMap(); [root,...root.querySelectorAll(BOX)].forEach(e=>{try{line(e)}catch(x){}}); root.querySelectorAll('svg').forEach(v=>{try{icon(v)}catch(x){}}); bgm=new WeakMap(); if(!root.matches(SKIP))paint(root); root.querySelectorAll('*').forEach(e=>{ if(!e.closest(SKIP))paint(e); }); }
  let pend=new Set(), tm=0; const later=(n,ms)=>{ pend.add(n); if(tm)return; tm=setTimeout(()=>{ tm=0; const ns=[...pend]; pend.clear(); if(ns.includes(document.body)){scan(document.body);return;} ns.forEach(x=>x.isConnected&&scan(x)); },ms); };
  new MutationObserver(ms=>{ ms.forEach(m=>{ if(m.type==='childList')m.addedNodes.forEach(n=>{ if(n.nodeType===1){ if(n.querySelectorAll('*').length<300){ try{ inv=new WeakMap(); bgm=new WeakMap(); if(!n.closest(SKIP))paint(n); n.querySelectorAll('*').forEach(e=>{ if(!e.closest(SKIP))paint(e); }); }catch(x){} } else later(n,250); } /* 새로 생긴 글자는 그 자리에서 바로 칠함 → 깜빡임 없음 (형 2026-11-24) */ else if(n.nodeType===3&&n.parentElement)later(n.parentElement,250); }); else if(m.target!==R&&m.target.nodeType===1&&!m.target.closest('canvas'))later(m.target,250); if(m.type==='characterData'&&m.target.parentElement)later(m.target.parentElement,250); }); }).observe(document.body||R,{childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['class','hidden','aria-pressed','aria-selected']});
  new MutationObserver(()=>later(document.body,450)).observe(R,{attributes:true,attributeFilter:['class']});
