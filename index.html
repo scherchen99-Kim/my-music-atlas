@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 21:53"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 21:59"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14225,6 +14225,37 @@ html.atlas-is-local.atlas-show-guide #atlasFootGrid{display:block!important}
 #atlasBento .bx-t b em{white-space:nowrap;font-style:normal;font-weight:500;font-size:11px;padding:1px 8px;border:1px solid currentColor;border-radius:9px;opacity:.55}
 #atlasBento .bx-t p{margin:0;font-size:13.5px;line-height:1.62;opacity:.65}
 #atlasBento .bx-more{margin:10px 14px 0 0;padding:0;border:0;background:none;font:inherit;font-size:12.5px;text-decoration:underline;text-underline-offset:3px;cursor:pointer;opacity:.7}
+#atlasBento .p-find{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px}
+#atlasBento#atlasBento .p-find>.p-cat,#atlasBento#atlasBento .p-find>.p-search{position:static;transform:none;left:auto;top:auto;bottom:auto}
+/* 4: 아이콘 위 점 빼기 (형 2026-11-24) */
+#atlasBento .p-apps span:after{display:none!important}
+/* 5: 라디오 주파수 다이얼 — 바늘이 움직여 방송을 바꿈 */
+#atlasBento .p-tune{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:0 16px}
+#atlasBento .p-tune .lg{height:32px;display:flex;align-items:center}
+#atlasBento .p-tune .lg img{height:32px;width:auto;max-width:140px;object-fit:contain;transition:opacity .35s}
+#atlasBento .p-tune .lg.off img{opacity:0}
+#atlasBento .p-tune .row{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:700;letter-spacing:.16em;opacity:.7}
+#atlasBento .p-tune .row .eq{display:flex;align-items:flex-end;gap:3px;height:14px}
+#atlasBento .p-tune .row .eq i{display:block;width:3px;height:30%;border-radius:2px;background:rgba(0,0,0,.7);animation:bxEq 1.1s ease-in-out infinite}
+#atlasBento .p-tune .row .eq i:nth-child(2){animation-delay:-.3s}#atlasBento .p-tune .row .eq i:nth-child(3){animation-delay:-.6s}#atlasBento .p-tune .row .eq i:nth-child(4){animation-delay:-.15s}
+#atlasBento .p-tune.moving .row .eq i{animation-play-state:paused;height:20%}
+#atlasBento .p-scale{position:relative;width:100%;max-width:300px;height:40px;border-radius:8px;background:#fff;border:1px solid rgba(0,0,0,.12);overflow:hidden}
+#atlasBento .p-scale .tk{position:absolute;left:8px;right:8px;top:6px;height:12px;background:repeating-linear-gradient(90deg,rgba(0,0,0,.3) 0 1px,transparent 1px 8px)}
+#atlasBento .p-scale .nm{position:absolute;left:8px;right:8px;bottom:5px;display:flex;justify-content:space-between;font-size:9px;font-weight:600;opacity:.55;font-variant-numeric:tabular-nums}
+#atlasBento .p-scale .nd{position:absolute;top:3px;bottom:3px;left:30%;width:2px;margin-left:-1px;border-radius:1px;background:rgba(0,0,0,.85);transition:left 1.1s cubic-bezier(.45,0,.2,1)}
+/* 6: 내 PC ↔ 친구 PC 로 목록 주고받기 */
+#atlasBento .p-pcs{position:absolute;inset:0;display:flex;align-items:center;justify-content:space-between;padding:0 8%}
+#atlasBento .p-pc{display:flex;flex-direction:column;align-items:center;gap:0;width:34%;max-width:120px;font-size:11px;font-weight:600}
+#atlasBento .p-pc .scr{width:100%;aspect-ratio:4/3;background:#fff;border:2px solid rgba(0,0,0,.7);border-radius:6px;padding:7px;display:flex;flex-direction:column;gap:5px;box-sizing:border-box}
+#atlasBento .p-pc .scr .r{display:flex;gap:5px;align-items:center}
+#atlasBento .p-pc .scr img.cv{width:16px;height:16px;border-radius:2px;flex:none}
+#atlasBento .p-pc .scr .bar{flex:1;height:4px}
+#atlasBento .p-pc .stand{width:16%;height:10px;background:rgba(0,0,0,.55)}
+#atlasBento .p-pc .base{width:44%;height:3px;border-radius:2px;background:rgba(0,0,0,.55);margin-bottom:8px}
+#atlasBento .p-pkt{position:absolute;left:50%;top:44%;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:6px;overflow:hidden;box-shadow:0 6px 16px rgba(0,0,0,.2);animation:bxPkt 6s ease-in-out infinite}
+#atlasBento .p-pkt img.cv{width:100%;height:100%;border-radius:0}
+#atlasBento .p-wire{position:absolute;left:30%;right:30%;top:44%;border-top:1.5px dashed rgba(0,0,0,.25)}
+@keyframes bxPkt{0%{transform:translateX(-260%) scale(.6);opacity:0}8%{opacity:1}42%{transform:translateX(260%) scale(.6);opacity:1}50%{transform:translateX(260%) scale(.6);opacity:0}58%{transform:translateX(260%) scale(.6);opacity:1}92%{transform:translateX(-260%) scale(.6);opacity:1}100%{transform:translateX(-260%) scale(.6);opacity:0}}
 /* 3칸씩 2줄 (형 2026-11-24) */
 #atlasBento .bx.big,#atlasBento .bx.wide{grid-column:span 2}
 #atlasBento .bx.wide{flex-direction:column}
@@ -14313,15 +14344,15 @@ html.atlas-is-local.atlas-show-guide #atlasFootGrid{display:block!important}
 /* 1 시작하기: 설치 → 실행 → 허용 */
 #atlasBento .p-steps{position:absolute;left:50%;top:50%;width:max-content;transform:translate(-50%,-62%);display:flex;align-items:center;gap:0}
 #atlasBento .p-steps .st{display:flex;flex-direction:column;align-items:center;gap:8px;width:74px;font-size:12px;font-weight:600}
-#atlasBento .p-steps .st i{width:44px;height:44px;border-radius:50%;background:#fff;border:1px solid rgba(0,0,0,.15);display:grid;place-items:center;font-style:normal;font-size:15px;animation:bxStep 7.5s ease-in-out infinite}
-#atlasBento .p-steps .st:nth-of-type(2) i{animation-delay:1.2s}#atlasBento .p-steps .st:nth-of-type(3) i{animation-delay:2.4s}
+#atlasBento .p-steps .st i{width:44px;height:44px;border-radius:50%;background:#fff;border:1.5px solid rgba(0,0,0,.15);display:grid;place-items:center;font-style:normal;font-size:15px;animation:bxStep 7.5s ease-in-out infinite}
+#atlasBento .p-steps .st:nth-of-type(2) i{animation-delay:2.5s}#atlasBento .p-steps .st:nth-of-type(3) i{animation-delay:5s}
 #atlasBento .p-steps .ln{width:34px;height:2px;margin-bottom:24px;background:rgba(0,0,0,.12);position:relative;overflow:hidden}
 #atlasBento .p-steps .ln:after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.7);transform-origin:left;animation:bxLine 7.5s ease-in-out infinite}
-#atlasBento .p-steps .ln+.st+.ln:after{animation-delay:1.2s}
+#atlasBento .p-steps .ln+.st+.ln:after{animation-delay:2.5s}
 #atlasBento .p-os{position:absolute;left:0;right:0;bottom:16px;display:flex;justify-content:center;gap:10px}
 #atlasBento .p-os span{padding:6px 12px;border-radius:18px;background:#fff;border:1px solid rgba(0,0,0,.1);font-size:12px;font-weight:600}
-@keyframes bxStep{0%,8%{background:#fff;color:inherit;transform:none}16%,80%{background:rgba(0,0,0,.85);color:#fff;transform:scale(1.06)}92%,100%{background:#fff;color:inherit;transform:none}}
-@keyframes bxLine{0%,12%{transform:scaleX(0)}22%,80%{transform:scaleX(1)}92%,100%{transform:scaleX(0)}}
+@keyframes bxStep{0%,100%{border-color:rgba(0,0,0,.15);box-shadow:none;transform:none}6%,28%{border-color:rgba(0,0,0,.85);box-shadow:0 0 0 4px rgba(0,0,0,.07);transform:scale(1.08)}34%{border-color:rgba(0,0,0,.15);box-shadow:none;transform:none}}
+@keyframes bxLine{0%,26%{transform:scaleX(0)}34%,92%{transform:scaleX(1)}100%{transform:scaleX(0)}}
 /* 2 음반 찾기: 카테고리 + 검색 */
 #atlasBento .p-cat{position:absolute;left:50%;top:26px;width:min(330px,88%);transform:translateX(-50%);display:grid;grid-template-columns:repeat(6,1fr);gap:7px}
 #atlasBento .p-cat img.cv{width:100%;height:auto;aspect-ratio:1;border-radius:5px}
@@ -14362,11 +14393,11 @@ html.atlas-is-local.atlas-show-guide #atlasFootGrid{display:block!important}
   const c=i=>C.length?C[i%C.length]:'', q=i=>Q.length?Q[i%Q.length]:c(i);
   const im=s=>'<img class="cv" alt="" src="'+E(s)+'">';
   if(v==='start')return '<div class="p-steps"><span class="st"><i>↓</i>설치</span><span class="ln"></span><span class="st"><i>▶</i>실행</span><span class="ln"></span><span class="st"><i>✓</i>허용</span></div><div class="p-os"><span>Mac</span><span>Windows</span></div>';
-  if(v==='find')return '<div class="p-cat">'+[0,1,2,3,4,5].map(k=>im(c(k))).join('')+'</div><div class="p-search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span class="ty">Bruckner</span></div>';
+  if(v==='find')return '<div class="p-find"><div class="p-cat">'+[0,1,2,3,4,5].map(k=>im(c(k))).join('')+'</div><div class="p-search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span class="ty">Bruckner</span></div></div>';
   if(v==='info')return '<div class="pane p-info">'+im(c(4))+'<div class="p-lines"><span class="bar d" style="width:80%"></span><span class="bar" style="width:60%"></span><div class="p-ctl"><span class="p-btn"><i></i></span><span class="p-trk"><span></span></span></div></div><div class="p-tabs"><span>곡 해설</span><span>작곡가</span><span>연주자</span></div><div class="p-body"><span class="bar" style="width:96%"></span><span class="bar" style="width:88%"></span><span class="bar" style="width:60%"></span></div></div>';
   if(v==='apps')return '<div class="p-apps"><span>'+logo('roon')+'</span><span>'+logo('apple')+'</span><span>'+logo('qobuz')+'</span><span>'+logo('tidal')+'</span></div><div class="p-apps-l">점 있는 아이콘 = 스트리밍지원되는 음원 표시</div>';
-  if(v==='radio')return '<div class="p-radio" style="position:absolute"><span class="lg"></span><span class="eq">'+'<i></i>'.repeat(7)+'</span><span class="live"><i></i>LIVE</span></div><span class="p-dial"></span>';
-  if(v==='fav')return '<div class="p-fav" style="position:absolute">'+[0,1,2].map(k=>'<div class="col"><span class="bar d"></span>'+im(q(k*2))+im(q(k*2+1))+'</div>').join('')+'</div>';
+  if(v==='radio')return '<div class="p-tune"><span class="lg"></span><span class="row"><span class="eq"><i></i><i></i><i></i><i></i></span>LIVE</span><div class="p-scale"><span class="tk"></span><span class="nm"><span>88</span><span>92</span><span>96</span><span>100</span><span>104</span><span>108</span></span><span class="nd"></span></div></div>';
+  if(v==='fav'){const pc=(nm,o)=>'<div class="p-pc"><div class="scr">'+[0,1,2].map(k=>'<div class="r">'+im(q(k+o))+'<span class="bar"></span></div>').join('')+'</div><span class="stand"></span><span class="base"></span>'+nm+'</div>'; return '<span class="p-wire"></span><div class="p-pcs">'+pc('내 PC',0)+pc('친구 PC',3)+'</div><span class="p-pkt">'+im(q(1))+'</span>';}
   return '';
  }
  function build(){
@@ -14376,11 +14407,15 @@ html.atlas-is-local.atlas-show-guide #atlasFootGrid{display:block!important}
    +'<p class="bx-note">화면·재생 설정은 메뉴 맨 아래 Settings · 휴대폰은 리모트로 사용 → 홈 화면에 추가하면 앱처럼 열려요 · 음원의 재생기한은 스트리밍서비스사의 사정에 따라 달라집니다.</p>';
   const hp=b.querySelector('.bx-help'); if(hp)hp.onclick=()=>{if(window.atlasHelperGuide)atlasHelperGuide();else location.href='roon-helper.html';};
   const pv=b.querySelector('.bx-prev'); if(pv)pv.onclick=()=>{if(window.atlasRoonPreview)atlasRoonPreview();};
-  const lg=b.querySelector('.p-radio .lg'); let ri=0;
-  const tick=()=>{ // 클래식 방송국 로고를 차례로, 위 칸과 같은 필터
-   const L=[...document.querySelectorAll('#home section.atlas-radio:not(.atlas-radio-music) img')].filter(i=>i.naturalWidth&&!/kbs/i.test(i.src)); if(!L.length||!lg.isConnected)return;
-   const o=L[ri++%L.length]; lg.innerHTML='<img alt="" src="'+E(o.currentSrc||o.src)+'">'; lg.firstChild.style.setProperty('filter',getComputedStyle(o).filter,'important');};
-  tick(); setInterval(tick,3000);
+  const tu=b.querySelector('.p-tune'), lg=tu&&tu.querySelector('.lg'), nd=tu&&tu.querySelector('.nd'); let ri=0;
+  const POS=[22,58,36,80,12,66,47,90];
+  const tick=()=>{ // 바늘이 움직이는 동안 로고를 숨겼다가, 멈추면 다음 방송국 로고 (클래식 방송국, 위 칸과 같은 필터)
+   if(!lg||!lg.isConnected)return;
+   const L=[...document.querySelectorAll('#home section.atlas-radio:not(.atlas-radio-music) img')].filter(i=>i.naturalWidth&&!/kbs/i.test(i.src)); if(!L.length)return;
+   tu.classList.add('moving'); lg.classList.add('off'); nd.style.left=POS[ri%POS.length]+'%';
+   const o=L[ri++%L.length];
+   setTimeout(()=>{lg.innerHTML='<img alt="" src="'+E(o.currentSrc||o.src)+'">'; lg.firstChild.style.setProperty('filter',getComputedStyle(o).filter,'important'); lg.classList.remove('off'); tu.classList.remove('moving');},1150);};
+  tick(); setInterval(tick,3400);
   return b;
  }
  function place(){
