@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 09:50"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 10:06"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -10593,7 +10593,7 @@ html.atlas-glass body #albumModal .service.atlas-iconized>button.atlas-dot::afte
  async function pollNow(){ if(!(st&&st.connected)||document.hidden)return; try{const d=await fetch(H+'/now',{cache:'no-store'}).then(r=>r.json()); now=d&&d.ok?d:null; nowAt=performance.now();}catch(e){now=null} }
  setInterval(pollNow,2000);
  window.atlasHelperNow=()=>{ if(!(st&&st.connected)||!now)return null; const el=now.state==='playing'?(performance.now()-nowAt)/1000:0; return Object.assign({},now,{pos:Math.min(now.length||1e9,(now.seek||0)+el)}) };
- window.atlasHelperControl=a=>fetch(H+'/control',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:a})}).then(()=>{setTimeout(pollNow,250);setTimeout(pollNow,1200)}).catch(()=>{});
+ window.atlasHelperControl=a=>fetch(H+'/control',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:a})}).then(r=>r.json()).then(r=>{if(r&&r.waiting){say(r.error);note(String(r.error||'').replace(/[&<>]/g,''));} setTimeout(pollNow,250);setTimeout(pollNow,1200)}).catch(()=>{}); // 고른 출력이 꺼져 있으면 켜질 때 이어서 재생 (0.5.4+)
  window.atlasHelperTitleSync=key=>{if(key&&String(key).startsWith('roonfav:'))return String(key).slice(8); return (titles&&key&&titles[key])?titles[key][0]:''}; // Qobuz 하트 앨범은 제목 그대로 (형 2026-11-24)
  window.atlasHelperKeyFor=album=>{if(!titles||!album)return null; for(const k in titles){if(titles[k][0]===album)return k} return null};
  title('');
