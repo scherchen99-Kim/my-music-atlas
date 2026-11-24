@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 16:05"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 16:18"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12182,12 +12182,14 @@ html.atlas-glass body #albumModal .atlas-info-sheet .ai-x{color:#fff!important;b
 </style>
 <script id="atlas-features-js">
 (function(){
- const IMG='brand/features/';
+ // 스킨 밝기에 맞춘 그림: 밝은 스킨(White·Glass·Line)은 light, 나머지는 dark (형 2026-11-24)
+ const LIGHTSKIN=()=>!document.documentElement.classList.contains('atlas-dark'); const IMG0='brand/features/'; let IMG=IMG0+(LIGHTSKIN()?'light/':'dark/');
+ new MutationObserver(()=>{const n=IMG0+(LIGHTSKIN()?'light/':'dark/'); if(n===IMG)return; IMG=n; document.querySelectorAll('#atlasFeatures img[src*="brand/features/"]').forEach(im=>{im.src=im.getAttribute('src').replace(/brand\/features\/(light\/|dark\/)?/,n)})}).observe(document.documentElement,{attributes:true,attributeFilter:['class']});
  const F=[
   {img:'1-play.jpg',logos:[['roon','Roon'],['apple','Apple Music']],t:'음반 재생',d:'Roon 또는 Apple Music 사용자라면 바로 사용하실 수 있습니다.'},
   {img:'2-info.jpg',t:'음반 정보',d:'곡 해설과 작곡가·연주자 소개를 함께 볼 수 있습니다.'},
   {img:'3-favorites.jpg',logos:[['roon','Roon']],t:'Roon 즐겨찾기',d:'내 Roon의 Qobuz·TIDAL 즐겨찾기를 장르별로 정리해 보여 줍니다.',soon:1,more:1},
-  {img:'4-share.jpg?v=3',logos:[['roon','Roon']],t:'즐겨찾기 공유',d:'친구와 즐겨찾기 목록을 주고받습니다.',soon:1},
+  {img:'4-share.jpg',logos:[['roon','Roon']],t:'즐겨찾기 공유',d:'친구와 즐겨찾기 목록을 주고받습니다.',soon:1},
   {radio:1,t:'실시간 라디오',d:'세계 클래식 방송을 실시간으로 들을 수 있습니다.'}
  ];
  const POS={0:[0,1,0,1,5],1:[62,.84,1.6,.72,4],2:[104,.7,3.2,.42,3]}; // % 옆으로, 크기, 흐림px, 투명도, 겹침
