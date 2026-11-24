@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:41"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.24 22:55"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14197,6 +14197,10 @@ html:not(.atlas-dark):not(.atlas-navy) body #home section.atlas-radio .atlas-rad
  document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('.amr-tabs'))setTimeout(all,60);},true);
 })();
 </script>
+<style id="atlas-square-covers">
+/* 앨범 표지는 모두 네모 (모서리 둥글림 없음) (형 2026-11-24) */
+html body :is(button.album .art,button.album .art img,.genre-poster img,.rv-cv,.rv-cv img,#atlasMini img,#atlasQobuzRecent img,.atlas-daily-card img,#albumModal #modalArt,#albumModal #modalArt img){border-radius:0!important}
+</style>
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
 #atlasQobuzRecent .qr-lan:hover{opacity:1}
