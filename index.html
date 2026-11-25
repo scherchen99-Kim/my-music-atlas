@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 17:00"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 17:08"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -3650,7 +3650,9 @@ async function drawHome(){
   }
   const {card,poster}=makeHomeCoverCard(g,atlasGenreCount(g,pages),()=>openGenre(g,'all'));
   root.append(card);
-  rotateHomeCover(poster,preferred,phase,async({a,i,cover})=>{
+  rotateHomeCover(poster,preferred,phase,async({a,i})=>{
+   // 표지는 보여 줄 때마다 지금의 수정 기록에서 다시 찾음 — 목록을 만든 뒤 바뀐 표지도 반영 (형 2026-11-25 '수정 전 이미지가 간혹')
+   const cover=(hdEnabled?hdGet(a,g,i)?.url:'')||a.coverUrl;
    const image=cover?await loadHomeCoverImage(cover):null;
    return image||loadHomeCoverImage(await getThumb(g,i,a));
   });
