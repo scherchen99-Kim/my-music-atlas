@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 16:57"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 17:00"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14019,6 +14019,14 @@ html.atlas-navy.atlas-navy.atlas-navy body #home #genreGrid .genre-card{backgrou
 html.atlas-lights.atlas-lights.atlas-lights body #home #genreGrid .genre-card{background:#ebebeb!important}
 /* Sky 휴대폰: 바탕이 검정이라 아주 짙은 남색 카드로 덩어리 표시 */
 @media(max-width:900px){html.atlas-night.atlas-night.atlas-night body #home #genreGrid .genre-card{background:#e9ebf3!important}}
+</style>
+<style id="atlas-genre-card-halo">
+/* 후광은 표지 자리 말고 카드 전체에 (형 2026-11-25 '후광이 예전 자리에서 나타남') */
+html body #home #genreGrid#genreGrid .genre-card:is(:hover,:active,:focus-visible) .genre-poster.genre-poster{box-shadow:none!important;transform:none!important;background:transparent!important;border-color:transparent!important;outline:0!important}
+html body #home #genreGrid#genreGrid .genre-card{transition:box-shadow .2s,transform .2s}
+html body #home #genreGrid#genreGrid .genre-card:is(:hover,:focus-visible){box-shadow:0 6px 24px #0002!important;transform:translateY(-2px)}
+html.atlas-dark:not(.atlas-navy) body #home #genreGrid#genreGrid .genre-card:is(:hover,:focus-visible){box-shadow:0 4px 18px 1px rgba(39,33,58,.34)!important}
+html.atlas-navy body #home #genreGrid#genreGrid .genre-card:is(:hover,:focus-visible){box-shadow:0 0 0 1px rgb(145,65,0),0 0 13px 2px rgba(145,65,0,.85),0 0 24px 4px rgba(145,65,0,.55)!important}
 </style>
 <style id="atlas-genre-row-css">
 /* 6개 카테고리: 데스크탑 한 줄 6개, 휴대폰 3개씩 두 줄, 카드(후광)·모션그래픽은 정사각형 (형 2026-11-24) */
