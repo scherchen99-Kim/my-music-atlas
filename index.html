@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 09:22"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 09:25"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14205,6 +14205,7 @@ html body #home section.atlas-radio .atlas-radio-stations.amq .atlas-radio-name{
   // 한 줄로: 클래식 줄 뒤에 국내(KOREA)·해외(WORLD) 음악 방송을 이어 붙임 — 누르면 원래 칸과 똑같이 열림
   if(!row.closest('.atlas-radio-music')&&!row.querySelector('.amq-m')){
    const mus=[...document.querySelectorAll('#home section.atlas-radio-music .atlas-radio-stations')].flatMap(r=>[...r.children].filter(c=>!c.classList.contains('amq-c')));
+   const L=mus.filter(c=>c.dataset.radioStation==='kexp'); mus.splice(0,mus.length,...mus.filter(c=>c.dataset.radioStation!=='kexp'),...L); // FIP는 한데 모으고 KEXP는 그 뒤로 (형 2026-11-25)
    if(mus.length){row.querySelectorAll('.amq-c').forEach(c=>c.remove()); mus.forEach(c=>{const d=c.cloneNode(true); d.classList.add('amq-m'); row.append(d);}); row.dataset.amqSig='';}
   }
   const orig=[...row.children].filter(c=>!c.classList.contains('amq-c'));
