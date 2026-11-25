@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 09:11"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 09:22"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14256,13 +14256,16 @@ html body #home section.atlas-radio .atlas-radio-stations.amq .atlas-radio-name{
   x.putImageData(im,0,0); return cv.toDataURL('image/png'); }
  function prep(img){ const k=img.currentSrc||img.src; if(!(k in PREP)){ let u=null; try{u=recolor(img);}catch(e){} PREP[k]=u; if(u)PREP[u]=null; }
   const u=PREP[k]; if(u){ img.dataset.amqOrig=k; img.removeAttribute('srcset'); img.src=u; return false; } return true; }
- function fit(img){ if(!img.complete||!img.naturalWidth)return; if(!prep(img))return; const st=img.closest('.atlas-radio-station'), MW=Math.min(104,((st&&st.clientWidth)||120)-14), k=(img.currentSrc||img.src)+'|'+MW; if(img.dataset.fitK===k)return;
+ const NB={kbs2fm:1,kbshappy:1}; const SC={}, SAME={sbspower:'sbs',sbslove:'sbs'}; // 같은 회사 로고는 작은 쪽 크기로 통일 (형 2026-11-25)
+ function fit(img){ if(!img.complete||!img.naturalWidth)return; if(!prep(img))return; const st=img.closest('.atlas-radio-station'), sid=(st&&st.dataset.radioStation)||'', MW=Math.min(104,((st&&st.clientWidth)||120)-14);
   const W=img.clientWidth||96,H=img.clientHeight||64, nw=img.naturalWidth,nh=img.naturalHeight, r=Math.min(W/nw,H/nh);
   const [a,b,c,d]=measure(img), cw=(c-a)*r, ch=(d-b)*r; if(cw<2||ch<2)return;
-  const T=2500, s=Math.min(Math.sqrt(T/(cw*ch)),MW/cw,50/ch,2.6);
-  const mc=measure(img)[4], lim=28/(r*s); let cy=mc==null?(b+d)/2:mc; cy=Math.min(Math.max(cy,d-lim),b+lim); // 위아래는 글자 몸통 가운데로, 단 로고가 칸(64px) 밖으로 나가지 않게 (형 2026-11-25)
+  const T=2500; let s=Math.min(Math.sqrt(T/(cw*ch)),MW/cw,50/ch,2.6);
+  const g=SAME[sid]; if(g){ SC[sid+'|'+MW]=s; for(const o in SAME)if(SAME[o]===g&&SC[o+'|'+MW])s=Math.min(s,SC[o+'|'+MW]); }
+  const k=(img.currentSrc||img.src)+'|'+MW+'|'+s.toFixed(3); if(img.dataset.fitK===k)return;
+  const mc=measure(img)[4], lim=28/(r*s); let cy=(mc==null||(st&&st.classList.contains('amq-m')&&!NB[sid]))?(b+d)/2:mc; // 음악 방송(큰 글자+작은 글자 두 단 로고)은 로고 전체 가운데로 cy=Math.min(Math.max(cy,d-lim),b+lim); // 위아래는 글자 몸통 가운데로, 단 로고가 칸(64px) 밖으로 나가지 않게 (형 2026-11-25)
   const ox=((a+c)/2-nw/2)*r, oy=(cy-nh/2)*r;
-  const NUDGE={kbs:-6.6,kbs2fm:-2.5}, nd=(NUDGE[(st&&st.dataset.radioStation)||'']||0)/s; // 미세 조정(px): KBS 세 로고(Classic·Cool·Happy)는 'FM' 글자 높이를 Happy FM에 맞춤 (형 2026-11-25)
+  const NUDGE={kbs:-6.6,kbs2fm:-2.5}, nd=((NUDGE[sid]||0)+(st&&st.classList.contains('amq-m')&&!NB[sid]?-2.5:0))/s; // 미세 조정(px): KBS 세 로고(Classic·Cool·Happy)는 'FM' 글자 높이를 Happy FM에 맞춤 (형 2026-11-25)
   img.style.setProperty('transform','scale('+s.toFixed(3)+') translate('+(-ox).toFixed(1)+'px,'+(-oy+nd).toFixed(1)+'px)','important'); img.dataset.fitK=k; }
  function all(){document.querySelectorAll('#home section.atlas-radio .atlas-radio-name[style]').forEach(n=>n.removeAttribute('style')); document.querySelectorAll('#home section.atlas-radio .atlas-radio-stations').forEach(setup); document.querySelectorAll('#home section.atlas-radio .atlas-radio-station img').forEach(i=>{ if(!i.dataset.amqL){i.dataset.amqL=1; i.addEventListener('load',()=>fit(i));} fit(i); });}
  setInterval(all,1500); addEventListener('resize',()=>setTimeout(all,200));
