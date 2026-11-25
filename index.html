@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 17:19"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 17:42"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12556,7 +12556,7 @@ html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
   });
   navState(box);
  }
- function navState(box){const tr=box.querySelector('.qr-track'),[p,n]=box.querySelectorAll('.qr-nav button');if(!p)return;p.disabled=tr.scrollLeft<=2;n.disabled=tr.scrollLeft+tr.clientWidth>=tr.scrollWidth-2;}
+ function navState(box){const tr=box.querySelector('.qr-track'),[p,n]=box.querySelectorAll('.qr-nav button:not(.qr-lan)');if(!p)return;p.disabled=tr.scrollLeft<=2;n.disabled=tr.scrollLeft+tr.clientWidth>=tr.scrollWidth-2;}
  function mount(){
   const home=document.querySelector('#home .atlas-archive-home'); if(!home)return false;
   let box=document.getElementById('atlasQobuzRecent');
@@ -12565,7 +12565,7 @@ html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
    box.innerHTML='<div class="qr-head"><div class="atlas-archive-heading atlas-nas-home-title" role="link" tabindex="0" title="Qobuz Favorites 전체 보기">Qobuz Favorites</div><div class="qr-nav"><button type="button" aria-label="앞으로">'+ARR+'</button><button type="button" aria-label="뒤로">'+ARR2+'</button></div></div><div class="qr-track"></div>';
    const div=home.querySelector('.atlas-archive-divider'); if(!HOME)home.after(box); else (div||home.firstChild)?(div?div.after(box):home.prepend(box)):home.appendChild(box);
    const hd=box.querySelector('.atlas-archive-heading'); const all=()=>{if(window.atlasOpenRoon)atlasOpenRoon();}; hd.onclick=all; hd.onkeydown=e=>{if(e.key==='Enter')all();};
-   const tr=box.querySelector('.qr-track'),[p,n]=box.querySelectorAll('.qr-nav button');
+   const tr=box.querySelector('.qr-track'),[p,n]=box.querySelectorAll('.qr-nav button:not(.qr-lan)');
    // 한 칸 폭(앨범+간격) 단위로 넘기고, 창 크기가 바뀌면 가장 가까운 칸에 다시 맞춤 — 앨범이 잘리지 않게 (형 2026-11-25)
    // 칸 폭은 화면 배율과 상관없는 '배치 기준'으로 계산: (줄 폭 + 간격) ÷ 한 화면 칸 수
    const per=()=>Math.max(1,parseInt(getComputedStyle(tr).getPropertyValue('--n'))||8);
@@ -14344,6 +14344,7 @@ html body #atlasQobuzRecent .qr-track>.nr-item.nr-item{-webkit-touch-callout:non
 <style id="atlas-public-lan-css">
 #atlasQobuzRecent .qr-lan{display:flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:0;background:none;color:inherit;opacity:.6;cursor:pointer}
 #atlasQobuzRecent .qr-lan:hover{opacity:1}
+#atlasQobuzRecent .qr-lan:not(.on){opacity:.3} /* 꺼짐=흐리게, 켜짐=진하게 (형 2026-11-25) */
 #atlasQobuzRecent .qr-lan svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.7}
 #atlasLanPop{position:fixed;inset:0;z-index:9800;display:flex;align-items:center;justify-content:center;background:#0006}
 #atlasLanPop .lp{background:#fff;color:#000;width:min(340px,calc(100vw - 32px));border-radius:14px;padding:22px 22px 18px;text-align:center;box-shadow:0 10px 40px #0004}
@@ -14362,19 +14363,31 @@ html body #atlasQobuzRecent .qr-track>.nr-item.nr-item{-webkit-touch-callout:non
  const PH='<svg viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2"/><path d="M11 18h2"/></svg>';
  const api=(on)=>fetch(H+'/mobile',on===undefined?{cache:'no-store'}:{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({on})}).then(r=>{if(!r.ok)throw 0;return r.json()});
  function close(){const p=document.getElementById('atlasLanPop');if(p)p.remove();}
+ // 안내 창은 처음 한 번만, 그 뒤엔 아이콘을 누르면 바로 켜기/끄기 (형 2026-11-25)
+ const SEEN='atlas-lan-seen-v1';
+ const seen=()=>{try{return localStorage.getItem(SEEN)==='1'}catch(e){return false}};
+ function mark(d){const b=document.querySelector('#atlasQobuzRecent .qr-lan'); if(!b)return; const on=!!(d&&d.on&&!d.error); b.classList.toggle('on',on); b.title='View on Mobile · '+(on?'켜짐 (누르면 끄기)':'꺼짐 (누르면 켜기)'); b.setAttribute('aria-pressed',on?'true':'false');}
  function paint(d){
   let p=document.getElementById('atlasLanPop');
   if(!p){p=document.createElement('div');p.id='atlasLanPop';p.onclick=e=>{if(e.target===p)close();};document.body.append(p);}
   const x='<button type="button" data-a="x">닫기</button>';
-  const msg='<p>휴대폰 리모컨 · 같은 와이파이에서 classicalatlas.me</p>';
-  const state=d&&d.error?d.error:(d&&d.on?(d.connected?'켜져 있어요.':'연결하는 중이에요. 잠시 뒤 다시 열어 보세요.'):'꺼져 있어요.');
+  // 처음 보는 사람이 오류로 착각하지 않게 설명 (형 2026-11-25)
+  const isOn=!!(d&&d.on&&!d.error);
+  const msg='<p>'+(isOn?'휴대폰 리모컨이 켜져 있어요. 그만 쓰려면 끄기를 눌러 주세요.':'휴대폰을 이 컴퓨터 Roon의 리모컨으로 쓰려면 켜기를 눌러 주세요.')+'</p><p>켜면 같은 와이파이의 휴대폰에서 classicalatlas.me를 열어 쓰면 돼요.<br>다음부터는 이 아이콘을 누르면 바로 켜지고 꺼져요.</p>';
+  const state=d&&d.error?d.error:'지금: '+(d&&d.on?(d.connected?'켜져 있어요':'연결하는 중이에요. 잠시 뒤 다시 열어 보세요'):'꺼져 있어요');
+  mark(d); try{localStorage.setItem(SEEN,'1')}catch(e){}
   p.innerHTML='<div class="lp"><h3>View on Mobile</h3>'+msg+'<small>'+state+'</small><div class="bt">'+(d&&d.on?'<button type="button" data-a="off">끄기</button>':'<button type="button" class="pri" data-a="on">켜기</button>')+x+'</div></div>';
   p.querySelectorAll('button').forEach(b=>b.onclick=async()=>{const a=b.dataset.a; if(a==='x')return close(); b.disabled=true; try{paint(await api(a==='on'));}catch(e){paint({error:'연결 프로그램과 통신하지 못했어요.'});}});
  }
- async function open(){try{paint(await api());}catch(e){paint({error:'연결 프로그램과 통신하지 못했어요.'});}}
+ async function open(){
+  if(!seen()){try{paint(await api());}catch(e){paint({error:'연결 프로그램과 통신하지 못했어요.'});} return;}
+  const b=document.querySelector('#atlasQobuzRecent .qr-lan'); if(b)b.disabled=true;
+  try{const d=await api(); mark(await api(!d.on));}catch(e){paint({error:'연결 프로그램과 통신하지 못했어요.'});}
+  finally{if(b)b.disabled=false;}
+ }
  function add(){
   const nav=document.querySelector('#atlasQobuzRecent .qr-nav'); if(!nav||nav.querySelector('.qr-lan'))return;
-  const b=document.createElement('button');b.type='button';b.className='qr-lan';b.title='View on Mobile';b.setAttribute('aria-label','View on Mobile');b.innerHTML=PH;b.onclick=open;nav.prepend(b);
+  const b=document.createElement('button');b.type='button';b.className='qr-lan';b.title='View on Mobile';b.setAttribute('aria-label','View on Mobile');b.innerHTML=PH;b.onclick=open;nav.prepend(b); api().then(mark).catch(()=>{});
  }
  async function on(){
   if(window.ATLAS_RELAY_ON)return; // 휴대폰(중계소로 연결된 쪽)에는 없음
