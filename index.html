@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 17:14"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.25 17:17"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12566,8 +12566,16 @@ html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
    const div=home.querySelector('.atlas-archive-divider'); if(!HOME)home.after(box); else (div||home.firstChild)?(div?div.after(box):home.prepend(box)):home.appendChild(box);
    const hd=box.querySelector('.atlas-archive-heading'); const all=()=>{if(window.atlasOpenRoon)atlasOpenRoon();}; hd.onclick=all; hd.onkeydown=e=>{if(e.key==='Enter')all();};
    const tr=box.querySelector('.qr-track'),[p,n]=box.querySelectorAll('.qr-nav button');
-   p.onclick=()=>tr.scrollBy({left:-tr.clientWidth,behavior:'smooth'}); n.onclick=()=>tr.scrollBy({left:tr.clientWidth,behavior:'smooth'});
-   tr.addEventListener('scroll',()=>navState(box),{passive:true});
+   // 한 칸 폭(앨범+간격) 단위로 넘기고, 창 크기가 바뀌면 가장 가까운 칸에 다시 맞춤 — 앨범이 잘리지 않게 (형 2026-11-25)
+   // 칸 폭은 화면 배율과 상관없는 '배치 기준'으로 계산: (줄 폭 + 간격) ÷ 한 화면 칸 수
+   const per=()=>Math.max(1,parseInt(getComputedStyle(tr).getPropertyValue('--n'))||8);
+   const step=()=>{if(!tr.querySelector('.nr-item'))return 0; const g=parseFloat(getComputedStyle(tr).columnGap)||0; return (tr.clientWidth+g)/per();};
+   const go=d=>{const st=step(); if(!st){tr.scrollBy({left:d*tr.clientWidth,behavior:'smooth'});return;} const i=Math.round(tr.scrollLeft/st)+d*per(); tr.scrollTo({left:Math.max(0,i*st),behavior:'smooth'});};
+   p.onclick=()=>go(-1); n.onclick=()=>go(1);
+   let lastIdx=0, lastW=tr.clientWidth;
+   tr.addEventListener('scroll',()=>{navState(box); const st=step(); if(st&&tr.clientWidth===lastW)lastIdx=Math.round(tr.scrollLeft/st);},{passive:true});
+   // 폭이 바뀔 때만(그림 로딩으로 높이만 바뀌는 건 무시) 보던 첫 칸에 다시 맞춤
+   if(window.ResizeObserver)new ResizeObserver(()=>{if(tr.clientWidth===lastW)return; lastW=tr.clientWidth; const st=step(); if(!st)return; const prev=tr.style.scrollBehavior; tr.style.scrollBehavior='auto'; tr.scrollLeft=lastIdx*st; tr.style.scrollBehavior=prev; navState(box);}).observe(tr);
   }
   render(box); return true;
  }
