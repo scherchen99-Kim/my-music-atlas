@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 19:12"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 19:30"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12559,7 +12559,7 @@ html body #atlasQobuzRecent .qr-track>.nr-item:last-child .qs-box::after,html bo
  const HOME=/^(localhost|127\.0\.0\.1|192\.168\.|10\.)/.test(location.hostname)&&location.protocol==='http:';
  if(!HOME&&!(window.atlasHelperFav&&atlasHelperFav())){ document.addEventListener('atlas-helper-fav',()=>{ if(!window.atlasHomeQobuz){ const sc=document.getElementById('atlas-home-qobuz'); if(sc)(0,eval)(sc.textContent); } },{once:true}); return; } // 공개용: 연결 프로그램이 켜져 있을 때만 (형 2026-11-23)
  const API=()=>HOME?'http://'+(location.hostname||'127.0.0.1')+':8794':ATLAS_HB;
- let N=48; try{N=+localStorage.getItem('atlas-set-qobuzN')||48}catch(e){} N=Math.max(8,Math.round(N/8)*8); // 한 화면 8장 (형 2026-11-24: 7→8) // 한 화면 7장 × 7번, 설정에서 바꿈 (형 2026-11-22)
+ let N=120; try{N=+localStorage.getItem('atlas-set-qobuzN')===60?60:120}catch(e){} // 최근 120장(12장×10세트) 기본 — 120은 12·10·8·5·3으로 나눠떨어짐, 설정에서 60도 (형 2026-11-26) // 한 화면 8장 (형 2026-11-24: 7→8) // 한 화면 7장 × 7번, 설정에서 바꿈 (형 2026-11-22)
  const E=t=>String(t||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
  const ARR='<svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>', ARR2='<svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>';
  let favs=null, pool=[], off=null;
@@ -12629,16 +12629,17 @@ html body #atlasQobuzRecent .qr-track>.nr-item:last-child .qs-box::after,html bo
  let tries=0; (function wait(){ if(!mount()&&tries++<40)setTimeout(wait,500); })();
  load();
  window.atlasHomeQobuz={reload:n=>{if(n)N=n;load();}};
- // 10초마다 보이는 한 줄 전체를 최신 순서의 다음 묶음으로 (하나씩 바뀌는 건 아래 6개 카테고리와 같아서) (형 2026-11-24)
- setInterval(()=>{const box=document.getElementById('atlasQobuzRecent'); if(!box||!favs||!pool.length||document.hidden)return;
-  if(box.matches(':hover'))return; const tr=box.querySelector('.qr-track'), r=tr.getBoundingClientRect(); if(r.bottom<0||r.top>innerHeight)return;
-  const vis=[...tr.querySelectorAll('.nr-item:not(.qs-off)')].filter(b=>{const q=b.getBoundingClientRect(), w=Math.min(q.right,r.right)-Math.max(q.left,r.left); return q.width&&w>=q.width/2;}); // 반 이상 보이면 보이는 칸 — 첫 칸이 빠져 고정되던 오류 (형 2026-11-25)
-  if(!vis.length||pool.length<=vis.length)return;
-  // 최신 순서로 10세트(보이는 칸 수 × 10)만 돌고 다시 첫 세트로 (형 2026-11-25)
-  const M=Math.min(pool.length,vis.length*10);
-  if(off===null){const f0=favs[+vis[0].dataset.i]; const i0=pool.findIndex(x=>fk(x)===fk(f0)); off=((i0<0?0:i0)+vis.length)%M;}
-  if(off+vis.length>M)off=0;
-  vis.forEach((b,k)=>swap(b,pool[(off+k)%M])); off=(off+vis.length)%M; if(off+vis.length>M)off=0;},10000);
+ // 10초마다 다음 세트가 오른쪽에서 밀고 들어옴 — 칸을 제자리에서 바꾸면 다른 세트와 같은 음반이 겹쳐서 (형 2026-11-26)
+ // 마지막 세트 다음엔 앞 세트들을 뒤로 옮겨 붙여 첫 세트가 다시 오른쪽에서 들어오게 (끝없이 한 방향)
+ setInterval(()=>{const box=document.getElementById('atlasQobuzRecent'); if(!box||!favs||document.hidden)return;
+  if(box.matches(':hover'))return; const tr=box.querySelector('.qr-track'); if(!tr||tr.classList.contains('qr-dragging'))return; const r=tr.getBoundingClientRect(); if(r.bottom<0||r.top>innerHeight)return;
+  const items=[...tr.querySelectorAll('.nr-item')], cs=getComputedStyle(tr), n=Math.max(1,parseInt(cs.getPropertyValue('--n'))||8); if(items.length<=n)return;
+  const g=parseFloat(cs.columnGap)||0, setW=tr.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight)+g; if(setW<=0)return;
+  let k=Math.round(tr.scrollLeft/setW); const sets=Math.ceil(items.length/n);
+  if(k>=sets-1||tr.scrollLeft+tr.clientWidth>=tr.scrollWidth-2){ // 끝: 지금 세트 앞의 앨범들을 뒤로 → 화면은 그대로, 위치만 처음으로
+   const pb=tr.style.scrollBehavior, ps=tr.style.scrollSnapType; tr.style.scrollBehavior='auto'; tr.style.scrollSnapType='none';
+   items.slice(0,k*n).forEach(b=>tr.appendChild(b)); tr._jump=1; tr.scrollLeft=0; k=0; tr.offsetWidth; tr.style.scrollBehavior=pb; tr.style.scrollSnapType=ps;}
+  tr.scrollTo({left:(k+1)*setW,behavior:'smooth'});},10000);
  document.addEventListener('scroll',()=>{},{passive:true});
  // 메인으로 돌아올 때 새 하트 반영
  document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('#menuHome,#sideBrand,.brand-button,.atlas-title-intro'))setTimeout(load,80);},true);
@@ -12690,8 +12691,9 @@ html body #atlasQobuzRecent.qs-flat .qs-box>img{-webkit-box-reflect:none!importa
 html body #atlasQobuzRecent.qs-cd .qs-box>img{-webkit-mask:radial-gradient(circle closest-side,transparent 0 12.5%,#000 13% 99.3%,transparent 100%);mask:radial-gradient(circle closest-side,transparent 0 12.5%,#000 13% 99.3%,transparent 100%)} /* 둥근 판은 마스크로 (표지 네모 규칙이 모서리를 막음) */
 html body #atlasQobuzRecent.qs-flat.qs-cd .qr-track>.nr-item .qs-box::after{display:block!important;opacity:1!important;border-radius:50%;inset:0;-webkit-mask:radial-gradient(circle closest-side,transparent 0 12.5%,#000 13%);mask:radial-gradient(circle closest-side,transparent 0 12.5%,#000 13%);
  background:radial-gradient(circle closest-side,transparent 0 12.5%,rgba(170,172,180,.6) 13% 26%,rgba(0,0,0,.16) 26.6%,transparent 27.5% 98.2%,rgba(0,0,0,.18) 99%,transparent 100%),conic-gradient(from 20deg,rgba(255,255,255,0),rgba(170,215,255,.22) 8%,rgba(255,190,235,.18) 16%,rgba(255,255,255,0) 28%,rgba(255,255,255,0) 50%,rgba(190,255,215,.2) 58%,rgba(255,235,170,.18) 66%,rgba(255,255,255,0) 78%)!important}
-@keyframes atlasCdSpin{to{transform:rotate(360deg)}}
+@keyframes atlasCdSpin{from{rotate:0deg}to{rotate:360deg}} /* 굴러간 각도(transform)와 따로 돌게 rotate 속성 */
 html body #atlasQobuzRecent.qs-cd .qr-track>.nr-item:hover .qs-box>img{animation:atlasCdSpin 6s linear infinite}
+html body #atlasQobuzRecent.qs-cd .qs-box>img{transform:rotate(var(--roll,0deg))} /* 옆으로 움직인 만큼 굴러감 (형 2026-11-26) */
 </style><script id="atlas-qobuz-style">
 // 보기 방식 아이콘 3개 — 고른 것은 이 브라우저에 기억 (형 2026-11-26)
 (function(){
@@ -12701,9 +12703,12 @@ html body #atlasQobuzRecent.qs-cd .qr-track>.nr-item:hover .qs-box>img{animation
  function apply(){const box=document.getElementById('atlasQobuzRecent'); if(!box)return; const tr=box.querySelector('.qr-track');
   box.classList.toggle('qs-flat',mode==='flat'||mode==='cd'); box.classList.toggle('qs-cd',mode==='cd'); box.classList.remove('qs-flow');
   box.querySelectorAll('.qr-style button').forEach(b=>{const on=b.dataset.m===mode; b.classList.toggle('on',on); b.setAttribute('aria-pressed',on);});
-  if(tr){const pb=tr.style.scrollBehavior; tr.style.scrollBehavior='auto'; tr.scrollLeft=0; tr.style.scrollBehavior=pb; if(window.atlasQobuzSettle)atlasQobuzSettle();}}
+  if(tr){const pb=tr.style.scrollBehavior; tr.style.scrollBehavior='auto'; if(tr.scrollLeft)tr._jump=1; tr.scrollLeft=0; tr.style.scrollBehavior=pb; if(window.atlasQobuzSettle)atlasQobuzSettle();}}
  let tries=0; const later=()=>{if(tries++<120)setTimeout(mount,600);};
  function mount(){const box=document.getElementById('atlasQobuzRecent'); if(!box){later();return;} const head=box.querySelector('.qr-head'); if(!head){later();return;}
+  { const tr0=box.querySelector('.qr-track'); if(tr0&&!tr0.dataset.roll){tr0.dataset.roll=1; // CD: 움직인 거리 ÷ 둘레 × 360도 — 왼쪽으로 흐르면 시계 반대로 굴러감
+    let last=tr0.scrollLeft, acc=0; // 움직인 거리를 쌓음 — 세트를 뒤로 옮겨 붙일 때(위치만 바뀜)는 빼고
+    tr0.addEventListener('scroll',()=>{const x=tr0.scrollLeft; if(tr0._jump){tr0._jump=0; last=x; return;} acc+=x-last; last=x; if(mode!=='cd')return; const im=tr0.querySelector('.qs-box>img'); const d=im?im.getBoundingClientRect().width:100; tr0.style.setProperty('--roll',(-acc/(Math.PI*d)*360).toFixed(1)+'deg');},{passive:true});}}
   if(!head.querySelector('.qr-style')){const g=document.createElement('div'); g.className='qr-style'; g.setAttribute('role','group'); g.setAttribute('aria-label','보기 방식');
    g.innerHTML=MODES.map(m=>'<button type="button" data-m="'+m[0]+'" title="'+m[1]+'" aria-label="'+m[1]+'">'+m[2]+'</button>').join('');
    g.addEventListener('click',e=>{const b=e.target.closest('button'); if(!b)return; mode=b.dataset.m; try{mode==='shelf'?localStorage.removeItem(K):localStorage.setItem(K,mode)}catch(_){} apply();});
@@ -13517,7 +13522,7 @@ html:not(.atlas-m-sidefull) body #sidebar :is(#atlas-side-guide-heading,#atlas-s
   if(tab==='main'){
    const L=LOCAL?'':'st-dis', on=k=>k==='new'?LS('atlas-set-home-new')==='1':LS('atlas-set-home-'+k)!=='0'; // New Arrivals는 기본 꺼짐 (형 2026-11-23)
    return row('Streaming Favorites','메인 맨 위 · 연결된 서비스의 찜 음반',sw('home-qobuz',on('qobuz')),L)
-    +row('Favorites Count','찜 줄 장수 · 앞뒤 버튼 한 번에 8장',seg('qobuzN',[[8,8],[16,16],[24,24],[48,48]],Math.max(8,Math.round((+LS('atlas-set-qobuzN')||48)/8)*8)),L)
+    +row('Favorites Count','찜 줄 장수',seg('qobuzN',[[60,60],[120,120]],+LS('atlas-set-qobuzN')===60?60:120),L)
     +row('My Files Picks','NAS·하드디스크 음악에서 추천',sw('home-nas',on('nas')),L)
     +row('New Arrivals','최근 추가한 음반',sw('home-new',on('new')))
     +row('Categories','추천 앨범 6개 카테고리',sw('home-genres',on('genres')))
@@ -13566,7 +13571,7 @@ html:not(.atlas-m-sidefull) body #sidebar :is(#atlas-side-guide-heading,#atlas-s
     else if(k==='cards'){LS('atlas-set-cards',v==='motion'?'motion':null); applyStored();}
     else if(k==='infolang'){LS('atlas-set-infolang',v==='ko'?null:v);}
     else if(k==='font'){LS('atlas-set-font',v==='m'?null:v); applyStored(); [60,400].forEach(t=>setTimeout(()=>window.dispatchEvent(new Event('resize')),t));}
-    else if(k==='qobuzN'){LS('atlas-set-qobuzN',v); window.atlasHomeQobuz&&atlasHomeQobuz.reload(+v);}
+    else if(k==='qobuzN'){LS('atlas-set-qobuzN',v==='60'?'60':null); window.atlasHomeQobuz&&atlasHomeQobuz.reload(+v);}
     else if(k==='radioDef'){LS('atlas-set-radio',v||null); if(v&&window.atlasRadioAPI&&!atlasRadioAPI.playing()){atlasRadioAPI.select(v); window.atlasDialTo&&atlasDialTo(v);}}
     else if(k==='after'){post('/after-album',{mode:v}).then(d=>{RS=d;paint();}).catch(()=>{}); if(RS)RS.afterAlbum=v;}
     else if(k==='zone'){ if(LOCAL){post('/zone',{zone:v}).then(()=>loadRS()).catch(()=>{}); if(RS)RS.zone=v;} else { fetch(HELPER+'/zone',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:v})}).then(()=>loadConn()).catch(()=>{}); } if(CONN)CONN.zone=v; }
