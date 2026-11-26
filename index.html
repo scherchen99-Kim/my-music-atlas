@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 17:48"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 17:53"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12520,17 +12520,20 @@ html body #atlasQobuzRecent .nr-item small{display:block!important;font-size:11p
 html.atlas-touch #atlasQobuzRecent .qr-nav{display:none}
 
 /* Qobuz 줄: 앨범을 모두 같은 방향으로 비스듬히 세움(두께 없음), 누르면 정면 → 상세창 (형 2026-11-26, X 영상 참고) */
-#atlasQobuzRecent .qr-track{--n:20;--gap:0px;padding:24px 0 28px;margin:-10px 0 -6px}
-@media(max-width:1100px){#atlasQobuzRecent .qr-track{--n:16}}
-@media(max-width:700px){#atlasQobuzRecent .qr-track{--n:11;--gap:0px}}
+#atlasQobuzRecent .qr-track{--n:12;--gap:0px;padding:24px 0 28px;margin:-10px 0 -6px}
+@media(max-width:1100px){#atlasQobuzRecent .qr-track{--n:10}}
+@media(max-width:700px){#atlasQobuzRecent .qr-track{--n:7;--gap:0px}}
 html body #atlasQobuzRecent .qr-track>.nr-item{position:relative!important;overflow:visible!important}
 html body #atlasQobuzRecent .qr-track>.nr-item>b,html body #atlasQobuzRecent .qr-track>.nr-item>small{display:none!important}
-#atlasQobuzRecent .qs-box{display:block;position:relative;width:380%;aspect-ratio:1/1;transform-origin:left center;transform:perspective(900px) rotateY(66deg);transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+#atlasQobuzRecent .qs-box{display:block;position:relative;width:250%;aspect-ratio:1/1;transform-origin:left center;transform:perspective(900px) rotateY(56deg);transition:transform .5s cubic-bezier(.2,.7,.2,1)}
 html body #atlasQobuzRecent .qs-box>img{position:absolute!important;inset:0;width:100%!important;height:100%!important;border-radius:2px!important;box-shadow:-6px 8px 22px rgba(0,0,0,.22)}
-html body #atlasQobuzRecent .qr-track>.nr-item:hover .qs-box{transform:perspective(900px) rotateY(56deg)}
+html body #atlasQobuzRecent .qr-track>.nr-item:hover .qs-box{transform:perspective(900px) rotateY(44deg)}
 html body #atlasQobuzRecent .qr-track>.nr-item.qs-front{z-index:20!important}
 html body #atlasQobuzRecent .qr-track>.nr-item.qs-front .qs-box{transform:perspective(900px) rotateY(0deg) translateZ(30px)}
 html body #atlasQobuzRecent .nr-item.qr-press .qs-box>img{transform:none;opacity:.45}
+html.atlas-pointer-input #atlasQobuzRecent .qr-track{cursor:grab}
+#atlasQobuzRecent .qr-track.qr-dragging{cursor:grabbing;user-select:none}
+#atlasQobuzRecent .qr-track.qr-dragging .nr-item{pointer-events:none}
 /* 앨범 사이 들어간 곳에 살짝 그림자 — 다음 앨범에 가려지는 오른쪽 끝이 어둡게 (형 2026-11-26). 어두운 스킨은 화면이 뒤집혀서 흰색으로 써야 검게 보임 */
 #atlasQobuzRecent .qs-box::after{content:"";position:absolute;inset:0;pointer-events:none;border-radius:2px;background:linear-gradient(90deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.16) 60%,rgba(0,0,0,.42) 100%);transition:opacity .5s}
 html.atlas-dark #atlasQobuzRecent .qs-box::after{background:linear-gradient(90deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.16) 60%,rgba(255,255,255,.42) 100%)}
@@ -12616,6 +12619,23 @@ html body #atlasQobuzRecent .qr-track>.nr-item:last-child .qs-box::after,html bo
  document.addEventListener('scroll',()=>{},{passive:true});
  // 메인으로 돌아올 때 새 하트 반영
  document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('#menuHome,#sideBrand,.brand-button,.atlas-title-intro'))setTimeout(load,80);},true);
+})();
+</script><script id="atlas-qobuz-drag">
+// 마우스로 끌어서 좌우 넘기기 — 놓으면 가까운 칸에 맞춤, 끈 뒤에는 클릭으로 안 열림 (형 2026-11-26)
+(function(){
+ function hook(){const tr=document.querySelector('#atlasQobuzRecent .qr-track'); if(!tr){setTimeout(hook,600);return;} if(tr.dataset.drag)return; tr.dataset.drag=1;
+  let down=false,moved=false,sx=0,sl=0,lastX=0,lastT=0,v=0;
+  tr.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0)return; down=true; moved=false; sx=lastX=e.clientX; sl=tr.scrollLeft; lastT=performance.now(); v=0;});
+  addEventListener('pointermove',e=>{if(!down)return; const dx=e.clientX-sx; if(!moved&&Math.abs(dx)>6){moved=true; tr.style.scrollSnapType='none'; tr.style.scrollBehavior='auto'; tr.classList.add('qr-dragging');}
+   if(moved){tr.scrollLeft=sl-dx; const t=performance.now(); v=(e.clientX-lastX)/Math.max(1,t-lastT); lastX=e.clientX; lastT=t;}});
+  addEventListener('pointerup',()=>{if(!down)return; down=false; if(!moved)return;
+   const n=Math.max(1,parseInt(getComputedStyle(tr).getPropertyValue('--n'))||12), st=tr.clientWidth/n;
+   const fl=Math.max(-tr.clientWidth,Math.min(tr.clientWidth,-v*220)); const target=Math.max(0,Math.round((tr.scrollLeft+fl)/st)*st);
+   tr.style.scrollBehavior='smooth'; tr.scrollTo({left:target,behavior:'smooth'});
+   setTimeout(()=>{tr.style.scrollSnapType=''; tr.style.scrollBehavior=''; tr.classList.remove('qr-dragging');},500);
+   const eat=ev=>{ev.preventDefault(); ev.stopPropagation();}; tr.addEventListener('click',eat,{capture:true,once:true}); setTimeout(()=>{tr.removeEventListener('click',eat,{capture:true}); moved=false;},60);});
+  tr.addEventListener('dragstart',e=>e.preventDefault());}
+ hook();
 })();
 </script><style id="atlas-cover-adj-css">
 /* 표지 밝기·명암·색조 (형 2026-11-22). 어두운 스킨은 그림을 다시 뒤집으므로 보정 뒤에 뒤집기 */
