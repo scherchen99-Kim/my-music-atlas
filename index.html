@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 20:08"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 20:23"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -14304,7 +14304,23 @@ html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-needle{bac
 html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio .pr-play,html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{background:radial-gradient(circle at 50% 40%,#2d4a86 0,#13234c 62%,#08112a 100%)!important;color:#eaf2ff!important;border:1px solid rgba(169,200,255,.5)!important}
 html.atlas-hall.atlas-night body #atlasPanelRadio#atlasPanelRadio.on .pr-play{color:#c4e9ff!important}
 </style>
-<style id="atlas-pop-tone">
+<style id="atlas-album-rollover">
+/* 앨범 목록 롤오버 (형 2026-11-26, 키움인 카드처럼): 표지가 칸 안에서 살짝 커지고, 오른쪽 아래 동그란 화살표가 나타나며 비스듬히 돎.
+   화살표 원은 표지와 겹치니 스킨 톤으로 채움(atlas-pop-tone 색), 화살표는 밝은 바탕=검정 / 어두운 스킨은 화면이 뒤집혀 흰색 */
+:is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open){position:relative;overflow:hidden}
+:is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open) img{transition:scale .6s cubic-bezier(.2,.7,.2,1)}
+:is(#albums .album:hover .art,#roonAlbums .rv-card:hover .rv-cv,#archiveAlbums .m1-card:hover .atlas-card-open) img{scale:1.06}
+:is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{content:"";position:absolute;right:10px;bottom:10px;width:32px;height:32px;border-radius:50%;pointer-events:none;z-index:2;
+ background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12h12M13 7l5 5-5 5'/%3E%3C/svg%3E") center/16px 16px no-repeat;box-shadow:0 2px 8px rgba(0,0,0,.18);opacity:0;transform:translateY(6px) rotate(0deg);transition:opacity .35s,transform .45s cubic-bezier(.2,.7,.2,1)}
+:is(#albums .album:hover .art,#roonAlbums .rv-card:hover .rv-cv,#archiveAlbums .m1-card:hover .atlas-card-open)::after{opacity:1;transform:translateY(0) rotate(-45deg)}
+html.atlas-jazz :is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{background-color:#f3ddd3}
+html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) :is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{background-color:#ffe3eb}
+html.atlas-night :is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{background-color:#f0f4ff}
+html.atlas-lights :is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{background-color:#f7f7fa}
+html.atlas-analog :is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{background-color:#dfdfdf}
+html.atlas-dark :is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{box-shadow:0 0 0 1px rgba(0,0,0,.08)}
+@media (hover:none){:is(#albums .album .art,#roonAlbums .rv-cv,#archiveAlbums .atlas-card-open)::after{display:none}}
+</style><style id="atlas-pop-tone">
 /* 떠 있는 작은 창 바탕을 스킨 톤으로 (형 2026-11-24): Jazz 붉은 갈색, Hall 와인, Sky 남색, Lights·Analog 짙은 회색 */
 html.atlas-jazz body #atlasRoonCtl .rc-pop{background:#f3ddd3!important}
 html.atlas-hall:not(.atlas-jazz):not(.atlas-lights):not(.atlas-night) body #atlasRoonCtl .rc-pop{background:#ffe3eb!important}
