@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 18:58"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.26 19:02"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12536,7 +12536,7 @@ html.atlas-pointer-input #atlasQobuzRecent .qr-track{cursor:grab}
 html body #atlasQobuzRecent .nr-item.qs-instant,html body #atlasQobuzRecent .nr-item.qs-instant .qs-box,html body #atlasQobuzRecent .nr-item.qs-instant::before,html body #atlasQobuzRecent .nr-item.qs-instant .qs-box::after{transition:none!important}
 /* 양옆 여백(앨범 한 칸) + 한 세트(12장)씩 — 꺼낸 앨범이 여백 안에서 움직여 잘리지 않음 (형 2026-11-26) */
 #atlasQobuzRecent .qr-track{padding-left:calc(100% / (var(--n) + 2))!important;padding-right:calc(100% / (var(--n) + 2))!important;scroll-padding-inline:calc(100% / (var(--n) + 2))}
-html body #atlasQobuzRecent .qr-track>.nr-item{scroll-snap-align:none!important;z-index:1!important;transition:opacity .35s,z-index 0s .3s!important}
+html body #atlasQobuzRecent .qr-track>.nr-item{scroll-snap-align:none!important;z-index:1!important;transition:opacity .35s,z-index 0s 0s!important} /* 돌아갈 땐 바로 원래 순서로 — 남아 있으면 오른쪽 앨범이 뚫고 나와 보임 (형 2026-11-26) */
 html body #atlasQobuzRecent .qr-track>.nr-item.qs-snap{scroll-snap-align:start!important}
 html body #atlasQobuzRecent .qr-track>.nr-item.qs-off{opacity:0!important;pointer-events:none!important}
 /* 앨범 아래 바닥 그림자 — 입체감 (형 2026-11-26). 어두운 스킨은 화면이 뒤집혀서 흰색으로 써야 검게 보임 */
