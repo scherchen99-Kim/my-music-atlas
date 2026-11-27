@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.27 22:11"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.27 22:34"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -13173,6 +13173,7 @@ html.atlas-panel-dock .atlas-viz-strip.fit{display:block}
  const API='http://'+location.hostname+':8794';
  const st={playing:false,vol:0.7,seed:0.5,amp:0.08,key:''};
  let off=false; try{off=localStorage.getItem('atlas-viz-off')==='1';}catch(e){}
+ let glow=false; try{glow=localStorage.getItem('atlas-viz-style')==='glow';}catch(e){} // 모양 두 가지: 띠(처음) · 빛줄기 (형 2026-11-27)
  let box=null,cv=null,ctx=null,prof=null;
  const hash=s=>{let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return (h>>>0)/4294967295;};
  function profile(seed){
@@ -13184,9 +13185,9 @@ html.atlas-panel-dock .atlas-viz-strip.fit{display:block}
   return {p,q,N};
  }
  function place(){
-  if(!box){box=document.createElement('div');box.className='atlas-viz-strip';box.title='분위기 그림 켜기/끄기';
+  if(!box){box=document.createElement('div');box.className='atlas-viz-strip';box.title='누를 때마다 띠 · 빛줄기 · 끄기';
    cv=document.createElement('canvas');cv.className='atlas-mo atlas-keep-color';box.appendChild(cv);ctx=cv.getContext('2d');
-   box.onclick=()=>{off=!off;box.style.height='';try{localStorage.setItem('atlas-viz-off',off?'1':'0');}catch(e){}box.classList.toggle('off',off);};
+   box.onclick=()=>{ if(off){off=false;glow=false;} else if(!glow){glow=true;} else {off=true;glow=false;} box.style.height=''; try{localStorage.setItem('atlas-viz-off',off?'1':'0');glow?localStorage.setItem('atlas-viz-style','glow'):localStorage.removeItem('atlas-viz-style');}catch(e){} box.classList.toggle('off',off);}; // 띠 → 빛줄기 → 끄기 → 띠
    box.classList.toggle('off',off); document.body.appendChild(box);}
   // 상세창 내용 맨 아래보다 띠가 아래에 있을 때만 보임
   { const mi=document.getElementById('atlasMini'), H=document.documentElement; const real=(mi&&mi.classList.contains('on')&&mi.offsetHeight)?(mi.offsetHeight+10):0; if(H.style.getPropertyValue('--atlas-mini-real')!==real+'px')H.style.setProperty('--atlas-mini-real',real+'px'); } // 재생 막대가 나중에 생겨도(공개: 미리듣기) 그 위로
@@ -13209,6 +13210,7 @@ html.atlas-panel-dock .atlas-viz-strip.fit{display:block}
   if(off){ctx.strokeStyle='rgba(60,200,200,.45)';ctx.lineWidth=D;ctx.beginPath();ctx.moveTo(0,mid);ctx.lineTo(W,mid);ctx.stroke();return;}
   if(!prof)prof=profile(st.seed);
   const tg=st.playing?(0.35+0.65*st.vol):0.08; st.amp+=(tg-st.amp)*0.04;
+  if(glow){drawGlow(W,H,D,t/1000);return;}
   const {p,q,N}=prof,A=mid-2*D,B=(H-mid)*0.85,T=t/1000,xs=i=>W*i/(N-1);
   const ss=(a,b,x)=>{x=Math.max(0,Math.min(1,(x-a)/(b-a)));return x*x*(3-2*x);}, env=i=>{const x=i/(N-1);return ss(0.06,0.34,x)*ss(0.06,0.34,1-x);};
   const wob=(i,k)=>env(i)*(0.62+0.38*(0.5+0.5*Math.sin(i*0.21+T*(1.3+k)+st.seed*9))*(0.6+0.4*Math.sin(i*0.07-T*(0.8+k*0.5))));
@@ -13218,6 +13220,21 @@ html.atlas-panel-dock .atlas-viz-strip.fit{display:block}
   ctx.beginPath();ctx.moveTo(0,mid);for(let i=0;i<N;i++)ctx.lineTo(xs(i),mid+B*Math.min(1,q[i])*wob(i,0.7)*st.amp);ctx.lineTo(W,mid);ctx.closePath();
   g=ctx.createLinearGradient(0,mid,0,H);g.addColorStop(0,'rgba('+C2+',.08)');g.addColorStop(1,'rgba('+C2+',.75)');ctx.fillStyle=g;ctx.shadowColor='rgba('+C2+',.4)';ctx.fill();ctx.shadowBlur=0;
   ctx.strokeStyle='rgba('+CL+',.7)';ctx.lineWidth=D;ctx.beginPath();ctx.moveTo(0,mid);ctx.lineTo(W,mid);ctx.stroke();
+ }
+ // 빛줄기: 아래 가장자리 가운데서 여러 색 빛이 올라오며 번짐 (voice-glow 느낌, 실제 소리 아님 — 재생·볼륨·곡 바뀜에 반응)
+ let lvl=0;
+ function drawGlow(W,H,D,T){
+  const HL=document.documentElement.classList.contains('atlas-hall'), AN=!HL&&document.documentElement.classList.contains('atlas-analog');
+  const lobes=HL?['214,176,96','180,60,70','236,214,170','150,30,50','230,190,120','190,90,80','214,176,96']:AN?['255,160,50','255,120,40','235,215,170','255,190,110','220,140,60','255,210,150','255,160,50']:['236,92,140','170,90,230','60,140,240','40,190,220','60,210,180','236,92,140','120,110,240'];
+  const CL=HL?'236,214,170':AN?'255,190,110':'60,200,200';
+  const breathe=.75+.25*Math.sin(T*1.7+st.seed*5)*Math.sin(T*.63), want=st.playing?st.vol*breathe:.04; lvl+=(want-lvl)*(want>lvl?.08:.03);
+  const L=lvl,n=lobes.length,sd=st.seed*20; ctx.globalCompositeOperation='lighter';
+  for(let k=0;k<n;k++){ const c=(k-(n-1)/2)/((n-1)/2), flow=Math.sin(T*(.5+k*.13)+sd+k)*.06, x=W*(.5+c*(.17+.13*L)+flow);
+   const puls=.55+.45*Math.sin(T*(1.1+k*.37)+sd*1.7+k*2.1), h=H*(.18+1.05*L*(.45+.55*puls)*(1-Math.abs(c)*.45)), w=W*(.11+.07*L);
+   const g=ctx.createRadialGradient(x,H,0,x,H,1); g.addColorStop(0,'rgba('+lobes[k]+','+(.55+.35*L)+')'); g.addColorStop(.45,'rgba('+lobes[k]+','+(.22+.2*L)+')'); g.addColorStop(1,'rgba('+lobes[k]+',0)');
+   ctx.save(); ctx.setTransform(w,0,0,h,x*(1-w),H*(1-h)); ctx.fillStyle=g; ctx.beginPath(); ctx.arc(x,H,1,0,Math.PI*2); ctx.fill(); ctx.restore(); }
+  const cw=W*(.25+.4*L), g2=ctx.createLinearGradient(W/2-cw,0,W/2+cw,0); g2.addColorStop(0,'rgba('+CL+',0)'); g2.addColorStop(.5,'rgba(255,255,255,'+(.35+.5*L)+')'); g2.addColorStop(1,'rgba('+CL+',0)');
+  ctx.fillStyle=g2; ctx.fillRect(W/2-cw,H-2*D,cw*2,2*D); ctx.globalCompositeOperation='source-over';
  }
  async function poll(){
   place(); if(!box.classList.contains('fit'))return;
