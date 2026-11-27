@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.27 15:41"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.27 18:13"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12044,6 +12044,7 @@ html.atlas-glass body #albumModal .atlas-info-sheet .ai-x{color:#fff!important;b
  }
  async function load(refresh){
   try{if(!HOME&&!(window.atlasHelperFav&&atlasHelperFav()))throw new Error('no helper');const r=await fetch(API()+'/library/favorites'+(refresh?'?refresh=1':''),{cache:'no-store'}).then(r=>r.json());if(!r.ok)throw new Error(r.error||'');DATA=r;dropHidden();classify();chips();draw();if(r.building)setTimeout(()=>load(false),8000);
+   if((refresh||load._b)&&window.atlasHomeQobuz)atlasHomeQobuz.reload(); load._b=!!r.building; // 새로 가져오기 하면 메인 Qobuz 줄도 같이 새로 (형 2026-11-27)
    if(!HOME&&!DATA.total)$('roonAlbums').innerHTML='<p>'+(DATA.noQobuz?'이 Roon에 Qobuz가 연결돼 있지 않아요.':(r.building?'Qobuz 하트 앨범을 정리하는 중이에요. 처음 한 번은 몇 분 걸려요.':'Qobuz 하트 앨범이 없어요.'))+'</p>';}
   catch(e){$('roonAlbums').innerHTML=HOME?'<p>Could not read from Roon link (8794). '+esc(e.message)+'</p>':'<p>Roon 연결 프로그램을 켜면 여기에 내 Qobuz 하트 앨범이 나와요 · <a href="roon-helper.html" target="_blank" rel="noopener">받는 법 ↗</a></p>';}
  }
