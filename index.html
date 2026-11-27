@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.27 19:25"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.27 22:11"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -12754,6 +12754,7 @@ html body :is(#atlasQobuzRecent,#atlasDiscRow).qs-flat.qs-cd .qr-track .nr-item 
  background:radial-gradient(circle closest-side,transparent 0 12.5%,rgba(170,172,180,.6) 13% 26%,rgba(0,0,0,.16) 26.6%,transparent 27.5% 98.2%,rgba(0,0,0,.18) 99%,transparent 100%),conic-gradient(from 20deg,rgba(255,255,255,0),rgba(170,215,255,.22) 8%,rgba(255,190,235,.18) 16%,rgba(255,255,255,0) 28%,rgba(255,255,255,0) 50%,rgba(190,255,215,.2) 58%,rgba(255,235,170,.18) 66%,rgba(255,255,255,0) 78%)!important}
 html body :is(#atlasQobuzRecent,#atlasDiscRow).qs-cd .qs-box>img{transition:rotate 0s}
 @keyframes atlasCdSelSpin{from{rotate:0deg}to{rotate:360deg}}
+html body :is(#atlasQobuzRecent,#atlasDiscRow).qs-cd .qr-track .nr-item>:is(b,small){text-align:center!important} /* CD 보기에선 이름도 판 가운데 맞춤 (형 2026-11-27) */
 html body :is(#atlasQobuzRecent,#atlasDiscRow).qs-cd .qr-track .nr-item.qs-sel .qs-box>img{animation:atlasCdSelSpin 5s linear infinite} /* 고른 CD는 상세창이 열려 있는 동안 계속 돎 */ /* 굴림은 rotate 속성 — 표지 자르기(transform)와 같이 쓰려고 */
 html body :is(#atlasQobuzRecent,#atlasDiscRow).qs-cd .qr-track .nr-item:hover .qs-box>img{rotate:360deg;transition:rotate 1.8s cubic-bezier(.3,.1,.2,1)} /* 마우스 올리면 한 바퀴만 돌고 바로 선 채 멈춤, 떼면 같은 모양(0도)으로 */
 html body :is(#atlasQobuzRecent,#atlasDiscRow).qs-cd .qs-box>img{rotate:var(--roll,0deg)} /* 옆으로 움직인 만큼 굴러감 (형 2026-11-26) */
