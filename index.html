@@ -1,4 +1,4 @@
-<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.27 23:23"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
+<!doctype html><html lang="ko" data-atlas-font="s"><head><meta name="atlas-built" content="2026.11.28 10:16"><script id="atlas-helper-base">/* 연결 프로그램 주소: 이 컴퓨터(127.0.0.1:8795) 또는 휴대폰이면 중계소 (형 2026-11-24) */
 window.ATLAS_RELAY='https://classical-atlas-relay.classicalatlas.workers.dev';
 window.ATLAS_HB={toString:function(){return window.ATLAS_RELAY_ON?window.ATLAS_RELAY+'/api':'http://127.0.0.1:8795'}};
 (function(){var f=window.fetch,memo=null;window.fetch=function(u,o){try{var s=String(u&&u.url||u);if(window.ATLAS_RELAY_ON&&s.indexOf(window.ATLAS_RELAY+'/api/now')===0&&!(o&&o.method==='POST')){if(memo&&Date.now()-memo.t<5000)return memo.p.then(function(r){return r.clone()});var p=f.call(this,u,o);memo={t:Date.now(),p:p};return p.then(function(r){return r.clone()})}}catch(e){}return f.apply(this,arguments)}})(); // 중계소: 재생 상태는 5초에 한 번만 물음
@@ -9579,6 +9579,7 @@ setInterval(cycle,14650);
 #atlasTrackSheet.playing .ts-eq s:nth-child(3){animation-delay:-.7s}
 #atlasTrackSheet .ts-msg{padding:0 22px 14px;font-size:12px;color:#8f8a9c;text-align:center}
 #atlasTrackSheet .ts-msg:empty{display:none}
+html body #atlasTrackSheet .ts-list li button span small.ts-by{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;margin-top:3px;font-size:max(10px,.8em)!important;font-weight:400!important;line-height:1.35!important;letter-spacing:0;text-transform:none;color:inherit!important;opacity:.55}
 @media(max-width:600px){#atlasTrackSheet{top:14%}#atlasTrackSheet .ts-list li button{font-size:12.5px;padding:11px 10px}}
 #atlasRoonCtl .rc-queue svg{width:20px;height:20px}
 
